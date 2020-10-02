@@ -1,0 +1,27 @@
+!! BLOKIR-0
+
+/1x1px.gif?
+/980x90_
+/ads-bundle/*
+/amp-facebook-
+/amp-iframe-
+/count?$image
+/delivery/async
+/display/ads?
+/icons/fb.$image
+/images/ig.$image
+/images/sh-com.png
+/images/sh-fb.png
+/images/sh-tw.png
+/js/ad-$script
+/manage-ad/*
+/mashshare-
+/medSosBooster/*
+/plugins/mashsharer/*
+/reduce-bounce-rate/*
+/rochester.js?
+/sharebox/
+/sharing.js$script
+/videojs.ima.
+/wordpress-social-
+/wp-emoji-

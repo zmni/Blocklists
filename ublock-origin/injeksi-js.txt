@@ -1,0 +1,152 @@
+!! INJEKSI-JS
+
+! acis = abort-current-inline-script
+! aeld = addEventListener-defuser
+! aell = addEventListener-logger
+! aopr = abort-on-property-read
+! aopw = abort-on-property-write
+! nosiif = no-setInterval-if
+! nostif = no-setTimeout-if
+! ra = remove-attr
+! set = set-constant
+! KHUSUS
+! ceol = click-elements-on-load
+! ceor = click-elements-on-ready
+! sc = set-cookie
+! esc = easy-set-cookie
+! ac = add-class
+! sa = set-attribute
+
+720pstream.me##+js(aopr, zfgloadedpopup)
+9anime.*##+js(aopr, zfgloadedpopup)
+9anime.*##+js(window.open-defuser)
+9animes.net##+js(aopw, _0xb36c)
+
+aceservice.club##+js(acis, popup_ads)
+aceservice.club##+js(aeld, click, closedx)
+aceservice.club##+js(ra, oncontextmenu, body)
+aceservice.club##+js(window.open-defuser)
+allaboutxiaomi.com##+js(aopr, anOptions)
+androidpit.com##+js(acis, addJwPlayer, ('sidebar'))
+anime8.ru##+js(aeld, mouseover)
+animeindo.*##+js(acis, atob)
+animeindo.*##+js(acis, document.write, asynctagfetch)
+animeindo.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
+animeindo.*##+js(aopw, _0xbc13)
+animeindo.*##+js(set, document.oncontextmenu, null)
+animeindo.*##+js(set, document.onmousedown, null)
+animeindo.*##+js(set, document.onselectstart, null)
+animeku.tv##+js(set, adBlockDetected, false)
+animepahe.com##+js(ceol, .click-to-load)
+anoboy.com##+js(set, h237, undefined)
+arstechnica.com##+js(set-cookie, theme=dark, .arstechnica.com)
+atlasobscura.com##+js(overlay-buster)
+
+blogspot.co.id##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
+blogspot.com##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
+bola.net##+js(ra, data-te-category|data-te-label|data-te-tracked, a[href])
+bola.net##+js(window.open-defuser)
+bicycling.com##+js(ra, target, .new-sidepanel-menu a)
+blacktiesports.net##+js(ra, onclick, body)
+
+centralsport.club##+js(aopr, zfgloadedpopup)
+cnnindonesia.com##+js(acis, shareBox.run)
+
+devdocs.io##+js(set-cookie, analyticsConsent=0)
+devdocs.io##+js(set-cookie, analyticsConsentAsked=1)
+devdocs.io##+js(set-cookie, hideIntro=1)
+
+eraspace.com##+js(ra, target, a)
+
+findx.com##+js(ra, data-target-href|onmousedown, .search-results h3 a)
+fmovies.*,ffmovies.*##+js(acis, atob, tabunder)
+fmovies.*,ffmovies.*##+js(acis, decodeURI, getScriptFromCss)
+fmovies.*,ffmovies.*##+js(aeld, /^(?:click|mousedown)$/, _0x)
+fmovies.*,ffmovies.*##+js(aopr, zfgloadedpopup)
+fmovies.*,ffmovies.*##+js(nowebrtc)
+fosshub.com##+js(ra, data-analytics-region)
+
+gog.com##+js(ra, gog-track-event)
+
+heidisql.com##+js(ra, /data-(gevent|gaction|glabel)/)
+heidisql.com##+js(set, jQueryAvailable, falseFunc)
+heidisql.com##+js(std, console.log('Blocking ads detected'), 2000)
+hentaihaven.org##+js(acis, BetterJsPop)
+howtogeek.com##+js(acis, showEmail)
+howtogeek.com##+js(aeld, DOMContentLoaded, adsenseLoader)
+
+idfl.*##+js(window.open-defuser, 1, bisabuka.net)
+igg-games.com##+js(set, advanced_ads_ready, noopFunc)
+igg-games.com##+js(set, T822, undefined)
+
+kissasian.ch##+js(set, xaZlE, noopFunc)
+kompas.com##+js(rc, bapps-show, body.smartphone)
+
+layarcinema.*##+js(nostif, /^/)
+letsupload.co##+js(aopr, zfgloadedpopup)
+lookmovie.ag##+js(acis, atob)
+
+movie4k.org##+js(aopr, T822)
+movie4k.org##+js(set, zoneNativeSett, undefined)
+moviego.net##+js(aopr, zfgloadedpopup)
+mspoweruser.com##+js(set-cookie, shunno_auto=auto)
+mspoweruser.com##+js(set-cookie, shunno_site_theme=dark)
+muchohentai.com##+js(set, l6H7m, undefined)
+myoplay.live##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
+myoplay.live##+js(aeld, SGPMPopupLoader)
+myoplay.live##+js(aopr, _0x2070)
+myoplay.live##+js(aopr, _0xbc13)
+
+nanime.*##+js(aeld, /mousedown|mouseup/, 0x)
+nanime.*##+js(aopr, zfgloadedpopup)
+nanime.*##+js(ceol, #player)
+neowin.net##+js(set-cookie, theme=darkside, .neowin.net)
+neowin.net##+js(set-cookie, view-style=view-normal, .neowin.net)
+newatlas.com##+js(aopr, window.admiral)
+news.ycombinator.com##+js(sa, .storylink|a[rel="nofollow"], target, _blank)
+nicoblog.org##+js(aopr, ad2games)
+
+obengplus.com##+js(nobab)
+
+phoronix.com##+js(acis, window.onload, aax_getad_mpb)
+play.google.com##+js(ra, jslog, button)
+playbackloop.com##+js(ac, dark-mode, body)
+polygon.com##+js(acis, CONCERT_ADS_CONFIG)
+polygon.com##+js(ra, data-analytics-link)
+polygon.com##+js(ra, data-chorus-optimize-field)
+polygon.com##+js(set, concertAdsQueue, undefined)
+putlockertv.to##+js(aopr, zfgloadedpopup)
+
+riie.net##+js(acis, document.keypress, e.ctrlKey)
+riie.net##+js(acis, document.oncontextmenu, n.nodeName)
+riie.net##+js(acis, document.ondragstart)
+riie.net##+js(acis, document.onkeydown, e.keyCode)
+riie.net##+js(aeld, keydown, /e\.ctrlKey|event\.metaKey/)
+riie.net##+js(set, disableSelection, noopFunc)
+ruangotaku.com##+js(acis, getCoords)
+
+simkl.com##+js(aopw, window.adBlock)
+slickdeals.net##+js(overlay-buster)
+sms-receive.net##+js(acis, $, AdBlock Plus)
+soccerstreams.net##+js(acis, decodeURI, atob)
+soccerstreams.net##+js(aopr, S9tt)
+soccerstreams.net##+js(aopw, encodeURIComponent)
+sportsway.net##+js(acis, decodeURIComponent, zfgloadedpopup)
+sportsway.net##+js(aopr, zfgloadedpopup)
+streamgoals.com##+js(ra, target, .thumbnail > a)
+swatchseries.to##+js(ra, target, a)
+
+tempo.co##+js(ra, style, html)
+tomshardware.com##+js(aopw, _sp_)
+
+uservideo.xyz##+js(ceol, .vjs-big-play-button)
+
+venturebeat.com##+js(aeld, scroll, trigger("nearBottom"))
+
+yesmangasbr.com##+js(set, testDisplay, false)
+ymovies.*##+js(acis, decodeURIComponent, zfgloadedpopup)
+ymovies.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
+ymovies.*##+js(aeld, /mousedown|mouseup/)
+ymovies.*##+js(aopr, _0xbc13)
+ymovies.*##+js(aopr, zfgloadedpopup)
+ymovies.*##+js(set, fixAds, noopFunc)

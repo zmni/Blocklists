@@ -1,0 +1,74 @@
+!! SEMBUNYI-X: GENERIK
+
+#@#.dashicons-rss
+#@#.fa-rss
+#@#.fa-rss-square
+#@#.feed-icon
+#@#.feed-links
+#@#.feedlink
+#@#.follow-rss
+#@#.footer-rss
+#@#.grecaptcha-badge
+#@#.icon-feed
+#@#.icon-github
+#@#.icon-rss
+#@#.icon.RSS
+#@#.rss
+#@#.rss-feed
+#@#.rss-icon
+#@#.rss-link
+#@#.rss.icon
+#@#.rssicon
+#@#.uk-icon-rss
+#@#[aria-controls="rssModal"]
+#@#[data-open="rssModal"]
+#@#[title="Subscribe to our RSS feed"]
+#@#[title="Subscribe to RSS Feed"]
+#@#[title="SUBSCRIBE TO RSS FEEDS"]
+#@##social-rss
+#@#a[aria-label="RSS"]
+#@#a[title="Feed RSS"]
+#@#a[title="Follow us by RSS"]
+#@#a[title="Get Feed RSS"]
+#@#a[title="RSS"]
+#@#a[title="Subscribe by RSS"]
+#@#a[title="Subscribe to our RSS Feed"]
+#@#a[title="Subscribe with RSS"]
+#@#img[alt="Feed RSS"]
+#@#img[alt="Grab our RSS feed"]
+#@#img[alt="Icono RSS"]
+#@#img[alt="RSS 2.0"]
+#@#img[alt="RSS Feed Readers"]
+#@#img[alt="RSS Feeds"]
+#@#img[alt="Rss logo"]
+#@#img[alt="Site Feed"]
+#@#img[alt="Subscribe to our RSS Feeds"]
+#@#img[alt="Subscribe to RSS Feed"]
+#@#img[alt="Subscribe via RSS Feed"]
+#@#img[alt="Subscribe via RSS!"]
+#@#img[alt="Subscribe via RSS"]
+
+!! SEMBUNYI-X: SPESIFIK
+
+bitly.com#@#.twitter
+epicgames.com#@#.social-container
+microsoft.com#@#img[alt="Instagram"]
+microsoft.com#@#img[title="Facebook"]
+nokia.com#@#.privacy-container
+nokia.com#@#.privacy-container:not(body):not(html):not(.content-container)
+permanent.org#@#.fa-share-alt
+play.google.com#@#a[title="Instagram"]
+play.google.com#@#a[title="YouTube"]
+reddit.com#@#._3RPJ8hHnfFohktLZca18J6
+stanza.co#@#.subscribe-container
+trakt.tv#@#.sharing
+transifex.com#@#.facebook.icon
+transifex.com#@#.twitter.icon
+transifex.com#@##icon-facebook
+transifex.com#@##icon-twitter
+tweetdeck.twitter.com#@#.icon-twitter-bird
+tweetdeck.twitter.com#@#.js-tweet-button
+twitter.com#@#.facebook-banner
+vault.bitwarden.com#@#.fa-share
+vault.bitwarden.com#@#.fa-share-alt
+vault.bitwarden.com#@#.fa-share-square-o

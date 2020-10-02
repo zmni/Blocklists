@@ -1,0 +1,113 @@
+ceol.js application/javascript
+(() => {
+    var selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") { return; }
+    var click = () => {
+        var elements = document.querySelectorAll(selector);
+        for (var element of elements) {
+            element.click();
+        }
+    };
+    if (document.readyState === "complete") {
+        click();
+    } else {
+        addEventListener("load", click);
+    }
+})();
+
+ceor.js application/javascript
+(() => {
+    var selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") { return; }
+    var click = () => {
+        var elements = document.querySelectorAll(selector);
+        for (var element of elements) {
+            element.click();
+        }
+    };
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        click();
+    } else {
+        addEventListener("DOMContentLoaded", click);
+    }
+})();
+
+sc.js application/javascript
+(function() {
+    var data = "{{1}}";
+    if (data.indexOf("=") === -1) { return; }
+    document.cookie = data;
+})();
+
+esc.js application/javascript
+(function() {
+    var data = "{{1}}";
+    var path = "{{2}}";
+    var domain = "{{3}}";
+    var secure = "{{4}}";
+    var del = "{{5}}";
+    if (data.indexOf("=") === -1) { return; }
+    if (del === "true") {
+        data += ";max-age=-100";
+    } else {
+        data += ";max-age=2592000"; // 30 days
+    }
+    if (path !== "" && path !== "{{2}}") {
+        data += ";path=" + path;
+    }
+    if (domain !== "" && domain !== "{{3}}") {
+        data += ";domain=" + domain;
+    }
+    if (secure === "true") {
+        data += ";secure";
+    }
+    document.cookie = data;
+})();
+
+ac.js application/javascript
+(() => {
+    const token = "{{1}}";
+    if (token === "" || token === "{{1}}") { return; }
+    const tokens = token.split(/\s*\|\s*/);
+    let selector = "{{2}}";
+    if (selector === "" || selector === "{{2}}") { return; }
+    const addclass = () => {
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                node.classList.add(...tokens);
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", addclass, { capture: true, once: true });
+    } else {
+        addclass();
+    }
+})();
+
+sa.js application/javascript
+(() => {
+    const token = "{{1}}";
+    if (token === "" || token === "{{1}}") { return; }
+    const selector = token.split(/\s*\|\s*/).join(",");
+    const name = "{{2}}";
+    if (name === "" || name === "{{2}}") { return; }
+    const value = "{{3}}";
+    if (value === "" || value === "{{3}}") { return; }
+    const setattr = () => {
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                if (node.href.indexOf(location.hostname) === -1) {
+                    node.setAttribute(name, value);
+                }
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+    } else {
+        setattr();
+    }
+})();
