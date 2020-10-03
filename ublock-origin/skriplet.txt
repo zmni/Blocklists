@@ -121,18 +121,11 @@ stw.js application/javascript
 (() => {
     const path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
-    if (location.pathname.toLowerCase().indexOf(path) == -1) return;
-    const selector = "{{2}}";
-    if (selector === "" || selector === "{{2}}") return;
-    const yaxis = "{{3}}";
-    if (yaxis === "" || yaxis === "{{3}}") return;
+    if (location.pathname.toLowerCase().indexOf(path) === -1) return;
+    const axis = "{{2}}";
+    if (axis === "" || axis === "{{2}}") return;
     const scrolled = () => {
-        const elem = document.querySelector(selector);
-        if (elem) {
-            elem.scrollIntoView();
-        } else {
-            window.scroll(0, yaxis);
-        }
+        window.scroll(0, axis);
     };
     if (document.readyState === "interactive" ||
         document.readyState === "complete") {
