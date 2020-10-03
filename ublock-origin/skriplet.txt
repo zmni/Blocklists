@@ -1,10 +1,32 @@
+ceor.js application/javascript
+(() => {
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") {
+        return;
+    }
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
+            element.click();
+        }
+    };
+    if (document.readyState === "interactive" ||
+        document.readyState === "complete") {
+        click();
+    } else {
+        addEventListener("DOMContentLoaded", click);
+    }
+})();
+
 ceol.js application/javascript
 (() => {
-    var selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") { return; }
-    var click = () => {
-        var elements = document.querySelectorAll(selector);
-        for (var element of elements) {
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") {
+        return;
+    }
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
             element.click();
         }
     };
@@ -15,42 +37,18 @@ ceol.js application/javascript
     }
 })();
 
-ceor.js application/javascript
+esetco.js application/javascript
 (() => {
-    var selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") { return; }
-    var click = () => {
-        var elements = document.querySelectorAll(selector);
-        for (var element of elements) {
-            element.click();
-        }
-    };
-    if (document.readyState === "interactive" || document.readyState === "complete") {
-        click();
-    } else {
-        addEventListener("DOMContentLoaded", click);
-    }
-})();
-
-sc.js application/javascript
-(function() {
-    var data = "{{1}}";
-    if (data.indexOf("=") === -1) { return; }
-    document.cookie = data;
-})();
-
-esc.js application/javascript
-(function() {
     var data = "{{1}}";
     var path = "{{2}}";
     var domain = "{{3}}";
     var secure = "{{4}}";
     var del = "{{5}}";
-    if (data.indexOf("=") === -1) { return; }
+    if (data.indexOf("=") === -1) return;
     if (del === "true") {
         data += ";max-age=-100";
     } else {
-        data += ";max-age=2592000"; // 30 days
+        data += ";max-age=2592000";
     }
     if (path !== "" && path !== "{{2}}") {
         data += ";path=" + path;
@@ -64,13 +62,20 @@ esc.js application/javascript
     document.cookie = data;
 })();
 
-ac.js application/javascript
+setco.js application/javascript
+(() => {
+    const data = "{{1}}";
+    if (data.indexOf("=") === -1) return;
+    document.cookie = data;
+})();
+
+acls.js application/javascript
 (() => {
     const token = "{{1}}";
-    if (token === "" || token === "{{1}}") { return; }
+    if (token === "" || token === "{{1}}") return;
     const tokens = token.split(/\s*\|\s*/);
     let selector = "{{2}}";
-    if (selector === "" || selector === "{{2}}") { return; }
+    if (selector === "" || selector === "{{2}}") return;
     const addclass = () => {
         try {
             const nodes = document.querySelectorAll(selector);
@@ -86,16 +91,16 @@ ac.js application/javascript
     }
 })();
 
-sa.js application/javascript
+attr.js application/javascript
 (() => {
     const token = "{{1}}";
-    if (token === "" || token === "{{1}}") { return; }
+    if (token === "" || token === "{{1}}") return;
     const selector = token.split(/\s*\|\s*/).join(",");
     const name = "{{2}}";
-    if (name === "" || name === "{{2}}") { return; }
+    if (name === "" || name === "{{2}}") return;
     const value = "{{3}}";
-    if (value === "" || value === "{{3}}") { return; }
-    const setattr = () => {
+    if (value === "" || value === "{{3}}") return;
+    const addattr = () => {
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
@@ -106,9 +111,9 @@ sa.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", addattr, { capture: true, once: true });
     } else {
-        setattr();
+        addattr();
     }
 })();
 
@@ -117,19 +122,20 @@ stw.js application/javascript
     const path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
     if (location.pathname.toLowerCase().indexOf(path) == -1) return;
-    const elem = "{{2}}";
-    if (elem === "" || elem === "{{2}}") return;
-    const axis = "{{3}}";
-    if (axis === "" || axis === "{{3}}") return;
+    const selector = "{{2}}";
+    if (selector === "" || selector === "{{2}}") return;
+    const yaxis = "{{3}}";
+    if (yaxis === "" || yaxis === "{{3}}") return;
     const scrolled = () => {
-        const selector = document.querySelector(elem);
-        if (selector) {
-            selector.scrollIntoView();
+        const elem = document.querySelector(selector);
+        if (elem) {
+            elem.scrollIntoView();
         } else {
-            window.scroll(0, axis);
+            window.scroll(0, yaxis);
         }
     };
-    if (document.readyState === "interactive" || document.readyState === "complete") {
+    if (document.readyState === "interactive" ||
+        document.readyState === "complete") {
         scrolled();
     } else {
         addEventListener("DOMContentLoaded", scrolled);

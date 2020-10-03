@@ -9,13 +9,14 @@
 ! nostif = no-setTimeout-if
 ! ra = remove-attr
 ! set = set-constant
-! KHUSUS
-! ceol = click-elements-on-load
+
 ! ceor = click-elements-on-ready
-! sc = set-cookie
-! esc = easy-set-cookie
-! ac = add-class
-! sa = set-attribute
+! ceol = click-elements-on-load
+! setco = set-cookie
+! esetco = easy-set-cookie
+! acls = add-class
+! attr = set-attribute
+! stw = scroll-the-window
 
 720pstream.me##+js(aopr, zfgloadedpopup)
 9anime.*##+js(aopr, zfgloadedpopup)
@@ -39,8 +40,7 @@ animeindo.*##+js(set, document.onselectstart, null)
 animeku.tv##+js(set, adBlockDetected, false)
 animepahe.com##+js(ceol, .click-to-load)
 anoboy.com##+js(set, h237, undefined)
-arstechnica.com##+js(set-cookie, theme=dark, .arstechnica.com)
-atlasobscura.com##+js(overlay-buster)
+arstechnica.com##+js(setco, theme=dark, .arstechnica.com)
 
 blogspot.co.id##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
 blogspot.com##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
@@ -52,9 +52,9 @@ blacktiesports.net##+js(ra, onclick, body)
 centralsport.club##+js(aopr, zfgloadedpopup)
 cnnindonesia.com##+js(acis, shareBox.run)
 
-devdocs.io##+js(set-cookie, analyticsConsent=0)
-devdocs.io##+js(set-cookie, analyticsConsentAsked=1)
-devdocs.io##+js(set-cookie, hideIntro=1)
+devdocs.io##+js(setco, analyticsConsent=0)
+devdocs.io##+js(setco, analyticsConsentAsked=1)
+devdocs.io##+js(setco, hideIntro=1)
 
 eraspace.com##+js(ra, target, a)
 
@@ -70,7 +70,7 @@ gog.com##+js(ra, gog-track-event)
 
 heidisql.com##+js(ra, /data-(gevent|gaction|glabel)/)
 heidisql.com##+js(set, jQueryAvailable, falseFunc)
-heidisql.com##+js(std, console.log('Blocking ads detected'), 2000)
+heidisql.com##+js(nostif, console.log('Blocking ads detected'), 2000)
 hentaihaven.org##+js(acis, BetterJsPop)
 howtogeek.com##+js(acis, showEmail)
 howtogeek.com##+js(aeld, DOMContentLoaded, adsenseLoader)
@@ -89,8 +89,8 @@ lookmovie.ag##+js(acis, atob)
 movie4k.org##+js(aopr, T822)
 movie4k.org##+js(set, zoneNativeSett, undefined)
 moviego.net##+js(aopr, zfgloadedpopup)
-mspoweruser.com##+js(set-cookie, shunno_auto=auto)
-mspoweruser.com##+js(set-cookie, shunno_site_theme=dark)
+mspoweruser.com##+js(setco, shunno_auto=auto)
+mspoweruser.com##+js(setco, shunno_site_theme=dark)
 muchohentai.com##+js(set, l6H7m, undefined)
 myoplay.live##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
 myoplay.live##+js(aeld, SGPMPopupLoader)
@@ -100,17 +100,17 @@ myoplay.live##+js(aopr, _0xbc13)
 nanime.*##+js(aeld, /mousedown|mouseup/, 0x)
 nanime.*##+js(aopr, zfgloadedpopup)
 nanime.*##+js(ceol, #player)
-neowin.net##+js(set-cookie, theme=darkside, .neowin.net)
-neowin.net##+js(set-cookie, view-style=view-normal, .neowin.net)
+neowin.net##+js(setco, theme=darkside, .neowin.net)
+neowin.net##+js(setco, view-style=view-normal, .neowin.net)
 newatlas.com##+js(aopr, window.admiral)
-news.ycombinator.com##+js(sa, .storylink|a[rel="nofollow"], target, _blank)
+news.ycombinator.com##+js(attr, .storylink|a[rel="nofollow"], target, _blank)
 nicoblog.org##+js(aopr, ad2games)
 
 obengplus.com##+js(nobab)
 
 phoronix.com##+js(acis, window.onload, aax_getad_mpb)
 play.google.com##+js(ra, jslog, button)
-playbackloop.com##+js(ac, dark-mode, body)
+playbackloop.com##+js(acls, dark-mode, body)
 polygon.com##+js(acis, CONCERT_ADS_CONFIG)
 polygon.com##+js(ra, data-analytics-link)
 polygon.com##+js(ra, data-chorus-optimize-field)
@@ -126,7 +126,6 @@ riie.net##+js(set, disableSelection, noopFunc)
 ruangotaku.com##+js(acis, getCoords)
 
 simkl.com##+js(aopw, window.adBlock)
-slickdeals.net##+js(overlay-buster)
 sms-receive.net##+js(acis, $, AdBlock Plus)
 soccerstreams.net##+js(acis, decodeURI, atob)
 soccerstreams.net##+js(aopr, S9tt)
