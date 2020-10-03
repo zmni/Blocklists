@@ -119,9 +119,9 @@ attr.js application/javascript
 
 stw.js application/javascript
 (() => {
-    const path = "{{1}}";
-    if (path === "" || path === "{{1}}") return;
-    if (location.pathname.toLowerCase().indexOf(path) === -1) return;
+    const name = "{{1}}";
+    const path = location.pathname.toLowerCase();
+    if (name === "" || name === "{{1}}" || path.indexOf(name) === -1) return;
     const axis = "{{2}}";
     if (axis === "" || axis === "{{2}}") return;
     const scrolled = () => {
