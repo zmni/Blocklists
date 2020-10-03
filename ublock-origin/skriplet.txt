@@ -127,10 +127,9 @@ stw.js application/javascript
     const scrolled = () => {
         window.scroll(0, axis);
     };
-    if (document.readyState === "interactive" ||
-        document.readyState === "complete") {
+    if (document.readyState === "complete") {
         scrolled();
     } else {
-        addEventListener("DOMContentLoaded", scrolled);
+        addEventListener("load", scrolled);
     }
 })();
