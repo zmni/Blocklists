@@ -111,3 +111,27 @@ sa.js application/javascript
         setattr();
     }
 })();
+
+stw.js application/javascript
+(() => {
+    const path = "{{1}}";
+    if (path === "" || path === "{{1}}") return;
+    if (location.pathname.toLowerCase().indexOf(path) == -1) return;
+    const elem = "{{2}}";
+    if (elem === "" || elem === "{{2}}") return;
+    const axis = "{{3}}";
+    if (axis === "" || axis === "{{3}}") return;
+    const scrolled = () => {
+        const selector = document.querySelector(elem);
+        if (selector) {
+            selector.scrollIntoView();
+        } else {
+            window.scroll(0, axis);
+        }
+    };
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        scrolled();
+    } else {
+        addEventListener("DOMContentLoaded", scrolled);
+    }
+})();
