@@ -119,9 +119,9 @@ attr.js application/javascript
 
 stw.js application/javascript
 (() => {
-    const name = "{{1}}";
-    const path = location.pathname.toLowerCase();
-    if (name === "" || name === "{{1}}" || path.indexOf(name) === -1) return;
+    const path = "{{1}}";
+    const urlp = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || urlp.indexOf(path) === -1) return;
     const ytop = "{{2}}";
     if (ytop === "" || ytop === "{{2}}") return;
     const scrolled = () => {
@@ -136,4 +136,29 @@ stw.js application/javascript
     } else {
         addEventListener("load", scrolled);
     }
+})();
+
+cepn.js application/javascript
+(() => {
+    const path = "{{1}}";
+    const urlp = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || urlp.indexOf(path) === -1) return;
+    const prev = "{{2}}";
+    if (prev === "" || prev === "{{2}}") return;
+    const next = "{{3}}";
+    if (next === "" || next === "{{3}}") return;
+    const click = (selector) => {
+        document.querySelector(selector).click();
+    };
+    document.addEventListener(
+        "keyup",
+        (e) => {
+            if (e.altKey && e.key === "p") {
+                click(prev);
+            } else if (e.altKey && e.key === "n") {
+                click(next);
+            }
+        },
+        false
+    );
 })();
