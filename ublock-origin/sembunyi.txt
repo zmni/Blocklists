@@ -1147,6 +1147,7 @@ wcostream.com###star-watch-on
 wcostream.com##div[itemprop="video"] > br
 wcostream.com##div[itemprop="video"] > table
 wcostream.com##div[style]:has(> .reklam_pve:only-of-type)
+web.dev##.w-actions__fab--share
 webmd.com##.ad
 whatoplay.com##.game-ad
 whatoplay.com##.game-share
