@@ -1,29 +1,7 @@
-ceor.js application/javascript
+click-elements-onload.js application/javascript
 (() => {
     const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") {
-        return;
-    }
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
-            element.click();
-        }
-    };
-    if (document.readyState === "interactive" ||
-        document.readyState === "complete") {
-        click();
-    } else {
-        addEventListener("DOMContentLoaded", click);
-    }
-})();
-
-ceol.js application/javascript
-(() => {
-    const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") {
-        return;
-    }
+    if (selector === "" || selector === "{{1}}") return;
     const click = () => {
         const elements = document.querySelectorAll(selector);
         for (const element of elements) {
@@ -37,7 +15,31 @@ ceol.js application/javascript
     }
 })();
 
-esetco.js application/javascript
+click-elements-onready.js application/javascript
+(() => {
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
+            element.click();
+        }
+    };
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        click();
+    } else {
+        addEventListener("DOMContentLoaded", click);
+    }
+})();
+
+set-cookie.js application/javascript
+(() => {
+    const data = "{{1}}";
+    if (data.indexOf("=") === -1) return;
+    document.cookie = data;
+})();
+
+easy-set-cookie.js application/javascript
 (() => {
     var data = "{{1}}";
     var path = "{{2}}";
@@ -62,14 +64,31 @@ esetco.js application/javascript
     document.cookie = data;
 })();
 
-setco.js application/javascript
+add-attr.js application/javascript
 (() => {
-    const data = "{{1}}";
-    if (data.indexOf("=") === -1) return;
-    document.cookie = data;
+    let selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    const name = "{{2}}";
+    if (name === "" || name === "{{2}}") return;
+    const value = "{{3}}";
+    if (value === "" || value === "{{3}}") return;
+    const setattr = () => {
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                node.setAttribute(name, value);
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+    } else {
+        setattr();
+    }
 })();
 
-acls.js application/javascript
+add-class.js application/javascript
 (() => {
     const token = "{{1}}";
     if (token === "" || token === "{{1}}") return;
@@ -78,10 +97,7 @@ acls.js application/javascript
     if (selector === "" || selector === "{{2}}") return;
     const addclass = () => {
         try {
-            const nodes = document.querySelectorAll(selector);
-            for (const node of nodes) {
-                node.classList.add(...tokens);
-            }
+            document.querySelector(selector).classList.add(...tokens);
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
@@ -91,33 +107,51 @@ acls.js application/javascript
     }
 })();
 
-attr.js application/javascript
+click-element-prevnext.js application/javascript
 (() => {
-    const token = "{{1}}";
-    if (token === "" || token === "{{1}}") return;
-    const selector = token.split(/\s*\|\s*/).join(",");
-    const name = "{{2}}";
-    if (name === "" || name === "{{2}}") return;
-    const value = "{{3}}";
-    if (value === "" || value === "{{3}}") return;
-    const addattr = () => {
+    const part = "{{1}}";
+    const path = location.pathname.toLowerCase();
+    if (part === "" || part === "{{1}}" || path.indexOf(part) === -1) return;
+    const prev = "{{2}}";
+    if (prev === "" || prev === "{{2}}") return;
+    const next = "{{3}}";
+    if (next === "" || next === "{{3}}") return;
+    document.addEventListener(
+        "keyup",
+        (e) => {
+            if (e.altKey && e.key === "b") {
+                document.querySelector(prev).click();
+            } else if (e.altKey && e.key === "n") {
+                document.querySelector(next).click();
+            }
+        },
+        false
+    );
+})();
+
+open-links-in-newtab.js application/javascript
+(() => {
+    let selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    const targetblank = () => {
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
                 if (node.href.indexOf(location.hostname) === -1) {
-                    node.setAttribute(name, value);
+                    node.setAttribute("target", "_blank");
                 }
             }
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", addattr, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", targetblank, { capture: true, once: true });
     } else {
-        addattr();
+        targetblank();
     }
 })();
 
-stw.js application/javascript
+window.scroll.js application/javascript
 (() => {
     const path = "{{1}}";
     const urlp = location.pathname.toLowerCase();
@@ -136,29 +170,4 @@ stw.js application/javascript
     } else {
         addEventListener("load", scrolled);
     }
-})();
-
-cepn.js application/javascript
-(() => {
-    const path = "{{1}}";
-    const urlp = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || urlp.indexOf(path) === -1) return;
-    const prev = "{{2}}";
-    if (prev === "" || prev === "{{2}}") return;
-    const next = "{{3}}";
-    if (next === "" || next === "{{3}}") return;
-    const click = (selector) => {
-        document.querySelector(selector).click();
-    };
-    document.addEventListener(
-        "keyup",
-        (e) => {
-            if (e.altKey && e.key === "b") {
-                click(prev);
-            } else if (e.altKey && e.key === "n") {
-                click(next);
-            }
-        },
-        false
-    );
 })();
