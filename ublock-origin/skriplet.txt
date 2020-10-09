@@ -107,26 +107,47 @@ add-class.js application/javascript
     }
 })();
 
+add-style.js application/javascript
+(() => {
+    const path = "{{1}}";
+    const locp = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
+    let selector = "{{2}}";
+    if (selector === "" || selector === "{{2}}") return;
+    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    const style = "{{3}}";
+    if (style === "" || style === "{{3}}") return;
+    const addstyle = () => {
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                node.style.cssText = style;
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", addstyle, { capture: true, once: true });
+    } else {
+        addstyle();
+    }
+})();
+
 click-element-prevnext.js application/javascript
 (() => {
-    const part = "{{1}}";
-    const path = location.pathname.toLowerCase();
-    if (part === "" || part === "{{1}}" || path.indexOf(part) === -1) return;
+    const path = "{{1}}";
+    const locp = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
     const prev = "{{2}}";
     if (prev === "" || prev === "{{2}}") return;
     const next = "{{3}}";
     if (next === "" || next === "{{3}}") return;
-    document.addEventListener(
-        "keyup",
-        (e) => {
-            if (e.altKey && e.key === "b") {
-                document.querySelector(prev).click();
-            } else if (e.altKey && e.key === "n") {
-                document.querySelector(next).click();
-            }
-        },
-        false
-    );
+    document.addEventListener("keyup", (event) => {
+        if (event.altKey && event.key === "b") {
+            document.querySelector(prev).click();
+        } else if (event.altKey && event.key === "n") {
+            document.querySelector(next).click();
+        }
+    }, false);
 })();
 
 open-links-in-newtab.js application/javascript
@@ -154,8 +175,8 @@ open-links-in-newtab.js application/javascript
 window.scroll.js application/javascript
 (() => {
     const path = "{{1}}";
-    const urlp = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || urlp.indexOf(path) === -1) return;
+    const locp = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
     const ytop = "{{2}}";
     if (ytop === "" || ytop === "{{2}}") return;
     const scrolled = () => {
