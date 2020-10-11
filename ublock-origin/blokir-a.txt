@@ -1,31 +1,31 @@
 !! BLOKIR-A: UMUM
 
-||188bongda.com^
-||acquisitionproducespostman.com^
-||artpever.com^
-||aseanbanner.tk^
-||c.statcounter.com^
-||c0nnectthed0ts.com^
-||d2to8y50b3n6dq.cloudfront.net^
-||ddmax20.xyz^
-||disappearanceherbalsixpence.com^
-||ezylink.co^
-||f853150605ccb.com^
-||facebook.*^
-||fmax.xyz^
-||henry-loieurope.xyz^
-||iupot.com^
-||jogdosoaf.com^
-||metrika.lookmovie.ag^
-||opsoomet.net^
-||p3insight.de^
-||peer5.com^
-||pooboafi.net^
-||ptoahaistais.com^
-||px.gfycat.com^
-||sentry.variab.ly^
-||st.chatango.com^
-||stats.umami.is^
+||188bongda.com^$all
+||acquisitionproducespostman.com^$all
+||artpever.com^$all
+||aseanbanner.tk^$all
+||c.statcounter.com^$all
+||c0nnectthed0ts.com^$all
+||d2to8y50b3n6dq.cloudfront.net^$all
+||ddmax20.xyz^$all
+||disappearanceherbalsixpence.com^$all
+||ezylink.co^$all
+||f853150605ccb.com^$all
+||facebook.*^$all
+||fmax.xyz^$all
+||henry-loieurope.xyz^$all
+||iupot.com^$all
+||jogdosoaf.com^$all
+||metrika.lookmovie.ag^$all
+||opsoomet.net^$all
+||p3insight.de^$all
+||peer5.com^$all
+||pooboafi.net^$all
+||ptoahaistais.com^$all
+||px.gfycat.com^$all
+||sentry.variab.ly^$all
+||st.chatango.com^$all
+||stats.umami.is^$all
 
 !! BLOKIR-A: SPESIFIK
 
