@@ -2,7 +2,7 @@ news.ycombinator.com#$#body { background-color: #1e1e1e !important; color: #c3c3
 news.ycombinator.com#$#textarea { background-color: #a5a5a5 !important; }
 news.ycombinator.com#$#input[type="text"] { background-color: #2d2d2d !important; border: 1px solid #000 !important; color: #c3c3c3 !important; }
 news.ycombinator.com#$#input[type="submit"] { background-color: #878787 !important; border: 1px solid #a5a5a5 !important; color: #fff !important; cursor: pointer !important; }
-news.ycombinator.com#$##hnmain[bgcolor="#f6f6ef"] { background-color: #0f0f0f !important; }
+news.ycombinator.com#$#table#hnmain[bgcolor="#f6f6ef"] { background-color: #0f0f0f !important; }
 news.ycombinator.com#$#td { color: #878787 !important; }
 news.ycombinator.com#$##hnmain td[bgcolor="#000000"] { background-color: #3c3c3c !important; }
 news.ycombinator.com#$##hnmain td[bgcolor="#ff6600"] { background-color: #2d2d2d !important; }
