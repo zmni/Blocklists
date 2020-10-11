@@ -1009,6 +1009,7 @@ tempo.co##meta[http-equiv="refresh"]:remove()
 thecinemaholic.com###taboola-alternating-right-rail-thumbnails:upward(.gridlovec-sticky-sidebar)
 thecut.com##.ad
 themoviedb.org##.ott_offer
+themoviedb.org##ul#new_shortcut_bar.k-menu.k-menu-horizontal:not(.k-context-menu) > .k-item:has(> .k-link:has-text(Bagikan))
 thenextweb.com##.c-post-engage-shares
 thenextweb.com##.c-post-split-sticky:has(> .c-post-engage:only-child .c-post-engage-shares)
 thenextweb.com##.post-actions-share
