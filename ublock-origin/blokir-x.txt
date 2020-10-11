@@ -1,4 +1,4 @@
-!! BLOKIR-X: GENERIK
+!! BLOKIR-X: 0
 
 @@-rss-icon.
 @@-social-rss.
@@ -21,6 +21,11 @@
 @@/social-rss.
 @@/youtube_32
 @@/youtube.png
+
+!! BLOKIR-X: A
+
+@@||facebook.github.com^
+@@||facebook.github.io^
 
 !! BLOKIR-X: 1P SPESIFIK
 
@@ -58,6 +63,7 @@
 !! BLOKIR-X: 3P SPESIFIK DOMAIN
 
 @@/cookieconsent?$domain=docs.microsoft.com
+@@/new-relic.$image,domain=marketplace.visualstudio.com
 
 @@||assets.nflxext.com/ffe/siteui/$font,image,domain=lookmovie.ag
 @@||cdnfile.info^$domain=vidstreaming.*

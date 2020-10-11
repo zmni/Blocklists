@@ -57,6 +57,7 @@
 ||imgur.com^$image,domain=streamvi.com
 ||l-stat.livejournal.net^$domain=livejournal.com
 ||newrevive.detik.com^$domain=detik.com|cnnindonesia.com
+||ogs.google.*/widget/callout?$frame,domain=google.*
 ||play.google.com/log?$xhr,domain=google.com,important
 ||rnkr-static.com^*/dist/ads-$script,domain=ranker.com
 ||rnkr-static.com^*/dist/setReferrer-$script,domain=ranker.com

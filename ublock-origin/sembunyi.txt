@@ -7,6 +7,10 @@
 5movies.to##.ml-data-rate
 5movies.to##.sidebar
 5movies.to###vote
+9anime.*##.anime-list > li:has(:scope .dub)
+9anime.*##.anime-list > li:has(:scope .preview)
+9anime.*##.anime-list > li:has(:scope .special)
+9anime.*##.anime-list > li:has(:scope .tag.ep:has-text(Preview))
 9animes.net##.comments-area
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
@@ -357,22 +361,13 @@ flixgo.co##.footer__counter
 flixgo.co###dle-comments-form
 flixgo.net##a[href*=".com/ads?"]
 flixtor.to##[class^="contentList"] > .d-flex > .py-2:has(:scope .front .fa-video-camera.goldc)
-fmovies.*,ffmovies.*##.a_d
-fmovies.*,ffmovies.*##.footerdesc
-fmovies.*,ffmovies.*##.hd-buttons
-fmovies.*,ffmovies.*##.movie-list > [class^="col-"]:has-text(/cam|ts/i)
-fmovies.*,ffmovies.*##.report
-fmovies.*,ffmovies.*##.stream4k
-fmovies.*,ffmovies.*##.streamhd
-fmovies.*,ffmovies.*##.widget:has(> [id*="ScriptRootC"])
-fmovies.*,ffmovies.*##.widget:has(> [id^="rn_ad_native"]:only-of-type)
-fmovies.*,ffmovies.*##.widget:has(> script:only-child)
-fmovies.*,ffmovies.*##.widget:not(:has(> div))
-fmovies.*,ffmovies.*##[href*="/stream_in_hd.html"]
-fmovies.*,ffmovies.*###comment
-fmovies.*,ffmovies.ru##.home-socials
-fmovies.*,ffmovies.ru##.rating
-fmovies.*,ffmovies.ru###tags
+fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*##.rating
+fmovies.*##.tags
+fmovies.*##.tooltipster-content .actions
+fmovies.*###comment
+fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
+fmovies.*##div[class*="addthis_inline_share_]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
 footybite.com##a[href^="https://tracker-"]:upward(1)
 forbes.com##.ad-rail-container
@@ -1061,17 +1056,10 @@ tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item
 torrentfreak.com###tf-comments
-torrentz2.eu##.alert
-torrentz2.eu##.ToleratedAd
-torrentz2.eu##[class$="AcceptableAd"]
-torrentz2.eu###recent
-torrentz2.eu###resultarea.gener
-torrentz2.eu##div.cloud
-torrentz2.eu##div.downlinks > p
-torrentz2.eu##div.files > p
-torrentz2.eu##div.note
-torrentz2.eu##div.relatedqcont
-torrentz2.eu##p.generi
+torrentz.*###recent
+torrentz.*##dd:has-text(Spónsored Link):upward(dl)
+torrentz.*##div.onToleratds
+torrentz.*##div.relatedqcont
 trakt.tv##.banner
 trakt.tv##.stats > li:has(> a[href$="/comments"])
 trakt.tv##[class*="hu-ck"]
@@ -1105,6 +1093,7 @@ twitter.com##[data-testid="primaryColumn"] div:not([class]):not([id]):not([role]
 twitter.com##[data-testid="sidebarColumn"] [data-testid="trend"][role="link"]:has-text(Dipromosikan oleh):upward(1)
 twitter.com##[data-testid="sidebarColumn"] aside[aria-label="Orang yang relevan"]:upward(1)
 twitter.com##[data-testid="sidebarColumn"] aside[aria-label="Untuk diikuti"]:upward(1)
+twitter.com##span:has-text(Jangan melewatkan apa yang sedang terjadi):upward(#layers)
 
 uproxx.com##.showed-enough.minimized.uproxx-featured-video-wrap
 uproxx.com###woven-leaderboard-wrapper
