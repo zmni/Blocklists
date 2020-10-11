@@ -367,7 +367,7 @@ fmovies.*##.tags
 fmovies.*##.tooltipster-content .actions
 fmovies.*###comment
 fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
-fmovies.*##div[class*="addthis_inline_share_]
+fmovies.*##div[class*="addthis_inline_share_"]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
 footybite.com##a[href^="https://tracker-"]:upward(1)
 forbes.com##.ad-rail-container
