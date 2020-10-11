@@ -1,0 +1,14 @@
+streamgoals.com#$#body { background-color: #121212 !important; }
+streamgoals.com#$#.container { width: 1100px !important; }
+streamgoals.com#$#.progress { background-image: linear-gradient(to bottom, #303030, #242424) !important; margin-bottom: unset !important; }
+streamgoals.com#$#.navbar { min-height: 37px !important; }
+streamgoals.com#$#.navbar-brand { filter: invert(1) !important; margin: unset !important; }
+streamgoals.com#$#.navbar-nav > li > a { padding-top: 5px !important; padding-bottom: 5px !important; }
+streamgoals.com#$#.bs-docs-nav { background-color: #242424 !important; }
+streamgoals.com#$#.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a { color: #ccc !important; }
+streamgoals.com#$#.panel { background-color: transparent !important; border: unset !important; }
+streamgoals.com#$#.panel-body { padding: unset !important; }
+streamgoals.com#$#main { padding-top: 47px !important; }
+streamgoals.com#$##header { border-bottom-color: #000 !important; }
+
+streamgoals.com###controls .casino, .free, .spins, .stsbet, .vjs-overlay, [class*=cool-stuff], [href^="https://streamgoals.com/bukmacher/r/"]

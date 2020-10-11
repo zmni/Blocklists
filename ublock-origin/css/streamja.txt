@@ -1,0 +1,10 @@
+streamja.com#$#body, header { background-color: #0f0f0f !important; }
+streamja.com#$#header { border-bottom: unset !important; color: #878787 !important; }
+streamja.com#$#.headerLink { color: #878787 !important; }
+streamja.com#$#.headerLink:hover { color: #f0f0f0 !important; }
+streamja.com#$##dMenu { background-color: #1e1e1e !important; box-shadow: 0 0 1px #696969 !important; border-radius: 0 !important; }
+streamja.com#$##dMenu a { box-shadow: inset 0 1px #2d2d2d !important; color: #878787 !important; }
+streamja.com#$##dMenu a:hover { background-color: #2d2d2d !important; color: #f0f0f0 !important; }
+streamja.com#$##dMenu.open { top: 42px !important; }
+streamja.com#$#.menuButton::after, .rightSep::after { background-color: #3c3c3c !important; }
+streamja.com#$#.playerContainer { width: 75% !important; }

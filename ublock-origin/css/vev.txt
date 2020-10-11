@@ -1,0 +1,11 @@
+vev.io#$#.container { padding-left: 0 !important; padding-right: 0 !important }
+vev.io#$#.container-main { height: auto !important; margin-top: 0 !important }
+vev.io#$#.page-content { flex-basis: 100% !important; overflow-y: hidden !important }
+vev.io#$#.page-sidebar ~ .page-content { float: none !important }
+vev.io#$#.page-sidebar.sidebar-overlay ~ .page-content { width: auto !important }
+vev.io#$#.video-wrapper { margin-top: 0 !important; padding-left: 0 !important; padding-right: 0 !important }
+vev.io#$#.video-wrapper.default .video-main { float: none !important; height: 100vh !important; padding-top: unset !important; width: 100% !important }
+vev.io#$#.video-main .container { min-height: unset !important }
+vev.io#$#.video-wrapper.theatre .video-main .container { height: 100vh !important; max-height: none !important }
+
+vev.io##.navbar, .video-info, .resize-sensor, .page-sidebar

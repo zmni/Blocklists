@@ -1,153 +1,156 @@
 !! INJEKSI-CSS
+media.zat.im,libre.video,open.tube,tilvids.video,peertube.*#$##video-wrapper .video-js { height: calc(100vh - 50px) !important; max-width: none !important; }
 
-5movies.to##.content:style( float: none !important; width: auto !important )
-5movies.to##.pagination:style( text-align: center !important )
+5movies.to#$#.content { float: none !important; width: auto !important }
+5movies.to#$#.pagination { text-align: center !important }
 
-ainimeindo.com##.genrelist:style( max-height: 400px !important )
-ainimeindo.com##body:style( background-image: none !important )
-alternativeto.net##.app-sidebar:style( margin-top: 0 !important )
-androidauthority.com##.after-header:style( margin-top: 0 !important )
-androidauthority.com###sticky-bar:style( position: relative !important )
-androidauthority.com###sticky-bar.header_tweaks #tt_hot_products_menu:style( transform: none !important )
-androidauthority.com###sticky-bar.sticky-mobile.header_tweaks:style( top: 0 !important )
-anidb.net###layout-main div.tag_all .g_bubblewrap:style( overflow-y: auto !important )
-anilinkz.to##.column:style( width: calc(100% / 3 - 20px) !important )
-anilinkz.to##header, main, nav, #nextprevlist:style( float: none !important )
-anilinkz.to##main, #nextprevlist:style( width: auto !important )
-animeindo.moe###anm_srs:style( height: auto !important; overflow-y: auto !important )
-animeindo.moe##body:style( background-image: none !important )
-appfairness.org##.dialog-prevent-scroll:style( overflow: auto !important )
-azm.to,azmovie.to##.player__main:style( margin-top: unset !important )
-azm.to,azmovie.to##.watch-hero.mb-large:style( margin-bottom: unset !important )
-azm.to,azmovie.to##.watch-title:style( margin-bottom: 1rem !important; margin-top: 1rem !important )
-azm.to,azmovie.to###selectedserver:style( height: 24px !important; line-height: 24px !important; vertical-align: bottom !important )
-azm.to,azmovie.to###selectedserver img:style( height: 24px !important; width: 24px !important )
+ainimeindo.com#$#.genrelist { max-height: 400px !important }
+ainimeindo.com##body { background-image: none !important }
+alternativeto.net#$#.app-sidebar { margin-top: 0 !important }
+androidauthority.com#$#.after-header { margin-top: 0 !important }
+androidauthority.com#$##sticky-bar { position: relative !important }
+androidauthority.com#$##sticky-bar.header_tweaks #tt_hot_products_menu { transform: none !important }
+androidauthority.com#$##sticky-bar.sticky-mobile.header_tweaks { top: 0 !important }
+anichart.net#$#.main-content > .chart-view { margin-right: 3vw !important; margin-left: 3vw !important; }
+anidb.net#$##layout-main div.tag_all .g_bubblewrap { overflow-y: auto !important }
+anilinkz.to#$#.column { width: calc(100% / 3 - 20px) !important }
+anilinkz.to##header, main, nav, #nextprevlist { float: none !important }
+anilinkz.to##main, #nextprevlist { width: auto !important }
+animeindo.moe#$##anm_srs { height: auto !important; overflow-y: auto !important }
+animeindo.moe##body { background-image: none !important }
+appfairness.org#$#.dialog-prevent-scroll { overflow: auto !important }
+azm.to,azmovie.to#$#.player__main { margin-top: unset !important }
+azm.to,azmovie.to#$#.watch-hero.mb-large { margin-bottom: unset !important }
+azm.to,azmovie.to#$#.watch-title { margin-bottom: 1rem !important; margin-top: 1rem !important }
+azm.to,azmovie.to#$##selectedserver { height: 24px !important; line-height: 24px !important; vertical-align: bottom !important }
+azm.to,azmovie.to#$##selectedserver img { height: 24px !important; width: 24px !important }
 
-beautifier.io##.CodeMirror:style( height: auto !important )
-bleepingcomputer.com##.bc_right_sidebar:style( min-height: unset !important )
-browserleaks.com###content:style( margin-left: 250px !important )
-browserleaks.com###nav-menu:style( margin-top: 0 !important )
-browserleaks.com###nav:style( bottom: auto; top: 105px !important )
-browserleaks.com##body:not(.pinned) #nav-menu:style( width: 200px !important )
-btdb.to##.content:style( padding-left: calc(10% + 132px) !important )
-btdb.to##.highlight:style( color: #5c97f1 !important )
-btdb.to##.toolbar:style( padding-left: calc(10% + 140px) !important )
+beautifier.io#$#.CodeMirror { height: auto !important }
+bleepingcomputer.com#$#.bc_right_sidebar { min-height: unset !important }
+browserleaks.com#$##content { margin-left: 250px !important }
+browserleaks.com#$##nav-menu { margin-top: 0 !important }
+browserleaks.com#$##nav { bottom: auto; top: 105px !important }
+browserleaks.com##body:not(.pinned) #nav-menu { width: 200px !important }
+btdb.to#$#.content { padding-left: calc(10% + 132px) !important }
+btdb.to#$#.highlight { color: #5c97f1 !important }
+btdb.to#$#.toolbar { padding-left: calc(10% + 140px) !important }
 
-cloudvideo.tv##.slim-mainpanel2, .slim-mainpanel2 > .mg-t-80:style( margin-top: 20px !important )
-crackwatch.com##.best-price:style( font-size: inherit !important; line-height: inherit !important )
-crackwatch.com##.game-row-price:style( padding-top: 21px !important )
-crackwatch.com##.game-row-price.padding0:style( padding-top: 0 !important )
+cloudvideo.tv#$#.slim-mainpanel2, .slim-mainpanel2 > .mg-t-80 { margin-top: 20px !important }
+crackwatch.com#$#.best-price { font-size: inherit !important; line-height: inherit !important }
+crackwatch.com#$#.game-row-price { padding-top: 21px !important }
+crackwatch.com#$#.game-row-price.padding0 { padding-top: 0 !important }
 
-fandom.com##.wds-community-header:style( width: calc(95% + 40px) !important )
-fandom.com##.WikiaPage:style( border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; )
-fandom.com##.WikiaPage:style( width: 95% !important )
-fandom.com###WikiaMainContent table, #WikiaMainContent td, #WikiaMainContent th, #WikiaMainContent div[style*="border-radius:"], #WikiaArticle h2:style( border-radius: unset !important )
-fandom.com##body, #WikiaMainContent table, #WikiaMainContent td, #WikiaMainContent th, #WikiaMainContent div[style*="background-image:"], #WikiaArticle h2, .wds-community-header, div.ajax-poll, .WikiaArticleCategories, .article-categories, .CategorySelect.articlePage:style( background-image: none !important )
-fandom.com##div[style*="height:"]:style( height: auto !important; max-height: none !important )
-flixgo.co##.header:style( position: static !important )
-flixgo.co##.similar > .container > .row > .col-12.col-xl-4:style( flex-basis: 100% !important; max-width: 100% !important )
-flixgo.co##.similar > .container > .row > .col-12.col-xl-4 > .row > .col-6.col-sm-4.col-lg-3.col-xl-6:style( flex-basis: 16.66667% !important; max-width: 16.66667% !important )
-flixgo.co##body:style( padding-top: 0 !important )
-forum.mikrotik.com##.st-editor__box #message:style( height: auto !important )
-forum.mikrotik.com##.transparent + .stickyContainer .utility-bar:style( border-radius: 0 !important )
-forum.mikrotik.com##blockquote .blockquote__inner, .codebox pre:style( max-height: none !important )
+fandom.com#$#.wds-community-header { width: calc(95% + 40px) !important }
+fandom.com#$#.WikiaPage { border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+fandom.com#$#.WikiaPage { width: 95% !important }
+fandom.com#$##WikiaMainContent table, #WikiaMainContent td, #WikiaMainContent th, #WikiaMainContent div[style*="border-radius:"], #WikiaArticle h2 { border-radius: unset !important }
+fandom.com##body, #WikiaMainContent table, #WikiaMainContent td, #WikiaMainContent th, #WikiaMainContent div[style*="background-image:"], #WikiaArticle h2, .wds-community-header, div.ajax-poll, .WikiaArticleCategories, .article-categories, .CategorySelect.articlePage { background-image: none !important }
+fandom.com##div[style*="height:"] { height: auto !important; max-height: none !important }
+flixgo.co#$#.header { position: static !important }
+flixgo.co#$#.similar > .container > .row > .col-12.col-xl-4 { flex-basis: 100% !important; max-width: 100% !important }
+flixgo.co#$#.similar > .container > .row > .col-12.col-xl-4 > .row > .col-6.col-sm-4.col-lg-3.col-xl-6 { flex-basis: 16.66667% !important; max-width: 16.66667% !important }
+flixgo.co##body { padding-top: 0 !important }
+forum.mikrotik.com#$#.st-editor__box #message { height: auto !important }
+forum.mikrotik.com#$#.transparent + .stickyContainer .utility-bar { border-radius: 0 !important }
+forum.mikrotik.com##blockquote .blockquote__inner, .codebox pre { max-height: none !important }
 
-goal.com##.widget-header__wrapper:style( position: static !important )
-greasyfork.org##.prettyprint:style( max-height: none !important )
-greasyfork.org###code-container:style( max-height: none !important )
+goal.com#$#.widget-header__wrapper { position: static !important }
+greasyfork.org#$#.prettyprint { max-height: none !important }
+greasyfork.org#$##code-container { max-height: none !important }
 
-hdo.to##.container:style( width: 1348px !important )
-howtogeek.com##.site-footer:style( right: auto !important; left: auto !important; margin-right: unset !important; margin-left: unset !important; width: 100% !important )
+hdo.to#$#.container { width: 1348px !important }
+howtogeek.com#$#.site-footer { right: auto !important; left: auto !important; margin-right: unset !important; margin-left: unset !important; width: 100% !important }
 
-kerrang.com##.Root:style( margin-top: 0 !important )
-kompas.com##.bapps-show .content_article:style( padding-top: 55px !important )
-kompas.com##.read__article > .col-bs9-7:style( padding-left: 0 !important; width: auto !important )
-kotakanime.net###main-menu:style( position: static !important )
+kerrang.com#$#.Root { margin-top: 0 !important }
+kompas.com#$#.bapps-show .content_article { padding-top: 55px !important }
+kompas.com#$#.read__article > .col-bs9-7 { padding-left: 0 !important; width: auto !important }
+kotakanime.net#$##main-menu { position: static !important }
+kotakhitam.casa,kotakputih.casa#$#.swal-modal { background-color: #2d2d2d !important; }
+kotakhitam.casa,kotakputih.casa#$#.swal-title, .swal-text { color: #c3c3c3 !important; }
+kotakhitam.casa,kotakputih.casa#$#.sub-control-menu { background: #1e1e1e !important; border-color: #000 !important; color: #c3c3c3 !important; }
 
-livescore.com##body.popup:style( margin: 0 auto !important; max-width: 950px !important )
-lookmovie.ag##.episodes-controls-wrapper:style( margin-top: 15px !important )
-lookmovie.ag##.plr-help-stripe:style( height: auto !important; font-size: 12px !important; line-height: 1 !important; padding: 0 !important; position: static !important; opacity: 0 !important; transition: opacity .3s !important )
-lookmovie.ag##.plr-help-stripe:hover:style( opacity: 1 !important )
-lookmovie.ag##.slider:style( margin-bottom: 20px )
-lookmovie.ag###PlayerZone:style( padding-top: unset !important )
+livescore.com##body.popup { margin: 0 auto !important; max-width: 950px !important }
+lookmovie.ag#$#.episodes-controls-wrapper { margin-top: 15px !important }
+lookmovie.ag#$#.plr-help-stripe { height: auto !important; font-size: 12px !important; line-height: 1 !important; padding: 0 !important; position: static !important; opacity: 0 !important; transition: opacity .3s !important }
+lookmovie.ag#$#.plr-help-stripe:hover { opacity: 1 !important }
+lookmovie.ag#$#.slider { margin-bottom: 20px !important }
+lookmovie.ag#$##PlayerZone { padding-top: unset !important }
 
-mashable.com###scrollable:style( padding-top: 44px!important )
-docs.microsoft.com##.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1:style( max-width: none !important )
-muchohentai.com##.single-post .wrap:style( width: 1100px !important )
-muchohentai.com##body, #main:style( background-image: none !important )
-msn.com##irisbannerph + .head:style( margin-top: unset !important )
-www.msn.com##.irisbactive-top.ap .head, .irisbactive-top.ap .irisbanner, .irisbactive-top.gp .head, .irisbactive-top.gp .irisbanner, .irisbactive-top.channelplayerpage .head, .irisbactive-top.channelplayerpage .irisbanner:style( margin-top: unset !important )
-www.msn.com##.irisbactive-top #stickyTitleBar:style( top: 8rem !important )
+mashable.com#$##scrollable { padding-top: 44px!important }
+docs.microsoft.com#$#.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1 { max-width: none !important }
+muchohentai.com#$#.single-post .wrap { width: 1100px !important }
+muchohentai.com##body, #main { background-image: none !important }
+msn.com##irisbannerph + .head { margin-top: unset !important }
+www.msn.com#$#.irisbactive-top.ap .head, .irisbactive-top.ap .irisbanner, .irisbactive-top.gp .head, .irisbactive-top.gp .irisbanner, .irisbactive-top.channelplayerpage .head, .irisbactive-top.channelplayerpage .irisbanner { margin-top: unset !important }
+www.msn.com#$#.irisbactive-top #stickyTitleBar { top: 8rem !important }
 
-neowin.net##blockquote.ipsQuote:style( max-height: none !important )
-nites.is##.bd:style( padding-top: 2rem !important )
-nites.is##.hd:style( position: static !important )
-nites.is##.player > .options:style( order: 1 !important )
-ns21.club###content:style( float: none !important; width: auto !important )
+neowin.net#$#.darkside #sidebar .widget-community-refresh, .darkside #sidebar .trending-item-meta .comments .comment-link::before { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+neowin.net##blockquote.ipsQuote { max-height: none !important }
+nites.is#$#.bd { padding-top: 2rem !important }
+nites.is#$#.hd { position: static !important }
+nites.is#$#.player > .options { order: 1 !important }
+ns21.club#$##content { float: none !important; width: auto !important }
 
-pcmag.com###adkit_billboard:style( min-height: 90px !important )
-playbackloop.com##.playlist-item .published_at:style( font-size: .75rem !important )
-playbackloop.com##.playlist-item .title:style( font-size: .875rem !important )
-playbackloop.com###playlist-player #now-playing:style( flex-basis: calc(100% - 380px) !important; max-width: calc(100% - 380px) !important )
-playbackloop.com###playlist-player #playlist-wrapper:style( flex-basis: 380px !important; max-width: 380px !important )
-pornhub.com##.sectionWrapper.abEnabled .sectionTitle + div:style( height: auto !important )
-pornhub.com##.showingCounter:style( width: auto !important )
-pornhub.com##header:style( padding-bottom: 0 !important )
-portablefreeware.com##body:style( background-image: none !important )
-www.privacytools.io##.container:style( max-width: none !important )
-mail.protonmail.com##.pm_panel.alt:style( margin-top: 4rem !important )
+pcmag.com#$##adkit_billboard { min-height: 90px !important }
+playbackloop.com#$#.playlist-item .published_at { font-size: .75rem !important }
+playbackloop.com#$#.playlist-item .title { font-size: .875rem !important }
+playbackloop.com#$##playlist-player #now-playing { flex-basis: calc(100% - 380px) !important; max-width: calc(100% - 380px) !important }
+playbackloop.com#$##playlist-player #playlist-wrapper { flex-basis: 380px !important; max-width: 380px !important }
+pornhub.com#$#.sectionWrapper.abEnabled .sectionTitle + div { height: auto !important }
+pornhub.com#$#.showingCounter { width: auto !important }
+pornhub.com##header { padding-bottom: 0 !important }
+portablefreeware.com##body { background-image: none !important }
+www.privacytools.io#$#.container { max-width: none !important }
+mail.protonmail.com#$#.pm_panel.alt { margin-top: 4rem !important }
 
-quora.com##.continue_reading_wrapper_logged_out .gradient_wrapper:style( background-image: none !important )
+quora.com#$#.continue_reading_wrapper_logged_out .gradient_wrapper { background-image: none !important }
 
-rclone.org##.pre-scrollable:style( max-height: calc(100vh - 55px) !important; overflow-y: auto !important )
-regextester.com##body:style( padding-right: 15px !important; padding-left: 15px !important )
-riie.net##.aduh:style( max-height: none !important )
-riie.net##.polarpostx:style( box-sizing: border-box !important; width: 100% !important )
-riie.net###main-menu:style( margin-top: 13px !important )
-rottentomatoes.com##.header_main_scroll:style( margin-top: 0 !important )
-ruangotaku.com###breadcrumbs, #breadcrumbs a:style( color: #f5f5f5 !important )
-ruangotaku.com##body.custom-background:style( background-image: none !important )
+rclone.org#$#.pre-scrollable { max-height: calc(100vh - 55px) !important; overflow-y: auto !important }
+regextester.com##body { padding-right: 15px !important; padding-left: 15px !important }
+riie.net#$#.aduh { max-height: none !important }
+riie.net#$#.polarpostx { box-sizing: border-box !important; width: 100% !important }
+riie.net#$##main-menu { margin-top: 13px !important }
+rottentomatoes.com#$#.header_main_scroll { margin-top: 0 !important }
+ruangotaku.com#$##breadcrumbs, #breadcrumbs a { color: #f5f5f5 !important }
+ruangotaku.com##body.custom-background { background-image: none !important }
 
-speedtest.net##.pure-u-custom-speedtest:style( margin: auto !important )
-speedtest.net##.top-placeholder:style( min-height: 0 !important )
-spin.com###menu.social-hide:style( top: 0 !important )
-stackoverflow.com##pre:style( max-height: none !important )
-subscene.com##body:style( background-image: none !important )
-swatchseries.to###header:style( margin-top: 0 !important )
+speedtest.net#$#.pure-u-custom-speedtest { margin: auto !important }
+speedtest.net#$#.top-placeholder { min-height: 0 !important }
+spin.com#$##menu.social-hide { top: 0 !important }
+stackoverflow.com##pre { max-height: none !important }
+subscene.com##body { background-image: none !important }
+swatchseries.to#$##header { margin-top: 0 !important }
+embed.streamx.*#$#body { background-color: #000 !important; color: #c3c3c3 !important; }
 
-tempo.co##.container > main:style( padding-top: unset !important )
-tempo.co##html:style( margin-top: 45px !important )
-themoviedb.org##main:style( min-width: 100% !important )
-theverge.com##.l-header + .l-wrapper, .l-header + span[data-content-admin-id] + .l-wrapper, .l-header + style + .l-wrapper:style( margin-top: 0 !important )
-tvzion.club##body:style( background-color: #0f0f0f !important; background-image: unset !important )
-tvzion.club##.navbar.transp, .section-watch-video, .section-watch-video, .section-watch-overview:style( box-shadow: unset !important )
-tvzion.club##div[itemtype="https://schema.org/Movie"]:style( margin-top: unset !important )
-tvzion.club##.section-watch:style( margin-top: unset !important; width: 1100px !important )
-tvzion.club##.section-watch > div:last-child:style( background-color: #000 !important; color: #c3c3c3 !important )
-tvzion.club##a.uploads:style( border-top-color: #3c3c3c !important; color: #c3c3c3 !important )
-tvzion.club##.mark, mark:style( background-color: #3c3c3c !important; color: #c3c3c3 !important )
-twitter.com##aside[aria-label="Mulai pesan baru"] [style^="max-height:"]:style( max-height: none !important )
+tempo.co#$#.container > main { padding-top: unset !important }
+tempo.co##html { margin-top: 45px !important }
+themoviedb.org##main { min-width: 100% !important }
+theverge.com#$#.l-header + .l-wrapper, .l-header + span[data-content-admin-id] + .l-wrapper, .l-header + style + .l-wrapper { margin-top: 0 !important }
+tvzion.club##body { background-color: #0f0f0f !important; background-image: unset !important }
+tvzion.club#$#.navbar.transp, .section-watch-video, .section-watch-video, .section-watch-overview { box-shadow: unset !important }
+tvzion.club##div[itemtype="https://schema.org/Movie"] { margin-top: unset !important }
+tvzion.club#$#.section-watch { margin-top: unset !important; width: 1100px !important }
+tvzion.club#$#.section-watch > div:last-child { background-color: #000 !important; color: #c3c3c3 !important }
+tvzion.club##a.uploads { border-top-color: #3c3c3c !important; color: #c3c3c3 !important }
+tvzion.club#$#.mark, mark { background-color: #3c3c3c !important; color: #c3c3c3 !important }
+twitter.com##aside[aria-label="Mulai pesan baru"] [style^="max-height:"] { max-height: none !important }
 
-virustotal.com##pre:style( max-height: none !important )
+uservideo.xyz,uservideo.nanime.in#$#html, body, #topddl_player { width: 100% !important; height: 100% !important; }
+uservideo.xyz,uservideo.nanime.in#$##topddl_player { position: absolute !important; top: 0 !important; }
 
-wcostream.com##body:style( background: none !important )
-hosted.weblate.org##td.number, th.number:style( text-align: center !important )
+virustotal.com##pre { max-height: none !important }
 
-xda-developers.com##.f-links:style( margin-left: 20px !important )
-xda-developers.com##.navbits, .topbar:style( position: static !important )
-xda-developers.com##.topbar:style( width: auto !important )
-xda-developers.com##body:style( padding-top: 0 !important )
-forum.xda-developers.com##.topRankedThreadsForumdisplay:style( margin-left: 0 !important )
-xhamster8.com##.video-page.video-page--large-mode .thumb-list--related:style( width: auto !important )
+wcostream.com##body { background: none !important }
+hosted.weblate.org##td.number, th.number { text-align: center !important }
 
-ymovies.*##.navbar-fixed-top:style( position: relative !important )
-ymovies.*##.sim_name_film h1:style( float: none !important; margin-left: auto !important; text-align: center !important; width: auto !important )
-ymovies.*##.videoPlayer, #player:style( height: 600px !important )
-ymovies.*##body:style( padding-top: 0 !important )
-youtube.com##.watch-stage-mode .player-height:style( height: calc(100vh - 50px) !important )
-youtube.com##.watch-stage-mode .player-width:style( left: 50% !important; margin-left: 0 !important; transform: translatex(-50%) !important; width: calc((100vh - 50px) * 16 / 9) !important )
-youtube.com###player #player-api, #page.watch-stage-mode #theater-background, #ytd-player:style( background: #000 !important )
-youtube.com##ytd-watch-flexy[flexy_][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy_][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy:style( max-width: none !important )
-youtube.com##ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy:style( max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important )
-youtube.com##ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy:style( max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important )
-youtube.com##ytd-watch[theater] #player.ytd-watch:style( max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important )
+xda-developers.com#$#.f-links { margin-left: 20px !important }
+xda-developers.com#$#.navbits, .topbar { position: static !important }
+xda-developers.com#$#.topbar { width: auto !important }
+xda-developers.com##body { padding-top: 0 !important }
+forum.xda-developers.com#$#.topRankedThreadsForumdisplay { margin-left: 0 !important }
+xhamster8.com#$#.video-page.video-page--large-mode .thumb-list--related { width: auto !important }
+
+ymovies.*#$#.navbar-fixed-top { position: relative !important }
+ymovies.*#$#.sim_name_film h1 { float: none !important; margin-left: auto !important; text-align: center !important; width: auto !important }
+ymovies.*#$#.videoPlayer, #player { height: 600px !important }
+ymovies.*##body { padding-top: 0 !important }
