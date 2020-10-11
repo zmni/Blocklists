@@ -39,7 +39,7 @@ news.ycombinator.com#$##hn_dd_menu ul:hover .item { background-color: #878787 !i
 news.ycombinator.com#$##hn_dd_menu ul:hover .item a:hover { background-color: #787878 !important; }
 
 news.ycombinator.com#$#pre { max-width: none !important; }
-news.ycombinator.com#$#tr.spacer { height: 1rem !important !important; }
+news.ycombinator.com#$#tr.spacer { height: 1rem !important; }
 news.ycombinator.com#$#tr.athing > td.title:first-child { padding-left: 10px !important; }
 news.ycombinator.com#$#td.votelinks > center { visibility: hidden !important; }
 news.ycombinator.com#$#.morelink { display: inline-block !important; margin-bottom: 20px !important; }

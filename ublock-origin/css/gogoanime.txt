@@ -16,4 +16,4 @@ gogoanime.*#$#ul#episode_page { clear: both !important; float: none !important; 
 gogoanime.*#$#ul#episode_page li { float: none !important; }
 gogoanime.*#$#.anime_info_body img { width: 240px !important; }
 
-gogoanime.*#$#.anime_video_note_watch, .content_right, .download-anime, .favorites_book, .menu_top_link, a[href^="https://vidstreaming.io/download?"]
+gogoanime.*##.anime_video_note_watch, .content_right, .download-anime, .favorites_book, .menu_top_link, a[href^="https://vidstreaming.io/download?"]

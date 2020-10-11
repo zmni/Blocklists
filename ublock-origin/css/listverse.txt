@@ -9,4 +9,4 @@ listverse.com#$#a[title="Go to Home"] { display: inline-block !important; text-a
 listverse.com#$#.main { margin-top: 0 !important; }
 listverse.com#$#.new.the-article article, .asides-holder { width: 632px !important; }
 
-listverse.com#$#.ga.rect
+listverse.com##.ga.rect
