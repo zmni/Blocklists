@@ -1,0 +1,22 @@
+animefillerlist.com#$#body { background-color: #0f0f0f !important; }
+animefillerlist.com#$#.FrontMessage, #Filters a, #Content > .Right h2, #ShowList > .Group > h2, #Condensed .filler, table.EpisodeList th.header, table.EpisodeList tr.filler { background-color: #1e1e1e !important; }
+animefillerlist.com#$##Header, #Filters a.Active, #Condensed .Label { background-color: #2d2d2d !important; }
+animefillerlist.com#$#body, .Filler h2, #Filters a.Active, #Condensed, #Condensed .Episodes > a { color: #c3c3c3 !important; }
+animefillerlist.com#$#h1, h2, h3, h4, #Content > .Right h2 { color: #e1e1e1 !important; }
+animefillerlist.com#$##Filters a, .node-anime > .Details > .Right .Description p, .node-anime > .Details > .Right > .Contributors p, #Content > .Right .block .item-list li .Date { color: #878787 !important; }
+animefillerlist.com#$#.Breadcrumb, .node-anime > .Details > .Right > .Date, .TitleExtra > span { color: #787878 !important; }
+animefillerlist.com#$##Filters a, #ShowList > .Group > h2, #ShowList > .Group > ul, #Condensed, #Content > .Right .block, #Content > .Right h2, #Content > .Right .block .MoreLink { border-color: #1e1e1e !important; }
+animefillerlist.com#$##Filters a.Active { border-color: #2d2d2d !important; }
+animefillerlist.com#$#table.EpisodeList { border-top-color: #1e1e1e !important; }
+animefillerlist.com#$##Condensed .filler .Label { border-top-color: #3c3c3c !important; }
+animefillerlist.com#$##ShowList > .Group > ul { border-top-color: transparent !important; }
+animefillerlist.com#$#table.EpisodeList tr.filler td { border-right-color: #0f0f0f !important; }
+animefillerlist.com#$#table.EpisodeList td, table.EpisodeList th, table.EpisodeList tr.filler td.Date { border-right-color: #1e1e1e !important; }
+animefillerlist.com#$#.FrontMessage { border-bottom-color: #000 !important; }
+animefillerlist.com#$#table.EpisodeList tr.filler td { border-bottom-color: #0f0f0f !important; }
+animefillerlist.com#$##Filters, #Content > .Right .block .item-list li, table.EpisodeList td, table.EpisodeList th { border-bottom-color: #1e1e1e !important; }
+animefillerlist.com#$##Filters a.Active { border-bottom-color: #2d2d2d !important; }
+animefillerlist.com#$##Condensed .Label { border-bottom-color: #3c3c3c !important; }
+animefillerlist.com#$#table.EpisodeList { border-left-color: #1e1e1e !important; }
+animefillerlist.com#$#select { filter: invert(.8) !important; }
+animefillerlist.com#$##Condensed .Label, table.EpisodeList th, #Content > .Right h2 { text-shadow: none !important; }

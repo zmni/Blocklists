@@ -1,0 +1,14 @@
+outline.com#$#:root { --base-color: #c3c3c3 !important; --emphasis-color: #a5a5a5 !important; --link-color: #0985ce !important; --link-hover-color: #0985ce !important; --figure-color: #878787 !important; --blockquote-color: #878787 !important; --code-color: #c3c3c3 !important; --pre-code-color: var(--code-color) !important; }
+outline.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+outline.com#$#.abovefold { background-color: #0f0f0f !important; }
+outline.com#$#.input-label { background-color: #0f0f0f !important; color: #a5a5a5 !important; }
+outline.com#$#.source-input, .source-input:focus { color: #c3c3c3 !important; }
+outline.com#$#.source-input { background-color: #1e1e1e !important; }
+outline.com#$#.source-input:focus { border: 1px solid #3c3c3c !important; }
+outline.com#$#.annotations-btn { color: #878787 !important; }
+outline.com#$#.annotations-btn, .annotations-btn-wrapper .annotations-btn { background-color: #2d2d2d !important; }
+outline.com#$#.annotations-btn-wrapper .annotations-btn:hover { border-color: #4b4b4b !important; }
+outline.com#$#.yue a:hover { background: unset !important; color: #f0f0f0 !important; text-shadow: unset !important; text-decoration: underline !important; }
+outline.com#$#.yue code, .yue tt, .yue pre { background-color: #1e1e1e !important; border-color: #3c3c3c !important; }
+outline.com#$#.yue pre { border-width: 0 0 0 1px !important; }
+outline.com#$#.branding img { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
