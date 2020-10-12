@@ -788,6 +788,7 @@ pinterest.com##div[data-test-id="UnauthVaseFullBleedModalContainer"]
 pinterest.com##div[data-test-id="UnauthPinLandingCloseup"] > div[data-test-id="pin"] > div[style*="bottom:"]
 play.google.com##.full-price
 podnapisi.net##.ad
+poki.com##div[class*="advertisement-"]
 polygon.com##.c-ad-whitelist
 polygon.com##.chorus-ad-placement__hub-zone
 polygon.com##.l-hub-wrapper:not(:has(> *))
