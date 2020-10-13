@@ -21,6 +21,7 @@
 ||p3insight.de^$all
 ||peer5.com^$all
 ||pooboafi.net^$all
+||ptairtug.net^$all
 ||ptoahaistais.com^$all
 ||px.gfycat.com^$all
 ||sentry.variab.ly^$all
