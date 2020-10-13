@@ -5,4 +5,4 @@ bola.net#$#.bola-menu-navbar { margin-top: 0 !important; }
 bola.net#$##main_nav { position: relative !important; }
 bola.net#$#.paging, .paging_nolink { padding: 6px !important; }
 
-bola.net###bola_content_tracker, #iframe_video_partner, #news_comment, #newspaging_content ~ .slot-youtubev2, #read_next, .bola-skor-slide, .bola-topmenu, .bola-trending-tag, .box-tag, .detail-jsview
+bola.net###top_leaderboard, #topbackground, #topbackground2, #topbackground3, #bola_content_tracker, #iframe_video_partner, #news_comment, #newspaging_content ~ .slot-youtubev2, #read_next, .bola-skor-slide, .bola-topmenu, .bola-trending-tag, .box-tag, .detail-jsview

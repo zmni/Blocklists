@@ -1,0 +1,9 @@
+9anime.*#$#:root { --cw: 1160px; --vw: 1130px; --vh: calc(var(--vw) * 9 / 16 + 38px); --pt: calc(var(--vh) + 1.66rem); }
+9anime.*#$#.container { width: var(--cw) !important; max-width: var(--cw) !important; }
+9anime.*#$#.container::after { clear: both !important; content: "" !important; display: table !important; }
+9anime.*#$#ol.navbc { font-size: .75em !important; visibility: hidden !important; }
+9anime.*#$#aside.main, aside.sidebar { padding-top: var(--pt) !important; }
+9anime.*#$#.player-wrapper { position: absolute !important; top: 0 !important; width: var(--vw) !important; height: var(--vh) !important; }
+
+9anime.*##.alert, .tabs > [data-name="updated_dub"], section#info .tags, #comment
+9anime.*##.anime-list > li:has(:scope .dub), .anime-list > li:has(:scope .preview), .anime-list > li:has(:scope .special), .anime-list > li:has(:scope .tag.ep:has-text(Preview))

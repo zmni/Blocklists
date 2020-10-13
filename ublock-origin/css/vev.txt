@@ -8,4 +8,4 @@ vev.io#$#.video-wrapper.default .video-main { float: none !important; height: 10
 vev.io#$#.video-main .container { min-height: unset !important; }
 vev.io#$#.video-wrapper.theatre .video-main .container { height: 100vh !important; max-height: none !important; }
 
-vev.io##.navbar, .video-info, .resize-sensor, .page-sidebar
+vev.io##.navbar, .video-info, .resize-sensor, .page-sidebar, .vjs-info-button

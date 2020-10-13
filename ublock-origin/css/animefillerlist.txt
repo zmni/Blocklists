@@ -20,3 +20,5 @@ animefillerlist.com#$##Condensed .Label { border-bottom-color: #3c3c3c !importan
 animefillerlist.com#$#table.EpisodeList { border-left-color: #1e1e1e !important; }
 animefillerlist.com#$#select { filter: invert(.8) !important; }
 animefillerlist.com#$##Condensed .Label, table.EpisodeList th, #Content > .Right h2 { text-shadow: none !important; }
+
+animefillerlist.com##[id*="-adsense-"]

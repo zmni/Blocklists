@@ -7,10 +7,6 @@
 5movies.to##.ml-data-rate
 5movies.to##.sidebar
 5movies.to###vote
-9anime.*##.anime-list > li:has(:scope .dub)
-9anime.*##.anime-list > li:has(:scope .preview)
-9anime.*##.anime-list > li:has(:scope .special)
-9anime.*##.anime-list > li:has(:scope .tag.ep:has-text(Preview))
 9animes.net##.comments-area
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
@@ -65,18 +61,6 @@ anilinkz.to##span:has(> [id*="_ad_native_"])
 anime-frost.com##.ssad-wrapper
 anime-planet.com##.halo:has(> .ad)
 anime-planet.com##.skyscraper
-anime8.ru##.alert
-anime8.ru##.footer-tags
-anime8.ru##.movies-list > .ml-item:has-text((Dub))
-anime8.ru##.pad
-anime8.ru##.search-suggest > ul > li:has-text((Dub))
-anime8.ru###bar-player
-anime8.ru###bread
-anime8.ru###bread + center
-anime8.ru###btnShowComments
-anime8.ru###mv-keywords
-anime8.ru###switch-mode
-animefillerlist.com##[id*="-adsense-"]
 animehd47.com##.zbanner
 animehd47.com##.zmovies:has-text((Dub))
 animehub.ac##.sb-discordapp
@@ -196,13 +180,6 @@ bola.com##.channel-ad
 bola.com##.lazyload_ad
 bola.com###billboard-ad
 bola.com###initads
-bola.net##.detail-jsview
-bola.net###bola_content_tracker
-bola.net###newspaging_content ~ .slot-youtubev2
-bola.net###top_leaderboard
-bola.net###topbackground
-bola.net###topbackground2
-bola.net###topbackground3
 bolasport.com###div-Left-WideSkyscraper
 browserleaks.com###nav-pin
 btdb.to##.comment
@@ -222,11 +199,6 @@ certbot.eff.org##.social
 channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
 channelnewsasia.com##.c-sharing--default
 cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement")
-chromium.woolyss.com##.nav > li:has(> a[href="#comments"])
-chromium.woolyss.com###comments
-chromium.woolyss.com###comments + br
-chromium.woolyss.com###f
-chromium.woolyss.com###fm
 cinemaindo.web.id##.comments
 cinemaindo.web.id##.keywords
 cinemaindo.web.id###btmx
@@ -420,12 +392,6 @@ gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
 goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
-gogoanime.*##.ad
-gogoanime.*##.anime_video_body_comment_name
-gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
-gogoanime.*##.items > li:has(:scope .name:has-text((Dub)))
-gogoanime.*##.rsidebar
-gogoanime.*###announcement
 gogoanime.*##body > div:has-text(bookmark)
 greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
@@ -955,22 +921,7 @@ stackoverflow.com##.js-product-notice
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com###post-form
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
-streamable.com##.leftbanner
-streamable.com##.rightbanner
-streamable.com##.rightbanner-container
-streamable.com##.topbanner
-streamable.com##[id^="cdm-zone-"]
 streamanime.tv##.inContAdVid
-streamgoals.com##.casino
-streamgoals.com##.free
-streamgoals.com##.spins
-streamgoals.com##.stsbet
-streamgoals.com##.vjs-overlay:has-text(Advertisement)
-streamgoals.com##a[href*="streamgoals.com/bukmacher/r/"]
-streamgoals.com##div[class*=cool-stuff]
-streamvi.com##center > a[target="_blank"]
-streamye.com##.ad1
-streamye.com##.ad2
 superuser.com##.everyonelovesstackoverflow
 superuser.com##.js-dismissable-hero
 superuser.com##.site-header + .s-hero
@@ -1085,8 +1036,6 @@ trakt.tv##li:has(> a[href^="/widgets"])
 trakt.tv##li:has(> a[href="#comments"])
 transifex.com##.js-social-share
 tvbersama.com##.adsheader
-tvseries.video##.mads
-tvzion.club##.notification
 twitch.tv##.side-info-container:has(:scope button:has-text(Sign up))
 twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(:scope a[href^="/directory/game/"]))
 twitter.com##[data-testid="primaryColumn"] [data-testid="trend"][role="link"]:has(:scope svg + span:has-text(Dipromosikan oleh)):upward(2)
@@ -1109,7 +1058,6 @@ userstyles.org###top_android_button
 utorrent.com##.ga-et
 
 vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
-vev.io##.vjs-info-button
 vice.com##.article-heading-v2__social-link
 videohelp.com###mobilebanner
 viva.co.id##.article-share-socmed
@@ -1186,9 +1134,6 @@ ymovies.*###err2019
 ymovies.*###topplayer
 ymovies.*##div[itemprop="video"] > div:not(#page_effect)
 youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
-youtube.com###alert-banner
-youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
-youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
 youtubedownload.minitool.com##.article-share-wrap
 youtubedownload.minitool.com###usercomment-280
 yts.am##.rating-row

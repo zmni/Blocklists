@@ -11,4 +11,4 @@ streamgoals.com#$#.panel-body { padding: unset !important; }
 streamgoals.com#$#main { padding-top: 47px !important; }
 streamgoals.com#$##header { border-bottom-color: #000 !important; }
 
-streamgoals.com###controls .casino, .free, .spins, .stsbet, .vjs-overlay, [class*=cool-stuff], [href^="https://streamgoals.com/bukmacher/r/"]
+streamgoals.com###controls .casino, .free, .spins, .stsbet, .vjs-overlay, div[class*=cool-stuff], a[href^="https://streamgoals.com/bukmacher/r/"]

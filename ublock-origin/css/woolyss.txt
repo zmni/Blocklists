@@ -21,3 +21,5 @@ chromium.woolyss.com#$##comments .each:target { background-color: #3c3c3c !impor
 chromium.woolyss.com#$##comments #comment-1 { background-color: #2d2d2d !important; }
 chromium.woolyss.com#$##comments .content { color: #c3c3c3 !important; }
 chromium.woolyss.com#$#.f, .f:hover, .f:focus { background-color: #3c3c3c !important; border-color: #000 !important; color: inherit !important; }
+
+chromium.woolyss.com###comments, #comments + br, #f, #fm, .nav > li:has(> a[href="#comments"])

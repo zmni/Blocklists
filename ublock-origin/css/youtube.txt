@@ -15,3 +15,8 @@ youtube.com#$#ytd-watch[theater] #player.ytd-watch { max-height: calc(100vh - va
 
 ! left content full width
 youtube.com#$#ytd-watch-flexy[flexy_][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy_][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy { max-width: none !important; }
+
+! hide stuffs
+youtube.com###alert-banner
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis

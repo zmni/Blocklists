@@ -1,0 +1,12 @@
+animeindo.cc#$##container { margin-top: unset !important; max-width: 1170px !important; }
+animeindo.cc#$##infoarea { padding-top: unset !important; }
+animeindo.cc#$#.lstepsiode ul, #infoarea .mCustomScrollBox { max-height: unset !important; }
+animeindo.cc#$##sidebar .widgets ul.genre, ul.genre > .mCustomScrollBox { max-height: 1120px !important; }
+animeindo.cc#$#.plyexpand { display: block !important; padding-bottom: calc(56.25% + 46px) !important; width: 100% !important; }
+animeindo.cc#$#.player-area { position: absolute !important; top: 0 !important; width: 100% !important; }
+animeindo.cc#$#.player-area.expnd { margin-bottom: unset !important; margin-top: unset !important; }
+animeindo.cc#$#.player-area.expnd #embed_holder { padding: unset !important; }
+animeindo.cc#$#.info_episode .lm .sbdbti { border-bottom: unset !important; margin-bottom: unset !important; padding-bottom: unset !important; }
+animeindo.cc#$#.info_episode .epx { margin-bottom: unset !important; }
+
+animeindo.cc##.info_episode, .info_episode .year, .comments

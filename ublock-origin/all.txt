@@ -12,9 +12,12 @@
 
 !#include injeksi-js.txt
 
-!#include css/all.txt
+!#include css/0all.txt
+!#include css/9anime.txt
+!#include css/anime8.txt
 !#include css/animefillerlist.txt
 !#include css/animeflix.txt
+!#include css/animeindo.txt
 !#include css/bolanet.txt
 !#include css/clippituser.txt
 !#include css/gogoanime.txt
