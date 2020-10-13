@@ -638,26 +638,6 @@ nanime.*##.content-item:has(> .post-title:has-text(Live Action))
 nanime.*##.iklan-header-item
 nanime.*##img[alt="BandarQ"]
 nanime.*##img[title="EnjoyQQ"]
-neonime.*##.box_item_berlangganan
-neonime.*##.comentarios
-neonime.*##.cover
-neonime.*##.fb-page
-neonime.*##.link-download
-neonime.*##.link-download ~ *
-neonime.*##.navplayer2 > span.tiplayer
-neonime.*##.navtv.idTabs
-neonime.*##.pasang-langganan-body
-neonime.*##.skl
-neonime.*##.small-menu-bantuan
-neonime.*##.tampilan_tambahan
-neonime.*##.tool-container
-neonime.*##.tvsocial
-neonime.*##[class^="donate-"]
-neonime.*###backdrops
-neonime.*###button-neonime-bot
-neonime.*###series .ladoB .central h2.css3:has-text(Comments)
-neonime.*###streaming > h2
-neonime.*##body > .tool-container
 netflixlife.com##.header-billboard
 netflixlife.com###top-stories > li:has(> .fs_ad_widget-ad:only-child)
 netflixlife.com###tps-ad-slot
