@@ -786,31 +786,6 @@ ranker.com##span[class^="title_shareContainer"]
 ranker.com##ul[class^="gridView_main"] > li:not([class]):not([role="link"])
 rawmusictv.com##.affiliate-footer-ad-w
 rawmusictv.com##ins:upward(1)
-reddit.com##.ad-container
-reddit.com##.ad-container:upward(.spacer)
-reddit.com##.give-gold-button
-reddit.com##.goldvertisement:upward(.spacer)
-reddit.com##.HomeAds.SidebarAd:upward(div[data-redditstyle="true"])
-reddit.com##.listingsignupbar
-reddit.com##.onboardingbar
-reddit.com##.premium-banner
-reddit.com##.premium-banner-outer
-reddit.com##.premium-banner-outer:upward(.spacer)
-reddit.com##.scrollerItem:has(:scope a[href^="/rpan/"]):upward(2)
-reddit.com##[data-click-id="share"]
-reddit.com##[id$="-share-menu"]
-reddit.com##[role="menuitem"]#focus-Coins
-reddit.com##[role="menuitem"]#focus-DailyCharts
-reddit.com##[role="menuitem"]#focus-PublicAccessNetwork
-reddit.com##[role="menuitem"]#focus-Premium
-reddit.com###COIN_PURCHASE_DROPDOWN_ID
-reddit.com###COIN_PURCHASE_DROPDOWN_ID:upward(1)
-reddit.com###ecb
-reddit.com###MULTIREDDIT_TOP_BAR_SHARE
-reddit.com###uapp-banner:upward(1)
-reddit.com##a.redesign-beta-optin
-reddit.com##button:has(> span:has-text(Give Award))
-reddit.com##svg + div > div:has-text(Reddit Premium):upward(5)
 reelgood.com##button:has-text(Share)
 reelgood.com##div:has(> div:only-child > button:has-text(Share))
 reelgood.com##img[alt="Share icon"]

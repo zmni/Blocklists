@@ -1,0 +1,33 @@
+! OLD
+reddit.com#$#.side { margin: unset !important; padding-left: 10px !important; padding-right: 10px !important; width: 350px !important; }
+reddit.com#$#.content[role="main"] { border-right: 1px solid #ccc !important; margin-right: 370px !important; }
+reddit.com#$#.link { margin-bottom: 10px !important; }
+reddit.com#$#.flairrichtext { margin-top: -4px !important; }
+reddit.com#$#.panestack-title, .commentarea .menuarea, .usertext-edit { margin-right: 10px !important; }
+reddit.com#$#div.usertext-edit { width: auto !important; max-width: none !important; }
+reddit.com#$#.markdownEditor-wrapper { width: auto !important; }
+reddit.com#$#.md { max-width: none !important; }
+reddit.com#$#.usertext-edit textarea { width: 100% !important; }
+! NEW
+reddit.com#$#.scrollerItem a[href^="/r/"] > [style^="--posttitletextcolor:"] > h3 { font-size: 1.15rem !important; }
+reddit.com#$#.scrollerItem svg[id^="PostBadges--Mod"], .scrollerItem i[id^="PostBadges--Archived"] { margin-top: 4px !important; }
+reddit.com#$#.scrollerItem i[id^="PostBadges--Archived"] { width: 12px !important; height: 12px !important; line-height: 12px !important; }
+reddit.com#$#.scrollerItem i[id^="PostBadges--Lock"] { margin-top: 2px !important; }
+reddit.com#$#.scrollerItem i[id^="PostBadges--Sticky"] { margin-top: 3px !important; }
+reddit.com#$#.ListingLayout-outerContainer img[src^="https://www.redditstatic.com/custom_feeds/"] { height: 48px !important; width: 48px !important; }
+reddit.com#$#button[id^="subscribe-button-"] { display: none !important; }
+reddit.com#$#button[id^="subscribe-button-"] > svg { height: 10px !important; width: 10px !important; }
+! RES
+reddit.com#$#.res-media-independent.res-media-independent { position: relative !important; }
+reddit.com#$#.res-image-media.res-image-media { max-width: 100% !important; }
+! HIDE
+reddit.com##.ad-container, .ad-container:upward(.spacer)
+reddit.com##.give-gold-button, .goldvertisement:upward(.spacer)
+reddit.com##.HomeAds.SidebarAd:upward(div[data-redditstyle="true"])
+reddit.com##.listingsignupbar, .onboardingbar
+reddit.com##.premium-banner, .premium-banner-outer, .premium-banner-outer:upward(.spacer)
+reddit.com##.scrollerItem:has(:scope a[href^="/rpan/"]):upward(2)
+reddit.com##[data-click-id="share"], [id$="-share-menu"]
+reddit.com###focus-Coins[role="menuitem"], #focus-DailyCharts[role="menuitem"], #focus-PublicAccessNetwork[role="menuitem"], #focus-Premium[role="menuitem"]
+reddit.com###COIN_PURCHASE_DROPDOWN_ID, #COIN_PURCHASE_DROPDOWN_ID:upward(1), #ecb, #MULTIREDDIT_TOP_BAR_SHARE, #uapp-banner:upward(1)
+reddit.com##a.redesign-beta-optin, button:has(> span:has-text(Give Award)), svg + div > div:has-text(Reddit Premium):upward(5)
