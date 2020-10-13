@@ -1,0 +1,12 @@
+nontonplus.com#$#:root { --width: 1170px !important; }
+nontonplus.com#$#body { background-color: #000 !important; }
+nontonplus.com#$#header { position: static !important; }
+nontonplus.com#$##main#main { padding-top: 0 !important; }
+nontonplus.com#$#.page-detail .pad { height: 23px !important; }
+nontonplus.com#$#.movies-list-wrap .ml-title span { padding: 0 10px !important; }
+nontonplus.com#$#.movies-list-wrap .ml-title .nav-tabs li a { padding: 0 5px !important; }
+nontonplus.com#$##mv-info .mvi-content .mvic-desc { margin-right: 0 !important; padding-right: 0 !important; width: 970px !important; }
+nontonplus.com#$#.main-detail { width: var(--width) !important; }
+nontonplus.com#$#.movieplay.movieplay { height: calc(var(--width) * 9 / 16) !important; }
+! HIDE
+nontonplus.com###bread, #bar-player, #commentfb, #mv-keywords, .menu-item-96, .menu-item-100, .menu-item-11512, .mvic-btn, .mlw-related, .tvseason .les-content a:hover::before
