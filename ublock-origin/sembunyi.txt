@@ -143,8 +143,6 @@ azm.to,azmovie.to##body > center:first-child:has(> .alert-blue)
 
 bakabuzz.com##.adace-slot-wrapper
 bakabuzz.com##.adace-slideup-slot-wrap
-bestsimilar.com##.ssk-sticky
-bestsimilar.com###privacy-fixed-bottom
 bhinneka.com##.banner
 bhinneka.com##.banner-rounded
 bhinneka.com##.banner-small

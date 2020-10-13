@@ -18,6 +18,7 @@
 !#include css/animefillerlist.txt
 !#include css/animeflix.txt
 !#include css/animeindo.txt
+!#include css/bestsimilar.txt
 !#include css/bolanet.txt
 !#include css/clippituser.txt
 !#include css/gogoanime.txt
