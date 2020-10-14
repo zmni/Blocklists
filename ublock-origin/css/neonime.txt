@@ -8,5 +8,7 @@ neonime.*#$#.navplayer2 ul.player2ul li.mainer a { display: block !important; te
 neonime.*#$#.navplayer2 ul.player2ul li.mainer ul { border: 1px solid #1e222b !important; top: auto !important; bottom: 37px !important; padding-bottom: unset !important; width: auto !important; }
 neonime.*#$#.navplayer2 ul.player2ul li.mainer ul li { border: 1px solid #1e222b !important; box-sizing: border-box !important; width: calc(100% / 3) !important; }
 neonime.*#$#.navplayer2 ul.player2ul li.mainer:hover > a { background-color: #3a9356 !important; }
-! HIDE
-neonime.*##body > .tool-container, #backdrops, #button-neonime-bot, #series .ladoB .central h2.css3:has-text(Comments), #streaming > h2, .box_item_berlangganan, .comentarios, .cover, .fb-page, .link-download, .link-download ~ *, .navplayer2 > span.tiplayer, .navtv.idTabs, .pasang-langganan-body, .skl, .small-menu-bantuan, .tampilan_tambahan, .tool-container, .tvsocial, [class^="donate-"]
+
+neonime.*###series .ladoB .central h2.css3:has-text(Comments)
+
+neonime.*##body > .tool-container, #backdrops, #button-neonime-bot, #streaming > h2, .box_item_berlangganan, .comentarios, .cover, .fb-page, .link-download, .link-download ~ *, .navplayer2 > span.tiplayer, .navtv.idTabs, .pasang-langganan-body, .skl, .small-menu-bantuan, .tampilan_tambahan, .tool-container, .tvsocial, [class^="donate-"]

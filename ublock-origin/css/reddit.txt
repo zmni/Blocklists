@@ -24,10 +24,11 @@ reddit.com#$#.res-image-media.res-image-media { max-width: 100% !important; }
 reddit.com##.ad-container, .ad-container:upward(.spacer)
 reddit.com##.give-gold-button, .goldvertisement:upward(.spacer)
 reddit.com##.HomeAds.SidebarAd:upward(div[data-redditstyle="true"])
-reddit.com##.listingsignupbar, .onboardingbar
+reddit.com##.listingsignupbar, .onboardingbar, a.redesign-beta-optin
 reddit.com##.premium-banner, .premium-banner-outer, .premium-banner-outer:upward(.spacer)
 reddit.com##.scrollerItem:has(:scope a[href^="/rpan/"]):upward(2)
 reddit.com##[data-click-id="share"], [id$="-share-menu"]
+reddit.com###COIN_PURCHASE_DROPDOWN_ID, #COIN_PURCHASE_DROPDOWN_ID:upward(1), #MULTIREDDIT_TOP_BAR_SHARE, #ecb, #uapp-banner:upward(1)
 reddit.com###focus-Coins[role="menuitem"], #focus-DailyCharts[role="menuitem"], #focus-PublicAccessNetwork[role="menuitem"], #focus-Premium[role="menuitem"]
-reddit.com###COIN_PURCHASE_DROPDOWN_ID, #COIN_PURCHASE_DROPDOWN_ID:upward(1), #ecb, #MULTIREDDIT_TOP_BAR_SHARE, #uapp-banner:upward(1)
-reddit.com##a.redesign-beta-optin, button:has(> span:has-text(Give Award)), svg + div > div:has-text(Reddit Premium):upward(5)
+reddit.com##button:has(> span:has-text(Give Award))
+reddit.com##svg + div > div:has-text(Reddit Premium):upward(5)
