@@ -1,7 +1,6 @@
 ! Title: AdFilters
 ! Expires: 4 days
 
-!#include blokir-0.txt
 !#include blokir-a.txt
 !#include blokir-p1.txt
 !#include blokir-p3.txt
