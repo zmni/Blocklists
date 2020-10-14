@@ -1,4 +1,4 @@
-news.ycombinator.com#$#body { background-color: #1e1e1e !important; color: #c3c3c3 !important; }
+news.ycombinator.com#$#html, body { background-color: #1e1e1e !important; color: #c3c3c3 !important; }
 news.ycombinator.com#$#textarea { background-color: #a5a5a5 !important; }
 news.ycombinator.com#$#input[type="text"] { background-color: #2d2d2d !important; border: 1px solid #000 !important; color: #c3c3c3 !important; }
 news.ycombinator.com#$#input[type="submit"] { background-color: #878787 !important; border: 1px solid #a5a5a5 !important; color: #fff !important; cursor: pointer !important; }
