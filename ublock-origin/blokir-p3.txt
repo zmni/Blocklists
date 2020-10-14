@@ -4,7 +4,6 @@
 ||canny.io^$3p
 ||crisp.chat^$3p
 ||dec.azureedge.net^$3p
-||disqus.com^$3p
 ||g.jwpsrv.com^$3p
 ||ga.googlevideo.io^$3p
 ||iamcdn.net^$3p
