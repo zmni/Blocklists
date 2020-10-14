@@ -24,5 +24,7 @@ anime8.ru#$##media-player::before { content: "" !important; display: block !impo
 anime8.ru#$##list-eps .le-server .les-content { display: flex !important; flex-wrap: wrap !important; }
 anime8.ru#$##list-eps .le-server .les-content .btn-eps { flex-grow: 0 !important; flex-basis: calc(100% / 13 - 10px) !important; width: calc(100% / 13 - 10px) !important; }
 
-anime8.ru##.movies-list > .ml-item:has-text((Dub)), .search-suggest > ul > li:has-text((Dub))
+anime8.ru##.movies-list > .ml-item:has(:scope .mli-info h2:has-text((Dub)))
+anime8.ru##.search-suggest > ul > li:has-text((Dub))
+
 anime8.ru###bar-player, #bread, #bread + center, #btnShowComments, #mv-keywords, #switch-mode, .alert, .footer-tags, .pad, #nav > p, .mvic-btn, .mv-rating, .movies-list-wrap .ml-title + p.full
