@@ -864,7 +864,7 @@ stackoverflow.com##.js-product-notice
 stackoverflow.com###answers > .bottom-notice
 stackoverflow.com###answers > .s-notice
 stackoverflow.com###answers > #post-form
-stackoverflow.com###answers > a[name="new-answer"],
+stackoverflow.com###answers > a[name="new-answer"]
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com###post-form
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])

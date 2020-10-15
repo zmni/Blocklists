@@ -13,7 +13,7 @@ torrentz.*#$#div.results, div.downurls, div.downurls > p, div.trackers, div.trac
 torrentz.*#$#div.results > h3 { background-color: #1e1e1e !important; border-bottom-color: #0f0f0f !important; }
 torrentz.*#$#div.results > dl, div.downurls > dl, div.trackers > dl { background-color: #0f0f0f !important; border-bottom-color: #000 !important; }
 torrentz.*#$#div.downurls > dl > dd { background-color: transparent !important; }
-torrentz.*#$#div.downurls > dl > dt > a { color: #878787 !important !important; }
+torrentz.*#$#div.downurls > dl > dt > a { color: #878787 !important; }
 torrentz.*#$#div.downurls > dl > dt > a:hover { background-color: #1e1e1e !important; }
 torrentz.*#$#div.downurls > p, div.trackers > p { border-top-color: #0f0f0f !important; }
 torrentz.*#$#div.trackers > h2, div.files > h2 { border-bottom-color: #0f0f0f !important; }
