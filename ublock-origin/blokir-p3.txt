@@ -37,7 +37,7 @@
 ||topddl.net/images/*.gif$image,3p
 ||vimeocdn.com^*/player-stats$3p
 ||vox-cdn.com/ad-whitelist-html/$3p
-||w.org^*/emoji/$image,3p
+||w.org/images/core/emoji/$image,3p
 ||wix.com/_api/blog-social-counters/$3p
 ||yimg.com/oa/consent.js$script,3p
 
