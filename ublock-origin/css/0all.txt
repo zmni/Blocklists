@@ -102,6 +102,8 @@ pornhub.com#$#header { padding-bottom: 0 !important; }
 portablefreeware.com#$#body { background-image: none !important; }
 www.privacytools.io#$#.container { max-width: none !important; }
 mail.protonmail.com#$#.pm_panel.alt { margin-top: 4rem !important; }
+mail.protonmail.com#$##pm_login, #pm_loginTwoFactor { margin-top: 2rem !important; }
+mail.protonmail.com#$#.pm_form .pm_select { -webkit-box-shadow: none !important; box-shadow: none !important; }
 
 quora.com#$#.continue_reading_wrapper_logged_out .gradient_wrapper { background-image: none !important; }
 

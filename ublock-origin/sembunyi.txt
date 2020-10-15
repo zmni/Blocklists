@@ -743,6 +743,7 @@ producthunt.com##[class^="postsList_"] > li:has(:scope a[class^="promotedBadgeLi
 producthunt.com##[class^="postsList_"] > li:has(:scope a[href^="/promoted-products"])
 producthunt.com##[class^="share_"]
 pscp.tv##.ShareBroadcast
+mail.protonmail.com##.navigation-upgrade-item
 
 qt.io##.b-article__share-footer
 
@@ -857,11 +858,13 @@ sportlivetv.net##a[href*="bit.ly"]
 sportlivetv.net##a[rel="nofollow"]
 sportlivetv.net##li[class*=cool-stuff]
 sportsvideo.net##.hdbutt
-stackexchange.com##.everyonelovesstackoverflow
-stackexchange.com##.js-dismissable-hero
-stackoverflow.com##.everyonelovesstackoverflow
-stackoverflow.com##.js-dismissable-hero
+stackoverflow.com,stackexchange.com##.everyonelovesstackoverflow
+stackoverflow.com,stackexchange.com##.js-dismissable-hero
 stackoverflow.com##.js-product-notice
+stackoverflow.com###answers > .bottom-notice
+stackoverflow.com###answers > .s-notice
+stackoverflow.com###answers > #post-form
+stackoverflow.com###answers > a[name="new-answer"],
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com###post-form
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
