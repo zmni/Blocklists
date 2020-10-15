@@ -7,6 +7,7 @@ reddit.com#$#.panestack-title, .commentarea .menuarea, .usertext-edit { margin-r
 reddit.com#$#div.usertext-edit { width: auto !important; max-width: none !important; }
 reddit.com#$#.markdownEditor-wrapper { width: auto !important; }
 reddit.com#$#.md { max-width: none !important; }
+reddit.com#$#.md code { white-space: normal !important; }
 reddit.com#$#.usertext-edit textarea { width: 100% !important; }
 ! NEW
 reddit.com#$#.scrollerItem a[href^="/r/"] > [style^="--posttitletextcolor:"] > h3 { font-size: 1.15rem !important; }
