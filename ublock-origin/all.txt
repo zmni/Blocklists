@@ -23,7 +23,6 @@
 !#include css/clippituser.txt
 !#include css/fmovies.txt
 !#include css/gogoanime.txt
-!#include css/hackernews.txt
 !#include css/kbbi.txt
 !#include css/listverse.txt
 !#include css/neonime.txt
