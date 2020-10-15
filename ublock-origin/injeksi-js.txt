@@ -74,6 +74,7 @@ heidisql.com##+js(remove-attr, /data-(gevent|gaction|glabel)/)
 heidisql.com##+js(set-constant, jQueryAvailable, falseFunc)
 heidisql.com##+js(no-setTimeout-if, console.log('Blocking ads detected'), 2000)
 hentaihaven.org##+js(abort-current-inline-script, BetterJsPop)
+honeysanime.com##+js(remove-attr, onclick, a)
 howtogeek.com##+js(abort-current-inline-script, showEmail)
 howtogeek.com##+js(addEventListener-defuser, DOMContentLoaded, adsenseLoader)
 

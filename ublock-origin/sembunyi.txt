@@ -404,7 +404,6 @@ hentaistream.com##.skin-hold
 hentaistream.com##[id^="adx_ad-"]
 hentaistream.com###socialPages
 hentaistream.com##div:has(> .skin-hold)
-honeysanime.com##a[onclick^="ga"]
 honeysanime.com##body > .flexbox > div:not(.wpi-box)
 howtogeek.com##.adslot
 howtogeek.com##.social-media-buttons
