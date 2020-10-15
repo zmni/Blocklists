@@ -12,4 +12,8 @@ streamvi.com#$#section { padding: 0 !important; }
 streamvi.com#$#body > .container { padding-top: 40px !important; }
 streamvi.com#$#main > .container > .row > .col-12 > .row > .col-lg-8 { flex: 0 0 100% !important; max-width: 100% !important; }
 
-streamvi.com##.footer, .d-none.d-lg-block, style + .bs-linebreak, center > a[target="_blank"]
+! HIDE
+streamvi.com##.d-none.d-lg-block
+streamvi.com##.footer
+streamvi.com##center > a[target="_blank"]
+streamvi.com##style + .bs-linebreak

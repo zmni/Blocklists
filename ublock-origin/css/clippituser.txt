@@ -12,4 +12,7 @@ clippituser.tv#$#.container::after { clear: both !important; content: "" !import
 clippituser.tv#$#.container .card-container { max-width: none !important; }
 clippituser.tv#$#.card { border: 0 !important; padding: 0 !important; }
 
-clippituser.tv##.download, .similar-container, .card > *:not(.video)
+! HIDE
+clippituser.tv##.card > :not(.video)
+clippituser.tv##.download
+clippituser.tv##.similar-container

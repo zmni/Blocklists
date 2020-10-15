@@ -6,4 +6,8 @@ playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com#$#.jw-captions {
 playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com#$#.jw-text-track-display { top: auto !important; bottom: 0 !important; }
 playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com#$##vplayer .jw-video::cue, #vplayer .jw-text-track-cue { text-shadow: 0 0 1px rgba(0,0,0,1) !important; }
 
-playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com###adbd, #header, #container > :not(#video-content), #play_limit_box
+! HIDE
+playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com###adbd
+playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com###container > :not(#video-content)
+playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com###header
+playvidto.com,vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com###play_limit_box

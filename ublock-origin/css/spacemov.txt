@@ -4,4 +4,13 @@ spacemov.cc#$#.page-detail { padding-top: 0 !important; }
 spacemov.cc#$#.movies-list-wrap .ml-title { margin-top: 20px !important; margin-bottom: 0 !important; }
 spacemov.cc#$#.cat-more { margin-top: 4px !important; }
 
-spacemov.cc###bread + p.aligncenter, #bread, #mv-keywords, #switch-mode, .alert, .ann-home, .footer-tags, .mv-rating, .page-detail + .text-center.text-bottom
+! HIDE
+spacemov.cc##.alert
+spacemov.cc##.ann-home
+spacemov.cc##.footer-tags
+spacemov.cc##.mv-rating
+spacemov.cc##.page-detail + .text-center.text-bottom
+spacemov.cc###bread
+spacemov.cc###bread + p.aligncenter
+spacemov.cc###mv-keywords
+spacemov.cc###switch-mode

@@ -17,6 +17,7 @@
 ||facebook.*^$all
 ||fmax.xyz^$all
 ||henry-loieurope.xyz^$all
+||howtubray.com^$all
 ||iupot.com^$all
 ||jogdosoaf.com^$all
 ||metrika.lookmovie.ag^$all

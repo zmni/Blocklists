@@ -6,4 +6,5 @@ tvzion.club#$#.section-watch > div:last-child { background-color: #000 !importan
 tvzion.club#$#a.uploads { border-top-color: #3c3c3c !important; color: #c3c3c3 !important; }
 tvzion.club#$#.mark, mark { background-color: #3c3c3c !important; color: #c3c3c3 !important; }
 
+! HIDE
 tvzion.club##.notification

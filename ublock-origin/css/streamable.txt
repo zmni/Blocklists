@@ -4,4 +4,14 @@ streamable.com#$##player.container .content { background-color: transparent !imp
 streamable.com#$##player.container .content { max-width: none !important; }
 streamable.com#$##media-container, #player.container #filler { max-width: calc(100vh * 16 / 9) !important; }
 
-streamable.com###everything-but-video, .leftbanner, .rightbanner, .rightbanner-container, .topbanner, .bottombanner, .stickypush, .stickyfooter, div[id^="cdm-zone-"], div[style="height:15px;"]
+! HIDE
+streamable.com##.bottombanner
+streamable.com##.leftbanner
+streamable.com##.rightbanner
+streamable.com##.rightbanner-container
+streamable.com##.stickyfooter
+streamable.com##.stickypush
+streamable.com##.topbanner
+streamable.com###everything-but-video
+streamable.com##div[id^="cdm-zone-"]
+streamable.com##div[style="height:15px;"]

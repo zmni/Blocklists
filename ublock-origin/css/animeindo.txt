@@ -9,4 +9,7 @@ animeindo.cc#$#.player-area.expnd #embed_holder { padding: unset !important; }
 animeindo.cc#$#.info_episode .lm .sbdbti { border-bottom: unset !important; margin-bottom: unset !important; padding-bottom: unset !important; }
 animeindo.cc#$#.info_episode .epx { margin-bottom: unset !important; }
 
-animeindo.cc##.info_episode, .info_episode .year, .comments
+! HIDE
+animeindo.cc##.comments
+animeindo.cc##.info_episode
+animeindo.cc##.info_episode .year

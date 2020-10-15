@@ -16,5 +16,17 @@ gogoanime.*#$#ul#episode_page { clear: both !important; float: none !important; 
 gogoanime.*#$#ul#episode_page li { float: none !important; }
 gogoanime.*#$#.anime_info_body img { width: 240px !important; }
 
+! HIDE
+gogoanime.*##.ad
+gogoanime.*##.anime_video_body_comment_name
+gogoanime.*##.anime_video_note_watch
+gogoanime.*##.content_right
+gogoanime.*##.download-anime
+gogoanime.*##.favorites_book
+gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
 gogoanime.*##.items > li:has(:scope .name:has-text((Dub)))
-gogoanime.*###announcement, .ad, .anime_video_body_comment_name, .headnav_center:has(> .anime_name.adsverting), .rsidebar, .anime_video_note_watch, .content_right, .download-anime, .favorites_book, .menu_top_link, a[href^="https://vidstreaming.io/download?"]
+gogoanime.*##.menu_top_link
+gogoanime.*##.menu_top_link
+gogoanime.*##.rsidebar
+gogoanime.*###announcement
+gogoanime.*##a[href^="https://vidstreaming.io/download?"]

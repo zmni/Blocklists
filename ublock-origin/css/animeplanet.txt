@@ -1,14 +1,19 @@
 anime-planet.com#$#:root { --color-theme: #08f !important; --color-theme-m: #c60 !important; --color-text: #c3c3c3 !important; --color-text--inverted: #0f0f0f !important; --color-heading: var(--color-text) !important; --color-link: var(--color-theme) !important; --color-link--hover: #f0f0f0 !important; --color-link-selected: #f0f0f0 !important; --color-border: #2d2d2d !important; --color-button: #2d2d2d !important; --site-background: #0f0f0f !important; --site-background--inverted: #c3c3c3 !important; --callout-background: #1e1e1e !important; --overlay-background: #1e1e1e !important; --color-input-bg: #2d2d2d !important; --color-input-text: var(--color-text) !important; --input-boxshadow: #2d2d2d !important; --color-autocomplete-bg: #2d2d2d !important; --color-card--background: #1e1e1e !important; --color-card--border: #0f0f0f !important; --color-card--subtitle: var(--color-text) !important; --color-card--title: var(--color-text) !important; --color-discussions-content--bg: #2d2d2d !important; --color-discussions-content-quote: #c3c3c3 !important; --color-discussions-content-separator: #2d2d2d !important; --color-macro-button-bg: #1e1e1e !important; --color-macro-button-text: var(--color-theme) !important; --color-review--content: #c3c3c3 !important; --color-review--date: #878787 !important; --color-tags-background: #1e1e1e !important; --color-username: #c3c3c3 !important; --advanced-filter-search--inputbg: #1e1e1e !important; --advanced-filter-search-pillfilter--background: #1e1e1e !important; --advanced-filter-search-pillfilter--border: var(--color-border) !important; --advanced-filter-search-pillbottle-pill--bg: #2d2d2d !important; --advanced-filter-search--showmore: var(--color-theme-m) !important; --border-style: 1px solid var(--color-border) !important; }
-
 anime-planet.com#$#.aka, .CharacterCard__action--old { color: #878787 !important; }
 anime-planet.com#$#.CharacterCard__actions--old { border-color: #3c3c3c !important; }
 anime-planet.com#$#.CharacterCard__action--old:nth-child(2) { border-left-color: #3c3c3c !important; }
 anime-planet.com#$#.user__profile_image { background: #1e1e1e !important; }
 anime-planet.com#$#.ShortReview__comments, .ShortReview__likes { color: #c3c3c3 !important; }
 anime-planet.com#$#.pillBottle .pill { border-color: #000 !important; }
-
 anime-planet.com#$#.tabs .tab, .pillFilters { border-radius: unset !important; }
 anime-planet.com#$#.pillFilters, .pillBottle { display: flex !important; align-items: center !important; }
 anime-planet.com#$#.pillBottle .pill { margin-bottom: unset !important; }
 
-anime-planet.com##.ad, .halo, .skyscraper, .statusArea, h1[itemprop="name"] + div[itemprop="description"], h1[itemprop="name"] + div[itemprop="description"] + p, p[itemprop="description"]
+! HIDE
+anime-planet.com##.ad
+anime-planet.com##.halo
+anime-planet.com##.skyscraper
+anime-planet.com##.statusArea
+anime-planet.com##h1[itemprop="name"] + div[itemprop="description"]
+anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
+anime-planet.com##p[itemprop="description"]

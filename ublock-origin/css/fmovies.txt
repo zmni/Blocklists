@@ -7,6 +7,19 @@ fmovies.*#$##watch #controls .items::after { clear: both !important; content: ""
 fmovies.*#$##watch #controls .items { display: flex !important; justify-content: center !important; }
 fmovies.*#$##watch #controls .items > div { margin-right: 5px !important; margin-bottom: unset !important; margin-left: 5px !important; }
 
+! HIDE
+fmovies.*##.alert
+fmovies.*##.filmlist .item .meta .type
 fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*##.nav
+fmovies.*##.notification
+fmovies.*##.rating
+fmovies.*##.tags
+fmovies.*##.tooltipster-content .actions
+fmovies.*##.watch-now
+fmovies.*###comment
 fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
-fmovies.*###watch .play::before, #watch .play::after, #watch #controls .share, #comment, .nav, .rating, .tags, .alert, .notification, .watch-now, .filmlist .item .meta .type, .tooltipster-content .actions, div[class*="addthis_inline_share_"]
+fmovies.*###watch .play::after
+fmovies.*###watch .play::before
+fmovies.*###watch #controls .share
+fmovies.*##div[class*="addthis_inline_share_"]

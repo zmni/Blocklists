@@ -13,4 +13,6 @@ tvseries.video#$##videoctn iframe, #videoctn object, #videoctn embed { width: 10
 tvseries.video#$#.stnextprev { display: flex !important; justify-content: space-between !important; height: unset !important; margin-right: -.75rem !important; margin-left: -.75rem !important; }
 tvseries.video#$#.stnextprev > a { flex: 0 1 48% !important; }
 
-tvseries.video##.mads, .fb-comments
+! HIDE
+tvseries.video##.fb-comments
+tvseries.video##.mads

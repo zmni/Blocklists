@@ -5,9 +5,12 @@
 9anime.*#$#aside.main, aside.sidebar { padding-top: var(--pt) !important; }
 9anime.*#$#.player-wrapper { position: absolute !important; top: 0 !important; width: var(--vw) !important; height: var(--vh) !important; }
 
+! HIDE
+9anime.*##.alert
 9anime.*##.anime-list > li:has(:scope .dub)
 9anime.*##.anime-list > li:has(:scope .preview)
 9anime.*##.anime-list > li:has(:scope .special)
 9anime.*##.anime-list > li:has(:scope .tag.ep:has-text(Preview))
-
-9anime.*## #comment, .alert, .tabs > [data-name="updated_dub"], section#info .tags
+9anime.*##.tabs > [data-name="updated_dub"]
+9anime.*###comment
+9anime.*##section#info .tags
