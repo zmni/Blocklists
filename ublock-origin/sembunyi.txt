@@ -956,10 +956,6 @@ tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item
 torrentfreak.com###tf-comments
-torrentz.*###recent
-torrentz.*##dd:has-text(Spónsored Link):upward(dl)
-torrentz.*##div.onToleratds
-torrentz.*##div.relatedqcont
 trakt.tv##.banner
 trakt.tv##.stats > li:has(> a[href$="/comments"])
 trakt.tv##[class*="hu-ck"]

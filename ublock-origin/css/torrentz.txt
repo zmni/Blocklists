@@ -1,0 +1,29 @@
+torrentz.*#$#* { border-radius: unset !important; }
+torrentz.*#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+torrentz.*#$#body a { color: #08c !important; }
+torrentz.*#$##top { background-color: #1e1e1e !important; }
+torrentz.*#$##top > ul > li { border-left-color: #000 !important; }
+torrentz.*#$#form.search { background-color: #1e1e1e !important; }
+torrentz.*#$#form.search > fieldset { height: unset !important; }
+torrentz.*#$#form.search #thesearchbox, form.search #thesearchbutton { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+torrentz.*#$#ul.autocomplete { background-color: #1e1e1e !important; border-color: #000 !important; }
+torrentz.*#$#ul.autocomplete > li { border-top-color: #3c3c3c !important; }
+torrentz.*#$#ul.autocomplete > li.selected { background-color: #2d2d2d !important; }
+torrentz.*#$#div.results, div.downurls, div.downurls > p, div.trackers, div.trackers > p, div.files, div.files > p { background-color: #1e1e1e !important; }
+torrentz.*#$#div.results > h3 { background-color: #1e1e1e !important; border-bottom-color: #0f0f0f !important; }
+torrentz.*#$#div.results > dl, div.downurls > dl, div.trackers > dl { background-color: #0f0f0f !important; border-bottom-color: #000 !important; }
+torrentz.*#$#div.downurls > dl > dd { background-color: transparent !important; }
+torrentz.*#$#div.downurls > dl > dt > a { color: #878787 !important !important; }
+torrentz.*#$#div.downurls > dl > dt > a:hover { background-color: #1e1e1e !important; }
+torrentz.*#$#div.downurls > p, div.trackers > p { border-top-color: #0f0f0f !important; }
+torrentz.*#$#div.trackers > h2, div.files > h2 { border-bottom-color: #0f0f0f !important; }
+torrentz.*#$#div.files ul { background-color: #0f0f0f !important; border-left-color: #3c3c3c !important; }
+torrentz.*#$#div.files li { color: #c3c3c3 !important; }
+torrentz.*#$#div.note { background-color: #1e1e1e !important; border-color: #000 !important; color: #878787 !important; }
+
+! HIDE
+torrentz.*###recent
+torrentz.*##dd:has-text(Spónsored Link):upward(dl)
+torrentz.*##div.cloud
+torrentz.*##div.onToleratds
+torrentz.*##div.relatedqcont
