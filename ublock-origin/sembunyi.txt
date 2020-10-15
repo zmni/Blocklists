@@ -329,13 +329,6 @@ flixgo.co##.footer__counter
 flixgo.co###dle-comments-form
 flixgo.net##a[href*=".com/ads?"]
 flixtor.to##[class^="contentList"] > .d-flex > .py-2:has(:scope .front .fa-video-camera.goldc)
-fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
-fmovies.*##.rating
-fmovies.*##.tags
-fmovies.*##.tooltipster-content .actions
-fmovies.*###comment
-fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
-fmovies.*##div[class*="addthis_inline_share_"]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
 footybite.com##a[href^="https://tracker-"]:upward(1)
 forbes.com##.ad-rail-container

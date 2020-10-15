@@ -1,0 +1,12 @@
+fmovies.*#$#.filmlist > .item { width: calc(100% / 7 - 1%) !important; }
+fmovies.*#$##watch { --vw: 1000px !important; }
+fmovies.*#$##watch .play { background-color: #000 !important; background-image: unset !important; }
+fmovies.*#$##watch .play .container { width: var(--vw) !important; }
+fmovies.*#$##watch #player { height: calc(100vh - 88px) !important; }
+fmovies.*#$##watch #controls .items::after { clear: both !important; content: "" !important; display: table !important; }
+fmovies.*#$##watch #controls .items { display: flex !important; justify-content: center !important; }
+fmovies.*#$##watch #controls .items > div { margin-right: 5px !important; margin-bottom: unset !important; margin-left: 5px !important; }
+
+fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
+fmovies.*###watch .play::before, #watch .play::after, #watch #controls .share, #comment, .nav, .rating, .tags, .alert, .notification, .watch-now, .filmlist .item .meta .type, .tooltipster-content .actions, div[class*="addthis_inline_share_"]

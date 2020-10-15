@@ -21,6 +21,7 @@
 !#include css/bestsimilar.txt
 !#include css/bolanet.txt
 !#include css/clippituser.txt
+!#include css/fmovies.txt
 !#include css/gogoanime.txt
 !#include css/hackernews.txt
 !#include css/kbbi.txt
