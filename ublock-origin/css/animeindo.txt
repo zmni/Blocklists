@@ -14,5 +14,5 @@ animeindo.cc##.comments
 animeindo.cc##.icon.comment
 animeindo.cc##.icon.shares
 animeindo.cc##.info_episode
-animeindo.cc##.info_episode .year
+animeindo.cc##.infoanime .rt
 animeindo.cc###breadcrumbs
