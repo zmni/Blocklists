@@ -18,5 +18,6 @@ animeindo.cc##.idTabs
 animeindo.cc##.info_episode
 animeindo.cc##.infoanime .rt
 animeindo.cc###breadcrumbs
+animeindo.cc###sidebar > .widgets:has(> .custom-html-widget > script[data-cfasync])
 animeindo.cc###synopsis
 animeindo.cc###trailer
