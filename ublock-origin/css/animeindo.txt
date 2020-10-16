@@ -7,6 +7,8 @@ animeindo.cc#$#.bigcontent .thumb { border-color: #0f0f0f !important; }
 animeindo.cc#$#.bigcontent .thumb img { display: block !important; }
 animeindo.cc#$#.lstepsiode ul, #infoarea .mCustomScrollBox { max-height: unset !important; }
 animeindo.cc#$##sidebar .widgets ul.genre, ul.genre > .mCustomScrollBox { max-height: 1120px !important; }
+animeindo.cc#$#.animepost .animposx .data { text-align: center !important; }
+animeindo.cc#$#.animepost .animposx .title { padding-top: .5em !important; }
 animeindo.cc#$#.plyexpand { display: block !important; padding-bottom: calc(56.25% + 46px) !important; width: 100% !important; }
 animeindo.cc#$#.player-area { position: absolute !important; top: 0 !important; width: 100% !important; }
 animeindo.cc#$#.player-area.expnd { margin-bottom: unset !important; margin-top: unset !important; }
