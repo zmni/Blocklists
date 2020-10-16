@@ -568,6 +568,8 @@ mashable.com###pathing-banner
 mashable.com###srvSlot
 mashable.com##div[class$="-boost-slot"]
 mashable.com##footer:has(> .article-shares-links)
+maslosoft.com##.awe-share
+maslosoft.com##.social-sharing-share-block
 meowstream.com##.site-branding
 metacritic.com##.sharing
 mmorpg.com##div[style]:not([class]):not([id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
