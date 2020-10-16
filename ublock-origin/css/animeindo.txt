@@ -16,7 +16,10 @@ animeindo.cc##.icon.comment
 animeindo.cc##.icon.shares
 animeindo.cc##.idTabs
 animeindo.cc##.info_episode
-animeindo.cc##.infoanime .rt
+animeindo.cc##.infox .desc
+animeindo.cc##.infox .mindesc
+animeindo.cc##.sosmed
+animeindo.cc##.thumbook > .rt
 animeindo.cc###breadcrumbs
 animeindo.cc###sidebar > .widgets:has(> .custom-html-widget > script[data-cfasync])
 animeindo.cc###synopsis
