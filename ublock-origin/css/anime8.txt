@@ -38,5 +38,5 @@ anime8.ru###bread
 anime8.ru###bread + center
 anime8.ru###btnShowComments
 anime8.ru###mv-keywords
-anime8.ru###nav > p
 anime8.ru###switch-mode
+anime8.ru##nav > p
