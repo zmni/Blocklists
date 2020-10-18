@@ -33,6 +33,8 @@ alternativeto.net##.app-list > .sponsored
 alternativeto.net##.app-list > li:has(:scope .note > strong:has-text(Discontinued))
 alternativeto.net##.app-list > li:has(> .share-buttons)
 alternativeto.net##.app-list > li:has(> noscript:only-child)
+alternativeto.net##.put-food-on-the-table
+alternativeto.net##.put-food-on-the-table + hr.subtle
 alternativeto.net##.banner
 anaboy.xyz##a[href^="https://statcounter.com"]
 android.izzysoft.de###amazon

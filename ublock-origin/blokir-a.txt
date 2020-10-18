@@ -1,3 +1,7 @@
+!! BLOKIR-A
+
+/wp-emoji$script
+
 !! BLOKIR-A: UMUM
 
 ||188bongda.com^$all
