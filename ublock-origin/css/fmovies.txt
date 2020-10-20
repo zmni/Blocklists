@@ -1,3 +1,4 @@
+fmovies.*#$#body.list #body > .container { margin-top: unset !important; }
 fmovies.*#$#.filmlist > .item { width: calc(100% / 7 - 1%) !important; }
 fmovies.*#$##watch { --vw: 1000px !important; }
 fmovies.*#$##watch .play { background-color: #000 !important; background-image: unset !important; }
@@ -22,4 +23,5 @@ fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Fr
 fmovies.*###watch .play::after
 fmovies.*###watch .play::before
 fmovies.*###watch #controls .share
+fmovies.*##body.list .bl > .heading > h1
 fmovies.*##div[class*="addthis_inline_share_"]

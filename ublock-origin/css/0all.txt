@@ -123,6 +123,8 @@ stackoverflow.com#$#pre { max-height: none !important; }
 subscene.com#$#body { background-image: none !important; }
 swatchseries.to#$##header { margin-top: 0 !important; }
 embed.streamx.*#$#body { background-color: #000 !important; color: #c3c3c3 !important; }
+isc.sans.edu#$##content > .wrapper { margin-right: unset !important }
+isc.sans.edu#$##chart > .highcharts-container > svg { width: 100% !important; }
 
 tempo.co#$#.container > main { padding-top: unset !important; }
 tempo.co#$#html { margin-top: 45px !important; }

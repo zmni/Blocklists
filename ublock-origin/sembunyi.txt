@@ -459,6 +459,7 @@ iogames.space##.banner-ad-contain
 iogames.space##.v2-adwrap-leaderboard
 iogames.space###HomeRectAdMod
 iogames.space###v2-impTopBanner
+isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
 
 jakartanotebook.com##.product-list:has(> .product-list__content > .stock--sold-out)
 jsfiddle.net##.twitterCont
@@ -850,6 +851,7 @@ solarmoviez.ru###top-content:has(> #like-home)
 soulreaperzone.com##.td-banner-wrap-full
 sourceforge.net##.projects > li.standard
 sourceforge.net##.sterling
+sourceforge.net###pg_dwnld #nels
 sourceforge.net###project-nel:has(> .nel > a[href*="/www/delivery/"])
 sourceforge.net###share-project-button
 sourceforge.net##a[data-open="psp-newsletter-modal"]
