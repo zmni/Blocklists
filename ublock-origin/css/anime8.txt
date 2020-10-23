@@ -13,6 +13,7 @@ anime8.ru#$#.movies-list .ml-item, .mlw-related .movies-list .ml-item { height: 
 anime8.ru#$#.movies-list .ml-item { width: calc((100% * 1 / 7) - 2%) !important; }
 anime8.ru#$#.movies-list .ml-item .ml-mask { background-color: #000 !important; height: 0 !important; padding-bottom: calc(100% * 4 / 3) !important; position: relative !important; }
 anime8.ru#$#.movies-list .ml-item .mli-thumb.mli-thumb { height: 100% !important; position: absolute !important; top: 0 !important; right: 0 !important; bottom: 0 !important; left: 0 !important; }
+anime8.ru#$#.movies-list .ml-item .mli-eps { z-index: 10 !important; }
 anime8.ru#$#.movies-list .ml-item .mli-info { background-image: linear-gradient(to top, #000, transparent) !important; }
 anime8.ru#$#.movies-list .ml-item .mli-info h2 { text-shadow: -1px -1px 2px #000, -1px -1px 2px #000 !important; }
 anime8.ru#$#img.thumb[src^="data:"] { visibility: collapse !important; }
