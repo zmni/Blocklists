@@ -35,7 +35,6 @@
 !#include css/streamja.txt
 !#include css/streamvi.txt
 !#include css/streamye.txt
-!#include css/thepiratebay.txt
 !#include css/torrentz.txt
 !#include css/tvseries.txt
 !#include css/tvzion.txt
