@@ -877,6 +877,9 @@ stackoverflow.com###answers > a[name="new-answer"]
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com###post-form
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
+store.steampowered.com##.discount_block .bundle_base_discount
+store.steampowered.com##.discount_block .discount_original_price
+store.steampowered.com##.discount_block .discount_pct
 streamanime.tv##.inContAdVid
 superuser.com##.everyonelovesstackoverflow
 superuser.com##.js-dismissable-hero

@@ -26,6 +26,7 @@
 ||jogdosoaf.com^$all
 ||metrika.lookmovie.ag^$all
 ||nomicidenti.top^$all
+||oodsauns.net^$all
 ||opsoomet.net^$all
 ||p3insight.de^$all
 ||peer5.com^$all

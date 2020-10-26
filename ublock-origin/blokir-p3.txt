@@ -51,6 +51,8 @@
 ||akm-static.ccmbg.com^$domain=ccm.net
 ||animeindo.*/wp-content/uploads/$script,domain=animeindo.*
 ||api.wikia.nocookie.net/*/wikia.php?controller=AdEngine$script,domain=fandom.com
+||cdn1muvix.xyz/cdn/down/*.jpg$xhr,domain=muvix.xyz
+||cdn2muvix.xyz/cdn/down/*.jpg$xhr,domain=muvix.xyz
 ||detik.net.id^*/detik.ads.$script,domain=detik.com
 ||detik.net.id^*/foot_fb.png$image,domain=detik.com
 ||detik.net.id^*/foot_insta.png$image,domain=detik.com
