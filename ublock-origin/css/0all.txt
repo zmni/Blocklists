@@ -1,5 +1,5 @@
 !! INJEKSI-CSS
-media.zat.im,libre.video,open.tube,tilvids.video,peertube.*#$##video-wrapper .video-js { height: calc(100vh - 50px) !important; max-width: none !important; }
+media.zat.im,libre.video,open.tube,peertube.*,tilvids.*#$##video-wrapper .video-js { height: calc(100vh - 50px) !important; max-width: none !important; }
 
 5movies.to#$#.content { float: none !important; width: auto !important; }
 5movies.to#$#.pagination { text-align: center !important; }

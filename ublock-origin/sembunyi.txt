@@ -33,9 +33,9 @@ alternativeto.net##.app-list > .sponsored
 alternativeto.net##.app-list > li:has(:scope .note > strong:has-text(Discontinued))
 alternativeto.net##.app-list > li:has(> .share-buttons)
 alternativeto.net##.app-list > li:has(> noscript:only-child)
+alternativeto.net##.banner
 alternativeto.net##.put-food-on-the-table
 alternativeto.net##.put-food-on-the-table + hr.subtle
-alternativeto.net##.banner
 anaboy.xyz##a[href^="https://statcounter.com"]
 android.izzysoft.de###amazon
 android.izzysoft.de###support_us
@@ -61,6 +61,7 @@ anilinkz.to##.gugol
 anilinkz.to##aside#rightside
 anilinkz.to##span:has(> [id*="_ad_native_"])
 anime-frost.com##.ssad-wrapper
+animeflix.io##.flex:has(> .v-alert:only-child)
 animehd47.com##.zbanner
 animehd47.com##.zmovies:has-text((Dub))
 animehub.ac##.sb-discordapp
@@ -105,6 +106,7 @@ animeku.tv##.bottomtitle+div[style]
 animeku.tv##.videoad
 animeku.tv##.videoads
 animeku.tv###mg-player-bar
+animepahe.com##.alert
 animepahe.com##.anime-cover
 animepahe.com##.cover-helper
 animerush.tv##.affi-add
@@ -606,6 +608,7 @@ myanimelist.net##.ad-skin-side-bg
 myanimelist.net##.ad-skin-side-outer
 myanimelist.net##.anime-detail-header-affiliate-dialog
 myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.banner-footer-anime-streaming
 myanimelist.net##.border_bottom:has(> div > div[style][data-height])
 myanimelist.net##.btn-affiliate
 myanimelist.net##.episode_list .episode-video
@@ -616,6 +619,7 @@ myanimelist.net##.icon-watch-pv
 myanimelist.net##.manga_store-pop-up.popup-background
 myanimelist.net##.news-list > :not(.news-unit)
 myanimelist.net##.news-unit:has(.tag-color-feature-advertorial)
+myanimelist.net##.social-login-block
 myanimelist.net##div[style]:not([class]):not([id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class]):not([id]):has(> div[style]:not([class]):not([id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
