@@ -1,15 +1,15 @@
 ! TEKS
-hn.algolia.com#$#.Dropdown_list li button, .SearchFilters, .Story_title a, .Story_comment { color: #c3c3c3 !important; }
-hn.algolia.com#$#.Dropdown_label { color: #969696 !important; }
+hn.algolia.com#$#html, body, .Dropdown_list li button, .SearchFilters, .Story_title a, .Story_comment, .Footer_list a { color: #c3c3c3 !important; }
+hn.algolia.com#$#.Dropdown_label, .Pagination_item button { color: #969696 !important; }
 hn.algolia.com#$#.Story_title .Story_link { color: #878787 !important; }
 hn.algolia.com#$#.Story_meta, .Story_meta a { color: #696969 !important; }
 hn.algolia.com#$#.Story_title a:focus, .Story_title a:hover { color: #f0f0f0 !important; }
 ! LATAR
 hn.algolia.com#$#.Dropdown_list, .Dropdown_list li button { background-color: #3c3c3c !important; }
-hn.algolia.com#$#.SearchFilters { background-color: #2d2d2d !important; }
-hn.algolia.com#$#.SearchResults { background-color: #1e1e1e !important; }
+hn.algolia.com#$#.SearchFilters, .Pagination { background-color: #2d2d2d !important; }
+hn.algolia.com#$#.SearchResults, .Pagination_item button { background-color: #1e1e1e !important; }
 ! BORDER
-hn.algolia.com#$#.Dropdown_label, .Dropdown_list { border-color: #000 !important; }
+hn.algolia.com#$#.Dropdown_label, .Dropdown_list, .Pagination_item button { border-color: #000 !important; }
 hn.algolia.com#$#.Dropdown_list li:not(:last-child) { border-bottom-color: #000 !important; }
 ! LAINNYA
 hn.algolia.com#$#.SearchHeader_search { padding-right: 16px !important; }
