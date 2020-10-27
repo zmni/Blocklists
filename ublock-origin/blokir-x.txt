@@ -69,6 +69,7 @@
 @@||cdnfile.info^$domain=vidstreaming.*
 @@||data.kemkes.go.id/data/api/analytics.json?$domain=data.kemkes.go.id
 @@||fonts.googleapis.com^$css,domain=ymovies.tv
+@@||gogocdn.net/files/gogo/img/favicon.ico$image,domain=gogoanime.*
 @@||googleusercontent.com^$image,xhr,domain=ymovies.tv
 @@||hcaptcha.com^$domain=ymovies.to
 @@||hxload.io/embed/$frame,domain=nontonplus.com
