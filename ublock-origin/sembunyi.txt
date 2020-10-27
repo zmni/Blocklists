@@ -385,7 +385,6 @@ gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
 goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
-gogoanime.*##body > div:has-text(bookmark)
 greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
 
