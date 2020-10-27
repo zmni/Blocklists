@@ -1,10 +1,10 @@
 click-elements-onload.js application/javascript
-(() => {
-    const selector = "{{1}}";
+(function () {
+    var selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
+    var click = function () {
+        var elements = document.querySelectorAll(selector);
+        for (var element of elements) {
             element.click();
         }
     };
@@ -16,12 +16,12 @@ click-elements-onload.js application/javascript
 })();
 
 click-elements-onready.js application/javascript
-(() => {
-    const selector = "{{1}}";
+(function () {
+    var selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
+    var click = function () {
+        var elements = document.querySelectorAll(selector);
+        for (var element of elements) {
             element.click();
         }
     };
@@ -33,14 +33,14 @@ click-elements-onready.js application/javascript
 })();
 
 set-cookie.js application/javascript
-(() => {
-    const data = "{{1}}";
+(function () {
+    var data = "{{1}}";
     if (data.indexOf("=") === -1) return;
     document.cookie = data;
 })();
 
 easy-set-cookie.js application/javascript
-(() => {
+(function () {
     var data = "{{1}}";
     var path = "{{2}}";
     var domain = "{{3}}";
@@ -65,18 +65,18 @@ easy-set-cookie.js application/javascript
 })();
 
 add-attr.js application/javascript
-(() => {
-    let selector = "{{1}}";
+(function () {
+    var selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    const name = "{{2}}";
+    var name = "{{2}}";
     if (name === "" || name === "{{2}}") return;
-    const value = "{{3}}";
+    var value = "{{3}}";
     if (value === "" || value === "{{3}}") return;
-    const setattr = () => {
+    var setattr = function () {
         try {
-            const nodes = document.querySelectorAll(selector);
-            for (const node of nodes) {
+            var nodes = document.querySelectorAll(selector);
+            for (var node of nodes) {
                 node.setAttribute(name, value);
             }
         } catch (ex) {}
@@ -89,13 +89,13 @@ add-attr.js application/javascript
 })();
 
 add-class.js application/javascript
-(() => {
-    const token = "{{1}}";
+(function () {
+    var token = "{{1}}";
     if (token === "" || token === "{{1}}") return;
-    const tokens = token.split(/\s*\|\s*/);
-    let selector = "{{2}}";
+    var tokens = token.split(/\s*\|\s*/);
+    var selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
-    const addclass = () => {
+    var addclass = function () {
         try {
             document.querySelector(selector).classList.add(...tokens);
         } catch (ex) {}
@@ -108,19 +108,19 @@ add-class.js application/javascript
 })();
 
 add-style.js application/javascript
-(() => {
-    const path = "{{1}}";
-    const locp = location.pathname.toLowerCase();
+(function () {
+    var path = "{{1}}";
+    var locp = location.pathname.toLowerCase();
     if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
-    let selector = "{{2}}";
+    var selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    const style = "{{3}}";
+    var style = "{{3}}";
     if (style === "" || style === "{{3}}") return;
-    const addstyle = () => {
+    var addstyle = function () {
         try {
-            const nodes = document.querySelectorAll(selector);
-            for (const node of nodes) {
+            var nodes = document.querySelectorAll(selector);
+            for (var node of nodes) {
                 node.style.cssText = style;
             }
         } catch (ex) {}
@@ -133,13 +133,13 @@ add-style.js application/javascript
 })();
 
 click-element-prevnext.js application/javascript
-(() => {
-    const path = "{{1}}";
-    const locp = location.pathname.toLowerCase();
+(function () {
+    var path = "{{1}}";
+    var locp = location.pathname.toLowerCase();
     if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
-    const prev = "{{2}}";
+    var prev = "{{2}}";
     if (prev === "" || prev === "{{2}}") return;
-    const next = "{{3}}";
+    var next = "{{3}}";
     if (next === "" || next === "{{3}}") return;
     document.addEventListener("keyup", (event) => {
         if (event.altKey && event.key === "b") {
@@ -151,16 +151,17 @@ click-element-prevnext.js application/javascript
 })();
 
 open-links-in-newtab.js application/javascript
-(() => {
-    let selector = "{{1}}";
+(function () {
+    var selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    const targetblank = () => {
+    var targetblank = function () {
         try {
-            const nodes = document.querySelectorAll(selector);
-            for (const node of nodes) {
-                if (node.href.indexOf(location.hostname) === -1) {
-                    node.setAttribute("target", "_blank");
+            var nodes = document.querySelectorAll(selector);
+            for (var node of nodes) {
+                if (node.href.indexOf(location.hostname) === -1 &&
+                    node.hasAttribute(target) === false) {
+                        node.setAttribute("target", "_blank");
                 }
             }
         } catch (ex) {}
@@ -173,13 +174,13 @@ open-links-in-newtab.js application/javascript
 })();
 
 window.scroll.js application/javascript
-(() => {
-    const path = "{{1}}";
-    const locp = location.pathname.toLowerCase();
+(function () {
+    var path = "{{1}}";
+    var locp = location.pathname.toLowerCase();
     if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
-    const ytop = "{{2}}";
+    var ytop = "{{2}}";
     if (ytop === "" || ytop === "{{2}}") return;
-    const scrolled = () => {
+    var scrolled = function () {
         window.scroll({
             left: 0,
             top: ytop,
