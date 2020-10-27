@@ -27,6 +27,8 @@
 ||d2srrzh48sp2nh.cloudfront.net/*/images/respond.proxy.gif$image,3p
 ||detik.net.id/libs/*/js/eyeota.js$3p
 ||discordapp.com/widget$frame,3p
+||disqus.com/count.js$script,3p
+||disqus.com/embed.js$script,3p
 ||escdn.co/ads/$important,3p
 ||gc.zgo.at/count.js$script,3p
 ||jsdelivr.net/npm/@widgetbot/$3p,script
@@ -57,7 +59,6 @@
 ||detik.net.id^*/foot_fb.png$image,domain=detik.com
 ||detik.net.id^*/foot_insta.png$image,domain=detik.com
 ||detik.net.id^*/foot_tw.png$image,domain=detik.com
-||disqus.com/embed.js$script,domain=9anime.*
 ||ga.animekisa.tv^$domain=animekisa.tv|hentaikisa.com|mangakisa.com
 ||imgur.com^$image,domain=streamvi.com
 ||l-stat.livejournal.net^$domain=livejournal.com
