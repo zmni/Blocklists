@@ -14,6 +14,8 @@ anime-planet.com#$#.pillBottle .pill { margin-bottom: unset !important; }
 anime-planet.com#$#.pagination li { padding: .5em 1em !important; }
 anime-planet.com#$#.pagination li > span { color: var(--color-text--dimmed) !important; }
 anime-planet.com#$#.pagination .prev span::before, .pagination .prev a::before { color: inherit !important; }
+anime-planet.com#$#h1[itemprop=name] { text-align: center !important; }
+anime-planet.com#$##siteContainer { padding-top: 54px !important; }
 
 ! HIDE
 anime-planet.com##.ad
