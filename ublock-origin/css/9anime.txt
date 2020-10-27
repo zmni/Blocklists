@@ -2,8 +2,11 @@
 9anime.*#$#.container { width: var(--cw) !important; max-width: var(--cw) !important; }
 9anime.*#$#.container::after { clear: both !important; content: "" !important; display: table !important; }
 9anime.*#$#ol.navbc { font-size: .75em !important; visibility: hidden !important; }
-9anime.*#$#aside.main, aside.sidebar { padding-top: var(--pt) !important; }
-9anime.*#$#.player-wrapper { position: absolute !important; top: 0 !important; width: var(--vw) !important; height: var(--vh) !important; }
+!9anime.*#$#aside.main, aside.sidebar { padding-top: var(--pt) !important; }
+!9anime.*#$#.player-wrapper { position: absolute !important; top: 0 !important; width: var(--vw) !important; height: var(--vh) !important; }
+
+9anime.*##+js(add-style, aside.main|aside.sidebar, padding-top: var(--pt);)
+9anime.*##+js(add-style, .player-wrapper, position: absolute; top: 0; width: var(--vw); height: var(--vh);)
 
 ! HIDE
 9anime.*##.alert
