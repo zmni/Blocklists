@@ -105,7 +105,7 @@ nanime.*##+js(addEventListener-defuser, /mousedown|mouseup/, 0x)
 nanime.*##+js(abort-on-property-read, zfgloadedpopup)
 nanime.*##+js(click-elements-onload, #player)
 newatlas.com##+js(abort-on-property-read, window.admiral)
-news.ycombinator.com##+js(open-links-in-newtab, .storylink|a[rel="nofollow"], target, _blank)
+news.ycombinator.com##+js(open-links-in-newtab, .storylink|a[rel="nofollow"])
 nicoblog.org##+js(abort-on-property-read, ad2games)
 
 obengplus.com##+js(nobab)
