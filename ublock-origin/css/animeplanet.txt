@@ -17,8 +17,8 @@ anime-planet.com#$#.pillBottle .pill { margin-bottom: unset !important; }
 anime-planet.com#$#.pagination li { padding: unset !important; }
 anime-planet.com#$#.pagination li:hover { background-color: transparent !important; }
 anime-planet.com#$#.pagination li > a, .pagination li > span { display: block !important; padding: .5em 1em !important; }
-anime-planet.com#$#.pagination li:not(.selected) > a:hover { background-color: var(--callout-background) !important; }
 anime-planet.com#$#.pagination li > span { color: var(--color-text--dimmed) !important; }
+anime-planet.com#$#.pagination li:not(.selected) > a:hover { background-color: var(--callout-background) !important; }
 anime-planet.com#$#.pagination .prev span::before, .pagination .prev a::before { color: inherit !important; }
 anime-planet.com#$#h1[itemprop=name] { text-align: center !important; }
 anime-planet.com#$##siteContainer { padding-top: 54px !important; }
