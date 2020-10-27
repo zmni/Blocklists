@@ -11,6 +11,8 @@ anime-planet.com#$#.pillBottle .pill { border-color: #000 !important; }
 anime-planet.com#$#.tabs .tab, .pillFilters { border-radius: unset !important; }
 anime-planet.com#$#.pillFilters, .pillBottle { display: flex !important; align-items: center !important; }
 anime-planet.com#$#.pillBottle .pill { margin-bottom: unset !important; }
+anime-planet.com#$#.pagination li > span { color: var(--color-text--dimmed) !important; }
+anime-planet.com#$#.pagination .prev span::before, .pagination .prev a::before { color: inherit !important; }
 
 ! HIDE
 anime-planet.com##.ad
