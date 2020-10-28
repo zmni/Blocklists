@@ -6,17 +6,18 @@ gogoanime.*#$#ul.items { display: flex !important; flex-wrap: wrap !important; m
 gogoanime.*#$#ul.items li { flex-basis: 20% !important; margin-left: unset !important; padding: 0 10px !important; }
 gogoanime.*#$#ul.items li:nth-child(4n+1) { margin-left: unset !important; }
 gogoanime.*#$#ul.items li .img img, ul.items li .img a::after { height: 100% !important; }
-gogoanime.*#$#ul.items li .img a::after { background-position: center !important; background-size: 20% !important; }
+gogoanime.*#$#ul.items li .img a::after { background-image: unset !important; background-position: center !important; background-size: 20% !important; }
+gogoanime.*#$#ul.items li .img a:hover::after { background-image: radial-gradient(transparent, #1b1b1b) !important; }
 gogoanime.*#$#ul.items li p.name { height: auto !important; }
 gogoanime.*#$#.listing { margin-left: -10px !important; margin-right: -10px !important; }
 gogoanime.*#$#.listing li { padding-right: 10px !important; padding-left: 10px !important; width: calc(100% / 4) !important; }
+gogoanime.*#$#.anime_info_body img { width: 240px !important; }
 gogoanime.*#$#.anime_video_body { padding: 20px 0 !important; }
 gogoanime.*#$#.anime_video_body > h1, .anime_video_body_cate { text-align: center !important; }
 gogoanime.*#$#.anime_video_body_watch { margin-top: unset !important; }
 gogoanime.*#$#.anime_muti_link ul { margin-top: 10px !important; padding-top: 10px !important; }
 gogoanime.*#$#ul#episode_page { clear: both !important; float: none !important; text-align: center !important; }
 gogoanime.*#$#ul#episode_page li { float: none !important; }
-gogoanime.*#$#.anime_info_body img { width: 240px !important; }
 
 ! HIDE
 gogoanime.*##.ad
