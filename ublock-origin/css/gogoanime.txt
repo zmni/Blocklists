@@ -29,7 +29,7 @@ gogoanime.*##.download-anime
 gogoanime.*##.favorites_book
 gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
 gogoanime.*##.introtext
-gogoanime.*##.items > li:has(:scope .name:has-text((Dub)))
+gogoanime.*##.items > li:has(> .name > a:has-text((Dub)))
 gogoanime.*##.list_dowload
 gogoanime.*##.list_search_ajax:has(> a:has-text((Dub)))
 gogoanime.*##.menu_top_link
