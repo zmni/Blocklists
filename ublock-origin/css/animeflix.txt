@@ -6,3 +6,4 @@ animeflix.io#$#.v-content[style*="padding:"] { padding-top: 40px !important; pad
 animeflix.io#$#.v-content > .v-content__wrap > .container > .layout.column.mt-5 { margin-top: unset !important; }
 animeflix.io#$#.v-navigation-drawer[style*="transform:"] { transform: translateX(300px) !important; }
 animeflix.io#$#.holder-dt { height: calc(100vh - 40px) !important; }
+animeflix.io#$#.v-responsive__sizer[style*="padding-bottom:"] { padding-bottom: calc(100% * 4 / 3) !important; }
