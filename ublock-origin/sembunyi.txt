@@ -223,6 +223,7 @@ code.visualstudio.com###mscc-cookie-container
 crackwatch.com##.crossed-price
 crackwatch.com##.gamerow-platform-icon
 creativebloq.com###sidebar > div[style]
+cssreference.io###huggingFace
 cyberciti.biz##.entry-content > center:has(> div > small:has-text(/advert/i))
 cyberciti.biz##.entry-content > div:has(> center > small:has-text(/advert/i))
 cyberciti.biz##.sidebar > .widget:has(> .widget-title:has-text(Advert))

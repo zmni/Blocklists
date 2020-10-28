@@ -1,6 +1,8 @@
 !! BLOKIR-A
 
-/wp-emoji$script
+/cast_sender.js$script,3p
+/provider.cast.js$script
+/wp-emoji.js$script
 
 !! BLOKIR-A: UMUM
 
