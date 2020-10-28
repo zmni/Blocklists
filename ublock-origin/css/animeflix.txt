@@ -1,5 +1,7 @@
 animeflix.io#$#.v-toolbar__content[style^="height:"] { height: 40px !important; }
 animeflix.io#$#.v-toolbar__title.pt-3 { padding-top: 8px !important; }
 animeflix.io#$#.v-text-field.v-text-field--solo .v-input__control { min-height: 32px !important; }
-animeflix.io#$#.v-content[style^="padding:"] { padding-top: 40px !important; }
+animeflix.io#$#.v-navigation-drawer { transform: translateX(300px) !important; }
+animeflix.io#$#.v-content[style^="padding:"] { padding-top: 40px !important; padding-right: unset !important; }
+animeflix.io#$#.v-content > .v-content__wrap > .container > .layout.column.mt-5 { margin-top: unset !important; }
 animeflix.io#$#.holder-dt { height: calc(100vh - 40px) !important; }
