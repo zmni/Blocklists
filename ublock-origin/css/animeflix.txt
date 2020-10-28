@@ -7,3 +7,8 @@ animeflix.io#$#.v-content[style*="padding: 64px 300px 0px 0px"] { padding-top: 4
 animeflix.io#$#.v-content > .v-content__wrap > .container > .layout.column.mt-5 { margin-top: unset !important; }
 animeflix.io#$#.v-responsive__sizer[style*="padding-bottom: 150%"] { padding-bottom: calc(100% * 4 / 3) !important; }
 animeflix.io#$#.holder-dt { height: calc(100vh - 40px) !important; }
+
+animeflix.io##.flex:has(> .v-alert:only-child)
+animeflix.io##.list_dowload
+animeflix.io##.v-btn:has(> .v-btn__content > .v-icon:has-text(chat))
+animeflix.io##.v-navigation-drawer

@@ -61,7 +61,6 @@ anilinkz.to##.gugol
 anilinkz.to##aside#rightside
 anilinkz.to##span:has(> [id*="_ad_native_"])
 anime-frost.com##.ssad-wrapper
-animeflix.io##.flex:has(> .v-alert:only-child)
 animehd47.com##.zbanner
 animehd47.com##.zmovies:has-text((Dub))
 animehub.ac##.sb-discordapp
