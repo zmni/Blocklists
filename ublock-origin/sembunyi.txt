@@ -126,6 +126,10 @@ apkpure.com###comment
 apkpure.com###iframe_download + #slide-wrap
 app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
 aptoide.com##.bundle__container > .bundle-item:not([onclick])
+atlasobscura.com##.ad-wrapper
+atlasobscura.com##.siderail-ad
+atlasobscura.com##.siderail-bottom-affix-placeholder
+atlasobscura.com##a[href="/membership"].membership-creative
 audioz.download##.AdSense_Footer
 audioz.download##.AdSense_Sidebar
 audioz.download##.AdSense_V
@@ -751,6 +755,7 @@ producthunt.com##[class^="postsList_"] > li:has(:scope a[href^="/promoted-produc
 producthunt.com##[class^="share_"]
 pscp.tv##.ShareBroadcast
 mail.protonmail.com##.navigation-upgrade-item
+media.zat.im,libre.video,open.tube,peertube.*,tilvids.*##div[role="button"]:has(> my-global-icon[iconname="share"])
 
 qt.io##.b-article__share-footer
 

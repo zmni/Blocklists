@@ -1,5 +1,4 @@
 !! INJEKSI-CSS
-media.zat.im,libre.video,open.tube,peertube.*,tilvids.*#$##video-wrapper .video-js { height: calc(100vh - 50px) !important; max-width: none !important; }
 
 5movies.to#$#.content { float: none !important; width: auto !important; }
 5movies.to#$#.pagination { text-align: center !important; }
@@ -19,6 +18,7 @@ anilinkz.to#$#main, #nextprevlist { width: auto !important; }
 animeindo.moe#$##anm_srs { height: auto !important; overflow-y: auto !important; }
 animeindo.moe#$#body { background-image: none !important; }
 appfairness.org#$#.dialog-prevent-scroll { overflow: auto !important; }
+atlasobscura.com#$#.athanasius .ArticleBody.ArticleBody__default figure.article-image-full-width { margin-left: unset !important; }
 azm.to,azmovie.to#$#.player__main { margin-top: unset !important; }
 azm.to,azmovie.to#$#.watch-hero.mb-large { margin-bottom: unset !important; }
 azm.to,azmovie.to#$#.watch-title { margin-bottom: 1rem !important; margin-top: 1rem !important; }
@@ -104,6 +104,7 @@ www.privacytools.io#$#.container { max-width: none !important; }
 mail.protonmail.com#$#.pm_panel.alt { margin-top: 4rem !important; }
 mail.protonmail.com#$##pm_login, #pm_loginTwoFactor { margin-top: 2rem !important; }
 mail.protonmail.com#$#.pm_form .pm_select { -webkit-box-shadow: none !important; box-shadow: none !important; }
+media.zat.im,libre.video,open.tube,peertube.*,tilvids.*#$##video-wrapper .video-js { height: calc(100vh - 50px) !important; max-width: none !important; }
 
 quora.com#$#.continue_reading_wrapper_logged_out .gradient_wrapper { background-image: none !important; }
 
