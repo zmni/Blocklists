@@ -5,6 +5,8 @@ gogoanime.*#$#.last_episodes { padding: unset !important; }
 gogoanime.*#$#ul.items { display: flex !important; flex-wrap: wrap !important; margin-right: -10px !important; margin-left: -10px !important; }
 gogoanime.*#$#ul.items li { flex-basis: 20% !important; margin-left: unset !important; padding: 0 10px !important; }
 gogoanime.*#$#ul.items li:nth-child(4n+1) { margin-left: unset !important; }
+gogoanime.*#$#ul.items li .img img, ul.items li .img a::after { height: 100% !important; }
+gogoanime.*#$#ul.items li .img a::after { background-position: center !important; background-size: 20% !important; }
 gogoanime.*#$#ul.items li p.name { height: auto !important; }
 gogoanime.*#$#.listing { margin-left: -10px !important; margin-right: -10px !important; }
 gogoanime.*#$#.listing li { padding-right: 10px !important; padding-left: 10px !important; width: calc(100% / 4) !important; }

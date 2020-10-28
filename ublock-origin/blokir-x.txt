@@ -69,10 +69,13 @@
 @@||cdnfile.info^$domain=vidstreaming.*
 @@||data.kemkes.go.id/data/api/analytics.json?$domain=data.kemkes.go.id
 @@||fonts.googleapis.com^$css,domain=ymovies.tv
+@@||gog-statics.com/favicon.ico$image,domain=gog.com
 @@||gogocdn.net/files/gogo/img/favicon.ico$image,domain=gogoanime.*
 @@||googleusercontent.com^$image,xhr,domain=ymovies.tv
 @@||hcaptcha.com^$domain=ymovies.to
+@@||herokucdn.com/favicon.ico$image,domain=heroku.com
 @@||hxload.io/embed/$frame,domain=nontonplus.com
 @@||static.akacdn.ru^$image,domain=fmovies.*|ffmovies.*
+@@||static.bmdstatic.com/sf/assets/img/favicons/favicon.ico$image,domain=bhinneka.com
 @@||travel-assets.com/datacapture/$script,domain=expedia.co.uk
 @@||uservideo.xyz^$frame,domain=nanime.*
