@@ -854,7 +854,7 @@ solarmoviez.ru###top-content:has(> #like-home)
 soulreaperzone.com##.td-banner-wrap-full
 sourceforge.net##.projects > li.standard
 sourceforge.net##.sterling
-sourceforge.net###pg_dwnld #nels
+sourceforge.net###nels
 sourceforge.net###project-nel:has(> .nel > a[href*="/www/delivery/"])
 sourceforge.net###share-project-button
 sourceforge.net##a[data-open="psp-newsletter-modal"]
