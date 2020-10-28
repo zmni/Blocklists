@@ -23,6 +23,7 @@ gogoanime.*#$#ul#episode_page li { float: none !important; }
 gogoanime.*##.ad
 gogoanime.*##.anime_video_body_comment_name
 gogoanime.*##.anime_video_note_watch
+gogoanime.*##.bookmark
 gogoanime.*##.content_right
 gogoanime.*##.download-anime
 gogoanime.*##.favorites_book
