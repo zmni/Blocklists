@@ -46,7 +46,7 @@
 
 ||animecdn.xyz/js/ads.js$script,important
 ||gfycat.com^*/shar$image,important
-||google.*/log
+||google.*/log$important
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
 ||kotakputih.casa/images/*.gif$image
