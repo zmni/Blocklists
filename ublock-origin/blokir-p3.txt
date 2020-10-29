@@ -32,7 +32,6 @@
 ||escdn.co/ads/$important,3p
 ||gc.zgo.at/count.js$script,3p
 ||jsdelivr.net/npm/@widgetbot/$3p,script
-||kotakputih.*/images/*.gif$3p
 ||mittui.com/images/*.gif$image,3p
 ||myanimelist.net/images/event/support_mal/banner-*.gif$image,1p
 ||nick-name.ru/img.php$image,3p
@@ -47,8 +46,6 @@
 ||yimg.com/oa/consent.js$script,3p
 
 !! BLOKIR-P3: DOMAIN
-
-*.gif$domain=acefile.*|aceservice.*|animeindo.*|nanime.*|21moviemania.com|animeku.tv|bioskop168.co|bioskoponline.org|dewanonton.*|dewantn.com|dunia21.tv|dutafilm.*|dwanonton.com|filmseri.com|gm21.*|hxload.io|idfl.me|indoxx21.com|juaramovie.com|kotakhitam.casa|kotakputih.casa|layarcinema.co|layarcinema.org|layarkacaxxi.com|lk21.in|movieon21.org|nobartv.live|nonton.movie|nontonbola.me|nontonplus.com|nontonsub.com|pusatfilm21.com|semi168.club|topddl.net|footybite.com
 
 ||akm-static.ccmbg.com^$domain=ccm.net
 ||animeindo.*/wp-content/uploads/$script,domain=animeindo.*
