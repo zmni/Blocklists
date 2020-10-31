@@ -1,46 +1,13 @@
 ! Title: AdFilters
 ! Expires: 4 days
 
-!#include blokir-a.txt
-!#include blokir-p1.txt
-!#include blokir-p3.txt
-!#include blokir-x.txt
+!#include aset-0.txt
+!#include aset-1.txt
+!#include aset-3.txt
+!#include aset-x.txt
 
-!#include sembunyi.txt
-!#include sembunyi-x.txt
+!#include elemen-0.txt
+!#include elemen-x.txt
 
-!#include injeksi-js.txt
-
-!#include css/0all.txt
-!#include css/9anime.txt
-!#include css/anime8.txt
-!#include css/animefillerlist.txt
-!#include css/animeflix.txt
-!#include css/animeindo.txt
-!#include css/animeplanet.txt
-!#include css/bestsimilar.txt
-!#include css/bolanet.txt
-!#include css/clippituser.txt
-!#include css/flixtor.txt
-!#include css/fmovies.txt
-!#include css/gogoanime.txt
-!#include css/kbbi.txt
-!#include css/listverse.txt
-!#include css/neonime.txt
-!#include css/nontonplus.txt
-!#include css/outline.txt
-!#include css/reddit.txt
-!#include css/spacemov.txt
-!#include css/streamable.txt
-!#include css/streamgoals.txt
-!#include css/streamja.txt
-!#include css/streamvi.txt
-!#include css/streamye.txt
-!#include css/torrentz.txt
-!#include css/tvseries.txt
-!#include css/tvzion.txt
-!#include css/vev.txt
-!#include css/vidtodo.txt
-!#include css/vimeo.txt
-!#include css/woolyss.txt
-!#include css/youtube.txt
+!#include injeksi-css.txt
+!#include injeksi-skrip.txt

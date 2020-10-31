@@ -1,4 +1,8 @@
-!! BLOKIR-P1: UMUM
+!! ========================================================================== !!
+!! ASET 1
+!! ========================================================================== !!
+
+! UMUM
 
 ||ad.bench.utorrent.com^$1p
 ||c.mixer.com^$1p
@@ -15,7 +19,7 @@
 ||sentry.indeed.com^$1p
 ||ta.tokopedia.com^$1p
 
-!! BLOKIR-P1: SPESIFIK
+! SPESIFIK
 
 ||1337x.to^*/rating-img.png$image,1p
 ||9anime.*/ajax/film/update-views$xhr,important,1p

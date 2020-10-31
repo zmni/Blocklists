@@ -1,4 +1,8 @@
-!! BLOKIR-P3: UMUM
+!! ========================================================================== !!
+!! ASET 3
+!! ========================================================================== !!
+
+! UMUM
 
 ||amazon-adsystem.com^$3p,important
 ||analytics.getstream.io^$3p
@@ -20,7 +24,7 @@
 ||uzone.id^$3p
 ||widget.intercom.io^$3p
 
-!! BLOKIR-P3: SPESIFIK
+! SPESIFIK
 
 ||bizzabo.com/widgets/$3p
 ||cloudfront.net^*/stream-analytics.$script,3p
@@ -45,7 +49,7 @@
 ||wix.com/_api/blog-social-counters/$3p
 ||yimg.com/oa/consent.js$script,3p
 
-!! BLOKIR-P3: DOMAIN
+! DOMAIN
 
 ||akm-static.ccmbg.com^$domain=ccm.net
 ||animeindo.*/wp-content/uploads/$script,domain=animeindo.*

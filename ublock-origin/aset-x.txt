@@ -1,4 +1,8 @@
-!! BLOKIR-X: 0
+!! ========================================================================== !!
+!! ASET X
+!! ========================================================================== !!
+
+! 0: UMUM
 
 @@-rss-icon.
 @@-social-rss.
@@ -22,12 +26,12 @@
 @@/youtube_32
 @@/youtube.png
 
-!! BLOKIR-X: A
+! 0: SEMUA
 
 @@||facebook.github.com^
 @@||facebook.github.io^
 
-!! BLOKIR-X: 1P SPESIFIK
+! 1: SPESIFIK
 
 @@||authy.com/wp-content/uploads/Pinterest-logo.png$image,1p
 @@||dutafilm.*/img/logo-red.gif$image,1p
@@ -47,7 +51,7 @@
 @@||youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_$1p
 @@||youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-$1p
 
-!! BLOKIR-X: 3P SPESIFIK
+! 3: SPESIFIK
 
 @@||apis.google.com/js/platform.js?onload=initgooglelogin$script,3p
 @@||buttons.github.io/buttons.js$script,3p
@@ -60,7 +64,7 @@
 @@||w.org/google-analytics-$image,3p
 @@||wp.com^*/favicon.ico$image,3p
 
-!! BLOKIR-X: 3P SPESIFIK DOMAIN
+! 3: DOMAIN
 
 @@/cookieconsent?$domain=docs.microsoft.com
 @@/new-relic.$image,domain=marketplace.visualstudio.com

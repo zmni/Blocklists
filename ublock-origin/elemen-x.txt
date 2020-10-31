@@ -1,4 +1,8 @@
-!! SEMBUNYI-X: GENERIK
+!! ========================================================================== !!
+!! ELEMEN X
+!! ========================================================================== !!
+
+! UMUM
 
 #@#.dashicons-rss
 #@#.fa-rss
@@ -48,7 +52,7 @@
 #@#img[alt="Subscribe via RSS!"]
 #@#img[alt="Subscribe via RSS"]
 
-!! SEMBUNYI-X: SPESIFIK
+! SPESIFIK
 
 bitly.com#@#.twitter
 epicgames.com#@#.social-container

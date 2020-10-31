@@ -1,3 +1,0 @@
-vimeo.com#$#:root { --vh: calc(100vh - 64px); --vw: calc(var(--vh) * 16 / 9); }
-vimeo.com#$#.js-player_area-wrapper, .player_area:not(.is_mini) { height: var(--vh) !important; max-height: var(--vh) !important; }
-vimeo.com#$#.player_area:not(.is_mini) .player_container { height: var(--vh) !important; width: var(--vw) !important; }

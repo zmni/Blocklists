@@ -1,4 +1,6 @@
-!! SEMBUNYI
+!! ========================================================================== !!
+!! ELEMEN 0
+!! ========================================================================== !!
 
 1337x.to##.box-info > br
 1337x.to##.rating-wrap
@@ -7,6 +9,14 @@
 5movies.to##.ml-data-rate
 5movies.to##.sidebar
 5movies.to###vote
+9anime.*##.alert
+9anime.*##.anime-list > li:has(:scope .dub)
+9anime.*##.anime-list > li:has(:scope .preview)
+9anime.*##.anime-list > li:has(:scope .special)
+9anime.*##.anime-list > li:has(:scope .tag.ep:has-text(Preview))
+9anime.*##.tabs > [data-name="updated_dub"]
+9anime.*###comment
+9anime.*##section#info .tags
 9animes.net##.comments-area
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
@@ -17,7 +27,6 @@ acefile.*,aceservice.*###btmx
 acefile.*,aceservice.*###kelik
 acm.org##.fav_bar
 add0n.com##body > div:has-text(Advertisement)
-addons.mozilla.org##.item.incompatible
 agame.com##.advert
 agame.com##.grid-row:has(> .advert)
 ainimeindo.com##.adsbawah2
@@ -37,8 +46,6 @@ alternativeto.net##.banner
 alternativeto.net##.put-food-on-the-table
 alternativeto.net##.put-food-on-the-table + hr.subtle
 anaboy.xyz##a[href^="https://statcounter.com"]
-android.izzysoft.de###amazon
-android.izzysoft.de###support_us
 androidauthority.com##.aa-bottom-header-section
 androidauthority.com##.aa-infinite-load-more
 androidauthority.com##.aa-lazy-comments-section
@@ -61,6 +68,32 @@ anilinkz.to##.gugol
 anilinkz.to##aside#rightside
 anilinkz.to##span:has(> [id*="_ad_native_"])
 anime-frost.com##.ssad-wrapper
+anime-planet.com##.ad
+anime-planet.com##.halo
+anime-planet.com##.skyscraper
+anime-planet.com##.statusArea
+anime-planet.com##h1[itemprop="name"] + div[itemprop="description"]
+anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
+anime-planet.com##p[itemprop="description"]
+anime8.ru##.alert
+anime8.ru##.footer-tags
+anime8.ru##.movies-list > .ml-item:has(:scope .mli-info > h2:has-text((Dub)))
+anime8.ru##.movies-list-wrap .ml-title + p.full
+anime8.ru##.mv-rating
+anime8.ru##.mvic-btn
+anime8.ru##.pad
+anime8.ru##.search-suggest > ul > li:has-text((Dub))
+anime8.ru###bar-player
+anime8.ru###bread
+anime8.ru###bread + center
+anime8.ru###btnShowComments
+anime8.ru###mv-keywords
+anime8.ru###switch-mode
+anime8.ru##nav > p
+animefillerlist.com##[id*="-adsense-"]
+animeflix.io##.flex:has(> .v-alert:only-child)
+animeflix.io##.v-btn:has(> .v-btn__content > .v-icon:has-text(chat))
+animeflix.io##.v-navigation-drawer
 animehd47.com##.zbanner
 animehd47.com##.zmovies:has-text((Dub))
 animehub.ac##.sb-discordapp
@@ -70,33 +103,24 @@ animeidhentai.com##.mobads
 animeidhentai.com###myDIV
 animeidhentai.com###myDIV2
 animeidhentai.com###player2 > a
-animeindo.*##.anime-home720navi
-animeindo.*##.commentsec
-animeindo.*##.d100asdweasd
-animeindo.*##.d728lasdk
-animeindo.*##.external
-animeindo.*##.iklaninnerasdd
-animeindo.*##.iklaninnerasdd
-animeindo.*##.kypg
-animeindo.*##.listepisode:has-text(/batch download/i)
-animeindo.*##.marginads2
-animeindo.*##.marginbot.bgblacktr
-animeindo.*##.newepisodecon > a:has(:scope .newepisodefloat:has-text(LA))
-animeindo.*##.nyaa728
-animeindo.*##.postauthor
-animeindo.*##.row > [class^="col-"]:has-text(/live action/i)
-animeindo.*##.seriescon > .grid6:has(:scope .serialdes:has-text(/live action/i))
-animeindo.*##.text-center:has(> img:only-child)
-animeindo.*##.videoad
-animeindo.*##.videoads
-animeindo.*##[style="max-width: 728px;"]:has(> [title="HL8"])
-animeindo.*###cklansd
-animeindo.*###sct_head
-animeindo.*###singlelike
-animeindo.*###vidklan
-animeindo.*##a.external
-animeindo.*##div[style*="width: 728px; height: 90px;"]
-animeindo.*##section.listepisode > a:not(:has(> .grid3))
+animeindo.*##.bigcover
+animeindo.*##.comments
+animeindo.*##.episodeinf
+animeindo.*##.icon.comment
+animeindo.*##.icon.shares
+animeindo.*##.idTabs
+animeindo.*##.info_episode
+animeindo.*##.infox .desc
+animeindo.*##.infox .mindesc
+animeindo.*##.recanim
+animeindo.*##.rt
+animeindo.*##.single-post #sidebar
+animeindo.*##.sosmed
+animeindo.*###breadcrumbs
+animeindo.*###sidebar > .widgets:has(> .custom-html-widget > script[data-cfasync])
+animeindo.*###synopsis
+animeindo.*###trailer
+animeindo.*##div:has(> script:only-child)
 animeku.tv##.ads
 animeku.tv##.adsgen
 animeku.tv##.adspost1
@@ -124,7 +148,6 @@ apkpure.com##.aegon-link
 apkpure.com##.details-rating
 apkpure.com###comment
 apkpure.com###iframe_download + #slide-wrap
-app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
 aptoide.com##.bundle__container > .bundle-item:not([onclick])
 atlasobscura.com##.ad-wrapper
 atlasobscura.com##.siderail-ad
@@ -148,6 +171,8 @@ azm.to,azmovie.to##body > center:first-child:has(> .alert-blue)
 
 bakabuzz.com##.adace-slot-wrapper
 bakabuzz.com##.adace-slideup-slot-wrap
+bestsimilar.com##.ssk-sticky
+bestsimilar.com###privacy-fixed-bottom
 bhinneka.com##.banner
 bhinneka.com##.banner-rounded
 bhinneka.com##.banner-small
@@ -183,6 +208,20 @@ bola.com##.channel-ad
 bola.com##.lazyload_ad
 bola.com###billboard-ad
 bola.com###initads
+bola.net##.bola-skor-slide
+bola.net##.bola-topmenu
+bola.net##.bola-trending-tag
+bola.net##.box-tag
+bola.net##.detail-jsview
+bola.net###bola_content_tracker
+bola.net###iframe_video_partner
+bola.net###news_comment
+bola.net###newspaging_content ~ .slot-youtubev2
+bola.net###read_next
+bola.net###top_leaderboard
+bola.net###topbackground
+bola.net###topbackground2
+bola.net###topbackground3
 bolasport.com###div-Left-WideSkyscraper
 browserleaks.com###nav-pin
 btdb.to##.comment
@@ -194,18 +233,21 @@ bukalapak.com##.c-icon--pinterest
 bukalapak.com##.c-icon--twitter
 bukalapak.com##.endorsed-products
 buzzfeednews.com##.comments-chumbox-wrap
+vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
 
 cermati.com##.ads-container
 cermati.com##.sticky-banner
 cermati.com##cermati[data-banner]
-certbot.eff.org##.social
-channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
+
 channelnewsasia.com##.c-sharing--default
 cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement")
 cinemaindo.web.id##.comments
 cinemaindo.web.id##.keywords
 cinemaindo.web.id###btmx
 cinemaindo.web.id###ptbanner
+clippituser.tv##.card > :not(.video)
+clippituser.tv##.download
+clippituser.tv##.similar-container
 cloudvideo.tv##.slim-header
 cmovieshd.net##.bg-home
 cmovieshd.net##.block-comment
@@ -222,7 +264,6 @@ cnnindonesia.com##.detail_tag
 cnnindonesia.com##.komentar_box
 cnnindonesia.com##.share
 cnnindonesia.com###skinad
-code.visualstudio.com###mscc-cookie-container
 crackwatch.com##.crossed-price
 crackwatch.com##.gamerow-platform-icon
 creativebloq.com###sidebar > div[style]
@@ -262,8 +303,6 @@ dewanonton.*###bookmark-alert
 dewantn.com##.contenido > center
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
-docs.microsoft.com##.disclaimer-holder:has-text(tidak tersedia dalam bahasa Anda)
-docs.microsoft.com###disclaimer-holder
 duckduckgo.com##.result__icon
 duckduckgo.com##.result:has-text(/w3schools/i)
 duckduckgo.com##.showcase
@@ -311,6 +350,7 @@ erafone.com##.product-item:has(:scope .stock.unavailable)
 eraspace.com##.newsletter
 ettv.tv##.vp_a
 eyeonanime.tv###sct_head
+certbot.eff.org##.social
 
 fandom.com##.background-image-gradient
 fandom.com##.share-button
@@ -336,15 +376,35 @@ flixgo.co##.details__title > .details__cat
 flixgo.co##.footer__counter
 flixgo.co###dle-comments-form
 flixgo.net##a[href*=".com/ads?"]
+flixtor.to##.mod-trailer .modal-footer
+flixtor.to##.mod-trailer .modal-header
 flixtor.to##[class^="contentList"] > .d-flex > .py-2:has(:scope .front .fa-video-camera.goldc)
+flixtor.to###player + div
+flixtor.to###playercontainer + div
+flixtor.to##div[class^="contentList"] > .justify-content-around > .w-100
+flixtor.to##li.nav-item.vipmenu
+fmovies.*##.alert
+fmovies.*##.filmlist .item .meta .type
+fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*##.nav
+fmovies.*##.notification
+fmovies.*##.rating
+fmovies.*##.tags
+fmovies.*##.tooltipster-content .actions
+fmovies.*##.watch-now
+fmovies.*###comment
+fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
+fmovies.*###watch .play::after
+fmovies.*###watch .play::before
+fmovies.*###watch #controls .share
+fmovies.*##body.list .bl > .heading > h1
+fmovies.*##div[class*="addthis_inline_share_"]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
 footybite.com##a[href^="https://tracker-"]:upward(1)
 forbes.com##.ad-rail-container
 forbes.com##.left-rail
 forbes.com##.right-rail
 forbes.com##fbs-ad-rail
-forum.mikrotik.com##.main-header
-forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
 fossdroid.com##.fd-news-widget
 fosshub.com##.ad
 fosshub.com###donateAdsForm
@@ -388,9 +448,28 @@ goal.com##aside:has(> .commercial:only-child)
 gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
-goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
+gogoanime.*##.ad
+gogoanime.*##.anime_video_body_comment_name
+gogoanime.*##.anime_video_note_watch
+gogoanime.*##.bookmark
+gogoanime.*##.content_right
+gogoanime.*##.download-anime
+gogoanime.*##.favorites_book
+gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
+gogoanime.*##.introtext
+gogoanime.*##.items > li:has(> .name > a:has-text((Dub)))
+gogoanime.*##.list_dowload
+gogoanime.*##.list_search_ajax:has(> a:has-text((Dub)))
+gogoanime.*##.menu_top_link
+gogoanime.*##.menu_top_link
+gogoanime.*##.rsidebar
+gogoanime.*###announcement
+gogoanime.*##a[href^="https://vidstreaming.io/download?"]
+gogoanime.*##body > div:has-text(bookmark)
 greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
+goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
+play.google.com##.full-price
 
 hagerty.com##.placements
 hdo.to##.block-share
@@ -413,7 +492,8 @@ hentaistream.com###socialPages
 hentaistream.com##div:has(> .skin-hold)
 honeysanime.com##body > .flexbox > div:not(.wpi-box)
 howtogeek.com##.adslot
-howtogeek.com##.social-media-buttons
+howtogeek.com##.affiliate-disclosure
+howtogeek.com##.social-media-buttons:remove()
 howtogeek.com###div-thetop1
 howtogeek.com###out-of-page
 howtogeek.com##div[id^="purch"]:remove()
@@ -421,9 +501,6 @@ howtogeek.com##div[id="1x1"]
 humblebundle.com##.discount-gem-container
 hxload.io###fixedban
 
-blog.ibwave.com##.tt-share
-blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
-blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
 ign.com##.ad-rail-wrapper
 ign.com##.block--sponsor
 ign.com##.special:has(> .ad-wrapper:only-child)
@@ -464,10 +541,15 @@ iogames.space##.banner-ad-contain
 iogames.space##.v2-adwrap-leaderboard
 iogames.space###HomeRectAdMod
 iogames.space###v2-impTopBanner
-isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
+blog.ibwave.com##.tt-share
+blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
+blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
+android.izzysoft.de###amazon
+android.izzysoft.de###support_us
 
 jakartanotebook.com##.product-list:has(> .product-list__content > .stock--sold-out)
 jsfiddle.net##.twitterCont
+youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
 
 kerrang.com##.MasterBillboard:has(> .AdUnit)
 kimovil.com##.short-url
@@ -523,6 +605,7 @@ listennotes.com##.ln-ads-card
 listennotes.com##.ln-gpt-container
 listennotes.com##.ln-home-ad
 listennotes.com###page-share-button
+listverse.com##.ga.rect
 live.com##span + button:has-text(/\b(mari|unduh sekarang)\b/i):upward(3)
 livescience.com##.trending-wrapper
 livescience.com##.xenforo-comment-widget
@@ -547,12 +630,22 @@ lookmovie.ag##.view-top-ab
 lookmovie.ag##.watch-heading
 lookmovie.ag##.wellcome-boy-message
 lookmovie.ag##.x728x90
+onedrive.live.com##.od-PremiumUpsellBanner
+onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
+outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
+outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
 
 majalahikan.com##.gmr-share
 majalahikan.com##.gmr-share-text
 majalahikan.com##.gmr-share-top
 majalahikan.com##.gmr-subscribebox
 majalahikan.com###disqus_thread
+makeuseof.com##.ad-zone-container
+makeuseof.com##.article-tags
+makeuseof.com##.heading_sharing
+makeuseof.com##.ml-form-embedContainer
+makeuseof.com##.ml-subscribe-form
+makeuseof.com##.sharing
 makeuseof.com##.single-post-sidebar-advertisement
 mancity.com##.article--ad-container--responsive
 mancity.com##.article--author-share
@@ -630,6 +723,16 @@ mybrowseraddon.com##div:not([class]):not([id]):has-text(Advertisement)
 myspace.com##.adsitewidepixel
 myspace.com##.article-footer-ad
 myspace.com##.label:has-text(Advertisement)
+docs.microsoft.com##.disclaimer-holder:has-text(tidak tersedia dalam bahasa Anda)
+docs.microsoft.com###disclaimer-holder
+support.microsoft.com###notification-banner
+techcommunity.microsoft.com##.custom-share-component
+forum.mikrotik.com##.main-header
+youtubedownload.minitool.com##.article-share-wrap
+youtubedownload.minitool.com###usercomment-280
+addons.mozilla.org##.item.incompatible
+channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
+forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
 
 n21.tv,nontonserial.tv###fatas
 n21.tv,nontonserial.tv###fbawah
@@ -640,6 +743,26 @@ nanime.*##.content-item:has(> .post-title:has-text(Live Action))
 nanime.*##.iklan-header-item
 nanime.*##img[alt="BandarQ"]
 nanime.*##img[title="EnjoyQQ"]
+neonime.*##.box_item_berlangganan
+neonime.*##.comentarios
+neonime.*##.cover
+neonime.*##.fb-page
+neonime.*##.link-download
+neonime.*##.link-download ~ *
+neonime.*##.navplayer2 > span.tiplayer
+neonime.*##.navtv.idTabs
+neonime.*##.pasang-langganan-body
+neonime.*##.skl
+neonime.*##.small-menu-bantuan
+neonime.*##.tampilan_tambahan
+neonime.*##.tool-container
+neonime.*##.tvsocial
+neonime.*##[class^="donate-"]
+neonime.*###backdrops
+neonime.*###button-neonime-bot
+neonime.*###series .ladoB .central h2.css3:has-text(Comments)
+neonime.*###streaming > h2
+neonime.*##body > .tool-container
 netflixlife.com##.header-billboard
 netflixlife.com###top-stories > li:has(> .fs_ad_widget-ad:only-child)
 netflixlife.com###tps-ad-slot
@@ -677,6 +800,16 @@ nontonanime.id##.shfb
 nontonanime.id##.slot
 nontonanime.id##.tags
 nontonanime.id###teaser1
+nontonplus.com##.menu-item-100
+nontonplus.com##.menu-item-11512
+nontonplus.com##.menu-item-96
+nontonplus.com##.mlw-related
+nontonplus.com##.mvic-btn
+nontonplus.com##.tvseason .les-content a:hover::before
+nontonplus.com###bar-player
+nontonplus.com###bread
+nontonplus.com###commentfb
+nontonplus.com###mv-keywords
 noxx.to##.icon-bar
 ns21.club##.breadcrumbs
 ns21.club##.post~*:not(.wrapper-jw):not(.server-list)
@@ -691,14 +824,6 @@ ns21.top##.ns-left
 ns21.top##.ns-right
 ns21.top###myModalSingle
 
-onedrive.live.com##.od-PremiumUpsellBanner
-onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
-open.spotify.com##.NavBar__download-item:upward(1)
-open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
-open.spotify.com##.tracklist-row-unplayable:upward(1)
-open.spotify.com##button[aria-label="Upgrade ke Premium"]
-open.spotify.com##button[title="Upgrade ke Premium"]
-open.spotify.com##section[data-testid="cookie-notice"]
 opencritic.com##.my-2:has(> app-advertisement)
 opencritic.com##.oc-game-info__experiment-actions
 opencritic.com##.text-center:has(> app-advertisement)
@@ -716,8 +841,6 @@ oploverz.in##.wpdiscuz-loading-bar
 ourmatch.net##.leaderboard_ad
 ourmatch.net##.leaderboard_mid
 ourmatch.net##.right_ad
-outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
-outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
 
 pahe.in##.header-content
 pasienbpjs.com##.itemad
@@ -730,9 +853,8 @@ phoronix.com###main > div[style]:not([class]):not([id])
 photopea.com##.photopea > div[style]
 phys.org##.article-banner
 pinterest.com##div[data-test-id="giftWrap"]
-pinterest.com##div[data-test-id="UnauthVaseFullBleedModalContainer"]
 pinterest.com##div[data-test-id="UnauthPinLandingCloseup"] > div[data-test-id="pin"] > div[style*="bottom:"]
-play.google.com##.full-price
+pinterest.com##div[data-test-id="UnauthVaseFullBleedModalContainer"]
 podnapisi.net##.ad
 poki.com##div[class*="advertisement-"]
 polygon.com##.c-ad-whitelist
@@ -754,8 +876,9 @@ producthunt.com##[class^="postsList_"] > li:has(:scope a[class^="promotedBadgeLi
 producthunt.com##[class^="postsList_"] > li:has(:scope a[href^="/promoted-products"])
 producthunt.com##[class^="share_"]
 pscp.tv##.ShareBroadcast
-mail.protonmail.com##.navigation-upgrade-item
 media.zat.im,libre.video,open.tube,peertube.*,tilvids.*##div[role="button"]:has(> my-global-icon[iconname="share"])
+app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
+mail.protonmail.com##.navigation-upgrade-item
 
 qt.io##.b-article__share-footer
 
@@ -768,6 +891,31 @@ ranker.com##span[class^="title_shareContainer"]
 ranker.com##ul[class^="gridView_main"] > li:not([class]):not([role="link"])
 rawmusictv.com##.affiliate-footer-ad-w
 rawmusictv.com##ins:upward(1)
+reddit.com##.ad-container
+reddit.com##.ad-container:upward(.spacer)
+reddit.com##.give-gold-button
+reddit.com##.goldvertisement:upward(.spacer)
+reddit.com##.HomeAds.SidebarAd:upward(div[data-redditstyle="true"])
+reddit.com##.listingsignupbar
+reddit.com##.onboardingbar
+reddit.com##.premium-banner
+reddit.com##.premium-banner-outer
+reddit.com##.premium-banner-outer:upward(.spacer)
+reddit.com##.scrollerItem:has(:scope a[href^="/rpan/"]):upward(2)
+reddit.com##[data-click-id="share"]
+reddit.com##[id$="-share-menu"]
+reddit.com###COIN_PURCHASE_DROPDOWN_ID
+reddit.com###COIN_PURCHASE_DROPDOWN_ID:upward(1)
+reddit.com###ecb
+reddit.com###focus-Coins[role="menuitem"]
+reddit.com###focus-DailyCharts[role="menuitem"]
+reddit.com###focus-Premium[role="menuitem"]
+reddit.com###focus-PublicAccessNetwork[role="menuitem"]
+reddit.com###MULTIREDDIT_TOP_BAR_SHARE
+reddit.com###uapp-banner:upward(1)
+reddit.com##a.redesign-beta-optin
+reddit.com##button:has(> span:has-text(Give Award))
+reddit.com##svg + div > div:has-text(Reddit Premium):upward(5)
 reelgood.com##button:has-text(Share)
 reelgood.com##div:has(> div:only-child > button:has-text(Share))
 reelgood.com##img[alt="Share icon"]
@@ -863,6 +1011,15 @@ sourceforge.net###nels
 sourceforge.net###project-nel:has(> .nel > a[href*="/www/delivery/"])
 sourceforge.net###share-project-button
 sourceforge.net##a[data-open="psp-newsletter-modal"]
+spacemov.cc##.alert
+spacemov.cc##.ann-home
+spacemov.cc##.footer-tags
+spacemov.cc##.mv-rating
+spacemov.cc##.page-detail + .text-center.text-bottom
+spacemov.cc###bread
+spacemov.cc###bread + p.aligncenter
+spacemov.cc###mv-keywords
+spacemov.cc###switch-mode
 speedguide.net##div[style]:has(> div[id^="div-gpt-ad"])
 spin.com##.ad-container
 spin.com##.footer-ad-holder
@@ -881,21 +1038,49 @@ stackoverflow.com###answers > a[name="new-answer"]
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com###post-form
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
-store.steampowered.com##.discount_block .bundle_base_discount
-store.steampowered.com##.discount_block .discount_original_price
-store.steampowered.com##.discount_block .discount_pct
+streamable.com##.bottombanner
+streamable.com##.leftbanner
+streamable.com##.rightbanner
+streamable.com##.rightbanner-container
+streamable.com##.stickyfooter
+streamable.com##.stickypush
+streamable.com##.topbanner
+streamable.com###everything-but-video
+streamable.com##div[id^="cdm-zone-"]
+streamable.com##div[style="height:15px;"]
 streamanime.tv##.inContAdVid
+streamgoals.com##.free
+streamgoals.com##.spins
+streamgoals.com##.stsbet
+streamgoals.com##.vjs-overlay
+streamgoals.com###controls .casino
+streamgoals.com##a[href^="https://streamgoals.com/bukmacher/r/"]
+streamgoals.com##div[class*=cool-stuff]
+streamvi.com##.d-none.d-lg-block
+streamvi.com##.footer
+streamvi.com##center > a[target="_blank"]
+streamvi.com##style + .bs-linebreak
+streamye.com##.ad1
+streamye.com##.ad2
 superuser.com##.everyonelovesstackoverflow
 superuser.com##.js-dismissable-hero
 superuser.com##.site-header + .s-hero
-support.microsoft.com###notification-banner
 swatchseries.to###top-band
 swisscows.com##.advt-link
 swisscows.com##.banners-wrap
+isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
+open.spotify.com##.NavBar__download-item:upward(1)
+open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
+open.spotify.com##.tracklist-row-unplayable:upward(1)
+open.spotify.com##button[aria-label="Upgrade ke Premium"]
+open.spotify.com##button[title="Upgrade ke Premium"]
+open.spotify.com##section[data-testid="cookie-notice"]
+store.steampowered.com##.discount_block .bundle_base_discount
+store.steampowered.com##.discount_block .discount_original_price
+store.steampowered.com##.discount_block .discount_pct
 
 tagpacker.com##.consent
 tagpacker.com##consent
-techcommunity.microsoft.com##.custom-share-component
 techcrunch.com##.article__related-links
 techcrunch.com##.article-footer
 techradar.com##.leaderboardAdPresent
@@ -943,12 +1128,12 @@ thewindowsclub.com##.ss-total-shares
 thewindowsclub.com##.widget_bibblio_recent_posts
 thewindowsclub.com###ss-floating-bar
 thewindowsclub.com##div[class][data-index][style]:has(:scope a[onclick^="javascript:"])
+threatfeeds.io##.sponsored
 thurrott.com##.ad
 thurrott.com##.gdpr-cookie-banner
 thurrott.com###breadcrumb
 thurrott.com##article > footer
 thurrott.com##img[width="1"][height="1"]
-threatfeeds.io##.sponsored
 time.com##.ad
 time.com##.ad-container
 time.com##.ad-wrapper
@@ -960,7 +1145,6 @@ time.com##img[src="/kismet/spacer.png"]
 timeout.com##.ad
 timeout.com##.xs-col-12:has(> span:has-text(/advertising/i))
 tixati.com##div[style*="min-height: 110px"]
-tokopedia.com###trending-popular-keywords
 tokopedia.com##.rel-category-share
 tokopedia.com##.rvm-shares-product
 tokopedia.com##.share-general
@@ -968,10 +1152,16 @@ tokopedia.com##.shop-official__share
 tokopedia.com##.socialholder-container
 tokopedia.com##.socialholder-label
 tokopedia.com##[class$="-unf-share"]
+tokopedia.com###trending-popular-keywords
 tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item
 torrentfreak.com###tf-comments
+torrentz.*###recent
+torrentz.*##dd:has-text(Spónsored Link):upward(dl)
+torrentz.*##div.cloud
+torrentz.*##div.onToleratds
+torrentz.*##div.relatedqcont
 trakt.tv##.banner
 trakt.tv##.stats > li:has(> a[href$="/comments"])
 trakt.tv##[class*="hu-ck"]
@@ -995,6 +1185,9 @@ trakt.tv##li:has(> a[href^="/widgets"])
 trakt.tv##li:has(> a[href="#comments"])
 transifex.com##.js-social-share
 tvbersama.com##.adsheader
+tvseries.video##.fb-comments
+tvseries.video##.mads
+tvzion.club##.notification
 twitch.tv##.side-info-container:has(:scope button:has-text(Sign up))
 twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(:scope a[href^="/directory/game/"]))
 twitter.com##[data-testid="primaryColumn"] [data-testid="trend"][role="link"]:has(:scope svg + span:has-text(Dipromosikan oleh)):upward(2)
@@ -1016,9 +1209,17 @@ userstyles.org###share_div
 userstyles.org###top_android_button
 utorrent.com##.ga-et
 
-vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
+vev.io##.navbar
+vev.io##.page-sidebar
+vev.io##.resize-sensor
+vev.io##.video-info
+vev.io##.vjs-info-button
 vice.com##.article-heading-v2__social-link
 videohelp.com###mobilebanner
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###adbd
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###container > :not(#video-content)
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###header
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###play_limit_box
 viva.co.id##.article-share-socmed
 viva.co.id##.article-share-v2
 viva.co.id##.iklan-18
@@ -1034,6 +1235,7 @@ viva.co.id###leaderboard
 viva.co.id##li:has(> div[id^="div-gpt-ad"])
 vsdea.me###oper
 vsdea.me###pop
+code.visualstudio.com###mscc-cookie-container
 
 washingtonpost.com##body > div:not([class]):not([id]):not([style])
 wcostream.com##.alert
@@ -1071,6 +1273,11 @@ wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
 wordpress.org##.locale-banner
 wplift.com##.cp-info-bar
 wplift.com##.ctaheaderbutton
+chromium.woolyss.com##.nav > li:has(> a[href="#comments"])
+chromium.woolyss.com###comments
+chromium.woolyss.com###comments + br
+chromium.woolyss.com###f
+chromium.woolyss.com###fm
 
 xda-developers.com##.below-nav-ad
 xda-developers.com##.tagbar
@@ -1097,9 +1304,9 @@ ymovies.*###banner_publi
 ymovies.*###err2019
 ymovies.*###topplayer
 ymovies.*##div[itemprop="video"] > div:not(#page_effect)
-youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
-youtubedownload.minitool.com##.article-share-wrap
-youtubedownload.minitool.com###usercomment-280
+youtube.com###alert-banner
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
 yts.am##.rating-row
 yts.am##a[href^="/go-"]
 

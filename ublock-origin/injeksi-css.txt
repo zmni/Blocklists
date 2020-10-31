@@ -1,0 +1,593 @@
+!! ========================================================================== !!
+!! INJEKSI CSS
+!! ========================================================================== !!
+
+5movies.to#$#.content { float: none !important; width: auto !important; }
+5movies.to#$#.pagination { text-align: center !important; }
+9anime.*#$#:root { --cw: 1160px; --vw: 1130px; --vh: calc(var(--vw) * 9 / 16 + 38px); --pt: calc(var(--vh) + 1.66rem); }
+9anime.*#$#.container { width: var(--cw) !important; max-width: var(--cw) !important; }
+9anime.*#$#.container::after { clear: both !important; content: "" !important; display: table !important; }
+9anime.*#$#ol.navbc { font-size: .75em !important; visibility: hidden !important; }
+9anime.*##+js(add-style, watch, aside.main|aside.sidebar, padding-top: var(--pt);)
+9anime.*##+js(add-style, watch, .player-wrapper, position: absolute; top: 0; width: var(--vw); height: var(--vh);)
+
+anime-planet.com#$#:root { --color-theme: #0088ff !important; --color-theme-m: #cc6600 !important; --color-text: #c3c3c3 !important; --color-text--inverted: #0f0f0f !important; --color-text--dimmed: #4b4b4b !important; --color-heading: #c3c3c3 !important; --color-link: #0088ff !important; --color-link--hover: #f0f0f0 !important; --color-link-selected: #f0f0f0 !important; --color-border: #2d2d2d !important; --color-button: #2d2d2d !important; --site-background: #0f0f0f !important; --site-background--inverted: #c3c3c3 !important; --callout-background: #1e1e1e !important; --overlay-background: #1e1e1e !important; --color-input-bg: #2d2d2d !important; --color-input-text: #c3c3c3 !important; --input-boxshadow: #2d2d2d !important; --color-autocomplete-bg: #2d2d2d !important; --color-card--background: #1e1e1e !important; --color-card--border: #0f0f0f !important; --color-card--subtitle: #c3c3c3 !important; --color-card--title: #c3c3c3 !important; --color-discussions-content--bg: #2d2d2d !important; --color-discussions-content-quote: #c3c3c3 !important; --color-discussions-content-separator: #2d2d2d !important; --color-macro-button-bg: #1e1e1e !important; --color-macro-button-text: #0088ff !important; --color-review--content: #c3c3c3 !important; --color-review--date: #878787 !important; --color-tags-background: #1e1e1e !important; --color-username: #c3c3c3 !important; --advanced-filter-search--inputbg: #1e1e1e !important; --advanced-filter-search-pillfilter--background: #1e1e1e !important; --advanced-filter-search-pillfilter--border: #2d2d2d !important; --advanced-filter-search-pillbottle-pill--bg: #2d2d2d !important; --advanced-filter-search-pillbottle-pill--bghover: #4b4b4b !important; --advanced-filter-search-ratingslider--background: #f0f0f0 !important; --advanced-filter-search--showmore: #cc6600 !important; --border-style: 1px solid #2d2d2d !important; }
+anime-planet.com#$##siteNav > ul > li ul li:first-child a, #siteUser .loggedIn ul li:first-child a { padding-top: .5rem !important; }
+anime-planet.com#$##siteNav > ul > li ul li:last-child a, #siteUser .loggedIn ul li:last-child a { padding-bottom: .5rem !important; }
+anime-planet.com#$##siteNav > ul > li ul a:hover, #siteUser .loggedIn ul a:hover { background-color: #3c3c3c !important; }
+anime-planet.com#$#.videoList.no-titles .card.landscape { height: auto !important; margin-bottom: unset !important; }
+anime-planet.com#$#.card.landscape .crop { padding-bottom: 75% !important; }
+anime-planet.com#$#.videoList .crop, .videoWatchList .crop { box-shadow: unset !important; }
+anime-planet.com#$#.aka, .CharacterCard__action--old { color: #878787 !important; }
+anime-planet.com#$#.CharacterCard__actions--old { border-color: #3c3c3c !important; }
+anime-planet.com#$#.CharacterCard__action--old:nth-child(2) { border-left-color: #3c3c3c !important; }
+anime-planet.com#$#.user__profile_image { background: #1e1e1e !important; }
+anime-planet.com#$#.ShortReview__comments, .ShortReview__likes { color: #c3c3c3 !important; }
+anime-planet.com#$#.pillBottle .pill { border-color: #000 !important; }
+anime-planet.com#$#.tabs .tab, .pillFilters { border-radius: unset !important; }
+anime-planet.com#$#.pillFilters, .pillBottle { display: flex !important; align-items: center !important; }
+anime-planet.com#$#.pillBottle .pill { margin-bottom: unset !important; }
+anime-planet.com#$#.pagination li { padding: unset !important; }
+anime-planet.com#$#.pagination li:hover { background-color: transparent !important; }
+anime-planet.com#$#.pagination li > a, .pagination li > span { display: block !important; padding: .5em 1em !important; }
+anime-planet.com#$#.pagination li > span { color: var(--color-text--dimmed) !important; }
+anime-planet.com#$#.pagination li:not(.selected) > a:hover { background-color: var(--callout-background) !important; }
+anime-planet.com#$#.pagination .prev span::before, .pagination .prev a::before { color: inherit !important; }
+anime-planet.com#$#h1[itemprop=name] { text-align: center !important; }
+anime-planet.com#$##siteContainer { padding-top: 54px !important; }
+anime8.ru#$#body { background: #1a1a1a !important; color: #eee !important; }
+anime8.ru#$#header { position: static !important; }
+anime8.ru#$#.search-suggest { z-index: 5 !important; }
+anime8.ru#$##menu .sub-container { z-index: 10 !important; }
+anime8.ru#$##main { padding-top: 2px !important; }
+anime8.ru#$#.top-content { height: auto !important; }
+anime8.ru#$#.main-detail { width: 1180px !important; }
+anime8.ru#$##mv-info .mvi-cover { background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important; }
+anime8.ru#$#.movies-list-wrap .ml-title { margin-top: 20px !important; }
+anime8.ru#$#.movies-list-wrap .ml-title h1 { line-height: 1 !important; }
+anime8.ru#$#.movies-list-wrap .ml-title span { display: block !important; height: 35px !important; line-height: 35px !important; }
+anime8.ru#$#.movies-list .ml-item, .mlw-related .movies-list .ml-item { height: auto !important; }
+anime8.ru#$#.movies-list .ml-item { width: calc((100% * 1 / 7) - 2%) !important; }
+anime8.ru#$#.movies-list .ml-item .ml-mask { background-color: #000 !important; height: 0 !important; padding-bottom: calc(100% * 4 / 3) !important; position: relative !important; }
+anime8.ru#$#.movies-list .ml-item .mli-thumb.mli-thumb { height: 100% !important; position: absolute !important; top: 0 !important; right: 0 !important; bottom: 0 !important; left: 0 !important; }
+anime8.ru#$#.movies-list .ml-item .mli-eps { z-index: 10 !important; }
+anime8.ru#$#.movies-list .ml-item .mli-info { background-image: linear-gradient(to top, #000, transparent) !important; }
+anime8.ru#$#.movies-list .ml-item .mli-info h2 { text-shadow: -1px -1px 2px #000, -1px -1px 2px #000 !important; }
+anime8.ru#$#img.thumb[src^="data:"] { visibility: collapse !important; }
+anime8.ru#$##mv-info .mvi-content .mvic-desc { margin-right: 0 !important; padding-right: 0 !important; width: calc(100% - 160px) !important; }
+anime8.ru#$##info_player { background: transparent !important; padding: 0 !important; position: absolute !important; top: 15px !important; left: 15px !important; opacity: 0 !important; transition: opacity 300ms !important; width: auto !important; z-index: 1 !important; }
+anime8.ru#$##info_player:hover { opacity: 1 !important; }
+anime8.ru#$##info_player select { background-color: #2d2d2d !important; border-color: #000 !important; color: #c3c3c3 !important; transition: all 300ms !important; }
+anime8.ru#$##info_player select:hover, #info_player select:focus, #info_player select:active { background-color: #3c3c3c !important; border-color: #000 !important; color: #f0f0f0 !important; }
+anime8.ru#$##media-player::before { content: "" !important; display: block !important; padding-bottom: calc(100% * 9 / 16) !important; }
+anime8.ru#$##list-eps .le-server .les-content { display: flex !important; flex-wrap: wrap !important; }
+anime8.ru#$##list-eps .le-server .les-content .btn-eps { flex-grow: 0 !important; flex-basis: calc(100% / 13 - 10px) !important; width: calc(100% / 13 - 10px) !important; }
+anime8.ru#$##list-eps .le-server .les-content .btn-eps.active:hover { background: #c73d00 !important; border-color: #8c2b00 !important; color: #fff !important; }
+animefillerlist.com#$#body { background-color: #0f0f0f !important; }
+animefillerlist.com#$#.FrontMessage, #Filters a, #Content > .Right h2, #ShowList > .Group > h2, #Condensed .filler, table.EpisodeList th.header, table.EpisodeList tr.filler { background-color: #1e1e1e !important; }
+animefillerlist.com#$##Header, #Filters a.Active, #Condensed .Label { background-color: #2d2d2d !important; }
+animefillerlist.com#$#body, .Filler h2, #Filters a.Active, #Condensed, #Condensed .Episodes > a { color: #c3c3c3 !important; }
+animefillerlist.com#$#h1, h2, h3, h4, #Content > .Right h2 { color: #e1e1e1 !important; }
+animefillerlist.com#$##Filters a, .node-anime > .Details > .Right .Description p, .node-anime > .Details > .Right > .Contributors p, #Content > .Right .block .item-list li .Date { color: #878787 !important; }
+animefillerlist.com#$#.Breadcrumb, .node-anime > .Details > .Right > .Date, .TitleExtra > span { color: #787878 !important; }
+animefillerlist.com#$##Filters a, #ShowList > .Group > h2, #ShowList > .Group > ul, #Condensed, #Content > .Right .block, #Content > .Right h2, #Content > .Right .block .MoreLink { border-color: #1e1e1e !important; }
+animefillerlist.com#$##Filters a.Active { border-color: #2d2d2d !important; }
+animefillerlist.com#$#table.EpisodeList { border-top-color: #1e1e1e !important; }
+animefillerlist.com#$##Condensed .filler .Label { border-top-color: #3c3c3c !important; }
+animefillerlist.com#$##ShowList > .Group > ul { border-top-color: transparent !important; }
+animefillerlist.com#$#table.EpisodeList tr.filler td { border-right-color: #0f0f0f !important; }
+animefillerlist.com#$#table.EpisodeList td, table.EpisodeList th, table.EpisodeList tr.filler td.Date { border-right-color: #1e1e1e !important; }
+animefillerlist.com#$#.FrontMessage { border-bottom-color: #000 !important; }
+animefillerlist.com#$#table.EpisodeList tr.filler td { border-bottom-color: #0f0f0f !important; }
+animefillerlist.com#$##Filters, #Content > .Right .block .item-list li, table.EpisodeList td, table.EpisodeList th { border-bottom-color: #1e1e1e !important; }
+animefillerlist.com#$##Filters a.Active { border-bottom-color: #2d2d2d !important; }
+animefillerlist.com#$##Condensed .Label { border-bottom-color: #3c3c3c !important; }
+animefillerlist.com#$#table.EpisodeList { border-left-color: #1e1e1e !important; }
+animefillerlist.com#$#select { filter: invert(.8) !important; }
+animefillerlist.com#$##Condensed .Label, table.EpisodeList th, #Content > .Right h2 { text-shadow: none !important; }
+animeflix.io#$#.v-navigation-drawer[style*="transform: translateX(0px)"] { transform: translateX(300px) !important; }
+animeflix.io#$#.v-toolbar[style*="padding-right: 300px"] { padding-right: unset !important; }
+animeflix.io#$#.v-toolbar__content[style*="height: 64px"] { height: 40px !important; }
+animeflix.io#$#.v-toolbar__title.pt-3 { padding-top: 8px !important; }
+animeflix.io#$#.v-text-field.v-text-field--solo .v-input__control { min-height: 32px !important; }
+animeflix.io#$#.v-content[style*="padding: 64px 300px 0px 0px"] { padding-top: 40px !important; padding-right: unset !important; }
+animeflix.io#$#.v-content > .v-content__wrap > .container > .layout.column.mt-5 { margin-top: unset !important; }
+animeflix.io#$#.v-responsive__sizer[style*="padding-bottom: 150%"] { padding-bottom: calc(100% * 4 / 3) !important; }
+animeflix.io#$#.holder-dt { height: calc(100vh - 40px) !important; }
+animeindo.cc#$##container { margin-top: unset !important; max-width: 1170px !important; }
+animeindo.cc#$##infoarea { padding-top: unset !important; }
+animeindo.cc#$##infoarea::after { clear: both !important; content: "" !important; display: table !important; }
+animeindo.cc#$#.bigcontent { min-height: unset !important; }
+animeindo.cc#$#.bigcontent .thumbook { top: auto !important; }
+animeindo.cc#$#.bigcontent .thumb { border-color: #0f0f0f !important; }
+animeindo.cc#$#.bigcontent .thumb img { display: block !important; }
+animeindo.cc#$#.lstepsiode ul, #infoarea .mCustomScrollBox { max-height: unset !important; }
+animeindo.cc#$##sidebar .widgets ul.genre, ul.genre > .mCustomScrollBox { max-height: 1120px !important; }
+animeindo.cc#$#.animepost .animposx .data { text-align: center !important; }
+animeindo.cc#$#.animepost .animposx .data .mark, .animepost .animposx .title { padding-top: .5rem !important; }
+animeindo.cc#$#.single-post #primary { float: none !important; width: 100% !important; }
+animeindo.cc#$#.plyexpand { display: block !important; margin-bottom: 1rem !important; padding-bottom: calc(56.25% + 46px) !important; width: 100% !important; }
+animeindo.cc#$#.player-area { margin-bottom: unset !important; position: absolute !important; top: 0 !important; width: 100% !important; }
+animeindo.cc#$#.player-area.expnd { margin-bottom: unset !important; margin-top: unset !important; }
+animeindo.cc#$#.player-area.expnd #embed_holder { padding: unset !important; }
+animeindo.cc#$#.naveps { margin-bottom: 1.5rem !important; }
+animeindo.cc#$#.info_episode .lm .sbdbti { border-bottom: unset !important; margin-bottom: unset !important; padding-bottom: unset !important; }
+animeindo.cc#$#.info_episode .epx { margin-bottom: unset !important; }
+ainimeindo.com#$#.genrelist { max-height: 400px !important; }
+ainimeindo.com#$#body { background-image: none !important; }
+alternativeto.net#$#.app-sidebar { margin-top: 0 !important; }
+androidauthority.com#$#.after-header { margin-top: 0 !important; }
+androidauthority.com#$##sticky-bar { position: relative !important; }
+androidauthority.com#$##sticky-bar.header_tweaks #tt_hot_products_menu { transform: none !important; }
+androidauthority.com#$##sticky-bar.sticky-mobile.header_tweaks { top: 0 !important; }
+anichart.net#$#.main-content > .chart-view { margin-right: 3vw !important; margin-left: 3vw !important; }
+anidb.net#$##layout-main div.tag_all .g_bubblewrap { overflow-y: auto !important; }
+anilinkz.to#$#.column { width: calc(100% / 3 - 20px) !important; }
+anilinkz.to#$#header, main, nav, #nextprevlist { float: none !important; }
+anilinkz.to#$#main, #nextprevlist { width: auto !important; }
+animeindo.moe#$##anm_srs { height: auto !important; overflow-y: auto !important; }
+animeindo.moe#$#body { background-image: none !important; }
+appfairness.org#$#.dialog-prevent-scroll { overflow: auto !important; }
+atlasobscura.com#$#.athanasius .ArticleBody.ArticleBody__default figure.article-image-full-width { margin-left: unset !important; }
+azm.to,azmovie.to#$#.player__main { margin-top: unset !important; }
+azm.to,azmovie.to#$#.watch-hero.mb-large { margin-bottom: unset !important; }
+azm.to,azmovie.to#$#.watch-title { margin-bottom: 1rem !important; margin-top: 1rem !important; }
+azm.to,azmovie.to#$##selectedserver { height: 24px !important; line-height: 24px !important; vertical-align: bottom !important; }
+azm.to,azmovie.to#$##selectedserver img { height: 24px !important; width: 24px !important; }
+
+beautifier.io#$#.CodeMirror { height: auto !important; }
+bestsimilar.com#$#body { background-color: #0f0f0f !important; }
+bestsimilar.com#$#nav.navbar, .item-c .item, .block-ins-tag-s1 .block-ins-item .block-ins-caption, .section-title, #footer { background-color: #1e1e1e !important; }
+bestsimilar.com#$#.well { background-color: #2d2d2d !important; }
+bestsimilar.com#$#.fav_btn .btn, .form-control, #top-search-form input, #top-search-tag-form input, #top-search-result, .item .smt-header-c div { background-color: #3c3c3c !important; }
+bestsimilar.com#$#.fav_btn .btn:hover { background-color: #4b4b4b !important; }
+bestsimilar.com#$#a { color: #38f !important; }
+bestsimilar.com#$#body, .form-control, .fav_btn .btn, #best-tags h2, .attr.attr-story .value, .block-ins-tag-s1 .block-ins-item .block-ins-caption a, .item .smt-header-c div, .section-title h2 { color: #c3c3c3 !important; }
+bestsimilar.com#$#.text-muted, .h-desc, .section .h-desc, .attr .value { color: #878787 !important; }
+bestsimilar.com#$#.fav_btn .btn:hover { color: #f0f0f0 !important; }
+bestsimilar.com#$#.well, .form-control, .navbar-default, .fav_btn .btn, .fav_btn .btn:hover, #top-search-form button, #top-search-tag-form button, #top-search-result { border-color: #000 !important; }
+bestsimilar.com#$#.section-list-body { border-top-color: #4b4b4b !important; }
+bestsimilar.com#$##top-search-result .item, .item-c .item .item-name, .section-title { border-bottom-color: #000 !important; }
+bestsimilar.com#$#.h-desc, .section .h-desc { border-left-color: #696969 !important; }
+bestsimilar.com#$##header-logo, img[src="/css/img/noimg256h.png"] { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+bestsimilar.com#$#.item .smt-header-c div { padding: 6px 12px !important; line-height: 1.428571429 !important; border: 1px solid #000 !important; }
+bleepingcomputer.com#$#.bc_right_sidebar { min-height: unset !important; }
+bola.net#$#.bola-logo img { width: 154px !important; }
+bola.net#$#.bola-search-box { float: right !important; margin-left: 0 !important; margin-top: 0 !important; }
+bola.net#$#.bola-social-bar { margin-top: 5px !important; display: none !important; }
+bola.net#$#.bola-menu-navbar { margin-top: 0 !important; }
+bola.net#$##main_nav { position: relative !important; }
+bola.net#$#.paging, .paging_nolink { padding: 6px !important; }
+browserleaks.com#$##content { margin-left: 250px !important; }
+browserleaks.com#$##nav-menu { margin-top: 0 !important; }
+browserleaks.com#$##nav { bottom: auto; top: 105px !important; }
+browserleaks.com#$#body:not(.pinned) #nav-menu { width: 200px !important; }
+btdb.to#$#.content { padding-left: calc(10% + 132px) !important; }
+btdb.to#$#.highlight { color: #5c97f1 !important; }
+btdb.to#$#.toolbar { padding-left: calc(10% + 140px) !important; }
+
+clippituser.tv#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+clippituser.tv#$#body header { background-color: transparent !important; }
+clippituser.tv#$#.card .post-show { color: #e1e1e1 !important; }
+clippituser.tv#$#.user-info .user-data a.username { color: #f0f0f0 !important; }
+clippituser.tv#$#.user-info .post-time { color: #787878 !important; }
+clippituser.tv#$#.card, .download { background-color: transparent !important; }
+clippituser.tv#$#body header { height: unset !important; }
+clippituser.tv#$#body header a { display: inline-block !important; }
+clippituser.tv#$#body header .logo { height: unset !important; margin: 8px auto 4px !important; width: 30px !important; }
+clippituser.tv#$#body .container { max-width: 1100px !important; }
+clippituser.tv#$#.container::after { clear: both !important; content: "" !important; display: table !important; }
+clippituser.tv#$#.container .card-container { max-width: none !important; }
+clippituser.tv#$#.card { border: 0 !important; padding: 0 !important; }
+cloudvideo.tv#$#.slim-mainpanel2, .slim-mainpanel2 > .mg-t-80 { margin-top: 20px !important; }
+crackwatch.com#$#.best-price { font-size: inherit !important; line-height: inherit !important; }
+crackwatch.com#$#.game-row-price { padding-top: 21px !important; }
+crackwatch.com#$#.game-row-price.padding0 { padding-top: 0 !important; }
+
+fandom.com#$#.wds-community-header { width: calc(95% + 40px) !important; }
+fandom.com#$#.WikiaPage { border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+fandom.com#$#.WikiaPage { width: 95% !important; }
+fandom.com#$##WikiaMainContent table, #WikiaMainContent td, #WikiaMainContent th, #WikiaMainContent div[style*="border-radius:"], #WikiaArticle h2 { border-radius: unset !important; }
+fandom.com#$#body, #WikiaMainContent table, #WikiaMainContent td, #WikiaMainContent th, #WikiaMainContent div[style*="background-image:"], #WikiaArticle h2, .wds-community-header, div.ajax-poll, .WikiaArticleCategories, .article-categories, .CategorySelect.articlePage { background-image: none !important; }
+fandom.com#$#div[style*="height:"] { height: auto !important; max-height: none !important; }
+flixgo.co#$#.header { position: static !important; }
+flixgo.co#$#.similar > .container > .row > .col-12.col-xl-4 { flex-basis: 100% !important; max-width: 100% !important; }
+flixgo.co#$#.similar > .container > .row > .col-12.col-xl-4 > .row > .col-6.col-sm-4.col-lg-3.col-xl-6 { flex-basis: 16.66667% !important; max-width: 16.66667% !important; }
+flixgo.co#$#body { padding-top: 0 !important; }
+flixtor.to#$#body, html[darkmode="true"] body { background-color: #000 !important; background-image: none !important; color: #c3c3c3 !important; }
+flixtor.to#$#.text-dark.text-dark { color: #696969 !important; }
+flixtor.to#$#.text-muted.text-muted { color: #878787 !important; }
+flixtor.to#$#img.border.border { border-color: #1e1e1e !important; }
+flixtor.to#$#.img-thumbnail { background-color: #1e1e1e !important; border-color: #1e1e1e !important; }
+flixtor.to#$#.table { color: #c3c3c3 !important; }
+flixtor.to#$#.card { border-color: #000 !important; }
+flixtor.to#$#.bsh1, .main .card.back, .main .card.front, .show .card.back, .show .card.front { box-shadow: none !important; }
+flixtor.to#$#.cardthumb, html[darkmode="true"] .cardthumb { background-color: #1e1e1e !important; }
+flixtor.to#$#.graybg { background-color: #1e1e1e !important; }
+flixtor.to#$#.bord1top.bord1top { border-top-color: #3c3c3c !important; }
+flixtor.to#$#.bord1right.bord1right { border-right-color: #3c3c3c !important; }
+flixtor.to#$#.section-watch-season { background-color: #1e1e1e !important; }
+flixtor.to#$#.watch-header { color: #e1e1e1 !important; }
+flixtor.to#$#.table-episodes { color: #c3c3c3 !important; }
+flixtor.to#$#.table-episodes.table-episodes td, .table-episodes.table-episodes th { border-top-color: #2d2d2d !important; border-bottom-color: #2d2d2d !important; }
+flixtor.to#$#.table-hover tbody tr:hover { background-color: #2d2d2d !important; color: #f0f0f0 !important; }
+flixtor.to#$#.page-link, .page-item.disabled .page-link { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+flixtor.to#$#.page-item.disabled .page-link { opacity: .5 !important; }
+flixtor.to#$#.page-link:hover { background-color: #2d2d2d !important; border-color: #3c3c3c !important; }
+flixtor.to#$#.page-link.text-info.text-info:hover { color: #f0f0f0 !important; }
+flixtor.to#$#.tooltipster-sidetip .tooltipster-box, .tooltipster-sidetip.tooltipster-shadow .tooltipster-box { background: #2d2d2d !important; }
+flixtor.to#$#.tooltipster-sidetip .tooltipster-content, .tooltipster-sidetip.tooltipster-shadow .tooltipster-content { color: #c3c3c3 !important; }
+flixtor.to#$#.tooltipster-content > .graybg { background-color: #3c3c3c !important; }
+flixtor.to#$#.section-watch-video, .section-watch-overview, .section-watch-recommendations { box-shadow: unset !important; }
+flixtor.to#$#.section-watch-video { background-color: #000 !important; }
+flixtor.to#$#.section-faq { background-color: #1e1e1e !important; }
+flixtor.to#$#.section-faq .card { background-color: #2d2d2d !important; }
+flixtor.to#$#.section-faq .text-dark.text-dark { color: #c3c3c3 !important; }
+flixtor.to#$#.section-faq .card-block { color: #969696 !important; }
+flixtor.to#$#div[itemtype="https://schema.org/Movie"].mt-4, div[itemtype="https://schema.org/TVSeries"].mt-4 { margin-top: unset !important; }
+flixtor.to#$#.section-watch.mt-4 { margin-top: calc(44px - 8px) !important; }
+flixtor.to#$#.section-watch { width: 1180px !important; }
+flixtor.to#$#.section-watch-video.rounded, .section-watch-overview.rounded, .section-watch-recommendations.rounded { border-radius: unset !important; }
+flixtor.to#$#img[alt="Poster Image"].mr-2 { margin-right: 1rem !important; }
+flixtor.to#$#.section-watch-season.m-2 { margin-left: unset !important; margin-right: unset !important; }
+flixtor.to#$#.modal-lg { max-width: 1080px !important; }
+flixtor.to#$#div[class^="contentList"] > .row { padding-right: 9px !important; padding-left: 9px !important; }
+flixtor.to#$#div[class^="contentList"] > .justify-content-around { justify-content: flex-start !important; }
+flixtor.to#$#div[class^="contentList"] > .justify-content-around > .py-2 { margin: 0 5px !important; }
+fmovies.*#$#body.list #body > .container { margin-top: unset !important; }
+fmovies.*#$#.filmlist > .item { width: calc(100% / 7 - 1%) !important; }
+fmovies.*#$##watch { --vw: 1000px !important; }
+fmovies.*#$##watch .play { background-color: #000 !important; background-image: unset !important; }
+fmovies.*#$##watch .play .container { width: var(--vw) !important; }
+fmovies.*#$##watch #player { height: calc(100vh - 88px) !important; }
+fmovies.*#$##watch #controls .items::after { clear: both !important; content: "" !important; display: table !important; }
+fmovies.*#$##watch #controls .items { display: flex !important; justify-content: center !important; }
+fmovies.*#$##watch #controls .items > div { margin-right: 5px !important; margin-bottom: unset !important; margin-left: 5px !important; }
+
+goal.com#$#.widget-header__wrapper { position: static !important; }
+gogoanime.*#$#section.headnav { padding-bottom: 0 !important; }
+gogoanime.*#$#section.content section.content_left { float: none !important; width: 100% !important; }
+gogoanime.*#$#.main_body { border: unset !important; }
+gogoanime.*#$#.last_episodes { padding: unset !important; }
+gogoanime.*#$#ul.items { display: flex !important; flex-wrap: wrap !important; margin-right: -10px !important; margin-left: -10px !important; }
+gogoanime.*#$#ul.items li { flex-basis: 20% !important; margin-left: unset !important; padding: 0 10px !important; }
+gogoanime.*#$#ul.items li:nth-child(4n+1) { margin-left: unset !important; }
+gogoanime.*#$#ul.items li .img img, ul.items li .img a::after { height: 100% !important; }
+gogoanime.*#$#ul.items li .img a:not(:focus):not(:hover)::after { background: unset !important; }
+gogoanime.*#$#ul.items li .img a:hover::after { background-position: center !important; background-size: 20% !important; }
+gogoanime.*#$#ul.items li p.name { height: auto !important; }
+gogoanime.*#$#.listing { margin-left: -10px !important; margin-right: -10px !important; }
+gogoanime.*#$#.listing li { padding-right: 10px !important; padding-left: 10px !important; width: calc(100% / 4) !important; }
+gogoanime.*#$#.anime_info_body img { width: 240px !important; }
+gogoanime.*#$#.anime_video_body { padding: 20px 0 !important; }
+gogoanime.*#$#.anime_video_body > h1, .anime_video_body_cate { text-align: center !important; }
+gogoanime.*#$#.anime_video_body_watch { margin-top: unset !important; }
+gogoanime.*#$#.anime_muti_link ul { margin-top: 10px !important; padding-top: 10px !important; }
+gogoanime.*#$#ul#episode_page { clear: both !important; float: none !important; text-align: center !important; }
+gogoanime.*#$#ul#episode_page li { float: none !important; }
+greasyfork.org#$#.prettyprint { max-height: none !important; }
+greasyfork.org#$##code-container { max-height: none !important; }
+
+hdo.to#$#.container { width: 1348px !important; }
+howtogeek.com#$#.site-footer { right: auto !important; left: auto !important; margin-right: unset !important; margin-left: unset !important; width: 100% !important; }
+
+indivio.us,yewtu.be#$#.navbar { margin: 8px 0 !important; }
+indivio.us,yewtu.be#$#.navbar > .searchbar .pure-form input[type="search"] { background-color: rgba(0, 0, 0, .25) !important; margin-bottom: unset !important; text-align: center !important; }
+indivio.us,yewtu.be#$#.navbar > .searchbar .pure-form input[type="search"], .navbar > .searchbar .pure-form input[type="search"]:focus { border-bottom: unset !important; }
+indivio.us,yewtu.be#$##player-container { --ph: calc(100vh - 51px); padding-bottom: var(--ph) !important; }
+indivio.us,yewtu.be#$#.player-dimensions.vjs-fluid { padding-top: var(--ph) !important; }
+
+kerrang.com#$#.Root { margin-top: 0 !important; }
+kompas.com#$#.bapps-show .content_article { padding-top: 55px !important; }
+kompas.com#$#.read__article > .col-bs9-7 { padding-left: 0 !important; width: auto !important; }
+kotakanime.net#$##main-menu { position: static !important; }
+kotakhitam.casa,kotakputih.casa#$#.swal-modal { background-color: #2d2d2d !important; }
+kotakhitam.casa,kotakputih.casa#$#.swal-title, .swal-text { color: #c3c3c3 !important; }
+kotakhitam.casa,kotakputih.casa#$#.sub-control-menu { background: #1e1e1e !important; border-color: #000 !important; color: #c3c3c3 !important; }
+kbbi.kemdikbud.go.id#$#body { background-color: #0f0f0f !important; }
+kbbi.kemdikbud.go.id#$#.jumbotron { background-color: #1e1e1e !important; }
+kbbi.kemdikbud.go.id#$#.form-control { background-color: #2d2d2d !important; }
+kbbi.kemdikbud.go.id#$#body, .form-control { color: #c3c3c3 !important; }
+kbbi.kemdikbud.go.id#$#hr { border-top-color: #3c3c3c !important; }
+kbbi.kemdikbud.go.id#$#.form-control, .glyphicon-search { border-color: #000 !important; }
+kbbi.kemdikbud.go.id#$#.glyphicon-search { transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s !important; }
+kbbi.kemdikbud.go.id#$#.form-control:focus + .input-group-btn > .glyphicon-search { border-color: #66afe9 !important; outline: 0 !important; box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6) !important; }
+
+livescore.com#$#body.popup { margin: 0 auto !important; max-width: 950px !important; }
+listverse.com#$#h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .the-article aside h4 a, .info-panel strong, .authors .new.the-article h3 a { font-family: Arial, Helvetica, sans-serif !important; }
+listverse.com#$#.wrapper::after { clear: both !important; content: " " !important; display: table !important; }
+listverse.com#$#.asides { margin-left: 0 !important; margin-right: 0 !important; width: auto !important; }
+listverse.com#$#.wrapper, header .wrapper { width: auto !important; }
+listverse.com#$#header { padding-top: 0 !important; padding-bottom: 0 !important; }
+listverse.com#$#header .toolbar { float: none !important; position: static !important; }
+listverse.com#$#header img.logo { margin: 0 0 0 2.04499% !important; position: static !important; width: auto !important; }
+listverse.com#$#a[title="Go to Home"] { display: inline-block !important; text-align: center !important; }
+listverse.com#$#.main { margin-top: 0 !important; }
+listverse.com#$#.new.the-article article, .asides-holder { width: 632px !important; }
+lookmovie.ag#$#.episodes-controls-wrapper { margin-top: 15px !important; }
+lookmovie.ag#$#.plr-help-stripe { height: auto !important; font-size: 12px !important; line-height: 1 !important; padding: 0 !important; position: static !important; opacity: 0 !important; transition: opacity .3s !important; }
+lookmovie.ag#$#.plr-help-stripe:hover { opacity: 1 !important; }
+lookmovie.ag#$#.slider { margin-bottom: 20px !important; }
+lookmovie.ag#$##PlayerZone { padding-top: unset !important; }
+
+mashable.com#$##scrollable { padding-top: 44px!important; }
+docs.microsoft.com#$#.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1 { max-width: none !important; }
+muchohentai.com#$#.single-post .wrap { width: 1100px !important; }
+muchohentai.com#$#body, #main { background-image: none !important; }
+msn.com#$#irisbannerph + .head { margin-top: unset !important; }
+forum.mikrotik.com#$#.st-editor__box #message { height: auto !important; }
+forum.mikrotik.com#$#.transparent + .stickyContainer .utility-bar { border-radius: 0 !important; }
+forum.mikrotik.com#$#blockquote .blockquote__inner, .codebox pre { max-height: none !important; }
+www.msn.com#$#.irisbactive-top.ap .head, .irisbactive-top.ap .irisbanner, .irisbactive-top.gp .head, .irisbactive-top.gp .irisbanner, .irisbactive-top.channelplayerpage .head, .irisbactive-top.channelplayerpage .irisbanner { margin-top: unset !important; }
+www.msn.com#$#.irisbactive-top #stickyTitleBar { top: 8rem !important; }
+
+neonime.*#$#body { background-image: unset !important; }
+neonime.*#$##contenedor::after, .tvshows_single::after { clear: both !important; content: "" !important; display: table !important; }
+neonime.*#$#.items .item .image { padding-top: unset !important; padding-bottom: calc(100% * 4 / 3) !important; }
+neonime.*#$#.items .item .image img { display: block !important; margin-top: unset !important; margin-left: unset !important; }
+neonime.*#$#.item.episode-home .image img { top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; width: auto !important; }
+neonime.*#$#.navplayer2 ul.player2ul, .navplayer2 ul.player2ul li.mainer a { float: none !important; }
+neonime.*#$#.navplayer2 ul.player2ul li.mainer a { display: block !important; text-align: center !important; padding: 10px 20px !important; width: auto !important; }
+neonime.*#$#.navplayer2 ul.player2ul li.mainer ul { border: 1px solid #1e222b !important; top: auto !important; bottom: 37px !important; padding-bottom: unset !important; width: auto !important; }
+neonime.*#$#.navplayer2 ul.player2ul li.mainer ul li { border: 1px solid #1e222b !important; box-sizing: border-box !important; width: calc(100% / 3) !important; }
+neonime.*#$#.navplayer2 ul.player2ul li.mainer:hover > a { background-color: #3a9356 !important; }
+neowin.net#$#.darkside #sidebar .widget-community-refresh, .darkside #sidebar .trending-item-meta .comments .comment-link::before { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+neowin.net#$#blockquote.ipsQuote { max-height: none !important; }
+nites.is#$#.bd { padding-top: 2rem !important; }
+nites.is#$#.hd { position: static !important; }
+nites.is#$#.player > .options { order: 1 !important; }
+nontonplus.com#$#:root { --width: 1170px !important; }
+nontonplus.com#$#body { background-color: #000 !important; }
+nontonplus.com#$#header { position: static !important; }
+nontonplus.com#$##main#main { padding-top: 0 !important; }
+nontonplus.com#$#.page-detail .pad { height: 23px !important; }
+nontonplus.com#$#.movies-list-wrap .ml-title span { padding: 0 10px !important; }
+nontonplus.com#$#.movies-list-wrap .ml-title .nav-tabs li a { padding: 0 5px !important; }
+nontonplus.com#$##mv-info .mvi-content .mvic-desc { margin-right: 0 !important; padding-right: 0 !important; width: 970px !important; }
+nontonplus.com#$#.main-detail { width: var(--width) !important; }
+nontonplus.com#$#.movieplay.movieplay { height: calc(var(--width) * 9 / 16) !important; }
+ns21.club#$##content { float: none !important; width: auto !important; }
+
+outline.com#$#:root { --base-color: #c3c3c3 !important; --emphasis-color: #a5a5a5 !important; --link-color: #0985ce !important; --link-hover-color: #0985ce !important; --figure-color: #878787 !important; --blockquote-color: #878787 !important; --code-color: #c3c3c3 !important; --pre-code-color: var(--code-color) !important; }
+outline.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+outline.com#$#.abovefold { background-color: #0f0f0f !important; }
+outline.com#$#.input-label { background-color: #0f0f0f !important; color: #a5a5a5 !important; }
+outline.com#$#.source-input, .source-input:focus { color: #c3c3c3 !important; }
+outline.com#$#.source-input { background-color: #1e1e1e !important; }
+outline.com#$#.source-input:focus { border: 1px solid #3c3c3c !important; }
+outline.com#$#.annotations-btn { color: #878787 !important; }
+outline.com#$#.annotations-btn, .annotations-btn-wrapper .annotations-btn { background-color: #2d2d2d !important; }
+outline.com#$#.annotations-btn-wrapper .annotations-btn:hover { border-color: #4b4b4b !important; }
+outline.com#$#.yue a:hover { background: unset !important; color: #f0f0f0 !important; text-shadow: unset !important; text-decoration: underline !important; }
+outline.com#$#.yue code, .yue tt, .yue pre { background-color: #1e1e1e !important; border-color: #3c3c3c !important; }
+outline.com#$#.yue pre { border-width: 0 0 0 1px !important; }
+outline.com#$#.branding img { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+
+pcmag.com#$##adkit_billboard { min-height: 90px !important; }
+playbackloop.com#$#.playlist-item .published_at { font-size: .75rem !important; }
+playbackloop.com#$#.playlist-item .title { font-size: .875rem !important; }
+playbackloop.com#$##playlist-player #now-playing { flex-basis: calc(100% - 380px) !important; max-width: calc(100% - 380px) !important; }
+playbackloop.com#$##playlist-player #playlist-wrapper { flex-basis: 380px !important; max-width: 380px !important; }
+pornhub.com#$#.sectionWrapper.abEnabled .sectionTitle + div { height: auto !important; }
+pornhub.com#$#.showingCounter { width: auto !important; }
+pornhub.com#$#header { padding-bottom: 0 !important; }
+portablefreeware.com#$#body { background-image: none !important; }
+media.zat.im,libre.video,open.tube,peertube.*,tilvids.*#$##video-wrapper .video-js { height: calc(100vh - 50px) !important; max-width: none !important; }
+www.privacytools.io#$#.container { max-width: none !important; }
+mail.protonmail.com#$#.pm_panel.alt { margin-top: 4rem !important; }
+mail.protonmail.com#$##pm_login, #pm_loginTwoFactor { margin-top: 2rem !important; }
+mail.protonmail.com#$#.pm_form .pm_select { -webkit-box-shadow: none !important; box-shadow: none !important; }
+
+quora.com#$#.continue_reading_wrapper_logged_out .gradient_wrapper { background-image: none !important; }
+
+reddit.com#$#.side { margin: unset !important; padding-left: 10px !important; padding-right: 10px !important; width: 350px !important; }
+reddit.com#$#.content[role="main"] { border-right: 1px solid #ccc !important; margin-right: 370px !important; }
+reddit.com#$#.link { margin-bottom: 10px !important; }
+reddit.com#$#.flairrichtext { margin-top: -4px !important; }
+reddit.com#$#.panestack-title, .commentarea .menuarea, .usertext-edit { margin-right: 10px !important; }
+reddit.com#$#div.usertext-edit { width: auto !important; max-width: none !important; }
+reddit.com#$#.markdownEditor-wrapper { width: auto !important; }
+reddit.com#$#.md { max-width: none !important; }
+reddit.com#$#.md code { white-space: normal !important; }
+reddit.com#$#.usertext-edit textarea { width: 100% !important; }
+reddit.com#$#.scrollerItem a[href^="/r/"] > [style^="--posttitletextcolor:"] > h3 { font-size: 1.15rem !important; }
+reddit.com#$#.scrollerItem svg[id^="PostBadges--Mod"], .scrollerItem i[id^="PostBadges--Archived"] { margin-top: 4px !important; }
+reddit.com#$#.scrollerItem i[id^="PostBadges--Archived"] { width: 12px !important; height: 12px !important; line-height: 12px !important; }
+reddit.com#$#.scrollerItem i[id^="PostBadges--Lock"] { margin-top: 2px !important; }
+reddit.com#$#.scrollerItem i[id^="PostBadges--Sticky"] { margin-top: 3px !important; }
+reddit.com#$#.ListingLayout-outerContainer img[src^="https://www.redditstatic.com/custom_feeds/"] { height: 48px !important; width: 48px !important; }
+reddit.com#$#button[id^="subscribe-button-"] { display: none !important; }
+reddit.com#$#button[id^="subscribe-button-"] > svg { height: 10px !important; width: 10px !important; }
+reddit.com#$#.res-media-independent.res-media-independent { position: relative !important; }
+reddit.com#$#.res-image-media.res-image-media { max-width: 100% !important; }
+rclone.org#$#.pre-scrollable { max-height: calc(100vh - 55px) !important; overflow-y: auto !important; }
+regextester.com#$#body { padding-right: 15px !important; padding-left: 15px !important; }
+riie.net#$#.aduh { max-height: none !important; }
+riie.net#$#.polarpostx { box-sizing: border-box !important; width: 100% !important; }
+riie.net#$##main-menu { margin-top: 13px !important; }
+rottentomatoes.com#$#.header_main_scroll { margin-top: 0 !important; }
+ruangotaku.com#$##breadcrumbs, #breadcrumbs a { color: #f5f5f5 !important; }
+ruangotaku.com#$#body.custom-background { background-image: none !important; }
+
+spacemov.cc#$#header { position: static !important; }
+spacemov.cc#$##search { width: 250px !important; }
+spacemov.cc#$#.page-detail { padding-top: 0 !important; }
+spacemov.cc#$#.movies-list-wrap .ml-title { margin-top: 20px !important; margin-bottom: 0 !important; }
+spacemov.cc#$#.cat-more { margin-top: 4px !important; }
+speedtest.net#$#.pure-u-custom-speedtest { margin: auto !important; }
+speedtest.net#$#.top-placeholder { min-height: 0 !important; }
+spin.com#$##menu.social-hide { top: 0 !important; }
+stackoverflow.com#$#pre { max-height: none !important; }
+streamable.com#$#html, body { background-color: #0f0f0f !important; }
+streamable.com#$##player.container { display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: unset !important; }
+streamable.com#$##player.container .content { background-color: transparent !important; min-height: unset !important; }
+streamable.com#$##player.container .content { max-width: none !important; }
+streamable.com#$##media-container, #player.container #filler { max-width: calc(100vh * 16 / 9) !important; }
+streamgoals.com#$#body { background-color: #121212 !important; }
+streamgoals.com#$#.container { width: 1100px !important; }
+streamgoals.com#$#.progress { background-image: linear-gradient(to bottom, #303030, #242424) !important; margin-bottom: unset !important; }
+streamgoals.com#$#.navbar { min-height: 37px !important; }
+streamgoals.com#$#.navbar-brand { filter: invert(1) !important; margin: unset !important; }
+streamgoals.com#$#.navbar-nav > li > a { padding-top: 5px !important; padding-bottom: 5px !important; }
+streamgoals.com#$#.bs-docs-nav { background-color: #242424 !important; }
+streamgoals.com#$#.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a { color: #ccc !important; }
+streamgoals.com#$#.panel { background-color: transparent !important; border: unset !important; }
+streamgoals.com#$#.panel-body { padding: unset !important; }
+streamgoals.com#$#main { padding-top: 47px !important; }
+streamgoals.com#$##header { border-bottom-color: #000 !important; }
+streamja.com#$#body, header { background-color: #0f0f0f !important; }
+streamja.com#$#header { border-bottom: unset !important; color: #878787 !important; }
+streamja.com#$#.headerLink { color: #878787 !important; }
+streamja.com#$#.headerLink:hover { color: #f0f0f0 !important; }
+streamja.com#$##dMenu { background-color: #1e1e1e !important; box-shadow: 0 0 1px #696969 !important; border-radius: 0 !important; }
+streamja.com#$##dMenu a { box-shadow: inset 0 1px #2d2d2d !important; color: #878787 !important; }
+streamja.com#$##dMenu a:hover { background-color: #2d2d2d !important; color: #f0f0f0 !important; }
+streamja.com#$##dMenu.open { top: 42px !important; }
+streamja.com#$#.menuButton::after, .rightSep::after { background-color: #3c3c3c !important; }
+streamja.com#$#.playerContainer { width: 75% !important; }
+streamvi.com#$#html, body { background-color: #0f0f0f !important; }
+streamvi.com#$#.navbar, .navbar-brand, .navbar-nav .nav-link { padding-top: 0 !important; padding-bottom: 0 !important; }
+streamvi.com#$#.navbar { background-color: transparent !important; }
+streamvi.com#$#.navbar > .container { padding-right: 30px !important; padding-left: 30px !important; }
+streamvi.com#$#.navbar-brand img { filter: invert(.9) !important; height: 30px !important; }
+streamvi.com#$#.navbar-light .navbar-nav .nav-link { color: #696969 !important; }
+streamvi.com#$#.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link { color: #fefefe !important; }
+streamvi.com#$#.card { background-color: transparent !important; border: 0 !important; border-radius: 0 !important; margin-bottom: 0 !important; }
+streamvi.com#$#.card-img-top { border-top-right-radius !important: 0; border-top-left-radius: 0 !important; }
+streamvi.com#$#.card-footer { display: none !important; }
+streamvi.com#$#section { padding: 0 !important; }
+streamvi.com#$#body > .container { padding-top: 40px !important; }
+streamvi.com#$#main > .container > .row > .col-12 > .row > .col-lg-8 { flex: 0 0 100% !important; max-width: 100% !important; }
+streamye.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+streamye.com#$#a { color: #069 !important; }
+streamye.com#$#.upload-zone p { color: #898989 !important; }
+streamye.com#$#.file-upload .file-select .file-select-button { color: #3c3c3c !important; }
+streamye.com#$#.file-upload .file-select { background-color: #3c3c3c !important; color: #c3c3c3 !important; }
+streamye.com#$##my-video { display: block !important; margin: auto !important; width: calc(100vh * 16 / 9 - 8px) !important; }
+subscene.com#$#body { background-image: none !important; }
+swatchseries.to#$##header { margin-top: 0 !important; }
+embed.streamx.*#$#body { background-color: #000 !important; color: #c3c3c3 !important; }
+isc.sans.edu#$##content > .wrapper { margin-right: unset !important }
+isc.sans.edu#$##chart > .highcharts-container > svg { width: 100% !important; }
+
+tempo.co#$#.container > main { padding-top: unset !important; }
+tempo.co#$#html { margin-top: 45px !important; }
+themoviedb.org#$#main { min-width: 100% !important; }
+theverge.com#$#.l-header + .l-wrapper, .l-header + span[data-content-admin-id] + .l-wrapper, .l-header + style + .l-wrapper { margin-top: 0 !important; }
+torrentz.*#$#* { border-radius: unset !important; }
+torrentz.*#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+torrentz.*#$#body a { color: #08c !important; }
+torrentz.*#$##top { background-color: #1e1e1e !important; }
+torrentz.*#$##top > ul > li { border-left-color: #000 !important; }
+torrentz.*#$#form.search { background-color: #1e1e1e !important; }
+torrentz.*#$#form.search > fieldset { height: unset !important; }
+torrentz.*#$#form.search #thesearchbox, form.search #thesearchbutton { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+torrentz.*#$#ul.autocomplete { background-color: #1e1e1e !important; border-color: #000 !important; }
+torrentz.*#$#ul.autocomplete > li { border-top-color: #3c3c3c !important; }
+torrentz.*#$#ul.autocomplete > li.selected { background-color: #2d2d2d !important; }
+torrentz.*#$#div.results, div.downurls, div.downurls > p, div.trackers, div.trackers > p, div.files, div.files > p { background-color: #1e1e1e !important; }
+torrentz.*#$#div.results > h3 { background-color: #1e1e1e !important; border-bottom-color: #0f0f0f !important; }
+torrentz.*#$#div.results > dl, div.downurls > dl, div.trackers > dl { background-color: #0f0f0f !important; border-bottom-color: #000 !important; }
+torrentz.*#$#div.downurls > dl > dd { background-color: transparent !important; }
+torrentz.*#$#div.downurls > dl > dt > a { color: #878787 !important; }
+torrentz.*#$#div.downurls > dl > dt > a:hover { background-color: #1e1e1e !important; }
+torrentz.*#$#div.downurls > p, div.trackers > p { border-top-color: #0f0f0f !important; }
+torrentz.*#$#div.trackers > h2, div.files > h2 { border-bottom-color: #0f0f0f !important; }
+torrentz.*#$#div.files ul { background-color: #0f0f0f !important; border-left-color: #3c3c3c !important; }
+torrentz.*#$#div.files li { color: #c3c3c3 !important; }
+torrentz.*#$#div.note { background-color: #1e1e1e !important; border-color: #000 !important; color: #878787 !important; }
+tvseries.video#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+tvseries.video#$#.stssumary, .stnetwork { background-color: #1e1e1e !important; }
+tvseries.video#$#.eplist { background-color: transparent !important; }
+tvseries.video#$#.stepisode { background-color: #1e1e1e !important; }
+tvseries.video#$#.collapsible-header { border-bottom-color: #000 !important; }
+tvseries.video#$#.stheader1, .strelease, .stepsumary { text-align: center !important; }
+tvseries.video#$#.stepisodectn { margin-left: unset !important; }
+tvseries.video#$#.stseasontitle, .stepisode { margin-bottom: unset !important; padding: 5px 10px !important; }
+tvseries.video#$#.playerctn { display: flex !important; justify-content: center !important; }
+tvseries.video#$##videoctn, .stserverep { float: none !important; margin-right: unset !important; margin-left: unset !important; }
+tvseries.video#$##videoctn { --vw: 860px !important; padding-bottom: calc(var(--vw) * 9 / 16) !important; width: var(--vw) !important; }
+tvseries.video#$##videoctn iframe, #videoctn object, #videoctn embed { width: 100% !important; height: 100% !important; }
+tvseries.video#$#.stnextprev { display: flex !important; justify-content: space-between !important; height: unset !important; margin-right: -.75rem !important; margin-left: -.75rem !important; }
+tvseries.video#$#.stnextprev > a { flex: 0 1 48% !important; }
+tvzion.club#$#body { background-color: #0f0f0f !important; background-image: unset !important; }
+tvzion.club#$#.navbar.transp, .section-watch-video, .section-watch-video, .section-watch-overview { box-shadow: unset !important; }
+tvzion.club#$#div[itemtype="https://schema.org/Movie"] { margin-top: unset !important; }
+tvzion.club#$#.section-watch { margin-top: unset !important; width: 1100px !important; }
+tvzion.club#$#.section-watch > div:last-child { background-color: #000 !important; color: #c3c3c3 !important; }
+tvzion.club#$#a.uploads { border-top-color: #3c3c3c !important; color: #c3c3c3 !important; }
+tvzion.club#$#.mark, mark { background-color: #3c3c3c !important; color: #c3c3c3 !important; }
+twitter.com#$#aside[aria-label="Mulai pesan baru"] [style^="max-height:"] { max-height: none !important; }
+
+uservideo.xyz,uservideo.nanime.in#$#html, body, #topddl_player { width: 100% !important; height: 100% !important; }
+uservideo.xyz,uservideo.nanime.in#$##topddl_player { position: absolute !important; top: 0 !important; }
+
+vev.io#$#.container { padding-left: 0 !important; padding-right: 0 !important; }
+vev.io#$#.container-main { height: auto !important; margin-top: 0 !important; }
+vev.io#$#.page-content { flex-basis: 100% !important; overflow-y: hidden !important; }
+vev.io#$#.page-sidebar ~ .page-content { float: none !important; }
+vev.io#$#.page-sidebar.sidebar-overlay ~ .page-content { width: auto !important; }
+vev.io#$#.video-wrapper { margin-top: 0 !important; padding-left: 0 !important; padding-right: 0 !important; }
+vev.io#$#.video-wrapper.default .video-main { float: none !important; height: 100vh !important; padding-top: unset !important; width: 100% !important; }
+vev.io#$#.video-main .container { min-height: unset !important; }
+vev.io#$#.video-wrapper.theatre .video-main .container { height: 100vh !important; max-height: none !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$#html, body { background-color: #000 !important; color: #c3c3c3 !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$##container { margin-top: 0 !important; width: auto !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$##video-content { float: none !important; margin-bottom: 0 !important; width: auto !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$##pdiv { --vh: calc(100vh - 1px); display: block !important; margin: auto !important; max-height: none !important; height: var(--vh) !important; width: calc(var(--vh) * 16 / 9) !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$#.jw-captions { font-size: 24px !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$#.jw-text-track-display { top: auto !important; bottom: 0 !important; }
+vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com#$##vplayer .jw-video::cue, #vplayer .jw-text-track-cue { text-shadow: 0 0 1px rgba(0,0,0,1) !important; }
+vimeo.com#$#:root { --vh: calc(100vh - 64px); --vw: calc(var(--vh) * 16 / 9); }
+vimeo.com#$#.js-player_area-wrapper, .player_area:not(.is_mini) { height: var(--vh) !important; max-height: var(--vh) !important; }
+vimeo.com#$#.player_area:not(.is_mini) .player_container { height: var(--vh) !important; width: var(--vw) !important; }
+virustotal.com#$#pre { max-height: none !important; }
+
+wcostream.com#$#body { background: none !important; }
+hosted.weblate.org#$#td.number, th.number { text-align: center !important; }
+chromium.woolyss.com#$#:root { --blue: #0486bc !important; --green: #03a226 !important; --yellow: #a98d06 !important; --bg-canary: #00043f !important; --bg-dev: #302114 !important; --bg-official: #002640 !important; --bg-stable: #350035 !important; }
+chromium.woolyss.com#$#html, body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+chromium.woolyss.com#$##tabs li, .info, ul.item li, .news { background-color: #1e1e1e !important; }
+chromium.woolyss.com#$#a:link, a:visited, a:active { color: #08c !important; }
+chromium.woolyss.com#$#.nav li a, .nav li a:link, .nav li a:visited, .nav li a:active { color: #fff !important; }
+chromium.woolyss.com#$#a.title, h2 a:link, h2 a:visited, h2 a:active, h3 a:link, h3 a:visited, h3 a:active { color: #e1e1e1 !important; }
+chromium.woolyss.com#$##tabs li a:link, #tabs li a:visited, #tabs li a:active, aside h2 a:link, small, .small, del { color: #969696 !important; }
+chromium.woolyss.com#$##top { background-image: linear-gradient(#2d2d2d, #1e1e1e) !important; border-top-color: #1e1e1e !important; }
+chromium.woolyss.com#$#h2, h3, #linux h4, #bsd h4 { border-bottom-color: #3c3c3c !important; }
+chromium.woolyss.com#$#.chromium { box-shadow: unset !important; }
+chromium.woolyss.com#$#.stable { background-color: var(--bg-stable) !important; }
+chromium.woolyss.com#$#.dev { background-color: var(--bg-dev) !important; }
+chromium.woolyss.com#$#.official { background-color: var(--bg-official) !important; }
+chromium.woolyss.com#$#.canary { background-color: var(--bg-canary) !important; }
+chromium.woolyss.com#$#.st { color: #d2d2d2 !important; letter-spacing: .25px !important; }
+chromium.woolyss.com#$#summary::before { opacity: .8 !important; }
+chromium.woolyss.com#$#code { background-color: var(--yellow) !important; border-color: #000 !important; color: #f0f0f0 !important; opacity: 1 !important; }
+chromium.woolyss.com#$##google-api-keys code { margin: .5rem 0 1rem !important; }
+chromium.woolyss.com#$##your-chromium-info .info { background-color: var(--blue) !important; color: #f0f0f0 !important; }
+chromium.woolyss.com#$##comments .each { background-color: #1e1e1e !important; }
+chromium.woolyss.com#$##comments .each:target { background-color: #3c3c3c !important; }
+chromium.woolyss.com#$##comments #comment-1 { background-color: #2d2d2d !important; }
+chromium.woolyss.com#$##comments .content { color: #c3c3c3 !important; }
+chromium.woolyss.com#$#.f, .f:hover, .f:focus { background-color: #3c3c3c !important; border-color: #000 !important; color: inherit !important; }
+
+xda-developers.com#$#.f-links { margin-left: 20px !important; }
+xda-developers.com#$#.navbits, .topbar { position: static !important; }
+xda-developers.com#$#.topbar { width: auto !important; }
+xda-developers.com#$#body { padding-top: 0 !important; }
+forum.xda-developers.com#$#.topRankedThreadsForumdisplay { margin-left: 0 !important; }
+xhamster8.com#$#.video-page.video-page--large-mode .thumb-list--related { width: auto !important; }
+
+ymovies.*#$#.navbar-fixed-top { position: relative !important; }
+ymovies.*#$#.sim_name_film h1 { float: none !important; margin-left: auto !important; text-align: center !important; width: auto !important; }
+ymovies.*#$#.videoPlayer, #player { height: 600px !important; }
+ymovies.*#$#body { padding-top: 0 !important; }
+youtube.com#$#.sbdd_b, .sbsb_a, .sbfl_b { background: var(--yt-spec-brand-background-solid) !important; }
+youtube.com#$#.sbdd_b { border-color: var(--yt-spec-general-background-a) !important; }
+youtube.com#$#.sbsb_d { background: var(--yt-spec-10-percent-layer) !important; }
+youtube.com#$#.gsfs { color: var(--yt-spec-text-secondary) !important; }
+youtube.com#$#.sbfl_a:hover, .gsfs.sbsb_d { color: var(--yt-spec-text-primary) !important; }
+youtube.com#$##ytd-player { background-color: #000 !important; }
+youtube.com#$#ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy { max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important; }
+youtube.com#$#ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy { max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important; }
+youtube.com#$#ytd-watch[theater] #player.ytd-watch { max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important; }
+youtube.com#$#ytd-watch-flexy[flexy_][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy_][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy { max-width: none !important; }

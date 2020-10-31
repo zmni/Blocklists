@@ -1,8 +1,0 @@
-kbbi.kemdikbud.go.id#$#body { background-color: #0f0f0f !important; }
-kbbi.kemdikbud.go.id#$#.jumbotron { background-color: #1e1e1e !important; }
-kbbi.kemdikbud.go.id#$#.form-control { background-color: #2d2d2d !important; }
-kbbi.kemdikbud.go.id#$#body, .form-control { color: #c3c3c3 !important; }
-kbbi.kemdikbud.go.id#$#hr { border-top-color: #3c3c3c !important; }
-kbbi.kemdikbud.go.id#$#.form-control, .glyphicon-search { border-color: #000 !important; }
-kbbi.kemdikbud.go.id#$#.glyphicon-search { transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s !important; }
-kbbi.kemdikbud.go.id#$#.form-control:focus + .input-group-btn > .glyphicon-search { border-color: #66afe9 !important; outline: 0 !important; box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6) !important; }
