@@ -95,6 +95,15 @@ animeflix.io#$#.v-content > .v-content__wrap > .container > .layout.column.mt-5 
 animeflix.io#$#.v-responsive__sizer[style*="padding-bottom: 150%"] { padding-bottom: calc(100% * 4 / 3) !important; }
 animeflix.io#$#.holder-dt { height: calc(100vh - 40px) !important; }
 animeindo.cc#$##container { margin-top: unset !important; max-width: 1170px !important; }
+animeindo.cc#$##main { float: none !important; width: auto !important; }
+animeindo.cc#$#.post-show { display: flex !important; flex-wrap: wrap !important; }
+animeindo.cc#$#.post-show > .hentry { flex: 0 0 calc(100% / 6) !important; }
+animeindo.cc#$#.animepost { float: none !important; }
+animeindo.cc#$#.post-show .animepost.animver2 { width: auto !important; }
+animeindo.cc#$#.animepost .animposx { margin: unset !important; padding: 10px !important; }
+animeindo.cc#$#.animepost .animposx .data { padding-left: unset !important; text-align: center !important; }
+animeindo.cc#$#.animepost .animposx .data, .post-show .animepost .animposx .data { height: auto !important; margin-top 5px !important; }
+animeindo.cc#$#.animepost .animposx .title { padding-top: unset !important; }
 animeindo.cc#$##infoarea { padding-top: unset !important; }
 animeindo.cc#$##infoarea::after { clear: both !important; content: "" !important; display: table !important; }
 animeindo.cc#$#.bigcontent { min-height: unset !important; }
@@ -102,11 +111,6 @@ animeindo.cc#$#.bigcontent .thumbook { top: auto !important; }
 animeindo.cc#$#.bigcontent .thumb { border-color: #0f0f0f !important; }
 animeindo.cc#$#.bigcontent .thumb img { display: block !important; }
 animeindo.cc#$#.lstepsiode ul, #infoarea .mCustomScrollBox { max-height: unset !important; }
-animeindo.cc#$##sidebar .widgets ul.genre, ul.genre > .mCustomScrollBox { max-height: 1120px !important; }
-animeindo.cc#$#.animepost .animposx .data { padding-left: unset !important; text-align: center !important; }
-animeindo.cc#$#.animepost .animposx .data, .post-show .animepost .animposx .data { height: auto !important; margin-top 5px !important; }
-animeindo.cc#$#.animepost .animposx .title { padding-top: unset !important; }
-animeindo.cc#$#.single-post #primary { float: none !important; width: 100% !important; }
 animeindo.cc#$#.plyexpand { display: block !important; margin-bottom: 1rem !important; padding-bottom: calc(56.25% + 46px) !important; width: 100% !important; }
 animeindo.cc#$#.player-area { margin-bottom: unset !important; position: absolute !important; top: 0 !important; width: 100% !important; }
 animeindo.cc#$#.player-area.expnd { margin-bottom: unset !important; margin-top: unset !important; }

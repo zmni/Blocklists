@@ -115,10 +115,9 @@ animeindo.cc##.infox .desc
 animeindo.cc##.infox .mindesc
 animeindo.cc##.recanim
 animeindo.cc##.rt
-animeindo.cc##.single-post #sidebar
 animeindo.cc##.sosmed
 animeindo.cc###breadcrumbs
-animeindo.cc###sidebar > .widgets:has(> .custom-html-widget > script[data-cfasync])
+animeindo.cc###sidebar
 animeindo.cc###synopsis
 animeindo.cc###trailer
 animeindo.cc##div:has(> script:only-child)
