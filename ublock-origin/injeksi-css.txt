@@ -101,8 +101,8 @@ animeindo.cc#$#.post-show > .hentry { flex: 0 0 calc(100% / 6) !important; }
 animeindo.cc#$#.animepost { float: none !important; }
 animeindo.cc#$#.post-show .animepost.animver2 { width: auto !important; }
 animeindo.cc#$#.animepost .animposx { margin: unset !important; padding: 10px !important; }
-animeindo.cc#$#.animepost .animposx .data { padding-left: unset !important; text-align: center !important; }
-animeindo.cc#$#.animepost .animposx .data, .post-show .animepost .animposx .data { height: auto !important; margin-top 5px !important; }
+animeindo.cc#$#.animepost .animposx .data { margin-top: 5px !important; padding-left: unset !important; text-align: center !important; }
+animeindo.cc#$#.animepost .animposx .data, .post-show .animepost .animposx .data { height: auto !important; }
 animeindo.cc#$#.animepost .animposx .title { padding-top: unset !important; }
 animeindo.cc#$##infoarea { padding-top: unset !important; }
 animeindo.cc#$##infoarea::after { clear: both !important; content: "" !important; display: table !important; }
