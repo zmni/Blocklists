@@ -106,6 +106,7 @@ animeidhentai.com###player2 > a
 animeindo.cc##.animepost .animposx .data .mark
 animeindo.cc##.bigcover
 animeindo.cc##.comments
+animeindo.cc##.content-separate::before
 animeindo.cc##.episodeinf
 animeindo.cc##.icon.comment
 animeindo.cc##.icon.shares
