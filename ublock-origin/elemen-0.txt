@@ -103,24 +103,25 @@ animeidhentai.com##.mobads
 animeidhentai.com###myDIV
 animeidhentai.com###myDIV2
 animeidhentai.com###player2 > a
-animeindo.*##.bigcover
-animeindo.*##.comments
-animeindo.*##.episodeinf
-animeindo.*##.icon.comment
-animeindo.*##.icon.shares
-animeindo.*##.idTabs
-animeindo.*##.info_episode
-animeindo.*##.infox .desc
-animeindo.*##.infox .mindesc
-animeindo.*##.recanim
-animeindo.*##.rt
-animeindo.*##.single-post #sidebar
-animeindo.*##.sosmed
-animeindo.*###breadcrumbs
-animeindo.*###sidebar > .widgets:has(> .custom-html-widget > script[data-cfasync])
-animeindo.*###synopsis
-animeindo.*###trailer
-animeindo.*##div:has(> script:only-child)
+animeindo.cc##.animepost .animposx .data .mark
+animeindo.cc##.bigcover
+animeindo.cc##.comments
+animeindo.cc##.episodeinf
+animeindo.cc##.icon.comment
+animeindo.cc##.icon.shares
+animeindo.cc##.idTabs
+animeindo.cc##.info_episode
+animeindo.cc##.infox .desc
+animeindo.cc##.infox .mindesc
+animeindo.cc##.recanim
+animeindo.cc##.rt
+animeindo.cc##.single-post #sidebar
+animeindo.cc##.sosmed
+animeindo.cc###breadcrumbs
+animeindo.cc###sidebar > .widgets:has(> .custom-html-widget > script[data-cfasync])
+animeindo.cc###synopsis
+animeindo.cc###trailer
+animeindo.cc##div:has(> script:only-child)
 animeku.tv##.ads
 animeku.tv##.adsgen
 animeku.tv##.adspost1
