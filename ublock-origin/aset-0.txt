@@ -28,6 +28,7 @@
 ||fmax.xyz^$all
 ||henry-loieurope.xyz^$all
 ||howtubray.com^$all
+||ingest.sentry.io^$all
 ||iupot.com^$all
 ||jogdosoaf.com^$all
 ||metrika.lookmovie.ag^$all

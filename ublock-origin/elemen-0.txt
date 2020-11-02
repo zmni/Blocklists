@@ -316,11 +316,11 @@ dunia21.com###rotating
 dutafilm.*##.afs_ads
 dutafilm.*##.catalogue
 dutafilm.*##.jwseed
-dutafilm.*##.mv-content-items > a:has(.cam-color)
-dutafilm.*##.mv-content-items > a:has(.camh-color)
+dutafilm.*##.mv-content-items > a:has(:scope .cam-color)
+dutafilm.*##.mv-content-items > a:has(:scope .camh-color)
 dutafilm.*##.notice
-dutafilm.*##.related-mv:has(.cam-color)
-dutafilm.*##.related-mv:has(.camh-color)
+dutafilm.*##.related-mv:has(:scope .cam-color)
+dutafilm.*##.related-mv:has(:scope .camh-color)
 dutafilm.*##.socmed
 dutafilm.*##.top-banner
 dutafilm.*##.vid-episodes-title
@@ -426,7 +426,7 @@ gamesradar.com###skyContainer
 geek.com###gksticky
 geeksforgeeks.org##[id^="AP_G4GR_"]
 giphy.com##.ss-send
-git-scm.com##.gui-thumbnails > li:not(:has(.description:has-text(Free)))
+git-scm.com##.gui-thumbnails > li:not(:has(:scope .description:has-text(Free)))
 git-tower.com###sharing-sidebar
 gizmodo.com##.instream-native-video
 gizmodo.com##.share-toolbar
@@ -710,13 +710,14 @@ myanimelist.net##.banner-footer-anime-streaming
 myanimelist.net##.border_bottom:has(> div > div[style][data-height])
 myanimelist.net##.btn-affiliate
 myanimelist.net##.episode_list .episode-video
-myanimelist.net##.featured-pickup-unit:has(.tag-color-feature-advertorial)
+myanimelist.net##.featured-pickup-unit:has(:scope .tag-color-feature-advertorial)
 myanimelist.net##.header-menu-login > .btn-mal-service
 myanimelist.net##.icon-watch
 myanimelist.net##.icon-watch-pv
 myanimelist.net##.manga_store-pop-up.popup-background
 myanimelist.net##.news-list > :not(.news):not(.news-unit)
-myanimelist.net##.news-unit:has(.tag-color-feature-advertorial)
+myanimelist.net##.news-unit:has(:scope .tag-color-feature-advertorial)
+myanimelist.net##.news-unit:has(> .mal-ad-unit:only-child)
 myanimelist.net##.social-login-block
 myanimelist.net##div[style]:not([class]):not([id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class]):not([id]):has(> div[style]:not([class]):not([id]) > .mal-ad-unit)

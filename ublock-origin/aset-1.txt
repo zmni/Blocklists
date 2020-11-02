@@ -14,6 +14,7 @@
 ||jba.tribunnews.com^$1p
 ||links.duckduckgo.com^$1p
 ||mm.rappler.com^$1p
+||piwik.everzones.com^$1p
 ||prefixmatch.popsugar.com^$1p
 ||sentry.flipboard.com^$1p
 ||sentry.indeed.com^$1p
