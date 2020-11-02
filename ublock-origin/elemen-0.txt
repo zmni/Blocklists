@@ -450,6 +450,7 @@ gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
 gogoanime.*##.ad
+gogoanime.*##.added_series_body ul > li:has(> a:has-text((Dub)))
 gogoanime.*##.anime_video_body_comment_name
 gogoanime.*##.anime_video_note_watch
 gogoanime.*##.bookmark
@@ -458,7 +459,7 @@ gogoanime.*##.download-anime
 gogoanime.*##.favorites_book
 gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
 gogoanime.*##.introtext
-gogoanime.*##.items > li:has(> .name > a:has-text((Dub)))
+gogoanime.*##.items > li:has(> .name > a:has-text(/\(dub\)|digimon|gundam|pokemon/i))
 gogoanime.*##.list_dowload
 gogoanime.*##.list_search_ajax:has(> a:has-text((Dub)))
 gogoanime.*##.menu_top_link
@@ -714,7 +715,7 @@ myanimelist.net##.header-menu-login > .btn-mal-service
 myanimelist.net##.icon-watch
 myanimelist.net##.icon-watch-pv
 myanimelist.net##.manga_store-pop-up.popup-background
-myanimelist.net##.news-list > :not(.news-unit)
+myanimelist.net##.news-list > :not(.news):not(.news-unit)
 myanimelist.net##.news-unit:has(.tag-color-feature-advertorial)
 myanimelist.net##.social-login-block
 myanimelist.net##div[style]:not([class]):not([id]):has(> .ad-tag)
@@ -1188,6 +1189,7 @@ transifex.com##.js-social-share
 tvbersama.com##.adsheader
 tvseries.video##.fb-comments
 tvseries.video##.mads
+tvseries.video##.playerctn ~ *
 tvzion.club##.notification
 twitch.tv##.side-info-container:has(:scope button:has-text(Sign up))
 twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(:scope a[href^="/directory/game/"]))

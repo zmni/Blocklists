@@ -257,12 +257,14 @@ gogoanime.*#$#.last_episodes { padding: unset !important; }
 gogoanime.*#$#ul.items { display: flex !important; flex-wrap: wrap !important; margin-right: -10px !important; margin-left: -10px !important; }
 gogoanime.*#$#ul.items li { flex-basis: 20% !important; margin-left: unset !important; padding: 0 10px !important; }
 gogoanime.*#$#ul.items li:nth-child(4n+1) { margin-left: unset !important; }
+gogoanime.*#$#ul.items li .img:before { padding-top: calc(100% * 4 / 3) !important; }
 gogoanime.*#$#ul.items li .img img, ul.items li .img a::after { height: 100% !important; }
 gogoanime.*#$#ul.items li .img a:not(:focus):not(:hover)::after { background: unset !important; }
 gogoanime.*#$#ul.items li .img a:hover::after { background-position: center !important; background-size: 20% !important; }
 gogoanime.*#$#ul.items li p.name { height: auto !important; }
 gogoanime.*#$#.listing { margin-left: -10px !important; margin-right: -10px !important; }
 gogoanime.*#$#.listing li { padding-right: 10px !important; padding-left: 10px !important; width: calc(100% / 4) !important; }
+gogoanime.*#$#.added_series_body.final ul li { border-right: unset !important; }
 gogoanime.*#$#.anime_info_body img { width: 240px !important; }
 gogoanime.*#$#.anime_video_body { padding: 20px 0 !important; }
 gogoanime.*#$#.anime_video_body > h1, .anime_video_body_cate { text-align: center !important; }
@@ -320,6 +322,7 @@ docs.microsoft.com#$#.api-browser-description, .api-browser-search-field-contain
 muchohentai.com#$#.single-post .wrap { width: 1100px !important; }
 muchohentai.com#$#body, #main { background-image: none !important; }
 msn.com#$#irisbannerph + .head { margin-top: unset !important; }
+myanimelist.net#$#.news-content-block .content-right > .js-scrollfix-bottom { position: relative !important; bottom: auto !important; }
 forum.mikrotik.com#$#.st-editor__box #message { height: auto !important; }
 forum.mikrotik.com#$#.transparent + .stickyContainer .utility-bar { border-radius: 0 !important; }
 forum.mikrotik.com#$#blockquote .blockquote__inner, .codebox pre { max-height: none !important; }
