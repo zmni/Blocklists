@@ -5,23 +5,24 @@
 ! UMUM
 
 ||amazon-adsystem.com^$3p,important
-||analytics.getstream.io^$3p
 ||canny.io^$3p
 ||crisp.chat^$3p
+||d2to8y50b3n6dq.cloudfront.net^$3p
 ||dec.azureedge.net^$3p
 ||discord.com^$3p
 ||g.jwpsrv.com^$3p
 ||ga.googlevideo.io^$3p
-||iamcdn.net^$3p
+||gitter.im^$3p
 ||intercom.io^$3p
 ||ipgeolocation.com^$3p
 ||jivosite.com^$3p
 ||launcher.spot.im^$3p
 ||liveperson.net^$3p
-||notifa.info^$3p
-||playhydrax.com^$3p
+||peer5.com^$3p
+||sentry.io^$3p
+||st.chatango.com^$3p
 ||status.thawte.com^$3p
-||uzone.id^$3p
+||umami.is^$3p
 ||widget.intercom.io^$3p
 
 ! SPESIFIK

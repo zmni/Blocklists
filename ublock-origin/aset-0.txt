@@ -13,13 +13,13 @@
 ||188bongda.com^$all
 ||acquisitionproducespostman.com^$all
 ||analytics.churnzero.net^$all
+||analytics.getstream.io^$all
 ||artpever.com^$all
 ||aseanbanner.tk^$all
 ||c.statcounter.com^$all
 ||c0nnectthed0ts.com^$all
 ||changesexcr.top^$all
 ||coornahapligh.pro^$all
-||d2to8y50b3n6dq.cloudfront.net^$all
 ||ddmax20.xyz^$all
 ||disappearanceherbalsixpence.com^$all
 ||ezylink.co^$all
@@ -31,19 +31,19 @@
 ||ingest.sentry.io^$all
 ||iupot.com^$all
 ||jogdosoaf.com^$all
-||metrika.lookmovie.ag^$all
+||make6pain.com^$all
 ||nomicidenti.top^$all
+||notifa.info^$all
 ||oodsauns.net^$all
 ||opsoomet.net^$all
 ||p3insight.de^$all
-||peer5.com^$all
 ||pooboafi.net^$all
 ||ptairtug.net^$all
 ||ptoahaistais.com^$all
 ||px.gfycat.com^$all
 ||sentry.variab.ly^$all
-||st.chatango.com^$all
 ||stats.umami.is^$all
+||uzone.id^$all
 
 ! SPESIFIK
 
