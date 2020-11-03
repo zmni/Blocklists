@@ -515,7 +515,7 @@ tvseries.video#$#.collapsible-header { border-bottom-color: #000 !important; }
 tvseries.video#$#.stheader1, .strelease, .stepsumary { text-align: center !important; }
 tvseries.video#$#.stepisodectn { margin-left: unset !important; }
 tvseries.video#$#.stseasontitle, .stepisode { margin-bottom: unset !important; padding: 5px 10px !important; }
-tvseries.video#$#.playerctn { display: flex !important; flex-wrap: wrap !important; width: 1100px !important; }
+tvseries.video#$#.playerctn { display: flex !important; flex-wrap: wrap !important; width: 1120px !important; }
 tvseries.video#$#.playerctn > div { flex: 0 0 100% !important; }
 tvseries.video#$##videoctn, .stserverep { float: none !important; margin-right: unset !important; margin-left: unset !important; width: auto !important; }
 tvseries.video#$##videoctn { padding-bottom: calc(100% * 9 / 16) !important; padding-top: unset !important; }
