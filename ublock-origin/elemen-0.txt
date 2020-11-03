@@ -2,6 +2,15 @@
 !! ELEMEN 0
 !! ========================================================================== !!
 
+##.comment-area
+##.comment-respond
+##.commentarea
+##.comments
+##.comments-area
+###comment
+###comments
+###disqus_thread
+
 1337x.to##.box-info > br
 1337x.to##.rating-wrap
 21pilem.com###secondary-popup
@@ -15,9 +24,7 @@
 9anime.*##.anime-list > li:has(:scope .special)
 9anime.*##.anime-list > li:has(:scope .tag.ep:has-text(Preview))
 9anime.*##.tabs > [data-name="updated_dub"]
-9anime.*###comment
 9anime.*##section#info .tags
-9animes.net##.comments-area
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
 9animes.net##div:has(> .tele_b):has(> .voir_b):upward(1)
@@ -31,7 +38,6 @@ agame.com##.advert
 agame.com##.grid-row:has(> .advert)
 ainimeindo.com##.adsbawah2
 ainimeindo.com##.anon
-ainimeindo.com##.commentarea
 ainimeindo.com##.kln
 ainimeindo.com##.sidebar > .section:has(:scope h3 span:has-text(Fanspage))
 allaboutxiaomi.com##.an-sponsored
@@ -105,7 +111,6 @@ animeidhentai.com###myDIV2
 animeidhentai.com###player2 > a
 animeindo.cc##.animepost .animposx .data .mark
 animeindo.cc##.bigcover
-animeindo.cc##.comments
 animeindo.cc##.content-separate::before
 animeindo.cc##.episodeinf
 animeindo.cc##.icon.comment
@@ -140,14 +145,12 @@ animerush.tv###toTop
 animeseries.*,myanimeseries.com##.ads_upper_video
 animeseries.*,myanimeseries.com##.btn-comment
 animeseries.*,myanimeseries.com##.chrome-notify
-animeseries.*,myanimeseries.com##.comment
 animeseries.*,myanimeseries.com##.favorites
 animeseries.*,myanimeseries.com##.popover-favorites
 animeseries.*,myanimeseries.com##.social
 animeseries.*,myanimeseries.com##li:has(> .chrome-notify)
 apkpure.com##.aegon-link
 apkpure.com##.details-rating
-apkpure.com###comment
 apkpure.com###iframe_download + #slide-wrap
 aptoide.com##.bundle__container > .bundle-item:not([onclick])
 atlasobscura.com##.ad-wrapper
@@ -195,7 +198,6 @@ blanja.com##.product-price-disc
 blanja.com##.product-price-discount
 blanja.com##.strike-price
 bleepingcomputer.com##.cz-post-comment-wrapp
-bleepingcomputer.com###comments
 blibli.com,erafone.com##.old-price
 blibli.com##.product__body__price__discount
 blibli.com##.product__detail-info-section--offers
@@ -225,7 +227,6 @@ bola.net###topbackground2
 bola.net###topbackground3
 bolasport.com###div-Left-WideSkyscraper
 browserleaks.com###nav-pin
-btdb.to##.comment
 btdb.to##.sponsor
 bukalapak.com##.c-btn:has-text(Bagikan):upward(2)
 bukalapak.com##.c-icon--facebook
@@ -242,7 +243,6 @@ cermati.com##cermati[data-banner]
 
 channelnewsasia.com##.c-sharing--default
 cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement")
-cinemaindo.web.id##.comments
 cinemaindo.web.id##.keywords
 cinemaindo.web.id###btmx
 cinemaindo.web.id###ptbanner
@@ -274,7 +274,6 @@ cyberciti.biz##.entry-content > div:has(> center > small:has-text(/advert/i))
 cyberciti.biz##.sidebar > .widget:has(> .widget-title:has-text(Advert))
 cyberciti.biz##.sidebar > .widget:has(> .widget-title:has-text(Sponsored))
 cyberciti.biz##.tags-links
-cyberciti.biz###comments
 cyberciti.biz###content-bottom-widgets:has(:scope .support)
 cycleexif.com##.topban
 
@@ -309,7 +308,6 @@ duckduckgo.com##.result:has-text(/w3schools/i)
 duckduckgo.com##.showcase
 duckduckgo.com##.social
 duckduckgo.com##img[src^="/t/sl_"]
-dunia21.com##.comments
 dunia21.com##.keywords
 dunia21.com##[id$="banner"]
 dunia21.com###rotating
@@ -371,7 +369,6 @@ findx.com##.pixel-url
 flixgo.co##.b-description_readmore_wrapper:has(> .b-description_readmore > p:empty)
 flixgo.co##.breadcrumb
 flixgo.co##.col-12.col-xl-8:has(> .comments)
-flixgo.co##.comments
 flixgo.co##.details__film-cover > :not(img)
 flixgo.co##.details__title > .details__cat
 flixgo.co##.footer__counter
@@ -393,7 +390,6 @@ fmovies.*##.rating
 fmovies.*##.tags
 fmovies.*##.tooltipster-content .actions
 fmovies.*##.watch-now
-fmovies.*###comment
 fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
 fmovies.*###watch .play::after
 fmovies.*###watch .play::before
@@ -476,8 +472,6 @@ play.google.com##.full-price
 hagerty.com##.placements
 hdo.to##.block-share
 hdo.to##.breadcrumb
-hdo.to##.comments
-hdo.to##.comments
 hdo.to##.detail-film > .goblock-bottom
 hdo.to##.gc-comments
 hdo.to##.gc-share
@@ -641,7 +635,6 @@ majalahikan.com##.gmr-share
 majalahikan.com##.gmr-share-text
 majalahikan.com##.gmr-share-top
 majalahikan.com##.gmr-subscribebox
-majalahikan.com###disqus_thread
 makeuseof.com##.ad-zone-container
 makeuseof.com##.article-tags
 makeuseof.com##.heading_sharing
@@ -798,7 +791,6 @@ nobartv.*###ads-S01
 nobartv.*###adsBottomLeft
 nobartv.*###adsBottomRight
 nobartv.*###nbpopx-wrapper
-nontonanime.id##.commentarea
 nontonanime.id##.shfb
 nontonanime.id##.slot
 nontonanime.id##.tags
@@ -834,7 +826,6 @@ opencritic.com##app-advertisement
 opensubtitles.com###ext-infos
 opensubtitles.com###share-section
 opfanpage.com##aside.widget_custom_html:has(> header span:has-text(/sponsored/i))
-oploverz.in###comments
 oploverz.in###header
 oploverz.in##.box-share
 oploverz.in##.genre
@@ -849,8 +840,6 @@ pahe.in##.header-content
 pasienbpjs.com##.itemad
 pasienbpjs.com##div[id^="kode-iklan"]
 pcgamer.com##.sponsored-post
-pcgames-download.com##.comment-respond
-pcgames-download.com##.comments
 phonearena.com##div:has(> .spot_disclaimer:only-child)
 phoronix.com###main > div[style]:not([class]):not([id])
 photopea.com##.photopea > div[style]
@@ -1278,7 +1267,6 @@ wordpress.org##.locale-banner
 wplift.com##.cp-info-bar
 wplift.com##.ctaheaderbutton
 chromium.woolyss.com##.nav > li:has(> a[href="#comments"])
-chromium.woolyss.com###comments
 chromium.woolyss.com###comments + br
 chromium.woolyss.com###f
 chromium.woolyss.com###fm
