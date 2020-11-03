@@ -390,7 +390,7 @@ mail.protonmail.com#$#.pm_form .pm_select { -webkit-box-shadow: none !important;
 quora.com#$#.continue_reading_wrapper_logged_out .gradient_wrapper { background-image: none !important; }
 
 reddit.com#$#.side { margin: unset !important; padding-left: 10px !important; padding-right: 10px !important; width: 350px !important; }
-reddit.com#$#.content[role="main"] { border-right: 1px solid #ccc !important; margin-right: 370px !important; }
+reddit.com#$#.content { border-right: 1px solid #ccc !important; margin-right: 370px !important; }
 reddit.com#$#.link { margin-bottom: 10px !important; }
 reddit.com#$#.flairrichtext { margin-top: -4px !important; }
 reddit.com#$#.panestack-title, .commentarea .menuarea, .usertext-edit { margin-right: 10px !important; }
@@ -407,6 +407,7 @@ reddit.com#$#.scrollerItem i[id^="PostBadges--Sticky"] { margin-top: 3px !import
 reddit.com#$#.ListingLayout-outerContainer img[src^="https://www.redditstatic.com/custom_feeds/"] { height: 48px !important; width: 48px !important; }
 reddit.com#$#button[id^="subscribe-button-"] { display: none !important; }
 reddit.com#$#button[id^="subscribe-button-"] > svg { height: 10px !important; width: 10px !important; }
+reddit.com#$#.res-nightmode body .content { border-right-color: #ccc !important; }
 reddit.com#$#.res-media-independent.res-media-independent { position: relative !important; }
 reddit.com#$#.res-image-media.res-image-media { max-width: 100% !important; }
 rclone.org#$#.pre-scrollable { max-height: calc(100vh - 55px) !important; overflow-y: auto !important; }
