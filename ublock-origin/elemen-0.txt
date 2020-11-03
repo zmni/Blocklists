@@ -2,6 +2,8 @@
 !! ELEMEN 0
 !! ========================================================================== !!
 
+! GENERIK
+
 ##.comment-area
 ##.comment-respond
 ##.commentarea
@@ -10,6 +12,8 @@
 ###comment
 ###comments
 ###disqus_thread
+
+! SPESIFIK
 
 1337x.to##.box-info > br
 1337x.to##.rating-wrap
