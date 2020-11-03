@@ -407,7 +407,7 @@ reddit.com#$#.scrollerItem i[id^="PostBadges--Sticky"] { margin-top: 3px !import
 reddit.com#$#.ListingLayout-outerContainer img[src^="https://www.redditstatic.com/custom_feeds/"] { height: 48px !important; width: 48px !important; }
 reddit.com#$#button[id^="subscribe-button-"] { display: none !important; }
 reddit.com#$#button[id^="subscribe-button-"] > svg { height: 10px !important; width: 10px !important; }
-reddit.com#$#.res-nightmode body .content { border-right-color: #ccc !important; }
+reddit.com#$#.res-nightmode body .content { border-right-color: gray !important; }
 reddit.com#$#.res-media-independent.res-media-independent { position: relative !important; }
 reddit.com#$#.res-image-media.res-image-media { max-width: 100% !important; }
 rclone.org#$#.pre-scrollable { max-height: calc(100vh - 55px) !important; overflow-y: auto !important; }
