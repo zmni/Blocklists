@@ -5,6 +5,7 @@
 ! UMUM
 
 ||amazon-adsystem.com^$3p,important
+||buymeacoffee.com^$3p
 ||canny.io^$3p
 ||chatango.com^$3p
 ||crisp.chat^$3p
