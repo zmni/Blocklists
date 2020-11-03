@@ -6,24 +6,25 @@
 
 ||amazon-adsystem.com^$3p,important
 ||canny.io^$3p
+||chatango.com^$3p
 ||crisp.chat^$3p
 ||d2to8y50b3n6dq.cloudfront.net^$3p
 ||dec.azureedge.net^$3p
 ||discord.com^$3p
+||discordapp.com^$3p
+||disqus.com^3p
 ||g.jwpsrv.com^$3p
-||ga.googlevideo.io^$3p
 ||gitter.im^$3p
+||googlevideo.io^$3p
 ||intercom.io^$3p
 ||ipgeolocation.com^$3p
 ||jivosite.com^$3p
-||launcher.spot.im^$3p
 ||liveperson.net^$3p
 ||peer5.com^$3p
 ||sentry.io^$3p
-||st.chatango.com^$3p
-||status.thawte.com^$3p
+||spot.im^$3p
+||thawte.com^$3p
 ||umami.is^$3p
-||widget.intercom.io^$3p
 
 ! SPESIFIK
 
@@ -31,9 +32,6 @@
 ||cloudfront.net^*/stream-analytics.$script,3p
 ||d2srrzh48sp2nh.cloudfront.net/*/images/respond.proxy.gif$image,3p
 ||detik.net.id/libs/*/js/eyeota.js$3p
-||discordapp.com/widget$frame,3p
-||disqus.com/count.js$script,3p
-||disqus.com/embed.js$script,3p
 ||escdn.co/ads/$important,3p
 ||gc.zgo.at/count.js$script,3p
 ||jsdelivr.net/npm/@widgetbot/$3p,script

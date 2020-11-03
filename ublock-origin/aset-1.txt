@@ -61,6 +61,7 @@
 ||expedia.co.uk/cl/2x2.json$xhr,1p
 ||expedia.co.uk/pace/promobanners$xhr,1p
 ||external-content.duckduckgo.com/ip3/*.ico$image,1p
+||fandom.com/wikia.php?controller=ArticleComments$1p
 ||filmnonton.com^*/banner/$1p
 ||flixtor.to^*/p.$1p
 ||forums.mvgroup.org/donations/$image,1p

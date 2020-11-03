@@ -4,7 +4,9 @@
 
 ! UMUM
 
+/app-comments-
 /cast_sender.js$script,3p
+/embed/comments/*
 /provider.cast.js$script
 /wp-emoji.js$script
 
@@ -52,6 +54,7 @@
 ||animecdn.xyz/js/ads.js$script,important
 ||gfycat.com^*/shar$image,important
 ||google.*/log$important
+||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
 ||kotakputih.casa/images/*.gif$image
@@ -59,6 +62,7 @@
 ||newshub.id^*/pixel.$script
 ||ok.ru/dk?cmd=videoStat$xhr
 ||readthedocs.org/sustainability/view/$image
+||s0.wp.com/*/plugins/ajax-comment-loading^
 ||streamplay.to/*zoneid=
 ||thevideo.us/js/jspc.js?adb
 ||twitter.com/i/jot$xhr
