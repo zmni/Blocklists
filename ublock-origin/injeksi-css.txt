@@ -519,6 +519,7 @@ tvseries.video#$#.card-title.card-title { height: unset !important; padding: 24p
 tvseries.video#$#.collapsible-header.collapsible-header { height: unset !important; }
 tvseries.video#$#.collapsible-header { border-bottom-color: #000 !important; margin-right: unset !important; padding: 5px 10px !important; }
 tvseries.video#$#.collapsible.collapsible li.active i { margin-top: unset !important; margin-bottom: 3px !important; }
+tvseries.video#$#.collapsible-body { border-bottom-color: #000 !important; }
 tvseries.video#$#.latestctn, .ilatestctn, .popularctn { border: unset !important; }
 tvseries.video#$#.stlgenresctn { display: flex !important; flex-wrap: wrap !important; justify-content: space-between !important; height: auto !important; margin: 8px 8px 0 !important; overflow-x: auto !important; white-space: normal !important; }
 tvseries.video#$#.stlgenres { flex: 1 !important; margin: 2px !important; white-space: nowrap !important; }
@@ -526,12 +527,15 @@ tvseries.video#$#.show-info.show-info { margin: 10px !important; }
 tvseries.video#$#.stssumary.stssumary, .stnetwork.stnetwork { background-color: transparent !important; margin-left: unset !important; padding: 0 10px !important; }
 tvseries.video#$#.stssumary.stssumary { border-right: 1px solid gray !important; }
 tvseries.video#$#.eplist { background-color: transparent !important; }
-tvseries.video#$#.stepisode { background-color: #1e1e1e !important; }
 tvseries.video#$#.stheader1, .strelease, .stepsumary { text-align: center !important; }
 tvseries.video#$#.stepisodectn { margin-left: unset !important; }
 tvseries.video#$#.stseasontitle, .stepisode { margin-bottom: unset !important; }
 tvseries.video#$#.stseasontitle { margin-left: unset !important; }
-tvseries.video#$#.stepisode { padding: 5px 10px !important; }
+tvseries.video#$#.stepisode { background-color: #1e1e1e !important; display: flex !important; padding: 5px 10px !important; }
+tvseries.video#$#.stepisode:hover { background-color: #2d2d2d !important; }
+tvseries.video#$#.stepisodenb { border-top-right-radius: unset important; border-bottom-right-radius: unset important; float: none important; padding: 4px 1rem important; width: auto important; }
+tvseries.video#$#.stepisodelink { flex: 1 !important; padding: unset !important; }
+tvseries.video#$#.stepisodelink a { display: block !important; padding: 4px 1rem !important; }
 tvseries.video#$#.playerctn { display: flex !important; flex-wrap: wrap !important; width: 1120px !important; }
 tvseries.video#$#.playerctn > div { flex: 0 0 100% !important; }
 tvseries.video#$##videoctn, .stserverep { float: none !important; margin-right: unset !important; margin-left: unset !important; width: auto !important; }
