@@ -530,8 +530,8 @@ tvseries.video#$#.stepisode { background-color: #1e1e1e !important; }
 tvseries.video#$#.stheader1, .strelease, .stepsumary { text-align: center !important; }
 tvseries.video#$#.stepisodectn { margin-left: unset !important; }
 tvseries.video#$#.stseasontitle, .stepisode { margin-bottom: unset !important; }
-tvseries.video#$#.stepisode { padding: 5px 10px !important; }
 tvseries.video#$#.stseasontitle { margin-left: unset !important; }
+tvseries.video#$#.stepisode { padding: 5px 10px !important; }
 tvseries.video#$#.playerctn { display: flex !important; flex-wrap: wrap !important; width: 1120px !important; }
 tvseries.video#$#.playerctn > div { flex: 0 0 100% !important; }
 tvseries.video#$##videoctn, .stserverep { float: none !important; margin-right: unset !important; margin-left: unset !important; width: auto !important; }
