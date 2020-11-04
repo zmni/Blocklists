@@ -3,13 +3,17 @@
 !! ========================================================================== !!
 
 ! UMUM
-
 ##.comment-area
 ##.comment-respond
 ##.commentarea
 ##.comments
 ##.comments-area
+##.fb-comments
+##.xenforo-comment-widget
+##.xenforo-comments-see-all
 ###comment
+###comment-disqus
+###commentfb
 ###comments
 ###disqus_thread
 
@@ -260,7 +264,6 @@ cmovieshd.net##.mv-rating
 cmovieshd.net##.social-home
 cmovieshd.net##[class*="content-kus"]
 cmovieshd.net##[id^="AD_"]
-cmovieshd.net###comment-disqus
 cmovieshd.net###mv-keywords
 cnnindonesia.com,detik.com##.banner_reg
 cnnindonesia.com##.banner
@@ -525,7 +528,6 @@ indoxx21.com##.ann-home
 indoxx21.com##.mv-rating
 indoxx21.com##[class*="content-kus"]
 indoxx21.com##[id^="popupinfoAd"]
-indoxx21.com###commentfb
 indoxx21.com###mv-keywords
 indoxx21.com###switch-mode
 indoxxi.info##.movie-details>a[target]
@@ -608,8 +610,6 @@ listennotes.com###page-share-button
 listverse.com##.ga.rect
 live.com##span + button:has-text(/\b(mari|unduh sekarang)\b/i):upward(3)
 livescience.com##.trending-wrapper
-livescience.com##.xenforo-comment-widget
-livescience.com##.xenforo-comments-see-all
 livescience.com###affiliateDisclaimer
 livescience.com###article-body > .product
 livescience.com###ultimedia_wrapper
@@ -807,7 +807,6 @@ nontonplus.com##.mvic-btn
 nontonplus.com##.tvseason .les-content a:hover::before
 nontonplus.com###bar-player
 nontonplus.com###bread
-nontonplus.com###commentfb
 nontonplus.com###mv-keywords
 noxx.to##.icon-bar
 ns21.club##.breadcrumbs
@@ -1181,7 +1180,8 @@ trakt.tv##li:has(> a[href^="/widgets"])
 trakt.tv##li:has(> a[href="#comments"])
 transifex.com##.js-social-share
 tvbersama.com##.adsheader
-tvseries.video##.fb-comments
+tvseries.video##.castctn
+tvseries.video##.casttitle
 tvseries.video##.mads
 tvseries.video##.playerctn ~ *
 tvzion.club##.notification
