@@ -511,17 +511,27 @@ torrentz.*#$#div.files ul { background-color: #0f0f0f !important; border-left-co
 torrentz.*#$#div.files li { color: #c3c3c3 !important; }
 torrentz.*#$#div.note { background-color: #1e1e1e !important; border-color: #000 !important; color: #878787 !important; }
 tvseries.video#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
-tvseries.video#$#.card-title.card-title { height: unset !important; padding: 24px 0 !important; top: 50% !important; bottom: auto !important; transform: translateY(-50%) !important; }
+tvseries.video#$#img[src="/img/default.png"] { filter: invert(.5) !important; }
+tvseries.video#$#.card-image::before { content: "" !important; display: block !important; padding-bottom: calc(100% * 4 / 3) !important; }
+tvseries.video#$#.card .card-image { background-color: #1e1e1e !important; }
+tvseries.video#$#.card .card-image img { height: 100% !important; position: absolute !important; }
+tvseries.video#$#.card-title.card-title { height: unset !important; padding: 24px 12px !important; top: auto !important; bottom: 50% !important; transform: translateY(50%) !important; }
+tvseries.video#$#.collapsible-header.collapsible-header { height: unset !important; }
+tvseries.video#$#.collapsible-header { border-bottom-color: #000 !important; margin-right: unset !important; padding: 5px 10px !important; }
+tvseries.video#$#.collapsible.collapsible li.active i { margin-top: unset !important; margin-bottom: 3px !important; }
 tvseries.video#$#.latestctn, .ilatestctn, .popularctn { border: unset !important; }
 tvseries.video#$#.stlgenresctn { display: flex !important; flex-wrap: wrap !important; justify-content: space-between !important; height: auto !important; margin: 8px 8px 0 !important; overflow-x: auto !important; white-space: normal !important; }
 tvseries.video#$#.stlgenres { flex: 1 !important; margin: 2px !important; white-space: nowrap !important; }
-tvseries.video#$#.stssumary, .stnetwork { background-color: #1e1e1e !important; }
+tvseries.video#$#.show-info.show-info { margin: 10px !important; }
+tvseries.video#$#.stssumary.stssumary, .stnetwork.stnetwork { background-color: transparent !important; margin-left: unset !important; padding: 0 10px !important; }
+tvseries.video#$#.stssumary.stssumary { border-right: 1px solid gray !important; }
 tvseries.video#$#.eplist { background-color: transparent !important; }
 tvseries.video#$#.stepisode { background-color: #1e1e1e !important; }
-tvseries.video#$#.collapsible-header { border-bottom-color: #000 !important; }
 tvseries.video#$#.stheader1, .strelease, .stepsumary { text-align: center !important; }
 tvseries.video#$#.stepisodectn { margin-left: unset !important; }
 tvseries.video#$#.stseasontitle, .stepisode { margin-bottom: unset !important; padding: 5px 10px !important; }
+tvseries.video#$#.stepisode { padding: 5px 10px !important; }
+tvseries.video#$#.stseasontitle { margin-left: unset !important; }
 tvseries.video#$#.playerctn { display: flex !important; flex-wrap: wrap !important; width: 1120px !important; }
 tvseries.video#$#.playerctn > div { flex: 0 0 100% !important; }
 tvseries.video#$##videoctn, .stserverep { float: none !important; margin-right: unset !important; margin-left: unset !important; width: auto !important; }
