@@ -552,7 +552,7 @@ tvseries.video#$#.stseasontitle, .stepisode { margin-bottom: unset !important; }
 tvseries.video#$#.stseasontitle { margin-left: unset !important; }
 tvseries.video#$#.stepisode { background-color: #1e1e1e !important; display: flex !important; padding: 5px 10px !important; }
 tvseries.video#$#.stepisode:hover { background-color: #2d2d2d !important; }
-tvseries.video#$#.stepisodenb { border-top-right-radius: unset important; border-bottom-right-radius: unset important; float: none important; padding: 4px 1rem important; width: auto important; }
+tvseries.video#$#.stepisodenb { border-top-right-radius: unset !important; border-bottom-right-radius: unset !important; float: none !important; padding: 4px 1rem !important; width: auto !important; }
 tvseries.video#$#.stepisodelink { flex: 1 !important; padding: unset !important; }
 tvseries.video#$#.stepisodelink a { display: block !important; padding: 4px 1rem !important; }
 tvseries.video#$#.stepisodelink a:hover { color: #f0f0f0 !important; }
