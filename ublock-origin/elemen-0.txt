@@ -685,6 +685,13 @@ moviegaga.*,movieninja.*##.allinone-share
 moviegaga.*,movieninja.*##.movie-likeshare-watch
 moviegaga.*,movieninja.*###share-this-movie
 moviegaga.*,movieninja.*###watch-movie-info:has(> .star-btn)
+movies123.*##.breadcrumb
+movies123.*##.footer-tags
+movies123.*##.main-content > .pad
+movies123.*##.mobile-btn
+movies123.*##.pad
+movies123.*###bread
+movies123.*###bread + div[style]:not([class])
 movietoken.to##.ann-home
 movietoken.to###mv-keywords
 mozilla.org###announce-geoip-suggestion

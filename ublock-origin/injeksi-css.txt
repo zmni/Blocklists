@@ -323,11 +323,26 @@ lookmovie.ag#$#.slider { margin-bottom: 20px !important; }
 lookmovie.ag#$##PlayerZone { padding-top: unset !important; }
 
 mashable.com#$##scrollable { padding-top: 44px!important; }
-docs.microsoft.com#$#.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1 { max-width: none !important; }
+movies123.*#$#header { --hh: 40px; height: var(--hh) !important; position: static !important; }
+movies123.*#$#header .header-logo { height: var(--hh) !important; margin-top: unset !important; }
+movies123.*#$##menu ul.top-menu { display: flex !important; margin-bottom: unset !important; }
+movies123.*#$##menu ul.top-menu li a { height: var(--hh) !important; line-height: var(--hh) !important; }
+movies123.*#$##menu .sub-container { top: var(--hh) !important; }
+movies123.*#$##search { margin-top: 3px !important; }
+movies123.*#$##main#main { padding-top: unset !important; }
+movies123.*#$#.main-detail { width: 1100px !important; }
+movies123.*#$#.movies-list .ml-item { margin: 1% !important; }
+movies123.*#$#.mli-thumb[src$="/promo/noposter.png"], .mli-thumb[src^="data:image/png;base64"] { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+movies123.*#$#.movies-list .ml-item .mli-info { background-image: unset !important; background-color: rgba(0, 0, 0, .25) !important; border-radius: unset !important; }
+movies123.*#$##pagination, .pagination { margin: unset !important; }
+movies123.*#$##content-embed { background-color: #000 !important; padding-bottom: 56.25% !important; }
+movies123.*#$##mv-info .mvi-content .mvic-desc { width: 540px !important; }
+movies123.*#$#.movies-list-wrap { margin-top: 20px !important; }
+msn.com#$#irisbannerph + .head { margin-top: unset !important; }
 muchohentai.com#$#.single-post .wrap { width: 1100px !important; }
 muchohentai.com#$#body, #main { background-image: none !important; }
-msn.com#$#irisbannerph + .head { margin-top: unset !important; }
 myanimelist.net#$#.news-content-block .content-right > .js-scrollfix-bottom { position: relative !important; bottom: auto !important; }
+docs.microsoft.com#$#.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1 { max-width: none !important; }
 forum.mikrotik.com#$#.st-editor__box #message { height: auto !important; }
 forum.mikrotik.com#$#.transparent + .stickyContainer .utility-bar { border-radius: 0 !important; }
 forum.mikrotik.com#$#blockquote .blockquote__inner, .codebox pre { max-height: none !important; }
