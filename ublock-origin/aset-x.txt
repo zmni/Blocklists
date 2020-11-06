@@ -33,6 +33,7 @@
 
 ! 1: SPESIFIK
 
+@@||anilist.co/img/landing/social.$image,1p
 @@||authy.com/wp-content/uploads/Pinterest-logo.png$image,1p
 @@||dutafilm.*/img/logo-red.gif$image,1p
 @@||dutafilm.*/sw.js|$script,1p

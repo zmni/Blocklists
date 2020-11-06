@@ -842,6 +842,7 @@ oploverz.in##.genre
 oploverz.in##.next-prev-eps ~ *
 oploverz.in##.recommended
 oploverz.in##.wpdiscuz-loading-bar
+otakumode.com##.guest-mail
 ourmatch.net##.leaderboard_ad
 ourmatch.net##.leaderboard_mid
 ourmatch.net##.right_ad

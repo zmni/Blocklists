@@ -13,7 +13,8 @@
 ||dec.azureedge.net^$3p
 ||discord.com^$3p
 ||discordapp.com^$3p
-||disqus.com^3p
+||disqus.com^$3p
+||driftt.com^$3p
 ||g.jwpsrv.com^$3p
 ||gitter.im^$3p
 ||googlevideo.io^$3p
