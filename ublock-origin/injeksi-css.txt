@@ -483,6 +483,49 @@ regextester.com#$#body { padding-right: 15px !important; padding-left: 15px !imp
 riie.net#$#.aduh { max-height: none !important; }
 riie.net#$#.polarpostx { box-sizing: border-box !important; width: 100% !important; }
 riie.net#$##main-menu { margin-top: 13px !important; }
+robtex.com#$#p { margin: 0 0 1rem !important; }
+robtex.com#$#img { height: auto !important; max-width: 100% !important; }
+robtex.com#$#.button { border-radius: 0 !important; display: inline-block !important; padding: .5em 1em !important; }
+robtex.com#$#.dropdown-content { min-width: 0 !important; }
+robtex.com#$#.dlicon { width: 14px !important; }
+robtex.com#$#.dlicon + .dlicon { margin-left: 5px !important; }
+robtex.com#$#div.loginbar { padding: 0 3rem !important; }
+robtex.com#$#div.loginbar > div { align-self: center !important; }
+robtex.com#$#div.loginbar > div + div { margin-left: 1em !important; }
+robtex.com#$#div.loginbar .button { margin: 0 !important; }
+robtex.com#$##superarticle { line-height: 1 !important; margin: 0 3rem !important; }
+robtex.com#$##supertop { box-shadow: unset !important; min-height: unset !important; padding: .5rem 3rem !important; }
+robtex.com#$##supertitle { font-size: 11pt !important; }
+robtex.com#$##supercrumb { align-self: end !important; padding: 0 !important; }
+robtex.com#$#input#q, input#go { font-size: 16px !important; height: auto !important; margin: 0 !important; padding: 1em !important; }
+robtex.com#$##idrttab { flex-wrap: nowrap !important; margin: 10px 0 0 !important; }
+robtex.com#$##idrttabul { flex-wrap: nowrap !important; line-height: 1 !important; }
+robtex.com#$##idrttabul a { display: block !important; padding: 4px 3px 3px !important; }
+robtex.com#$##idrttabul li { flex-basis: auto !important; font-size: 12px !important; min-width: 0 !important; padding: 0 !important; }
+robtex.com#$##rtfragc_dnst, #rtfragc_dnsbl, #rtfragc_ohistory, #rtfragc_owhois { height: auto !important; }
+robtex.com#$#.rtfragui.rtfragui { min-height: 0 !important; }
+robtex.com#$#.rtstyle h2, .rtstyle h3 { padding-left: 0 !important; }
+robtex.com#$#.rtstyle table { border-radius: 0 !important; }
+robtex.com#$#div.rtstyle a[title="Download premium report"] { line-height: 1 !important; vertical-align: bottom !important; }
+robtex.com#$#.rtfragh { padding: 0 20px !important; }
+robtex.com#$#.rtfragc { padding: 20px !important; overflow: auto !important; }
+robtex.com#$#.rtpopup { border-radius: 0 !important; padding: 10px !important; overflow: auto !important; }
+robtex.com#$#table.table2col { margin: 0 !important; width: 100% !important; }
+robtex.com#$#table.table2col th[scope="row"] { width: 200px !important; }
+robtex.com#$#table.protable { margin-bottom: 1rem !important; }
+robtex.com#$#table.protable th { padding: 10px !important; text-align: left !important; }
+robtex.com#$#.infobox > div { border-radius: 0 !important; box-shadow: none !important; }
+robtex.com#$#.infobox h3, .infobox small, .infobox > div > div:last-child { padding: 0 10px !important; }
+robtex.com#$#.infobox .scrollist { padding: 5px 10px !important; }
+robtex.com#$##rtfragc_ograph { overflow: auto !important; text-align: center !important; }
+robtex.com#$##rtfragc_visgraph { height: auto !important; }
+robtex.com#$#div.other, div.other > a { border-radius: 0 !important; }
+robtex.com#$#div.other > a { padding: 2px 4px !important; }
+robtex.com#$#footer { padding: 20px !important; text-align: center !important; }
+robtex.com#$#footer ul { margin: 0 !important; padding: 0 !important; }
+robtex.com#$#footer > ul { margin-bottom: 20px !important; }
+robtex.com#$#footer ul li div { margin: 0 !important; }
+robtex.com#$#footer ul li div::after { left: auto !important; margin: auto !important; width: 60% !important; }
 rottentomatoes.com#$#.header_main_scroll { margin-top: 0 !important; }
 ruangotaku.com#$##breadcrumbs, #breadcrumbs a { color: #f5f5f5 !important; }
 ruangotaku.com#$#body.custom-background { background-image: none !important; }

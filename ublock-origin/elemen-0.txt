@@ -936,6 +936,9 @@ rizonesoft.com##.adsense-header-responsive
 rizonesoft.com##.rizon-before-content:has(> .adsbygoogle)
 robtex.com##.soctop
 robtex.com###statusgif
+robtex.com###supercontainer > a
+robtex.com###supercontainer > br
+robtex.com###supercrumb > br
 robtex.com###superdebug
 robtex.com###superrand
 robtex.com###zsocial
