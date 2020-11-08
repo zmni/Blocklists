@@ -195,9 +195,46 @@ crackwatch.com#$#.game-row-price { padding-top: 21px !important; }
 crackwatch.com#$#.game-row-price.padding0 { padding-top: 0 !important; }
 
 dewanonton.*#$#.navbar-dewanonton-v1 .nav-dewanonton--search .input-group input[type=search] { cursor: inherit !important; }
-dutafilm.*#$#.header { background-color: #1e1e1e !important; }
-dutafilm.*#$#.header > a[href="/"] { float: left !important; }
-dutafilm.*#$#.header > a[href="/"] > .logo { background-image: url("https://i.imgur.com/kyztB6v.png") !important; background-position: center !important; background-repeat: no-repeat !important; background-size: auto 45px !important; }
+dutafilm.*#$#body { background-color: #0f0f0f !important; background-image: unset !important; color: #c3c3c3 !important; }
+dutafilm.*#$#.header { position: relative !important; }
+dutafilm.*#$#.no-sub, .sub-parent, .sub { border-color: #000 !important; }
+dutafilm.*#$#.no-sub, .sub-parent, .search-filter { background-color: #3c3c3c !important; }
+dutafilm.*#$#.sub-parent.clicked, .sub { background-color: #4b4b4b !important; }
+dutafilm.*#$#.sub { color: #c3c3c3 !important; }
+dutafilm.*#$#.search-label { box-shadow: 0 0 3px #000 !important; }
+dutafilm.*#$#.filter-opt, .filter-content { -webkit-box-shadow: 0 0 3px #000 !important; -moz-box-shadow: 0 0 3px #000 !important; box-shadow: 0 0 3px #000 !important; }
+dutafilm.*#$#.filter-content, .filter-sbm { background-color: #1e1e1e !important; color: #c3c3c3 !important; }
+dutafilm.*#$#.filter-opt { background-color: #2d2d2d !important; }
+dutafilm.*#$#.filter-sbm { background-color: #3c3c3c !important; }
+dutafilm.*#$#.notif { margin-right: unset !important; margin-left: unset !important; width: auto !important; }
+dutafilm.*#$#.mv-content-items { display: flex !important; flex-wrap: wrap !important; margin-right: -10px !important; margin-left: -10px !important; }
+dutafilm.*#$#.mv-content-items > * { padding: 0 10px !important; }
+dutafilm.*#$#.featured-label { flex: 1 1 100% !important; margin: 10px 0 !important; }
+dutafilm.*#$#.featured-label h3 { margin-left: unset !important; }
+dutafilm.*#$#.featured-showmore { margin-right: unset !important; }
+dutafilm.*#$#.mv-content-items > a { box-sizing: border-box !important; display: block !important; flex: 0 0 calc(100% / 6 - 20px) !important; margin: 0 10px 20px !important; padding: unset !important; position: relative !important; }
+dutafilm.*#$#.mv { float: none !important; margin: unset !important; position: relative !important; padding-bottom: calc(100% * 4 /3) !important; height: 0 !important; width: auto !important; }
+dutafilm.*#$#.mv-overlay { height: 100% !important; }
+dutafilm.*#$#.mv-poster[src$="/img/default.png"] { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+dutafilm.*#$#.mv-poster { position: absolute !important; height: 100% !important; width: 100% !important; }
+dutafilm.*#$#.mv-desc { text-shadow: 0 0 1px #000 !important; }
+dutafilm.*#$#.mv-content-pagination-number { border-color: #000 !important; }
+dutafilm.*#$#.mv-content-pagination-next, .mv-content-pagination-prev, .mv-content-pagination-next i, .mv-content-pagination-prev i { color: #c3c3c3 !important; }
+dutafilm.*#$#.left-content { float: none !important; padding-right: unset !important; padding-left: unset !important; width: auto !important; }
+dutafilm.*#$##vid#vid { background-position: center !important; }
+dutafilm.*#$#.vid-details, .vid-keywords, .vid-preface, .vid-seo-keywords { background: #1e1e1e !important; }
+dutafilm.*#$#.vid-details-left { padding: 10px !important; }
+dutafilm.*#$#.vid-details-right { padding: 10px !important; padding-left: unset !important; }
+dutafilm.*#$#.vid-details-right div a, .vid-details-right h3, .vid-preface a { color: #c3c3c3 !important; }
+dutafilm.*#$#.vid-details-right.vid-details-right [style*="color:#555"] { color: #878787 !important; }
+dutafilm.*#$#.vid-details .divider { background: #696969 !important; }
+dutafilm.*#$#.vid-episodes { background: #1e1e1e !important; }
+dutafilm.*#$#.vid-episodes-content { text-align: center !important; }
+dutafilm.*#$#.episode { background: #2d2d2d !important; border-radius: unset !important; color: #c3c3c3 !important; }
+dutafilm.*#$#.footer { background: #1e1e1e !important; }
+dutafilm.*#$#.footer-seo { color: #878787 !important; }
+dutafilm.*#$#.footer-seo h2 { border-bottom-color: #696969 !important; }
+dutafilm.*#$#.footer-2, .footer-copy, .footer-links { color: #696969 !important; }
 
 fandom.com#$#.wds-community-header { width: calc(95% + 40px) !important; }
 fandom.com#$#.WikiaPage { border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }

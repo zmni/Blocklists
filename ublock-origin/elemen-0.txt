@@ -321,13 +321,15 @@ dunia21.com##[id$="banner"]
 dunia21.com###rotating
 dutafilm.*##.afs_ads
 dutafilm.*##.catalogue
-dutafilm.*##.header > a[href="/"] > .logo > img
 dutafilm.*##.jwseed
+dutafilm.*##.left-content > :not(.player)
+dutafilm.*##.menu-content
 dutafilm.*##.mv-content-items > a:has(:scope .cam-color)
 dutafilm.*##.mv-content-items > a:has(:scope .camh-color)
 dutafilm.*##.notice
 dutafilm.*##.related-mv:has(:scope .cam-color)
 dutafilm.*##.related-mv:has(:scope .camh-color)
+dutafilm.*##.right-content
 dutafilm.*##.socmed
 dutafilm.*##.top-banner
 dutafilm.*##.vid-episodes-title
