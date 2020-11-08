@@ -2,6 +2,14 @@
 !! INJEKSI CSS
 !! ========================================================================== !!
 
+!! <CLOUDFLARE>
+nontonplus.com,trakt.tv#$##cf-wrapper { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+nontonplus.com,trakt.tv#$##cf-wrapper .text-black-dark { color: #c3c3c3 !important; }
+nontonplus.com,trakt.tv#$##cf-wrapper .bg-gradient-gray { background-image: -webkit-linear-gradient(top, #0f0f0f, #000 3%, #000 97%, #0f0f0f) !important; }
+nontonplus.com,trakt.tv#$##cf-wrapper .cf-error-source::after { background-color: #0f0f0f !important; box-shadow: 0 0 4px 4px #0f0f0f !important; }
+nontonplus.com,trakt.tv#$##cf-wrapper .border-gray-300 { border-color: #3c3c3c !important; }
+!! </CLOUDFLARE>
+
 5movies.to#$#.content { float: none !important; width: auto !important; }
 5movies.to#$#.pagination { text-align: center !important; }
 9anime.*#$#:root { --cw: 1160px; --vw: 1130px; --vh: calc(var(--vw) * 9 / 16 + 38px); --pt: calc(var(--vh) + 1.66rem); }
