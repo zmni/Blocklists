@@ -342,6 +342,9 @@ kotakanime.net#$##main-menu { position: static !important; }
 kotakhitam.casa,kotakputih.casa#$#.swal-modal { background-color: #2d2d2d !important; }
 kotakhitam.casa,kotakputih.casa#$#.swal-title, .swal-text { color: #c3c3c3 !important; }
 kotakhitam.casa,kotakputih.casa#$#.sub-control-menu { background: #1e1e1e !important; border-color: #000 !important; color: #c3c3c3 !important; }
+kotakhitam.casa,kotakputih.casa#$##server-list-toggle { opacity: .5 !important; right: 0 !important; }
+kotakhitam.casa,kotakputih.casa#$##server-list-content { right: -110px !important; transition: right .2s !important; }
+kotakhitam.casa,kotakputih.casa#$##server-list-toggle:hover + #server-list-content, #server-list-content:hover { right: 0 !important; }
 kbbi.kemdikbud.go.id#$#body { background-color: #0f0f0f !important; }
 kbbi.kemdikbud.go.id#$#.jumbotron { background-color: #1e1e1e !important; }
 kbbi.kemdikbud.go.id#$#.form-control { background-color: #2d2d2d !important; }
