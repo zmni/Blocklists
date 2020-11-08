@@ -53,7 +53,6 @@
 
 ||animecdn.xyz/js/ads.js$script,important
 ||gfycat.com^*/shar$image,important
-||google.*/log$important
 ||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
