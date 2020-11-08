@@ -304,6 +304,7 @@ deviantart.com##.gruze-sidebar:has(> .match-body-height > .tower_right_wrapper >
 dewanonton.*##.banner-common
 dewanonton.*##.banner-common:upward(2)
 dewanonton.*##.banner-premium
+dewanonton.*##.dewanonton-section--hero
 dewanonton.*##.left-banner
 dewanonton.*##.right-banner
 dewanonton.*###bookmark-alert
@@ -593,8 +594,10 @@ layarcinema.*###idmuvi-popup
 layarcinema.*###kelik
 lazada.co.id##.c3lr34
 lbry.tv##.ads__claim-item:upward(li:not([class]):not([role]))
+letterboxd.com##.-leaderboard
 letterboxd.com##.banner
 letterboxd.com##.panel-share
+letterboxd.com##.upgrade-kicker
 lifehacker.com##.dHZwOk
 lifehacker.com##.instream-native-video
 lifehacker.com##.js_movable_ad_slot
@@ -1187,6 +1190,7 @@ trakt.tv##li:has(> a[href^="/vip"])
 trakt.tv##li:has(> a[href^="/widgets"])
 trakt.tv##li:has(> a[href="#comments"])
 transifex.com##.js-social-share
+trello.com###banners
 tvbersama.com##.adsheader
 tvseries.video##.castctn
 tvseries.video##.casttitle
