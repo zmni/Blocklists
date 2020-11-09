@@ -408,6 +408,16 @@ movies123.*#$#.movies-list-wrap { margin-top: 20px !important; }
 msn.com#$#irisbannerph + .head { margin-top: unset !important; }
 muchohentai.com#$#.single-post .wrap { width: 1100px !important; }
 muchohentai.com#$#body, #main { background-image: none !important; }
+myanimelist.net#$#.reviews-horiznav-nav-sort-block .review-sort-order-block .btn-close { position: absolute !important; top: 5px !important; right: 5px !important; }
+myanimelist.net#$#.reviews-horiznav-nav-sort-block .review-sort-order-block .sort-order-list .btn-sort-order { background-position: 5px -34px !important; display: block !important; padding-top: 4px !important; padding-left: 20px !important; }
+myanimelist.net#$#.reviews-horiznav-nav-sort-block .review-sort-order-block .sort-order-list .btn-sort-order.selected:after { top: 5px !important; left: 5px !important; }
+myanimelist.net#$#.seasonal-anime-list .seasonal-anime .information .scormem .score { visibility: collapse !important; }
+myanimelist.net#$#.anime-detail-header-stats .stats-block { display: flex !important; align-items: center !important; justify-content: center !important; flex-direction: column !important; }
+myanimelist.net#$#.page-common .anime-detail-header-stats .stats-block .di-ib.ml12.pl20.pt8 { margin-left: unset !important; padding: unset !important; position: static !important; }
+myanimelist.net#$#.anime-detail-header-stats .stats-block .information-block { margin-top: 10px !important; position: static !important; }
+myanimelist.net#$#.anime-detail-header-stats .user-status-block { display: flex !important; justify-content: center !important; }
+myanimelist.net#$#.user-status-block .btn-user-status-add-list, .user-status-block .form-user-score, .user-status-block .form-user-status { margin: 0 5px !important; }
+myanimelist.net#$#.notification_settings .notification-setting-content .settings-notification .setting td.button.off input[type="checkbox"]:checked + label { opacity: .5 !important; }
 myanimelist.net#$#.news-content-block .content-right > .js-scrollfix-bottom { position: relative !important; bottom: auto !important; }
 docs.microsoft.com#$#.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1 { max-width: none !important; }
 forum.mikrotik.com#$#.st-editor__box #message { height: auto !important; }
