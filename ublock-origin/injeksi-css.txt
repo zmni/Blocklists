@@ -254,6 +254,8 @@ dutafilm.*#$#.footer { background: #1e1e1e !important; }
 dutafilm.*#$#.footer-seo { color: #878787 !important; }
 dutafilm.*#$#.footer-seo h2 { border-bottom-color: #696969 !important; }
 dutafilm.*#$#.footer-2, .footer-copy, .footer-links { color: #696969 !important; }
+dutafilm.*#$#.trailer-content { --vh: 600px; background-color: #0f0f0f !important; box-shadow: 0 0 15px #0f0f0f !important; width: calc(var(--vh) * 16 / 9) !important; }
+dutafilm.*#$#.yt-vid { height: var(--vh) !important; }
 
 fandom.com#$#.wds-community-header { width: calc(95% + 40px) !important; }
 fandom.com#$#.WikiaPage { border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }

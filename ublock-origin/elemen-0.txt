@@ -339,6 +339,7 @@ dutafilm.*##.related-mv:has(:scope .camh-color)
 dutafilm.*##.right-content
 dutafilm.*##.socmed
 dutafilm.*##.top-banner
+dutafilm.*##.trailer-head
 dutafilm.*##.vid-episodes-title
 dutafilm.*##.vid-keywords
 dutafilm.*##.vid-preface
