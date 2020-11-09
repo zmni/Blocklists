@@ -212,6 +212,7 @@ dewanonton.*#$#.navbar-dewanonton-v1 .navbar-brand img { height: 40px !important
 dewanonton.*#$#.navbar-dewanonton-v1 .nav-dewanonton--search .input-group input[type=search] { cursor: inherit !important; }
 dewanonton.*#$#.nav-dewanonton--list.nav-dewanonton--list { margin-top: unset !important; }
 dewanonton.*#$#.navbar-expand-lg .navbar-nav .dropdown-menu { z-index: 99999 !important; }
+dewanonton.*#$#.black-cover-img { background-color: transparent !important; }
 dewanonton.*#$#.dewanonton-section--video { margin-top: unset !important; }
 dutafilm.*#$#body { background-color: #0f0f0f !important; background-image: unset !important; color: #c3c3c3 !important; }
 dutafilm.*#$#.header { position: relative !important; }

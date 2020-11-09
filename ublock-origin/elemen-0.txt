@@ -314,7 +314,7 @@ dewanonton.*##.dewanonton-section--synopsis
 dewanonton.*##.left-banner
 dewanonton.*##.right-banner
 dewanonton.*##.section-title:upward(2)
-dewanonton.*###bookmark-alert
+dewanonton.*###bookmark-alert:remove()
 dewantn.com##.contenido > center
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
