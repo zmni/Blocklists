@@ -722,20 +722,33 @@ myanime.co##.stats-area
 myanimelist.net##.ad-skin-side-bg
 myanimelist.net##.ad-skin-side-outer
 myanimelist.net##.anime-detail-header-affiliate-dialog
-myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.anime-detail-header-stats .notice_open_public
+myanimelist.net##.anime-detail-header-stats .stats-block .score
+myanimelist.net##.anime-detail-header-stats .stats-block::before
 myanimelist.net##.banner-footer-anime-streaming
+myanimelist.net##.banner-header-anime-straming
 myanimelist.net##.border_bottom:has(> div > div[style][data-height])
 myanimelist.net##.btn-affiliate
 myanimelist.net##.episode_list .episode-video
+myanimelist.net##.episode_list td.episode-video
 myanimelist.net##.featured-pickup-unit:has(:scope .tag-color-feature-advertorial)
 myanimelist.net##.header-menu-login > .btn-mal-service
 myanimelist.net##.icon-watch
 myanimelist.net##.icon-watch-pv
+myanimelist.net##.index-watch-description
+myanimelist.net##.js-statistics-info[itemprop="aggregateRating"]
 myanimelist.net##.manga_store-pop-up.popup-background
+myanimelist.net##.navi-seasonal.fixed::after
 myanimelist.net##.news-list > :not(.news):not(.news-unit)
 myanimelist.net##.news-unit:has(:scope .tag-color-feature-advertorial)
 myanimelist.net##.news-unit:has(> .mal-ad-unit:only-child)
+myanimelist.net##.page-common #menu.valentine #menu_left #nav li.valentine
+myanimelist.net##.seasonal-anime-list > article
 myanimelist.net##.social-login-block
+myanimelist.net##.top-ranking-table .ranking-list .score
+myanimelist.net##.top-ranking-table .ranking-list .your-score
+myanimelist.net##.top-ranking-table .table-header .score
+myanimelist.net##.top-ranking-table .table-header .your-score
 myanimelist.net##div[style]:not([class]):not([id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class]):not([id]):has(> div[style]:not([class]):not([id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
