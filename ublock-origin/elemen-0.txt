@@ -236,12 +236,16 @@ bola.net###topbackground3
 bolasport.com###div-Left-WideSkyscraper
 browserleaks.com###nav-pin
 btdb.to##.sponsor
+bukalapak.com##.bl-product-card:has(:scope img[alt="ico-promoted"]):upward(1)
 bukalapak.com##.c-btn:has-text(Bagikan):upward(2)
 bukalapak.com##.c-icon--facebook
 bukalapak.com##.c-icon--line-full
 bukalapak.com##.c-icon--pinterest
 bukalapak.com##.c-icon--twitter
+bukalapak.com##.container-dora-seo:upward(2)
 bukalapak.com##.endorsed-products
+bukalapak.com##.sidebar-scroll-area .ps__rail-x
+bukalapak.com##.sidebar-scroll-area .ps__rail-y
 buzzfeednews.com##.comments-chumbox-wrap
 vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
 
@@ -305,8 +309,11 @@ dewanonton.*##.banner-common
 dewanonton.*##.banner-common:upward(2)
 dewanonton.*##.banner-premium
 dewanonton.*##.dewanonton-section--hero
+dewanonton.*##.dewanonton-section--hero + section:not([class]):not([id]):not([style])
+dewanonton.*##.dewanonton-section--synopsis
 dewanonton.*##.left-banner
 dewanonton.*##.right-banner
+dewanonton.*##.section-title:upward(2)
 dewanonton.*###bookmark-alert
 dewantn.com##.contenido > center
 digg.com##.grid-col-1:has(> #gpt--video_feed)
@@ -835,6 +842,8 @@ ns21.top##.ns-left
 ns21.top##.ns-right
 ns21.top###myModalSingle
 
+olx.co.id##ul[data-aut-id="itemsList"] > li:has(:scope label > span:has-text(Highlight))
+olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"]):not(:last-child)
 opencritic.com##.my-2:has(> app-advertisement)
 opencritic.com##.oc-game-info__experiment-actions
 opencritic.com##.text-center:has(> app-advertisement)
