@@ -337,6 +337,7 @@ dutafilm.*##.notice
 dutafilm.*##.related-mv:has(:scope .cam-color)
 dutafilm.*##.related-mv:has(:scope .camh-color)
 dutafilm.*##.right-content
+dutafilm.*##.search-label
 dutafilm.*##.socmed
 dutafilm.*##.top-banner
 dutafilm.*##.trailer-head
