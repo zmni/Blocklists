@@ -236,7 +236,7 @@ bola.net###topbackground3
 bolasport.com###div-Left-WideSkyscraper
 browserleaks.com###nav-pin
 btdb.to##.sponsor
-bukalapak.com##.bl-product-card:has(:scope img[alt="ico-promoted"]):upward(1)
+bukalapak.com##.bl-product-card:has(:scope img[alt="ico-promoted"][title="Barang iklan"]):upward(1)
 bukalapak.com##.c-btn:has-text(Bagikan):upward(2)
 bukalapak.com##.c-icon--facebook
 bukalapak.com##.c-icon--line-full
