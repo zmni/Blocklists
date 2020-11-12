@@ -318,8 +318,6 @@ dewanonton.*###bookmark-alert:remove()
 dewantn.com##.contenido > center
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
-duckduckgo.com##.result__icon
-duckduckgo.com##.result:has-text(/w3schools/i)
 duckduckgo.com##.showcase
 duckduckgo.com##.social
 duckduckgo.com##img[src^="/t/sl_"]
@@ -367,6 +365,7 @@ epicgames.com##[class^="PurchaseTag-tag_"]
 epicgames.com##s[class^="Price-discount_"]
 erafone.com##.product-item:has(:scope .stock.unavailable)
 eraspace.com##.newsletter
+esn-tt.de###CookieInformations
 ettv.tv##.vp_a
 eyeonanime.tv###sct_head
 certbot.eff.org##.social
@@ -954,6 +953,7 @@ reelgood.com##div:has(> div:only-child > button:has-text(Share))
 reelgood.com##img[alt="Share icon"]
 reuters.com##div[class^="SocialTools__"]
 reviewgeek.com##div[id^="future_"]
+revspin.net###cookie-msg
 riie.net##.sencs:has(> .textwidget > .fb-page)
 riie.net###header
 rizonesoft.com##.adsense-header-responsive
@@ -974,6 +974,7 @@ rottentomatoes.com###quotesList .media > [style].pull-right.hidden-xs
 rottentomatoes.com###rating_widget_desktop
 rottentomatoes.com###showtimes
 rottentomatoes.com###skin_ad
+rottentomatoes.com###social-tools-widget
 rottentomatoes.com###watch-it-now
 ruangotaku.com##.msb
 ruangotaku.com##.post > .wp-post-image

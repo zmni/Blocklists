@@ -10,9 +10,7 @@
 ||hit-log.viva.co.id^$1p
 ||hitlog.viva.co.id^$1p
 ||icons.duckduckgo.com^$1p
-||improving.duckduckgo.com^$1p
 ||jba.tribunnews.com^$1p
-||links.duckduckgo.com^$1p
 ||metrika.lookmovie.ag^$1p
 ||mm.rappler.com^$1p
 ||piwik.everzones.com^$1p
@@ -49,10 +47,6 @@
 ||detik.com^*/dads_preview.css$1p
 ||detik.com^*/dynamite-unmin.$script,1p
 ||dropbox.com/log/$1p
-||duckduckgo.com/assets/icons/thirdparty/$image,1p
-||duckduckgo.com/i.js?$1p
-||duckduckgo.com/m.js$1p
-||duckduckgo.com/share/$1p
 ||dunia21.tv^*/*ads.js$1p
 ||dutafilm.*sw.js$script,1p
 ||expedia.co.uk/api/bucketing/v1/evaluateExperiments$xhr,1p
@@ -60,7 +54,6 @@
 ||expedia.co.uk/api/bucketing/v1/logExperiments$xhr,1p
 ||expedia.co.uk/cl/2x2.json$xhr,1p
 ||expedia.co.uk/pace/promobanners$xhr,1p
-||external-content.duckduckgo.com/ip3/*.ico$image,1p
 ||fandom.com/wikia.php?controller=ArticleComments$1p
 ||filmnonton.com^*/banner/$1p
 ||flixtor.to^*/p.$1p

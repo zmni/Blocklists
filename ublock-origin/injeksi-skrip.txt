@@ -17,6 +17,7 @@
 
 ! add-attr
 ! add-class
+! add-style
 ! click-element-prevnext
 ! open-links-in-newtab
 ! window.scroll
@@ -50,6 +51,7 @@ blogspot.com##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)
 bola.net##+js(remove-attr, data-te-category|data-te-label|data-te-tracked, a[href])
 bola.net##+js(window.open-defuser)
 bicycling.com##+js(remove-attr, target, .new-sidepanel-menu a)
+bing.com##+js(add-style, /translator/, #tt_translatorHome, margin-right:20px;width:auto)
 blacktiesports.net##+js(remove-attr, onclick, body)
 
 centralsport.club##+js(abort-on-property-read, zfgloadedpopup)
@@ -111,6 +113,7 @@ nicoblog.org##+js(abort-on-property-read, ad2games)
 obengplus.com##+js(nobab)
 
 phoronix.com##+js(abort-current-inline-script, window.onload, aax_getad_mpb)
+pingsunday.com##+js(remove-attr, target, .entry-content a)
 play.google.com##+js(remove-attr, jslog, button)
 playbackloop.com##+js(add-class, dark-mode, body)
 polygon.com##+js(abort-current-inline-script, CONCERT_ADS_CONFIG)
@@ -143,6 +146,7 @@ tomshardware.com##+js(abort-on-property-write, _sp_)
 uservideo.xyz##+js(click-elements-onload, .vjs-big-play-button)
 
 venturebeat.com##+js(addEventListener-defuser, scroll, trigger("nearBottom"))
+marketplace.visualstudio.com##+js(remove-attr, target, a)
 
 yesmangasbr.com##+js(set-constant, testDisplay, false)
 ymovies.*##+js(abort-current-inline-script, decodeURIComponent, zfgloadedpopup)

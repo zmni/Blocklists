@@ -205,6 +205,7 @@ crackwatch.com#$#.best-price { font-size: inherit !important; line-height: inher
 crackwatch.com#$#.game-row-price { padding-top: 21px !important; }
 crackwatch.com#$#.game-row-price.padding0 { padding-top: 0 !important; }
 
+dewanonton.*#$#.dropdown-menu { max-height: 300px !important; overflow-y: auto !important; }
 dewanonton.*#$#.navbar.navbar { z-index: unset !important; }
 dewanonton.*#$#.navbar-brand { margin-right: unset !important; }
 dewanonton.*#$#.navbar-dewanonton-v1 .navbar-brand { padding-top: unset !important; padding-bottom: unset !important; }
@@ -214,6 +215,10 @@ dewanonton.*#$#.nav-dewanonton--list.nav-dewanonton--list { margin-top: unset !i
 dewanonton.*#$#.navbar-expand-lg .navbar-nav .dropdown-menu { z-index: 99999 !important; }
 dewanonton.*#$#.black-cover-img { background-color: transparent !important; }
 dewanonton.*#$#.dewanonton-section--video { margin-top: unset !important; }
+dewanonton.*#$#.dewanonton-section--video > .container { position: relative !important; }
+dewanonton.*#$#.dewanonton-section--video--server { position: absolute !important; top: 0 !important; right: 15px !important; opacity: 0 !important; transition: opacity 300ms !important; z-index: -1 !important; }
+dewanonton.*#$#.dewanonton-section--video--main:hover + .dewanonton-section--video--server, .dewanonton-section--video--server:hover { opacity: 1 !important; z-index: 1 !important; }
+dewanonton.*#$#.dewanonton-section--video--server a { white-space: nowrap !important; }
 dutafilm.*#$#body { background-color: #0f0f0f !important; background-image: unset !important; color: #c3c3c3 !important; }
 dutafilm.*#$#.header { position: relative !important; }
 dutafilm.*#$#.no-sub, .sub-parent, .sub { border-color: #000 !important; }
@@ -256,6 +261,7 @@ dutafilm.*#$#.footer-seo h2 { border-bottom-color: #696969 !important; }
 dutafilm.*#$#.footer-2, .footer-copy, .footer-links { color: #696969 !important; }
 dutafilm.*#$#.trailer-content { --vh: 600px; background-color: #0f0f0f !important; box-shadow: 0 0 15px #0f0f0f !important; width: calc(var(--vh) * 16 / 9) !important; }
 dutafilm.*#$#.yt-vid { height: var(--vh) !important; }
+dutafilm.*#$#.search-results #results { background-color: #0f0f0f !important; }
 
 fandom.com#$#.wds-community-header { width: calc(95% + 40px) !important; }
 fandom.com#$#.WikiaPage { border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
@@ -472,6 +478,7 @@ outline.com#$#.yue pre { border-width: 0 0 0 1px !important; }
 outline.com#$#.branding img { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
 
 pcmag.com#$##adkit_billboard { min-height: 90px !important; }
+pingsunday.com#$#body, div { -webkit-user-select: unset !important; user-select: unset !important; }
 playbackloop.com#$#.playlist-item .published_at { font-size: .75rem !important; }
 playbackloop.com#$#.playlist-item .title { font-size: .875rem !important; }
 playbackloop.com#$##playlist-player #now-playing { flex-basis: calc(100% - 380px) !important; max-width: calc(100% - 380px) !important; }
