@@ -63,6 +63,7 @@
 ||readthedocs.org/sustainability/view/$image
 ||s0.wp.com/*/plugins/ajax-comment-loading^
 ||streamplay.to/*zoneid=
+||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
 ||twitter.com/i/jot$xhr
 ||vidio.com/watch/*/track$xhr

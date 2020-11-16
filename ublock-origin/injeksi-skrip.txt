@@ -56,6 +56,7 @@ blacktiesports.net##+js(remove-attr, onclick, body)
 
 centralsport.club##+js(abort-on-property-read, zfgloadedpopup)
 cnnindonesia.com##+js(abort-current-inline-script, shareBox.run)
+crowdin.com##+js(remove-attr, target, #notification-panel a)
 
 devdocs.io##+js(set-cookie, analyticsConsent=0)
 devdocs.io##+js(set-cookie, analyticsConsentAsked=1)

@@ -199,6 +199,11 @@ bing.com###t_cookieInfo
 bisnis.com##.banner
 bisnis.com##.share
 bisnis.com##.sticky-wrapper:has(> .share)
+businessinsider.com##.dianomi_context
+businessinsider.com##.share-post-button
+businessinsider.com##.share-post-button:upward(3)
+businessinsider.com##span[id^="cposition_"]
+businessinsider.com##span[id^="fecnt_"]
 bitly.com##.banner-spacer
 blanja.com##.deals-product .discount
 blanja.com##.deals-product .discount ~ strike
@@ -403,6 +408,7 @@ flixtor.to##li.nav-item.vipmenu
 fmovies.*##.alert
 fmovies.*##.filmlist .item .meta .type
 fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*##.filters > .clearfix
 fmovies.*##.nav
 fmovies.*##.notification
 fmovies.*##.rating
@@ -1116,6 +1122,13 @@ store.steampowered.com##.discount_block .bundle_base_discount
 store.steampowered.com##.discount_block .discount_original_price
 store.steampowered.com##.discount_block .discount_pct
 
+tabletennis-reference.com###register
+tabletennisdaily.com###adsw
+tabletennisdaily.com###bop5msotng
+tabletennisdaily.com###header > div:not(:has(:scope img.ttx))
+tabletennisdaily.com###notices
+tabletennisdaily.com###stsw
+tabletennisdaily.com##img[src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
 tagpacker.com##.consent
 tagpacker.com##consent
 techcrunch.com##.article__related-links

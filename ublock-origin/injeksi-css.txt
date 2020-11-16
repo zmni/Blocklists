@@ -314,6 +314,9 @@ flixtor.to#$#div[class^="contentList"] > .row { padding-right: 9px !important; p
 flixtor.to#$#div[class^="contentList"] > .justify-content-around { justify-content: flex-start !important; }
 flixtor.to#$#div[class^="contentList"] > .justify-content-around > .py-2 { margin: 0 5px !important; }
 fmovies.*#$#body.list #body > .container { margin-top: unset !important; }
+fmovies.*#$#.filters { display: flex !important; justify-content: space-between !important; margin-bottom: 20px !important; padding-bottom: unset !important; position: static !important; }
+fmovies.*#$#.filters .filter { flex-basis: calc(100% / 8 - 10px) !important; margin-bottom: unset !important; margin-right: unset !important; }
+fmovies.*#$#.filters .filter button { width: 100% !important; }
 fmovies.*#$#.filmlist > .item { width: calc(100% / 7 - 1%) !important; }
 fmovies.*#$##watch { --vw: 1000px !important; }
 fmovies.*#$##watch .play { background-color: #000 !important; background-image: unset !important; }
@@ -702,6 +705,8 @@ tvzion.club#$#a.uploads { border-top-color: #3c3c3c !important; color: #c3c3c3 !
 tvzion.club#$#.mark, mark { background-color: #3c3c3c !important; color: #c3c3c3 !important; }
 twitter.com#$#aside[aria-label="Mulai pesan baru"] [style^="max-height:"] { max-height: none !important; }
 
+userstyles.org#$##notes_textarea { max-height: unset !important; overflow-y: auto !important; }
+userstyles.org#$##stylish-code { font-family: monospace !important; }
 uservideo.xyz,uservideo.nanime.in#$#html, body, #topddl_player { width: 100% !important; height: 100% !important; }
 uservideo.xyz,uservideo.nanime.in#$##topddl_player { position: absolute !important; top: 0 !important; }
 
