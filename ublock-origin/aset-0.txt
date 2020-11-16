@@ -59,6 +59,7 @@
 ||kotakputih.casa/images/*.gif$image
 ||naniplay.com/asset/barr.js
 ||newshub.id^*/pixel.$script
+||ooakforum.com/pics/*banner*.jpg$image
 ||ok.ru/dk?cmd=videoStat$xhr
 ||readthedocs.org/sustainability/view/$image
 ||s0.wp.com/*/plugins/ajax-comment-loading^

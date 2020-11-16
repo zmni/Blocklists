@@ -862,6 +862,8 @@ ns21.top##.ns-left
 ns21.top##.ns-right
 ns21.top###myModalSingle
 
+ooakforum.com###pagecontent > table:has(:scope a[onclick*="countAdClick"])
+ooakforum.com##body > p:has(> a[onclick*="countAdClick"])
 olx.co.id##ul[data-aut-id="itemsList"] > li:has(:scope label > span:has-text(Highlight))
 olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"]):not(:last-child)
 opencritic.com##.my-2:has(> app-advertisement)
@@ -959,7 +961,14 @@ reelgood.com##div:has(> div:only-child > button:has-text(Share))
 reelgood.com##img[alt="Share icon"]
 reuters.com##div[class^="SocialTools__"]
 reviewgeek.com##div[id^="future_"]
+revspin.net##.blink_container_side
+revspin.net##.category-page-buttons
+revspin.net##.product-page-buttons-left
 revspin.net###cookie-msg
+revspin.net###product_detail_desc > .desc_expand_link_container
+revspin.net###product_detail_desc > .whiteout
+revspin.net###reviews_container ~ *
+revspin.net###rightPane
 riie.net##.sencs:has(> .textwidget > .fb-page)
 riie.net###header
 rizonesoft.com##.adsense-header-responsive

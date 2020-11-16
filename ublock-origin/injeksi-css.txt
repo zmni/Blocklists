@@ -519,6 +519,16 @@ reddit.com#$#button[id^="subscribe-button-"] > svg { height: 10px !important; wi
 reddit.com#$#.res-nightmode body .content { border-right-color: gray !important; }
 reddit.com#$#.res-media-independent.res-media-independent { position: relative !important; }
 reddit.com#$#.res-image-media.res-image-media { max-width: 100% !important; }
+revspin.net#$#.animated { animation: unset !important; }
+revspin.net#$#.dropdown:not(.open):hover > .dropdown-menu { display: block !important; }
+revspin.net#$#.pagination { display: flex !important; text-align: center !important; }
+revspin.net#$#.pagination > li { flex-grow: 1 !important; }
+revspin.net#$#.pagination > li > a, .pagination > li > span { display: block !important; float: unset !important; }
+revspin.net#$##bodyContent, table.top_product_list { width: 100% !important; }
+revspin.net#$##product_detail_desc { max-height: unset !important; padding: unset !important; }
+revspin.net#$#div.dbcat, table.specscompare { max-width: unset !important; }
+revspin.net#$#table.top_product_list tr.head td.rank { width: 40px !important; }
+revspin.net#$#table.top_product_list tr.head td + td + td { width: 70px !important; }
 rclone.org#$#.pre-scrollable { max-height: calc(100vh - 55px) !important; overflow-y: auto !important; }
 regextester.com#$#body { padding-right: 15px !important; padding-left: 15px !important; }
 riie.net#$#.aduh { max-height: none !important; }
