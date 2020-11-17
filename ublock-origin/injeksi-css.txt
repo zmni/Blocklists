@@ -525,7 +525,7 @@ revspin.net#$#.pagination { display: flex !important; text-align: center !import
 revspin.net#$#.pagination > li { flex-grow: 1 !important; }
 revspin.net#$#.pagination > li > a, .pagination > li > span { display: block !important; float: unset !important; }
 revspin.net#$##bodyContent, table.top_product_list { width: 100% !important; }
-revspin.net#$##product_detail_desc { max-height: unset !important; margin-top: 1rem !important; padding: unset !important; }
+revspin.net#$##product_detail_desc { max-height: unset !important; margin-top: 2rem !important; padding: unset !important; }
 revspin.net#$#div.dbcat, table.specscompare { max-width: unset !important; }
 revspin.net#$#table.top_product_list tr.head td.rank { width: 40px !important; }
 revspin.net#$#table.top_product_list tr.head td + td + td { width: 70px !important; }
