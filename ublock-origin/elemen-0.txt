@@ -862,8 +862,8 @@ ns21.top##.ns-left
 ns21.top##.ns-right
 ns21.top###myModalSingle
 
-ooakforum.com###pagecontent > table:has(:scope a[onclick*="countAdClick"])
-ooakforum.com##body > p:has(> a[onclick*="countAdClick"])
+ooakforum.com##p[align=center]:has(> a[onclick*="countAdClick"])
+ooakforum.com##table:has(> tbody > tr > td > p > a[onclick*="countAdClick"])
 olx.co.id##ul[data-aut-id="itemsList"] > li:has(:scope label > span:has-text(Highlight))
 olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"]):not(:last-child)
 opencritic.com##.my-2:has(> app-advertisement)
