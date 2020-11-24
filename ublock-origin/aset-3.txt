@@ -27,6 +27,10 @@
 ||spot.im^$3p
 ||thawte.com^$3p
 ||umami.is^$3p
+||smartsupp.com^$3p
+||smartsuppcdn.com^$3p
+||smartsuppchat.com^$3p
+||report.fkw.com^$3p
 
 ! SPESIFIK
 
@@ -44,6 +48,7 @@
 ||static6.com/assets/ahoy-$script,3p
 ||telemetryservice.firstpartyapps.oaspapps.com^$3p
 ||topddl.net/images/*.gif$image,3p
+||translate.google.com/translate_a/element.js?$3p
 ||vimeocdn.com^*/player-stats$3p
 ||vox-cdn.com/ad-whitelist-html/$3p
 ||w.org/images/core/emoji/$image,3p

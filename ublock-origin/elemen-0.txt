@@ -26,6 +26,7 @@
 5movies.to##.ml-data-rate
 5movies.to##.sidebar
 5movies.to###vote
+729sports.com##.webBannerTable
 9anime.*##.alert
 9anime.*##.anime-list > li:has(:scope .dub)
 9anime.*##.anime-list > li:has(:scope .preview)
@@ -249,10 +250,13 @@ bukalapak.com##.c-icon--pinterest
 bukalapak.com##.c-icon--twitter
 bukalapak.com##.container-dora-seo:upward(2)
 bukalapak.com##.endorsed-products
+bukalapak.com##.related-keywords
 bukalapak.com##.sidebar-scroll-area .ps__rail-x
 bukalapak.com##.sidebar-scroll-area .ps__rail-y
 buzzfeednews.com##.comments-chumbox-wrap
 vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
+shop.butterflyonline.com##.product-details-full-social-sharing
+shop.butterflyonline.com##.facets-item-cell-grid-rating
 
 cermati.com##.ads-container
 cermati.com##.sticky-banner
@@ -321,6 +325,8 @@ dewanonton.*##.right-banner
 dewanonton.*##.section-title:upward(2)
 dewanonton.*###bookmark-alert:remove()
 dewantn.com##.contenido > center
+dhs-sports.com##.column_banner
+dhs-sports.com##.products_list > a
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
 duckduckgo.com##.showcase
@@ -1020,16 +1026,22 @@ shopee.*##._1dtGRy
 shopee.*##._3_ISdg
 shopee.*##._3n5NQx + .MITExd
 shopee.*##.BAzb8V
+shopee.*##.curated-collections
 shopee.*##.flash-sale-item-card__original-price
 shopee.*##.flash-sale-item-card--sold-out
+shopee.*##.header-with-search__search-section > .shopee-searchbar + div
 shopee.*##.item-card-special__discount-label
 shopee.*##.item-card-special__original-price
 shopee.*##.QbH7Ig
+shopee.*##.shopee-recommend-search
 shopee.*##.shopee-search-item-result__item:has-text(/iklan/i)
 shopee.*##.shopee-search-item-result__item:has(:scope .shopee-badge--soldout)
 shopee.*##.shopee-search-item-result__item:has(:scope .shopee-item-card__ad:has-text(Iklan))
 shopee.*##.shopee-search-item-result__item:has(:scope [data-sqe="ad"])
+shopee.*##.sprite-product-sharing
+shopee.*##.sprite-product-sharing:upward(1)
 shopee.*##div:has(> .shopee-badge--promotion)
+shopee.*##footer[role="contentinfo"] > div:not(:last-child)
 simkl.com##.addthis_button_expanded_simkl
 simkl.com##.footerAdsCenter
 simkl.com##.SimklTVAboutBlockStream
@@ -1211,7 +1223,10 @@ tokopedia.com##.shop-official__share
 tokopedia.com##.socialholder-container
 tokopedia.com##.socialholder-label
 tokopedia.com##[class$="-unf-share"]
+tokopedia.com###shopseo
 tokopedia.com###trending-popular-keywords
+tokopedia.com##div[data-ssr^="bannerCategory"]
+tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div:first-child
 tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item

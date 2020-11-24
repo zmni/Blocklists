@@ -7,6 +7,7 @@
 /app-comments-
 /cast_sender.js$script,3p
 /embed/comments/*
+/js/report?$script
 /provider.cast.js$script
 /wp-emoji.js$script
 

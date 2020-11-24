@@ -183,9 +183,12 @@ browserleaks.com#$#body:not(.pinned) #nav-menu { width: 200px !important; }
 btdb.to#$#.content { padding-left: calc(10% + 132px) !important; }
 btdb.to#$#.highlight { color: #5c97f1 !important; }
 btdb.to#$#.toolbar { padding-left: calc(10% + 140px) !important; }
+bukalapak.com#$#body.has-fixed-header--white-header { padding-top: unset !important; }
+bukalapak.com#$#.sigil .sigil-header { position: static !important; }
 bukalapak.com#$#.dora .bl-sidebar-filter.bl-sidebar-filter { overflow: hidden !important; position: static !important; }
 bukalapak.com#$#.dora .sidebar-scroll-area.sidebar-scroll-area { height: auto !important; }
 bukalapak.com#$#.c-download-app__link-placeholder { background-color: transparent !important; }
+bukalapak.com#$#.spica .revamp-product-etalase-body { max-height: unset !important; }
 
 clippituser.tv#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
 clippituser.tv#$#body header { background-color: transparent !important; }
@@ -219,6 +222,11 @@ dewanonton.*#$#.dewanonton-section--video > .container { position: relative !imp
 dewanonton.*#$#.dewanonton-section--video--server { position: absolute !important; top: 0 !important; right: 15px !important; opacity: 0 !important; transition: opacity 300ms !important; z-index: -1 !important; }
 dewanonton.*#$#.dewanonton-section--video--main:hover + .dewanonton-section--video--server, .dewanonton-section--video--server:hover { opacity: 1 !important; z-index: 1 !important; }
 dewanonton.*#$#.dewanonton-section--video--server a { white-space: nowrap !important; }
+dhs-sports.com#$#.pageing { display: block !important; }
+dhs-sports.com#$#.products_list li { display: list-item !important; }
+duckduckgo.com#$#.result a.result__a, .result a.result__a:hover, .result a.result__a:active, .result a.badge--ad, .result a.badge--ad:hover, .result a.badge--ad:focus, .sitelinks__title a.result__a, .sitelinks__title a.result__a:hover, .sitelinks__title a.result__a:active, .msg__all, .msg__all:visited, .msg__all:hover, .msg__clear, .msg__clear:active, .msg__clear:hover, .msg__clear:visited, .msg--spelling :link, .msg--spelling a:visited, .msg--spelling a:hover, .module__link, .module__link:hover, .module__link:focus, .module__link:active, .module__link a, .module__link a:hover, .module__link a:focus, .module__link a:active, .module--carousel__body__title, .module--carousel__body__title:active, .module--carousel__body__title:hover, .module--carousel__more, .module--carousel__more:active, .module--carousel__more:hover, .no-results__link, .no-results__link:visited, .no-results__link:active, .no-results__link:hover, .about-info-box__link-row__link:hover, .about-info-box__link-row__link:active { color: #efefef !important; }
+duckduckgo.com#$#.result__url, .result__url:visited, .result__url:active, .result__url:hover, .result__url:focus, .result__url:visited:focus, .result--ad .result__url, .result--ad .result__url:hover, .result--ad .result__url:active, .result--ad .result__url:visited { color: #c0c0c0 !important; }
+duckduckgo.com#$#.result__snippet, .result__snippet b, .result__snippet .sponsored__sitelink__comma { color: #808080 !important; }
 dutafilm.*#$#body { background-color: #0f0f0f !important; background-image: unset !important; color: #c3c3c3 !important; }
 dutafilm.*#$#.header { position: relative !important; }
 dutafilm.*#$#.no-sub, .sub-parent, .sub { border-color: #000 !important; }
@@ -581,7 +589,13 @@ rottentomatoes.com#$#.header_main_scroll { margin-top: 0 !important; }
 ruangotaku.com#$##breadcrumbs, #breadcrumbs a { color: #f5f5f5 !important; }
 ruangotaku.com#$#body.custom-background { background-image: none !important; }
 
+shopee.*#$#.header-with-search { height: auto !important; }
+shopee.*#$#.header-with-search__logo-section { top: -.20312rem !important; }
+shopee.*#$#.header-with-search__cart-wrapper { align-items: unset !important; }
+shopee.*#$#.cart-drawer-container { padding: 7px 0 !important; }
 shopee.*#$#.select-with-status__dropdown { top: 100% !important; }
+shopee.*#$#.shop-search-page__breadcrumb-link { display: inline-block !important; }
+shopee.*#$#.wH-5XH { background-color: #dfdfdf !important; }
 spacemov.cc#$#header { position: static !important; }
 spacemov.cc#$##search { width: 250px !important; }
 spacemov.cc#$#.page-detail { padding-top: 0 !important; }
@@ -648,6 +662,8 @@ tempo.co#$#.container > main { padding-top: unset !important; }
 tempo.co#$#html { margin-top: 45px !important; }
 themoviedb.org#$#main { min-width: 100% !important; }
 theverge.com#$#.l-header + .l-wrapper, .l-header + span[data-content-admin-id] + .l-wrapper, .l-header + style + .l-wrapper { margin-top: 0 !important; }
+tokopedia.com#$##zeus-header { margin-top: unset !important; }
+tokopedia.com#$##header-main-wrapper, #header-main-wrapper > div:nth-child(-n+3) { position: static !important; }
 torrentz.*#$#* { border-radius: unset !important; }
 torrentz.*#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
 torrentz.*#$#body a { color: #08c !important; }
