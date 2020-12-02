@@ -263,6 +263,7 @@ dutafilm.*#$#.vid-details .divider { background: #696969 !important; }
 dutafilm.*#$#.vid-episodes { background: #1e1e1e !important; }
 dutafilm.*#$#.vid-episodes-content { text-align: center !important; }
 dutafilm.*#$#.episode { background: #2d2d2d !important; border-radius: unset !important; color: #c3c3c3 !important; }
+dutafilm.*#$#.episode.active, .episode:hover { background-color: #4b4b4b !important; }
 dutafilm.*#$#.footer { background: #1e1e1e !important; }
 dutafilm.*#$#.footer-seo { color: #878787 !important; }
 dutafilm.*#$#.footer-seo h2 { border-bottom-color: #696969 !important; }
@@ -270,6 +271,8 @@ dutafilm.*#$#.footer-2, .footer-copy, .footer-links { color: #696969 !important;
 dutafilm.*#$#.trailer-content { --vh: 600px; background-color: #0f0f0f !important; box-shadow: 0 0 15px #0f0f0f !important; width: calc(var(--vh) * 16 / 9) !important; }
 dutafilm.*#$#.yt-vid { height: var(--vh) !important; }
 dutafilm.*#$#.search-results #results { background-color: #0f0f0f !important; }
+
+eacheng.net#$##header_box.posFixed .header { position: static !important; }
 
 fandom.com#$#.wds-community-header { width: calc(95% + 40px) !important; }
 fandom.com#$#.WikiaPage { border: 0 !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
@@ -658,12 +661,14 @@ isc.sans.edu#$##content > .wrapper { margin-right: unset !important }
 isc.sans.edu#$##chart > .highcharts-container > svg { width: 100% !important; }
 
 tabletennisdaily.com#$#.highlight { background-color: transparent !important; }
+teessport.com#$#.gauge_container { overflow: hidden !important; }
 tempo.co#$#.container > main { padding-top: unset !important; }
 tempo.co#$#html { margin-top: 45px !important; }
 themoviedb.org#$#main { min-width: 100% !important; }
 theverge.com#$#.l-header + .l-wrapper, .l-header + span[data-content-admin-id] + .l-wrapper, .l-header + style + .l-wrapper { margin-top: 0 !important; }
 tokopedia.com#$##zeus-header { margin-top: unset !important; }
 tokopedia.com#$##header-main-wrapper, #header-main-wrapper > div:nth-child(-n+3) { position: static !important; }
+tokopedia.com#$#div[data-testid="navPDPContainer"] { top: 0 !important; transform: translateY(10px) !important; }
 torrentz.*#$#* { border-radius: unset !important; }
 torrentz.*#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
 torrentz.*#$#body a { color: #08c !important; }

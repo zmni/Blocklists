@@ -329,6 +329,7 @@ dhs-sports.com##.column_banner
 dhs-sports.com##.products_list > a
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
+duckduckgo.com##.related-searches
 duckduckgo.com##.showcase
 duckduckgo.com##.social
 duckduckgo.com##img[src^="/t/sl_"]
@@ -696,6 +697,7 @@ mashable.com##div[class$="-boost-slot"]
 mashable.com##footer:has(> .article-shares-links)
 maslosoft.com##.awe-share
 maslosoft.com##.social-sharing-share-block
+megaspin.net##.product-card:has(> .outofstock-lighten)
 meowstream.com##.site-branding
 metacritic.com##.sharing
 mmorpg.com##div[style]:not([class]):not([id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
@@ -1033,6 +1035,7 @@ shopee.*##.header-with-search__search-section > .shopee-searchbar + div
 shopee.*##.item-card-special__discount-label
 shopee.*##.item-card-special__original-price
 shopee.*##.QbH7Ig
+shopee.*##.shop-page__products-info > .shop-decoration
 shopee.*##.shopee-recommend-search
 shopee.*##.shopee-search-item-result__item:has-text(/iklan/i)
 shopee.*##.shopee-search-item-result__item:has(:scope .shopee-badge--soldout)
@@ -1146,6 +1149,7 @@ store.steampowered.com##.discount_block .discount_pct
 tabletennis-reference.com###register
 tabletennisdaily.com###adsw
 tabletennisdaily.com###bop5msotng
+tabletennisdaily.com###header
 tabletennisdaily.com###header > div:not(:has(:scope img.ttx))
 tabletennisdaily.com###notices
 tabletennisdaily.com###stsw

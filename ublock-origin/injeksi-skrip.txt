@@ -23,7 +23,6 @@
 ! window.scroll
 
 720pstream.me##+js(abort-on-property-read, zfgloadedpopup)
-729sports.com##+js(remove-attr, target, .productList a)
 9anime.*##+js(abort-on-property-read, zfgloadedpopup)
 9anime.*##+js(window.open-defuser)
 9animes.net##+js(abort-on-property-write, _0xb36c)
