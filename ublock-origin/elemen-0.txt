@@ -787,7 +787,6 @@ n21.tv,nontonserial.tv###fbawah
 n21.tv##[id^="previewBox"]
 nanime.*##.banner
 nanime.*##.box-body:has(> .iklan)
-nanime.*##.content-item:has(> .post-title:has-text(Live Action))
 nanime.*##.iklan-header-item
 nanime.*##img[alt="BandarQ"]
 nanime.*##img[title="EnjoyQQ"]
