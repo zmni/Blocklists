@@ -70,6 +70,7 @@ play.google.com#@#a[title="Instagram"]
 play.google.com#@#a[title="YouTube"]
 reddit.com#@#._3RPJ8hHnfFohktLZca18J6
 stanza.co#@#.subscribe-container
+teddit.net#@#.comments
 trakt.tv#@#.sharing
 transifex.com#@#.facebook.icon
 transifex.com#@#.twitter.icon
