@@ -606,7 +606,7 @@ speedtest.net#$#.pure-u-custom-speedtest { margin: auto !important; }
 speedtest.net#$#.top-placeholder { min-height: 0 !important; }
 spin.com#$##menu.social-hide { top: 0 !important; }
 stackoverflow.com#$#pre { max-height: none !important; }
-streamable.com#$#html, body { background-color: #0f0f0f !important; }
+streamable.com#$#html, body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
 streamable.com#$##player.container { display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: unset !important; }
 streamable.com#$##player.container .content { background-color: transparent !important; min-height: unset !important; }
 streamable.com#$##player.container .content { max-width: none !important; }
