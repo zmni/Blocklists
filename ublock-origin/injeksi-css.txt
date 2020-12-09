@@ -657,6 +657,8 @@ swatchseries.to#$##header { margin-top: 0 !important; }
 embed.streamx.*#$#body { background-color: #000 !important; color: #c3c3c3 !important; }
 isc.sans.edu#$##content > .wrapper { margin-right: unset !important }
 isc.sans.edu#$##chart > .highcharts-container > svg { width: 100% !important; }
+store.steampowered.com#$#.game_purchase_discount .discount_prices { display: flex !important; flex-direction: column !important; justify-content: center !important; }
+store.steampowered.com#$#.game_purchase_discount .discount_final_price { padding-top: unset !important; }
 
 tabletennisdaily.com#$#.highlight { background-color: transparent !important; }
 teessport.com#$#.gauge_container { overflow: hidden !important; }
