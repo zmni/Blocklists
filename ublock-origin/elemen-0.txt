@@ -375,6 +375,8 @@ endless-space.com##div[id^="cookies-policy-"]
 epicgames.com##.SocialBar
 epicgames.com##[class^="PurchaseTag-tag_"]
 epicgames.com##s[class^="Price-discount_"]
+epicgames.com##s[class$="-Price__discount"]
+epicgames.com##span[data-component="DiscountAmount"]
 erafone.com##.product-item:has(:scope .stock.unavailable)
 eraspace.com##.newsletter
 esn-tt.de###CookieInformations
