@@ -92,7 +92,7 @@ anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
 anime-planet.com##p[itemprop="description"]
 anime8.ru##.alert
 anime8.ru##.footer-tags
-anime8.ru##.movies-list > .ml-item:has(:scope .mli-info > h2:has-text((Dub)))
+anime8.ru##.movies-list > .ml-item:has(:scope .mli-info:has-text((Dub)))
 anime8.ru##.movies-list-wrap .ml-title + p.full
 anime8.ru##.mv-rating
 anime8.ru##.mvic-btn
@@ -140,7 +140,7 @@ animeku.tv##.ads
 animeku.tv##.adsgen
 animeku.tv##.adspost1
 animeku.tv##.adspost2
-animeku.tv##.bottomtitle+div[style]
+animeku.tv##.bottomtitle + div[style]
 animeku.tv##.videoad
 animeku.tv##.videoads
 animeku.tv###mg-player-bar
