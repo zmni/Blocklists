@@ -10,6 +10,7 @@
 /js/report?$script
 /provider.cast.js$script
 /wp-emoji.js$script
+utm_$doc,xhr,queryprune=|utm_
 
 ! SEMUA
 
@@ -54,6 +55,7 @@
 
 ||animecdn.xyz/js/ads.js$script,important
 ||gfycat.com^*/shar$image,important
+||humblebundle.com^*hmb_$queryprune=|hmb_
 ||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
