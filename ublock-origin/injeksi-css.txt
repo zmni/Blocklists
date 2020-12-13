@@ -361,6 +361,10 @@ gogoanime.*#$#.anime_video_body_watch { margin-top: unset !important; }
 gogoanime.*#$#.anime_muti_link ul { margin-top: 10px !important; padding-top: 10px !important; }
 gogoanime.*#$#ul#episode_page { display: flex !important; justify-content: center !important; clear: both !important; float: none !important; text-align: center !important; }
 gogoanime.*#$#ul#episode_page li { float: none !important; padding: 0 10px !important; }
+gogoanime.*#$#footer { display: flex !important; align-items: center !important; }
+gogoanime.*#$#footer > .menu_bottom { float: none !important; padding: 0 !important; }
+gogoanime.*#$#footer > .croll { float: none !important; margin-left: auto !important; padding: unset !important; width: auto !important; }
+gogoanime.*#$#.icongec-backtop { height: 35px !important; width: 35px !important; filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
 greasyfork.org#$#.prettyprint { max-height: none !important; }
 greasyfork.org#$##code-container { max-height: none !important; }
 gist.github.com#$#.gist-banner.gist-detail-intro { background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 30%, var(--color-bg-tertiary)), linear-gradient(70deg, var(--color-bg-secondary) 32%, var(--color-bg-primary)) !important; }
