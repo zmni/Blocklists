@@ -58,6 +58,7 @@
 ! DOMAIN
 
 ||akm-static.ccmbg.com^$domain=ccm.net
+||alicdn.com^$all,domain=~aliexpress.*
 ||animeindo.*/wp-content/uploads/$script,domain=animeindo.*
 ||api.wikia.nocookie.net/*/wikia.php?controller=AdEngine$script,domain=fandom.com
 ||cdn1muvix.xyz/cdn/down/*.jpg$xhr,domain=muvix.xyz
@@ -75,6 +76,7 @@
 ||rnkr-static.com^*/dist/setReferrer-$script,domain=ranker.com
 ||rutrk.org/240x800/$domain=rutracker.org
 ||rutrk.org/logo/$domain=rutracker.org
+||rutrk.org^$frame,domain=rutracker.org
 ||speed.nocookie.net^$domain=fandom.com
 ||stats.protonmail.ch^$domain=protonmail.*|protonvpn.com
 ||viva.id^*/share.js$script,domain=viva.co.id

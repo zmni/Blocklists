@@ -1003,9 +1003,11 @@ rottentomatoes.com###watch-it-now
 ruangotaku.com##.msb
 ruangotaku.com##.post > .wp-post-image
 rutracker.org##.bn-idx
+rutracker.org##.products.ext-links
 rutracker.org###bn-mg-bottom
 rutracker.org###logo
 rutracker.org###page_footer > div[style]:first-child:has(:scope #bn-mg-bottom)
+rutracker.org##a[href$="/?from=rutracker"]
 
 salon.com##.outer-ad-unit-wrapper
 sandai.me###in-video-ad-center
