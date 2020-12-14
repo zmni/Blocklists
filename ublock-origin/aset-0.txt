@@ -70,6 +70,7 @@ utm_$doc,xhr,queryprune=|utm_
 ||streamplay.to/*zoneid=
 ||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
+||tokopedia.com^*navsource$doc,xhr,queryprune=|navsource
 ||twitter.com/i/jot$xhr
 ||vidio.com/watch/*/track$xhr
 ||vidoza.net^*/videojs.

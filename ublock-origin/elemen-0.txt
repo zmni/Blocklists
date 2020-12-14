@@ -857,7 +857,7 @@ nontonplus.com##.tvseason .les-content a:hover::before
 nontonplus.com###bar-player
 nontonplus.com###bread
 nontonplus.com###mv-keywords
-noxx.to##.icon-bar
+noxx.*##.icon-bar
 ns21.club##.breadcrumbs
 ns21.club##.post~*:not(.wrapper-jw):not(.server-list)
 ns21.club##.server-list > h3
