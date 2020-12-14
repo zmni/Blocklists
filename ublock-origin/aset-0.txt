@@ -10,7 +10,8 @@
 /js/report?$script
 /provider.cast.js$script
 /wp-emoji.js$script
-utm_$doc,xhr,queryprune=|utm_
+
+utm_$doc,xhr,queryprune=|utm_,domain=~google.*
 
 ! SEMUA
 
