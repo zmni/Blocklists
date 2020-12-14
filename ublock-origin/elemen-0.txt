@@ -1233,7 +1233,10 @@ tokopedia.com##[class$="-unf-share"]
 tokopedia.com###shopseo
 tokopedia.com###trending-popular-keywords
 tokopedia.com##div[data-ssr^="bannerCategory"]
-tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div:first-child
+tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:first-child
+tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:has(> div[class^="css-"]:has-text(Sedang Tren))
+tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[class^="css-"] > div[class^="css-"] > div[class^="css-"] > img[src][alt~="topads"]):upward(2)
+tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card:has-text(Preorder)):upward(2)
 tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item
