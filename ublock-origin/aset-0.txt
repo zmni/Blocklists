@@ -11,7 +11,7 @@
 /provider.cast.js$script
 /wp-emoji.js$script
 
-utm_$doc,xhr,queryprune=|utm_,domain=~google.*
+utm_$doc,xhr,queryprune=|utm_
 
 ! SEMUA
 
