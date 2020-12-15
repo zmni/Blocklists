@@ -159,10 +159,8 @@ open-links-in-newtab.js application/javascript
         try {
             var nodes = document.querySelectorAll(selector);
             for (var node of nodes) {
-                if (node.href.indexOf(location.hostname) === -1 &&
-                    node.hasAttribute("target") === false) {
-                        node.setAttribute("target", "_blank");
-                }
+                if (node.href.indexOf(location.hostname) === -1 {
+                    node.setAttribute("target", "_blank");
             }
         } catch (ex) {}
     };
