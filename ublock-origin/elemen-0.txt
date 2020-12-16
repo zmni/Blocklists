@@ -1390,6 +1390,7 @@ ymovies.*###banner_publi
 ymovies.*###err2019
 ymovies.*###topplayer
 ymovies.*##div[itemprop="video"] > div:not(#page_effect)
+youtube.com##.ytp-ce-element.ytp-ce-video
 youtube.com###alert-banner
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
