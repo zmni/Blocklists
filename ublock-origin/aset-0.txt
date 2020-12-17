@@ -11,8 +11,6 @@
 /provider.cast.js$script
 /wp-emoji.js$script
 
-utm_$doc,xhr,queryprune=|utm_
-
 ! SEMUA
 
 ||188bongda.com^$all
@@ -56,7 +54,6 @@ utm_$doc,xhr,queryprune=|utm_
 
 ||animecdn.xyz/js/ads.js$script,important
 ||gfycat.com^*/shar$image,important
-||humblebundle.com^*hmb_$queryprune=|hmb_
 ||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
@@ -71,10 +68,17 @@ utm_$doc,xhr,queryprune=|utm_
 ||streamplay.to/*zoneid=
 ||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
-||tokopedia.com^*navsource$doc,xhr,queryprune=|navsource
 ||twitter.com/i/jot$xhr
 ||vidio.com/watch/*/track$xhr
 ||vidoza.net^*/videojs.
 ||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
 ||youtube.com/youtubei/v1/log_event?$xhr
+
+! KUERI PRUNE
+
+utm_$doc,xhr,queryprune=|utm_
+
+||humblebundle.com^*hmb_$doc,xhr,queryprune=|hmb_
+||tokopedia.com^*navsource$doc,xhr,queryprune=|navsource
+||youtube.com^*feature$doc,queryprune=|feature
