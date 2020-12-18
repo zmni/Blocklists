@@ -28,10 +28,10 @@
 5movies.to###vote
 729sports.com##.webBannerTable
 9anime.*##.alert
-9anime.*##.anime-list > li:has(:scope .dub)
-9anime.*##.anime-list > li:has(:scope .preview)
-9anime.*##.anime-list > li:has(:scope .special)
-9anime.*##.anime-list > li:has(:scope .tag.ep:has-text(Preview))
+9anime.*##.anime-list > li:has(> a > .dub)
+9anime.*##.anime-list > li:has(> a > .preview)
+9anime.*##.anime-list > li:has(> a > .special)
+9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
 9anime.*##.tabs > [data-name="updated_dub"]
 9anime.*##section#info .tags
 9animes.net##.single-post .entry-content ~ div:not(.clear)
