@@ -79,6 +79,25 @@
 
 utm_$doc,xhr,queryprune=|utm_
 
+||amazon.*ac_$queryprune=|ac_
+||amazon.*cv_$queryprune=|cv_
+||amazon.*dchild$queryprune=|dchild
+||amazon.*keywords$queryprune=|keywords
+||amazon.*language$queryprune=|language
+||amazon.*linkCode$queryprune=|linkCode
+||amazon.*linkId$queryprune=|linkId
+||amazon.*pd_rd_$queryprune=|pd_rd_
+||amazon.*pf_rd_$queryprune=|pf_rd_
+||amazon.*psc$queryprune=|psc
+||amazon.*qid$queryprune=|qid
+||amazon.*ref$queryprune=|ref
+||amazon.*sr$queryprune=|sr
+||amazon.*tag$queryprune=|tag
+||bukalapak.com^*from$queryprune=|from
+||bukalapak.com^*funnel$queryprune=|funnel
+||bukalapak.com^*search_$queryprune=|search_
+||bukalapak.com^*source$queryprune=|source
+||duckduckgo.com^*t$queryprune=|t
 ||humblebundle.com^*hmb_$doc,xhr,queryprune=|hmb_
 ||tokopedia.com^*navsource$doc,xhr,queryprune=|navsource
 ||youtube.com^*feature$doc,queryprune=|feature
