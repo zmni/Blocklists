@@ -29,9 +29,9 @@
 5movies.to###vote
 729sports.com##.webBannerTable
 9anime.*##.alert
-9anime.*##.anime-list > li:has(> a > .dub)
-9anime.*##.anime-list > li:has(> a > .preview)
-9anime.*##.anime-list > li:has(> a > .special)
+9anime.*##.anime-list > li:has(> .poster > .taglist > .dub)
+9anime.*##.anime-list > li:has(> .poster > .taglist > .preview)
+9anime.*##.anime-list > li:has(> .poster > .taglist > .special)
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
 9anime.*##.tabs > [data-name="updated_dub"]
 9anime.*##section#info .tags
