@@ -53,6 +53,7 @@ bola.net##+js(window.open-defuser)
 bicycling.com##+js(remove-attr, target, .new-sidepanel-menu a)
 bing.com##+js(add-style, /translator/, #tt_translatorHome, margin-right:20px;width:auto)
 blacktiesports.net##+js(remove-attr, onclick, body)
+bukalapak.com##+js(remove-attr, target, a)
 
 centralsport.club##+js(abort-on-property-read, zfgloadedpopup)
 cnnindonesia.com##+js(abort-current-inline-script, shareBox.run)
