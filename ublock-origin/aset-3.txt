@@ -21,6 +21,7 @@
 ||intercom.io^$3p
 ||ipgeolocation.com^$3p
 ||jivosite.com^$3p
+||jsdelivr.net/npm/perfops-rom$script,3p
 ||liveperson.net^$3p
 ||peer5.com^$3p
 ||sentry.io^$3p

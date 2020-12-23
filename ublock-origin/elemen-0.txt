@@ -1392,6 +1392,7 @@ ymovies.*##.row:has(> #torrents)
 ymovies.*##.sim_name_film
 ymovies.*###banner_publi
 ymovies.*###err2019
+ymovies.*###govideo + .btn
 ymovies.*###topplayer
 ymovies.*##div[itemprop="video"] > div:not(#page_effect)
 youtube.com##.ytp-ce-element.ytp-ce-video

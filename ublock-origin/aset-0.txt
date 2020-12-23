@@ -4,6 +4,7 @@
 
 ! UMUM
 
+/500b-*.jpg?$xhr,3p
 /app-comments-
 /cast_sender.js$script,3p
 /embed/comments/*
