@@ -3,12 +3,15 @@
 !! ========================================================================== !!
 
 ! UMUM
+
 ##.comment-area
 ##.comment-respond
 ##.commentarea
 ##.comments
 ##.comments-area
 ##.fb-comments
+##.jw-icon-rewind
+##.jw-icon[button="download"][aria-label="Download Video"]
 ##.ktz-socializer
 ##.xenforo-comment-widget
 ##.xenforo-comments-see-all
@@ -1307,6 +1310,7 @@ vev.io##.video-info
 vev.io##.vjs-info-button
 vice.com##.article-heading-v2__social-link
 videohelp.com###mobilebanner
+vidio.com##.b-livestreaming-detail__engagements--share
 vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###adbd
 vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###container > :not(#video-content)
 vidtobo.com,vidtodo.com,vidtoboo.com,vidtodoo.com,playvidto.com###header

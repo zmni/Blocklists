@@ -1,0 +1,38 @@
+!! ========================================================================== !!
+!! KUERI
+!! ========================================================================== !!
+
+utm_$document,xmlhttprequest,queryprune=|utm_
+
+||amazon.*ac_$queryprune=|ac_
+||amazon.*cv_$queryprune=|cv_
+||amazon.*dchild$queryprune=|dchild
+||amazon.*keywords$queryprune=|keywords
+||amazon.*language$queryprune=|language
+||amazon.*linkCode$queryprune=|linkCode
+||amazon.*linkId$queryprune=|linkId
+||amazon.*pd_rd_$queryprune=|pd_rd_
+||amazon.*pf_rd_$queryprune=|pf_rd_
+||amazon.*psc$queryprune=|psc
+||amazon.*qid$queryprune=|qid
+||amazon.*ref$queryprune=|ref
+||amazon.*sr$queryprune=|sr
+||amazon.*tag$queryprune=|tag
+
+||bukalapak.com^*blbnr$queryprune=|blbnr
+||bukalapak.com^*bnrtype$queryprune=|bnrtype
+||bukalapak.com^*from$queryprune=|from
+||bukalapak.com^*funnel$queryprune=|funnel
+||bukalapak.com^*search_$queryprune=|search_
+||bukalapak.com^*source$queryprune=|source
+
+||duckduckgo.com^*t$queryprune=|t
+
+||humblebundle.com^*hmb_$document,xmlhttprequest,queryprune=|hmb_
+
+||t.co^*amp$queryprune=|amp
+||tokopedia.com^*navsource$queryprune=|navsource
+||tokopedia.com^*nref$queryprune=|nref
+||tokopedia.com^*whid$queryprune=|whid
+
+||youtube.com^*feature$document,queryprune=|feature

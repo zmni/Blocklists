@@ -11,3 +11,5 @@
 
 !#include injeksi-css.txt
 !#include injeksi-skrip.txt
+
+!#include kueri-param.txt

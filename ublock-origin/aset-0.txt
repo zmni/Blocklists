@@ -2,52 +2,49 @@
 !! ASET 0
 !! ========================================================================== !!
 
-! UMUM
-
-/500b-*.jpg?$xhr,3p
 /app-comments-
-/cast_sender.js$script,3p
+/bugsnag.min.js$script
 /embed/comments/*
 /js/report?$script
 /provider.cast.js$script
 /wp-emoji.js$script
 
-! SEMUA
+! UMUM
 
-||188bongda.com^$all
-||acquisitionproducespostman.com^$all
-||analytics.churnzero.net^$all
-||analytics.getstream.io^$all
-||artpever.com^$all
-||aseanbanner.tk^$all
-||c.statcounter.com^$all
-||c0nnectthed0ts.com^$all
-||changesexcr.top^$all
-||coornahapligh.pro^$all
-||ddmax20.xyz^$all
-||disappearanceherbalsixpence.com^$all
-||ezylink.co^$all
-||f853150605ccb.com^$all
-||facebook.*^$all
-||fmax.xyz^$all
-||henry-loieurope.xyz^$all
-||howtubray.com^$all
-||ingest.sentry.io^$all
-||iupot.com^$all
-||jogdosoaf.com^$all
-||make6pain.com^$all
-||nomicidenti.top^$all
-||notifa.info^$all
-||oodsauns.net^$all
-||opsoomet.net^$all
-||p3insight.de^$all
-||pooboafi.net^$all
-||ptairtug.net^$all
-||ptoahaistais.com^$all
-||px.gfycat.com^$all
-||sentry.variab.ly^$all
-||stats.umami.is^$all
-||uzone.id^$all
+||188bongda.com^
+||acquisitionproducespostman.com^
+||analytics.churnzero.net^
+||analytics.getstream.io^
+||artpever.com^
+||aseanbanner.tk^
+||c.statcounter.com^
+||c0nnectthed0ts.com^
+||changesexcr.top^
+||coornahapligh.pro^
+||ddmax20.xyz^
+||disappearanceherbalsixpence.com^
+||ezylink.co^
+||f853150605ccb.com^
+||facebook.*^
+||fmax.xyz^
+||henry-loieurope.xyz^
+||howtubray.com^
+||ingest.sentry.io^
+||iupot.com^
+||jogdosoaf.com^
+||make6pain.com^
+||nomicidenti.top^
+||notifa.info^
+||oodsauns.net^
+||opsoomet.net^
+||p3insight.de^
+||pooboafi.net^
+||ptairtug.net^
+||ptoahaistais.com^
+||px.gfycat.com^
+||sentry.variab.ly^
+||stats.umami.is^
+||uzone.id^
 
 ! SPESIFIK
 
@@ -63,42 +60,15 @@
 ||newshub.id^*/pixel.$script
 ||ooakforum.com/images/*banner*.jpg$image
 ||ooakforum.com/pics/*banner*.jpg$image
-||ok.ru/dk?cmd=videoStat$xhr
+||ok.ru/dk?cmd=videoStat$xmlhttprequest
 ||readthedocs.org/sustainability/view/$image
 ||s0.wp.com/*/plugins/ajax-comment-loading^
 ||streamplay.to/*zoneid=
 ||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
-||twitter.com/i/jot$xhr
-||vidio.com/watch/*/track$xhr
+||twitter.com/i/jot$xmlhttprequest
+||vidio.com/watch/*/track$xmlhttprequest
 ||vidoza.net^*/videojs.
-||vidstreaming.io/search.html$xhr
+||vidstreaming.io/search.html$xmlhttprequest
 ||vimeo.com/log/
-||youtube.com/youtubei/v1/log_event?$xhr
-
-! KUERI PRUNE
-
-utm_$doc,xhr,queryprune=|utm_
-
-||amazon.*ac_$queryprune=|ac_
-||amazon.*cv_$queryprune=|cv_
-||amazon.*dchild$queryprune=|dchild
-||amazon.*keywords$queryprune=|keywords
-||amazon.*language$queryprune=|language
-||amazon.*linkCode$queryprune=|linkCode
-||amazon.*linkId$queryprune=|linkId
-||amazon.*pd_rd_$queryprune=|pd_rd_
-||amazon.*pf_rd_$queryprune=|pf_rd_
-||amazon.*psc$queryprune=|psc
-||amazon.*qid$queryprune=|qid
-||amazon.*ref$queryprune=|ref
-||amazon.*sr$queryprune=|sr
-||amazon.*tag$queryprune=|tag
-||bukalapak.com^*from$queryprune=|from
-||bukalapak.com^*funnel$queryprune=|funnel
-||bukalapak.com^*search_$queryprune=|search_
-||bukalapak.com^*source$queryprune=|source
-||duckduckgo.com^*t$queryprune=|t
-||humblebundle.com^*hmb_$doc,xhr,queryprune=|hmb_
-||tokopedia.com^*navsource$doc,xhr,queryprune=|navsource
-||youtube.com^*feature$doc,queryprune=|feature
+||youtube.com/youtubei/v1/log_event?$xmlhttprequest
