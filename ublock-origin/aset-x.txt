@@ -28,42 +28,42 @@
 
 ! 0: SEMUA
 
-@@||facebook.github.com^
-@@||facebook.github.io^
+@@||facebook.github.com^$domain=github.*
+@@||facebook.github.io^$domain=github.*
 
 ! 1: SPESIFIK
 
-@@||anilist.co/img/landing/social.$image,1p
-@@||authy.com/wp-content/uploads/Pinterest-logo.png$image,1p
-@@||dutafilm.*/img/logo-red.gif$image,1p
-@@||dutafilm.*/sw.js|$script,1p
-@@||myanimelist.net/images/icon-banned-youtube.png$image,1p
-@@||prism-break.org/assets/logos/facebook$image,1p
-@@||prism-break.org/assets/logos/linkedin.svg$image,1p
-@@||prism-break.org/assets/logos/twitter.$image,1p
-@@||thewitcher.com/js/jsPlugins/jCookie/jCookie.js$script,1p
-@@||userstyles.org/ui/images/icons/facebook$image,1p
-@@||userstyles.org/ui/images/icons/google$image,1p
-@@||userstyles.org/ui/images/icons/instagram$image,1p
-@@||userstyles.org/ui/images/icons/twitter$image,1p
-@@||userstyles.org/ui/images/icons/youtube$image,1p
-@@||weblate.org/hosted/static/auth/facebook.svg$image,1p
-@@||weblate.org/hosted/static/btn_google_$image,1p
-@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_$1p
-@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-$1p
+@@||anilist.co/img/landing/social.$image,~third-party
+@@||authy.com/wp-content/uploads/Pinterest-logo.png$image,~third-party
+@@||dutafilm.*/img/logo-red.gif$image,~third-party
+@@||dutafilm.*/sw.js|$script,~third-party
+@@||myanimelist.net/images/icon-banned-youtube.png$image,~third-party
+@@||prism-break.org/assets/logos/facebook$image,~third-party
+@@||prism-break.org/assets/logos/linkedin.svg$image,~third-party
+@@||prism-break.org/assets/logos/twitter.$image,~third-party
+@@||thewitcher.com/js/jsPlugins/jCookie/jCookie.js$script,~third-party
+@@||userstyles.org/ui/images/icons/facebook$image,~third-party
+@@||userstyles.org/ui/images/icons/google$image,~third-party
+@@||userstyles.org/ui/images/icons/instagram$image,~third-party
+@@||userstyles.org/ui/images/icons/twitter$image,~third-party
+@@||userstyles.org/ui/images/icons/youtube$image,~third-party
+@@||weblate.org/hosted/static/auth/facebook.svg$image,~third-party
+@@||weblate.org/hosted/static/btn_google_$image,~third-party
+@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_$~third-party
+@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-$~third-party
 
 ! 3: SPESIFIK
 
-@@||apis.google.com/js/platform.js?onload=initgooglelogin$script,3p
-@@||buttons.github.io/buttons.js$script,3p
-@@||d2c8v52ll5s99u.cloudfront.net/player/$3p
-@@||escdn.co/js/jquery.min.js$script,3p
+@@||apis.google.com/js/platform.js?onload=initgooglelogin$script,third-party
+@@||buttons.github.io/buttons.js$script,third-party
+@@||d2c8v52ll5s99u.cloudfront.net/player/$third-party
+@@||escdn.co/js/jquery.min.js$script,third-party
 @@||jellyfin.org/images/youtube_$image
-@@||stream.moe/plugins/mediaplayer/$3p
-@@||stream.moe/themes/flow/js/jquery-1.11.0.min.js$script,3p
-@@||vjs.zencdn.net^$script,3p
-@@||w.org/google-analytics-$image,3p
-@@||wp.com^*/favicon.ico$image,3p
+@@||stream.moe/plugins/mediaplayer/$third-party
+@@||stream.moe/themes/flow/js/jquery-1.11.0.min.js$script,third-party
+@@||vjs.zencdn.net^$script,third-party
+@@||w.org/google-analytics-$image,third-party
+@@||wp.com^*/favicon.ico$image,third-party
 
 ! 3: DOMAIN
 
@@ -75,7 +75,7 @@
 @@||cdnfile.info^$domain=vidstreaming.*
 @@||data.kemkes.go.id/data/api/analytics.json?$domain=data.kemkes.go.id
 @@||fonts.googleapis.com^$css,domain=ymovies.tv
-@@||googleusercontent.com^$image,xhr,domain=ymovies.tv
+@@||googleusercontent.com^$image,xmlhttprequest,domain=ymovies.tv
 @@||hcaptcha.com^$domain=ymovies.to
 @@||hxload.io/embed/$frame,domain=nontonplus.com
 @@||static.akacdn.ru^$image,domain=fmovies.*|ffmovies.*
