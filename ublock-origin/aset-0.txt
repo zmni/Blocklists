@@ -68,7 +68,6 @@
 ||thevideo.us/js/jspc.js?adb
 ||twitter.com/i/jot$xmlhttprequest
 ||vidio.com/watch/*/track$xmlhttprequest
-||vidoza.net^*/videojs.
 ||vidstreaming.io/search.html$xmlhttprequest
 ||vimeo.com/log/
 ||youtube.com/youtubei/v1/log_event?$xmlhttprequest
