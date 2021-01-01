@@ -189,7 +189,7 @@ window.scroll-onload.js application/javascript
     if (document.readyState === "complete") {
         scrolled();
     } else {
-        document.addEventListener("load", scrolled);
+        window.addEventListener("load", scrolled);
     }
 })();
 
@@ -210,6 +210,6 @@ window.scroll-onready.js application/javascript
     if (document.readyState === "interactive" || document.readyState === "complete") {
         scrolled();
     } else {
-        document.addEventListener("DOMContentLoaded", scrolled);
+        window.addEventListener("DOMContentLoaded", scrolled);
     }
 })();
