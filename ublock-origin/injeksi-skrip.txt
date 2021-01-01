@@ -20,7 +20,8 @@
 ! add-style
 ! click-element-prevnext
 ! open-links-in-newtab
-! window.scroll
+! window.scroll-onload
+! window.scroll-onready
 
 720pstream.me##+js(abort-on-property-read, zfgloadedpopup)
 9anime.*##+js(abort-on-property-read, zfgloadedpopup)
@@ -34,7 +35,7 @@ aceservice.club##+js(window.open-defuser)
 allaboutxiaomi.com##+js(abort-on-property-read, anOptions)
 androidpit.com##+js(abort-current-inline-script, addJwPlayer, ('sidebar'))
 anime8.ru##+js(addEventListener-defuser, mouseover)
-anime8.ru##+js(window.scroll, episode, 70)
+anime8.ru##+js(window.scroll-onload, episode, 70)
 animeindo.*##+js(abort-current-inline-script, atob)
 animeindo.*##+js(abort-current-inline-script, document.write, asynctagfetch)
 animeindo.*##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)

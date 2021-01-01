@@ -1,51 +1,51 @@
 click-elements-onload.js application/javascript
-(function () {
-    var selector = "{{1}}";
+(() => {
+    const selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    var click = function () {
-        var elements = document.querySelectorAll(selector);
-        for (var element of elements) {
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
             element.click();
         }
     };
     if (document.readyState === "complete") {
         click();
     } else {
-        addEventListener("load", click);
+        document.addEventListener("load", click);
     }
 })();
 
 click-elements-onready.js application/javascript
-(function () {
-    var selector = "{{1}}";
+(() => {
+    const selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    var click = function () {
-        var elements = document.querySelectorAll(selector);
-        for (var element of elements) {
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
             element.click();
         }
     };
     if (document.readyState === "interactive" || document.readyState === "complete") {
         click();
     } else {
-        addEventListener("DOMContentLoaded", click);
+        document.addEventListener("DOMContentLoaded", click);
     }
 })();
 
 set-cookie.js application/javascript
-(function () {
-    var data = "{{1}}";
+(() => {
+    const data = "{{1}}";
     if (data.indexOf("=") === -1) return;
     document.cookie = data;
 })();
 
 easy-set-cookie.js application/javascript
-(function () {
-    var data = "{{1}}";
-    var path = "{{2}}";
-    var domain = "{{3}}";
-    var secure = "{{4}}";
-    var del = "{{5}}";
+(() => {
+    let data = "{{1}}";
+    const path = "{{2}}";
+    const domain = "{{3}}";
+    const secure = "{{4}}";
+    const del = "{{5}}";
     if (data.indexOf("=") === -1) return;
     if (del === "true") {
         data += ";max-age=-100";
@@ -65,81 +65,81 @@ easy-set-cookie.js application/javascript
 })();
 
 add-attr.js application/javascript
-(function () {
-    var selector = "{{1}}";
+(() => {
+    let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    var name = "{{2}}";
+    const name = "{{2}}";
     if (name === "" || name === "{{2}}") return;
-    var value = "{{3}}";
+    const value = "{{3}}";
     if (value === "" || value === "{{3}}") return;
-    var setattr = function () {
+    const setattr = () => {
         try {
-            var nodes = document.querySelectorAll(selector);
-            for (var node of nodes) {
-                node.setAttribute(name, value);
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                element.setAttribute(name, value);
             }
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+        document.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
     } else {
         setattr();
     }
 })();
 
 add-class.js application/javascript
-(function () {
-    var token = "{{1}}";
+(() => {
+    const token = "{{1}}";
     if (token === "" || token === "{{1}}") return;
-    var tokens = token.split(/\s*\|\s*/);
-    var selector = "{{2}}";
+    const tokens = token.split(/\s*\|\s*/);
+    const selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
-    var addclass = function () {
+    const addclass = () => {
         try {
             document.querySelector(selector).classList.add(...tokens);
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", addclass, { capture: true, once: true });
+        document.addEventListener("DOMContentLoaded", addclass, { capture: true, once: true });
     } else {
         addclass();
     }
 })();
 
 add-style.js application/javascript
-(function () {
-    var path = "{{1}}";
-    var locp = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
-    var selector = "{{2}}";
+(() => {
+    const path = "{{1}}";
+    const lplc = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    let selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    var style = "{{3}}";
+    const style = "{{3}}";
     if (style === "" || style === "{{3}}") return;
-    var addstyle = function () {
+    const addstyle = () => {
         try {
-            var nodes = document.querySelectorAll(selector);
-            for (var node of nodes) {
-                node.style.cssText = style;
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                element.style.cssText = style;
             }
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", addstyle, { capture: true, once: true });
+        document.addEventListener("DOMContentLoaded", addstyle, { capture: true, once: true });
     } else {
         addstyle();
     }
 })();
 
 click-element-prevnext.js application/javascript
-(function () {
-    var path = "{{1}}";
-    var locp = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
-    var prev = "{{2}}";
+(() => {
+    const path = "{{1}}";
+    const lplc = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    const prev = "{{2}}";
     if (prev === "" || prev === "{{2}}") return;
-    var next = "{{3}}";
+    const next = "{{3}}";
     if (next === "" || next === "{{3}}") return;
     document.addEventListener("keyup", (event) => {
         if (event.altKey && event.key === "b") {
@@ -151,44 +151,65 @@ click-element-prevnext.js application/javascript
 })();
 
 open-links-in-newtab.js application/javascript
-(function () {
-    var selector = "{{1}}";
+(() => {
+    let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    var targetblank = function () {
+    const targetblank = function () {
         try {
-            var nodes = document.querySelectorAll(selector);
-            for (var node of nodes) {
-                if (node.href.indexOf(location.hostname) === -1) {
-                    node.setAttribute("target", "_blank");
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                if (element.href.indexOf(location.hostname) === -1) {
+                    element.setAttribute("target", "_blank");
                 }
             }
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", targetblank, { capture: true, once: true });
+        document.addEventListener("DOMContentLoaded", targetblank, { capture: true, once: true });
     } else {
         targetblank();
     }
 })();
 
-window.scroll.js application/javascript
-(function () {
-    var path = "{{1}}";
-    var locp = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || locp.indexOf(path) === -1) return;
-    var ytop = "{{2}}";
-    if (ytop === "" || ytop === "{{2}}") return;
-    var scrolled = function () {
+window.scroll-onload.js application/javascript
+(() => {
+    const path = "{{1}}";
+    const lplc = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    const posy = "{{2}}";
+    if (posy === "" || posy === "{{2}}") return;
+    const scrolled = () => {
         window.scroll({
             left: 0,
-            top: ytop,
-            behavior: "smooth"
+            top: posy,
+            behavior: "smooth",
         });
     };
     if (document.readyState === "complete") {
         scrolled();
     } else {
-        addEventListener("load", scrolled);
+        document.addEventListener("load", scrolled);
+    }
+})();
+
+window.scroll-onready.js application/javascript
+(() => {
+    const path = "{{1}}";
+    const lplc = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    const posy = "{{2}}";
+    if (posy === "" || posy === "{{2}}") return;
+    const scrolled = () => {
+        window.scroll({
+            left: 0,
+            top: posy,
+            behavior: "smooth",
+        });
+    };
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        scrolled();
+    } else {
+        document.addEventListener("DOMContentLoaded", scrolled);
     }
 })();
