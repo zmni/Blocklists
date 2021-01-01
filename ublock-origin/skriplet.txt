@@ -155,7 +155,7 @@ open-links-in-newtab.js application/javascript
     let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
     if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    const targetblank = function () {
+    const targetblank = () => {
         try {
             const elements = document.querySelectorAll(selector);
             for (const element of elements) {
@@ -166,7 +166,7 @@ open-links-in-newtab.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", targetblank, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", targetblank, { once: true });
     } else {
         targetblank();
     }
