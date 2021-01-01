@@ -459,6 +459,8 @@ gamesradar.com##[class^="slot-"]:has(> div:has-text(Advertisement))
 gamesradar.com###skyContainer
 geek.com###gksticky
 geeksforgeeks.org##[id^="AP_G4GR_"]
+gfycat.com##.pro-cta
+gfycat.com##.gif-share
 giphy.com##.ss-send
 git-scm.com##.gui-thumbnails > li:not(:has(:scope .description:has-text(Free)))
 git-tower.com###sharing-sidebar
@@ -483,6 +485,7 @@ goal.com##aside:has(> .commercial:only-child)
 gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
+gogo-play.net##.list-server-items
 gogoanime.*##.ad
 gogoanime.*##.added_series_body ul > li:has(> a:has-text((Dub)))
 gogoanime.*##.anime_video_body_comment_name
