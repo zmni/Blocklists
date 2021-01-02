@@ -9,6 +9,7 @@
 ##.commentarea
 ##.comments
 ##.comments-area
+##.dsq-brlink
 ##.fb-comments
 ##.jw-icon-rewind
 ##.jw-icon[button="download"][aria-label="Download Video"]
