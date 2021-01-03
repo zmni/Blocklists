@@ -69,11 +69,13 @@
 ||api.wikia.nocookie.net/*/wikia.php?controller=AdEngine$script,domain=fandom.com
 ||cdn1muvix.xyz/cdn/down/*.jpg$xmlhttprequest,domain=muvix.xyz
 ||cdn2muvix.xyz/cdn/down/*.jpg$xmlhttprequest,domain=muvix.xyz
+||commento.io/js/commento.js$script,third-party
 ||detik.net.id^*/detik.ads.$script,domain=detik.com
 ||detik.net.id^*/foot_fb.png$image,domain=detik.com
 ||detik.net.id^*/foot_insta.png$image,domain=detik.com
 ||detik.net.id^*/foot_tw.png$image,domain=detik.com
 ||ga.animekisa.tv^$domain=animekisa.tv|hentaikisa.com|mangakisa.com
+||gstatic.com/firebasejs/*/firebase-analytics.js$script,third-party
 ||imgur.com^$image,domain=streamvi.com
 ||l-stat.livejournal.net^$domain=livejournal.com
 ||newrevive.detik.com^$domain=detik.com|cnnindonesia.com
