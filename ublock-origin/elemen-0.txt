@@ -149,6 +149,12 @@ animeindo.cc###sidebar
 animeindo.cc###synopsis
 animeindo.cc###trailer
 animeindo.cc##div:has(> script:only-child)
+animekisa.tv##.slider
+animekisa.tv##.messageg
+animekisa.tv##.selector-mode
+animekisa.tv##.selector-mode > a[href="/dubbed"]
+animekisa.tv##.now2 .c br
+animekisa.tv##.video-js ~ *
 animeku.tv##.ads
 animeku.tv##.adsgen
 animeku.tv##.adspost1

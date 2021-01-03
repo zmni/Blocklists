@@ -54,6 +54,7 @@
 
 ! SPESIFIK
 
+alternativeto.net#@#.comments
 bitly.com#@#.twitter
 vault.bitwarden.com#@#.fa-share
 vault.bitwarden.com#@#.fa-share-alt
