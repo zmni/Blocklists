@@ -477,7 +477,7 @@ myanimelist.net##.anime-detail-header-stats .user-status-block:style( display: f
 myanimelist.net##.user-status-block .btn-user-status-add-list, .user-status-block .form-user-score, .user-status-block .form-user-status:style( margin: 0 5px !important; )
 myanimelist.net##.notification_settings .notification-setting-content .settings-notification .setting td.button.off input[type="checkbox"]:checked + label:style( opacity: .5 !important; )
 myanimelist.net##.news-content-block .content-right > .js-scrollfix-bottom:style( position: relative !important; bottom: auto !important; )
-myanimelist.net##.page-common .h1 .title-english:style( font-weight: normal !important; font-style: italic !important; )
+myanimelist.net##.page-common .h1 .title-english:style( font-size: 13px !important; font-style: italic !important; font-weight: normal !important; )
 myanimelist.net##.page-common a.button_edit.button_edit:style( background-color: #00adee !important; color: #eff0f1 !important; )
 myanimelist.net##.page-common a.button_edit.button_edit:hover:style( background-color: #232323 !important; color: #00adee !important; )
 docs.microsoft.com##.api-browser-description, .api-browser-search-field-container, .content h1 + p, .content p:first-child, h1:style( max-width: none !important; )

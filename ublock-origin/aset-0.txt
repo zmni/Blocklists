@@ -6,6 +6,7 @@
 /bugsnag.min.js$script
 /embed/comments/*
 /js/report?$script
+/plugins/ajax-comment-loading
 /provider.cast.js$script
 /wp-emoji.js$script
 
@@ -58,16 +59,13 @@
 ||kotakputih.casa/images/*.gif$image
 ||naniplay.com/asset/barr.js
 ||newshub.id^*/pixel.$script
-||ooakforum.com/images/*banner*.jpg$image
-||ooakforum.com/pics/*banner*.jpg$image
-||ok.ru/dk?cmd=videoStat$xmlhttprequest
+||ooakforum.com^*banner*.jpg$image
+||ok.ru/dk?cmd=videoStat$xhr
 ||readthedocs.org/sustainability/view/$image
-||s0.wp.com/*/plugins/ajax-comment-loading^
 ||streamplay.to/*zoneid=
 ||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
-||twitter.com/i/jot$xmlhttprequest
-||vidio.com/watch/*/track$xmlhttprequest
-||vidstreaming.io/search.html$xmlhttprequest
+||vidio.com/watch/*/track$xhr
+||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
-||youtube.com/youtubei/v1/log_event?$xmlhttprequest
+||youtube.com/youtubei/v1/log_event?$xhr

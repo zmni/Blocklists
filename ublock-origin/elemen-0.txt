@@ -44,6 +44,7 @@
 9anime.*##.anime-list > li:has(> .poster > .taglist > .special)
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
 9anime.*##.anime-list-s > li:has(> .info > a:has-text((Dub)))
+9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
 9anime.*##.tabs > [data-name="updated_dub"]
 9anime.*###comment
 9anime.*##section#info .tags
