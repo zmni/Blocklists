@@ -110,7 +110,7 @@ olin.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", targetblank, false);
+        window.addEventListener("DOMContentLoaded", targetblank, { once: true });
     } else {
         targetblank();
     }
