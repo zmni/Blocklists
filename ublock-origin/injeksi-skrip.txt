@@ -40,6 +40,7 @@
 ! ceol: click-elements-onload
 ! cepn: click-element-prevnext
 ! css: add-style
+! html: insertAdjacentHTML
 ! olin: open-links-in-newtab
 ! sa: set-attribute
 ! sck: set-cookie

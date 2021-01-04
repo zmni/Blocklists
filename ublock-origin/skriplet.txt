@@ -74,6 +74,24 @@ css.js application/javascript
     }
 })();
 
+html.js application/javascript
+(() => {
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const position = "{{2}}";
+    if (position === "" || position === "{{2}}") return;
+    const html = "{{3}}";
+    if (html === "" || html === "{{3}}") return;
+    const inserthtml = () => {
+        document.querySelector(selector).insertAdjacentHTML(position, html);
+    };
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", inserthtml, false);
+    } else {
+        inserthtml();
+    }
+})();
+
 olin.js application/javascript
 (() => {
     let selector = "{{1}}";
