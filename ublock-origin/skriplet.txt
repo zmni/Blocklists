@@ -56,7 +56,7 @@ css.js application/javascript
     if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
     let selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
-    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    selector = selector.replace(/\|/gi, ",");
     const style = "{{3}}";
     if (style === "" || style === "{{3}}") return;
     const addstyle = () => {
@@ -96,7 +96,7 @@ olin.js application/javascript
 (() => {
     let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    selector = selector.replace(/\|/gi, ",");
     const targetblank = () => {
         try {
             const elements = document.querySelectorAll(selector);
@@ -118,7 +118,7 @@ sa.js application/javascript
 (() => {
     let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    selector = selector.replace(/\|/gi, ",");
     const name = "{{2}}";
     if (name === "" || name === "{{2}}") return;
     const value = "{{3}}";
@@ -140,8 +140,9 @@ sa.js application/javascript
 
 sck.js application/javascript
 (() => {
-    const data = "{{1}}";
+    let data = "{{1}}";
     if (data.indexOf("=") === -1) return;
+    data = data.replace(/\|/gi, ",");
     document.cookie = data;
 })();
 
