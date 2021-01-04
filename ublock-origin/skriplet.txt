@@ -11,7 +11,7 @@ ac.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", addclass, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", addclass, { capture: true, once: true });
     } else {
         addclass();
     }
@@ -21,33 +21,13 @@ ceol.js application/javascript
 (() => {
     const selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
-            element.click();
-        }
+    const clicked = () => {
+        document.querySelector(selector).click();
     };
     if (document.readyState === "complete") {
-        click();
+        clicked();
     } else {
-        document.addEventListener("load", click);
-    }
-})();
-
-ceor.js application/javascript
-(() => {
-    const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
-            element.click();
-        }
-    };
-    if (document.readyState === "interactive" || document.readyState === "complete") {
-        click();
-    } else {
-        document.addEventListener("DOMContentLoaded", click);
+        window.addEventListener("load", clicked);
     }
 })();
 
@@ -60,10 +40,10 @@ cepn.js application/javascript
     if (prev === "" || prev === "{{2}}") return;
     const next = "{{3}}";
     if (next === "" || next === "{{3}}") return;
-    document.addEventListener("keyup", (event) => {
-        if (event.altKey && event.key === "b") {
+    window.addEventListener("keyup", (ev) => {
+        if (ev.altKey && ev.key === "b") {
             document.querySelector(prev).click();
-        } else if (event.altKey && event.key === "n") {
+        } else if (ev.altKey && ev.key === "n") {
             document.querySelector(next).click();
         }
     }, false);
@@ -88,7 +68,7 @@ css.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", addstyle, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", addstyle, { capture: true, once: true });
     } else {
         addstyle();
     }
@@ -110,7 +90,7 @@ olin.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", targetblank, { once: true });
+        window.addEventListener("DOMContentLoaded", targetblank, { capture: true, once: true });
     } else {
         targetblank();
     }
@@ -134,7 +114,7 @@ sa.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
     } else {
         setattr();
     }
@@ -177,12 +157,12 @@ wsol.js application/javascript
     const path = "{{1}}";
     const lplc = location.pathname.toLowerCase();
     if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
-    const posy = "{{2}}";
-    if (posy === "" || posy === "{{2}}") return;
+    const ytop = "{{2}}";
+    if (ytop === "" || ytop === "{{2}}") return;
     const scrolled = () => {
         window.scroll({
             left: 0,
-            top: posy,
+            top: ytop,
             behavior: "smooth",
         });
     };
@@ -190,26 +170,5 @@ wsol.js application/javascript
         scrolled();
     } else {
         window.addEventListener("load", scrolled);
-    }
-})();
-
-wsor.js application/javascript
-(() => {
-    const path = "{{1}}";
-    const lplc = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
-    const posy = "{{2}}";
-    if (posy === "" || posy === "{{2}}") return;
-    const scrolled = () => {
-        window.scroll({
-            left: 0,
-            top: posy,
-            behavior: "smooth",
-        });
-    };
-    if (document.readyState === "interactive" || document.readyState === "complete") {
-        scrolled();
-    } else {
-        window.addEventListener("DOMContentLoaded", scrolled);
     }
 })();

@@ -38,7 +38,6 @@
 ! UBAHSUAI
 ! ac: add-class
 ! ceol: click-elements-onload
-! ceor: click-elements-onready
 ! cepn: click-element-prevnext
 ! css: add-style
 ! olin: open-links-in-newtab
@@ -46,7 +45,6 @@
 ! sck: set-cookie
 ! scke: set-cookie-easy
 ! wsol: window.scroll-onload
-! wsor: window.scroll-onready
 
 720pstream.me##+js(aopr, zfgloadedpopup)
 9anime.*##+js(aopr, zfgloadedpopup)
