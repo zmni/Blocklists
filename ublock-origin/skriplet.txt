@@ -90,7 +90,7 @@ olin.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", targetblank, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", targetblank, { once: true });
     } else {
         targetblank();
     }
@@ -114,7 +114,7 @@ sa.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+        window.addEventListener("DOMContentLoaded", setattr, { once: true });
     } else {
         setattr();
     }
