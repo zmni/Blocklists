@@ -1,94 +1,4 @@
-click-elements-onload.js application/javascript
-(() => {
-    const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
-            element.click();
-        }
-    };
-    if (document.readyState === "complete") {
-        click();
-    } else {
-        document.addEventListener("load", click);
-    }
-})();
-
-click-elements-onready.js application/javascript
-(() => {
-    const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    const click = () => {
-        const elements = document.querySelectorAll(selector);
-        for (const element of elements) {
-            element.click();
-        }
-    };
-    if (document.readyState === "interactive" || document.readyState === "complete") {
-        click();
-    } else {
-        document.addEventListener("DOMContentLoaded", click);
-    }
-})();
-
-set-cookie.js application/javascript
-(() => {
-    const data = "{{1}}";
-    if (data.indexOf("=") === -1) return;
-    document.cookie = data;
-})();
-
-easy-set-cookie.js application/javascript
-(() => {
-    let data = "{{1}}";
-    const path = "{{2}}";
-    const domain = "{{3}}";
-    const secure = "{{4}}";
-    const del = "{{5}}";
-    if (data.indexOf("=") === -1) return;
-    if (del === "true") {
-        data += ";max-age=-100";
-    } else {
-        data += ";max-age=2592000";
-    }
-    if (path !== "" && path !== "{{2}}") {
-        data += ";path=" + path;
-    }
-    if (domain !== "" && domain !== "{{3}}") {
-        data += ";domain=" + domain;
-    }
-    if (secure === "true") {
-        data += ";secure";
-    }
-    document.cookie = data;
-})();
-
-add-attr.js application/javascript
-(() => {
-    let selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
-    const name = "{{2}}";
-    if (name === "" || name === "{{2}}") return;
-    const value = "{{3}}";
-    if (value === "" || value === "{{3}}") return;
-    const setattr = () => {
-        try {
-            const elements = document.querySelectorAll(selector);
-            for (const element of elements) {
-                element.setAttribute(name, value);
-            }
-        } catch (ex) {}
-    };
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
-    } else {
-        setattr();
-    }
-})();
-
-add-class.js application/javascript
+ac.js application/javascript
 (() => {
     const token = "{{1}}";
     if (token === "" || token === "{{1}}") return;
@@ -107,7 +17,59 @@ add-class.js application/javascript
     }
 })();
 
-add-style.js application/javascript
+ceol.js application/javascript
+(() => {
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
+            element.click();
+        }
+    };
+    if (document.readyState === "complete") {
+        click();
+    } else {
+        document.addEventListener("load", click);
+    }
+})();
+
+ceor.js application/javascript
+(() => {
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const click = () => {
+        const elements = document.querySelectorAll(selector);
+        for (const element of elements) {
+            element.click();
+        }
+    };
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        click();
+    } else {
+        document.addEventListener("DOMContentLoaded", click);
+    }
+})();
+
+cepn.js application/javascript
+(() => {
+    const path = "{{1}}";
+    const lplc = location.pathname.toLowerCase();
+    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    const prev = "{{2}}";
+    if (prev === "" || prev === "{{2}}") return;
+    const next = "{{3}}";
+    if (next === "" || next === "{{3}}") return;
+    document.addEventListener("keyup", (event) => {
+        if (event.altKey && event.key === "b") {
+            document.querySelector(prev).click();
+        } else if (event.altKey && event.key === "n") {
+            document.querySelector(next).click();
+        }
+    }, false);
+})();
+
+css.js application/javascript
 (() => {
     const path = "{{1}}";
     const lplc = location.pathname.toLowerCase();
@@ -132,25 +94,7 @@ add-style.js application/javascript
     }
 })();
 
-click-element-prevnext.js application/javascript
-(() => {
-    const path = "{{1}}";
-    const lplc = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
-    const prev = "{{2}}";
-    if (prev === "" || prev === "{{2}}") return;
-    const next = "{{3}}";
-    if (next === "" || next === "{{3}}") return;
-    document.addEventListener("keyup", (event) => {
-        if (event.altKey && event.key === "b") {
-            document.querySelector(prev).click();
-        } else if (event.altKey && event.key === "n") {
-            document.querySelector(next).click();
-        }
-    }, false);
-})();
-
-open-links-in-newtab.js application/javascript
+olin.js application/javascript
 (() => {
     let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
@@ -172,7 +116,63 @@ open-links-in-newtab.js application/javascript
     }
 })();
 
-window.scroll-onload.js application/javascript
+sa.js application/javascript
+(() => {
+    let selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    if (selector.indexOf("|") !== -1) selector = selector.split(/\s*\|\s*/).join(",");
+    const name = "{{2}}";
+    if (name === "" || name === "{{2}}") return;
+    const value = "{{3}}";
+    if (value === "" || value === "{{3}}") return;
+    const setattr = () => {
+        try {
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                element.setAttribute(name, value);
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", setattr, { capture: true, once: true });
+    } else {
+        setattr();
+    }
+})();
+
+sck.js application/javascript
+(() => {
+    const data = "{{1}}";
+    if (data.indexOf("=") === -1) return;
+    document.cookie = data;
+})();
+
+scke.js application/javascript
+(() => {
+    let data = "{{1}}";
+    const path = "{{2}}";
+    const domain = "{{3}}";
+    const secure = "{{4}}";
+    const del = "{{5}}";
+    if (data.indexOf("=") === -1) return;
+    if (del === "true") {
+        data += ";max-age=-100";
+    } else {
+        data += ";max-age=2592000";
+    }
+    if (path !== "" && path !== "{{2}}") {
+        data += ";path=" + path;
+    }
+    if (domain !== "" && domain !== "{{3}}") {
+        data += ";domain=" + domain;
+    }
+    if (secure === "true") {
+        data += ";secure";
+    }
+    document.cookie = data;
+})();
+
+wsol.js application/javascript
 (() => {
     const path = "{{1}}";
     const lplc = location.pathname.toLowerCase();
@@ -193,7 +193,7 @@ window.scroll-onload.js application/javascript
     }
 })();
 
-window.scroll-onready.js application/javascript
+wsor.js application/javascript
 (() => {
     const path = "{{1}}";
     const lplc = location.pathname.toLowerCase();

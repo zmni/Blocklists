@@ -1,12 +1,12 @@
 !! INJEKSI-JS
 
 ! GENERAL
-! acis: acis
-! aeld: aeld
+! acis: abort-current-inline-script
+! aeld: addEventListener-defuser
 ! aell: addEventListener-logger
 ! alert-buster
-! aopr: aopr
-! aopw: aopw
+! aopr: abort-on-property-read
+! aopw: abort-on-property-write
 ! nano-sib: nano-setInterval-booster
 ! nano-stb: nano-setTimeout-booster
 ! no-fetch-if
@@ -15,38 +15,38 @@
 ! noeval-silent
 ! norafif: no-requestAnimationFrame-if
 ! nosiif: no-setInterval-if
-! nostif: nostif
+! nostif: no-setTimeout-if
 ! nowebrtc
 ! nowoif: window.open-defuser
 ! overlay-buster
 ! ra: remove-attr
-! rc: rc
-! set: set
+! rc: remove-class
+! set: set-constant
 ! webrtc-if
 ! window.name-defuser
 
 ! DEFUSER
+! adfly-defuser
 ! ampproject_v0
+! damoh-defuser
 ! fingerprint2
 ! nobab
 ! nofab
-! popads-dummy
 ! popads
-! adfly-defuser
-! damoh-defuser
+! popads-dummy
 
 ! UBAHSUAI
-! click-elements-onload
-! click-elements-onready
-! set-cookie
-! easy-set-cookie
-! add-attr
-! add-class
-! add-style
-! click-element-prevnext
-! open-links-in-newtab
-! window.scroll-onload
-! window.scroll-onready
+! ac: add-class
+! ceol: click-elements-onload
+! ceor: click-elements-onready
+! cepn: click-element-prevnext
+! css: add-style
+! olin: open-links-in-newtab
+! sa: set-attribute
+! sck: set-cookie
+! scke: set-cookie-easy
+! wsol: window.scroll-onload
+! wsor: window.scroll-onready
 
 720pstream.me##+js(aopr, zfgloadedpopup)
 9anime.*##+js(aopr, zfgloadedpopup)
@@ -60,7 +60,7 @@ aceservice.club##+js(nowoif)
 allaboutxiaomi.com##+js(aopr, anOptions)
 androidpit.com##+js(acis, addJwPlayer, ('sidebar'))
 anime8.ru##+js(aeld, mouseover)
-anime8.ru##+js(window.scroll-onload, episode, 70)
+anime8.ru##+js(wsol, episode, 70)
 animeindo.*##+js(acis, atob)
 animeindo.*##+js(acis, document.write, asynctagfetch)
 animeindo.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
@@ -70,14 +70,14 @@ animeindo.*##+js(set, document.onmousedown, null)
 animeindo.*##+js(set, document.onselectstart, null)
 animekisa.tv##+js(acis, document.write)
 animeku.tv##+js(set, adBlockDetected, false)
-animepahe.com##+js(click-elements-onload, .click-to-load)
+animepahe.com##+js(ceol, .click-to-load)
 anoboy.com##+js(set, h237, undefined)
 
 blogspot.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
 bola.net##+js(ra, data-te-category|data-te-label|data-te-tracked, a[href])
 bola.net##+js(nowoif)
 bicycling.com##+js(ra, target, .new-sidepanel-menu a)
-bing.com##+js(add-style, /translator/, #tt_translatorHome, margin-right:20px;width:auto)
+bing.com##+js(css, /translator/, #tt_translatorHome, margin-right:20px;width:auto)
 blacktiesports.net##+js(ra, onclick, body)
 bukalapak.com##+js(ra, target, a)
 
@@ -85,9 +85,9 @@ centralsport.club##+js(aopr, zfgloadedpopup)
 cnnindonesia.com##+js(acis, shareBox.run)
 crowdin.com##+js(ra, target, #notification-panel a)
 
-devdocs.io##+js(set-cookie, analyticsConsent=0)
-devdocs.io##+js(set-cookie, analyticsConsentAsked=1)
-devdocs.io##+js(set-cookie, hideIntro=1)
+devdocs.io##+js(sck, analyticsConsent=0)
+devdocs.io##+js(sck, analyticsConsentAsked=1)
+devdocs.io##+js(sck, hideIntro=1)
 dhs-sports.com##+js(ra, target, a.pic)
 
 eraspace.com##+js(ra, target, a)
@@ -124,8 +124,8 @@ lookmovie.ag##+js(acis, atob)
 movie4k.org##+js(aopr, T822)
 movie4k.org##+js(set, zoneNativeSett, undefined)
 moviego.net##+js(aopr, zfgloadedpopup)
-mspoweruser.com##+js(set-cookie, shunno_auto=auto)
-mspoweruser.com##+js(set-cookie, shunno_site_theme=dark)
+mspoweruser.com##+js(sck, shunno_auto=auto)
+mspoweruser.com##+js(sck, shunno_site_theme=dark)
 muchohentai.com##+js(set, l6H7m, undefined)
 myoplay.live##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
 myoplay.live##+js(aeld, SGPMPopupLoader)
@@ -134,7 +134,7 @@ myoplay.live##+js(aopr, _0xbc13)
 
 nanime.*##+js(aeld, /mousedown|mouseup/, 0x)
 nanime.*##+js(aopr, zfgloadedpopup)
-nanime.*##+js(click-elements-onload, #player)
+nanime.*##+js(ceol, #player)
 newatlas.com##+js(aopr, window.admiral)
 nicoblog.org##+js(aopr, ad2games)
 
@@ -143,7 +143,7 @@ obengplus.com##+js(nobab)
 phoronix.com##+js(acis, window.onload, aax_getad_mpb)
 pingsunday.com##+js(ra, target, .entry-content a)
 play.google.com##+js(ra, jslog, button)
-playbackloop.com##+js(add-class, dark-mode, body)
+playbackloop.com##+js(ac, dark-mode, body)
 polygon.com##+js(acis, CONCERT_ADS_CONFIG)
 polygon.com##+js(ra, data-analytics-link)
 polygon.com##+js(ra, data-chorus-optimize-field)
@@ -171,7 +171,7 @@ swatchseries.to##+js(ra, target, a)
 tempo.co##+js(ra, style, html)
 tomshardware.com##+js(aopw, _sp_)
 
-uservideo.xyz##+js(click-elements-onload, .vjs-big-play-button)
+uservideo.xyz##+js(ceol, .vjs-big-play-button)
 
 venturebeat.com##+js(aeld, scroll, trigger("nearBottom"))
 marketplace.visualstudio.com##+js(ra, target, a)
@@ -183,4 +183,4 @@ ymovies.*##+js(aeld, /mousedown|mouseup/)
 ymovies.*##+js(aopr, _0xbc13)
 ymovies.*##+js(aopr, zfgloadedpopup)
 ymovies.*##+js(set, fixAds, noopFunc)
-news.ycombinator.com##+js(open-links-in-newtab, .storylink|a[rel="nofollow"])
+news.ycombinator.com##+js(olin, .storylink|a[rel="nofollow"])
