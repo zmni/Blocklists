@@ -30,6 +30,7 @@ utm_$document,xmlhttprequest,queryprune=|utm_
 
 ||humblebundle.com^*hmb_$document,xmlhttprequest,queryprune=|hmb_
 
+||imdb.com^*ref_$queryprune=|ref_
 ||instagram.com^*igshid$document,xmlhttprequest,queryprune=|igshid
 
 ||t.co^*amp$queryprune=|amp
