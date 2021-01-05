@@ -441,11 +441,11 @@ listverse.com#$#header img.logo { margin: 0 0 0 2.04499% !important; position: s
 listverse.com#$#a[title="Go to Home"] { display: inline-block !important; text-align: center !important; }
 listverse.com#$#.main { margin-top: 0 !important; }
 listverse.com#$#.new.the-article article, .asides-holder { width: 632px !important; }
-lookmovie.ag#$#.episodes-controls-wrapper { margin-top: 15px !important; }
-lookmovie.ag#$#.plr-help-stripe { height: auto !important; font-size: 12px !important; line-height: 1 !important; padding: 0 !important; position: static !important; opacity: 0 !important; transition: opacity .3s !important; }
-lookmovie.ag#$#.plr-help-stripe:hover { opacity: 1 !important; }
-lookmovie.ag#$#.slider { margin-bottom: 20px !important; }
-lookmovie.ag#$##PlayerZone { padding-top: unset !important; }
+lookmovie.*#$#.episodes-controls-wrapper { margin-top: 15px !important; }
+lookmovie.*#$#.plr-help-stripe { height: auto !important; font-size: 12px !important; line-height: 1 !important; padding: 0 !important; position: static !important; opacity: 0 !important; transition: opacity .3s !important; }
+lookmovie.*#$#.plr-help-stripe:hover { opacity: 1 !important; }
+lookmovie.*#$#.slider { margin-bottom: 20px !important; }
+lookmovie.*#$##PlayerZone { padding-top: unset !important; }
 
 mashable.com#$##scrollable { padding-top: 44px!important; }
 movies123.*#$#header { --hh: 40px; height: var(--hh) !important; position: static !important; }

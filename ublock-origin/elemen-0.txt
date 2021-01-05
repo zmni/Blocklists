@@ -670,19 +670,19 @@ livescore.com##.ad
 livescore.com##.big-add:has(> [data-href^="http://ads."])
 livescore.com##.infobar:has(> [data-portrait-href^="http://ads."])
 livescore.com##.top-add:has(> [data-href^="http://ads."])
-lookmovie.ag##.ads-bp
-lookmovie.ag##.ads-wrapper
-lookmovie.ag##.aso-zone
-lookmovie.ag##.container > .row:has(> .view-top-ab)
-lookmovie.ag##.mv-single-hero
-lookmovie.ag##.plr-help-stripe
-lookmovie.ag##.share-popup
-lookmovie.ag##.social-share
-lookmovie.ag##.telegram-button
-lookmovie.ag##.view-top-ab
-lookmovie.ag##.watch-heading
-lookmovie.ag##.wellcome-boy-message
-lookmovie.ag##.x728x90
+lookmovie.*##.ads-bp
+lookmovie.*##.ads-wrapper
+lookmovie.*##.aso-zone
+lookmovie.*##.container > .row:has(> .view-top-ab)
+lookmovie.*##.mv-single-hero
+lookmovie.*##.plr-help-stripe
+lookmovie.*##.share-popup
+lookmovie.*##.social-share
+lookmovie.*##.telegram-button
+lookmovie.*##.view-top-ab
+lookmovie.*##.watch-heading
+lookmovie.*##.wellcome-boy-message
+lookmovie.*##.x728x90
 onedrive.live.com##.od-PremiumUpsellBanner
 onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
 outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)

@@ -62,7 +62,7 @@
 @@/cookieconsent?$domain=docs.microsoft.com
 @@/new-relic.$image,domain=marketplace.visualstudio.com
 
-@@||assets.nflxext.com/ffe/siteui/$font,image,domain=lookmovie.ag
+@@||assets.nflxext.com/ffe/siteui/$font,image,domain=lookmovie.*
 @@||cdnfile.info^$domain=vidstreaming.*
 @@||facebook.github.*^$domain=github.*
 @@||fonts.googleapis.com^$css,domain=ymovies.tv

@@ -118,7 +118,7 @@ kompas.com##+js(rc, bapps-show, body.smartphone)
 
 layarcinema.*##+js(nostif, /^/)
 letsupload.co##+js(aopr, zfgloadedpopup)
-lookmovie.ag##+js(acis, atob)
+lookmovie.*##+js(acis, atob)
 
 movie4k.org##+js(aopr, T822)
 movie4k.org##+js(set, zoneNativeSett, undefined)

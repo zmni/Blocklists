@@ -6,11 +6,11 @@
 
 ||ad.bench.utorrent.com^$1p
 ||c.mixer.com^$1p
-||cntr.lookmovie.ag^$1p
+||cntr.lookmovie.*$1p
 ||hit-log.viva.co.id^$1p
 ||hitlog.viva.co.id^$1p
 ||jba.tribunnews.com^$1p
-||metrika.lookmovie.ag^$1p
+||metrika.lookmovie.*$1p
 ||mm.rappler.com^$1p
 ||piwik.everzones.com^$1p
 ||prefixmatch.popsugar.com^$1p
