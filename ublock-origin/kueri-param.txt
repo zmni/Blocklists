@@ -2,40 +2,40 @@
 !! KUERI
 !! ========================================================================== !!
 
-utm_$document,xmlhttprequest,queryprune=|utm_
+utm_$doc,xhr,queryprune=|utm_
 
-||amazon.*ac_$queryprune=|ac_
-||amazon.*cv_$queryprune=|cv_
-||amazon.*dchild$queryprune=|dchild
-||amazon.*keywords$queryprune=|keywords
-||amazon.*language$queryprune=|language
-||amazon.*linkCode$queryprune=|linkCode
-||amazon.*linkId$queryprune=|linkId
-||amazon.*pd_rd_$queryprune=|pd_rd_
-||amazon.*pf_rd_$queryprune=|pf_rd_
-||amazon.*psc$queryprune=|psc
-||amazon.*qid$queryprune=|qid
-||amazon.*ref$queryprune=|ref
-||amazon.*sr$queryprune=|sr
-||amazon.*tag$queryprune=|tag
+||amazon.*ac_$doc,queryprune=|ac_
+||amazon.*cv_$doc,queryprune=|cv_
+||amazon.*dchild$doc,queryprune=|dchild
+||amazon.*keywords$doc,queryprune=|keywords
+||amazon.*language$doc,queryprune=|language
+||amazon.*linkCode$doc,queryprune=|linkCode
+||amazon.*linkId$doc,queryprune=|linkId
+||amazon.*pd_rd_$doc,queryprune=|pd_rd_
+||amazon.*pf_rd_$doc,queryprune=|pf_rd_
+||amazon.*psc$doc,queryprune=|psc
+||amazon.*qid$doc,queryprune=|qid
+||amazon.*ref$doc,queryprune=|ref
+||amazon.*sr$doc,queryprune=|sr
+||amazon.*tag$doc,queryprune=|tag
 
-||bukalapak.com^*blbnr$queryprune=|blbnr
-||bukalapak.com^*bnrtype$queryprune=|bnrtype
-||bukalapak.com^*from$queryprune=|from
-||bukalapak.com^*funnel$queryprune=|funnel
-||bukalapak.com^*search_$queryprune=|search_
-||bukalapak.com^*source$queryprune=|source
+||bukalapak.com^*blbnr$doc,queryprune=|blbnr
+||bukalapak.com^*bnrtype$doc,queryprune=|bnrtype
+||bukalapak.com^*from$doc,queryprune=|from
+||bukalapak.com^*funnel$doc,queryprune=|funnel
+||bukalapak.com^*search_$doc,queryprune=|search_
+||bukalapak.com^*source$doc,queryprune=|source
 
-||duckduckgo.com^*t$queryprune=|t
+||duckduckgo.com^*t$doc,queryprune=|t
 
-||humblebundle.com^*hmb_$document,xmlhttprequest,queryprune=|hmb_
+||humblebundle.com^*hmb_$doc,xhr,queryprune=|hmb_
 
-||imdb.com^*ref_$queryprune=|ref_
-||instagram.com^*igshid$document,xmlhttprequest,queryprune=|igshid
+||imdb.com^*ref_$doc,queryprune=|ref_
+||instagram.com^*igshid$doc,xhr,queryprune=|igshid
 
-||t.co^*amp$queryprune=|amp
-||tokopedia.com^*navsource$queryprune=|navsource
-||tokopedia.com^*nref$queryprune=|nref
-||tokopedia.com^*whid$queryprune=|whid
+||t.co^*amp$doc,queryprune=|amp
+||tokopedia.com^*navsource$doc,queryprune=|navsource
+||tokopedia.com^*nref$doc,queryprune=|nref
+||tokopedia.com^*whid$doc,xhr,queryprune=|whid
 
-||youtube.com^*feature$document,queryprune=|feature
+||youtube.com^*feature$doc,queryprune=|feature
