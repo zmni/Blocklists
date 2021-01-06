@@ -66,6 +66,7 @@
 ||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
 ||vidio.com/watch/*/track$xhr
+||vidstream.pro/log/
 ||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
 ||youtube.com/youtubei/v1/log_event?$xhr

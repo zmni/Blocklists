@@ -4,6 +4,7 @@
 
 ! UMUM
 
+##.article-share-link
 ##.comment-area
 ##.comment-respond
 ##.commentarea
@@ -42,6 +43,7 @@
 9anime.*##.anime-list > li:has(> .poster > .taglist > .preview)
 9anime.*##.anime-list > li:has(> .poster > .taglist > .special)
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
+9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
 9anime.*###comment
 9anime.*##section#info .tags
 9animes.net##.single-post .entry-content ~ div:not(.clear)
@@ -49,6 +51,8 @@
 9animes.net##div:has(> .tele_b):has(> .voir_b):upward(1)
 9to5google.com##.post-social-mobile
 
+acast.com###app-root > div[class^="Wrapper-sc-"]
+acast.com##div[class^="CookiesPolicy__Body-sc-"]
 acefile.*,aceservice.*###btmx
 acefile.*,aceservice.*###kelik
 acm.org##.fav_bar
@@ -1294,6 +1298,7 @@ trello.com###banners
 tvbersama.com##.adsheader
 tvseries.video##.castctn
 tvseries.video##.casttitle
+tvseries.video##.list-server-items
 tvseries.video##.mads
 tvseries.video##.playerctn ~ *
 tvzion.club##.notification
@@ -1323,6 +1328,7 @@ vev.io##.page-sidebar
 vev.io##.resize-sensor
 vev.io##.video-info
 vev.io##.vjs-info-button
+vidcloud9.com##.list-server-items
 vice.com##.article-heading-v2__social-link
 videohelp.com###mobilebanner
 vidio.com##.b-livestreaming-detail__engagements--share
