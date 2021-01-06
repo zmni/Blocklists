@@ -3,11 +3,11 @@
 !! ========================================================================== !!
 
 !! <CLOUDFLARE>
-nontonplus.com,torrentz.com,trakt.tv###cf-wrapper:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
-nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .text-black-dark:style( color: #c3c3c3 !important; )
-nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .bg-gradient-gray:style( background-image: -webkit-linear-gradient(top, #0f0f0f, #000 3%, #000 97%, #0f0f0f) !important; )
-nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .cf-error-source::after:style( background-color: #0f0f0f !important; box-shadow: 0 0 4px 4px #0f0f0f !important; )
-nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .border-gray-300:style( border-color: #3c3c3c !important; )
+9anime.*,nontonplus.com,torrentz.com,trakt.tv###cf-wrapper:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
+9anime.*,nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .text-black-dark:style( color: #c3c3c3 !important; )
+9anime.*,nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .bg-gradient-gray:style( background-image: -webkit-linear-gradient(top, #0f0f0f, #000 3%, #000 97%, #0f0f0f) !important; )
+9anime.*,nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .cf-error-source::after:style( background-color: #0f0f0f !important; box-shadow: 0 0 4px 4px #0f0f0f !important; )
+9anime.*,nontonplus.com,torrentz.com,trakt.tv###cf-wrapper .border-gray-300:style( border-color: #3c3c3c !important; )
 !! </CLOUDFLARE>
 
 5movies.to##.content:style( float: none !important; width: auto !important; )
