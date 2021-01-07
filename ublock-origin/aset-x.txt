@@ -29,33 +29,33 @@
 
 ! 1: SPESIFIK
 
-@@||anilist.co/img/landing/social.$image,1p
-@@||authy.com/wp-content/uploads/Pinterest-logo.png$image,1p
-@@||data.kemkes.go.id/data/api/analytics.json$1p
-@@||dutafilm.*/img/logo-red.gif$image,1p
-@@||dutafilm.*/sw.js|$script,1p
-@@||jellyfin.org/images/youtube_$image,1p
-@@||myanimelist.net/images/icon-banned-youtube.png$image,1p
-@@||prism-break.org/assets/logos/facebook$image,1p
-@@||prism-break.org/assets/logos/linkedin.svg$image,1p
-@@||prism-break.org/assets/logos/twitter.$image,1p
-@@||thewitcher.com/js/jsPlugins/jCookie/jCookie.js$script,1p
-@@||userstyles.org/ui/images/icons/facebook$image,1p
-@@||userstyles.org/ui/images/icons/google$image,1p
-@@||userstyles.org/ui/images/icons/instagram$image,1p
-@@||userstyles.org/ui/images/icons/twitter$image,1p
-@@||userstyles.org/ui/images/icons/youtube$image,1p
-@@||weblate.org/hosted/static/auth/facebook.svg$image,1p
-@@||weblate.org/hosted/static/btn_google_$image,1p
-@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_$image,1p
-@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-$image,1p
+@@||anilist.co/img/landing/social.$image,~third-party
+@@||authy.com/wp-content/uploads/Pinterest-logo.png$image,~third-party
+@@||data.kemkes.go.id/data/api/analytics.json$~third-party
+@@||dutafilm.*/img/logo-red.gif$image,~third-party
+@@||dutafilm.*/sw.js|$script,~third-party
+@@||jellyfin.org/images/youtube_$image,~third-party
+@@||myanimelist.net/images/icon-banned-youtube.png$image,~third-party
+@@||prism-break.org/assets/logos/facebook$image,~third-party
+@@||prism-break.org/assets/logos/linkedin.svg$image,~third-party
+@@||prism-break.org/assets/logos/twitter.$image,~third-party
+@@||thewitcher.com/js/jsPlugins/jCookie/jCookie.js$script,~third-party
+@@||userstyles.org/ui/images/icons/facebook$image,~third-party
+@@||userstyles.org/ui/images/icons/google$image,~third-party
+@@||userstyles.org/ui/images/icons/instagram$image,~third-party
+@@||userstyles.org/ui/images/icons/twitter$image,~third-party
+@@||userstyles.org/ui/images/icons/youtube$image,~third-party
+@@||weblate.org/hosted/static/auth/facebook.svg$image,~third-party
+@@||weblate.org/hosted/static/btn_google_$image,~third-party
+@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_$image,~third-party
+@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-$image,~third-party
 
 ! 3: SPESIFIK
 
-@@||apis.google.com/js/platform.js?onload=initgooglelogin$script,3p
-@@||buttons.github.io/buttons.js$script,3p
-@@||vjs.zencdn.net^$script,3p
-@@||wp.com^*/favicon.ico$image,3p
+@@||apis.google.com/js/platform.js?onload=initgooglelogin$script,third-party
+@@||buttons.github.io/buttons.js$script,third-party
+@@||vjs.zencdn.net^$script,third-party
+@@||wp.com^*/favicon.ico$image,third-party
 
 ! 3: DOMAIN
 
@@ -66,7 +66,7 @@
 @@||cdnfile.info^$domain=vidstreaming.*
 @@||facebook.github.*^$domain=github.*
 @@||fonts.googleapis.com^$css,domain=ymovies.tv
-@@||googleusercontent.com^$image,xhr,domain=ymovies.tv
+@@||googleusercontent.com^$image,xmlhttprequest,domain=ymovies.tv
 @@||hcaptcha.com^$domain=ymovies.to
 @@||travel-assets.com/datacapture/$script,domain=expedia.co.uk
 @@||w.org/google-analytics-$image,domain=wordpress.org

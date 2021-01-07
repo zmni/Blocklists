@@ -49,8 +49,6 @@
 
 ! SPESIFIK
 
-*.gif$domain=acefile.*|aceservice.*|animeindo.*|nanime.*|21moviemania.com|animeku.tv|bioskop168.co|bioskoponline.org|dewanonton.*|dewantn.com|dunia21.tv|dutafilm.*|dwanonton.com|filmseri.com|gm21.*|hxload.io|idfl.me|indoxx21.com|juaramovie.com|kotakhitam.casa|kotakputih.casa|layarcinema.co|layarcinema.org|layarkacaxxi.com|lk21.in|movieon21.org|nobartv.live|nonton.movie|nontonbola.me|nontonplus.com|nontonsub.com|pusatfilm21.com|semi168.club|topddl.net|footybite.com
-
 ||animecdn.xyz/js/ads.js$script,important
 ||gfycat.com^*/shar$image,important
 ||jetpack.wordpress.com/jetpack-comment/
@@ -60,13 +58,17 @@
 ||naniplay.com/asset/barr.js
 ||newshub.id^*/pixel.$script
 ||ooakforum.com^*banner*.jpg$image
-||ok.ru/dk?cmd=videoStat$xhr
+||ok.ru/dk?cmd=videoStat$xmlhttprequest
 ||readthedocs.org/sustainability/view/$image
 ||streamplay.to/*zoneid=
 ||tabletennisdaily.com/forum/images/banner/*.gif$image
 ||thevideo.us/js/jspc.js?adb
-||vidio.com/watch/*/track$xhr
+||vidio.com/watch/*/track$xmlhttprequest
 ||vidstream.pro/log/
-||vidstreaming.io/search.html$xhr
+||vidstreaming.io/search.html$xmlhttprequest
 ||vimeo.com/log/
-||youtube.com/youtubei/v1/log_event?$xhr
+||youtube.com/youtubei/v1/log_event?$xmlhttprequest
+
+! DOMAIN
+
+*.gif$domain=acefile.*|aceservice.*|animeindo.*|nanime.*|21moviemania.com|animeku.tv|bioskop168.co|bioskoponline.org|dewanonton.*|dewantn.com|dunia21.tv|dutafilm.*|dwanonton.com|filmseri.com|gm21.*|hxload.io|idfl.me|indoxx21.com|juaramovie.com|kotakhitam.casa|kotakputih.casa|layarcinema.co|layarcinema.org|layarkacaxxi.com|lk21.in|movieon21.org|nobartv.live|nonton.movie|nontonbola.me|nontonplus.com|nontonsub.com|pusatfilm21.com|semi168.club|topddl.net|footybite.com
