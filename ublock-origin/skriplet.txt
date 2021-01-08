@@ -200,6 +200,6 @@ wsol.js application/javascript
     if (document.readyState === "complete") {
         scrolled();
     } else {
-        document.addEventListener("load", scrolled);
+        window.addEventListener("load", scrolled);
     }
 })();
