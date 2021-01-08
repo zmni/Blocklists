@@ -17,6 +17,30 @@ ac.js application/javascript
     }
 })();
 
+attr.js application/javascript
+(() => {
+    let selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    selector = selector.replace(/\|/gi, ",");
+    const name = "{{2}}";
+    if (name === "" || name === "{{2}}") return;
+    const value = "{{3}}";
+    if (value === "" || value === "{{3}}") return;
+    const setattr = () => {
+        try {
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                element.setAttribute(name, value);
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", setattr, { once: true });
+    } else {
+        setattr();
+    }
+})();
+
 ceol.js application/javascript
 (() => {
     const selector = "{{1}}";
@@ -33,9 +57,9 @@ ceol.js application/javascript
 
 cepn.js application/javascript
 (() => {
-    const path = "{{1}}";
-    const lplc = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    let path = "{{1}}";
+    path = new RegExp(path, "i");
+    if (path.test(location.pathname) === false) return;
     const prev = "{{2}}";
     if (prev === "" || prev === "{{2}}") return;
     const next = "{{3}}";
@@ -51,9 +75,9 @@ cepn.js application/javascript
 
 css.js application/javascript
 (() => {
-    const path = "{{1}}";
-    const lplc = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    let path = "{{1}}";
+    path = new RegExp(path, "i");
+    if (path.test(location.pathname) === false) return;
     let selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
     selector = selector.replace(/\|/gi, ",");
@@ -114,30 +138,6 @@ olin.js application/javascript
     }
 })();
 
-sa.js application/javascript
-(() => {
-    let selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    selector = selector.replace(/\|/gi, ",");
-    const name = "{{2}}";
-    if (name === "" || name === "{{2}}") return;
-    const value = "{{3}}";
-    if (value === "" || value === "{{3}}") return;
-    const setattr = () => {
-        try {
-            const elements = document.querySelectorAll(selector);
-            for (const element of elements) {
-                element.setAttribute(name, value);
-            }
-        } catch (ex) {}
-    };
-    if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", setattr, { once: true });
-    } else {
-        setattr();
-    }
-})();
-
 sck.js application/javascript
 (() => {
     let data = "{{1}}";
@@ -173,9 +173,9 @@ scke.js application/javascript
 
 wsol.js application/javascript
 (() => {
-    const path = "{{1}}";
-    const lplc = location.pathname.toLowerCase();
-    if (path === "" || path === "{{1}}" || lplc.indexOf(path) === -1) return;
+    let path = "{{1}}";
+    path = new RegExp(path, "i");
+    if (path.test(location.pathname) === false) return;
     const ytop = "{{2}}";
     if (ytop === "" || ytop === "{{2}}") return;
     const scrolled = () => {

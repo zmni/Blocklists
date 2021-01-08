@@ -43,6 +43,7 @@
 9anime.*##.anime-list > li:has(> .poster > .taglist > .preview)
 9anime.*##.anime-list > li:has(> .poster > .taglist > .special)
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
+9anime.*##.anime-list-s > li:has(> .info > a:has-text((Dub)))
 9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
 9anime.*###comment
 9anime.*##section#info .tags
@@ -434,22 +435,22 @@ flixtor.to###player + div
 flixtor.to###playercontainer + div
 flixtor.to##div[class^="contentList"] > .justify-content-around > .w-100
 flixtor.to##li.nav-item.vipmenu
-fmovies.*##.alert
-fmovies.*##.filmlist .item .meta .type
-fmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
-fmovies.*##.filters > .clearfix
-fmovies.*##.nav
-fmovies.*##.notification
-fmovies.*##.rating
-fmovies.*##.tags
-fmovies.*##.tooltipster-content .actions
-fmovies.*##.watch-now
-fmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
-fmovies.*###watch .play::after
-fmovies.*###watch .play::before
-fmovies.*###watch #controls .share
-fmovies.*##body.list .bl > .heading > h1
-fmovies.*##div[class*="addthis_inline_share_"]
+fmovies.*,ffmovies.*##.alert
+fmovies.*,ffmovies.*##.filmlist .item .meta .type
+fmovies.*,ffmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*,ffmovies.*##.filters > .clearfix
+fmovies.*,ffmovies.*##.nav
+fmovies.*,ffmovies.*##.notification
+fmovies.*,ffmovies.*##.rating
+fmovies.*,ffmovies.*##.tags
+fmovies.*,ffmovies.*##.tooltipster-content .actions
+fmovies.*,ffmovies.*##.watch-now
+fmovies.*,ffmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
+fmovies.*,ffmovies.*###watch .play::after
+fmovies.*,ffmovies.*###watch .play::before
+fmovies.*,ffmovies.*###watch #controls .share
+fmovies.*,ffmovies.*##body.list .bl > .heading > h1
+fmovies.*,ffmovies.*##div[class*="addthis_inline_share_"]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
 footybite.com##a[href^="https://tracker-"]:upward(1)
 forbes.com##.ad-rail-container
@@ -1422,6 +1423,7 @@ ymovies.*###topplayer
 ymovies.*##div[itemprop="video"] > div:not(#page_effect)
 youtube.com##.ytp-ce-element.ytp-ce-video
 youtube.com###alert-banner
+youtube.com###voice-search-button
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
 yts.am##.rating-row
