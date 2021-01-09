@@ -625,7 +625,11 @@ kotakanime.net###headsite:has(> .disads728px:only-child)
 kotaku.com##.instream-native-video
 kotaku.com##.sidebar
 kotaku.com##[class^="js_ad-"]
+kwix.cx##.ads
 kwix.cx##.adSense:has(> .ads)
+kwix.cx##.message
+kwix.cx##.plyr__controls__item[data-plyr="download"]
+kwix.cx##header.main-header::before
 
 laracasts.com##.ad
 laracasts.com##.series-share
