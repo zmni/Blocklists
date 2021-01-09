@@ -11,6 +11,7 @@
 ||buymeacoffee.com^$third-party
 ||canny.io^$third-party
 ||chatango.com^$third-party
+||commento.io^$third-party
 ||crisp.chat^$third-party
 ||d2to8y50b3n6dq.cloudfront.net^$third-party
 ||dec.azureedge.net^$third-party
@@ -35,6 +36,7 @@
 ||smartsuppcdn.com^$third-party
 ||smartsuppchat.com^$third-party
 ||spot.im^$third-party
+||telemetryservice.firstpartyapps.oaspapps.com^$third-party
 ||thawte.com^$third-party
 ||umami.is^$third-party
 ||zopim.com^$third-party
@@ -44,19 +46,16 @@
 ||bizzabo.com/widgets/$third-party
 ||cloudfront.net^*/images/respond.proxy.gif$image,third-party
 ||cloudfront.net^*/stream-analytics.$script,third-party
-||commento.io/js/commento.js$script,third-party
-||detik.net.id/libs/*/js/eyeota.js$third-party
+||detik.net.id/libs/*/js/eyeota.js$script,third-party
 ||escdn.co/ads/$important,third-party
 ||gc.zgo.at/count.js$script,third-party
 ||gstatic.com/firebasejs/*/firebase-analytics.js$script,third-party
 ||jsdelivr.net/npm/@widgetbot/$script,third-party
 ||mittui.com/images/*.gif$image,third-party
 ||nick-name.ru/img.php$image,third-party
-||sentry.io/api/$xmlhttprequest,third-party
 ||static6.com/assets/ahoy-$script,third-party
-||telemetryservice.firstpartyapps.oaspapps.com^$third-party
 ||topddl.net/images/*.gif$image,third-party
-||translate.google.com/translate_a/element.js?$third-party
+||translate.google.com/translate_a/element.js?$script,third-party
 ||vimeocdn.com^*/player-stats$third-party
 ||vox-cdn.com/ad-whitelist-html/$third-party
 ||w.org/images/core/emoji/$image,third-party
@@ -64,6 +63,8 @@
 ||yimg.com/oa/consent.js$script,third-party
 
 ! DOMAIN
+
+*.gif$domain=acefile.*|aceservice.*|animeindo.*|nanime.*|21moviemania.com|animeku.tv|bioskop168.co|bioskoponline.org|dewanonton.*|dewantn.com|dunia21.tv|dutafilm.*|dwanonton.com|filmseri.com|gm21.*|hxload.io|idfl.me|indoxx21.com|juaramovie.com|kotakhitam.casa|kotakputih.casa|layarcinema.co|layarcinema.org|layarkacaxxi.com|lk21.in|movieon21.org|nobartv.live|nonton.movie|nontonbola.me|nontonplus.com|nontonsub.com|pusatfilm21.com|semi168.club|topddl.net|footybite.com
 
 ||akm-static.ccmbg.com^$domain=ccm.net
 ||alicdn.com^$all,domain=~aliexpress.*

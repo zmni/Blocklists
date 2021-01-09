@@ -26,6 +26,7 @@ utm_$document,xmlhttprequest,queryprune=|utm_
 ||bukalapak.com^*search_$document,queryprune=|search_
 ||bukalapak.com^*source$document,queryprune=|source
 
+||detik.com^*tag_$document,queryprune=|tag_
 ||duckduckgo.com^*t$document,queryprune=|t
 
 ||humblebundle.com^*hmb_$document,xmlhttprequest,queryprune=|hmb_

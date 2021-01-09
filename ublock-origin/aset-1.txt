@@ -88,6 +88,7 @@
 ||nextofwindows.com/abd/$~third-party
 ||nobartv.com/*ads$~third-party
 ||nobartv.com/*chat$~third-party
+||ooakforum.com^*banner*.jpg$image,~third-party
 ||opensource.google/v1/logging$~third-party
 ||play.google.com/_/PlayStoreUi/gen204/$image,~third-party
 ||popsugar.com/ajax/ab/$~third-party
@@ -110,6 +111,7 @@
 ||streamgoals.com/media/images/sts-$image,~third-party
 ||swisscows.com/api/b4r$~third-party
 ||swisscows.com/api/web/ads$~third-party
+||tabletennisdaily.com/forum/images/banner/*.gif$image,~third-party
 ||target.microsoft.com/rest/v1/delivery?$~third-party
 ||techcrunch.com/wp-json/tc/v1/ccpa/do_not_sell_link$~third-party
 ||tempo.co^*-share.$image,important,~third-party
