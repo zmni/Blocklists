@@ -27,7 +27,7 @@ ceol.js application/javascript
     if (document.readyState === "complete") {
         clicked();
     } else {
-        document.addEventListener("load", clicked);
+        window.addEventListener("load", clicked);
     }
 })();
 
