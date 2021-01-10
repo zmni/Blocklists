@@ -9,6 +9,7 @@
 ||cntr.lookmovie.*$~third-party
 ||hit-log.viva.co.id^$~third-party
 ||hitlog.viva.co.id^$~third-party
+||improving.duckduckgo.com^$~third-party
 ||jba.tribunnews.com^$~third-party
 ||metrika.lookmovie.*$~third-party
 ||mm.rappler.com^$~third-party
@@ -17,6 +18,7 @@
 ||sentry.flipboard.com^$~third-party
 ||sentry.indeed.com^$~third-party
 ||ta.tokopedia.com^$~third-party
+||telemetry.algolia.com^$~third-party
 
 ! SPESIFIK
 

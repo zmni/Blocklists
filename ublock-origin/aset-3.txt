@@ -19,6 +19,8 @@
 ||discordapp.com^$third-party
 ||disqus.com^$third-party
 ||driftt.com^$third-party
+||facebook.com^$third-party
+||facebook.net^$third-party
 ||force.com^$third-party
 ||g.jwpsrv.com^$third-party
 ||gitter.im^$third-party
@@ -28,7 +30,7 @@
 ||jivosite.com^$third-party
 ||jsdelivr.net/npm/perfops-rom$script,third-party
 ||liveperson.net^$third-party
-||peer5.com^$third-party
+||qiscus.com^$third-party
 ||report.fkw.com^$third-party
 ||salesforce.com^$third-party
 ||sentry.io^$third-party

@@ -119,10 +119,10 @@ olint.js application/javascript
             }
         } catch (ex) {}
     };
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", targetBlank, { once: true });
-    } else {
+    if (document.readyState === "complete") {
         targetBlank();
+    } else {
+        window.addEventListener("load", targetBlank, { once: true });
     }
 })();
 

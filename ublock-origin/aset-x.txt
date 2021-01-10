@@ -64,7 +64,6 @@
 
 @@||assets.nflxext.com/ffe/siteui/$font,image,domain=lookmovie.*
 @@||cdnfile.info^$domain=vidstreaming.*
-@@||facebook.github.*^$domain=github.*
 @@||fonts.googleapis.com^$css,domain=ymovies.tv
 @@||googleusercontent.com^$image,xmlhttprequest,domain=ymovies.tv
 @@||hcaptcha.com^$domain=ymovies.to

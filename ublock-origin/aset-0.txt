@@ -26,7 +26,6 @@
 ||disappearanceherbalsixpence.com^
 ||ezylink.co^
 ||f853150605ccb.com^
-||facebook.*^
 ||fmax.xyz^
 ||henry-loieurope.xyz^
 ||howtubray.com^
@@ -39,6 +38,7 @@
 ||oodsauns.net^
 ||opsoomet.net^
 ||p3insight.de^
+||peer5.com^
 ||pooboafi.net^
 ||ptairtug.net^
 ||ptoahaistais.com^
