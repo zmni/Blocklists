@@ -28,6 +28,11 @@
 ###commento
 ###comments
 ###disqus_thread
+##amp-analytics
+##amp-auto-ads
+##amp-facebook-comments
+##amp-story-auto-ads
+##form#commentform
 
 ! SPESIFIK
 
@@ -625,6 +630,7 @@ kotakanime.net###headsite:has(> .disads728px:only-child)
 kotaku.com##.instream-native-video
 kotaku.com##.sidebar
 kotaku.com##[class^="js_ad-"]
+krjogja.com##.banner-box
 kwix.cx##.ads
 kwix.cx##.adSense:has(> .ads)
 kwix.cx##.message
@@ -1137,6 +1143,7 @@ stackoverflow.com###answers > a[name="new-answer"]
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com###post-form
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
+startpage.com###feedback-button-container
 streamable.com##.bottombanner
 streamable.com##.leftbanner
 streamable.com##.rightbanner

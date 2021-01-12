@@ -8,6 +8,7 @@
 /js/report?$script
 /plugins/ajax-comment-loading
 /provider.cast.js$script
+/pv-counter.php?$xmlhttprequest
 /wp-emoji.js$script
 
 ! UMUM
