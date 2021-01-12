@@ -1,29 +1,29 @@
 !! INJEKSI-JS
 
 ! GENERAL
-! acis: abort-current-inline-script
-! aeld: addEventListener-defuser
-! aell: addEventListener-logger
+! abort-current-inline-script
+! abort-on-property-read
+! abort-on-property-write
+! addEventListener-defuser
+! addEventListener-logger
 ! alert-buster
-! aopr: abort-on-property-read
-! aopw: abort-on-property-write
 ! nano-sib: nano-setInterval-booster
 ! nano-stb: nano-setTimeout-booster
 ! no-fetch-if
+! no-requestAnimationFrame-if
+! no-setInterval-if
+! no-setTimeout-if
 ! noeval
 ! noeval-if
 ! noeval-silent
-! norafif: no-requestAnimationFrame-if
-! nosiif: no-setInterval-if
-! nostif: no-setTimeout-if
 ! nowebrtc
-! nowoif: window.open-defuser
 ! overlay-buster
-! ra: remove-attr
-! rc: remove-class
-! set: set-constant
+! remove-attr
+! remove-class
+! set-constant
 ! webrtc-if
 ! window.name-defuser
+! window.open-defuser
 
 ! DEFUSER
 ! adfly-defuser
@@ -36,155 +36,152 @@
 ! popads-dummy
 
 ! UBAHSUAI
-! ac: add-class
-! ceol: click-elements-onload
-! cepn: click-element-prevnext
-! css: add-style
-! html: insertAdjacentHTML
-! olint: open-links-in-newtab
-! sa: setAttribute
-! sck: set-cookie
-! scke: set-cookie-easy
-! wsol: window.scroll-onload
+! add-class
+! add-style
+! click-elements-onload
+! click-element-prev-next
+! insert-html
+! set-attr
+! set-cookie
+! set-cookie-easy
+! window.scroll
 
-720pstream.me##+js(aopr, zfgloadedpopup)
-9anime.*##+js(aopr, zfgloadedpopup)
-9anime.*##+js(nowoif)
-9animes.net##+js(aopw, _0xb36c)
+720pstream.me##+js(abort-on-property-read, zfgloadedpopup)
+9anime.*##+js(abort-on-property-read, zfgloadedpopup)
+9anime.*##+js(window.open-defuser)
+9animes.net##+js(abort-on-property-write, _0xb36c)
 
-aceservice.club##+js(acis, popup_ads)
-aceservice.club##+js(aeld, click, closedx)
-aceservice.club##+js(ra, oncontextmenu, body)
-aceservice.club##+js(nowoif)
-allaboutxiaomi.com##+js(aopr, anOptions)
-androidpit.com##+js(acis, addJwPlayer, ('sidebar'))
-anime8.ru##+js(aeld, mouseover)
-anime8.ru##+js(wsol, episode, 70)
-animeindo.*##+js(acis, atob)
-animeindo.*##+js(acis, document.write, asynctagfetch)
-animeindo.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
-animeindo.*##+js(aopw, _0xbc13)
-animeindo.*##+js(set, document.oncontextmenu, null)
-animeindo.*##+js(set, document.onmousedown, null)
-animeindo.*##+js(set, document.onselectstart, null)
-animekisa.tv##+js(acis, document.write)
-animeku.tv##+js(set, adBlockDetected, false)
-animepahe.com##+js(ceol, play, .click-to-load)
-anoboy.com##+js(set, h237, undefined)
+aceservice.club##+js(abort-current-inline-script, popup_ads)
+aceservice.club##+js(addEventListener-defuser, click, closedx)
+aceservice.club##+js(remove-attr, oncontextmenu, body)
+aceservice.club##+js(window.open-defuser)
+allaboutxiaomi.com##+js(abort-on-property-read, anOptions)
+androidpit.com##+js(abort-current-inline-script, addJwPlayer, ('sidebar'))
+anime8.ru##+js(addEventListener-defuser, mouseover)
+anime8.ru##+js(window.scroll, episode, 70)
+animeindo.*##+js(abort-current-inline-script, atob)
+animeindo.*##+js(abort-current-inline-script, document.write, asynctagfetch)
+animeindo.*##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)
+animeindo.*##+js(abort-on-property-write, _0xbc13)
+animeindo.*##+js(set-constant, document.oncontextmenu, null)
+animeindo.*##+js(set-constant, document.onmousedown, null)
+animeindo.*##+js(set-constant, document.onselectstart, null)
+animekisa.tv##+js(abort-current-inline-script, document.write)
+animeku.tv##+js(set-constant, adBlockDetected, false)
+animepahe.com##+js(click-elements-onload, play, .click-to-load)
+anoboy.com##+js(set-constant, h237, undefined)
 
-blogspot.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
-bola.net##+js(ra, data-te-category|data-te-label|data-te-tracked, a[href])
-bola.net##+js(nowoif)
-bicycling.com##+js(ra, target, .new-sidepanel-menu a)
-bing.com##+js(css, /^\/translator\/$/, #tt_translatorHome, margin-right:20px;width:auto)
-blacktiesports.net##+js(ra, onclick, body)
-bukalapak.com##+js(ra, target, a)
+blogspot.*##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)
+bola.net##+js(remove-attr, data-te-category|data-te-label|data-te-tracked, a[href])
+bola.net##+js(window.open-defuser)
+bicycling.com##+js(remove-attr, target, .new-sidepanel-menu a)
+bing.com##+js(add-inline-style, /^\/translator\/$/, #tt_translatorHome, margin-right:20px;width:auto;)
+blacktiesports.net##+js(remove-attr, onclick, body)
+bukalapak.com##+js(remove-attr, target, a)
 
-centralsport.club##+js(aopr, zfgloadedpopup)
-cnnindonesia.com##+js(acis, shareBox.run)
-crowdin.com##+js(ra, target, #notification-panel a)
+centralsport.club##+js(abort-on-property-read, zfgloadedpopup)
+cnnindonesia.com##+js(abort-current-inline-script, shareBox.run)
+crowdin.com##+js(remove-attr, target, #notification-panel a)
 
-devdocs.io##+js(sck, analyticsConsent=0)
-devdocs.io##+js(sck, analyticsConsentAsked=1)
-devdocs.io##+js(sck, hideIntro=1)
-dhs-sports.com##+js(ra, target, a.pic)
+devdocs.io##+js(set-cookie, analyticsConsent=0)
+devdocs.io##+js(set-cookie, analyticsConsentAsked=1)
+devdocs.io##+js(set-cookie, hideIntro=1)
+dhs-sports.com##+js(remove-attr, target, a.pic)
 
-eraspace.com##+js(ra, target, a)
+eraspace.com##+js(remove-attr, target, a)
 
-findx.com##+js(ra, data-target-href|onmousedown, .search-results h3 a)
-fmovies.*,ffmovies.*##+js(acis, atob, tabunder)
-fmovies.*,ffmovies.*##+js(acis, decodeURI, getScriptFromCss)
-fmovies.*,ffmovies.*##+js(aeld, /^(?:click|mousedown)$/, _0x)
-fmovies.*,ffmovies.*##+js(aopr, zfgloadedpopup)
+findx.com##+js(remove-attr, data-target-href|onmousedown, .search-results h3 a)
+fmovies.*,ffmovies.*##+js(abort-current-inline-script, atob, tabunder)
+fmovies.*,ffmovies.*##+js(abort-current-inline-script, decodeURI, getScriptFromCss)
+fmovies.*,ffmovies.*##+js(addEventListener-defuser, /^(?:click|mousedown)$/, _0x)
+fmovies.*,ffmovies.*##+js(abort-on-property-read, zfgloadedpopup)
 fmovies.*,ffmovies.*##+js(nowebrtc)
-fosshub.com##+js(ra, data-analytics-region)
+fosshub.com##+js(remove-attr, data-analytics-region)
 
-gog.com##+js(ra, gog-track-event)
+gog.com##+js(remove-attr, gog-track-event)
 
-heidisql.com##+js(ra, /data-(gevent|gaction|glabel)/)
-heidisql.com##+js(set, jQueryAvailable, falseFunc)
-heidisql.com##+js(nostif, console.log('Blocking ads detected'), 2000)
-hentaihaven.org##+js(acis, BetterJsPop)
-honeysanime.com##+js(ra, onclick, a)
-howtogeek.com##+js(acis, showEmail)
-howtogeek.com##+js(aeld, DOMContentLoaded, adsenseLoader)
+heidisql.com##+js(remove-attr, /data-(gevent|gaction|glabel)/)
+heidisql.com##+js(set-constant, jQueryAvailable, falseFunc)
+heidisql.com##+js(no-setTimeout-if, console.log('Blocking ads detected'), 2000)
+hentaihaven.org##+js(abort-current-inline-script, BetterJsPop)
+honeysanime.com##+js(remove-attr, onclick, a)
+howtogeek.com##+js(abort-current-inline-script, showEmail)
+howtogeek.com##+js(addEventListener-defuser, DOMContentLoaded, adsenseLoader)
 
-idfl.*##+js(nowoif, 1, bisabuka.net)
-igg-games.com##+js(set, advanced_ads_ready, noopFunc)
-igg-games.com##+js(set, T822, undefined)
+idfl.*##+js(window.open-defuser, 1, bisabuka.net)
+igg-games.com##+js(set-constant, advanced_ads_ready, noopFunc)
+igg-games.com##+js(set-constant, T822, undefined)
 
-kissasian.ch##+js(set, xaZlE, noopFunc)
-kompas.com##+js(rc, bapps-show, body.smartphone)
+kissasian.ch##+js(set-constant, xaZlE, noopFunc)
+kompas.com##+js(remove-class, bapps-show, body.smartphone)
 
-layarcinema.*##+js(nostif, /^/)
-letsupload.co##+js(aopr, zfgloadedpopup)
-lookmovie.*##+js(acis, atob)
+layarcinema.*##+js(no-setTimeout-if, /^/)
+letsupload.co##+js(abort-on-property-read, zfgloadedpopup)
+lookmovie.*##+js(abort-current-inline-script, atob)
 
-movie4k.org##+js(aopr, T822)
-movie4k.org##+js(set, zoneNativeSett, undefined)
-moviego.net##+js(aopr, zfgloadedpopup)
-mspoweruser.com##+js(sck, shunno_auto=auto)
-mspoweruser.com##+js(sck, shunno_site_theme=dark)
-muchohentai.com##+js(set, l6H7m, undefined)
-myoplay.live##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
-myoplay.live##+js(aeld, SGPMPopupLoader)
-myoplay.live##+js(aopr, _0x2070)
-myoplay.live##+js(aopr, _0xbc13)
+movie4k.org##+js(abort-on-property-read, T822)
+movie4k.org##+js(set-constant, zoneNativeSett, undefined)
+moviego.net##+js(abort-on-property-read, zfgloadedpopup)
+mspoweruser.com##+js(set-cookie, shunno_auto=auto)
+mspoweruser.com##+js(set-cookie, shunno_site_theme=dark)
+muchohentai.com##+js(set-constant, l6H7m, undefined)
+myoplay.live##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)
+myoplay.live##+js(addEventListener-defuser, SGPMPopupLoader)
+myoplay.live##+js(abort-on-property-read, _0x2070)
+myoplay.live##+js(abort-on-property-read, _0xbc13)
 
-nanime.*##+js(aeld, /mousedown|mouseup/, 0x)
-nanime.*##+js(aopr, zfgloadedpopup)
-nanime.*##+js(ceol, episode, #player)
-newatlas.com##+js(aopr, window.admiral)
-nicoblog.org##+js(aopr, ad2games)
+nanime.*##+js(addEventListener-defuser, /mousedown|mouseup/, 0x)
+nanime.*##+js(abort-on-property-read, zfgloadedpopup)
+nanime.*##+js(click-elements-onload, episode, #player)
+newatlas.com##+js(abort-on-property-read, window.admiral)
+nicoblog.org##+js(abort-on-property-read, ad2games)
 
 obengplus.com##+js(nobab)
 
-phoronix.com##+js(acis, window.onload, aax_getad_mpb)
-pingsunday.com##+js(ra, target, .entry-content a)
-play.google.com##+js(ra, jslog, button)
-playbackloop.com##+js(ac, dark-mode, body)
-polygon.com##+js(acis, CONCERT_ADS_CONFIG)
-polygon.com##+js(ra, data-analytics-link)
-polygon.com##+js(ra, data-chorus-optimize-field)
-polygon.com##+js(set, concertAdsQueue, undefined)
-putlockertv.to##+js(aopr, zfgloadedpopup)
+phoronix.com##+js(abort-current-inline-script, window.onload, aax_getad_mpb)
+pingsunday.com##+js(remove-attr, target, .entry-content a)
+play.google.com##+js(remove-attr, jslog, button)
+playbackloop.com##+js(add-class, dark-mode, body)
+polygon.com##+js(abort-current-inline-script, CONCERT_ADS_CONFIG)
+polygon.com##+js(remove-attr, data-analytics-link)
+polygon.com##+js(remove-attr, data-chorus-optimize-field)
+polygon.com##+js(set-constant, concertAdsQueue, undefined)
+putlockertv.to##+js(abort-on-property-read, zfgloadedpopup)
 
-riie.net##+js(acis, document.keypress, e.ctrlKey)
-riie.net##+js(acis, document.oncontextmenu, n.nodeName)
-riie.net##+js(acis, document.ondragstart)
-riie.net##+js(acis, document.onkeydown, e.keyCode)
-riie.net##+js(aeld, keydown, /e\.ctrlKey|event\.metaKey/)
-riie.net##+js(set, disableSelection, noopFunc)
-ruangotaku.com##+js(acis, getCoords)
+riie.net##+js(abort-current-inline-script, document.keypress, e.ctrlKey)
+riie.net##+js(abort-current-inline-script, document.oncontextmenu, n.nodeName)
+riie.net##+js(abort-current-inline-script, document.ondragstart)
+riie.net##+js(abort-current-inline-script, document.onkeydown, e.keyCode)
+riie.net##+js(addEventListener-defuser, keydown, /e\.ctrlKey|event\.metaKey/)
+riie.net##+js(set-constant, disableSelection, noopFunc)
+ruangotaku.com##+js(abort-current-inline-script, getCoords)
 
-simkl.com##+js(aopw, window.adBlock)
-sms-receive.net##+js(acis, $, AdBlock Plus)
-soccerstreams.net##+js(acis, decodeURI, atob)
-soccerstreams.net##+js(aopr, S9tt)
-soccerstreams.net##+js(aopw, encodeURIComponent)
-sportsway.net##+js(acis, decodeURIComponent, zfgloadedpopup)
-sportsway.net##+js(aopr, zfgloadedpopup)
-streamgoals.com##+js(ra, target, .thumbnail > a)
-subscene.com##+js(sck, DarkTheme=True)
-subscene.com##+js(sck, ForeignOnly=False)
-subscene.com##+js(sck, HearingImpaired=1)
-subscene.com##+js(sck, LanguageFilter=13|44)
-subscene.com##+js(sck, SortSubtitlesByDate=True)
-swatchseries.to##+js(ra, target, a)
+simkl.com##+js(abort-on-property-write, window.adBlock)
+sms-receive.net##+js(abort-current-inline-script, $, AdBlock Plus)
+soccerstreams.net##+js(abort-current-inline-script, decodeURI, atob)
+soccerstreams.net##+js(abort-on-property-read, S9tt)
+soccerstreams.net##+js(abort-on-property-write, encodeURIComponent)
+sportsway.net##+js(abort-current-inline-script, decodeURIComponent, zfgloadedpopup)
+sportsway.net##+js(abort-on-property-read, zfgloadedpopup)
+streamgoals.com##+js(remove-attr, target, .thumbnail > a)
+subscene.com##+js(set-cookie, DarkTheme=True)
+subscene.com##+js(set-cookie, ForeignOnly=False)
+subscene.com##+js(set-cookie, HearingImpaired=1)
+subscene.com##+js(set-cookie, LanguageFilter=13|44)
+subscene.com##+js(set-cookie, SortSubtitlesByDate=True)
+swatchseries.to##+js(remove-attr, target, a)
 
-tempo.co##+js(ra, style, html)
-tomshardware.com##+js(aopw, _sp_)
+tempo.co##+js(remove-attr, style, html)
+tomshardware.com##+js(abort-on-property-write, _sp_)
 
-uservideo.xyz##+js(ceol, file, .vjs-big-play-button)
+venturebeat.com##+js(addEventListener-defuser, scroll, trigger("nearBottom"))
+marketplace.visualstudio.com##+js(remove-attr, target, a)
 
-venturebeat.com##+js(aeld, scroll, trigger("nearBottom"))
-marketplace.visualstudio.com##+js(ra, target, a)
-
-yesmangasbr.com##+js(set, testDisplay, false)
-ymovies.*##+js(acis, decodeURIComponent, zfgloadedpopup)
-ymovies.*##+js(aeld, /^(?:DOMContentLoaded|load)$/, _0x)
-ymovies.*##+js(aeld, /mousedown|mouseup/)
-ymovies.*##+js(aopr, _0xbc13)
-ymovies.*##+js(aopr, zfgloadedpopup)
-ymovies.*##+js(set, fixAds, noopFunc)
-news.ycombinator.com##+js(olint, .storylink|a[rel="nofollow"])
+yesmangasbr.com##+js(set-constant, testDisplay, false)
+ymovies.*##+js(abort-current-inline-script, decodeURIComponent, zfgloadedpopup)
+ymovies.*##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)
+ymovies.*##+js(addEventListener-defuser, /mousedown|mouseup/)
+ymovies.*##+js(abort-on-property-read, _0xbc13)
+ymovies.*##+js(abort-on-property-read, zfgloadedpopup)
+ymovies.*##+js(set-constant, fixAds, noopFunc)
+news.ycombinator.com##+js(set-attr, .storylink|a[rel="nofollow"], target, _blank)

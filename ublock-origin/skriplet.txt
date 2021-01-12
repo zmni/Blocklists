@@ -1,4 +1,4 @@
-ac.js application/javascript
+add-class.js application/javascript
 (() => {
     const token = "{{1}}";
     if (token === "" || token === "{{1}}") return;
@@ -17,7 +17,34 @@ ac.js application/javascript
     }
 })();
 
-ceol.js application/javascript
+add-inline-style.js application/javascript
+(() => {
+    let path = "{{1}}";
+    if (path === "" || path === "{{1}}") return;
+    if (/^\/.+\/$/.test(path)) path = path.slice(1, -1);
+    path = new RegExp(path, "i");
+    if (path.test(location.pathname) === false) return;
+    let selector = "{{2}}";
+    if (selector === "" || selector === "{{2}}") return;
+    selector = selector.replace(/\|/gi, ",");
+    const style = "{{3}}";
+    if (style === "" || style === "{{3}}") return;
+    const addStyle = () => {
+        try {
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                element.style.cssText = style;
+            }
+        } catch (ex) {}
+    };
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", addStyle, { capture: true, once: true });
+    } else {
+        addStyle();
+    }
+})();
+
+click-elements-onload.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
@@ -36,7 +63,7 @@ ceol.js application/javascript
     }
 })();
 
-cepn.js application/javascript
+click-element-prev-next.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
@@ -68,34 +95,7 @@ cepn.js application/javascript
     }
 })();
 
-css.js application/javascript
-(() => {
-    let path = "{{1}}";
-    if (path === "" || path === "{{1}}") return;
-    if (/^\/.+\/$/.test(path)) path = path.slice(1, -1);
-    path = new RegExp(path, "i");
-    if (path.test(location.pathname) === false) return;
-    let selector = "{{2}}";
-    if (selector === "" || selector === "{{2}}") return;
-    selector = selector.replace(/\|/gi, ",");
-    const style = "{{3}}";
-    if (style === "" || style === "{{3}}") return;
-    const addStyle = () => {
-        try {
-            const elements = document.querySelectorAll(selector);
-            for (const element of elements) {
-                element.style.cssText = style;
-            }
-        } catch (ex) {}
-    };
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", addStyle, { capture: true, once: true });
-    } else {
-        addStyle();
-    }
-})();
-
-html.js application/javascript
+insert-html.js application/javascript
 (() => {
     const selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
@@ -113,29 +113,7 @@ html.js application/javascript
     }
 })();
 
-olint.js application/javascript
-(() => {
-    let selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    selector = selector.replace(/\|/g, ",");
-    const targetBlank = () => {
-        try {
-            const elements = document.querySelectorAll(selector);
-            for (const element of elements) {
-                if (element.href.indexOf(location.hostname) === -1) {
-                    element.setAttribute("target", "_blank");
-                }
-            }
-        } catch (ex) {}
-    };
-    if (document.readyState === "complete") {
-        targetBlank();
-    } else {
-        window.addEventListener("load", targetBlank, { once: true });
-    }
-})();
-
-sa.js application/javascript
+set-attr.js application/javascript
 (() => {
     let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
@@ -159,7 +137,7 @@ sa.js application/javascript
     }
 })();
 
-sck.js application/javascript
+set-cookie.js application/javascript
 (() => {
     let data = "{{1}}";
     if (data.indexOf("=") === -1) return;
@@ -167,7 +145,7 @@ sck.js application/javascript
     document.cookie = data;
 })();
 
-scke.js application/javascript
+set-cookie-extra.js application/javascript
 (() => {
     let data = "{{1}}";
     const path = "{{2}}";
@@ -192,7 +170,7 @@ scke.js application/javascript
     document.cookie = data;
 })();
 
-wsol.js application/javascript
+window.scroll.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
