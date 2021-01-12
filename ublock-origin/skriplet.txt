@@ -21,6 +21,16 @@ ceol.js application/javascript
 (() => {
     const selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
+    let path = "{{2}}";
+    if (path === "" || path === "{{2}}") {
+        path = ".?";
+    } else if (/^\/.+\/$/.test(path)) {
+        path = path.slice(1, -1);
+    } else {
+        path = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+    path = new RegExp(path, "i");
+    if (path.test(location.pathname) === false) return;
     const clicked = () => {
         document.querySelector(selector).click();
     };
