@@ -112,7 +112,6 @@ anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
 anime-planet.com##p[itemprop="description"]
 anime8.ru##.alert
 anime8.ru##.footer-tags
-anime8.ru##.movies-list > .ml-item:has(:scope .mli-info:has-text((Dub)))
 anime8.ru##.movies-list-wrap .ml-title + p.full
 anime8.ru##.mv-rating
 anime8.ru##.mvic-btn
@@ -130,7 +129,6 @@ animeflix.io##.flex:has(> .v-alert:only-child)
 animeflix.io##.v-btn:has(> .v-btn__content > .v-icon:has-text(chat))
 animeflix.io##.v-navigation-drawer
 animehd47.com##.zbanner
-animehd47.com##.zmovies:has-text((Dub))
 animehub.ac##.sb-discordapp
 animehub.ac##.sb-subs
 animeidhentai.com##.hentai_pro_float
@@ -159,7 +157,6 @@ animeindo.cc##div:has(> script:only-child)
 animekisa.tv##.slider
 animekisa.tv##.messageg
 animekisa.tv##.selector-mode
-animekisa.tv##.selector-mode > a[href="/dubbed"]
 animekisa.tv##.now2 .c br
 animekisa.tv##.video-js ~ *
 animeku.tv##.ads
@@ -519,6 +516,7 @@ gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
 gogoanime.*##.introtext
 gogoanime.*##.items > li:has(> .name > a:has-text(/digimon|gundam|pokemon/i))
 gogoanime.*##.list_dowload
+gogoanime.*##.list_search_ajax:has(> a:has-text((Dub)))
 gogoanime.*##.menu_top_link
 gogoanime.*##.menu_top_link
 gogoanime.*##.rsidebar
@@ -610,7 +608,6 @@ youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
 
 kerrang.com##.MasterBillboard:has(> .AdUnit)
 kimovil.com##.short-url
-kissanime.ru##.listing > tbody > tr:has-text((Dub))
 kitsu.io##.kitsu-ad
 kitsu.io##.library-ad
 kompas.com##.bapps.-android
