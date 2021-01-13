@@ -509,7 +509,6 @@ gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
 gogo-play.net##.list-server-items
 gogoanime.*##.ad
-gogoanime.*##.added_series_body ul > li:has(> a:has-text((Dub)))
 gogoanime.*##.anime_video_body_comment_name
 gogoanime.*##.anime_video_note_watch
 gogoanime.*##.bookmark
@@ -518,9 +517,8 @@ gogoanime.*##.download-anime
 gogoanime.*##.favorites_book
 gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
 gogoanime.*##.introtext
-gogoanime.*##.items > li:has(> .name > a:has-text(/\(dub\)|digimon|gundam|pokemon/i))
+gogoanime.*##.items > li:has(> .name > a:has-text(/digimon|gundam|pokemon/i))
 gogoanime.*##.list_dowload
-gogoanime.*##.list_search_ajax:has(> a:has-text((Dub)))
 gogoanime.*##.menu_top_link
 gogoanime.*##.menu_top_link
 gogoanime.*##.rsidebar
