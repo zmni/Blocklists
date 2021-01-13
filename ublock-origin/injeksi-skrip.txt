@@ -78,6 +78,7 @@ bicycling.com##+js(remove-attr, target, .new-sidepanel-menu a)
 bing.com##+js(add-inline-style, /^\/translator\/$/, #tt_translatorHome, margin-right:20px;width:auto;)
 blacktiesports.net##+js(remove-attr, onclick, body)
 bukalapak.com##+js(remove-attr, target, a)
+docs.beakerbrowser.com##+js(set-attr, html, data-theme, dark)
 
 centralsport.club##+js(abort-on-property-read, zfgloadedpopup)
 cnnindonesia.com##+js(abort-current-inline-script, shareBox.run)
