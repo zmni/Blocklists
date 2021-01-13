@@ -21,8 +21,8 @@ add-inline-style.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
-    if (/^\/.+\/$/.test(path)) path = path.slice(1, -1);
-    path = new RegExp(path, "i");
+    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    path = new RegExp(path);
     if (path.test(location.pathname) === false) return;
     let selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
@@ -48,8 +48,8 @@ click-elements-onload.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
-    if (/^\/.+\/$/.test(path)) path = path.slice(1, -1);
-    path = new RegExp(path, "i");
+    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    path = new RegExp(path);
     if (path.test(location.pathname) === false) return;
     const selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
@@ -67,8 +67,8 @@ click-element-prev-next.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
-    if (/^\/.+\/$/.test(path)) path = path.slice(1, -1);
-    path = new RegExp(path, "i");
+    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    path = new RegExp(path);
     if (path.test(location.pathname) === false) return;
     const prev = "{{2}}";
     if (prev === "" || prev === "{{2}}") return;
@@ -174,8 +174,8 @@ window.scroll.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
-    if (/^\/.+\/$/.test(path)) path = path.slice(1, -1);
-    path = new RegExp(path, "i");
+    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    path = new RegExp(path);
     if (path.test(location.pathname) === false) return;
     const ytop = "{{2}}";
     if (ytop === "" || ytop === "{{2}}") return;
