@@ -389,7 +389,7 @@ github.com##.Box-header--blue:style( --color-box-header-blue-bg: var(--color-bg-
 github.com##.Box-row--focus-gray.navigation-focus:style( background-color: transparent !important; )
 goal.com##.widget-header__wrapper:style( position: static !important; )
 gogo-play.net###list-server-more:hover > .list-server-items, #show-server:hover + .list-server-items, .list-server-items:hover:style( display: block !important; )
-gogo-play.net##.list-server-items li.active:style( color: red !important; font-weight: bold !important; )
+gogo-play.net##.list-server-items li.active:style( color: red !important; )
 gogoanime.*##section.headnav:style( padding-bottom: 0 !important; )
 gogoanime.*##section.content section.content_left:style( float: none !important; width: 100% !important; )
 gogoanime.*##.main_body:style( border: unset !important; )
