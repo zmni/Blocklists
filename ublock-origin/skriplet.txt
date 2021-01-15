@@ -126,6 +126,7 @@ set-attr.js application/javascript
         try {
             const elements = document.querySelectorAll(selector);
             for (const element of elements) {
+                if (name === "target" && value === "_blank" && element.href.indexOf(location.hostname) !== -1) continue;
                 element.setAttribute(name, value);
             }
         } catch (ex) {}
