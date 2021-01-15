@@ -6,10 +6,9 @@
 !#include aset-3.txt
 !#include aset-x.txt
 
+!#include kueri-url.txt
+
 !#include elemen-0.txt
 !#include elemen-x.txt
 
-!#include injeksi-css.txt
-!#include injeksi-skrip.txt
-
-!#include kueri-param.txt
+!#include injeksi-js.txt
