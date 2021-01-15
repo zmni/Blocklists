@@ -505,7 +505,6 @@ goal.com##aside:has(> .commercial:only-child)
 gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
-gogo-play.net##.list-server-items
 gogoanime.*##.ad
 gogoanime.*##.anime_video_body_comment_name
 gogoanime.*##.anime_video_note_watch
