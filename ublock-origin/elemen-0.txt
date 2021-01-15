@@ -112,6 +112,7 @@ anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
 anime-planet.com##p[itemprop="description"]
 anime8.ru##.alert
 anime8.ru##.footer-tags
+anime8.ru##.ml-item:has(> .ml-mask > .mli-info > h2:has-text((Dub)))
 anime8.ru##.movies-list-wrap .ml-title + p.full
 anime8.ru##.mv-rating
 anime8.ru##.mvic-btn
@@ -732,6 +733,7 @@ maslosoft.com##.social-sharing-share-block
 megaspin.net##.product-card:has(> .outofstock-lighten)
 meowstream.com##.site-branding
 metacritic.com##.sharing
+min.io##.footer__banner
 mmorpg.com##div[style]:not([class]):not([id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
 motorauthority.com##.adv-spacer
 motorauthority.com##.adv-spacer-top-wraper

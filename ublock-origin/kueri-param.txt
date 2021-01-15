@@ -34,6 +34,8 @@ utm_$document,xmlhttprequest,queryprune=|utm_
 ||imdb.com^*ref_$document,queryprune=|ref_
 ||instagram.com^*igshid$document,xmlhttprequest,queryprune=|igshid
 
+||store.steampowered.com^snr$document,xmlhttprequest,queryprune=|snr
+
 ||t.co^*amp$document,queryprune=|amp
 ||tokopedia.com^*navsource$document,queryprune=|navsource
 ||tokopedia.com^*nref$document,queryprune=|nref

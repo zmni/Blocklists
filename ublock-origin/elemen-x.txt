@@ -56,9 +56,7 @@
 
 alternativeto.net#@#.comments
 bitly.com#@#.twitter
-vault.bitwarden.com#@#.fa-share
-vault.bitwarden.com#@#.fa-share-alt
-vault.bitwarden.com#@#.fa-share-square-o
+code.visualstudio.com#@#.tweets
 epicgames.com#@#.social-container
 ketarin.org#@##comments
 microsoft.com#@#img[alt="Instagram"]
@@ -80,5 +78,8 @@ transifex.com#@##icon-twitter
 tweetdeck.twitter.com#@#.icon-twitter-bird
 tweetdeck.twitter.com#@#.js-tweet-button
 twitter.com#@#.facebook-banner
+vault.bitwarden.com#@#.fa-share
+vault.bitwarden.com#@#.fa-share-alt
+vault.bitwarden.com#@#.fa-share-square-o
 youtube.com#@##comment
 youtube.com#@##comments
