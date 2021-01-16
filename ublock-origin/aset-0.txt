@@ -30,7 +30,6 @@
 ||fmax.xyz^
 ||henry-loieurope.xyz^
 ||howtubray.com^
-||ingest.sentry.io^
 ||iupot.com^
 ||jogdosoaf.com^
 ||make6pain.com^

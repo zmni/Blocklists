@@ -44,14 +44,11 @@
 5movies.to##.sidebar
 5movies.to###vote
 729sports.com##.webBannerTable
-9anime.*##.alert
 9anime.*##.anime-list > li:has(> .poster > .taglist > .preview)
 9anime.*##.anime-list > li:has(> .poster > .taglist > .special)
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
 9anime.*##.anime-list-s > li:has(> .info > a:has-text((Dub)))
 9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
-9anime.*###comment
-9anime.*##section#info .tags
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
 9animes.net##div:has(> .tele_b):has(> .voir_b):upward(1)
@@ -93,8 +90,6 @@ androidcentral.com,windowscentral.com##.article-body__suppl_content
 androidcentral.com,windowscentral.com##.block-topic
 androidpit.com##.article-engagement
 androidpit.com##.articlePartBanner
-anichart.net##.login-link.shr-link
-anichart.net##.login-link.support
 anidb.net##.i_crunchyroll
 anidb.net##.i_resource_amazon_video
 anidb.net##.i_resource_crunchyroll
@@ -110,25 +105,11 @@ anime-planet.com##.statusArea
 anime-planet.com##h1[itemprop="name"] + div[itemprop="description"]
 anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
 anime-planet.com##p[itemprop="description"]
-anime8.ru##.alert
-anime8.ru##.footer-tags
 anime8.ru##.ml-item:has(> .ml-mask > .mli-info > h2:has-text((Dub)))
-anime8.ru##.movies-list-wrap .ml-title + p.full
-anime8.ru##.mv-rating
-anime8.ru##.mvic-btn
-anime8.ru##.pad
 anime8.ru##.search-suggest > ul > li:has-text((Dub))
-anime8.ru###bar-player
-anime8.ru###bread
-anime8.ru###bread + center
-anime8.ru###btnShowComments
-anime8.ru###mv-keywords
-anime8.ru###switch-mode
-anime8.ru##nav > p
 animefillerlist.com##[id*="-adsense-"]
 animeflix.io##.flex:has(> .v-alert:only-child)
 animeflix.io##.v-btn:has(> .v-btn__content > .v-icon:has-text(chat))
-animeflix.io##.v-navigation-drawer
 animehd47.com##.zbanner
 animehub.ac##.sb-discordapp
 animehub.ac##.sb-subs
@@ -137,29 +118,9 @@ animeidhentai.com##.mobads
 animeidhentai.com###myDIV
 animeidhentai.com###myDIV2
 animeidhentai.com###player2 > a
-animeindo.cc##.animepost .animposx .data .mark
-animeindo.cc##.bigcover
-animeindo.cc##.content-separate::before
-animeindo.cc##.episodeinf
-animeindo.cc##.icon.comment
 animeindo.cc##.icon.shares
-animeindo.cc##.idTabs
-animeindo.cc##.info_episode
-animeindo.cc##.infox .desc
-animeindo.cc##.infox .mindesc
-animeindo.cc##.recanim
-animeindo.cc##.rt
 animeindo.cc##.sosmed
-animeindo.cc###breadcrumbs
-animeindo.cc###sidebar
-animeindo.cc###synopsis
-animeindo.cc###trailer
 animeindo.cc##div:has(> script:only-child)
-animekisa.tv##.slider
-animekisa.tv##.messageg
-animekisa.tv##.selector-mode
-animekisa.tv##.now2 .c br
-animekisa.tv##.video-js ~ *
 animeku.tv##.ads
 animeku.tv##.adsgen
 animeku.tv##.adspost1
@@ -168,9 +129,6 @@ animeku.tv##.bottomtitle + div[style]
 animeku.tv##.videoad
 animeku.tv##.videoads
 animeku.tv###mg-player-bar
-animepahe.com##.alert
-animepahe.com##.anime-cover
-animepahe.com##.cover-helper
 animerush.tv##.affi-add
 animerush.tv##.in_up_ad_game1
 animerush.tv##.in_up_ad-area
@@ -291,9 +249,6 @@ cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement")
 cinemaindo.web.id##.keywords
 cinemaindo.web.id###btmx
 cinemaindo.web.id###ptbanner
-clippituser.tv##.card > :not(.video)
-clippituser.tv##.download
-clippituser.tv##.similar-container
 cloudvideo.tv##.slim-header
 cmovieshd.net##.bg-home
 cmovieshd.net##.block-comment
@@ -341,9 +296,6 @@ deviantart.com##.gruze-sidebar:has(> .match-body-height > .tower_right_wrapper >
 dewanonton.*##.banner-common
 dewanonton.*##.banner-common:upward(2)
 dewanonton.*##.banner-premium
-dewanonton.*##.dewanonton-section--hero
-dewanonton.*##.dewanonton-section--hero + section:not([class]):not([id]):not([style])
-dewanonton.*##.dewanonton-section--synopsis
 dewanonton.*##.left-banner
 dewanonton.*##.right-banner
 dewanonton.*##.section-title:upward(2)
@@ -361,24 +313,12 @@ dunia21.com##.keywords
 dunia21.com##[id$="banner"]
 dunia21.com###rotating
 dutafilm.*##.afs_ads
-dutafilm.*##.catalogue
-dutafilm.*##.jwseed
-dutafilm.*##.left-content > :not(.player)
-dutafilm.*##.menu-content
 dutafilm.*##.mv-content-items > a:has(:scope .cam-color)
 dutafilm.*##.mv-content-items > a:has(:scope .camh-color)
-dutafilm.*##.notice
 dutafilm.*##.related-mv:has(:scope .cam-color)
 dutafilm.*##.related-mv:has(:scope .camh-color)
-dutafilm.*##.right-content
-dutafilm.*##.search-label
 dutafilm.*##.socmed
 dutafilm.*##.top-banner
-dutafilm.*##.trailer-head
-dutafilm.*##.vid-episodes-title
-dutafilm.*##.vid-keywords
-dutafilm.*##.vid-preface
-dutafilm.*##.vid-seo-keywords
 dutafilm.*##a[href^="https://rebrand.ly/"]
 dutafilm.*##a[title="dutafilm facebook"]
 dutafilm.*##a[title="dutafilm instagram"]
@@ -431,28 +371,10 @@ flixgo.co##.details__title > .details__cat
 flixgo.co##.footer__counter
 flixgo.co###dle-comments-form
 flixgo.net##a[href*=".com/ads?"]
-flixtor.to##.mod-trailer .modal-footer
-flixtor.to##.mod-trailer .modal-header
 flixtor.to##[class^="contentList"] > .d-flex > .py-2:has(:scope .front .fa-video-camera.goldc)
-flixtor.to###player + div
-flixtor.to###playercontainer + div
-flixtor.to##div[class^="contentList"] > .justify-content-around > .w-100
-flixtor.to##li.nav-item.vipmenu
-fmovies.*,ffmovies.*##.alert
-fmovies.*,ffmovies.*##.filmlist .item .meta .type
+fmovies.*,ffmovies.*##.share
 fmovies.*,ffmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
-fmovies.*,ffmovies.*##.filters > .clearfix
-fmovies.*,ffmovies.*##.nav
-fmovies.*,ffmovies.*##.notification
-fmovies.*,ffmovies.*##.rating
-fmovies.*,ffmovies.*##.tags
-fmovies.*,ffmovies.*##.tooltipster-content .actions
-fmovies.*,ffmovies.*##.watch-now
 fmovies.*,ffmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
-fmovies.*,ffmovies.*###watch .play::after
-fmovies.*,ffmovies.*###watch .play::before
-fmovies.*,ffmovies.*###watch #controls .share
-fmovies.*,ffmovies.*##body.list .bl > .heading > h1
 fmovies.*,ffmovies.*##div[class*="addthis_inline_share_"]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
 footybite.com##a[href^="https://tracker-"]:upward(1)
@@ -506,22 +428,9 @@ gog.com##[ng-bind*="tile.data.price.discountPercentage"]
 gog.com##[ng-bind="tile.data.price.baseAmount"]
 gog.com##[ng-if="tile.data.price.discountPercentage"]
 gogoanime.*##.ad
-gogoanime.*##.anime_video_body_comment_name
-gogoanime.*##.anime_video_note_watch
-gogoanime.*##.bookmark
-gogoanime.*##.content_right
-gogoanime.*##.download-anime
-gogoanime.*##.favorites_book
 gogoanime.*##.headnav_center:has(> .anime_name.adsverting)
-gogoanime.*##.introtext
 gogoanime.*##.items > li:has(> .name > a:has-text(/digimon|gundam|pokemon/i))
-gogoanime.*##.list_dowload
 gogoanime.*##.list_search_ajax:has(> a:has-text((Dub)))
-gogoanime.*##.menu_top_link
-gogoanime.*##.menu_top_link
-gogoanime.*##.rsidebar
-gogoanime.*###announcement
-gogoanime.*##a[href^="https://vidstreaming.io/download?"]
 gogoanime.*##body > div:has-text(bookmark)
 greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
@@ -769,34 +678,14 @@ myanime.co##.notices
 myanime.co##.stats-area
 myanimelist.net##.ad-skin-side-bg
 myanimelist.net##.ad-skin-side-outer
-myanimelist.net##.anime-detail-header-affiliate-dialog
-myanimelist.net##.anime-detail-header-stats .notice_open_public
-myanimelist.net##.anime-detail-header-stats .stats-block .score
-myanimelist.net##.anime-detail-header-stats .stats-block::before
 myanimelist.net##.banner-footer-anime-streaming
 myanimelist.net##.banner-header-anime-straming
 myanimelist.net##.border_bottom:has(> div > div[style][data-height])
 myanimelist.net##.btn-affiliate
-myanimelist.net##.episode_list .episode-video
-myanimelist.net##.episode_list td.episode-video
 myanimelist.net##.featured-pickup-unit:has(:scope .tag-color-feature-advertorial)
-myanimelist.net##.header-menu-login > .btn-mal-service
-myanimelist.net##.icon-watch
-myanimelist.net##.icon-watch-pv
-myanimelist.net##.index-watch-description
-myanimelist.net##.js-statistics-info[itemprop="aggregateRating"]
-myanimelist.net##.manga_store-pop-up.popup-background
-myanimelist.net##.navi-seasonal.fixed::after
-myanimelist.net##.news-list > :not(.news):not(.news-unit)
 myanimelist.net##.news-unit:has(:scope .tag-color-feature-advertorial)
 myanimelist.net##.news-unit:has(> .mal-ad-unit:only-child)
-myanimelist.net##.page-common #menu.valentine #menu_left #nav li.valentine
-myanimelist.net##.seasonal-anime-list > article
 myanimelist.net##.social-login-block
-myanimelist.net##.top-ranking-table .ranking-list .score
-myanimelist.net##.top-ranking-table .ranking-list .your-score
-myanimelist.net##.top-ranking-table .table-header .score
-myanimelist.net##.top-ranking-table .table-header .your-score
 myanimelist.net##div[style]:not([class]):not([id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class]):not([id]):has(> div[style]:not([class]):not([id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
@@ -1302,11 +1191,7 @@ trakt.tv##li:has(> a[href="#comments"])
 transifex.com##.js-social-share
 trello.com###banners
 tvbersama.com##.adsheader
-tvseries.video##.castctn
-tvseries.video##.casttitle
-tvseries.video##.list-server-items
 tvseries.video##.mads
-tvseries.video##.playerctn ~ *
 tvzion.club##.notification
 twitch.tv##.side-info-container:has(:scope button:has-text(Sign up))
 twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(:scope a[href^="/directory/game/"]))
@@ -1334,7 +1219,6 @@ vev.io##.page-sidebar
 vev.io##.resize-sensor
 vev.io##.video-info
 vev.io##.vjs-info-button
-vidcloud9.com##.list-server-items
 vice.com##.article-heading-v2__social-link
 videohelp.com###mobilebanner
 vidio.com##.b-livestreaming-detail__engagements--share
@@ -1395,10 +1279,6 @@ wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
 wordpress.org##.locale-banner
 wplift.com##.cp-info-bar
 wplift.com##.ctaheaderbutton
-chromium.woolyss.com##.nav > li:has(> a[href="#comments"])
-chromium.woolyss.com###comments + br
-chromium.woolyss.com###f
-chromium.woolyss.com###fm
 
 xda-developers.com##.below-nav-ad
 xda-developers.com##.tagbar
