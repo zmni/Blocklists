@@ -473,8 +473,17 @@ ilovefreesoftware.com##.ABD_display_adblock
 imdb.com##.lister-item .col-watchlist-ribbon
 imdb.com##.lister-item .ratings-user-rating
 imdb.com##.lister-item > .lister-top-right
+imgpile.com##.nt
 imgtc.com##.banner_adslot
 imgtc.com##.mobile_adslot
+imgur.com##.Comment-create
+imgur.com##.CommentsList-comments
+imgur.com##.CommentsList-headline
+imgur.com##.EmeraldBanner
+imgur.com##.EmeraldButton
+imgur.com##.GalleryVote-accoladesButton
+imgur.com##.GiveEmeraldButton
+imgur.com##a[href="/emerald?source=fpBanner"]
 inc.com##.adhesivead
 inc.com##.interstitial_2x2
 inc.com##.interstitial_oop

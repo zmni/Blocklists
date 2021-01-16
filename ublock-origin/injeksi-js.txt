@@ -38,7 +38,7 @@
 ! UBAHSUAI
 ! add-class
 ! add-style
-! click-elements-onload
+! click-element-onload
 ! click-element-prev-next
 ! insert-html
 ! set-attr
@@ -68,7 +68,7 @@ animeindo.*##+js(set-constant, document.onmousedown, null)
 animeindo.*##+js(set-constant, document.onselectstart, null)
 animekisa.tv##+js(abort-current-inline-script, document.write)
 animeku.tv##+js(set-constant, adBlockDetected, false)
-animepahe.com##+js(click-elements-onload, play, .click-to-load)
+animepahe.com##+js(click-element-onload, play, .click-to-load)
 anoboy.com##+js(set-constant, h237, undefined)
 
 blogspot.*##+js(addEventListener-defuser, /^(?:DOMContentLoaded|load)$/, _0x)
@@ -133,7 +133,7 @@ myoplay.live##+js(abort-on-property-read, _0xbc13)
 
 nanime.*##+js(addEventListener-defuser, /mousedown|mouseup/, 0x)
 nanime.*##+js(abort-on-property-read, zfgloadedpopup)
-nanime.*##+js(click-elements-onload, episode, #player)
+nanime.*##+js(click-element-onload, episode, #player)
 newatlas.com##+js(abort-on-property-read, window.admiral)
 nicoblog.org##+js(abort-on-property-read, ad2games)
 

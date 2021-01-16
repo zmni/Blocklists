@@ -44,7 +44,7 @@ add-inline-style.js application/javascript
     }
 })();
 
-click-elements-onload.js application/javascript
+click-element-onload.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
@@ -197,9 +197,6 @@ window.scroll.js application/javascript
 hn.toggle-parent-comments.js application/javascript
 (() => {
     if ("/item" !== location.pathname) return;
-    // https://github.com/marcosnils/orange-juicer
-    // fetchParentWithClass traverses parents until it finds one
-    // that contains the specified class or else returns undefined
     const fetchParentWithClass = (element, className) => {
         while (element && !element.classList.contains(className)) {
             element = element.parentElement;
@@ -217,11 +214,9 @@ hn.toggle-parent-comments.js application/javascript
                 if (commentRow) commentRow.classList.toggle("noshow");
             }
         });
-        // Adds a space afer the "add comment" button
         const form = document.querySelector("form");
         form.appendChild(document.createTextNode("\u00A0"));
         form.appendChild(colexpButton);
-        // Process anchor toggles
         const commHeads = document.querySelectorAll(".comhead");
         for (chead of commHeads) {
             const childExpandToggle = document.createElement("a");
@@ -233,7 +228,6 @@ hn.toggle-parent-comments.js application/javascript
                 if (parent) {
                     let sibling = parent.nextElementSibling;
                     while (sibling) {
-                        // Found the next parent post, break loop
                         if (sibling.querySelectorAll('img[width="0"]').length > 0) break;
                         sibling.classList.toggle("noshow");
                         sibling = sibling.nextElementSibling;
