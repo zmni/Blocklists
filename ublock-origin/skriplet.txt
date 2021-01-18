@@ -121,7 +121,7 @@ set-attr.js application/javascript
     const name = "{{2}}";
     if (name === "" || name === "{{2}}") return;
     let value = "{{3}}";
-    if (value === "" || value === "{{3}}") value = "\"\"";
+    if (value === "" || value === "{{3}}") return;
     const setattr = () => {
         try {
             const nodes = document.querySelectorAll(selector);
