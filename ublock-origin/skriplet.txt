@@ -220,6 +220,7 @@ title-case.js application/javascript
         });
     };
     const doTitleCase = () => {
+        timer = undefined;
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
