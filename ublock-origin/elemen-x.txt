@@ -82,5 +82,3 @@ twitter.com#@#.facebook-banner
 vault.bitwarden.com#@#.fa-share
 vault.bitwarden.com#@#.fa-share-alt
 vault.bitwarden.com#@#.fa-share-square-o
-youtube.com#@##comment
-youtube.com#@##comments
