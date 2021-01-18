@@ -171,6 +171,25 @@ set-cookie-extra.js application/javascript
     document.cookie = data;
 })();
 
+title-case.js application/javascript
+(() => {
+    const selector = "{{1}}";
+    if (path === "" || path === "{{1}}") return;
+    const toTitleCase = (str) => str.replace(/\w\S*/g, (m) => m.charAt(0).toUpperCase() + m.substr(1) + toLowerCase());
+    const doTitleCase = () => {
+        const nodes = document.querySelectorAll(selector);
+        for (const node of nodes) {
+            let text = node.textContent;
+            node.textContent = toTitleCase(text);
+        }
+    };
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", doTitleCase, true);
+    } else {
+        doTitleCase();
+    }
+})();
+
 window.scroll.js application/javascript
 (() => {
     let path = "{{1}}";
