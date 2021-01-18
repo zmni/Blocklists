@@ -176,18 +176,56 @@ title-case.js application/javascript
     let selector = "{{1}}";
     if (selector === "" || selector === "{{1}}") return;
     selector = selector.replace(/\|/g, ",");
+    let behavior = "{{2}}";
+    let timer;
     const toTitleCase = (str) => str.replace(/\w\S*/g, (s) => s.charAt(0).toUpperCase() + s.substr(1).toLowerCase());
     const doTitleCase = () => {
-        const nodes = document.querySelectorAll(selector);
-        for (const node of nodes) {
-            const text = node.textContent.trim();
-            node.textContent = toTitleCase(text);
-        }
+        timer = undefined;
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                const text = node.textContent.trim();
+                node.textContent = toTitleCase(text);
+            }
+        } catch (ex) {}
     };
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", doTitleCase);
-    } else {
+    const mutationHandler = (mutations) => {
+        if (timer !== undefined) return;
+        let skip = true;
+        for (let i = 0; i < mutations.length && skip; i++) {
+            const { type, addedNodes, removedNodes } = mutations[i];
+            if (type === "attributes") skip = false;
+            for (let j = 0; j < addedNodes.length && skip; j++) {
+                if (addedNodes[j].nodeType === 1) {
+                    skip = false;
+                    break;
+                }
+            }
+            for (let j = 0; j < removedNodes.length && skip; j++) {
+                if (removedNodes[j].nodeType === 1) {
+                    skip = false;
+                    break;
+                }
+            }
+        }
+        if (skip) return;
+        timer = self.requestIdleCallback(doTitleCase, { timeout: 67 });
+    };
+    const start = () => {
         doTitleCase();
+        if (/\bstay\b/.test(behavior) === false) return;
+        const observer = new MutationObserver(mutationHandler);
+        observer.observe(document.documentElement, {
+            childList: true,
+            subtree: true,
+        });
+    };
+    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
+        document.addEventListener("load", start, { once: true });
+    } else if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", start, { once: true });
+    } else {
+        start();
     }
 })();
 
@@ -216,7 +254,6 @@ window.scroll.js application/javascript
 
 hn.toggle-parent-comments.js application/javascript
 (() => {
-    if ("/item" !== location.pathname) return;
     const fetchParentWithClass = (element, className) => {
         while (element && !element.classList.contains(className)) {
             element = element.parentElement;
@@ -224,6 +261,7 @@ hn.toggle-parent-comments.js application/javascript
         return element;
     };
     const colexpButtonEl = () => {
+        if ("/item" !== location.pathname) return;
         const colexpButton = document.createElement("input");
         colexpButton.setAttribute("type", "button");
         colexpButton.value = "exp/col parent";
