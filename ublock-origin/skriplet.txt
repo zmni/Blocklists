@@ -215,7 +215,7 @@ title-case.js application/javascript
     let behavior = "{{2}}";
     let timer;
     String.prototype.toTitleCase = () => {
-        return this.replace(/\w\S*/g, (txt) => {
+        return this.replace(/\b\w+('\w{1})?/g, (txt) => {
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     };
