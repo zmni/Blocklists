@@ -184,7 +184,7 @@ title-case.js application/javascript
         }
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", doTitleCase, true);
+        document.addEventListener("DOMContentLoaded", doTitleCase);
     } else {
         doTitleCase();
     }
