@@ -120,8 +120,8 @@ set-attr.js application/javascript
     selector = selector.replace(/\|/g, ",");
     const name = "{{2}}";
     if (name === "" || name === "{{2}}") return;
-    const value = "{{3}}";
-    if (value === "" || value === "{{3}}") return;
+    let value = "{{3}}";
+    if (value === "" || value === "{{3}}") value = "\"\"";
     const setattr = () => {
         try {
             const elements = document.querySelectorAll(selector);
