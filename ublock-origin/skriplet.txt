@@ -214,8 +214,8 @@ title-case.js application/javascript
     selector = selector.replace(/\|/g, ",");
     let behavior = "{{2}}";
     let timer;
-    String.prototype.toTitleCase = () => {
-        return this.replace(/\b\w+('\w{1})?/g, (txt) => {
+    const toTitleCase = (str) => {
+        return str.replace(/\b\w+('\w{1})?/g, (txt) => {
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     };
@@ -223,7 +223,8 @@ title-case.js application/javascript
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
-                node.innerText = node.innerText.trim().toTitleCase();
+                const text = node.innerText.trim();
+                node.innerText = toTitleCase(text);
             }
         } catch (ex) {}
     };
