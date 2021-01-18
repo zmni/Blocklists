@@ -174,7 +174,7 @@ set-cookie-extra.js application/javascript
 title-case.js application/javascript
 (() => {
     let selector = "{{1}}";
-    if (path === "" || path === "{{1}}") return;
+    if (selector === "" || selector === "{{1}}") return;
     selector = selector.replace(/\|/g, ",");
     const toTitleCase = (str) => str.replace(/\w\S*/g, (m) => m.charAt(0).toUpperCase() + m.substr(1) + toLowerCase());
     const doTitleCase = () => {
