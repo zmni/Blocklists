@@ -223,8 +223,9 @@ title-case.js application/javascript
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
-                const text = node.innerText.trim();
-                node.innerText = toTitleCase(text);
+                let text = node.innerText.trim();
+                text = toTitleCase(text)
+                node.innerText = text;
             }
         } catch (ex) {}
     };
