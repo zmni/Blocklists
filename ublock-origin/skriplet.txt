@@ -31,9 +31,9 @@ add-inline-style.js application/javascript
     if (style === "" || style === "{{3}}") return;
     const addStyle = () => {
         try {
-            const elements = document.querySelectorAll(selector);
-            for (const element of elements) {
-                element.style.cssText = style;
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                node.style.cssText = style;
             }
         } catch (ex) {}
     };
@@ -124,10 +124,10 @@ set-attr.js application/javascript
     if (value === "" || value === "{{3}}") value = "\"\"";
     const setattr = () => {
         try {
-            const elements = document.querySelectorAll(selector);
-            for (const element of elements) {
-                if (name === "target" && value === "_blank" && element.href.indexOf(location.hostname) !== -1) continue;
-                element.setAttribute(name, value);
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                if (name === "target" && value === "_blank" && node.href.indexOf(location.hostname) !== -1) continue;
+                node.setAttribute(name, value);
             }
         } catch (ex) {}
     };
