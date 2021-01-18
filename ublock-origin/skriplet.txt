@@ -1,13 +1,13 @@
 add-class.js application/javascript
 (() => {
-    const token = "{{1}}";
-    if (token === "" || token === "{{1}}") return;
-    const tokens = token.split(/\s*\|\s*/);
+    const class = "{{1}}";
+    if (class === "" || class === "{{1}}") return;
+    const classes = class.split(/\s*\|\s*/);
     const selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
     const addClass = () => {
         try {
-            document.querySelector(selector).classList.add(...tokens);
+            document.querySelector(selector).classList.add(...classes);
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
@@ -23,13 +23,13 @@ add-inline-style.js application/javascript
     if (path === "" || path === "{{1}}") return;
     path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     path = new RegExp(path);
-    if (path.test(location.pathname) === false) return;
     let selector = "{{2}}";
     if (selector === "" || selector === "{{2}}") return;
     selector = selector.replace(/\|/g, ",");
     const style = "{{3}}";
     if (style === "" || style === "{{3}}") return;
     const addStyle = () => {
+        if (path.test(location.pathname) === false) return;
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
@@ -69,7 +69,6 @@ click-element-prev-next.js application/javascript
     if (path === "" || path === "{{1}}") return;
     path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     path = new RegExp(path);
-    if (path.test(location.pathname) === false) return;
     const prev = "{{2}}";
     if (prev === "" || prev === "{{2}}") return;
     const next = "{{3}}";
@@ -78,6 +77,7 @@ click-element-prev-next.js application/javascript
         document.querySelector(selector).click();
     };
     const addClickEvent = () => {
+        if (path.test(location.pathname) === false) return;
         document.addEventListener("keyup", (event) => {
             if (event.altKey && event.key === "b") {
                 clicked(prev);
@@ -120,9 +120,12 @@ set-attr.js application/javascript
     selector = selector.replace(/\|/g, ",");
     const name = "{{2}}";
     if (name === "" || name === "{{2}}") return;
-    const value = "{{3}}";
-    if (value === "" || value === "{{3}}") return;
+    let value = "{{3}}";
+    if (value === "" || value === "{{3}}") value = '""';
+    let behavior = "{{4}}";
+    let timer;
     const setattr = () => {
+        timer = undefined;
         try {
             const nodes = document.querySelectorAll(selector);
             for (const node of nodes) {
@@ -131,10 +134,43 @@ set-attr.js application/javascript
             }
         } catch (ex) {}
     };
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", setattr, { once: true });
-    } else {
+    const mutationHandler = (mutations) => {
+        if (timer !== undefined) return;
+        let skip = true;
+        for (let i = 0; i < mutations.length && skip; i++) {
+            const { type, addedNodes, removedNodes } = mutations[i];
+            if (type === "attributes") skip = false;
+            for (let j = 0; j < addedNodes.length && skip; j++) {
+                if (addedNodes[j].nodeType === 1) {
+                    skip = false;
+                    break;
+                }
+            }
+            for (let j = 0; j < removedNodes.length && skip; j++) {
+                if (removedNodes[j].nodeType === 1) {
+                    skip = false;
+                    break;
+                }
+            }
+        }
+        if (skip) return;
+        timer = self.requestIdleCallback(setattr, { timeout: 67 });
+    };
+    const start = () => {
         setattr();
+        if (/\bstay\b/.test(behavior) === false) return;
+        const observer = new MutationObserver(mutationHandler);
+        observer.observe(document.documentElement, {
+            childList: true,
+            subtree: true,
+        });
+    };
+    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
+        document.addEventListener("load", start, { once: true });
+    } else if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", start, { once: true });
+    } else {
+        start();
     }
 })();
 
@@ -171,74 +207,16 @@ set-cookie-extra.js application/javascript
     document.cookie = data;
 })();
 
-title-case.js application/javascript
-(() => {
-    let selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    selector = selector.replace(/\|/g, ",");
-    let behavior = "{{2}}";
-    let timer;
-    const toTitleCase = (str) => str.replace(/\w\S*/g, (s) => s.charAt(0).toUpperCase() + s.substr(1).toLowerCase());
-    const doTitleCase = () => {
-        timer = undefined;
-        try {
-            const nodes = document.querySelectorAll(selector);
-            for (const node of nodes) {
-                const text = node.textContent.trim();
-                node.textContent = toTitleCase(text);
-            }
-        } catch (ex) {}
-    };
-    const mutationHandler = (mutations) => {
-        if (timer !== undefined) return;
-        let skip = true;
-        for (let i = 0; i < mutations.length && skip; i++) {
-            const { type, addedNodes, removedNodes } = mutations[i];
-            if (type === "attributes") skip = false;
-            for (let j = 0; j < addedNodes.length && skip; j++) {
-                if (addedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
-            }
-            for (let j = 0; j < removedNodes.length && skip; j++) {
-                if (removedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
-            }
-        }
-        if (skip) return;
-        timer = self.requestIdleCallback(doTitleCase, { timeout: 67 });
-    };
-    const start = () => {
-        doTitleCase();
-        if (/\bstay\b/.test(behavior) === false) return;
-        const observer = new MutationObserver(mutationHandler);
-        observer.observe(document.documentElement, {
-            childList: true,
-            subtree: true,
-        });
-    };
-    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
-        document.addEventListener("load", start, { once: true });
-    } else if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", start, { once: true });
-    } else {
-        start();
-    }
-})();
-
 window.scroll.js application/javascript
 (() => {
     let path = "{{1}}";
     if (path === "" || path === "{{1}}") return;
     path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     path = new RegExp(path);
-    if (path.test(location.pathname) === false) return;
     const ytop = "{{2}}";
     if (ytop === "" || ytop === "{{2}}") return;
     const scrolled = () => {
+        if (path.test(location.pathname) === false) return;
         window.scroll({
             left: 0,
             top: ytop,
