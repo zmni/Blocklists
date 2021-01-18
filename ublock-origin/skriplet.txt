@@ -236,16 +236,10 @@ title-case.js application/javascript
         for (let i = 0; i < mutations.length && skip; i++) {
             const { addedNodes, removedNodes } = mutations[i];
             for (let j = 0; j < addedNodes.length && skip; j++) {
-                if (addedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
+                if (addedNodes[j].nodeType === 1) { skip = false; break; }
             }
             for (let j = 0; j < removedNodes.length && skip; j++) {
-                if (removedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
+                if (removedNodes[j].nodeType === 1) { skip = false; break; }
             }
         }
         if (skip) return;
