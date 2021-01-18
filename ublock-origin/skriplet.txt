@@ -207,6 +207,62 @@ set-cookie-extra.js application/javascript
     document.cookie = data;
 })();
 
+title-case.js application/javascript
+(() => {
+    let selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    selector = selector.replace(/\|/g, ",");
+    let behavior = "{{2}}";
+    let timer;
+    String.prototype.toTitleCase = () => {
+        return this.replace(/\w\S*/g, (txt) => {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
+    };
+    const doTitleCase = () => {
+        try {
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                node.innerText = node.innerText.trim().toTitleCase();
+            }
+        } catch (ex) {}
+    };
+    const mutationHandler = (mutations) => {
+        if (timer !== undefined) return;
+        let skip = true;
+        for (let i = 0; i < mutations.length && skip; i++) {
+            const { addedNodes, removedNodes } = mutations[i];
+            for (let j = 0; j < addedNodes.length && skip; j++) {
+                if (addedNodes[j].nodeType === 1) {
+                    skip = false;
+                    break;
+                }
+            }
+            for (let j = 0; j < removedNodes.length && skip; j++) {
+                if (removedNodes[j].nodeType === 1) {
+                    skip = false;
+                    break;
+                }
+            }
+        }
+        if (skip) return;
+        timer = self.requestIdleCallback(doTitleCase, { timeout: 67 });
+    };
+    const goTitleCase = () => {
+        doTitleCase();
+        if (/\bstay\b/.test(behavior) === false) return;
+        const observer = new MutationObserver(mutationHandler);
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+    };
+    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
+        document.addEventListener("load", goTitleCase, { once: true });
+    } else if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", goTitleCase, { once: true });
+    } else {
+        goTitleCase();
+    }
+})();
+
 window.scroll.js application/javascript
 (() => {
     let path = "{{1}}";
