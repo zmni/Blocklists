@@ -170,7 +170,7 @@ set-attr.js application/javascript
 set-cookie.js application/javascript
 (() => {
     let data = "{{1}}";
-    if (data.indexOf("=") === -1) return;
+    if (data.indexOf("=") === -1) { return; }
     data = data.replace(/\|/g, ",");
     document.cookie = data;
 })();
@@ -182,7 +182,7 @@ set-cookie-extra.js application/javascript
     const domain = "{{3}}";
     const secure = "{{4}}";
     const del = "{{5}}";
-    if (data.indexOf("=") === -1) return;
+    if (data.indexOf("=") === -1) { return; }
     if (del === "true") {
         data += ";max-age=-100";
     } else {
@@ -202,63 +202,55 @@ set-cookie-extra.js application/javascript
 
 title-case.js application/javascript
 (() => {
-    let selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") {
-        return;
-    }
-    selector = selector.replace(/\|/g, ",");
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") { return; }
+    const selectors = selector.replace(/\|/g, ",");
     let behavior = "{{2}}";
     let timer;
     const toTitleCase = (str) => {
-        return str.replace(/\b\w+('\w{1})?/g, (txt) => {
-            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-        });
+        let upper = true;
+        let newStr = "";
+        for (let i = 0, l = str.length; i < l; i++) {
+            // check for all kinds of spaces with: str[i].match(/\s/)
+            if (str[i] == " ") {
+                upper = true;
+                newStr += str[i];
+                continue;
+            }
+            newStr += upper ? str[i].toUpperCase() : str[i].toLowerCase();
+            upper = false;
+        }
+        return newStr;
     };
     const doTitleCase = () => {
         timer = undefined;
         try {
-            const nodes = document.querySelectorAll(selector);
+            const nodes = document.querySelectorAll(selectors);
             for (const node of nodes) {
-                const text = node.innerText.trim();
-                node.innerText = toTitleCase(text);
+                node.innerText = toTitleCase(node.innerText.trim());
             }
         } catch (ex) {}
     };
     const mutationHandler = (mutations) => {
-        if (timer !== undefined) {
-            return;
-        }
+        if (timer !== undefined) { return; }
         let skip = true;
         for (let i = 0; i < mutations.length && skip; i++) {
             const { addedNodes, removedNodes } = mutations[i];
             for (let j = 0; j < addedNodes.length && skip; j++) {
-                if (addedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
+                if (addedNodes[j].nodeType === 1) { skip = false; break; }
             }
             for (let j = 0; j < removedNodes.length && skip; j++) {
-                if (removedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
+                if (removedNodes[j].nodeType === 1) { skip = false; break; }
             }
         }
-        if (skip) {
-            return;
-        }
+        if (skip) { return; }
         timer = self.requestIdleCallback(doTitleCase, { timeout: 67 });
     };
     const start = () => {
         doTitleCase();
-        if (/\bstay\b/.test(behavior) === false) {
-            return;
-        }
+        if (/\bstay\b/.test(behavior) === false) { return; }
         const observer = new MutationObserver(mutationHandler);
-        observer.observe(document.documentElement, {
-            childList: true,
-            subtree: true,
-        });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
     };
     if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
         document.addEventListener("load", start, { once: true });
