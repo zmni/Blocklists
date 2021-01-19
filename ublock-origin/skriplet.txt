@@ -293,9 +293,7 @@ hn.toggle-parent-comments.js application/javascript
         return element;
     };
     const colexpButtonEl = () => {
-        if ("/item" !== location.pathname) {
-            return;
-        }
+        if ("/item" !== location.pathname) { return; }
         const colexpButton = document.createElement("input");
         colexpButton.setAttribute("type", "button");
         colexpButton.value = "exp/col parent";
@@ -303,9 +301,7 @@ hn.toggle-parent-comments.js application/javascript
             const toHide = document.querySelectorAll('img:not([width="0"])');
             for (img of toHide) {
                 const commentRow = fetchParentWithClass(img, "comtr");
-                if (commentRow) {
-                    commentRow.classList.toggle("noshow");
-                }
+                if (commentRow) { commentRow.classList.toggle("noshow"); }
             }
         });
         const form = document.querySelector("form");
@@ -322,9 +318,7 @@ hn.toggle-parent-comments.js application/javascript
                 if (parent) {
                     let sibling = parent.nextElementSibling;
                     while (sibling) {
-                        if (sibling.querySelectorAll('img[width="0"]').length > 0) {
-                            break;
-                        }
+                        if (sibling.querySelectorAll('img[width="0"]').length > 0) { break; }
                         sibling.classList.toggle("noshow");
                         sibling = sibling.nextElementSibling;
                     }
