@@ -183,20 +183,10 @@ set-cookie-extra.js application/javascript
     const secure = "{{4}}";
     const del = "{{5}}";
     if (data.indexOf("=") === -1) { return; }
-    if (del === "true") {
-        data += ";max-age=-100";
-    } else {
-        data += ";max-age=2592000";
-    }
-    if (path !== "" && path !== "{{2}}") {
-        data += ";path=" + path;
-    }
-    if (domain !== "" && domain !== "{{3}}") {
-        data += ";domain=" + domain;
-    }
-    if (secure === "true") {
-        data += ";secure";
-    }
+    data += (del === "true") ? ";max-age=-100" : ";max-age=2592000";
+    if (path !== "" && path !== "{{2}}") { data += ";path=" + path; }
+    if (domain !== "" && domain !== "{{3}}") { data += ";domain=" + domain; }
+    if (secure === "true") { data += ";secure"; }
     document.cookie = data;
 })();
 
@@ -212,7 +202,7 @@ title-case.js application/javascript
         let newStr = "";
         for (let i = 0, l = str.length; i < l; i++) {
             // check for all kinds of spaces with: str[i].match(/\s/)
-            if (str[i] == " ") {
+            if (str[i] === " ") {
                 upper = true;
                 newStr += str[i];
                 continue;
