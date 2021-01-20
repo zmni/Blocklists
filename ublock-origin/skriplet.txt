@@ -109,7 +109,7 @@ insert-html.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", insertHTML);
+        document.addEventListener("DOMContentLoaded", insertHTML, { capture = true, once = true });
     } else {
         insertHTML();
     }
