@@ -104,7 +104,16 @@ insert-html.js application/javascript
     const html = "{{3}}";
     if (html === "" || html === "{{3}}") { return; }
     const insertHTML = () => {
-        document.querySelector(selector).insertAdjacentHTML(position, html);
+        try {
+            if (selector === "html") {
+                node = document.documentElement;
+            } else if (selector === "body") {
+                node = document.body;
+            } else {
+                node = document.querySelector(selector);
+            }
+            node.insertAdjacentHTML(position, html);
+        } catch (ex) {}
     };
     if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", insertHTML);
