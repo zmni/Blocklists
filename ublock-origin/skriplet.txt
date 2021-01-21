@@ -120,7 +120,7 @@ insert-html.js application/javascript
     const insertHTML = () => {
         try {
             const text = escapeHTML(html);
-            document.querySelector(selector).insertAdjacentHTML(position, text);
+            document.querySelector(selector).insertAdjacentHTML(position, html);
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
