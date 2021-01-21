@@ -103,13 +103,28 @@ insert-html.js application/javascript
     if (/\b(before|after)(begin|end)\b/.test(position) === false) { return; }
     const html = "{{3}}";
     if (html === "" || html === "{{3}}") { return; }
+    const htmlEscapes = {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#x27;",
+        "/": "&#x2F;",
+    };
+    const htmlEscaper = /[&<>"'\/]/g;
+    const escapeHTML = (string) => {
+        return ("" + string).replace(htmlEscaper, (match) => {
+            return htmlEscapes[match];
+        });
+    };
     const insertHTML = () => {
         try {
-            document.querySelector(selector).insertAdjacentHTML(position, html);
+            const text = escapeHTML(html);
+            document.querySelector(selector).insertAdjacentHTML(position, text);
         } catch (ex) {}
     };
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", insertHTML, { capture = true, once = true });
+        document.addEventListener("DOMContentLoaded", insertHTML, { capture: true, once: true });
     } else {
         insertHTML();
     }
