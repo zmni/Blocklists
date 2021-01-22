@@ -6,6 +6,7 @@
 
 ||ad.bench.utorrent.com^$~third-party
 ||c.mixer.com^$~third-party
+||cmp.chip.de^$~third-party
 ||cntr.lookmovie.*$~third-party
 ||hit-log.viva.co.id^$~third-party
 ||hitlog.viva.co.id^$~third-party

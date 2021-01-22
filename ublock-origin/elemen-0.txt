@@ -799,6 +799,7 @@ ns21.top##.bot
 ns21.top##.ns-left
 ns21.top##.ns-right
 ns21.top###myModalSingle
+nyaa.*###comments
 
 ooakforum.com##p[align=center]:has(> a[onclick*="countAdClick"])
 ooakforum.com##table:has(> tbody > tr > td > p > a[onclick*="countAdClick"])
@@ -1049,6 +1050,7 @@ streamable.com###everything-but-video
 streamable.com##div[id^="cdm-zone-"]
 streamable.com##div[style="height:15px;"]
 streamanime.tv##.inContAdVid
+streameast.live###SagMenuDiscordDuzen
 streamgoals.com##.free
 streamgoals.com##.spins
 streamgoals.com##.stsbet

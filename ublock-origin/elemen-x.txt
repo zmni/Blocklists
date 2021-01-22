@@ -69,6 +69,7 @@ permanent.org#@#.fa-share-alt
 play.google.com#@#a[title="Instagram"]
 play.google.com#@#a[title="YouTube"]
 reddit.com#@#._3RPJ8hHnfFohktLZca18J6
+stackoverflow.com#@#.comments
 stanza.co#@#.subscribe-container
 teddit.net#@#.comments
 trakt.tv#@#.sharing
