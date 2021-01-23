@@ -11,7 +11,7 @@ add-class.js application/javascript
         } catch (ex) {}
     };
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', addclass, { capture: true, once: true });
+        document.addEventListener('DOMContentLoaded', addclass, { once: true });
     } else {
         addclass();
     }
