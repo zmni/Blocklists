@@ -7,7 +7,14 @@ add-class.js application/javascript
     if (selector === '' || selector === '{{2}}') return;
     const addclass = () => {
         try {
-            document.querySelector(selector).classList.add(...tokens);
+            if (selector === 'html') {
+                node = document.documentElement;
+            } else if (selector === 'body') {
+                node = document.body;
+            } else {
+                node = document.querySelector(selector);
+            }
+            node.classList.add(...tokens);
         } catch (ex) {}
     };
     if (document.readyState === 'loading') {
