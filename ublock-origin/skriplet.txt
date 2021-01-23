@@ -1,10 +1,10 @@
 add-class.js application/javascript
 (() => {
     const token = '{{1}}';
-    if (token === '' || token === '{{1}}') { return; }
+    if (token === '' || token === '{{1}}') return;
     const tokens = token.split(/\s*\|\s*/);
     const selector = '{{2}}';
-    if (selector === '' || selector === '{{2}}') { return; }
+    if (selector === '' || selector === '{{2}}') return;
     const addclass = () => {
         try {
             document.querySelector(selector).classList.add(...tokens);
