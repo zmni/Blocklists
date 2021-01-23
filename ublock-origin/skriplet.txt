@@ -14,11 +14,12 @@ add-class.js application/javascript
             } else {
                 node = document.querySelector(selector);
             }
-            node.classList.add(...tokens);
+            //node.classList.add(...tokens);
+            document.querySelector(selector).classList.add(...tokens);
         } catch (ex) {}
     };
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', addclass, { capture: true, once: true });
+        window.addEventListener('DOMContentLoaded', addclass, { capture: true, once: true });
     } else {
         addclass();
     }
