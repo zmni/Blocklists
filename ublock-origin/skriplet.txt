@@ -7,19 +7,11 @@ add-class.js application/javascript
     if (selector === '' || selector === '{{2}}') return;
     const addclass = () => {
         try {
-            if (selector === 'html') {
-                node = document.documentElement;
-            } else if (selector === 'body') {
-                node = document.body;
-            } else {
-                node = document.querySelector(selector);
-            }
-            //node.classList.add(...tokens);
             document.querySelector(selector).classList.add(...tokens);
         } catch (ex) {}
     };
     if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', addclass, { capture: true, once: true });
+        document.addEventListener('DOMContentLoaded', addclass, { capture: true, once: true });
     } else {
         addclass();
     }
