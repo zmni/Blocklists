@@ -166,6 +166,7 @@ azm.to,azmovie.to##body > center:first-child:has(> .alert-blue)
 
 bakabuzz.com##.adace-slot-wrapper
 bakabuzz.com##.adace-slideup-slot-wrap
+beautifier.io##.CodeMirror:style( height: auto !important; )
 bestsimilar.com##.ssk-sticky
 bestsimilar.com###privacy-fixed-bottom
 bhinneka.com##.banner
@@ -437,6 +438,7 @@ greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
 gsmarena.com###subHeader:has(> #topAdv:only-child)
 goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
+greasyfork.org##.code-container:style( max-height: unset !important; )
 play.google.com##.full-price
 
 hagerty.com##.placements
@@ -1033,13 +1035,14 @@ sportlivetv.net##li[class*=cool-stuff]
 sportsvideo.net##.hdbutt
 stackoverflow.com,stackexchange.com##.everyonelovesstackoverflow
 stackoverflow.com,stackexchange.com##.js-dismissable-hero
-stackoverflow.com##.js-product-notice
-stackoverflow.com###answers > .bottom-notice
-stackoverflow.com###answers > .s-notice
-stackoverflow.com###answers > #post-form
-stackoverflow.com###answers > a[name="new-answer"]
-stackoverflow.com###js-gdpr-consent-banner
-stackoverflow.com###post-form
+stackoverflow.com,stackexchange.com##.js-product-notice
+stackoverflow.com,stackexchange.com###answers > .bottom-notice
+stackoverflow.com,stackexchange.com###answers > .s-notice
+stackoverflow.com,stackexchange.com###answers > #post-form
+stackoverflow.com,stackexchange.com###answers > a[name="new-answer"]
+stackoverflow.com,stackexchange.com###js-gdpr-consent-banner
+stackoverflow.com,stackexchange.com###post-form
+stackoverflow.com,stackexchange.com##pre:style( max-height: unset !important; )
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
 startpage.com###feedback-button-container
 streamable.com##.bottombanner
@@ -1330,11 +1333,3 @@ yts.am##a[href^="/go-"]
 
 zdnet.com###postComments
 zdnet.com##article > .related-topics
-
-!! ========================================================================== !!
-!! INJEKSI STYLE
-!! ========================================================================== !!
-
-beautifier.io##.CodeMirror:style( height: auto !important; )
-greasyfork.org##.code-container:style( max-height: unset !important; )
-stackoverflow.com##pre:style( max-height: unset !important; )
