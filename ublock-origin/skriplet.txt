@@ -334,15 +334,12 @@ gh.gitcdn-btn.js application/javascript
         } else {
             url = url.replace(/github\.com\/([^/]+\/[^/]+)\/raw/, 'gitcdn.xyz/repo/$1');
         }
-
         const newBtn = btn.cloneNode(false);
         newBtn.href = url;
         newBtn.textContent = 'GitCDN';
         newBtn.removeAttribute('id');
-
         btn.parentNode.insertBefore(newBtn, btn.nextSibling);
         btn.classList.add('gitcdn');
-
         if (!btn.parentNode.classList.contains('btn-group')) {
             const parent = btn.parentNode,
                 group = document.createElement('div');
