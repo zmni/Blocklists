@@ -372,6 +372,7 @@ flixgo.co##.footer__counter
 flixgo.co###dle-comments-form
 flixgo.net##a[href*=".com/ads?"]
 flixtor.to##[class^="contentList"] > .d-flex > .py-2:has(:scope .front .fa-video-camera.goldc)
+flsaudio.com##.homeadv
 fmovies.*,ffmovies.*##.share
 fmovies.*,ffmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
 fmovies.*,ffmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
@@ -854,6 +855,8 @@ producthunt.com##[class*="twitterShare_"]
 producthunt.com##[class^="postsList_"] > li:has(:scope a[class^="promotedBadgeLink_"])
 producthunt.com##[class^="postsList_"] > li:has(:scope a[href^="/promoted-products"])
 producthunt.com##[class^="share_"]
+producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[class*="_link_"] > div > div[class*="_actions_"] > a[href="/promoted-products"])
+producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[class*="_content_"] > div > h3 > a[href^="/advertising"])
 pscp.tv##.ShareBroadcast
 media.zat.im,libre.video,open.tube,peertube.*,tilvids.*##div[role="button"]:has(> my-global-icon[iconname="share"])
 app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
