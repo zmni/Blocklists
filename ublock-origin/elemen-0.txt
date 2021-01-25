@@ -1293,6 +1293,8 @@ wolframalpha.com##div:has(> a[href*="?adref="]:only-child)
 wolframalpha.com##div:has(> a[href^="/feedback"]):has(> a[href^="/pro-premium-expert-support"])
 wolframalpha.com##main > a[href="https://www.wolframalpha.com/pro-for-students"]:only-of-type
 wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
+wolt.com##.noscroll:style( overflow: auto !important; )
+wolt.com##div[class*="ConsentsBanner"]:upward(4)
 wordpress.org##.locale-banner
 wplift.com##.cp-info-bar
 wplift.com##.ctaheaderbutton
