@@ -122,7 +122,8 @@ set-attr.js application/javascript
     selector = selector.replace(/\|/g, ',');
     const name = '{{2}}';
     if (name === '' || name === '{{2}}') return;
-    const value = '{{3}}';
+    let value = '{{3}}';
+    if (value === '{{3}}') value = '';
     let behavior = '{{4}}';
     let timer;
     const setattr = () => {
