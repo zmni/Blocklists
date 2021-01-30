@@ -5,6 +5,8 @@
 ! GLOBAL
 
 ##.article-share-link
+##.Button--facebook
+##.Button--google
 ##.comment-area
 ##.comment-respond
 ##.commentarea
@@ -13,12 +15,17 @@
 ##.comments-area
 ##.dsq-brlink
 ##.fb-comments
+##.js-fb-button
+##.js-google-button
 ##.jw-icon-rewind
 ##.jw-icon[aria-label="Download this video"]
 ##.jw-icon[aria-label="Download Video"]
 ##.jw-icon[button="download"]
 ##.ktz-socializer
+##.vjs-download-control
+##.vjs-forward-control
 ##.vjs-info-button
+##.vjs-rewind-control
 ##.vjs-watermark
 ##.xenforo-comment-widget
 ##.xenforo-comments-see-all
@@ -28,10 +35,13 @@
 ###commento
 ###comments
 ###disqus_thread
+##a[title="Like on Facebook"]
 ##amp-analytics
 ##amp-auto-ads
 ##amp-facebook-comments
 ##amp-story-auto-ads
+##button.sign-facebook
+##button.sign-google
 ##form#commentform
 
 ! SPESIFIK
@@ -335,6 +345,7 @@ eclipse.org##.ad-strategic-default
 eclipse.org##.eclipsefnd-ad
 ecosia.org##.card-relatedsearches
 ecosia.org##.main-footer__menu--social
+ecosia.org##.main-header__install-cta
 ecosia.org##.small-footer-social-links
 endless-space.com##div[id^="cookies-policy-"]
 epicgames.com##.SocialBar
@@ -678,6 +689,7 @@ movietoken.to##.ann-home
 movietoken.to###mv-keywords
 mozilla.org###announce-geoip-suggestion
 mp4upload.com###overlay
+mp4upload.com##body:style( margin: unset !important; )
 msn.com##.irisbanner
 msn.com##.stb-flexvertical[data-m*="sharingtoolbar"]
 msn.com###irisbanner
@@ -721,6 +733,7 @@ n21.tv,nontonserial.tv###fbawah
 n21.tv##[id^="previewBox"]
 nanime.*##.banner
 nanime.*##.box-body:has(> .iklan)
+nanime.*##.box-body:not(:has(> *))
 nanime.*##.iklan-header-item
 nanime.*##img[alt="BandarQ"]
 nanime.*##img[title="EnjoyQQ"]
@@ -1070,6 +1083,9 @@ streamvi.com##center > a[target="_blank"]
 streamvi.com##style + .bs-linebreak
 streamye.com##.ad1
 streamye.com##.ad2
+streamye.com##.second + div
+streamye.com##.videoplay:style( width: 1160px !important; )
+streamye.com##body:style( background-color: #0f0f0f !important; )
 superuser.com##.everyonelovesstackoverflow
 superuser.com##.js-dismissable-hero
 superuser.com##.site-header + .s-hero
@@ -1231,6 +1247,8 @@ userstyles.org###share_div
 userstyles.org###top_android_button
 utorrent.com##.ga-et
 
+vectr.com##.ads
+vectr.com##app[filetype=Design]:style( width: 100% !important; )
 vev.io##.navbar
 vev.io##.page-sidebar
 vev.io##.resize-sensor
