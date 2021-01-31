@@ -59,6 +59,7 @@
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
 9anime.*##.anime-list-s > li:has(> .info > a:has-text((Dub)))
 9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
+9anime.*###comment
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
 9animes.net##div:has(> .tele_b):has(> .voir_b):upward(1)
