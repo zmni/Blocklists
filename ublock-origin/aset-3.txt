@@ -50,6 +50,7 @@
 ||cloudfront.net^*/stream-analytics.$script,third-party
 ||detik.net.id/libs/*/js/eyeota.js$script,third-party
 ||escdn.co/ads/$important,third-party
+||fileyi.com/api/videos/*/ping$third-party
 ||gc.zgo.at/count.js$script,third-party
 ||gstatic.com/firebasejs/*/firebase-analytics.js$script,third-party
 ||jsdelivr.net/npm/@widgetbot/$script,third-party

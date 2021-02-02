@@ -40,9 +40,12 @@
 ##amp-auto-ads
 ##amp-facebook-comments
 ##amp-story-auto-ads
+##button.share
 ##button.sign-facebook
 ##button.sign-google
+##button[aria-label="share"]
 ##form#commentform
+##share-widget
 
 ! SPESIFIK
 
@@ -132,6 +135,9 @@ animeidhentai.com###player2 > a
 animeindo.cc##.icon.shares
 animeindo.cc##.sosmed
 animeindo.cc##div:has(> script:only-child)
+animejp.net##.widget_text:has( > .textwidget > .halim-film-notice > p:has-text(Adblocker))
+animejp.net###halim-player-loader
+animejp.net###relatedposttags
 animeku.tv##.ads
 animeku.tv##.adsgen
 animeku.tv##.adspost1
@@ -276,6 +282,9 @@ cnnindonesia.com##.detail_tag
 cnnindonesia.com##.komentar_box
 cnnindonesia.com##.share
 cnnindonesia.com###skinad
+coolors.co###header_c_ad
+coolors.co###header-cad
+coolors.co###sticky-cad
 crackwatch.com##.crossed-price
 crackwatch.com##.gamerow-platform-icon
 creativebloq.com###sidebar > div[style]
