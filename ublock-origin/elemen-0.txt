@@ -1314,12 +1314,16 @@ windowscentral.com##.adunit-purch
 windowscentral.com##.adunit-wrap
 windowscentral.com##.adunit-wrap-inner
 windowscentral.com##.article-body__section > p:has(> a[href*="evyy.net/c/"][target="_blank"])
+windowscentral.com##.article-header__disclosure-wrap
 winscp.net##.promo-block
 winscp.net##.promo-block-content
+wolframalpha.com###menuOpener:has(> span > span:has-text(UPGRADE TO PRO))
 wolframalpha.com##a[href*="?adref="]
+wolframalpha.com##a[href="https://www.wolframalpha.com/tour/"][rel="noopener"]
 wolframalpha.com##div:has(> a[href*="?adref="]:only-child)
 wolframalpha.com##div:has(> a[href^="/feedback"]):has(> a[href^="/pro-premium-expert-support"])
 wolframalpha.com##main > a[href="https://www.wolframalpha.com/pro-for-students"]:only-of-type
+wolframalpha.com##main > a[href="https://www.wolframalpha.com/pro/pricing/students"]
 wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
 wolt.com##.noscroll:style( overflow: auto !important; )
 wolt.com##div[class*="ConsentsBanner"]:upward(4)
