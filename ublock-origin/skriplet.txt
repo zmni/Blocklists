@@ -1,17 +1,20 @@
 add-class.js application/javascript
 (() => {
-    const token = '{{1}}';
-    if (token === '' || token === '{{1}}') return;
-    const tokens = token.split(/\s*\|\s*/);
-    const selector = '{{2}}';
-    if (selector === '' || selector === '{{2}}') return;
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const classname = "{{2}}";
+    if (classname === "" || classname === "{{2}}") return;
+    const classnames = classname.split(/\s*\|\s*/);
     const addclass = () => {
         try {
-            document.querySelector(selector).classList.add(...tokens);
+            const nodes = document.querySelectorAll(selector);
+            for (const node of nodes) {
+                node.classList.add(...classnames);
+            }
         } catch (ex) {}
     };
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', addclass, { capture: true, once: true });
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", addclass, { capture: true, once: true });
     } else {
         addclass();
     }
