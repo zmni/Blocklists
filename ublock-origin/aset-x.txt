@@ -67,5 +67,6 @@
 @@||fonts.googleapis.com^$css,domain=ymovies.tv
 @@||googleusercontent.com^$image,xmlhttprequest,domain=ymovies.tv
 @@||hcaptcha.com^$domain=ymovies.to
+@@||sndcdn.com/assets/images/share-$domain=soundcloud.com
 @@||travel-assets.com/datacapture/$script,domain=expedia.co.uk
 @@||w.org/google-analytics-$image,domain=wordpress.org

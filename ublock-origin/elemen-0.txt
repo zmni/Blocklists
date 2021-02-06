@@ -1044,6 +1044,7 @@ solarmoviez.ru###like-home
 solarmoviez.ru###mv-keywords
 solarmoviez.ru###top-content:has(> #like-home)
 soulreaperzone.com##.td-banner-wrap-full
+soundcloud.com##.userInfoBar__buttons .sc-button-share
 sourceforge.net##.projects > li.standard
 sourceforge.net##.sterling
 sourceforge.net###nels

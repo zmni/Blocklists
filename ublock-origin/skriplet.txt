@@ -22,26 +22,31 @@ add-class.js application/javascript
 
 add-inline-style.js application/javascript
 (() => {
-    let path = '{{1}}';
-    if (path === '' || path === '{{1}}') return;
-    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    path = new RegExp(path);
-    let selector = '{{2}}';
-    if (selector === '' || selector === '{{2}}') return;
-    selector = selector.replace(/\|/g, ',');
-    const style = '{{3}}';
-    if (style === '' || style === '{{3}}') return;
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const selectors = selector.replace(/\|/g, ",");
+    const style = "{{2}}";
+    if (style === "" || style === "{{2}}") return;
+    let path = "{{3}}";
+    if (path === "" || path === "{{3}}") {
+        path = ".?";
+    } else if (/^\/.+\/$/.test(path)) {
+        path = path.slice(1, -1);
+    } else {
+        path = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+    const repath = new RegExp(path);
+    if (repath.test(location.pathname) === false) return;
     const addstyle = () => {
-        if (path.test(location.pathname) === false) return;
         try {
-            const nodes = document.querySelectorAll(selector);
+            const nodes = document.querySelectorAll(selectors);
             for (const node of nodes) {
                 node.style.cssText = style;
             }
         } catch (ex) {}
     };
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', addstyle, { capture: true, once: true });
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", addstyle, { capture: true, once: true });
     } else {
         addstyle();
     }
@@ -49,92 +54,94 @@ add-inline-style.js application/javascript
 
 click-element-onload.js application/javascript
 (() => {
-    let path = '{{1}}';
-    if (path === '' || path === '{{1}}') return;
-    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    path = new RegExp(path);
-    const selector = '{{2}}';
-    if (selector === '' || selector === '{{2}}') return;
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    let path = "{{2}}";
+    if (path === "" || path === "{{2}}") {
+        path = ".?";
+    } else if (/^\/.+\/$/.test(path)) {
+        path = path.slice(1, -1);
+    } else {
+        path = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+    const repath = new RegExp(path);
+    if (repath.test(location.pathname) === false) return;
     const clicked = () => {
-        if (path.test(location.pathname) === false) return;
         document.querySelector(selector).click();
     };
-    if (document.readyState === 'complete') {
+    if (document.readyState === "complete") {
         clicked();
     } else {
-        window.addEventListener('load', clicked);
+        window.addEventListener("load", clicked);
     }
 })();
 
 click-element-prev-next.js application/javascript
 (() => {
-    let path = '{{1}}';
-    if (path === '' || path === '{{1}}') return;
-    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    path = new RegExp(path);
-    const prev = '{{2}}';
-    if (prev === '' || prev === '{{2}}') return;
-    const next = '{{3}}';
-    if (next === '' || next === '{{3}}') return;
-    const clicked = (selector) => {
-        document.querySelector(selector).click();
+    let path = "{{1}}";
+    if (path === "" || path === "{{1}}") return;
+    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const repath = new RegExp(path);
+    if (repath.test(location.pathname) === false) return;
+    const prev = "{{2}}";
+    if (prev === "" || prev === "{{2}}") return;
+    const next = "{{3}}";
+    if (next === "" || next === "{{3}}") return;
+    const clicked = () => {
+        try {
+            document.addEventListener("keyup", (event) => {
+                if (event.altKey && event.key === "b") {
+                    document.querySelector(prev).click();
+                } else if (event.altKey && event.key === "n") {
+                    document.querySelector(next).click();
+                }
+            });
+        } catch (ex) {}
     };
-    const clicking = () => {
-        if (path.test(location.pathname) === false) return;
-        document.addEventListener('keyup', (event) => {
-            if (event.altKey && event.key === 'b') {
-                clicked(prev);
-            } else if (event.altKey && event.key === 'n') {
-                clicked(next);
-            } else {
-                return false;
-            }
-        });
-    };
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', clicking);
+    if (document.readyState === "complete") {
+        window.addEventListener("load", clicked);
     } else {
-        clicking();
+        clicked();
     }
 })();
 
 insert-html.js application/javascript
 (() => {
-    const selector = '{{1}}';
-    if (selector === '' || selector === '{{1}}') return;
-    const position = '{{2}}';
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const position = "{{2}}";
     if (/\b(before|after)(begin|end)\b/.test(position) === false) return;
-    const html = '{{3}}';
-    if (html === '' || html === '{{3}}') return;
-    const insertHTML = () => {
+    const html = "{{3}}";
+    if (html === "" || html === "{{3}}") return;
+    const iahtml = () => {
         try {
             document.querySelector(selector).insertAdjacentHTML(position, html);
         } catch (ex) {}
     };
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', insertHTML, { once: true });
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", iahtml);
     } else {
-        insertHTML();
+        iahtml();
     }
 })();
 
 set-attr.js application/javascript
 (() => {
-    let selector = '{{1}}';
-    if (selector === '' || selector === '{{1}}') return;
-    selector = selector.replace(/\|/g, ',');
-    const name = '{{2}}';
-    if (name === '' || name === '{{2}}') return;
-    let value = '{{3}}';
-    if (value === '{{3}}') value = '';
-    let behavior = '{{4}}';
+    const selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const selectors = selector.replace(/\|/g, ",");
+    const name = "{{2}}";
+    if (name === "" || name === "{{2}}") return;
+    let value = "{{3}}";
+    if (value === "{{3}}") value = "";
+    let behavior = "{{4}}";
     let timer;
     const setattr = () => {
         timer = undefined;
         try {
-            const nodes = document.querySelectorAll(selector);
+            const nodes = document.querySelectorAll(selectors);
             for (const node of nodes) {
-                if (name === 'target' && value === '_blank' && node.href.indexOf(location.hostname) !== -1) continue;
+                if (name === "target" && value === "_blank" && node.href.indexOf(location.hostname) !== -1) continue;
                 node.setAttribute(name, value);
             }
         } catch (ex) {}
@@ -144,7 +151,7 @@ set-attr.js application/javascript
         let skip = true;
         for (let i = 0; i < mutations.length && skip; i++) {
             const { type, addedNodes, removedNodes } = mutations[i];
-            if (type === 'attributes') skip = false;
+            if (type === "attributes") skip = false;
             for (let j = 0; j < addedNodes.length && skip; j++) {
                 if (addedNodes[j].nodeType === 1) { skip = false; break; }
             }
@@ -161,10 +168,10 @@ set-attr.js application/javascript
         const observer = new MutationObserver(mutationHandler);
         observer.observe(document.documentElement, { childList: true, subtree: true });
     };
-    if (document.readyState !== 'complete' && /\bcomplete\b/.test(behavior)) {
-        document.addEventListener('load', start, { once: true });
-    } else if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', start, { once: true });
+    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
+        document.addEventListener("load", start, { once: true });
+    } else if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", start, { once: true });
     } else {
         start();
     }
@@ -172,40 +179,40 @@ set-attr.js application/javascript
 
 set-cookie.js application/javascript
 (() => {
-    let data = '{{1}}';
-    if (data.indexOf('=') === -1) return;
-    if (data.indexOf('|') !== -1) data = data.replace(/\|/g, ',');
+    let data = "{{1}}";
+    if (data.indexOf("=") === -1) return;
+    if (data.indexOf("|") !== -1) data = data.replace(/\|/g, ",");
     document.cookie = data;
 })();
 
 set-cookie-extra.js application/javascript
 (() => {
-    let data = '{{1}}';
-    const path = '{{2}}';
-    const domain = '{{3}}';
-    const secure = '{{4}}';
-    const del = '{{5}}';
-    if (data.indexOf('=') === -1) return;
-    data += del === 'true' ? ';max-age=-100' : ';max-age=2592000';
-    if (path !== '' && path !== '{{2}}') data += ';path=' + path;
-    if (domain !== '' && domain !== '{{3}}') data += ';domain=' + domain;
-    if (secure === 'true') data += ';secure';
+    let data = "{{1}}";
+    const path = "{{2}}";
+    const domain = "{{3}}";
+    const secure = "{{4}}";
+    const del = "{{5}}";
+    if (data.indexOf("=") === -1) return;
+    data += del === "true" ? ";max-age=-100" : ";max-age=2592000";
+    if (path !== "" && path !== "{{2}}") data += ";path=" + path;
+    if (domain !== "" && domain !== "{{3}}") data += ";domain=" + domain;
+    if (secure === "true") data += ";secure";
     document.cookie = data;
 })();
 
 title-case.js application/javascript
 (() => {
-    let selector = '{{1}}';
-    if (selector === '' || selector === '{{1}}') return;
-    selector = selector.replace(/\|/g, ',');
-    let behavior = '{{2}}';
+    let selector = "{{1}}";
+    if (selector === "" || selector === "{{1}}") return;
+    const selectors = selector.replace(/\|/g, ",");
+    let behavior = "{{2}}";
     let timer;
     const toTitleCase = (str) => {
         let upper = true;
-        let newStr = '';
+        let newStr = "";
         for (let i = 0, l = str.length; i < l; i++) {
             // all kinds of spaces: str[i].match(/\s/)
-            if (str[i] === ' ') {
+            if (str[i] === " ") {
                 upper = true;
                 newStr += str[i];
                 continue;
@@ -218,7 +225,7 @@ title-case.js application/javascript
     const doTitleCase = () => {
         timer = undefined;
         try {
-            const nodes = document.querySelectorAll(selector);
+            const nodes = document.querySelectorAll(selectors);
             for (const node of nodes) {
                 node.innerText = toTitleCase(node.innerText.trim());
             }
@@ -245,10 +252,10 @@ title-case.js application/javascript
         const observer = new MutationObserver(mutationHandler);
         observer.observe(document.documentElement, { childList: true, subtree: true });
     };
-    if (document.readyState !== 'complete' && /\bcomplete\b/.test(behavior)) {
-        document.addEventListener('load', start, { once: true });
-    } else if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', start, { once: true });
+    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
+        document.addEventListener("load", start, { once: true });
+    } else if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", start, { once: true });
     } else {
         start();
     }
@@ -256,24 +263,24 @@ title-case.js application/javascript
 
 window.scroll.js application/javascript
 (() => {
-    let path = '{{1}}';
-    if (path === '' || path === '{{1}}') return;
-    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    path = new RegExp(path);
-    const ytop = '{{2}}';
-    if (ytop === '' || ytop === '{{2}}') return;
+    let path = "{{1}}";
+    if (path === "" || path === "{{1}}") return;
+    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const repath = new RegExp(path);
+    if (repath.test(location.pathname) === false) return;
+    const ytop = "{{2}}";
+    if (ytop === "" || ytop === "{{2}}") return;
     const scrolled = () => {
-        if (path.test(location.pathname) === false) return;
         window.scroll({
             left: 0,
             top: ytop,
-            behavior: 'smooth',
+            behavior: "smooth",
         });
     };
-    if (document.readyState === 'complete') {
+    if (document.readyState === "complete") {
         scrolled();
     } else {
-        window.addEventListener('load', scrolled);
+        window.addEventListener("load", scrolled);
     }
 })();
 
@@ -286,35 +293,35 @@ hn.toggle-parent-comments.js application/javascript
         return element;
     };
     const colexpButtonEl = () => {
-        if ('/item' !== location.pathname) return;
-        const colexpButton = document.createElement('input');
-        colexpButton.setAttribute('type', 'button');
-        colexpButton.value = 'exp/col parent';
-        colexpButton.addEventListener('click', () => {
+        if ("/item" !== location.pathname) return;
+        const colexpButton = document.createElement("input");
+        colexpButton.setAttribute("type", "button");
+        colexpButton.value = "exp/col parent";
+        colexpButton.addEventListener("click", () => {
             const toHide = document.querySelectorAll('img:not([width="0"])');
             for (img of toHide) {
-                const commentRow = fetchParentWithClass(img, 'comtr');
+                const commentRow = fetchParentWithClass(img, "comtr");
                 if (commentRow) {
-                    commentRow.classList.toggle('noshow');
+                    commentRow.classList.toggle("noshow");
                 }
             }
         });
-        const form = document.querySelector('form');
-        form.appendChild(document.createTextNode('\u00A0'));
+        const form = document.querySelector("form");
+        form.appendChild(document.createTextNode("\u00A0"));
         form.appendChild(colexpButton);
-        const commHeads = document.querySelectorAll('.comhead');
+        const commHeads = document.querySelectorAll(".comhead");
         for (chead of commHeads) {
-            const childExpandToggle = document.createElement('a');
-            childExpandToggle.classList.add('togg');
-            childExpandToggle.innerHTML = '[*]';
-            childExpandToggle.setAttribute('href', 'javascript:void(0)');
-            childExpandToggle.addEventListener('click', () => {
-                const parent = fetchParentWithClass(this.parentElement, 'comtr');
+            const childExpandToggle = document.createElement("a");
+            childExpandToggle.classList.add("togg");
+            childExpandToggle.innerHTML = "[*]";
+            childExpandToggle.setAttribute("href", "javascript:void(0)");
+            childExpandToggle.addEventListener("click", () => {
+                const parent = fetchParentWithClass(this.parentElement, "comtr");
                 if (parent) {
                     let sibling = parent.nextElementSibling;
                     while (sibling) {
                         if (sibling.querySelectorAll('img[width="0"]').length > 0) break;
-                        sibling.classList.toggle('noshow');
+                        sibling.classList.toggle("noshow");
                         sibling = sibling.nextElementSibling;
                     }
                 }
@@ -322,8 +329,8 @@ hn.toggle-parent-comments.js application/javascript
             chead.appendChild(childExpandToggle);
         }
     };
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', colexpButtonEl);
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", colexpButtonEl);
     } else {
         colexpButtonEl();
     }
