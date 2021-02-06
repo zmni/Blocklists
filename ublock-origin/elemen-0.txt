@@ -220,6 +220,8 @@ blibli.com##.product__view-price--discount
 blibli.com##.product__view-price--strikethrough
 blibli.com##.product-preview .discount
 blibli.com##.social
+bloomberg.com##.leaderboard-ad-mock
+bloomberg.com##.leaderboard-container
 bloomberg.com##.share-article-button
 bola.com##.channel-ad
 bola.com##.lazyload_ad
@@ -729,6 +731,15 @@ myspace.com##.article-footer-ad
 myspace.com##.label:has-text(Advertisement)
 docs.microsoft.com##.disclaimer-holder:has-text(tidak tersedia dalam bahasa Anda)
 docs.microsoft.com###disclaimer-holder
+partner.microsoft.com##.is-open .onedash-nav-noun .onedash-navigation-category
+partner.microsoft.com##.is-open .onedash-navigation-menu-title .onedash-navigation-category
+partner.microsoft.com##.is-open #onedash-nav-home .onedash-navigation-category
+partner.microsoft.com##.is-open #onedash-nav-support .onedash-navigation-category
+partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !important; )
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > a .onedash-navigation-category
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > button .onedash-navigation-category
+partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
 support.microsoft.com###notification-banner
 techcommunity.microsoft.com##.custom-share-component
 forum.mikrotik.com##.main-header
@@ -1091,6 +1102,10 @@ streamvi.com##.d-none.d-lg-block
 streamvi.com##.footer
 streamvi.com##center > a[target="_blank"]
 streamvi.com##style + .bs-linebreak
+streamwo.com##.footer
+streamwo.com##.page-main > .my-12.my-md-12:style( padding-top: unset !important; padding-bottom: unset !important; )
+streamwo.com###videoRow > :not(.card[class][style])
+streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
 streamye.com##.ad1
 streamye.com##.ad2
 streamye.com##.second + div
@@ -1330,6 +1345,7 @@ wolt.com##div[class*="ConsentsBanner"]:upward(4)
 wordpress.org##.locale-banner
 wplift.com##.cp-info-bar
 wplift.com##.ctaheaderbutton
+hosted.weblate.org##td.number:style( text-align: center !important; )
 
 xda-developers.com##.below-nav-ad
 xda-developers.com##.tagbar

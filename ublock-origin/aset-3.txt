@@ -13,6 +13,7 @@
 ||chatango.com^$third-party
 ||commento.io^$third-party
 ||crisp.chat^$third-party
+||crux.kn^$third-party
 ||d2to8y50b3n6dq.cloudfront.net^$third-party
 ||dec.azureedge.net^$third-party
 ||discord.com^$third-party
