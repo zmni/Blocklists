@@ -70,9 +70,9 @@ click-element-onload.js application/javascript
         document.querySelector(selector).click();
     };
     if (document.readyState === "complete") {
-        clicked();
-    } else {
         window.addEventListener("load", clicked);
+    } else {
+        clicked();
     }
 })();
 
