@@ -181,9 +181,7 @@ set-cookie.js application/javascript
 (() => {
     let data = "{{1}}";
     if (data.indexOf("=") === -1) return;
-    if (data.indexOf("|") !== -1) {
-        data = data.replace(/\|/g, ",");
-    }
+    if (data.indexOf("|") !== -1) data = data.replace(/\|/g, ",");
     document.cookie = data;
 })();
 
@@ -195,10 +193,20 @@ set-cookie-extra.js application/javascript
     const secure = "{{4}}";
     const del = "{{5}}";
     if (data.indexOf("=") === -1) return;
-    data += del === "true" ? ";max-age=-100" : ";max-age=2592000";
-    if (path !== "" && path !== "{{2}}") data += ";path=" + path;
-    if (domain !== "" && domain !== "{{3}}") data += ";domain=" + domain;
-    if (secure === "true") data += ";secure";
+    if (path !== "" && path !== "{{2}}") {
+        data += ";path=" + path;
+    }
+    if (domain !== "" && domain !== "{{3}}") {
+        data += ";domain=" + domain;
+    }
+    if (secure === "true") {
+        data += ";secure";
+    }
+    if (del === "true") {
+        data += ";max-age=-100";
+    } else {
+        data += ";max-age=2592000";
+    }
     document.cookie = data;
 })();
 
