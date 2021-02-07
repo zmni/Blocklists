@@ -76,55 +76,6 @@ click-element-onload.js application/javascript
     }
 })();
 
-click-element-prev-next.js application/javascript
-(() => {
-    let path = "{{1}}";
-    if (path === "" || path === "{{1}}") return;
-    path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const repath = new RegExp(path);
-    if (repath.test(location.pathname) === false) return;
-    const prev = "{{2}}";
-    if (prev === "" || prev === "{{2}}") return;
-    const next = "{{3}}";
-    if (next === "" || next === "{{3}}") return;
-    const clicked = () => {
-        try {
-            document.addEventListener("keyup", (event) => {
-                if (event.altKey && event.key === "b") {
-                    document.querySelector(prev).click();
-                } else if (event.altKey && event.key === "n") {
-                    document.querySelector(next).click();
-                }
-            });
-        } catch (ex) {}
-    };
-    if (document.readyState === "complete") {
-        window.addEventListener("load", clicked);
-    } else {
-        clicked();
-    }
-})();
-
-insert-html.js application/javascript
-(() => {
-    const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    const position = "{{2}}";
-    if (/\b(before|after)(begin|end)\b/.test(position) === false) return;
-    const html = "{{3}}";
-    if (html === "" || html === "{{3}}") return;
-    const iahtml = () => {
-        try {
-            document.querySelector(selector).insertAdjacentHTML(position, html);
-        } catch (ex) {}
-    };
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", iahtml);
-    } else {
-        iahtml();
-    }
-})();
-
 set-attr.js application/javascript
 (() => {
     const selector = "{{1}}";
@@ -210,67 +161,6 @@ set-cookie-extra.js application/javascript
         data += ";max-age=2592000";
     }
     document.cookie = data;
-})();
-
-title-case.js application/javascript
-(() => {
-    let selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") return;
-    const selectors = selector.replace(/\|/g, ",");
-    let behavior = "{{2}}";
-    let timer;
-    const toTitleCase = (str) => {
-        let upper = true;
-        let newStr = "";
-        for (let i = 0, l = str.length; i < l; i++) {
-            // all kinds of spaces: str[i].match(/\s/)
-            if (str[i] === " ") {
-                upper = true;
-                newStr += str[i];
-                continue;
-            }
-            newStr += upper ? str[i].toUpperCase() : str[i].toLowerCase();
-            upper = false;
-        }
-        return newStr;
-    };
-    const doTitleCase = () => {
-        timer = undefined;
-        try {
-            const nodes = document.querySelectorAll(selectors);
-            for (const node of nodes) {
-                node.innerText = toTitleCase(node.innerText.trim());
-            }
-        } catch (ex) {}
-    };
-    const mutationHandler = (mutations) => {
-        if (timer !== undefined) return;
-        let skip = true;
-        for (let i = 0; i < mutations.length && skip; i++) {
-            const { addedNodes, removedNodes } = mutations[i];
-            for (let j = 0; j < addedNodes.length && skip; j++) {
-                if (addedNodes[j].nodeType === 1) { skip = false; break; }
-            }
-            for (let j = 0; j < removedNodes.length && skip; j++) {
-                if (removedNodes[j].nodeType === 1) { skip = false; break; }
-            }
-        }
-        if (skip) return;
-        timer = self.requestIdleCallback(doTitleCase, { timeout: 67 });
-    };
-    const start = () => {
-        doTitleCase();
-        if (/\bstay\b/.test(behavior) === false) return;
-        const observer = new MutationObserver(mutationHandler);
-        observer.observe(document.documentElement, { childList: true, subtree: true });
-    };
-    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
-        document.addEventListener("load", start, { once: true });
-    } else if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", start, { once: true });
-    } else {
-        start();
-    }
 })();
 
 window.scroll.js application/javascript

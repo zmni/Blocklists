@@ -37,13 +37,10 @@
 
 ! UBAHSUAI
 ! add-class
-! add-style
+! add-inline-style
 ! click-element-onload
-! click-element-prev-next
-! insert-html
 ! set-attr
 ! set-cookie
-! set-cookie-easy
 ! window.scroll
 
 720pstream.me##+js(abort-on-property-read, zfgloadedpopup)
