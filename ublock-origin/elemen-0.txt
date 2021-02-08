@@ -594,7 +594,7 @@ layarcinema.*###download
 layarcinema.*###idmuvi-popup
 layarcinema.*###kelik
 lazada.co.id##.c3lr34
-lbry.tv##.ads__claim-item:upward(li:not([class]):not([role]))
+lbry.tv##.ads__claim-item:upward(li:not([class], [role]))
 letterboxd.com##.-leaderboard
 letterboxd.com##.banner
 letterboxd.com##.panel-share
@@ -617,6 +617,7 @@ livescience.com##.trending-wrapper
 livescience.com###affiliateDisclaimer
 livescience.com###article-body > .product
 livescience.com###ultimedia_wrapper
+livescience.com##body > div[style]:not([class], [id])
 livescore.com##.ad
 livescore.com##.big-add:has(> [data-href^="http://ads."])
 livescore.com##.infobar:has(> [data-portrait-href^="http://ads."])
@@ -678,7 +679,7 @@ megaspin.net##.product-card:has(> .outofstock-lighten)
 meowstream.com##.site-branding
 metacritic.com##.sharing
 min.io##.footer__banner
-mmorpg.com##div[style]:not([class]):not([id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
+mmorpg.com##div[style]:not([class], [id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
 motorauthority.com##.adv-spacer
 motorauthority.com##.adv-spacer-top-wraper
 moviegaga.*,movieninja.*##.ad-below-player
@@ -709,7 +710,7 @@ msn.com###irisbanner
 msn.com###irisbannerph
 muchohentai.com##.hentry > .tab
 muchohentai.com##[id^="__"]:has(> iframe)
-muchohentai.com###jj > div[style]:not([class]):not([id])
+muchohentai.com###jj > div[style]:not([class], [id])
 myanime.co##.latest-episodes > :not(.episode-list)
 myanime.co##.notices
 myanime.co##.stats-area
@@ -723,10 +724,10 @@ myanimelist.net##.featured-pickup-unit:has(:scope .tag-color-feature-advertorial
 myanimelist.net##.news-unit:has(:scope .tag-color-feature-advertorial)
 myanimelist.net##.news-unit:has(> .mal-ad-unit:only-child)
 myanimelist.net##.social-login-block
-myanimelist.net##div[style]:not([class]):not([id]):has(> .ad-tag)
-myanimelist.net##div[style]:not([class]):not([id]):has(> div[style]:not([class]):not([id]) > .mal-ad-unit)
+myanimelist.net##div[style]:not([class], [id]):has(> .ad-tag)
+myanimelist.net##div[style]:not([class], [id]):has(> div[style]:not([class], [id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
-mybrowseraddon.com##div:not([class]):not([id]):has-text(Advertisement)
+mybrowseraddon.com##div:not([class], [id]):has-text(Advertisement)
 myspace.com##.adsitewidepixel
 myspace.com##.article-footer-ad
 myspace.com##.label:has-text(Advertisement)
@@ -826,7 +827,7 @@ nontonplus.com###bread
 nontonplus.com###mv-keywords
 noxx.*##.icon-bar
 ns21.club##.breadcrumbs
-ns21.club##.post~*:not(.wrapper-jw):not(.server-list)
+ns21.club##.post~*:not(.wrapper-jw, .server-list)
 ns21.club##.server-list > h3
 ns21.club##[id^="previewBox"]
 ns21.club###fbawah
@@ -842,7 +843,7 @@ nyaa.*###comments
 ooakforum.com##p[align=center]:has(> a[onclick*="countAdClick"])
 ooakforum.com##table:has(> tbody > tr > td > p > a[onclick*="countAdClick"])
 olx.co.id##ul[data-aut-id="itemsList"] > li:has(:scope label > span:has-text(Highlight))
-olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"]):not(:last-child)
+olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"], :last-child)
 opencritic.com##.my-2:has(> app-advertisement)
 opencritic.com##.oc-game-info__experiment-actions
 opencritic.com##.text-center:has(> app-advertisement)
@@ -866,7 +867,7 @@ pasienbpjs.com##.itemad
 pasienbpjs.com##div[id^="kode-iklan"]
 pcgamer.com##.sponsored-post
 phonearena.com##div:has(> .spot_disclaimer:only-child)
-phoronix.com###main > div[style]:not([class]):not([id])
+phoronix.com###main > div[style]:not([class], [id])
 photopea.com##.photopea > div[style]
 phys.org##.article-banner
 pinterest.com##div[data-test-id="giftWrap"]
@@ -907,7 +908,7 @@ radikal62.xyz,juragan21.xyz###tampil
 radiooooo.app##.rgpd
 ranker.com##.ad
 ranker.com##span[class^="title_shareContainer"]
-ranker.com##ul[class^="gridView_main"] > li:not([class]):not([role="link"])
+ranker.com##ul[class^="gridView_main"] > li:not([class], [role="link"])
 rawmusictv.com##.affiliate-footer-ad-w
 rawmusictv.com##ins:upward(1)
 reddit.com##.ad-container
@@ -1257,7 +1258,7 @@ twitch.tv##.side-info-container:has(:scope button:has-text(Sign up))
 twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(:scope a[href^="/directory/game/"]))
 twitter.com##[data-testid="primaryColumn"] [data-testid="trend"][role="link"]:has(:scope svg + span:has-text(Dipromosikan oleh)):upward(2)
 twitter.com##[data-testid="primaryColumn"] [role="article"]:has(:scope svg + div:has-text(Dipromosikan):upward(4))
-twitter.com##[data-testid="primaryColumn"] div:not([class]):not([id]):not([role]):not([style]):not([attribute^=aria-]):not([attribute^=data-]):has(> div:not(:has(> *)))
+twitter.com##[data-testid="primaryColumn"] div:not([class], [id], [role], [style], [attribute^=aria-], [attribute^=data-]):has(> div:not(:has(> *)))
 twitter.com##[data-testid="sidebarColumn"] [data-testid="trend"][role="link"]:has-text(Dipromosikan oleh):upward(1)
 twitter.com##[data-testid="sidebarColumn"] aside[aria-label="Orang yang relevan"]:upward(1)
 twitter.com##[data-testid="sidebarColumn"] aside[aria-label="Untuk diikuti"]:upward(1)
@@ -1305,7 +1306,7 @@ vsdea.me###oper
 vsdea.me###pop
 code.visualstudio.com###mscc-cookie-container
 
-washingtonpost.com##body > div:not([class]):not([id]):not([style])
+washingtonpost.com##body > div:not([class], [id], [style])
 wcostream.com##.alert
 wcostream.com##.pcat-click-here
 wcostream.com##.pcat-sharing
