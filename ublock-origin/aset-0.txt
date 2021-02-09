@@ -9,6 +9,7 @@
 /plugins/ajax-comment-loading
 /provider.cast.js$script
 /pv-counter.php?$xmlhttprequest
+/wp-admin/admin-ajax.php?$image
 /wp-emoji.js$script
 
 ! UMUM

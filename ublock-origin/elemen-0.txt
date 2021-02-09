@@ -25,6 +25,8 @@
 ##.vjs-download-control
 ##.vjs-forward-control
 ##.vjs-info-button
+##.vjs-logobrand-image
+##.vjs-logobrand-image-destination
 ##.vjs-rewind-control
 ##.vjs-watermark
 ##.xenforo-comment-widget
@@ -329,6 +331,7 @@ dhs-sports.com##.column_banner
 dhs-sports.com##.products_list > a
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
+dood.watch##html, body:style( margin: 0 !important; overflow: hidden !important; )
 duckduckgo.com##.related-searches
 duckduckgo.com##.showcase
 duckduckgo.com##.social
@@ -386,6 +389,9 @@ fandom.com###WikiaBar
 fandom.com##body::after
 fandom.com##body::before
 fandom.com##div[itemprop="video"]:has(> .featured-video__wrapper)
+fileyi.com##html, body:style( background-color: #000 !important; background-image: unset !important; )
+fileyi.com##.content:style( background-color: #1e1e1e !important; )
+fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !important; )
 findx.com##.ad-article
 findx.com##.pixel-url
 flixgo.co##.b-description_readmore_wrapper:has(> .b-description_readmore > p:empty)
@@ -840,23 +846,37 @@ ns21.top##.ns-right
 ns21.top###myModalSingle
 nyaa.*###comments
 
-ooakforum.com##p[align=center]:has(> a[onclick*="countAdClick"])
-ooakforum.com##table:has(> tbody > tr > td > p > a[onclick*="countAdClick"])
 olx.co.id##ul[data-aut-id="itemsList"] > li:has(:scope label > span:has-text(Highlight))
 olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"], :last-child)
+ooakforum.com##p[align=center]:has(> a[onclick*="countAdClick"])
+ooakforum.com##table:has(> tbody > tr > td > p > a[onclick*="countAdClick"])
 opencritic.com##.my-2:has(> app-advertisement)
 opencritic.com##.oc-game-info__experiment-actions
 opencritic.com##.text-center:has(> app-advertisement)
 opencritic.com##app-advertisement
+openculture.com##.advertisement_notice
+openculture.com##.entry > .oc-center
+openculture.com##.entry > .oc-center-da
+openculture.com##.framearound_ad_in_post
+openculture.com##.mashsb-container
+openculture.com##.negativetopmargin20.top.noexpand.white_background.oc-center .adsbygoogle
+openculture.com###big-bottom-ad-single-posts
+openculture.com###cliSettingsPopup
+openculture.com###commentblock
+openculture.com###cookie-law-info-again
+openculture.com###cookie-law-info-bar
+openculture.com###execphp-431254507 > .execphpwidget > .new_subscription_block
+openculture.com###influads_block
+openculture.com###SponsoredLinks
 opensubtitles.com###ext-infos
 opensubtitles.com###share-section
-opfanpage.com##aside.widget_custom_html:has(> header span:has-text(/sponsored/i))
-oploverz.in###header
+opfanpage.com##aside.widget_custom_html:has(> header span:has-text(/sponsor/i))
 oploverz.in##.box-share
 oploverz.in##.genre
 oploverz.in##.next-prev-eps ~ *
 oploverz.in##.recommended
 oploverz.in##.wpdiscuz-loading-bar
+oploverz.in###header
 otakumode.com##.guest-mail
 ourmatch.net##.leaderboard_ad
 ourmatch.net##.leaderboard_mid
@@ -936,7 +956,9 @@ reddit.com###uapp-banner:upward(1)
 reddit.com##a.redesign-beta-optin
 reddit.com##button:has(> span:has-text(Give Award))
 reddit.com##svg + div > div:has-text(Reddit Premium):upward(5)
+reelgood.com##a[href^="/about/expressvpn"]:upward(1)
 reelgood.com##button:has-text(Share)
+reelgood.com##button:has(> a[href^="/about/expressvpn"]):upward(1)
 reelgood.com##div:has(> div:only-child > button:has-text(Share))
 reelgood.com##img[alt="Share icon"]
 reuters.com##div[class^="SocialTools__"]
@@ -1121,6 +1143,7 @@ swatchseries.to###top-band
 swisscows.com##.advt-link
 swisscows.com##.banners-wrap
 isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
+open.spotify.com##.main-view-container ~ div:not([class], [id], [style])
 open.spotify.com##.NavBar__download-item:upward(1)
 open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
 open.spotify.com##.tracklist-row-unplayable:upward(1)
