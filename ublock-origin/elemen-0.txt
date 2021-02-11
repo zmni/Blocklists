@@ -389,6 +389,7 @@ fandom.com###WikiaBar
 fandom.com##body::after
 fandom.com##body::before
 fandom.com##div[itemprop="video"]:has(> .featured-video__wrapper)
+fandom.com##body:style( background-image: none !important; )
 fileyi.com##html, body:style( background-color: #000 !important; background-image: unset !important; )
 fileyi.com##.content:style( background-color: #1e1e1e !important; )
 fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !important; )
@@ -1127,9 +1128,10 @@ streamvi.com##.d-none.d-lg-block
 streamvi.com##.footer
 streamvi.com##center > a[target="_blank"]
 streamvi.com##style + .bs-linebreak
+streamwo.com##.ad-id
 streamwo.com##.footer
 streamwo.com##.page-main > .my-12.my-md-12:style( padding-top: unset !important; padding-bottom: unset !important; )
-streamwo.com###videoRow > :not(.card[class][style])
+streamwo.com###videoRow > .col > .card:not(:first-child)
 streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
 streamye.com##.ad1
 streamye.com##.ad2
