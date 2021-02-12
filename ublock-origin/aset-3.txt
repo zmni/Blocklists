@@ -32,6 +32,7 @@
 ||jsdelivr.net/npm/perfops-rom$script,third-party
 ||liveperson.net^$third-party
 ||qiscus.com^$third-party
+||razorpay.com^$third-party
 ||report.fkw.com^$third-party
 ||salesforce.com^$third-party
 ||sentry.io^$third-party
