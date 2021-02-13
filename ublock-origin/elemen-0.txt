@@ -449,6 +449,7 @@ gm21.*##.box:has(> a[href^="https://bit.ly/"])
 gm21.*##.comentarios
 gm21.*##.pagess > :not(center)
 gm21.*###backdrops
+gm21.*###cookiedata
 gm21.*##a[href^="https://bit.ly/"]
 gns3.com##.gns3-community-ad-container
 goal.com##.container-share
