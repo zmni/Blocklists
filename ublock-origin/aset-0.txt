@@ -2,13 +2,13 @@
 !! ASET 0
 !! ========================================================================== !!
 
+/500b-*.jpg?$xhr
 /app-comments-
 /bugsnag.min.js$script
 /embed/comments/*
 /js/report?$script
 /plugins/ajax-comment-loading
-/provider.cast.js$script
-/pv-counter.php?$xmlhttprequest
+/pv-counter.php?$xhr
 /wp-admin/admin-ajax.php?$image
 /wp-emoji.js$script
 
@@ -46,24 +46,29 @@
 ||px.gfycat.com^
 ||sentry.variab.ly^
 ||stats.umami.is^
+||successiveterrified.com^
+||telemetry.algolia.com^
 ||uzone.id^
 
 ! SPESIFIK
 
 ||animecdn.xyz/js/ads.js$script,important
+||dailymotion.com/history/log/
+||dropbox.com/log/
 ||gfycat.com^*/shar$image,important
+||google.com/_/VisualFrontendUi/gen204/
 ||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
 ||kotakputih.casa/images/*.gif$image
 ||naniplay.com/asset/barr.js
 ||newshub.id^*/pixel.$script
-||ok.ru/dk?cmd=videoStat$xmlhttprequest
+||ok.ru/dk?cmd=videoStat$xhr
 ||readthedocs.org/sustainability/view/$image
 ||streamplay.to/*zoneid=
 ||thevideo.us/js/jspc.js?adb
-||vidio.com/watch/*/track$xmlhttprequest
+||vidio.com/watch/*/track$xhr
 ||vidstream.pro/log/
-||vidstreaming.io/search.html$xmlhttprequest
+||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
-||youtube.com/youtubei/v1/log_event?$xmlhttprequest
+||youtube.com/youtubei/v1/log_event?$xhr
