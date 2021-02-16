@@ -61,7 +61,7 @@
 729sports.com##.webBannerTable
 9anime.*##.anime-list > li:has(> .poster > .taglist > .preview)
 9anime.*##.anime-list > li:has(> .poster > .taglist > .special)
-9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview\b/i))
+9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview|raw\b/i))
 9anime.*##.anime-list-s > li:has(> .info > a:has-text((Dub)))
 9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
 9anime.*###comment
@@ -333,6 +333,9 @@ digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
 dood.watch##html, body:style( margin: 0 !important; overflow: hidden !important; )
 duckduckgo.com##.related-searches
+duckduckgo.com##.result[data-domain="pingsunday.com"]
+duckduckgo.com##.result[data-domain="www.w3schools.com"]
+duckduckgo.com##.results__sitelink--organics:has(> .result__sitelink-row > div[data-domain="www.w3schools.com"])
 duckduckgo.com##.showcase
 duckduckgo.com##.social
 duckduckgo.com##img[src^="/t/sl_"]
@@ -362,6 +365,9 @@ eclipse.org##.eclipsefnd-ad
 ecosia.org##.card-relatedsearches
 ecosia.org##.main-footer__menu--social
 ecosia.org##.main-header__install-cta
+ecosia.org##.result:has(> .result-body > a[href*="softonic.com"])
+ecosia.org##.result:has(> .result-body > a[href*="uptodown.com"])
+ecosia.org##.result:has(> .result-body > a[href*="w3schools.com"])
 ecosia.org##.small-footer-social-links
 endless-space.com##div[id^="cookies-policy-"]
 epicgames.com##.SocialBar
