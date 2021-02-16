@@ -6,15 +6,13 @@
 
 ||ad.bench.utorrent.com^$1p
 ||cmp.chip.de^$1p
-||cntr.lookmovie.*$1p
+||cntr.lookmovie.io$1p
 ||hit-log.viva.co.id^$1p
 ||hitlog.viva.co.id^$1p
 ||improving.duckduckgo.com^$1p
 ||jba.tribunnews.com^$1p
-||metrika.lookmovie.*$1p
+||metrika.lookmovie.io$1p
 ||mm.rappler.com^$1p
-||piwik.everzones.com^$1p
-||prefixmatch.popsugar.com^$1p
 ||sentry.flipboard.com^$1p
 ||sentry.indeed.com^$1p
 ||ta.tokopedia.com^$1p
@@ -119,7 +117,7 @@
 ||tokopedia.com/marketplace/pixel$image,1p
 ||trakt.tv/assets/watchnow/a/$1p
 ||translate.google.*/_/TranslateCommunityUi/gen204/$image,1p
-||utorrent.com/scripts/collectUserInfo.js$1p,script
+||utorrent.com/scripts/collectUserInfo.js$script,1p
 ||utorrent.com/scripts/social/$1p
 ||viva.co.id^*/iklan-18.css$css,1p
 ||viva.co.id^*/viva_analytics.js$script,1p
