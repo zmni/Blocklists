@@ -686,7 +686,9 @@ maslosoft.com##.awe-share
 maslosoft.com##.social-sharing-share-block
 megaspin.net##.product-card:has(> .outofstock-lighten)
 meowstream.com##.site-branding
+metacritic.com##.dw_tracking
 metacritic.com##.sharing
+metacritic.com###nav_ad_wrapper
 min.io##.footer__banner
 mmorpg.com##div[style]:not([class], [id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
 motorauthority.com##.adv-spacer
@@ -918,6 +920,7 @@ producthunt.com##[class^="postsList_"] > li:has(:scope a[href^="/promoted-produc
 producthunt.com##[class^="share_"]
 producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[class*="_link_"] > div > div[class*="_actions_"] > a[href="/promoted-products"])
 producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[class*="_content_"] > div > h3 > a[href^="/advertising"])
+protonmail.com##.csbtns
 pscp.tv##.ShareBroadcast
 media.zat.im,libre.video,open.tube,peertube.*,tilvids.*##div[role="button"]:has(> my-global-icon[iconname="share"])
 app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
@@ -1210,6 +1213,8 @@ thenextweb.com##.post-actions-shares
 thenextweb.com##.post-share
 thenextweb.com##.tnw-ad-loaded
 thenextweb.com##li:has(> .post-actions-share)
+thepiratebay.org###d > br
+thepiratebay.org##a[href*="?tid="]
 thesirenssound.com##.wc_ss_btns
 thetvdb.com##.sponsor-area-top
 theverge.com##.dfp_ad--held-area

@@ -27,6 +27,7 @@
 ||ipgeolocation.com^$3p
 ||jivosite.com^$3p
 ||jsdelivr.net/npm/perfops-rom$script,3p
+||livechatinc.com^$3p
 ||liveperson.net^$3p
 ||qiscus.com^$3p
 ||razorpay.com^$3p

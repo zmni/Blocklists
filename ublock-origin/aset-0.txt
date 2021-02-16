@@ -34,6 +34,7 @@
 ||iupot.com^
 ||jogdosoaf.com^
 ||make6pain.com^
+||mlytics.com^
 ||nomicidenti.top^
 ||notifa.info^
 ||oodsauns.net^
@@ -61,12 +62,14 @@
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
 ||kotakputih.casa/images/*.gif$image
+||lookmovie.*/dfp.min.js$script
 ||naniplay.com/asset/barr.js
 ||newshub.id^*/pixel.$script
 ||ok.ru/dk?cmd=videoStat$xhr
 ||readthedocs.org/sustainability/view/$image
 ||streamplay.to/*zoneid=
 ||thevideo.us/js/jspc.js?adb
+||torrindex.net/images/ads/$image
 ||vidio.com/watch/*/track$xhr
 ||vidstream.pro/log/
 ||vidstreaming.io/search.html$xhr
