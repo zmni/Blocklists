@@ -2,43 +2,42 @@
 !! KUERI
 !! ========================================================================== !!
 
-utm_$document,xmlhttprequest,queryprune=|utm_
+utm_$removeparam=/^utm_/
 
-||amazon.*ac_$document,queryprune=|ac_
-||amazon.*cv_$document,queryprune=|cv_
-||amazon.*dchild$document,queryprune=|dchild
-||amazon.*keywords$document,queryprune=|keywords
-||amazon.*language$document,queryprune=|language
-||amazon.*linkCode$document,queryprune=|linkCode
-||amazon.*linkId$document,queryprune=|linkId
-||amazon.*pd_rd_$document,queryprune=|pd_rd_
-||amazon.*pf_rd_$document,queryprune=|pf_rd_
-||amazon.*psc$document,queryprune=|psc
-||amazon.*qid$document,queryprune=|qid
-||amazon.*ref$document,queryprune=|ref
-||amazon.*sr$document,queryprune=|sr
-||amazon.*tag$document,queryprune=|tag
+||amazon.*ac_$removeparam=/^ac_/
+||amazon.*cv_$removeparam=/^cv_/
+||amazon.*dchild$removeparam=dchild
+||amazon.*keywords$removeparam=keywords
+||amazon.*language$removeparam=language
+||amazon.*link$removeparam=/^link/
+||amazon.*pd_rd_$removeparam=/^pd_rd_/
+||amazon.*pf_rd_$removeparam=/^pf_rd_/
+||amazon.*psc$removeparam=psc
+||amazon.*qid$removeparam=qid
+||amazon.*ref$removeparam=ref
+||amazon.*sr$removeparam=sr
+||amazon.*tag$removeparam=tag
 
-||bukalapak.com^*blbnr$document,queryprune=|blbnr
-||bukalapak.com^*bnrtype$document,queryprune=|bnrtype
-||bukalapak.com^*from$document,queryprune=|from
-||bukalapak.com^*funnel$document,queryprune=|funnel
-||bukalapak.com^*search_$document,queryprune=|search_
-||bukalapak.com^*source$document,queryprune=|source
+||bukalapak.com^*blbnr$removeparam=blbnr
+||bukalapak.com^*bnrtype$removeparam=bnrtype
+||bukalapak.com^*from$removeparam=from
+||bukalapak.com^*funnel$removeparam=funnel
+||bukalapak.com^*search_$removeparam=/^search_/
+||bukalapak.com^*source$removeparam=source
 
-||detik.com^*tag_$document,queryprune=|tag_
-||duckduckgo.com^*t$document,queryprune=|t
+||detik.com^*tag_$removeparam=/^tag_/
+||duckduckgo.com^*t$removeparam=t
 
-||humblebundle.com^*hmb_$document,xmlhttprequest,queryprune=|hmb_
+||humblebundle.com^*hmb_$removeparam=/^hmb_/
 
-||imdb.com^*ref_$document,queryprune=|ref_
-||instagram.com^*igshid$document,xmlhttprequest,queryprune=|igshid
+||imdb.com^*ref_$removeparam=/^ref_/
+||instagram.com^*igshid$removeparam=igshid
 
-||store.steampowered.com^snr$document,xmlhttprequest,queryprune=|snr
+||store.steampowered.com^snr$removeparam=snr
 
-||t.co^*amp$document,queryprune=|amp
-||tokopedia.com^*navsource$document,queryprune=|navsource
-||tokopedia.com^*nref$document,queryprune=|nref
-||tokopedia.com^*whid$document,xmlhttprequest,queryprune=|whid
+||t.co^*amp$removeparam=amp
+||tokopedia.com^*navsource$removeparam=navsource
+||tokopedia.com^*nref$removeparam=nref
+||tokopedia.com^*whid$removeparam=whid
 
-||youtube.com^*feature$document,queryprune=|feature
+||youtube.com^*feature$removeparam=feature
