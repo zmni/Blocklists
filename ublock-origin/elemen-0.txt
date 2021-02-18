@@ -64,6 +64,7 @@
 9anime.*##.anime-list > li:has(> a > .tag.ep:has-text(/\bcam|preview|raw\b/i))
 9anime.*##.anime-list-s > li:has(> .info > a:has-text((Dub)))
 9anime.*##.sidebar > .top > .body > .tab-content > li:has(> a > .anime > .info > .name:has-text((Dub)))
+9anime.*##.socials
 9anime.*###comment
 9animes.net##.single-post .entry-content ~ div:not(.clear)
 9animes.net##[class^="wpdiscuz"]
@@ -362,13 +363,20 @@ earther.com##.sidebar
 eclipse.org##.ad-strategic
 eclipse.org##.ad-strategic-default
 eclipse.org##.eclipsefnd-ad
+ecosia.org##.above-fold-cta-section
 ecosia.org##.card-relatedsearches
+ecosia.org##.land-background
 ecosia.org##.main-footer__menu--social
 ecosia.org##.main-header__install-cta
-ecosia.org##.result:has(> .result-body > a[href*="softonic.com"])
-ecosia.org##.result:has(> .result-body > a[href*="uptodown.com"])
-ecosia.org##.result:has(> .result-body > a[href*="w3schools.com"])
+ecosia.org##.result[data-url*="lo4d.com"]
+ecosia.org##.result[data-url*="majorgeeks.com"]
+ecosia.org##.result[data-url*="softonic.com"]
+ecosia.org##.result[data-url*="softpedia.com"]
+ecosia.org##.result[data-url*="uptodown.com"]
+ecosia.org##.result[data-url*="w3schools.com"]
+ecosia.org##.scroll-down
 ecosia.org##.small-footer-social-links
+ecosia.org##.tree-counter-section
 endless-space.com##div[id^="cookies-policy-"]
 epicgames.com##.SocialBar
 epicgames.com##[class^="PurchaseTag-tag_"]
