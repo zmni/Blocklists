@@ -16,6 +16,7 @@
 ||discord.com^$3p
 ||discordapp.com^$3p
 ||disqus.com^$3p
+||disquscdn.com^$3p
 ||driftt.com^$3p
 ||facebook.com^$3p
 ||facebook.net^$3p
