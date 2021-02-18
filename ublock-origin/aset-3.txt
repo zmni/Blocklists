@@ -20,6 +20,7 @@
 ||facebook.com^$3p
 ||facebook.net^$3p
 ||force.com^$3p
+||fpjs.io^$3p
 ||g.jwpsrv.com^$3p
 ||gitter.im^$3p
 ||googlevideo.io^$3p
@@ -34,10 +35,12 @@
 ||report.fkw.com^$3p
 ||salesforce.com^$3p
 ||sentry.io^$3p
+||sjpf.io^$3p
 ||smartsupp.com^$3p
 ||smartsuppcdn.com^$3p
 ||smartsuppchat.com^$3p
 ||spot.im^$3p
+||supercharge-srp.co^$3p
 ||telemetryservice.firstpartyapps.oaspapps.com^$3p
 ||thawte.com^$3p
 ||umami.is^$3p

@@ -1,5 +1,5 @@
 ! Title: AdFilters
-! Expires: 4 days
+! Expires: 2 days
 
 !#include aset-0.txt
 !#include aset-1.txt

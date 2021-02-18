@@ -6,6 +6,8 @@
 /app-comments-
 /bugsnag.min.js$script
 /embed/comments/*
+/fp.min.js$script
+/fp.umd.min.js$script
 /js/report?$script
 /plugins/ajax-comment-loading
 /pv-counter.php?$xhr
@@ -19,6 +21,7 @@
 ||acquisitionproducespostman.com^
 ||analytics.churnzero.net^
 ||analytics.getstream.io^
+||api.rollbar.com^
 ||artpever.com^
 ||aseanbanner.tk^
 ||c.statcounter.com^
@@ -29,6 +32,7 @@
 ||disappearanceherbalsixpence.com^
 ||everzones.com^
 ||ezylink.co^
+||f.fingerprintjs.com^
 ||f853150605ccb.com^
 ||fmax.xyz^
 ||henry-loieurope.xyz^

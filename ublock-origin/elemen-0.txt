@@ -413,6 +413,7 @@ flixtor.to##[class^="contentList"] > .d-flex > .py-2:has(:scope .front .fa-video
 flsaudio.com##.homeadv
 fmovies.*,ffmovies.*##.share
 fmovies.*,ffmovies.*##.filmlist > .item:has(> .icons > .quality:has-text(CAM))
+fmovies.*,ffmovies.*###slider
 fmovies.*,ffmovies.*###slider + .container > .mb-5:has(> h1:has-text(Watch Movies Online Free))
 fmovies.*,ffmovies.*##div[class*="addthis_inline_share_"]
 footybite.com##.td-post-content strong:has-text(HD):upward(3)
