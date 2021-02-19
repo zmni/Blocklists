@@ -2,6 +2,8 @@
 !! INJEKSI CSS
 !! ========================================================================== !!
 
+anichart.net##.chart-view:style( margin: 0 5vw !important; )
+
 beautifier.io##.CodeMirror:style( height: auto !important; )
 
 dood.watch##html, body:style( margin: 0 !important; overflow: hidden !important; )
