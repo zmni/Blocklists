@@ -35,7 +35,6 @@
 ||razorpay.com^$3p
 ||report.fkw.com^$3p
 ||salesforce.com^$3p
-||sentry.io^$3p
 ||sjpf.io^$3p
 ||smartsupp.com^$3p
 ||smartsuppcdn.com^$3p
