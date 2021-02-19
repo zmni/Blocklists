@@ -86,7 +86,6 @@
 ||nobartv.com/*chat$1p
 ||ooakforum.com^*banner*.jpg$image,1p
 ||opensource.google/v1/logging$1p
-||play.google.com/_/PlayStoreUi/gen204/$image,1p
 ||popsugar.com/ajax/ab/$1p
 ||pricearea.com^*/banner/$1p
 ||radikal62.xyz^*/monetize.js$script,1p
@@ -116,7 +115,6 @@
 ||time.com/kismet/spacer.png$image,1p
 ||tokopedia.com/marketplace/pixel$image,1p
 ||trakt.tv/assets/watchnow/a/$1p
-||translate.google.*/_/TranslateCommunityUi/gen204/$image,1p
 ||utorrent.com/scripts/collectUserInfo.js$script,1p
 ||utorrent.com/scripts/social/$1p
 ||viva.co.id^*/iklan-18.css$css,1p

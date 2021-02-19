@@ -4,6 +4,7 @@
 !#include aset-0.txt
 !#include aset-1.txt
 !#include aset-3.txt
+!#include aset-d.txt
 !#include aset-x.txt
 
 !#include param-url.txt
