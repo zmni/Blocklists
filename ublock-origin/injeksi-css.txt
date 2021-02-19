@@ -1,0 +1,37 @@
+!! ========================================================================== !!
+!! INJEKSI CSS
+!! ========================================================================== !!
+
+beautifier.io##.CodeMirror:style( height: auto !important; )
+
+dood.watch##html, body:style( margin: 0 !important; overflow: hidden !important; )
+
+fandom.com##body:style( background-image: none !important; )
+fileyi.com##html, body:style( background-color: #000 !important; background-image: unset !important; )
+fileyi.com##.content:style( background-color: #1e1e1e !important; )
+fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !important; )
+
+greasyfork.org##.code-container:style( max-height: unset !important; )
+
+mp4upload.com##body:style( margin: unset !important; )
+partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !important; )
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
+partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
+
+stackoverflow.com,stackexchange.com##pre:style( max-height: unset !important; )
+startpage.com##.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url:style( color: #c3c3c3 !important; )
+startpage.com##.w-gl__result__main:style( display: flex !important; flex-direction: column !important; )
+startpage.com##.w-gl__result-url-container:style( order: 1 !important; )
+startpage.com##.w-gl__result-second-line-container:style( order: 0 !important; )
+startpage.com##.w-gl__description:style( order: 2 !important; )
+streamwo.com##.page-main > .my-12.my-md-12:style( padding-top: unset !important; padding-bottom: unset !important; )
+streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
+streamye.com##.videoplay:style( width: 1160px !important; )
+streamye.com##body:style( background-color: #0f0f0f !important; )
+
+vectr.com##app[filetype=Design]:style( width: 100% !important; )
+
+wolt.com##.noscroll:style( overflow: auto !important; )
+hosted.weblate.org##td.number:style( text-align: center !important; )
+
+youtube.com##ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy:style( max-width: none !important; )

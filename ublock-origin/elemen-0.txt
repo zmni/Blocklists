@@ -187,7 +187,6 @@ azm.to,azmovie.to##body > center:first-child:has(> .alert-blue)
 
 bakabuzz.com##.adace-slot-wrapper
 bakabuzz.com##.adace-slideup-slot-wrap
-beautifier.io##.CodeMirror:style( height: auto !important; )
 bestsimilar.com##.ssk-sticky
 bestsimilar.com###privacy-fixed-bottom
 bhinneka.com##.banner
@@ -332,7 +331,6 @@ dhs-sports.com##.column_banner
 dhs-sports.com##.products_list > a
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
-dood.watch##html, body:style( margin: 0 !important; overflow: hidden !important; )
 duckduckgo.com##.related-searches
 duckduckgo.com##.result[data-domain="pingsunday.com"]
 duckduckgo.com##.result[data-domain="www.w3schools.com"]
@@ -403,10 +401,6 @@ fandom.com###WikiaBar
 fandom.com##body::after
 fandom.com##body::before
 fandom.com##div[itemprop="video"]:has(> .featured-video__wrapper)
-fandom.com##body:style( background-image: none !important; )
-fileyi.com##html, body:style( background-color: #000 !important; background-image: unset !important; )
-fileyi.com##.content:style( background-color: #1e1e1e !important; )
-fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !important; )
 findx.com##.ad-article
 findx.com##.pixel-url
 flixgo.co##.b-description_readmore_wrapper:has(> .b-description_readmore > p:empty)
@@ -486,7 +480,6 @@ greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
 gsmarena.com###subHeader:has(> #topAdv:only-child)
 goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
-greasyfork.org##.code-container:style( max-height: unset !important; )
 play.google.com##.full-price
 
 hagerty.com##.placements
@@ -729,7 +722,6 @@ movietoken.to##.ann-home
 movietoken.to###mv-keywords
 mozilla.org###announce-geoip-suggestion
 mp4upload.com###overlay
-mp4upload.com##body:style( margin: unset !important; )
 msn.com##.irisbanner
 msn.com##.stb-flexvertical[data-m*="sharingtoolbar"]
 msn.com###irisbanner
@@ -763,11 +755,8 @@ partner.microsoft.com##.is-open .onedash-nav-noun .onedash-navigation-category
 partner.microsoft.com##.is-open .onedash-navigation-menu-title .onedash-navigation-category
 partner.microsoft.com##.is-open #onedash-nav-home .onedash-navigation-category
 partner.microsoft.com##.is-open #onedash-nav-support .onedash-navigation-category
-partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !important; )
-partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
 partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > a .onedash-navigation-category
 partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > button .onedash-navigation-category
-partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
 support.microsoft.com###notification-banner
 techcommunity.microsoft.com##.custom-share-component
 forum.mikrotik.com##.main-header
@@ -1122,14 +1111,8 @@ stackoverflow.com,stackexchange.com###answers > #post-form
 stackoverflow.com,stackexchange.com###answers > a[name="new-answer"]
 stackoverflow.com,stackexchange.com###js-gdpr-consent-banner
 stackoverflow.com,stackexchange.com###post-form
-stackoverflow.com,stackexchange.com##pre:style( max-height: unset !important; )
 standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
 startpage.com##.privacy-please-menu-home
-startpage.com##.w-gl__result__main:style( display: flex !important; flex-direction: column !important; )
-startpage.com##.w-gl__result-url-container:style( order: 1 !important; )
-startpage.com##.w-gl__result-second-line-container:style( order: 0 !important; )
-startpage.com##.w-gl__description:style( order: 2 !important; )
-startpage.com##.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url:style( color: #c3c3c3 !important; )
 startpage.com###feedback-button-container
 streamable.com##.bottombanner
 streamable.com##.leftbanner
@@ -1156,14 +1139,10 @@ streamvi.com##center > a[target="_blank"]
 streamvi.com##style + .bs-linebreak
 streamwo.com##.ad-id
 streamwo.com##.footer
-streamwo.com##.page-main > .my-12.my-md-12:style( padding-top: unset !important; padding-bottom: unset !important; )
 streamwo.com###videoRow > .col > .card:not(:first-child)
-streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
 streamye.com##.ad1
 streamye.com##.ad2
 streamye.com##.second + div
-streamye.com##.videoplay:style( width: 1160px !important; )
-streamye.com##body:style( background-color: #0f0f0f !important; )
 superuser.com##.everyonelovesstackoverflow
 superuser.com##.js-dismissable-hero
 superuser.com##.site-header + .s-hero
@@ -1329,7 +1308,6 @@ userstyles.org###top_android_button
 utorrent.com##.ga-et
 
 vectr.com##.ads
-vectr.com##app[filetype=Design]:style( width: 100% !important; )
 vev.io##.navbar
 vev.io##.page-sidebar
 vev.io##.resize-sensor
@@ -1396,12 +1374,10 @@ wolframalpha.com##div:has(> a[href^="/feedback"]):has(> a[href^="/pro-premium-ex
 wolframalpha.com##main > a[href="https://www.wolframalpha.com/pro-for-students"]:only-of-type
 wolframalpha.com##main > a[href="https://www.wolframalpha.com/pro/pricing/students"]
 wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
-wolt.com##.noscroll:style( overflow: auto !important; )
 wolt.com##div[class*="ConsentsBanner"]:upward(4)
 wordpress.org##.locale-banner
 wplift.com##.cp-info-bar
 wplift.com##.ctaheaderbutton
-hosted.weblate.org##td.number:style( text-align: center !important; )
 
 xda-developers.com##.below-nav-ad
 xda-developers.com##.tagbar
@@ -1434,7 +1410,6 @@ youtube.com###alert-banner
 youtube.com###voice-search-button
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
-youtube.com##ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy:style( max-width: none !important; )
 yts.am##.rating-row
 yts.am##a[href^="/go-"]
 
