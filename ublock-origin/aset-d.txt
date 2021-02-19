@@ -4,8 +4,6 @@
 
 *.gif$domain=acefile.*|aceservice.*|animeindo.*|nanime.*|21moviemania.com|animeku.tv|bioskop168.co|bioskoponline.org|dewanonton.*|dewantn.com|dunia21.tv|dutafilm.*|dwanonton.com|filmseri.com|gm21.*|hxload.io|idfl.me|indoxx21.com|juaramovie.com|kotakhitam.casa|kotakputih.casa|layarcinema.*|layarkacaxxi.com|lk21.in|movieon21.org|nobartv.live|nonton.movie|nontonbola.me|nontonplus.com|nontonsub.com|pusatfilm21.com|semi168.club|topddl.net|footybite.com
 
-/gen204/$image,domain=google.*|youtube.com
-
 ||akm-static.ccmbg.com^$domain=ccm.net
 ||alicdn.com^$all,domain=~aliexpress.*
 ||animeindo.*/wp-content/uploads/$script,domain=animeindo.*
