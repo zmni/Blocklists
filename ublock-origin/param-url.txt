@@ -3,7 +3,6 @@
 !! ========================================================================== !!
 
 utm_$removeparam=/^utm_/
-__cf_chl_jschl_tk__$removeparam=__cf_chl_jschl_tk__
 
 ||amazon.*ac_$removeparam=/^ac_/
 ||amazon.*cv_$removeparam=/^cv_/
