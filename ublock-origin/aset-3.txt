@@ -31,6 +31,7 @@
 ||jsdelivr.net/npm/perfops-rom$script,3p
 ||livechatinc.com^$3p
 ||liveperson.net^$3p
+||paypal.com^$3p
 ||qiscus.com^$3p
 ||razorpay.com^$3p
 ||report.fkw.com^$3p
@@ -40,7 +41,9 @@
 ||smartsuppcdn.com^$3p
 ||smartsuppchat.com^$3p
 ||spot.im^$3p
+||stripe.com^$3p
 ||supercharge-srp.co^$3p
+||tawk.to^$3p
 ||telemetryservice.firstpartyapps.oaspapps.com^$3p
 ||thawte.com^$3p
 ||umami.is^$3p
