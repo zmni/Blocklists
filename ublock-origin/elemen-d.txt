@@ -5,6 +5,11 @@
 1337x.to##.box-info > br
 1337x.to##.rating-wrap
 21pilem.com###secondary-popup
+4anime.to##.donations
+4anime.to##.synopsis > a
+4anime.to###fullcontent > center
+4anime.to###rightside
+4anime.to###shortcontent
 4sysops.com##.article-content > [id^="div-test-"]
 5movies.to##.ml-data-rate
 5movies.to##.sidebar
@@ -838,9 +843,11 @@ oploverz.in##.recommended
 oploverz.in##.wpdiscuz-loading-bar
 oploverz.in###header
 otakumode.com##.guest-mail
-ourmatch.net##.leaderboard_ad
-ourmatch.net##.leaderboard_mid
-ourmatch.net##.right_ad
+ourmatch.*##.ig-embed
+ourmatch.*##.leaderboard_ad
+ourmatch.*##.leaderboard_mid
+ourmatch.*##.right_ad
+ourmatch.*##div[class^="adv"]
 
 pahe.in##.header-content
 pasienbpjs.com##.itemad
@@ -853,6 +860,7 @@ phys.org##.article-banner
 pinterest.com##div[data-test-id="giftWrap"]
 pinterest.com##div[data-test-id="UnauthPinLandingCloseup"] > div[data-test-id="pin"] > div[style*="bottom:"]
 pinterest.com##div[data-test-id="UnauthVaseFullBleedModalContainer"]
+piracy.moe##.alert
 podnapisi.net##.ad
 poki.com##div[class*="advertisement-"]
 polygon.com##.c-ad-whitelist
@@ -962,6 +970,7 @@ rutracker.org###bn-mg-bottom
 rutracker.org###logo
 rutracker.org###page_footer > div[style]:first-child:has(:scope #bn-mg-bottom)
 rutracker.org##a[href$="/?from=rutracker"]
+app.raindrop.io##.svSidebar > a[class^="upgrade-"]
 
 salon.com##.outer-ad-unit-wrapper
 sandai.me###in-video-ad-center
@@ -1016,6 +1025,11 @@ simkl.com##.SimklTVFooterShareText
 simkl.com##.SimklTVPosterRate
 simkl.com##.SimklTVRightBlockFriendsRatings
 simkl.com##.SimklTVRightBlockTopBanner
+simply.moe##.sidebar
+simply.moe##.social
+simply.moe##div[class*="dvr-"]
+simply.moe##img[src="https://4anime.co/static/950x250.jpg"]:upward(1)
+simplyaweeb.com##.learn-more-button
 soccerstreams.info##[id^="container-"]
 soccerstreams.info##center:not(:has(> #player))
 solarmoviehd.ru##.movies-list > .ml-item:has(:scope .mli-quality:has-text(CAM))
@@ -1094,6 +1108,7 @@ streamwo.com###videoRow > .col > .card:not(:first-child)
 streamye.com##.ad1
 streamye.com##.ad2
 streamye.com##.second + div
+sulu.io##.cookie
 superuser.com##.everyonelovesstackoverflow
 superuser.com##.js-dismissable-hero
 superuser.com##.site-header + .s-hero
@@ -1197,6 +1212,7 @@ tokopedia.com##.socialholder-label
 tokopedia.com##[class$="-unf-share"]
 tokopedia.com###shopseo
 tokopedia.com###trending-popular-keywords
+tokopedia.com##button[aria-label="Share"][data-testid="pdpShareButton"]
 tokopedia.com##div[data-ssr^="bannerCategory"]
 tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:first-child
 tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:has(> div[class^="css-"]:has-text(Sedang Tren))
@@ -1356,11 +1372,13 @@ ymovies.*###err2019
 ymovies.*###govideo + .btn
 ymovies.*###topplayer
 ymovies.*##div[itemprop="video"] > div:not(#page_effect)
+yoursoccerdose.com##.td-banner-wrap-full
 youtube.com##.ytp-ce-element.ytp-ce-video
 youtube.com###alert-banner
 youtube.com###voice-search-button
-youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
+yugenani.me##.support-us
 yts.am##.rating-row
 yts.am##a[href^="/go-"]
 

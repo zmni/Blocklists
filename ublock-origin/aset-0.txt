@@ -59,6 +59,8 @@
 
 ! SPESIFIK
 
+||4anime.co/static/950x250.jpg$image
+||ahdafsoccer.com/player/updateViews/$xhr
 ||animecdn.xyz/js/ads.js$script,important
 ||dailymotion.com/history/log/
 ||dropbox.com/log/

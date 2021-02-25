@@ -2,6 +2,9 @@
 !! INJEKSI CSS
 !! ========================================================================== !!
 
+4anime.to###fullcontent:style( display: block !important; )
+4anime.to###justtothetop:style( width: 100% !important; )
+
 anichart.net##.chart-view:style( margin: 0 5vw !important; )
 
 beautifier.io##.CodeMirror:style( height: auto !important; )
@@ -20,6 +23,7 @@ partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !impo
 partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
 partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
 
+simply.moe##.main:style( padding-right: 0 !important; width: 100% !important; )
 stackoverflow.com,stackexchange.com##pre:style( max-height: unset !important; )
 startpage.com##.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url:style( color: #c3c3c3 !important; )
 startpage.com##.w-gl__result__main:style( display: flex !important; flex-direction: column !important; )
@@ -37,3 +41,4 @@ wolt.com##.noscroll:style( overflow: auto !important; )
 hosted.weblate.org##td.number:style( text-align: center !important; )
 
 youtube.com##ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy:style( max-width: none !important; )
+yugenani.me##.player--container:style( --ph: calc(100vh - 56px) !important; width: calc(var(--ph) * 16 / 9) !important; max-width: calc(var(--ph) * 16 / 9) !important; )

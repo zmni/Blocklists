@@ -11,6 +11,7 @@
 ##.commento-root
 ##.comments
 ##.comments-area
+##.comments-block
 ##.dsq-brlink
 ##.fb-comments
 ##.js-fb-button

@@ -86,6 +86,8 @@
 ||nobartv.com/*chat$1p
 ||ooakforum.com^*banner*.jpg$image,1p
 ||opensource.google/v1/logging$1p
+||ping.piracy.moe^$xhr,1p
+||stats.piracy.moe^$xhr,1p
 ||popsugar.com/ajax/ab/$1p
 ||pricearea.com^*/banner/$1p
 ||radikal62.xyz^*/monetize.js$script,1p
