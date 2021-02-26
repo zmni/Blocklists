@@ -9,7 +9,7 @@ anichart.net##.chart-view:style( margin: 0 5vw !important; )
 
 beautifier.io##.CodeMirror:style( height: auto !important; )
 
-dood.watch##html, body:style( margin: 0 !important; overflow: hidden !important; )
+dood.*##html, body:style( margin: 0 !important; overflow: hidden !important; )
 
 fandom.com##body:style( background-image: none !important; )
 fileyi.com##html, body:style( background-color: #000 !important; background-image: unset !important; )
@@ -24,6 +24,9 @@ partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list
 partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
 
 simply.moe##.main:style( padding-right: 0 !important; width: 100% !important; )
+simplyaweeb.com##.left-anime-episodes .sidenav .episode-list:style( height: calc(100vh - 65px) !important; )
+simplyaweeb.com##.video-inputs:style( opacity: 0 !important; transition: opacity: .5s !important; )
+simplyaweeb.com##.video-inputs:hover:style( opacity: 1 !important; )
 stackoverflow.com,stackexchange.com##pre:style( max-height: unset !important; )
 startpage.com##.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url:style( color: #c3c3c3 !important; )
 startpage.com##.w-gl__result__main:style( display: flex !important; flex-direction: column !important; )

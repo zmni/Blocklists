@@ -26,9 +26,12 @@ utm_$removeparam=/^utm_/
 ||bukalapak.com^*source$removeparam=source
 
 ||detik.com^*tag_$removeparam=/^tag_/
+||duckduckgo.com^*adx$removeparam=adx
+||duckduckgo.com^*sexp$removeparam=sexp
 ||duckduckgo.com^*t$removeparam=t
 
 ||humblebundle.com^*hmb_$removeparam=/^hmb_/
+||consumer.huawei.com^*fromConsumer$removeparam=fromConsumer
 
 ||imdb.com^*ref_$removeparam=/^ref_/
 ||instagram.com^*igshid$removeparam=igshid

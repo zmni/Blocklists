@@ -63,9 +63,11 @@
 ||ahdafsoccer.com/player/updateViews/$xhr
 ||animecdn.xyz/js/ads.js$script,important
 ||dailymotion.com/history/log/
+||doodcdn.com/ads/ad.js
 ||dropbox.com/log/
 ||gfycat.com^*/shar$image,important
 ||google.com/_/VisualFrontendUi/gen204/
+||google.com/log?
 ||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image

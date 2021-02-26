@@ -337,7 +337,7 @@ epicgames.com##[class^="PurchaseTag-tag_"]
 epicgames.com##s[class^="Price-discount_"]
 epicgames.com##s[class$="-Price__discount"]
 epicgames.com##span[data-component="DiscountAmount"]
-erafone.com##.product-item:has(:scope .stock.unavailable)
+eraspace.com##.breadcrumbs
 eraspace.com##.newsletter
 esn-tt.de###CookieInformations
 ettv.tv##.vp_a
@@ -613,6 +613,7 @@ onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share
 outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
 outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
 
+mailnesia.com###fm-top
 majalahikan.com##.gmr-share
 majalahikan.com##.gmr-share-text
 majalahikan.com##.gmr-share-top
@@ -725,6 +726,7 @@ forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
 n21.tv,nontonserial.tv###fatas
 n21.tv,nontonserial.tv###fbawah
 n21.tv##[id^="previewBox"]
+nanime.*##.advanced_floating_content
 nanime.*##.banner
 nanime.*##.box-body:has(> .iklan)
 nanime.*##.box-body:not(:has(> *))
@@ -1029,7 +1031,10 @@ simply.moe##.sidebar
 simply.moe##.social
 simply.moe##div[class*="dvr-"]
 simply.moe##img[src="https://4anime.co/static/950x250.jpg"]:upward(1)
+simplyaweeb.com##.anime-chat
 simplyaweeb.com##.learn-more-button
+simplyaweeb.com##.msg-sideout
+simplyaweeb.com##.open-chat
 soccerstreams.info##[id^="container-"]
 soccerstreams.info##center:not(:has(> #player))
 solarmoviehd.ru##.movies-list > .ml-item:has(:scope .mli-quality:has-text(CAM))
@@ -1253,6 +1258,8 @@ trello.com###banners
 tvbersama.com##.adsheader
 tvseries.video##.mads
 tvzion.club##.notification
+twist.moe##.donations
+twist.moe##.promote
 twitch.tv##.side-info-container:has(:scope button:has-text(Sign up))
 twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(:scope a[href^="/directory/game/"]))
 twitter.com##[data-testid="primaryColumn"] [data-testid="trend"][role="link"]:has(:scope svg + span:has-text(Dipromosikan oleh)):upward(2)
