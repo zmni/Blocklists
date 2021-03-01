@@ -30,6 +30,8 @@ utm_$removeparam=/^utm_/
 ||duckduckgo.com^*sexp$removeparam=sexp
 ||duckduckgo.com^*t$removeparam=t
 
+||drive.google.com^*usp$removeparam=usp
+
 ||humblebundle.com^*hmb_$removeparam=/^hmb_/
 ||consumer.huawei.com^*fromConsumer$removeparam=fromConsumer
 
