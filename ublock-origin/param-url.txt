@@ -38,7 +38,7 @@ utm_$removeparam=/^utm_/
 ||imdb.com^*ref_$removeparam=/^ref_/
 ||instagram.com^*igshid$removeparam=igshid
 
-||store.steampowered.com^snr$removeparam=snr
+||store.steampowered.com^*snr$removeparam=snr
 
 ||t.co^*amp$removeparam=amp
 ||tokopedia.com^*navsource$removeparam=navsource
