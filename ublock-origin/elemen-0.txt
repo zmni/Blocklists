@@ -21,6 +21,9 @@
 ##.jw-icon[aria-label="Download Video"]
 ##.jw-icon[button="download"]
 ##.ktz-socializer
+##.plyr__controls__item[data-plyr="download"]
+##.plyr__controls__item[data-plyr="fast-forward"]
+##.plyr__controls__item[data-plyr="rewind"]
 ##.vjs-download-control
 ##.vjs-forward-control
 ##.vjs-info-button
