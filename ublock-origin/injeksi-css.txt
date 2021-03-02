@@ -44,4 +44,6 @@ wolt.com##.noscroll:style( overflow: auto !important; )
 hosted.weblate.org##td.number:style( text-align: center !important; )
 
 youtube.com##ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy:style( max-width: none !important; )
-yugenani.me##.player--container:style( --ph: calc(100vh - 56px) !important; width: calc(var(--ph) * 16 / 9) !important; max-width: calc(var(--ph) * 16 / 9) !important; )
+yugenani.me##.player--section > .player--container:style( --ph: calc(100vh - 56px) !important; width: calc(var(--ph) * 16 / 9) !important; max-width: none !important; )
+yugenani.me##.selector--body:style( align-items: flex-start !important; )
+yugenani.me##.selector-list--container:style( max-height: none !important; )
