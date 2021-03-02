@@ -1392,3 +1392,40 @@ yts.am##a[href^="/go-"]
 
 zdnet.com###postComments
 zdnet.com##article > .related-topics
+
+!! ========================================================================== !!
+!! ELEMEN D @@
+!! ========================================================================== !!
+
+alternativeto.net#@#.comments
+bitly.com#@#.twitter
+code.visualstudio.com#@#.tweets
+epicgames.com#@#.social-container
+ketarin.org#@##comments
+nitter.net#@#a[title="Instagram"]
+nokia.com#@#.privacy-container
+nokia.com#@#.privacy-container:not(body):not(html):not(.content-container)
+permanent.org#@#.fa-share-alt
+play.google.com#@#a[title="Instagram"]
+play.google.com#@#a[title="YouTube"]
+reddit.com#@#.comments
+reddit.com#@#.commentarea
+soundcloud.com#@#.sc-button-share
+soundcloud.com#@#.shareButton
+soundcloud.com#@#.shareContent
+soundcloud.com#@#.shareLink
+soundcloud.com#@#button[title="Share"]
+stackoverflow.com#@#.comments
+stanza.co#@#.subscribe-container
+teddit.net#@#.comments
+trakt.tv#@#.sharing
+transifex.com#@#.facebook.icon
+transifex.com#@#.twitter.icon
+transifex.com#@##icon-facebook
+transifex.com#@##icon-twitter
+tweetdeck.twitter.com#@#.icon-twitter-bird
+tweetdeck.twitter.com#@#.js-tweet-button
+twitter.com#@#.facebook-banner
+vault.bitwarden.com#@#.fa-share
+vault.bitwarden.com#@#.fa-share-alt
+vault.bitwarden.com#@#.fa-share-square-o

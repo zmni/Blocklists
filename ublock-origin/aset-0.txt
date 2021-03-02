@@ -66,8 +66,8 @@
 ||doodcdn.com/ads/ad.js
 ||dropbox.com/log/
 ||gfycat.com^*/shar$image,important
+||google.*/log?
 ||google.com/_/VisualFrontendUi/gen204/
-||google.com/log?
 ||jetpack.wordpress.com/jetpack-comment/
 ||kapanlaginetwork.com/ga.html
 ||kotakhitam.casa/images/*.gif$image
@@ -85,3 +85,27 @@
 ||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
 ||youtube.com/youtubei/v1/log_event?$xhr
+
+!! ========================================================================== !!
+!! ASET 0 @@
+!! ========================================================================== !!
+
+@@-rss-icon.
+@@-social-rss.
+@@/feed-icon-
+@@/icon_google_play
+@@/icon_rss.
+@@/icon-rss.
+@@/icon_rssbig.
+@@/icon-rss-
+@@/icons/rss_
+@@/icons/rss-
+@@/icons/rss.
+@@/images/rss_
+@@/rss-32x
+@@/rss-button.
+@@/rss-icon.
+@@/rss.gif
+@@/rss.png
+@@/social-rss-
+@@/social-rss.

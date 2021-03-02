@@ -51,3 +51,55 @@
 ##button[aria-label="share"]
 ##form#commentform
 ##share-widget
+
+!! ========================================================================== !!
+!! ELEMEN 0 @@
+!! ========================================================================== !!
+
+#@#.dashicons-rss
+#@#.fa-rss
+#@#.fa-rss-square
+#@#.feed-icon
+#@#.feed-links
+#@#.feedlink
+#@#.follow-rss
+#@#.footer-rss
+#@#.grecaptcha-badge
+#@#.icon-feed
+#@#.icon-github
+#@#.icon-rss
+#@#.icon.RSS
+#@#.rss
+#@#.rss-feed
+#@#.rss-icon
+#@#.rss-link
+#@#.rss.icon
+#@#.rssicon
+#@#.uk-icon-rss
+#@#[aria-controls="rssModal"]
+#@#[data-open="rssModal"]
+#@#[title="Subscribe to our RSS feed"]
+#@#[title="Subscribe to RSS Feed"]
+#@#[title="SUBSCRIBE TO RSS FEEDS"]
+#@##social-rss
+#@#a[aria-label="RSS"]
+#@#a[title="Feed RSS"]
+#@#a[title="Follow us by RSS"]
+#@#a[title="Get Feed RSS"]
+#@#a[title="RSS"]
+#@#a[title="Subscribe by RSS"]
+#@#a[title="Subscribe to our RSS Feed"]
+#@#a[title="Subscribe with RSS"]
+#@#img[alt="Feed RSS"]
+#@#img[alt="Grab our RSS feed"]
+#@#img[alt="Icono RSS"]
+#@#img[alt="RSS 2.0"]
+#@#img[alt="RSS Feed Readers"]
+#@#img[alt="RSS Feeds"]
+#@#img[alt="Rss logo"]
+#@#img[alt="Site Feed"]
+#@#img[alt="Subscribe to our RSS Feeds"]
+#@#img[alt="Subscribe to RSS Feed"]
+#@#img[alt="Subscribe via RSS Feed"]
+#@#img[alt="Subscribe via RSS!"]
+#@#img[alt="Subscribe via RSS"]
