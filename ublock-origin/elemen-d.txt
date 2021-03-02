@@ -1140,6 +1140,7 @@ tabletennisdaily.com###header > div:not(:has(:scope img.ttx))
 tabletennisdaily.com###notices
 tabletennisdaily.com###stsw
 tabletennisdaily.com##img[src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+tabletennisnerd.com###swipebox-overlay
 tagpacker.com##.consent
 tagpacker.com##consent
 techcrunch.com##.article__related-links
