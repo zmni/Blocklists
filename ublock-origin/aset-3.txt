@@ -1,10 +1,11 @@
 !! ========================================================================== !!
-!! ASET 3
+!! ASET-3
 !! ========================================================================== !!
 
 ! UMUM
 
 ||amazon-adsystem.com^$3p,important
+||bizzabo.com^$3p
 ||buymeacoffee.com^$3p
 ||canny.io^$3p
 ||chatango.com^$3p
@@ -28,7 +29,6 @@
 ||intercom.io^$3p
 ||ipgeolocation.com^$3p
 ||jivosite.com^$3p
-||jsdelivr.net/npm/perfops-rom$script,3p
 ||livechatinc.com^$3p
 ||liveperson.net^$3p
 ||paypal.com^$3p
@@ -51,7 +51,6 @@
 
 ! SPESIFIK
 
-||bizzabo.com/widgets/$3p
 ||cloudfront.net^*/images/respond.proxy.gif$image,3p
 ||cloudfront.net^*/stream-analytics.$script,3p
 ||detik.net.id/libs/*/js/eyeota.js$script,3p
@@ -60,11 +59,11 @@
 ||gc.zgo.at/count.js$script,3p
 ||gstatic.com/firebasejs/*/firebase-analytics.js$script,3p
 ||jsdelivr.net/npm/@widgetbot/$script,3p
+||jsdelivr.net/npm/perfops-rom$script,3p
 ||mittui.com/images/*.gif$image,3p
 ||nick-name.ru/img.php$image,3p
 ||static6.com/assets/ahoy-$script,3p
 ||topddl.net/images/*.gif$image,3p
-||translate.google.com/translate_a/element.js?$script,3p
 ||vimeocdn.com^*/player-stats$3p
 ||vox-cdn.com/ad-whitelist-html/$3p
 ||w.org/images/core/emoji/$image,3p
@@ -72,7 +71,7 @@
 ||yimg.com/oa/consent.js$script,3p
 
 !! ========================================================================== !!
-!! ASET 3 @@
+!! ASET-3 @@
 !! ========================================================================== !!
 
 @@||apis.google.com/js/platform.js?onload=initgooglelogin$script,3p
