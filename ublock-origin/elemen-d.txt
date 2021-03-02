@@ -904,6 +904,7 @@ rawmusictv.com##.affiliate-footer-ad-w
 rawmusictv.com##ins:upward(1)
 reddit.com##.ad-container
 reddit.com##.ad-container:upward(.spacer)
+reddit.com##.entry .buttons > .share
 reddit.com##.give-gold-button
 reddit.com##.goldvertisement:upward(.spacer)
 reddit.com##.HomeAds.SidebarAd:upward(div[data-redditstyle="true"])
