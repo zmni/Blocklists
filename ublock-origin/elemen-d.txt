@@ -121,6 +121,7 @@ apkpure.com##.aegon-link
 apkpure.com##.details-rating
 apkpure.com###iframe_download + #slide-wrap
 aptoide.com##.bundle__container > .bundle-item:not([onclick])
+arstechnica.com###social-footer
 atlasobscura.com##.ad-wrapper
 atlasobscura.com##.siderail-ad
 atlasobscura.com##.siderail-bottom-affix-placeholder
