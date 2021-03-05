@@ -312,6 +312,7 @@ dutafilm.*##a[title="dutafilm telegram"]
 dutafilm.*##a[title="dutafilm twitter"]
 dwanonton.com##.contenido > center
 dwanonton.com##.items > .item:has-text(HDCAM)
+html.duckduckgo.com##.result:has(:scope .result__url[href*="pingsunday.com"])
 
 earther.com##.instream-native-video
 earther.com##.sidebar
@@ -1134,7 +1135,10 @@ store.steampowered.com##.discount_block .bundle_base_discount
 store.steampowered.com##.discount_block .discount_original_price
 store.steampowered.com##.discount_block .discount_pct
 
+tabletennis-reference.com##.adsbygoogle:upward(1)
+tabletennis-reference.com##.colR > .thumbnails:has(> li > .thumbnail > .media-heading > a:has-text(Get the Amazon gift card at a Review!))
 tabletennis-reference.com###register
+tabletennisdaily.com##.postadifrstx
 tabletennisdaily.com###adsw
 tabletennisdaily.com###bop5msotng
 tabletennisdaily.com###header
@@ -1403,6 +1407,7 @@ alternativeto.net#@#.comments
 bitly.com#@#.twitter
 code.visualstudio.com#@#.tweets
 epicgames.com#@#.social-container
+fountainpennetwork.com#@##comments
 ketarin.org#@##comments
 nitter.net#@#a[title="Instagram"]
 nokia.com#@#.privacy-container
@@ -1410,8 +1415,8 @@ nokia.com#@#.privacy-container:not(body):not(html):not(.content-container)
 permanent.org#@#.fa-share-alt
 play.google.com#@#a[title="Instagram"]
 play.google.com#@#a[title="YouTube"]
-reddit.com#@#.comments
 reddit.com#@#.commentarea
+reddit.com#@#.comments
 soundcloud.com#@#.sc-button-share
 soundcloud.com#@#.shareButton
 soundcloud.com#@#.shareContent
@@ -1431,3 +1436,5 @@ twitter.com#@#.facebook-banner
 vault.bitwarden.com#@#.fa-share
 vault.bitwarden.com#@#.fa-share-alt
 vault.bitwarden.com#@#.fa-share-square-o
+youtube.com#@##comment
+youtube.com#@##comments

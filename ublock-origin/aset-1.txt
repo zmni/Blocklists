@@ -108,7 +108,7 @@
 ||streamgoals.com/media/images/sts-$image,1p
 ||swisscows.com/api/b4r$1p
 ||swisscows.com/api/web/ads$1p
-||tabletennisdaily.com/forum/images/banner/*.gif$image,1p
+||tabletennisdaily.com/forum/images/banner/$image,1p
 ||target.microsoft.com/rest/v1/delivery?$1p
 ||techcrunch.com/wp-json/tc/v1/ccpa/do_not_sell_link$1p
 ||tempo.co^*-share.$image,important,1p
