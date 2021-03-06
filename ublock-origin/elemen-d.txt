@@ -298,18 +298,18 @@ duckduckgo.com##img[src^="/t/sl_"]
 dunia21.com##.keywords
 dunia21.com##[id$="banner"]
 dunia21.com###rotating
-dutafilm.*##.afs_ads
-dutafilm.*##.mv-content-items > a:has(:scope .cam-color)
-dutafilm.*##.mv-content-items > a:has(:scope .camh-color)
-dutafilm.*##.related-mv:has(:scope .cam-color)
-dutafilm.*##.related-mv:has(:scope .camh-color)
-dutafilm.*##.socmed
-dutafilm.*##.top-banner
-dutafilm.*##a[href^="https://rebrand.ly/"]
-dutafilm.*##a[title="dutafilm facebook"]
-dutafilm.*##a[title="dutafilm instagram"]
-dutafilm.*##a[title="dutafilm telegram"]
-dutafilm.*##a[title="dutafilm twitter"]
+dutafilm.*,103.194.171.75##.afs_ads
+dutafilm.*,103.194.171.75##.mv-content-items > a:has(:scope .cam-color)
+dutafilm.*,103.194.171.75##.mv-content-items > a:has(:scope .camh-color)
+dutafilm.*,103.194.171.75##.related-mv:has(:scope .cam-color)
+dutafilm.*,103.194.171.75##.related-mv:has(:scope .camh-color)
+dutafilm.*,103.194.171.75##.socmed
+dutafilm.*,103.194.171.75##.top-banner
+dutafilm.*,103.194.171.75##a[href^="https://rebrand.ly/"]
+dutafilm.*,103.194.171.75##a[title="dutafilm facebook"]
+dutafilm.*,103.194.171.75##a[title="dutafilm instagram"]
+dutafilm.*,103.194.171.75##a[title="dutafilm telegram"]
+dutafilm.*,103.194.171.75##a[title="dutafilm twitter"]
 dwanonton.com##.contenido > center
 dwanonton.com##.items > .item:has-text(HDCAM)
 html.duckduckgo.com##.result:has(:scope .result__url[href*="pingsunday.com"])
