@@ -13,7 +13,7 @@
 ||detik.net.id^*/foot_fb.png$image,domain=detik.com
 ||detik.net.id^*/foot_insta.png$image,domain=detik.com
 ||detik.net.id^*/foot_tw.png$image,domain=detik.com
-||fonts.gstatic.com^$domain=prakerja.go.id
+||fonts.gstatic.com^$domain=prakerja.go.id|tokopedia.com
 ||ga.animekisa.tv^$domain=animekisa.tv|hentaikisa.com|mangakisa.com
 ||imgur.com^$image,domain=streamvi.com
 ||l-stat.livejournal.net^$domain=livejournal.com

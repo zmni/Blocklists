@@ -115,7 +115,9 @@
 ||thevideo.us/api/$1p
 ||threadreaderapp.com/stats$1p
 ||time.com/kismet/spacer.png$image,1p
-||tokopedia.com/marketplace/pixel$image,1p
+||tokopedia.com/helios-client/client-log$1p
+||tokopedia.com/marketplace/pixel$1p
+||tokopedia.com/metrics-log/$1p
 ||trakt.tv/assets/watchnow/a/$1p
 ||utorrent.com/scripts/collectUserInfo.js$script,1p
 ||utorrent.com/scripts/social/$1p
