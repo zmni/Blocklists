@@ -138,6 +138,7 @@ newatlas.com##+js(abort-on-property-read, window.admiral)
 nicoblog.org##+js(abort-on-property-read, ad2games)
 
 obengplus.com##+js(nobab)
+openpli.org##+js(abort-current-inline-script, document.write)
 
 phoronix.com##+js(abort-current-inline-script, window.onload, aax_getad_mpb)
 pingsunday.com##+js(remove-attr, target, .entry-content a)
