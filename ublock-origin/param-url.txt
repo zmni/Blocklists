@@ -4,6 +4,11 @@
 
 utm_$removeparam=/^utm_/
 
+||aliexpress.com^*spm$removeparam=spm
+||aliexpress.com^*algo_$removeparam=/^algo_/
+||aliexpress.com^*ws_ab_test$removeparam=ws_ab_test
+||aliexpress.com^*btsid$removeparam=btsid
+
 ||amazon.*ac_$removeparam=/^ac_/
 ||amazon.*cv_$removeparam=/^cv_/
 ||amazon.*dchild$removeparam=dchild
@@ -38,6 +43,9 @@ utm_$removeparam=/^utm_/
 ||imdb.com^*ref_$removeparam=/^ref_/
 ||instagram.com^*igshid$removeparam=igshid
 
+||mytabletennis.net^*KW$removeparam=KW
+
+||shopee.co.id^*trackingId$removeparam=trackingId
 ||store.steampowered.com^*snr$removeparam=snr
 
 ||t.co^*amp$removeparam=amp

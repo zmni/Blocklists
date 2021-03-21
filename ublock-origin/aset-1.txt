@@ -101,6 +101,7 @@
 ||robtex.com/stat/$1p
 ||sandai.me^*/acode.php$1p
 ||scr.cr/placeholder.mp4$media,1p
+||soccerstreams.net/images/banner$image,1p
 ||solarmoviez.ru/popup$1p
 ||standardmedia.co.ke/flash/22bet/$1p
 ||startpage.com/tix2/$image,1p

@@ -516,6 +516,8 @@ iogames.space##.banner-ad-contain
 iogames.space##.v2-adwrap-leaderboard
 iogames.space###HomeRectAdMod
 iogames.space###v2-impTopBanner
+iptvcat.com##.header_aa
+iptvcat.com##.footer_content_aa
 blog.ibwave.com##.tt-share
 blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
 blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
@@ -861,6 +863,7 @@ phonearena.com##div:has(> .spot_disclaimer:only-child)
 phoronix.com###main > div[style]:not([class], [id])
 photopea.com##.photopea > div[style]
 phys.org##.article-banner
+pingpongindonesia.com##.products > .card:has(> .sold-out-tag)
 pinterest.com##div[data-test-id="giftWrap"]
 pinterest.com##div[data-test-id="UnauthPinLandingCloseup"] > div[data-test-id="pin"] > div[style*="bottom:"]
 pinterest.com##div[data-test-id="UnauthVaseFullBleedModalContainer"]
@@ -980,6 +983,8 @@ app.raindrop.io##.svSidebar > a[class^="upgrade-"]
 salon.com##.outer-ad-unit-wrapper
 sandai.me###in-video-ad-center
 sandai.me###in-video-ad-center-main
+sanweisport.com##.breadcrumb-wrapper
+sanweisport.com##.site-content > .page-header
 screenrant.com,therichest.com##.ad-even
 screenrant.com,therichest.com##.ad-odd
 screenrant.com,therichest.com##.art-body-content > p:empty
@@ -1232,6 +1237,7 @@ tokopedia.com##div[data-testid="divDiscoShare"]
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[class^="css-"] > div[class^="css-"] > div[class^="css-"] > img[src][alt~="topads"]):upward(2)
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"] > span[data-testid="divSRPTopadsIcon"]:has-text(Ad)):upward(2)
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"]:has-text(Preorder)):upward(2)
+tokopedia.com##h4[data-testid="showCaseTitle"] + div > div > div:has(> div > div > div > div > div > div > div:has-text(Stok Habis))
 tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item
