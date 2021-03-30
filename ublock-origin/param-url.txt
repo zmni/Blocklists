@@ -32,6 +32,16 @@ utm_$removeparam=/^utm_/
 
 ||detik.com^*tag_$removeparam=/^tag_/
 
+||ebay.com^*_trkparms$removeparam=_trkparms
+||ebay.com^*_trkparms$removeparam=_trksid
+||ebay.com^*hash$removeparam=hash
+
+||google.*aq$removeparam=aq
+||google.*aqi$removeparam=aqi
+||google.*aql$removeparam=aql
+||google.*oq$removeparam=oq
+||google.*gs_$removeparam=/^gs_/
+||google.*source$removeparam=source
 ||drive.google.com^*usp$removeparam=usp
 
 ||humblebundle.com^*hmb_$removeparam=/^hmb_/
@@ -39,6 +49,9 @@ utm_$removeparam=/^utm_/
 
 ||imdb.com^*ref_$removeparam=/^ref_/
 ||instagram.com^*igshid$removeparam=igshid
+
+||lazada.*from$removeparam=from
+||lazada.*spm$removeparam=spm
 
 ||mytabletennis.net^*KW$removeparam=KW
 
@@ -49,5 +62,6 @@ utm_$removeparam=/^utm_/
 ||tokopedia.com^*navsource$removeparam=navsource
 ||tokopedia.com^*nref$removeparam=nref
 ||tokopedia.com^*whid$removeparam=whid
+||tmall.com^*spm$removeparam=spm
 
 ||youtube.com^*feature$removeparam=feature

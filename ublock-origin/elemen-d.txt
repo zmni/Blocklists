@@ -467,6 +467,8 @@ howtogeek.com##div[id^="purch"]:remove()
 howtogeek.com##div[id="1x1"]
 humblebundle.com##.discount-gem-container
 hxload.io###fixedban
+blog.helixsleep.com##.share-box-2
+blog.helixsleep.com##.social-share-label-wrap
 
 ign.com##.ad-rail-wrapper
 ign.com##.block--sponsor
@@ -1143,6 +1145,7 @@ store.steampowered.com##.discount_block .discount_pct
 tabletennis-reference.com##.adsbygoogle:upward(1)
 tabletennis-reference.com##.colR > .thumbnails:has(> li > .thumbnail > .media-heading > a:has-text(Get the Amazon gift card at a Review!))
 tabletennis-reference.com###register
+tabletennis11.com###other-prices
 tabletennisdaily.com##.postadifrstx
 tabletennisdaily.com###adsw
 tabletennisdaily.com###bop5msotng
@@ -1222,6 +1225,7 @@ timeout.com##.xs-col-12:has(> span:has-text(/advertising/i))
 tixati.com##div[style*="min-height: 110px"]
 tokopedia.com##.rel-category-share
 tokopedia.com##.rvm-shares-product
+tokopedia.com##.share_social_toggle_container
 tokopedia.com##.share-general
 tokopedia.com##.shop-official__share
 tokopedia.com##.socialholder-container
@@ -1238,6 +1242,7 @@ tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[class^="css-"] > d
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"] > span[data-testid="divSRPTopadsIcon"]:has-text(Ad)):upward(2)
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"]:has-text(Preorder)):upward(2)
 tokopedia.com##h4[data-testid="showCaseTitle"] + div > div > div:has(> div > div > div > div > div > div > div:has-text(Stok Habis))
+tokopedia.com##img[alt="Waiting for facebook"]
 tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
 tomshardware.com##.socialite-widget-item

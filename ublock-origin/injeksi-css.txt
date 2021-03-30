@@ -42,6 +42,8 @@ streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !
 streamye.com##.videoplay:style( width: 1160px !important; )
 streamye.com##body:style( background-color: #0f0f0f !important; )
 
+tokopedia.com##html, .css-3lpl5n a, .css-3lpl5n p, .css-3lpl5n span, .css-3lpl5n li:style( font-family: Arial,sans-serif !important; )
+
 vectr.com##app[filetype=Design]:style( width: 100% !important; )
 
 wolt.com##.noscroll:style( overflow: auto !important; )
