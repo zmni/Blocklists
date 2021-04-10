@@ -16,6 +16,7 @@
 ||sentry.flipboard.com^$1p
 ||sentry.indeed.com^$1p
 ||ta.tokopedia.com^$1p
+||translate.google.com^$3p
 
 ! SPESIFIK
 
@@ -99,6 +100,7 @@
 ||rgb.to/detroitchicago/$1p
 ||rgb.to/porpoiseant/$1p
 ||robtex.com/stat/$1p
+||ruparupa.com/log/$1p
 ||sandai.me^*/acode.php$1p
 ||scr.cr/placeholder.mp4$media,1p
 ||soccerstreams.net/images/banner$image,1p
@@ -109,6 +111,7 @@
 ||streamgoals.com/media/images/sts-$image,1p
 ||swisscows.com/api/b4r$1p
 ||swisscows.com/api/web/ads$1p
+||tabletennis11.com/media/wysiwyg/slider/banner_$image,1p
 ||tabletennisdaily.com/forum/images/banner/$image,1p
 ||target.microsoft.com/rest/v1/delivery?$1p
 ||techcrunch.com/wp-json/tc/v1/ccpa/do_not_sell_link$1p

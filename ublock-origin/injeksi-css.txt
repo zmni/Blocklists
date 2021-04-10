@@ -27,6 +27,8 @@ partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !impo
 partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
 partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
 
+ruparupa.com##.scroll-bar-algolia:style( height: auto !important; )
+
 simply.moe##.main:style( padding-right: 0 !important; width: 100% !important; )
 simplyaweeb.com##.left-anime-episodes .sidenav .episode-list:style( height: calc(100vh - 65px) !important; )
 simplyaweeb.com##.video-inputs:style( opacity: 0 !important; transition: opacity: .5s !important; )
@@ -41,8 +43,6 @@ streamwo.com##.page-main > .my-12.my-md-12:style( padding-top: unset !important;
 streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
 streamye.com##.videoplay:style( width: 1160px !important; )
 streamye.com##body:style( background-color: #0f0f0f !important; )
-
-tokopedia.com##html, .css-3lpl5n a, .css-3lpl5n p, .css-3lpl5n span, .css-3lpl5n li:style( font-family: Arial,sans-serif !important; )
 
 vectr.com##app[filetype=Design]:style( width: 100% !important; )
 

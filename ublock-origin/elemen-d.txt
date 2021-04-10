@@ -121,6 +121,7 @@ apkpure.com##.aegon-link
 apkpure.com##.details-rating
 apkpure.com###iframe_download + #slide-wrap
 aptoide.com##.bundle__container > .bundle-item:not([onclick])
+archive.org##.social_button
 arstechnica.com###social-footer
 atlasobscura.com##.ad-wrapper
 atlasobscura.com##.siderail-ad
@@ -215,6 +216,7 @@ bukalapak.com##.endorsed-products
 bukalapak.com##.related-keywords
 bukalapak.com##.sidebar-scroll-area .ps__rail-x
 bukalapak.com##.sidebar-scroll-area .ps__rail-y
+butterflyindonesia.com##.rte
 buzzfeednews.com##.comments-chumbox-wrap
 vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
 shop.butterflyonline.com##.product-details-full-social-sharing
@@ -520,6 +522,8 @@ iogames.space###HomeRectAdMod
 iogames.space###v2-impTopBanner
 iptvcat.com##.header_aa
 iptvcat.com##.footer_content_aa
+issuu.com##.fullscreen-ad-placement
+issuu.com##button[aria-label="Share the publication"]
 blog.ibwave.com##.tt-share
 blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
 blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
@@ -656,6 +660,7 @@ mashable.com##footer:has(> .article-shares-links)
 maslosoft.com##.awe-share
 maslosoft.com##.social-sharing-share-block
 megaspin.net##.product-card:has(> .outofstock-lighten)
+megaspin.net##.product-price > s
 meowstream.com##.site-branding
 metacritic.com##.dw_tracking
 metacritic.com##.sharing
@@ -949,6 +954,7 @@ revspin.net###cookie-msg
 revspin.net###product_detail_desc > .desc_expand_link_container
 revspin.net###product_detail_desc > .whiteout
 revspin.net###reviews_container ~ *
+revspin.net##table.popularProductsListing > tbody > tr:has(> .cell_name > a:has-text(Butterfly))
 revspin.net###rightPane
 riie.net##.sencs:has(> .textwidget > .fb-page)
 riie.net###header
@@ -1002,6 +1008,7 @@ series9.co##.social-home
 series9.co##[class*="content-kus"]
 serverfault.com##.everyonelovesstackoverflow
 serverfault.com##.js-dismissable-hero
+shop-ping.be###fblike-box
 shopee.*##._1dtGRy
 shopee.*##._3_ISdg
 shopee.*##._3n5NQx + .MITExd
@@ -1145,6 +1152,7 @@ store.steampowered.com##.discount_block .discount_pct
 tabletennis-reference.com##.adsbygoogle:upward(1)
 tabletennis-reference.com##.colR > .thumbnails:has(> li > .thumbnail > .media-heading > a:has-text(Get the Amazon gift card at a Review!))
 tabletennis-reference.com###register
+tabletennis11.com##.col-main > .std
 tabletennis11.com###other-prices
 tabletennisdaily.com##.postadifrstx
 tabletennisdaily.com###adsw

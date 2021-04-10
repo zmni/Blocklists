@@ -53,7 +53,10 @@ utm_$removeparam=/^utm_/
 ||lazada.*from$removeparam=from
 ||lazada.*spm$removeparam=spm
 
+||megaspin.net^*aid$doc,removeparam=aid
 ||mytabletennis.net^*KW$removeparam=KW
+
+||ruparupa.com^*itm_$removeparam=/^itm_/
 
 ||shopee.co.id^*trackingId$removeparam=trackingId
 ||store.steampowered.com^*snr$removeparam=snr
@@ -61,6 +64,7 @@ utm_$removeparam=/^utm_/
 ||t.co^*amp$removeparam=amp
 ||tokopedia.com^*navsource$removeparam=navsource
 ||tokopedia.com^*nref$removeparam=nref
+||tokopedia.com^*nuq$removeparam=nuq
 ||tokopedia.com^*whid$removeparam=whid
 ||tmall.com^*spm$removeparam=spm
 

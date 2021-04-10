@@ -157,6 +157,7 @@ riie.net##+js(abort-current-inline-script, document.onkeydown, e.keyCode)
 riie.net##+js(addEventListener-defuser, keydown, /e\.ctrlKey|event\.metaKey/)
 riie.net##+js(set-constant, disableSelection, noopFunc)
 ruangotaku.com##+js(abort-current-inline-script, getCoords)
+ruparupa.com##+js(remove-attr, target, a, stay)
 
 simkl.com##+js(abort-on-property-write, window.adBlock)
 sms-receive.net##+js(abort-current-inline-script, $, AdBlock Plus)

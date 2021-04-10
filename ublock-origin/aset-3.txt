@@ -23,6 +23,7 @@
 ||facebook.net^$3p
 ||force.com^$3p
 ||fpjs.io^$3p
+||freshchat.com^$3p
 ||g.jwpsrv.com^$3p
 ||gitter.im^$3p
 ||googlevideo.io^$3p
