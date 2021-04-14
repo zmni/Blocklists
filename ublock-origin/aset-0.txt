@@ -40,6 +40,7 @@
 ||idbtpn.cc^
 ||iupot.com^
 ||jogdosoaf.com^
+||jslocator.com^
 ||make6pain.com^
 ||mlytics.com^
 ||nomicidenti.top^
