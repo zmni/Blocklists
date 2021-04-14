@@ -35,6 +35,7 @@
 ||f.fingerprintjs.com^
 ||f853150605ccb.com^
 ||fmax.xyz^
+||googlescdna.com^
 ||henry-loieurope.xyz^
 ||howtubray.com^
 ||idbtpn.cc^
