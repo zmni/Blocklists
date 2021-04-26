@@ -54,6 +54,7 @@ utm_$removeparam=/^utm_/
 ||lazada.*spm$removeparam=spm
 
 ||megaspin.net^*aid$doc,removeparam=aid
+||mi.co.id^*mi_$doc,removeparam=/^mi_/
 ||mytabletennis.net^*KW$removeparam=KW
 
 ||ruparupa.com^*itm_$removeparam=/^itm_/

@@ -33,6 +33,7 @@
 ||livechatinc.com^$3p
 ||liveperson.net^$3p
 ||paypal.com^$3p
+||producthunt.com^$3p
 ||qiscus.com^$3p
 ||razorpay.com^$3p
 ||report.fkw.com^$3p

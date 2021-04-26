@@ -465,6 +465,8 @@ howtogeek.com##.affiliate-disclosure
 howtogeek.com##.social-media-buttons:remove()
 howtogeek.com###div-thetop1
 howtogeek.com###out-of-page
+howtogeek.com###v2campaignpopup
+howtogeek.com###v2campaignpopup:upward(1)
 howtogeek.com##div[id^="purch"]:remove()
 howtogeek.com##div[id="1x1"]
 humblebundle.com##.discount-gem-container
@@ -516,6 +518,7 @@ instructables.com##.adBlockWrapper
 instructables.com##.aspace-wrap
 instructables.com##.counts
 intowindows.com##.entry-content > div[style]:has(> div > span:has-text(/recommended/i))
+investor.id##.sticky
 iogames.space##.banner-ad-contain
 iogames.space##.v2-adwrap-leaderboard
 iogames.space###HomeRectAdMod
@@ -744,6 +747,14 @@ nanime.*##.box-body:not(:has(> *))
 nanime.*##.iklan-header-item
 nanime.*##img[alt="BandarQ"]
 nanime.*##img[title="EnjoyQQ"]
+nasdaq.com##.ads__inline
+nasdaq.com##.ads__midpage-fullwidth
+nasdaq.com##.ads__native
+nasdaq.com##.ads__right-rail-ad
+nasdaq.com##.ads__right-rail-ad--2-up
+nasdaq.com##.article-header__railAd
+nasdaq.com##.btf-midpagefullwidth
+nasdaq.com##.share
 neonime.*##.box_item_berlangganan
 neonime.*##.comentarios
 neonime.*##.cover
@@ -945,6 +956,8 @@ reelgood.com##button:has-text(Share)
 reelgood.com##button:has(> a[href^="/about/expressvpn"]):upward(1)
 reelgood.com##div:has(> div:only-child > button:has-text(Share))
 reelgood.com##img[alt="Share icon"]
+reuters.com##div[class^="ArticleHeader__share___"]
+reuters.com##div[class^="ShareButtons__"]
 reuters.com##div[class^="SocialTools__"]
 reviewgeek.com##div[id^="future_"]
 revspin.net##.blink_container_side
@@ -1081,6 +1094,7 @@ spacemov.cc###bread
 spacemov.cc###bread + p.aligncenter
 spacemov.cc###mv-keywords
 spacemov.cc###switch-mode
+spc-indonesia.com##.head-img
 speedguide.net##div[style]:has(> div[id^="div-gpt-ad"])
 spin.com##.ad-container
 spin.com##.footer-ad-holder
@@ -1176,12 +1190,14 @@ tempo.co##.ads
 tempo.co##.bottom-banner
 tempo.co##.popup-ads
 tempo.co##.smartbanner
+tempo.co##.sub-head + .sub-head
 tempo.co##.tags
 tempo.co##.top-banner
 tempo.co##[id^="dablewidget_"]
 tempo.co###adnetwork_overlay_1x1
 tempo.co###adsfooter
 tempo.co###hanging_bottom
+tempo.co###ivsplayer01-container
 tempo.co###nr-container
 tempo.co###overlay_1x1
 tempo.co###skin-left
@@ -1192,6 +1208,7 @@ tempo.co##b:has(> .ads)
 tempo.co##meta[http-equiv="refresh"]:remove()
 thecinemaholic.com###taboola-alternating-right-rail-thumbnails:upward(.gridlovec-sticky-sidebar)
 thecut.com##.ad
+thehackernews.com##.home-feed-ga
 themoviedb.org##.ott_offer
 themoviedb.org##ul#new_shortcut_bar.k-menu.k-menu-horizontal:not(.k-context-menu) > .k-item:has(> .k-link:has-text(Bagikan))
 thenextweb.com##.c-post-engage-shares
@@ -1415,6 +1432,8 @@ yugenani.me##.support-us
 yts.am##.rating-row
 yts.am##a[href^="/go-"]
 
+xhofficial5.com##.wio-vspot-container
+
 zdnet.com###postComments
 zdnet.com##article > .related-topics
 
@@ -1425,6 +1444,7 @@ zdnet.com##article > .related-topics
 alternativeto.net#@#.comments
 bitly.com#@#.twitter
 code.visualstudio.com#@#.tweets
+egyptianstreets.com#@#.social-bottom
 epicgames.com#@#.social-container
 fountainpennetwork.com#@##comments
 ketarin.org#@##comments
