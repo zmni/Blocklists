@@ -29,6 +29,9 @@ partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !importa
 
 ruparupa.com##.scroll-bar-algolia:style( height: auto !important; )
 
+series9.*##header:style( position: static !important; )
+series9.*###main:style( padding-top: 0 !important; )
+series9.*##.main-detail:style( width: 1050px !important; )
 simply.moe##.main:style( padding-right: 0 !important; width: 100% !important; )
 simplyaweeb.com##.left-anime-episodes .sidenav .episode-list:style( height: calc(100vh - 65px) !important; )
 simplyaweeb.com##.video-inputs:style( opacity: 0 !important; transition: opacity: .5s !important; )

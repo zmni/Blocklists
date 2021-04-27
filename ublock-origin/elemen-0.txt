@@ -38,6 +38,7 @@
 ###commentfb
 ###commento
 ###comments
+###dlIcon.jw-icon-inline
 ###disqus_thread
 ##a[data-geniuslink]
 ##a[title="Like on Facebook"]

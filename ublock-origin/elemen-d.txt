@@ -420,6 +420,7 @@ gm21.*##.pagess > :not(center)
 gm21.*###backdrops
 gm21.*###cookiedata
 gm21.*##a[href^="https://bit.ly/"]
+gm21.*##iframe[src*="/stream.html#slug="]
 gns3.com##.gns3-community-ad-container
 goal.com##.container-share
 goal.com##.social-container
@@ -682,6 +683,8 @@ moviegaga.*,movieninja.*##.allinone-share
 moviegaga.*,movieninja.*##.movie-likeshare-watch
 moviegaga.*,movieninja.*###share-this-movie
 moviegaga.*,movieninja.*###watch-movie-info:has(> .star-btn)
+movie123.*##.alert
+movie123.*##nav[aria-label="breadcrumb"]
 movies123.*##.breadcrumb
 movies123.*##.footer-tags
 movies123.*##.main-content > .pad
@@ -1015,10 +1018,14 @@ screenrant.com,therichest.com##.premium-promo
 screenrant.com,therichest.com##.sharing-bottom
 screenrant.com,therichest.com##.w-fb-like
 screenrant.com,therichest.com##.w-sharing
-series9.co##.ads
-series9.co##.adsheader
-series9.co##.social-home
-series9.co##[class*="content-kus"]
+series9.*##.ads
+series9.*##.adsheader
+series9.*##.content-kus
+series9.*##.mvic-btn
+series9.*##.pad
+series9.*##.play-notice
+series9.*##.social-home
+series9.*###bread
 serverfault.com##.everyonelovesstackoverflow
 serverfault.com##.js-dismissable-hero
 shop-ping.be###fblike-box

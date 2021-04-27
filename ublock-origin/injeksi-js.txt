@@ -120,6 +120,8 @@ layarcinema.*##+js(no-setTimeout-if, /^/)
 letsupload.co##+js(abort-on-property-read, zfgloadedpopup)
 lookmovie.*##+js(abort-current-inline-script, atob)
 
+movie123.*##+js(acis, document.oncontextmenu)
+movie123.*##+js(acis, document.onmousedown)
 movie4k.org##+js(abort-on-property-read, T822)
 movie4k.org##+js(set-constant, zoneNativeSett, undefined)
 moviego.net##+js(abort-on-property-read, zfgloadedpopup)

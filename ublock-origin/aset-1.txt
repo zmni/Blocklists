@@ -56,6 +56,7 @@
 ||flixtor.to^*/p.$1p
 ||forums.mvgroup.org/donations/$image,1p
 ||fosshub.com^*/donate$1p
+||gm21.*/stream.html#slug=$subdocument,1p
 ||gm21.*/wp-content/uploads/*.gif$image,1p
 ||greasyfork.org^*/install-ping$1p
 ||hentaihaven.org/disqus/$script,1p
