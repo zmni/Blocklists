@@ -592,6 +592,16 @@ lifehacker.com##.js_movable_ad_slot
 lifehacker.com##.js_share-tools
 lifehacker.com##.share-toolbar__container
 lifehacker.com##.sidebar
+ligaxxi.*##.breadcrumbs
+ligaxxi.*##.chaty-widget
+ligaxxi.*##.gmr-movie-on
+ligaxxi.*##.gmr-notification
+ligaxxi.*##.gmr-player-nav
+ligaxxi.*##.gmr-popup-button
+ligaxxi.*##.gmr-rating
+ligaxxi.*##.gmr-watch-movie
+ligaxxi.*##.idmuvi-social-share
+ligaxxi.*##.second-header
 lineageoslog.com##.rek-elastic:has-text(/advertisement/i)
 listennotes.com##.ln-ads-attribution
 listennotes.com##.ln-ads-card
@@ -814,6 +824,10 @@ nontonanime.id##.shfb
 nontonanime.id##.slot
 nontonanime.id##.tags
 nontonanime.id###teaser1
+nontonmax.tv##.sidebar > :not(.doothemes_widget):not(.dt_mainmeta)
+nontonmax.tv##.warning-message
+nontonmax.tv##.widget_instagram-feed-widget
+nontonmax.tv##.widget_instagram-feed-widget + .widget_custom_html
 nontonplus.com##.menu-item-100
 nontonplus.com##.menu-item-11512
 nontonplus.com##.menu-item-96

@@ -5,6 +5,7 @@
 ! UMUM
 
 ||amazon-adsystem.com^$3p,important
+||arc.io^$3p
 ||bizzabo.com^$3p
 ||buymeacoffee.com^$3p
 ||canny.io^$3p

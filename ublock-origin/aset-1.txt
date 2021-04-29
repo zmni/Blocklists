@@ -86,6 +86,7 @@
 ||nextofwindows.com/abd/$1p
 ||nobartv.com/*ads$1p
 ||nobartv.com/*chat$1p
+||nontonmax.tv/assets/devtools-detector/devtools-detector.js$script,1p
 ||ooakforum.com^*banner*.jpg$image,1p
 ||opensource.google/v1/logging$1p
 ||paramdeo.com/count.js$script,1p

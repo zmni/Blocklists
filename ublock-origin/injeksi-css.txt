@@ -22,10 +22,15 @@ fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !import
 
 greasyfork.org##.code-container:style( max-height: unset !important; )
 
+ligaxxi.*##.gmr-server-wrap:style( border-radius: 0 !important; padding: 0 !important; )
+ligaxxi.*##.nav-tabs:style( border-radius: 0 !important; )
+
 mp4upload.com##body:style( margin: unset !important; )
 partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !important; )
 partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
 partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
+
+nontonmax.tv###header:style( position: static !important; )
 
 ruparupa.com##.scroll-bar-algolia:style( height: auto !important; )
 
