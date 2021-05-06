@@ -10,6 +10,7 @@
 ||buymeacoffee.com^$3p
 ||canny.io^$3p
 ||chatango.com^$3p
+||chatbro.com^$3p
 ||commento.io^$3p
 ||crisp.chat^$3p
 ||crux.kn^$3p
@@ -79,6 +80,7 @@
 ||nick-name.ru/img.php$image,3p
 ||static6.com/assets/ahoy-$script,3p
 ||topddl.net/images/*.gif$image,3p
+||trakteer.id/dramaindo/stream/top-supporters$frame,3p
 ||vimeocdn.com^*/player-stats$3p
 ||vox-cdn.com/ad-whitelist-html/$3p
 ||w.org/images/core/emoji/$image,3p

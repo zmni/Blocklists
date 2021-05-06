@@ -12,6 +12,10 @@ beautifier.io##.CodeMirror:style( height: auto !important; )
 dhs-sports.com##div.prducts_type2:style( display: flex !important; )
 dhs-sports.com##div.prducts_type2 > a:style( flex-grow: 1 !important; )
 dood.*##html, body:style( margin: 0 !important; overflow: hidden !important; )
+dramaid.me##.bxcl ul:style( max-height: none !important; )
+dramaindo.my.id##.episode:style( text-align: center !important; )
+dramaindo.my.id##.episode li:style( margin-right: 0 !important; )
+dramaindo.my.id##.episode li + li:style( margin-left: 10px !important; )
 
 fandom.com##body:style( background-image: none !important; )
 fandom.com##.WikiaArticle table:style( width: 100% !important; )
@@ -22,6 +26,11 @@ fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !import
 
 greasyfork.org##.code-container:style( max-height: unset !important; )
 
+idflix.net##header:style( position: static !important; )
+idflix.net###main:style( padding-top: 0 !important; )
+idflix.net##video::cue:style( color: yellow !important; font-size: 20px !important; )
+
+ligaxxi.*##.gmr-search input[type="text"]:style( background-color: #f0f0f0 !important; )
 ligaxxi.*##.gmr-server-wrap:style( border-radius: 0 !important; padding: 0 !important; )
 ligaxxi.*##.nav-tabs:style( border-radius: 0 !important; )
 
@@ -30,7 +39,10 @@ partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !impo
 partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
 partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
 
+motonews.club##.jw-preview:style( background-image: none !important; )
+
 nontonmax.tv###header:style( position: static !important; )
+nontonmax.tv##.module .content .items .item .poster img:style( position: relative !important; )
 
 ruparupa.com##.scroll-bar-algolia:style( height: auto !important; )
 

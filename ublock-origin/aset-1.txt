@@ -67,6 +67,7 @@
 ||indeed.com/hp/rpc/frontendlogging$1p
 ||indonesiaindonesia.com/js/ablock.js$script,1p
 ||inoreader.com/sinner.php$1p
+||itemfix.com/images/img_advertise_pic.png$image,1p
 ||kompas.com^*/analytics/$1p
 ||kompas.com^*/sosmed_share.$script,1p
 ||kompas.com^*/track/$1p
@@ -87,6 +88,7 @@
 ||nobartv.com/*ads$1p
 ||nobartv.com/*chat$1p
 ||nontonmax.tv/assets/devtools-detector/devtools-detector.js$script,1p
+||nontonmax.tv/wp-content/uploads/*.gif$image,1p
 ||ooakforum.com^*banner*.jpg$image,1p
 ||opensource.google/v1/logging$1p
 ||paramdeo.com/count.js$script,1p

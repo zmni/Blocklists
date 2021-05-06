@@ -290,6 +290,13 @@ dhs-sports.com##.column_banner
 dhs-sports.com##.products_list > a
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
+dramaid.me##.infx
+dramaid.me##.kln
+dramaid.me##.mctn
+dramaid.me##.meta
+dramaid.me##.mvelement > br
+dramaid.me##.ts-breadcrumb
+dramaindo.my.id##a[href="https://trakteer.id/dramaindo"]
 duckduckgo.com##.related-searches
 duckduckgo.com##.result[data-domain="pingsunday.com"]
 duckduckgo.com##.result[data-domain="www.w3schools.com"]
@@ -475,6 +482,11 @@ hxload.io###fixedban
 blog.helixsleep.com##.share-box-2
 blog.helixsleep.com##.social-share-label-wrap
 
+idflix.net##.alert
+idflix.net##.content-kuss
+idflix.net##.footer-tags
+idflix.net###bread
+idflix.net###mv-keywords
 ign.com##.ad-rail-wrapper
 ign.com##.block--sponsor
 ign.com##.special:has(> .ad-wrapper:only-child)
@@ -528,6 +540,7 @@ iptvcat.com##.header_aa
 iptvcat.com##.footer_content_aa
 issuu.com##.fullscreen-ad-placement
 issuu.com##button[aria-label="Share the publication"]
+itemfix.com##.advertise-pic
 blog.ibwave.com##.tt-share
 blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
 blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
@@ -1468,6 +1481,7 @@ code.visualstudio.com#@#.tweets
 egyptianstreets.com#@#.social-bottom
 epicgames.com#@#.social-container
 fountainpennetwork.com#@##comments
+idflix.net#@#.fake_player
 ketarin.org#@##comments
 nitter.net#@#a[title="Instagram"]
 nokia.com#@#.privacy-container
