@@ -487,6 +487,7 @@ idflix.net##.content-kuss
 idflix.net##.footer-tags
 idflix.net###bread
 idflix.net###mv-keywords
+idntimes.com###article-page > .icon-bar
 ign.com##.ad-rail-wrapper
 ign.com##.block--sponsor
 ign.com##.special:has(> .ad-wrapper:only-child)
@@ -743,6 +744,7 @@ myanimelist.net##div[style]:not([class], [id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class], [id]):has(> div[style]:not([class], [id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
 mybrowseraddon.com##div:not([class], [id]):has-text(Advertisement)
+mydramalist.com##div[class*="spnsr_"]
 myspace.com##.adsitewidepixel
 myspace.com##.article-footer-ad
 myspace.com##.label:has-text(Advertisement)
@@ -1417,6 +1419,8 @@ windowscentral.com##.article-body__section > p:has(> a[href*="evyy.net/c/"][targ
 windowscentral.com##.article-header__disclosure-wrap
 winscp.net##.promo-block
 winscp.net##.promo-block-content
+wired.com##.ad-stickyhero
+wired.com##.social-icons--share
 wolframalpha.com###menuOpener:has(> span > span:has-text(UPGRADE TO PRO))
 wolframalpha.com##a[href*="?adref="]
 wolframalpha.com##a[href="https://www.wolframalpha.com/tour/"][rel="noopener"]
