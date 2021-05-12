@@ -117,7 +117,6 @@ hxfile.*##+js(acis, document.createElement, script)
 hxfile.*##+js(aopr, BetterJsPop)
 hxfile.*##+js(aopr, Date.prototype.toUTCString)
 hxfile.*##+js(nowebrtc)
-hxfile.*##+js(set, iExist, true)
 
 idfl.*##+js(window.open-defuser, 1, bisabuka.net)
 igg-games.com##+js(set, advanced_ads_ready, noopFunc)
