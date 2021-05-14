@@ -11,5 +11,3 @@
 
 !#include injeksi-css.txt
 !#include injeksi-js.txt
-
-!#include param-url.txt
