@@ -290,13 +290,18 @@ dhs-sports.com##.column_banner
 dhs-sports.com##.products_list > a
 digg.com##.grid-col-1:has(> #gpt--video_feed)
 distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/^(advertisement|iklan)/i))
-dramaid.me##.infx
-dramaid.me##.kln
-dramaid.me##.mctn
-dramaid.me##.meta
-dramaid.me##.mvelement > br
-dramaid.me##.ts-breadcrumb
+dramaid.*##.infox > .rating
+dramaid.*##.infx
+dramaid.*##.kln
+dramaid.*##.mctn
+dramaid.*##.meta
+dramaid.*##.mvelement > br
+dramaid.*##.ts-breadcrumb
+dramaid.*###thememode
 dramaindo.my.id##a[href="https://trakteer.id/dramaindo"]
+dramaku.red##.letter-filter
+dramaku.red##.watch-page.title-block
+dramaku.red###get-bookmark
 duckduckgo.com##.related-searches
 duckduckgo.com##.result[data-domain="pingsunday.com"]
 duckduckgo.com##.result[data-domain="www.w3schools.com"]
@@ -744,6 +749,8 @@ myanimelist.net##div[style]:not([class], [id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class], [id]):has(> div[style]:not([class], [id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
 mybrowseraddon.com##div:not([class], [id]):has-text(Advertisement)
+mydramalist.com##.mdl-support-goal:upward(1)
+mydramalist.com##.share-container
 mydramalist.com##div[class*="spnsr_"]
 myspace.com##.adsitewidepixel
 myspace.com##.article-footer-ad

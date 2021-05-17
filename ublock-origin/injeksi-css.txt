@@ -2,75 +2,82 @@
 !! INJEKSI-CSS
 !! ========================================================================== !!
 
-4anime.to###fullcontent:style( display: block !important; )
-4anime.to###justtothetop:style( width: 100% !important; )
+4anime.to#$##fullcontent { display: block !important; }
+4anime.to#$##justtothetop { width: 100% !important; }
 
-anichart.net##.chart-view:style( margin: 0 5vw !important; )
+anichart.net#$#.chart-view { margin: 0 5vw !important; }
 
-beautifier.io##.CodeMirror:style( height: auto !important; )
+beautifier.io#$#.CodeMirror { height: auto !important; }
 
-dhs-sports.com##div.prducts_type2:style( display: flex !important; )
-dhs-sports.com##div.prducts_type2 > a:style( flex-grow: 1 !important; )
-dood.*##html, body:style( margin: 0 !important; overflow: hidden !important; )
-dramaid.me##.bxcl ul:style( max-height: none !important; )
-dramaindo.my.id##.episode:style( text-align: center !important; )
-dramaindo.my.id##.episode li:style( margin-right: 0 !important; )
-dramaindo.my.id##.episode li + li:style( margin-left: 10px !important; )
+dhs-sports.com#$#div.prducts_type2 { display: flex !important; }
+dhs-sports.com#$#div.prducts_type2 > a { flex-grow: 1 !important; }
+dood.*#$#html, body { margin: 0 !important; overflow: hidden !important; }
+dramaid.*#$#.th { height: auto !important; }
+dramaid.*#$#.th .centernav { display: flex !important; align-items: center !important; }
+dramaid.*#$#.th .centernav > * { margin-top: 0 !important; margin-bottom: 0 !important; }
+dramaid.*#$#.pd-expand { display: block !important; height: 780px !important; }
+dramaid.*#$#.megavid, .mvelement { position: absolute !important; top: 0 !important; width: 100% !important; }
+dramaid.*#$#.video-nav { margin-bottom: 0 !important; }
+dramaid.*#$#.naveps .nvs a { border-radius: 0 !important; margin: 0 !important; }
+dramaid.*#$#.bxcl ul { max-height: none !important; }
+dramaindo.my.id#$#.episode { text-align: center !important; }
+dramaindo.my.id#$#.episode li { margin-right: 0 !important; }
+dramaindo.my.id#$#.episode li + li { margin-left: 10px !important; }
 
-fandom.com##body:style( background-image: none !important; )
-fandom.com##.WikiaArticle table:style( width: 100% !important; )
-fandom.com##.WikiaArticle div[style*="height:"]:style( height: auto !important; )
-fileyi.com##html, body:style( background-color: #000 !important; background-image: unset !important; )
-fileyi.com##.content:style( background-color: #1e1e1e !important; )
-fileyi.com##.content .error-head::after:style( background-color: #5a5a5a !important; )
+fandom.com#$#body { background-image: none !important; }
+fandom.com#$#.WikiaArticle table { width: 100% !important; }
+fandom.com#$#.WikiaArticle div[style*="height:"] { height: auto !important; }
+fileyi.com#$#html, body { background-color: #000 !important; background-image: unset !important; }
+fileyi.com#$#.content { background-color: #1e1e1e !important; }
+fileyi.com#$#.content .error-head::after { background-color: #5a5a5a !important; }
 
-greasyfork.org##.code-container:style( max-height: unset !important; )
+greasyfork.org#$#.code-container { max-height: unset !important; }
 
-idflix.net##header:style( position: static !important; )
-idflix.net###main:style( padding-top: 0 !important; )
-idflix.net##video::cue:style( color: yellow !important; font-size: 20px !important; )
+idflix.net#$#header { position: static !important; }
+idflix.net#$##main { padding-top: 0 !important; }
+idflix.net#$#video::cue { color: yellow !important; font-size: 20px !important; }
 
-ligaxxi.*##.gmr-search input[type="text"]:style( background-color: #f0f0f0 !important; )
-ligaxxi.*##.gmr-server-wrap:style( border-radius: 0 !important; padding: 0 !important; )
-ligaxxi.*##.nav-tabs:style( border-radius: 0 !important; )
+ligaxxi.*#$#.gmr-search input[type="text"] { background-color: #f0f0f0 !important; }
+ligaxxi.*#$#.gmr-server-wrap { border-radius: 0 !important; padding: 0 !important; }
+ligaxxi.*#$#.nav-tabs { border-radius: 0 !important; }
 
-mp4upload.com##body:style( margin: unset !important; )
-partner.microsoft.com##.onedash-side-navigation.is-open:style( width: 48px !important; )
-partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-list:style( overflow-y: hidden !important; )
-partner.microsoft.com##body.dashboard.is-open:style( padding-left: 48px !important; )
+mp4upload.com#$#body { margin: unset !important; }
+partner.microsoft.com#$#.onedash-side-navigation.is-open { width: 48px !important; }
+partner.microsoft.com#$#.onedash-side-navigation.is-open .onedash-navigation-list { overflow-y: hidden !important; }
+partner.microsoft.com#$#body.dashboard.is-open { padding-left: 48px !important; }
 
-motonews.club##.jw-preview:style( background-image: none !important; )
+motonews.club#$#.jw-preview { background-image: none !important; }
 
-nontonmax.tv###header:style( position: static !important; )
-nontonmax.tv##.module .content .items .item .poster img:style( position: relative !important; )
+nontonmax.tv#$##header { position: static !important; }
+nontonmax.tv#$#.module .content .items .item .poster img { position: relative !important; }
 
-ruparupa.com##.scroll-bar-algolia:style( height: auto !important; )
+ruparupa.com#$#.scroll-bar-algolia { height: auto !important; }
 
-series9.*##header:style( position: static !important; )
-series9.*###main:style( padding-top: 0 !important; )
-series9.*##.main-detail:style( width: 1050px !important; )
-simply.moe##.main:style( padding-right: 0 !important; width: 100% !important; )
-simplyaweeb.com##.left-anime-episodes .sidenav .episode-list:style( height: calc(100vh - 65px) !important; )
-simplyaweeb.com##.video-inputs:style( opacity: 0 !important; transition: opacity: .5s !important; )
-simplyaweeb.com##.video-inputs:hover:style( opacity: 1 !important; )
-stackoverflow.com,stackexchange.com##pre:style( max-height: unset !important; )
-startpage.com##.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url:style( color: #c3c3c3 !important; )
-startpage.com##.w-gl__result__main:style( display: flex !important; flex-direction: column !important; )
-startpage.com##.w-gl__result-url-container:style( order: 1 !important; )
-startpage.com##.w-gl__result-second-line-container:style( order: 0 !important; )
-startpage.com##.w-gl__description:style( order: 2 !important; )
-streamwo.com##.page-main > .my-12.my-md-12:style( padding-top: unset !important; padding-bottom: unset !important; )
-streamwo.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
-streamye.com##.videoplay:style( width: 1160px !important; )
-streamye.com##body:style( background-color: #0f0f0f !important; )
+series9.*#$#header { position: static !important; }
+series9.*#$##main { padding-top: 0 !important; }
+series9.*#$#.main-detail { width: 1050px !important; }
+simply.moe#$#.main { padding-right: 0 !important; width: 100% !important; }
+simplyaweeb.com#$#.left-anime-episodes .sidenav .episode-list { height: calc(100vh - 65px) !important; }
+simplyaweeb.com#$#.video-inputs { opacity: 0 !important; transition: opacity: .5s !important; }
+simplyaweeb.com#$#.video-inputs:hover { opacity: 1 !important; }
+stackoverflow.com,stackexchange.com#$#pre { max-height: unset !important; }
+startpage.com#$#.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url { color: #c3c3c3 !important; }
+startpage.com#$#.w-gl__result__main { display: flex !important; flex-direction: column !important; }
+startpage.com#$#.w-gl__result-url-container { order: 1 !important; }
+startpage.com#$#.w-gl__result-second-line-container { order: 0 !important; }
+startpage.com#$#.w-gl__description { order: 2 !important; }
+streamwo.com#$#.page-main > .my-12.my-md-12 { padding-top: unset !important; padding-bottom: unset !important; }
+streamwo.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+streamye.com#$#.videoplay { width: 1160px !important; }
+streamye.com#$#body { background-color: #0f0f0f !important; }
 
-vectr.com##app[filetype=Design]:style( width: 100% !important; )
+vectr.com#$#app[filetype=Design] { width: 100% !important; }
 
-wolt.com##.noscroll:style( overflow: auto !important; )
-hosted.weblate.org##td.number:style( text-align: center !important; )
+wolt.com#$#.noscroll { overflow: auto !important; }
+hosted.weblate.org#$#td.number { text-align: center !important; }
 
-ymovies.se##body:style( background-color: rgb(34, 34, 34) !important; background-image: none !important; )
-ymovies.se##.yifybs-home-search:style( background: transparent !important; border-radius: 0 !important; box-shadow: none !important; margin: 0 auto !important; padding: 0 !important; width: auto !important; )
-ymovies.se##.search-home-container:style( border-radius: 0 !important; box-shadow: none !important; margin: 0 !important; min-height: unset !important; )
-youtube.com###author-text.yt-simple-endpoint.ytd-comment-renderer:style( word-break: break-word !important; )
-youtube.com##ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy:style( max-width: none !important; )
+ymovies.se#$#body { background-color: rgb(34, 34, 34) !important; background-image: none !important; }
+ymovies.se#$#.yifybs-home-search { background: transparent !important; border-radius: 0 !important; box-shadow: none !important; margin: 0 auto !important; padding: 0 !important; width: auto !important; }
+ymovies.se#$#.search-home-container { border-radius: 0 !important; box-shadow: none !important; margin: 0 !important; min-height: unset !important; }
+youtube.com#$##author-text.yt-simple-endpoint.ytd-comment-renderer { word-break: break-word !important; }
+youtube.com#$#ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy { max-width: none !important; }
