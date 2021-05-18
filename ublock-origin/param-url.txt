@@ -33,7 +33,7 @@ utm_$removeparam=/^utm_/
 ||detik.com^*tag_$removeparam=/^tag_/
 
 ||ebay.com^*_trkparms$removeparam=_trkparms
-||ebay.com^*_trkparms$removeparam=_trksid
+||ebay.com^*_trksid$removeparam=_trksid
 ||ebay.com^*hash$removeparam=hash
 
 ||google.*aq$removeparam=aq
