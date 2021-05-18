@@ -15,6 +15,7 @@ dood.*#$#html, body { margin: 0 !important; overflow: hidden !important; }
 dramaid.*#$#.th { height: auto !important; }
 dramaid.*#$#.th .centernav { display: flex !important; align-items: center !important; }
 dramaid.*#$#.th .centernav > * { margin-top: 0 !important; margin-bottom: 0 !important; }
+dramaid.*#$#.logos img { display: block !important; }
 dramaid.*#$#.pd-expand { display: block !important; height: 780px !important; }
 dramaid.*#$#.megavid, .mvelement { position: absolute !important; top: 0 !important; width: 100% !important; }
 dramaid.*#$#.video-nav { margin-bottom: 0 !important; }
