@@ -296,9 +296,11 @@ dramaid.*##.kln
 dramaid.*##.mctn
 dramaid.*##.meta
 dramaid.*##.mvelement > br
+dramaid.*##.single-info.bixbox .infox .desc.mindes > .colap
 dramaid.*##.ts-breadcrumb
 dramaid.*###thememode
 dramaindo.my.id##a[href="https://trakteer.id/dramaindo"]
+dramaku.red##.halim-social-plugin
 dramaku.red##.letter-filter
 dramaku.red##.watch-page.title-block
 dramaku.red###get-bookmark
@@ -749,6 +751,7 @@ myanimelist.net##div[style]:not([class], [id]):has(> .ad-tag)
 myanimelist.net##div[style]:not([class], [id]):has(> div[style]:not([class], [id]) > .mal-ad-unit)
 mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
 mybrowseraddon.com##div:not([class], [id]):has-text(Advertisement)
+mydramalist.com##.cookie
 mydramalist.com##.mdl-support-goal:upward(1)
 mydramalist.com##.share-container
 mydramalist.com##div[class*="spnsr_"]

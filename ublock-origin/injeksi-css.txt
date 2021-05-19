@@ -21,9 +21,25 @@ dramaid.*#$#.megavid, .mvelement { position: absolute !important; top: 0 !import
 dramaid.*#$#.video-nav { margin-bottom: 0 !important; }
 dramaid.*#$#.naveps .nvs a { border-radius: 0 !important; margin: 0 !important; }
 dramaid.*#$#.bxcl ul { max-height: none !important; }
+dramaid.*#$#.advancedsearch .quickfilter .filters .filter.submit { width: 100% !important; }
+dramaid.*#$#.nav_apb { display: flex !important; }
+dramaid.*#$#.nav_apb a { flex-grow: 1 !important; padding-right: 0 !important; padding-left: 0 !important; }
+dramaid.*#$#.single-info.bixbox .infox .desc.mindes { height: auto !important; }
 dramaindo.my.id#$#.episode { text-align: center !important; }
 dramaindo.my.id#$#.episode li { margin-right: 0 !important; }
 dramaindo.my.id#$#.episode li + li { margin-left: 10px !important; }
+dramaku.red#$##headwrap { padding: 8px 0 !important; margin: 0 !important; }
+dramaku.red#$##header .site-title { background-position: bottom left !important; height: 40px !important; margin-top: 0 !important; }
+dramaku.red#$##halim-player-wrapper { --vw: 1140px; width: var(--vw) !important; height: calc(var(--vw) * 9 / 16) !important; }
+dramaku.red#$#.button-watch { line-height: inherit !important; margin: 5px 0 !important; height: auto !important; }
+dramaku.red#$#.button-watch > div { display: flex !important; float: none !important;  padding-left: 0 !important;  width: 100% !important; }
+dramaku.red#$#.button-watch #explayer, .button-watch #likeplayer, .button-watch #report, .button-watch #toggle-light, .button-watch .luotxem, .button-watch #download, .button-watch #autonext { border-radius: 0 !important; }
+dramaku.red#$#.single-post #sidebar { margin-top: calc(var(--vw) * 9 / 16 + 47px) !important; }
+dramaku.red#$##halim-list-server ul { display: flex !important; text-align: center !important; }
+dramaku.red#$##halim-list-server li { flex: 1 !important; margin-bottom: 0 !important; }
+dramaku.red#$##halim-list-server li:last-child { flex: 2 !important; }
+dramaku.red#$##halim-list-server ul li a, #halim-list-server ul li span { display: block !important; }
+dramaku.red#$##halim-list-server ul li span { white-space: nowrap !important; }
 
 fandom.com#$#body { background-image: none !important; }
 fandom.com#$#.WikiaArticle table { width: 100% !important; }

@@ -66,6 +66,7 @@ utm_$removeparam=/^utm_/
 ||tokopedia.com^*navsource$removeparam=navsource
 ||tokopedia.com^*nref$removeparam=nref
 ||tokopedia.com^*nuq$removeparam=nuq
+||tokopedia.com^*trkid$removeparam=trkid
 ||tokopedia.com^*whid$removeparam=whid
 ||tmall.com^*spm$removeparam=spm
 

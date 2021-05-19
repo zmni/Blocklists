@@ -90,6 +90,7 @@ devdocs.io##+js(setc, hideDisabled=1)
 devdocs.io##+js(setc, hideIntro=1)
 dhs-sports.com##+js(ra, target, a.pic)
 dramaindo.my.id##+js(acis, atob)
+dramaku.red##+js(aeld, halim)
 dramaku.red##+js(set, initPu, noopFunc)
 
 epicgames.com##+js(ra, preload, video, stay)
