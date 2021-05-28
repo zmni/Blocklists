@@ -101,6 +101,7 @@
 ||reddit.com/api/request_promo$xhr,1p
 ||reddit.com/api/share.json$xhr,1p
 ||reddit.com/broadcasts$xhr,1p
+||reddit.com/chat/$frame,1p
 ||reddit.com/web/log/$1p
 ||rgb.to/detroitchicago/$1p
 ||rgb.to/porpoiseant/$1p

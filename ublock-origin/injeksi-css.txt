@@ -25,6 +25,7 @@ dramaid.*#$#.advancedsearch .quickfilter .filters .filter.submit { width: 100% !
 dramaid.*#$#.nav_apb { display: flex !important; }
 dramaid.*#$#.nav_apb a { flex-grow: 1 !important; padding-right: 0 !important; padding-left: 0 !important; }
 dramaid.*#$#.single-info.bixbox .infox .desc.mindes { height: auto !important; }
+dramaid.*#$#.quickfilter .filters .filter ul li input:checked + label::before { margin-right: 8px !important; margin-left: 4px !important; height: 12px !important; }
 dramaindo.my.id#$#.episode { text-align: center !important; }
 dramaindo.my.id#$#.episode li { margin-right: 0 !important; }
 dramaindo.my.id#$#.episode li + li { margin-left: 10px !important; }
@@ -44,6 +45,7 @@ dramaku.red#$##halim-list-server ul li span { white-space: nowrap !important; }
 fandom.com#$#body { background-image: none !important; }
 fandom.com#$#.WikiaArticle table { width: 100% !important; }
 fandom.com#$#.WikiaArticle div[style*="height:"] { height: auto !important; }
+files.im#$#html { color: #c3c3c3 !important; }
 fileyi.com#$#html, body { background-color: #000 !important; background-image: unset !important; }
 fileyi.com#$#.content { background-color: #1e1e1e !important; }
 fileyi.com#$#.content .error-head::after { background-color: #5a5a5a !important; }

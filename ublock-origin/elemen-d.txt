@@ -1448,7 +1448,8 @@ xda-developers.com##.below-nav-ad
 xda-developers.com##.tagbar
 xhamster8.com##.wil-sponsor-banner
 xhamster8.com##.wil-spot-container
-xvideos.com##.thumb-block:has-text(/\.([\d]{2,3}|c(c|lub|om)|gl|io|link|ly|me|net|press|us|win|xyz)\/?/)
+xhofficial5.com##.wio-vspot-container
+xvideos.com##.thumb-block:has-text(/\.(\d{2,3}|c(c|lub|om)|g[dl]|io|link|ly|me|net|press|us|win|xyz)\/?/)
 
 yesmovies.to##.mv-rating
 yesmovies.to##.mvic-stats
@@ -1479,8 +1480,6 @@ youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-rendere
 yugenani.me##.support-us
 yts.am##.rating-row
 yts.am##a[href^="/go-"]
-
-xhofficial5.com##.wio-vspot-container
 
 zdnet.com###postComments
 zdnet.com##article > .related-topics
