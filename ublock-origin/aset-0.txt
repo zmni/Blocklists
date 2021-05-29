@@ -90,9 +90,6 @@
 ||vidstream.pro/log/
 ||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
-||youtube.com/youtubei/v1/log_event?$xhr
-
-/^https:\/\/([a-z0-9]{8,10}\.)?[a-z0-9-]{5,}\.[a-z]+\/[a-zA-Z0-9%]{100,}$/$script,3p
 
 !! ========================================================================== !!
 !! ASET-0 @@

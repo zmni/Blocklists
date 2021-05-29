@@ -70,4 +70,4 @@ utm_$removeparam=/^utm_/
 ||tokopedia.com^*whid$removeparam=whid
 ||tmall.com^*spm$removeparam=spm
 
-||youtube.com^*feature$removeparam=feature
+||youtube.com^*feature$doc,removeparam=feature
