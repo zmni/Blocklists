@@ -90,6 +90,8 @@ streamwo.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !impo
 streamye.com#$#.videoplay { width: 1160px !important; }
 streamye.com#$#body { background-color: #0f0f0f !important; }
 
+tokopedia.com#$#html, .css-3lpl5n a, .css-3lpl5n p, .css-3lpl5n span, .css-3lpl5n li { font-family: sans-serif !important; }
+
 vectr.com#$#app[filetype=Design] { width: 100% !important; }
 
 wolt.com#$#.noscroll { overflow: auto !important; }

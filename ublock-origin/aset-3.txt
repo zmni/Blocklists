@@ -2,6 +2,10 @@
 !! ASET-3
 !! ========================================================================== !!
 
+/?ads=$frame,3p
+/?rand=post|$frame,3p
+/core.js|$script,3p
+
 ! UMUM
 
 ||amazon-adsystem.com^$3p,important

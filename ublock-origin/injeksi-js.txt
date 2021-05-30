@@ -166,6 +166,7 @@ polygon.com##+js(ra, data-chorus-optimize-field)
 polygon.com##+js(set, concertAdsQueue, undefined)
 putlockertv.to##+js(aopr, zfgloadedpopup)
 
+realme.com##+js(ra, data-gtag|target, .gtag)
 riie.net##+js(acis, document.keypress, e.ctrlKey)
 riie.net##+js(acis, document.oncontextmenu, n.nodeName)
 riie.net##+js(acis, document.ondragstart)

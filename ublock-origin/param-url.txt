@@ -2,72 +2,73 @@
 !! PARAM-URL
 !! ========================================================================== !!
 
-utm_$removeparam=/^utm_/
+utm_$doc,xhr,removeparam=/^utm_/
 
-||aliexpress.com^*spm$removeparam=spm
-||aliexpress.com^*algo_$removeparam=/^algo_/
-||aliexpress.com^*ws_ab_test$removeparam=ws_ab_test
-||aliexpress.com^*btsid$removeparam=btsid
+||aliexpress.com^*spm$doc,xhr,removeparam=spm
+||aliexpress.com^*algo_$doc,xhr,removeparam=/^algo_/
+||aliexpress.com^*ws_ab_test$doc,xhr,removeparam=ws_ab_test
+||aliexpress.com^*btsid$doc,xhr,removeparam=btsid
 
-||amazon.*ac_$removeparam=/^ac_/
-||amazon.*cv_$removeparam=/^cv_/
-||amazon.*dchild$removeparam=dchild
-||amazon.*geniuslink$removeparam=geniuslink
-||amazon.*keywords$removeparam=keywords
-||amazon.*language$removeparam=language
-||amazon.*link$removeparam=/^link/
-||amazon.*_rd_$removeparam=/^p[fd]_rd_/
-||amazon.*psc$removeparam=psc
-||amazon.*qid$removeparam=qid
-||amazon.*ref$removeparam=ref
-||amazon.*sr$removeparam=sr
-||amazon.*tag$removeparam=tag
+||amazon.*ac_$doc,xhr,removeparam=/^ac_/
+||amazon.*cv_$doc,xhr,removeparam=/^cv_/
+||amazon.*dchild$doc,xhr,removeparam=dchild
+||amazon.*geniuslink$doc,xhr,removeparam=geniuslink
+||amazon.*keywords$doc,xhr,removeparam=keywords
+||amazon.*language$doc,xhr,removeparam=language
+||amazon.*link$doc,xhr,removeparam=/^link/
+||amazon.*_rd_$doc,xhr,removeparam=/^p[fd]_rd_/
+||amazon.*psc$doc,xhr,removeparam=psc
+||amazon.*qid$doc,xhr,removeparam=qid
+||amazon.*ref$doc,xhr,removeparam=ref
+||amazon.*sr$doc,xhr,removeparam=sr
+||amazon.*tag$doc,xhr,removeparam=tag
 
-||bukalapak.com^*blbnr$removeparam=blbnr
-||bukalapak.com^*bnrtype$removeparam=bnrtype
-||bukalapak.com^*from$removeparam=from
-||bukalapak.com^*funnel$removeparam=funnel
-||bukalapak.com^*search_$removeparam=/^search_/
-||bukalapak.com^*source$removeparam=source
+||bukalapak.com^*blbnr$doc,xhr,removeparam=blbnr
+||bukalapak.com^*bnrtype$doc,xhr,removeparam=bnrtype
+||bukalapak.com^*from$doc,xhr,removeparam=from
+||bukalapak.com^*funnel$doc,xhr,removeparam=funnel
+||bukalapak.com^*search_$doc,xhr,removeparam=/^search_/
+||bukalapak.com^*source$doc,xhr,removeparam=source
 
-||detik.com^*tag_$removeparam=/^tag_/
+||detik.com^*tag_$doc,removeparam=/^tag_/
 
-||ebay.com^*_trkparms$removeparam=_trkparms
-||ebay.com^*_trksid$removeparam=_trksid
-||ebay.com^*hash$removeparam=hash
+||ebay.com^*_trkparms$doc,xhr,removeparam=_trkparms
+||ebay.com^*_trksid$doc,xhr,removeparam=_trksid
+||ebay.com^*hash$doc,xhr,removeparam=hash
 
-||google.*aq$removeparam=aq
-||google.*aqi$removeparam=aqi
-||google.*aql$removeparam=aql
-||google.*oq$removeparam=oq
-||google.*gs_$removeparam=/^gs_/
-||google.*source$removeparam=source
-||drive.google.com^*usp$removeparam=usp
+||google.*aq$doc,xhr,removeparam=aq
+||google.*aqi$doc,xhr,removeparam=aqi
+||google.*aql$doc,xhr,removeparam=aql
+||google.*oq$doc,xhr,removeparam=oq
+||google.*gs_$doc,xhr,removeparam=/^gs_/
+||google.*source$doc,xhr,removeparam=source
+||drive.google.com^*usp$doc,removeparam=usp
 
-||humblebundle.com^*hmb_$removeparam=/^hmb_/
-||consumer.huawei.com^*fromConsumer$removeparam=fromConsumer
+||humblebundle.com^*hmb_$doc,removeparam=/^hmb_/
+||consumer.huawei.com^*fromConsumer$doc,removeparam=fromConsumer
 
-||imdb.com^*ref_$removeparam=/^ref_/
-||instagram.com^*igshid$removeparam=igshid
+||imdb.com^*pf_rd_$doc,removeparam=/^pf_rd_/
+||imdb.com^*ref_$doc,removeparam=/^ref_/
+||instagram.com^*igshid$doc,removeparam=igshid
 
-||lazada.*from$removeparam=from
-||lazada.*spm$removeparam=spm
+||lazada.*from$doc,xhr,removeparam=from
+||lazada.*spm$doc,xhr,removeparam=spm
 
 ||megaspin.net^*aid$doc,removeparam=aid
 ||mi.co.id^*mi_$doc,removeparam=/^mi_/
-||mytabletennis.net^*KW$removeparam=KW
+||mytabletennis.net^*KW$doc,removeparam=KW
 
-||ruparupa.com^*itm_$removeparam=/^itm_/
+||ruparupa.com^*itm_$doc,removeparam=/^itm_/
 
-||shopee.co.id^*trackingId$removeparam=trackingId
-||store.steampowered.com^*snr$removeparam=snr
+||shopee.co.id^*trackingId$doc,removeparam=trackingId
+||store.steampowered.com^*snr$doc,removeparam=snr
 
-||t.co^*amp$removeparam=amp
-||tokopedia.com^*navsource$removeparam=navsource
-||tokopedia.com^*nref$removeparam=nref
-||tokopedia.com^*nuq$removeparam=nuq
-||tokopedia.com^*trkid$removeparam=trkid
-||tokopedia.com^*whid$removeparam=whid
-||tmall.com^*spm$removeparam=spm
+||t.co^*amp$doc,removeparam=amp
+||tokopedia.com^*navsource$doc,xhr,removeparam=navsource
+||tokopedia.com^*nref$doc,xhr,removeparam=nref
+||tokopedia.com^*nuq$doc,xhr,removeparam=nuq
+||tokopedia.com^*trkid$doc,xhr,removeparam=trkid
+||tokopedia.com^*whid$doc,xhr,removeparam=whid
+||tmall.com^*spm$doc,xhr,removeparam=spm
 
 ||youtube.com^*feature$doc,removeparam=feature

@@ -218,9 +218,6 @@ bukalapak.com##.sidebar-scroll-area .ps__rail-x
 bukalapak.com##.sidebar-scroll-area .ps__rail-y
 butterflyindonesia.com##.rte
 buzzfeednews.com##.comments-chumbox-wrap
-vault.bitwarden.com##.card.border-success.ng-star-inserted:has(> .card-header:has-text(Go Premium))
-shop.butterflyonline.com##.product-details-full-social-sharing
-shop.butterflyonline.com##.facets-item-cell-grid-rating
 
 cermati.com##.ads-container
 cermati.com##.sticky-banner
@@ -328,7 +325,6 @@ dutafilm.*,103.194.171.75##a[title="dutafilm telegram"]
 dutafilm.*,103.194.171.75##a[title="dutafilm twitter"]
 dwanonton.com##.contenido > center
 dwanonton.com##.items > .item:has-text(HDCAM)
-html.duckduckgo.com##.result:has(:scope .result__url[href*="pingsunday.com"])
 
 earther.com##.instream-native-video
 earther.com##.sidebar
@@ -360,7 +356,6 @@ eraspace.com##.newsletter
 esn-tt.de###CookieInformations
 ettv.tv##.vp_a
 eyeonanime.tv###sct_head
-certbot.eff.org##.social
 
 fandom.com##.background-image-gradient
 fandom.com##.share-button
@@ -454,8 +449,6 @@ gogoanime.*##body > div:has-text(bookmark)
 greasyfork.org##.post-install
 gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
 gsmarena.com###subHeader:has(> #topAdv:only-child)
-goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
-play.google.com##.full-price
 
 hagerty.com##.placements
 hdo.to##.block-share
@@ -486,8 +479,6 @@ howtogeek.com##div[id^="purch"]:remove()
 howtogeek.com##div[id="1x1"]
 humblebundle.com##.discount-gem-container
 hxload.io###fixedban
-blog.helixsleep.com##.share-box-2
-blog.helixsleep.com##.social-share-label-wrap
 
 idflix.net##.alert
 idflix.net##.content-kuss
@@ -549,15 +540,11 @@ iptvcat.com##.footer_content_aa
 issuu.com##.fullscreen-ad-placement
 issuu.com##button[aria-label="Share the publication"]
 itemfix.com##.advertise-pic
-blog.ibwave.com##.tt-share
-blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
-blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
 android.izzysoft.de###amazon
 android.izzysoft.de###support_us
 
 jakartanotebook.com##.product-list:has(> .product-list__content > .stock--sold-out)
 jsfiddle.net##.twitterCont
-youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
 
 kerrang.com##.MasterBillboard:has(> .AdUnit)
 kimovil.com##.short-url
@@ -653,10 +640,6 @@ lookmovie.*##.view-top-ab
 lookmovie.*##.watch-heading
 lookmovie.*##.wellcome-boy-message
 lookmovie.*##.x728x90
-onedrive.live.com##.od-PremiumUpsellBanner
-onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
-outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
-outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
 
 mailnesia.com###fm-top
 majalahikan.com##.gmr-share
@@ -758,22 +741,6 @@ mydramalist.com##div[class*="spnsr_"]
 myspace.com##.adsitewidepixel
 myspace.com##.article-footer-ad
 myspace.com##.label:has-text(Advertisement)
-docs.microsoft.com##.disclaimer-holder:has-text(tidak tersedia dalam bahasa Anda)
-docs.microsoft.com###disclaimer-holder
-partner.microsoft.com##.is-open .onedash-nav-noun .onedash-navigation-category
-partner.microsoft.com##.is-open .onedash-navigation-menu-title .onedash-navigation-category
-partner.microsoft.com##.is-open #onedash-nav-home .onedash-navigation-category
-partner.microsoft.com##.is-open #onedash-nav-support .onedash-navigation-category
-partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > a .onedash-navigation-category
-partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > button .onedash-navigation-category
-support.microsoft.com###notification-banner
-techcommunity.microsoft.com##.custom-share-component
-forum.mikrotik.com##.main-header
-youtubedownload.minitool.com##.article-share-wrap
-youtubedownload.minitool.com###usercomment-280
-addons.mozilla.org##.item.incompatible
-channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
-forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
 
 n21.tv,nontonserial.tv###fatas
 n21.tv,nontonserial.tv###fbawah
@@ -953,8 +920,6 @@ producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[
 protonmail.com##.csbtns
 pscp.tv##.ShareBroadcast
 media.zat.im,libre.video,open.tube,peertube.*,tilvids.*##div[role="button"]:has(> my-global-icon[iconname="share"])
-app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
-mail.protonmail.com##.navigation-upgrade-item
 
 qt.io##.b-article__share-footer
 
@@ -1041,7 +1006,6 @@ rutracker.org###bn-mg-bottom
 rutracker.org###logo
 rutracker.org###page_footer > div[style]:first-child:has(:scope #bn-mg-bottom)
 rutracker.org##a[href$="/?from=rutracker"]
-app.raindrop.io##.svSidebar > a[class^="upgrade-"]
 
 salon.com##.outer-ad-unit-wrapper
 sandai.me###in-video-ad-center
@@ -1180,6 +1144,7 @@ streamgoals.com##.vjs-overlay
 streamgoals.com###controls .casino
 streamgoals.com##a[href^="https://streamgoals.com/bukmacher/r/"]
 streamgoals.com##div[class*=cool-stuff]
+streamtape.com##.creatorlogo
 streamvi.com##.d-none.d-lg-block
 streamvi.com##.footer
 streamvi.com##center > a[target="_blank"]
@@ -1197,17 +1162,6 @@ superuser.com##.site-header + .s-hero
 swatchseries.to###top-band
 swisscows.com##.advt-link
 swisscows.com##.banners-wrap
-isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
-open.spotify.com##.main-view-container ~ div:not([class], [id], [style])
-open.spotify.com##.NavBar__download-item:upward(1)
-open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
-open.spotify.com##.tracklist-row-unplayable:upward(1)
-open.spotify.com##button[aria-label="Upgrade ke Premium"]
-open.spotify.com##button[title="Upgrade ke Premium"]
-open.spotify.com##section[data-testid="cookie-notice"]
-store.steampowered.com##.discount_block .bundle_base_discount
-store.steampowered.com##.discount_block .discount_original_price
-store.steampowered.com##.discount_block .discount_pct
 
 tabletennis-reference.com##.adsbygoogle:upward(1)
 tabletennis-reference.com##.colR > .thumbnails:has(> li > .thumbnail > .media-heading > a:has-text(Get the Amazon gift card at a Review!))
@@ -1305,6 +1259,7 @@ tokopedia.com##[class$="-unf-share"]
 tokopedia.com###shopseo
 tokopedia.com###trending-popular-keywords
 tokopedia.com##button[aria-label="Share"][data-testid="pdpShareButton"]
+tokopedia.com##div:has(> div[data-ep="banner"] > .loaded > a > img[alt="Topads Banner"])
 tokopedia.com##div[data-ssr^="bannerCategory"]
 tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:first-child
 tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:has(> div[class^="css-"]:has-text(Sedang Tren))
@@ -1313,6 +1268,7 @@ tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[class^="css-"] > d
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"] > span[data-testid="divSRPTopadsIcon"]:has-text(Ad)):upward(2)
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"]:has-text(Preorder)):upward(2)
 tokopedia.com##h4[data-testid="showCaseTitle"] + div > div > div:has(> div > div > div > div > div > div > div:has-text(Stok Habis))
+tokopedia.com##img[alt="Topads Banner"]
 tokopedia.com##img[alt="Waiting for facebook"]
 tomsguide.com###sidebar > div:has(> :has-text(/advertisement/i))
 tomshardware.com##.socialite-widget
@@ -1398,7 +1354,6 @@ viva.co.id###leaderboard
 viva.co.id##li:has(> div[id^="div-gpt-ad"])
 vsdea.me###oper
 vsdea.me###pop
-code.visualstudio.com###mscc-cookie-container
 
 washingtonpost.com##body > div:not([class], [id], [style])
 wcostream.com##.alert
@@ -1483,6 +1438,58 @@ yts.am##a[href^="/go-"]
 
 zdnet.com###postComments
 zdnet.com##article > .related-topics
+
+!! ========================================================================== !!
+
+review.bukalapak.com##div[class*="ads-wrapper"]
+review.bukalapak.com##div[id*="adsense-in-article"]
+shop.butterflyonline.com##.product-details-full-social-sharing
+shop.butterflyonline.com##.facets-item-cell-grid-rating
+html.duckduckgo.com##.result:has(:scope .result__url[href*="pingsunday.com"])
+certbot.eff.org##.social
+goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
+play.google.com##.full-price
+blog.helixsleep.com##.share-box-2
+blog.helixsleep.com##.social-share-label-wrap
+blog.ibwave.com##.tt-share
+blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
+blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
+youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
+onedrive.live.com##.od-PremiumUpsellBanner
+onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
+outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
+outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
+docs.microsoft.com##.disclaimer-holder:has-text(tidak tersedia dalam bahasa Anda)
+docs.microsoft.com###disclaimer-holder
+partner.microsoft.com##.is-open .onedash-nav-noun .onedash-navigation-category
+partner.microsoft.com##.is-open .onedash-navigation-menu-title .onedash-navigation-category
+partner.microsoft.com##.is-open #onedash-nav-home .onedash-navigation-category
+partner.microsoft.com##.is-open #onedash-nav-support .onedash-navigation-category
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > a .onedash-navigation-category
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > button .onedash-navigation-category
+support.microsoft.com###notification-banner
+techcommunity.microsoft.com##.custom-share-component
+forum.mikrotik.com##.main-header
+addons.mozilla.org##.item.incompatible
+channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
+forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
+youtubedownload.minitool.com##.article-share-wrap
+youtubedownload.minitool.com###usercomment-280
+app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
+mail.protonmail.com##.navigation-upgrade-item
+app.raindrop.io##.svSidebar > a[class^="upgrade-"]
+isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
+open.spotify.com##.main-view-container ~ div:not([class], [id], [style])
+open.spotify.com##.NavBar__download-item:upward(1)
+open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
+open.spotify.com##.tracklist-row-unplayable:upward(1)
+open.spotify.com##button[aria-label="Upgrade ke Premium"]
+open.spotify.com##button[title="Upgrade ke Premium"]
+open.spotify.com##section[data-testid="cookie-notice"]
+store.steampowered.com##.discount_block .bundle_base_discount
+store.steampowered.com##.discount_block .discount_original_price
+store.steampowered.com##.discount_block .discount_pct
+code.visualstudio.com###mscc-cookie-container
 
 !! ========================================================================== !!
 !! ELEMEN-D @@
