@@ -483,7 +483,9 @@ hxload.io###fixedban
 idflix.net##.alert
 idflix.net##.content-kuss
 idflix.net##.footer-tags
+idflix.net##.tvseason .les-content a:hover::before
 idflix.net###bread
+idflix.net###mv-info .mvi-content .mvic-btn
 idflix.net###mv-keywords
 idntimes.com###article-page > .icon-bar
 ign.com##.ad-rail-wrapper

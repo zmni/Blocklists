@@ -54,6 +54,8 @@ greasyfork.org#$#.code-container { max-height: unset !important; }
 
 idflix.net#$#header { position: static !important; }
 idflix.net#$##main { padding-top: 0 !important; }
+idflix.net#$##mv-info .mvi-content .mvic-desc { margin-right: 0 !important; padding-right: 0 !important; width: 940px !important; }
+idflix.net#$##mv-info .mvi-content .mvic-thumb { width: 200px !important; height: calc(200px * 1.4) !important; }
 idflix.net#$#video::cue { color: yellow !important; font-size: 20px !important; }
 
 ligaxxi.*#$#.gmr-search input[type="text"] { background-color: #f0f0f0 !important; }
@@ -91,6 +93,8 @@ streamye.com#$#.videoplay { width: 1160px !important; }
 streamye.com#$#body { background-color: #0f0f0f !important; }
 
 tokopedia.com#$#html, .css-3lpl5n a, .css-3lpl5n p, .css-3lpl5n span, .css-3lpl5n li { font-family: sans-serif !important; }
+tokopedia.com#$#.sortFilter > div, .sortFilter > div > div { flex: 1 !important; }
+tokopedia.com#$#.sortFilter button { white-space: nowrap !important; }
 
 vectr.com#$#app[filetype=Design] { width: 100% !important; }
 
