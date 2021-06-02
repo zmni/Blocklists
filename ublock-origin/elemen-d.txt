@@ -1282,24 +1282,10 @@ torrentz.*##div.cloud
 torrentz.*##div.onToleratds
 torrentz.*##div.relatedqcont
 trakt.tv##.banner
-trakt.tv##.stats > li:has(> a[href$="/comments"])
 trakt.tv##[class*="hu-ck"]
 trakt.tv##[class*="huck"]
 trakt.tv##[id*="hu-ck"]
 trakt.tv##[id*="huck"]
-trakt.tv###filter-watchnow-launcher
-trakt.tv##a[href^="/vip/ads"]
-trakt.tv##a[href^="/watchnow/a/"]
-trakt.tv##li:has(> a[href^="/apps"])
-trakt.tv##li:has(> a[href^="/pro"])
-trakt.tv##li:has(> a[href^="/users/zmni/collection"])
-trakt.tv##li:has(> a[href^="/users/zmni/comments"])
-trakt.tv##li:has(> a[href^="/users/zmni/network"])
-trakt.tv##li:has(> a[href^="/users/zmni/ratings"])
-trakt.tv##li:has(> a[href^="/users/zmni/year"])
-trakt.tv##li:has(> a[href^="/vip"])
-trakt.tv##li:has(> a[href^="/widgets"])
-trakt.tv##li:has(> a[href="#comments"])
 transifex.com##.js-social-share
 trello.com###banners
 tvbersama.com##.adsheader
