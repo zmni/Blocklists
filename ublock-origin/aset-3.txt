@@ -97,6 +97,7 @@
 !! ASET-3 @@
 !! ========================================================================== !!
 
+@@/core.js|$script,3p,domain=crowdin.com
 @@||apis.google.com/js/platform.js?onload=initgooglelogin$script,3p
 @@||buttons.github.io/buttons.js$script,3p
 @@||vjs.zencdn.net^$script,3p

@@ -401,6 +401,7 @@ freac.org##.bannergroup
 freac.org##.banneritem
 freac.org###banner
 freac.org###rightcol-broad .module:has(:scope h3:has-text(Share))
+freecoursesite.com##.listing-item-ad
 
 gamerankings.com###side_col_wrap:has(> #side_col:only-child > .ad)
 games2gether.com##div[id^="cookies-policy-"]
@@ -612,6 +613,9 @@ ligaxxi.*##.gmr-rating
 ligaxxi.*##.gmr-watch-movie
 ligaxxi.*##.idmuvi-social-share
 ligaxxi.*##.second-header
+ligaxxi.*##.row > [class*="col-"]:has(> .gmr-item-modulepost > .gmr-quality-item > a[rel="tag"]:has-text(HD CAM))
+ligaxxi.*##.row > [class*="col-"]:has(> .gmr-box-content > .content-thumbnail > .gmr-quality-item > a[rel="tag"]:has-text(HD CAM))
+ligaxxi.*##.tns-slider > .tns-item:has(> .other-content-thumbnail > .gmr-quality-item > a[rel="tag"]:has-text(HD CAM))
 lineageoslog.com##.rek-elastic:has-text(/advertisement/i)
 listennotes.com##.ln-ads-attribution
 listennotes.com##.ln-ads-card
@@ -1507,7 +1511,11 @@ soundcloud.com#@#button[title="Share"]
 stackoverflow.com#@#.comments
 stanza.co#@#.subscribe-container
 teddit.net#@#.comments
+trakt.tv#@#.btn-tumblr
+trakt.tv#@#.comments
 trakt.tv#@#.sharing
+trakt.tv#@#.twitter-wrapper
+trakt.tv#@##comments
 transifex.com#@#.facebook.icon
 transifex.com#@#.twitter.icon
 transifex.com#@##icon-facebook

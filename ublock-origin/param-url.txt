@@ -72,3 +72,5 @@ utm_$doc,xhr,removeparam=/^utm_/
 ||tmall.com^*spm$doc,xhr,removeparam=spm
 
 ||youtube.com^*feature$doc,removeparam=feature
+
+||zalora.co.id^*from$doc,removeparam=from
