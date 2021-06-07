@@ -15,7 +15,6 @@
 ||mm.rappler.com^$1p
 ||sentry.flipboard.com^$1p
 ||sentry.indeed.com^$1p
-||ta.tokopedia.com^$1p
 ||translate.google.com^$3p
 
 ! SPESIFIK
