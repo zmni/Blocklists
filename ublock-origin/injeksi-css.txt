@@ -43,7 +43,8 @@ dramaku.red#$##halim-list-server ul li a, #halim-list-server ul li span { displa
 dramaku.red#$##halim-list-server ul li span { white-space: nowrap !important; }
 
 fandom.com#$#body { background-image: none !important; }
-fandom.com#$#.WikiaArticle table { width: 100% !important; }
+fandom.com#$#.WikiaSiteWrapper { width: auto !important; }
+fandom.com#$#.WikiaArticle table { margin-left: 0 !important; width: 100% !important; }
 fandom.com#$#.WikiaArticle div[style*="height:"] { height: auto !important; }
 files.im#$#html { color: #c3c3c3 !important; }
 fileyi.com#$#html, body { background-color: #000 !important; background-image: unset !important; }
@@ -63,6 +64,7 @@ ligaxxi.*#$#.gmr-server-wrap { border-radius: 0 !important; padding: 0 !importan
 ligaxxi.*#$#.nav-tabs { border-radius: 0 !important; }
 
 mp4upload.com#$#body { margin: unset !important; }
+mcloud.to#$#html, body { background: transparent !important; }
 partner.microsoft.com#$#.onedash-side-navigation.is-open { width: 48px !important; }
 partner.microsoft.com#$#.onedash-side-navigation.is-open .onedash-navigation-list { overflow-y: hidden !important; }
 partner.microsoft.com#$#body.dashboard.is-open { padding-left: 48px !important; }
