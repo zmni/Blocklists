@@ -1485,6 +1485,7 @@ code.visualstudio.com###mscc-cookie-container
 alternativeto.net#@#.comments
 bitly.com#@#.twitter
 code.visualstudio.com#@#.tweets
+discussion.enpass.io#@##comments
 egyptianstreets.com#@#.social-bottom
 epicgames.com#@#.social-container
 fountainpennetwork.com#@##comments
