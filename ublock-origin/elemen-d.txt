@@ -822,7 +822,7 @@ nontonanime.id##.shfb
 nontonanime.id##.slot
 nontonanime.id##.tags
 nontonanime.id###teaser1
-nontonmax.tv##.sidebar > :not(.doothemes_widget):not(.dt_mainmeta)
+nontonmax.tv##.sidebar > :not(.doothemes_widget, .dt_mainmeta)
 nontonmax.tv##.warning-message
 nontonmax.tv##.widget_instagram-feed-widget
 nontonmax.tv##.widget_instagram-feed-widget + .widget_custom_html
@@ -1469,6 +1469,7 @@ isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:o
 open.spotify.com##.main-view-container ~ div:not([class], [id], [style])
 open.spotify.com##.NavBar__download-item:upward(1)
 open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
+open.spotify.com##.Root__nav-bar > div[class$="-scss"] > div:not([class], [id], [role], [data-testid]):last-child
 open.spotify.com##.tracklist-row-unplayable:upward(1)
 open.spotify.com##button[aria-label="Upgrade ke Premium"]
 open.spotify.com##button[title="Upgrade ke Premium"]
@@ -1493,7 +1494,7 @@ idflix.net#@#.fake_player
 ketarin.org#@##comments
 nitter.net#@#a[title="Instagram"]
 nokia.com#@#.privacy-container
-nokia.com#@#.privacy-container:not(body):not(html):not(.content-container)
+nokia.com#@#.privacy-container:not(html, body, .content-container)
 permanent.org#@#.fa-share-alt
 play.google.com#@#a[title="Instagram"]
 play.google.com#@#a[title="YouTube"]

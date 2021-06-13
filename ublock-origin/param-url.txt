@@ -2,9 +2,12 @@
 !! PARAM-URL
 !! ========================================================================== !!
 
+itm_$doc,xhr,removeparam=/^itm_/
 utm_$doc,xhr,removeparam=/^utm_/
 
-||aliexpress.com^*spm$doc,xhr,removeparam=spm
+from$$doc,xhr,removeparam=from,domain=bukalapak.com|lazada.*|zalora.co.id
+spm$$doc,xhr,removeparam=spm,domain=aliexpress.com|lazada.*|tmall.com
+
 ||aliexpress.com^*algo_$doc,xhr,removeparam=/^algo_/
 ||aliexpress.com^*ws_ab_test$doc,xhr,removeparam=ws_ab_test
 ||aliexpress.com^*btsid$doc,xhr,removeparam=btsid
@@ -25,7 +28,6 @@ utm_$doc,xhr,removeparam=/^utm_/
 
 ||bukalapak.com^*blbnr$doc,xhr,removeparam=blbnr
 ||bukalapak.com^*bnrtype$doc,xhr,removeparam=bnrtype
-||bukalapak.com^*from$doc,xhr,removeparam=from
 ||bukalapak.com^*funnel$doc,xhr,removeparam=funnel
 ||bukalapak.com^*search_$doc,xhr,removeparam=/^search_/
 ||bukalapak.com^*source$doc,xhr,removeparam=source
@@ -36,12 +38,6 @@ utm_$doc,xhr,removeparam=/^utm_/
 ||ebay.com^*_trksid$doc,xhr,removeparam=_trksid
 ||ebay.com^*hash$doc,xhr,removeparam=hash
 
-||google.*aq$doc,xhr,removeparam=aq
-||google.*aqi$doc,xhr,removeparam=aqi
-||google.*aql$doc,xhr,removeparam=aql
-||google.*oq$doc,xhr,removeparam=oq
-||google.*gs_$doc,xhr,removeparam=/^gs_/
-||google.*source$doc,xhr,removeparam=source
 ||drive.google.com^*usp$doc,removeparam=usp
 
 ||humblebundle.com^*hmb_$doc,removeparam=/^hmb_/
@@ -51,17 +47,14 @@ utm_$doc,xhr,removeparam=/^utm_/
 ||imdb.com^*ref_$doc,removeparam=/^ref_/
 ||instagram.com^*igshid$doc,removeparam=igshid
 
-||lazada.*from$doc,xhr,removeparam=from
-||lazada.*spm$doc,xhr,removeparam=spm
-
 ||megaspin.net^*aid$doc,removeparam=aid
 ||mi.co.id^*mi_$doc,removeparam=/^mi_/
 ||mytabletennis.net^*KW$doc,removeparam=KW
 
-||ruparupa.com^*itm_$doc,removeparam=/^itm_/
-
-||shopee.co.id^*trackingId$doc,removeparam=trackingId
-||store.steampowered.com^*snr$doc,removeparam=snr
+||shopee.*smtt$doc,xhr,removeparam=smtt
+||shopee.*promotionId$doc,xhr,removeparam=promotionId
+||shopee.*trackingId$doc,xhr,removeparam=trackingId
+||store.steampowered.com^*snr$doc,xhr,removeparam=snr
 
 ||t.co^*amp$doc,removeparam=amp
 ||tokopedia.com^*navsource$doc,xhr,removeparam=navsource
@@ -69,8 +62,5 @@ utm_$doc,xhr,removeparam=/^utm_/
 ||tokopedia.com^*nuq$doc,xhr,removeparam=nuq
 ||tokopedia.com^*trkid$doc,xhr,removeparam=trkid
 ||tokopedia.com^*whid$doc,xhr,removeparam=whid
-||tmall.com^*spm$doc,xhr,removeparam=spm
 
 ||youtube.com^*feature$doc,removeparam=feature
-
-||zalora.co.id^*from$doc,removeparam=from
