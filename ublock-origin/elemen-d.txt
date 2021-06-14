@@ -716,6 +716,18 @@ movietoken.to##.ann-home
 movietoken.to###mv-keywords
 mozilla.org###announce-geoip-suggestion
 mp4upload.com###overlay
+msguides.com##.ad-inserter
+msguides.com##.adsense
+msguides.com##.chitika-ad
+msguides.com##.csbwfs-delaydiv
+msguides.com##.csbwfs-pin
+msguides.com##.csbwfs-re
+msguides.com##.csbwfs-sbutton
+msguides.com##.csbwfs-social-inner
+msguides.com##.csbwfs-social-widget
+msguides.com##.csbwfs-tw
+msguides.com##.csbwfsbtns
+msguides.com##.SponsorAds
 msn.com##.irisbanner
 msn.com##.stb-flexvertical[data-m*="sharingtoolbar"]
 msn.com###irisbanner
@@ -1215,6 +1227,8 @@ tempo.co##meta[http-equiv="refresh"]:remove()
 thecinemaholic.com###taboola-alternating-right-rail-thumbnails:upward(.gridlovec-sticky-sidebar)
 thecut.com##.ad
 thehackernews.com##.home-feed-ga
+theitbros.com##.themezee-social-sharing
+theitbros.com##.vi-sticky-ad
 themoviedb.org##.ott_offer
 themoviedb.org##ul#new_shortcut_bar.k-menu.k-menu-horizontal:not(.k-context-menu) > .k-item:has(> .k-link:has-text(Bagikan))
 thenextweb.com##.c-post-engage-shares
