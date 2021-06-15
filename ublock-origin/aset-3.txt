@@ -29,18 +29,6 @@
 ||facebook.net^$3p
 ||force.com^$3p
 ||fpjs.io^$3p
-||freecdn000.xyz^$3p
-||freecdn001.xyz^$3p
-||freecdn002.xyz^$3p
-||freecdn003.xyz^$3p
-||freecdn004.xyz^$3p
-||freecdn005.xyz^$3p
-||freecdn006.xyz^$3p
-||freecdn007.xyz^$3p
-||freecdn008.xyz^$3p
-||freecdn009.xyz^$3p
-||freecdn010.xyz^$3p
-||freeimagecdn.net^$3p
 ||freshchat.com^$3p
 ||g.jwpsrv.com^$3p
 ||gitter.im^$3p
@@ -74,7 +62,6 @@
 ||cloudfront.net^*/images/respond.proxy.gif$image,3p
 ||cloudfront.net^*/stream-analytics.$script,3p
 ||detik.net.id/libs/*/js/eyeota.js$script,3p
-||escdn.co/ads/$important,3p
 ||fileyi.com/api/videos/*/ping$3p
 ||gc.zgo.at/count.js$script,3p
 ||gstatic.com/firebasejs/*/firebase-analytics.js$script,3p
@@ -90,8 +77,6 @@
 ||w.org/images/core/emoji/$image,3p
 ||wix.com/_api/blog-social-counters/$3p
 ||yimg.com/oa/consent.js$script,3p
-
-/^https:\/\/([a-z0-9]{8,10}\.)?[a-z0-9-]{5,}\.[a-z]+\/[a-zA-Z0-9%]{100,}$/$script,3p
 
 !! ========================================================================== !!
 !! ASET-3 @@
