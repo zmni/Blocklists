@@ -15,7 +15,6 @@
 ||detik.net.id^*/foot_tw.png$image,domain=detik.com
 ||ga.animekisa.tv^$domain=animekisa.tv|hentaikisa.com|mangakisa.com
 ||imgur.com^$image,domain=streamvi.com
-||l-stat.livejournal.net^$domain=livejournal.com
 ||newrevive.detik.com^$domain=detik.com|cnnindonesia.com
 ||ogs.google.*/widget/callout?$frame,domain=google.*
 ||rnkr-static.com^*/dist/ads-$script,domain=ranker.com
