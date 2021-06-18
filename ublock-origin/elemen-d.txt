@@ -770,6 +770,13 @@ nanime.*##.box-body:not(:has(> *))
 nanime.*##.iklan-header-item
 nanime.*##img[alt="BandarQ"]
 nanime.*##img[title="EnjoyQQ"]
+nanimex.*##.advanced_floating_content
+nanimex.*##.banner
+nanimex.*##.box-body:has(> .iklan)
+nanimex.*##.box-body:not(:has(> *))
+nanimex.*##.iklan-header-item
+nanimex.*##img[alt="BandarQ"]
+nanimex.*##img[title="EnjoyQQ"]
 nasdaq.com##.ads__inline
 nasdaq.com##.ads__midpage-fullwidth
 nasdaq.com##.ads__native

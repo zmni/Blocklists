@@ -81,6 +81,9 @@
 ||nanime.*/template/nontonanime.org/js/ads.js$script,1p
 ||nanime.*/wp-content/ace/$1p
 ||nanime.*/wp-content/swagger-ui/$1p
+||nanimex.*/template/nontonanime.org/js/ads.js$script,1p
+||nanimex.*/wp-content/ace/$1p
+||nanimex.*/wp-content/swagger-ui/$1p
 ||neonime.*^/*.gif$image,1p
 ||newatlas.com/*_banner_$script,1p
 ||nextofwindows.com/abd/$1p
