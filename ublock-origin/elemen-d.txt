@@ -301,7 +301,10 @@ dramaku.red##.halim-social-plugin
 dramaku.red##.letter-filter
 dramaku.red##.watch-page.title-block
 dramaku.red###get-bookmark
+duckduckgo.com##.feedback-btn
+duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.related-searches
+duckduckgo.com##.result[data-domain="emratthich.com"]
 duckduckgo.com##.result[data-domain="pingsunday.com"]
 duckduckgo.com##.result[data-domain="www.w3schools.com"]
 duckduckgo.com##.results__sitelink--organics:has(> .result__sitelink-row > div[data-domain="www.w3schools.com"])
@@ -1516,6 +1519,7 @@ ketarin.org#@##comments
 nitter.net#@#a[title="Instagram"]
 nokia.com#@#.privacy-container
 nokia.com#@#.privacy-container:not(html, body, .content-container)
+nsaneforums.com#@##comments
 permanent.org#@#.fa-share-alt
 play.google.com#@#a[title="Instagram"]
 play.google.com#@#a[title="YouTube"]

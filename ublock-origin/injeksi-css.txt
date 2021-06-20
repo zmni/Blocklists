@@ -101,6 +101,7 @@ tokopedia.com#$#.sortFilter button { white-space: nowrap !important; }
 vectr.com#$#app[filetype=Design] { width: 100% !important; }
 
 wolt.com#$#.noscroll { overflow: auto !important; }
+hosted.weblate.org#$#.table.zen-horizontal td.translatetext, .table.zen-horizontal td.translator { width: 50% !important; }
 hosted.weblate.org#$#td.number { text-align: center !important; }
 
 ymovies.se#$#body { background-color: rgb(34, 34, 34) !important; background-image: none !important; }
