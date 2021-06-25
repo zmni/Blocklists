@@ -301,6 +301,7 @@ dramaku.red##.halim-social-plugin
 dramaku.red##.letter-filter
 dramaku.red##.watch-page.title-block
 dramaku.red###get-bookmark
+dronedj.com##.post-social-mobile
 duckduckgo.com##.feedback-btn
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.related-searches
@@ -1029,7 +1030,8 @@ rottentomatoes.com###watch-it-now
 ruangotaku.com##.msb
 ruangotaku.com##.post > .wp-post-image
 rutracker.org##.bn-idx
-rutracker.org##.products.ext-links
+rutracker.org##.ext-link
+rutracker.org##.ext-links
 rutracker.org###bn-mg-bottom
 rutracker.org###logo
 rutracker.org###page_footer > div[style]:first-child:has(:scope #bn-mg-bottom)
@@ -1507,37 +1509,29 @@ code.visualstudio.com###mscc-cookie-container
 !! ELEMEN-D @@
 !! ========================================================================== !!
 
-alternativeto.net#@#.comments
+alternativeto.net,reddit.net,stackoverflow.com,superuser.com,teddit.net,trakt.tv#@#.comments
+discussion.enpass.io,fountainpennetwork.com,ketarin.org,nsaneforums.com,trakt.tv,youtube.com#@##comments
+nitter.net,play.google.com#@#a[title="Instagram"]
+permanent.org,vault.bitwarden.com#@#.fa-share-alt
+
 bitly.com#@#.twitter
 code.visualstudio.com#@#.tweets
-discussion.enpass.io#@##comments
 egyptianstreets.com#@#.social-bottom
 epicgames.com#@#.social-container
-fountainpennetwork.com#@##comments
 idflix.net#@#.fake_player
-ketarin.org#@##comments
-nitter.net#@#a[title="Instagram"]
 nokia.com#@#.privacy-container
 nokia.com#@#.privacy-container:not(html, body, .content-container)
-nsaneforums.com#@##comments
-permanent.org#@#.fa-share-alt
-play.google.com#@#a[title="Instagram"]
 play.google.com#@#a[title="YouTube"]
 reddit.com#@#.commentarea
-reddit.com#@#.comments
 soundcloud.com#@#.sc-button-share
 soundcloud.com#@#.shareButton
 soundcloud.com#@#.shareContent
 soundcloud.com#@#.shareLink
 soundcloud.com#@#button[title="Share"]
-stackoverflow.com#@#.comments
 stanza.co#@#.subscribe-container
-teddit.net#@#.comments
 trakt.tv#@#.btn-tumblr
-trakt.tv#@#.comments
 trakt.tv#@#.sharing
 trakt.tv#@#.twitter-wrapper
-trakt.tv#@##comments
 transifex.com#@#.facebook.icon
 transifex.com#@#.twitter.icon
 transifex.com#@##icon-facebook
@@ -1546,7 +1540,5 @@ tweetdeck.twitter.com#@#.icon-twitter-bird
 tweetdeck.twitter.com#@#.js-tweet-button
 twitter.com#@#.facebook-banner
 vault.bitwarden.com#@#.fa-share
-vault.bitwarden.com#@#.fa-share-alt
 vault.bitwarden.com#@#.fa-share-square-o
 youtube.com#@##comment
-youtube.com#@##comments
