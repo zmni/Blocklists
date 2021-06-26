@@ -92,7 +92,7 @@ dhs-sports.com##+js(ra, target, a.pic)
 dramaindo.my.id##+js(acis, atob)
 dramaku.red##+js(aeld, halim)
 dramaku.red##+js(set, initPu, noopFunc)
-duckduckgo.com##+js(rcx, js-result-title-link, .result__a, stay)
+duckduckgo.com##+js(rc, js-result-title-link, .result__a, stay)
 
 epicgames.com##+js(ra, preload, video, stay)
 eraspace.com##+js(ra, target, a)

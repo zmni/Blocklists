@@ -131,62 +131,6 @@ css.js application/javascript
     }
 })();
 
-rcx.js application/javascript
-(() => {
-    const token = "{{1}}";
-    if (token === "" || token === "{{1}}") { return; }
-    const tokens = token.split(/\s*\|\s*/);
-    let selector = "{{2}}";
-    if (selector === "" || selector === "{{2}}") {
-        selector = "." + tokens.map(a => CSS.escape(a)).join(",.");
-    }
-    let behavior = "{{3}}";
-    let timer;
-    const rmclass = () => {
-        timer = undefined;
-        try {
-            const nodes = document.querySelectorAll(selector);
-            for (const node of nodes) {
-                node.classList.remove(...tokens);
-            }
-        } catch(ex) {}
-    };
-    const mutationHandler = mutations => {
-        if (timer !== undefined) { return; }
-        let skip = true;
-        for (let i = 0; i < mutations.length && skip; i++) {
-            const { type, addedNodes, removedNodes } = mutations[i];
-            if (type === "attributes") { skip = false; }
-            for (let j = 0; j < addedNodes.length && skip; j++) {
-                if (addedNodes[j].nodeType === 1) { skip = false; break; }
-            }
-            for (let j = 0; j < removedNodes.length && skip; j++) {
-                if (removedNodes[j].nodeType === 1) { skip = false; break; }
-            }
-        }
-        if ( skip ) { return; }
-        timer = self.requestIdleCallback(rmclass, { timeout: 67 });
-    };
-    const start = () => {
-        rmclass();
-        if (/\bstay\b/.test(behavior) === false) { return; }
-        const observer = new MutationObserver(mutationHandler);
-        observer.observe(document.documentElement, {
-            attributes: true,
-            attributeFilter: ["class"],
-            childList: true,
-            subtree: true,
-        });
-    };
-    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
-        self.addEventListener("load", start, { once: true });
-    } else if (document.readyState === "loading") {
-        self.addEventListener("DOMContentLoaded", start, { once: true });
-    } else {
-        start();
-    }
-})();
-
 setc.js application/javascript
 (() => {
     let data = "{{1}}";
