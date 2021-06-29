@@ -51,6 +51,7 @@ alternativeto.net##.app-list-item:has(> .app-info > .app-header > .sponsored)
 alternativeto.net##.banner
 alternativeto.net##.put-food-on-the-table
 alternativeto.net##.put-food-on-the-table + hr.subtle
+alternativeto.net##div[id*="adngin-in-content"]
 anaboy.xyz##a[href^="https://statcounter.com"]
 androidauthority.com##.aa-bottom-header-section
 androidauthority.com##.aa-infinite-load-more
