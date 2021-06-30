@@ -1,0 +1,77 @@
+!! ========================================================================== !!
+!! ELEMEN-X0
+!! ========================================================================== !!
+
+#@#.dashicons-rss
+#@#.fa-rss
+#@#.fa-rss-square
+#@#.feed-icon
+#@#.feed-links
+#@#.feedlink
+#@#.follow-rss
+#@#.footer-rss
+#@#.grecaptcha-badge
+#@#.icon-feed
+#@#.icon-github
+#@#.icon-rss
+#@#.icon.RSS
+#@#.rss
+#@#.rss-feed
+#@#.rss-icon
+#@#.rss-link
+#@#.rss.icon
+#@#.rssicon
+#@#.uk-icon-rss
+#@#[aria-controls="rssModal"]
+#@#[data-open="rssModal"]
+#@#[title="Subscribe to our RSS feed"]
+#@#[title="Subscribe to RSS Feed"]
+#@#[title="SUBSCRIBE TO RSS FEEDS"]
+#@##social-rss
+#@#a[aria-label="RSS"]
+#@#a[title="Feed RSS"]
+#@#a[title="Follow us by RSS"]
+#@#a[title="Get Feed RSS"]
+#@#a[title="RSS"]
+#@#a[title="Subscribe by RSS"]
+#@#a[title="Subscribe to our RSS Feed"]
+#@#a[title="Subscribe with RSS"]
+#@#img[alt="Feed RSS"]
+#@#img[alt="Grab our RSS feed"]
+#@#img[alt="Icono RSS"]
+#@#img[alt="RSS 2.0"]
+#@#img[alt="RSS Feed Readers"]
+#@#img[alt="RSS Feeds"]
+#@#img[alt="Rss logo"]
+#@#img[alt="Site Feed"]
+#@#img[alt="Subscribe to our RSS Feeds"]
+#@#img[alt="Subscribe to RSS Feed"]
+#@#img[alt="Subscribe via RSS Feed"]
+#@#img[alt="Subscribe via RSS!"]
+#@#img[alt="Subscribe via RSS"]
+
+!! ========================================================================== !!
+!! ELEMEN-XD
+!! ========================================================================== !!
+
+alternativeto.net,reddit.com,stackoverflow.com,superuser.com,teddit.net,trakt.tv#@#.comments
+discussion.enpass.io,fountainpennetwork.com,ketarin.org,nsaneforums.com,trakt.tv,youtube.com#@##comments
+nitter.net,play.google.com#@#a[title="Instagram"]
+permanent.org,vault.bitwarden.com#@#.fa-share-alt
+
+bitly.com#@#.twitter
+code.visualstudio.com#@#.tweets
+egyptianstreets.com#@#.social-bottom
+epicgames.com#@#.social-container
+idflix.net#@#.fake_player
+nokia.com#@#.privacy-container, .privacy-container:not(html, body, .content-container)
+play.google.com#@#a[title="YouTube"]
+reddit.com#@#.commentarea
+soundcloud.com#@#.sc-button-share, .shareButton, .shareContent, .shareLink, button[title="Share"]
+stanza.co#@#.subscribe-container
+trakt.tv#@#.btn-tumblr, .sharing, .twitter-wrapper
+transifex.com#@#.facebook.icon, .twitter.icon
+transifex.com#@##icon-facebook, #icon-twitter
+tweetdeck.twitter.com#@#.facebook-banner, .icon-twitter-bird, .js-tweet-button
+vault.bitwarden.com#@#.fa-share, .fa-share-square-o
+youtube.com#@##comment

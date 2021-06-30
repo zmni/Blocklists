@@ -104,27 +104,3 @@
 ||vidstream.pro/log/
 ||vidstreaming.io/search.html$xhr
 ||vimeo.com/log/
-
-!! ========================================================================== !!
-!! ASET-0 @@
-!! ========================================================================== !!
-
-@@-rss-icon.
-@@-social-rss.
-@@/feed-icon-
-@@/icon_google_play
-@@/icon_rss.
-@@/icon-rss.
-@@/icon_rssbig.
-@@/icon-rss-
-@@/icons/rss_
-@@/icons/rss-
-@@/icons/rss.
-@@/images/rss_
-@@/rss-32x
-@@/rss-button.
-@@/rss-icon.
-@@/rss.gif
-@@/rss.png
-@@/social-rss-
-@@/social-rss.

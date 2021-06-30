@@ -1,0 +1,73 @@
+!! ========================================================================== !!
+!! ASET-X0
+!! ========================================================================== !!
+
+@@-rss-icon.
+@@-social-rss.
+@@/feed-icon-
+@@/icon_google_play
+@@/icon_rss.
+@@/icon-rss.
+@@/icon_rssbig.
+@@/icon-rss-
+@@/icons/rss_
+@@/icons/rss-
+@@/icons/rss.
+@@/images/rss_
+@@/rss-32x
+@@/rss-button.
+@@/rss-icon.
+@@/rss.gif
+@@/rss.png
+@@/social-rss-
+@@/social-rss.
+
+!! ========================================================================== !!
+!! ASET-X1
+!! ========================================================================== !!
+
+@@||anilist.co/img/landing/social.$image,1p
+@@||authy.com/wp-content/uploads/Pinterest-logo.png$image,1p
+@@||data.kemkes.go.id/data/api/analytics.json$1p
+@@||dutafilm.*/img/logo-red.gif$image,1p
+@@||dutafilm.*/sw.js|$script,1p
+@@||jellyfin.org/images/youtube_$image,1p
+@@||myanimelist.net/images/icon-banned-youtube.png$image,1p
+@@||prism-break.org/assets/logos/facebook$image,1p
+@@||prism-break.org/assets/logos/linkedin.svg$image,1p
+@@||prism-break.org/assets/logos/twitter.$image,1p
+@@||thewitcher.com/js/jsPlugins/jCookie/jCookie.js$script,1p
+@@||userstyles.org/ui/images/icons/facebook$image,1p
+@@||userstyles.org/ui/images/icons/google$image,1p
+@@||userstyles.org/ui/images/icons/instagram$image,1p
+@@||userstyles.org/ui/images/icons/twitter$image,1p
+@@||userstyles.org/ui/images/icons/youtube$image,1p
+@@||weblate.org/hosted/static/auth/facebook.svg$image,1p
+@@||weblate.org/hosted/static/btn_google_$image,1p
+@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_$image,1p
+@@||youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-$image,1p
+
+!! ========================================================================== !!
+!! ASET-X3
+!! ========================================================================== !!
+
+@@/core.js|$script,3p,domain=crowdin.com
+@@||apis.google.com/js/platform.js?onload=initgooglelogin$script,3p
+@@||buttons.github.io/buttons.js$script,3p
+@@||vjs.zencdn.net^$script,3p
+
+!! ========================================================================== !!
+!! ASET-XD
+!! ========================================================================== !!
+
+@@/cookieconsent?$domain=docs.microsoft.com
+@@/new-relic.$image,domain=marketplace.visualstudio.com
+
+@@||assets.nflxext.com/ffe/siteui/$font,image,domain=lookmovie.*
+@@||cdnfile.info^$domain=vidstreaming.*
+@@||fonts.googleapis.com^$css,domain=ymovies.tv
+@@||googleusercontent.com^$image,xmlhttprequest,domain=ymovies.tv
+@@||hcaptcha.com^$domain=ymovies.to
+@@||sndcdn.com/assets/images/share-$domain=soundcloud.com
+@@||travel-assets.com/datacapture/$script,domain=expedia.co.uk
+@@||w.org/google-analytics-$image,domain=wordpress.org

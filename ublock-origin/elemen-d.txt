@@ -1455,44 +1455,27 @@ zdnet.com##article > .related-topics
 
 !! ========================================================================== !!
 
-review.bukalapak.com##div[class*="ads-wrapper"]
-review.bukalapak.com##div[id*="adsense-in-article"]
-shop.butterflyonline.com##.product-details-full-social-sharing
-shop.butterflyonline.com##.facets-item-cell-grid-rating
-html.duckduckgo.com##.result:has(:scope .result__url[href*="pingsunday.com"])
-certbot.eff.org##.social
-goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
-play.google.com##.full-price
+addons.mozilla.org##.item.incompatible
+app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
+app.raindrop.io##.svSidebar > a[class^="upgrade-"]
 blog.helixsleep.com##.share-box-2
 blog.helixsleep.com##.social-share-label-wrap
-blog.ibwave.com##.tt-share
 blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
+blog.ibwave.com##.tt-share
 blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
-youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
-onedrive.live.com##.od-PremiumUpsellBanner
-onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
-outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
-outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
+certbot.eff.org##.social
+channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
+code.visualstudio.com###mscc-cookie-container
 docs.microsoft.com##.disclaimer-holder:has-text(tidak tersedia dalam bahasa Anda)
 docs.microsoft.com###disclaimer-holder
-partner.microsoft.com##.is-open .onedash-nav-noun .onedash-navigation-category
-partner.microsoft.com##.is-open .onedash-navigation-menu-title .onedash-navigation-category
-partner.microsoft.com##.is-open #onedash-nav-home .onedash-navigation-category
-partner.microsoft.com##.is-open #onedash-nav-support .onedash-navigation-category
-partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > a .onedash-navigation-category
-partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > button .onedash-navigation-category
-support.microsoft.com###notification-banner
-techcommunity.microsoft.com##.custom-share-component
 forum.mikrotik.com##.main-header
-addons.mozilla.org##.item.incompatible
-channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
 forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
-youtubedownload.minitool.com##.article-share-wrap
-youtubedownload.minitool.com###usercomment-280
-app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
-mail.protonmail.com##.navigation-upgrade-item
-app.raindrop.io##.svSidebar > a[class^="upgrade-"]
+goggames.goodolddownloads.com##.game-blocks > .block:has(:scope span.indev)
+html.duckduckgo.com##.result:has(:scope .result__url[href*="pingsunday.com"])
 isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
+mail.protonmail.com##.navigation-upgrade-item
+onedrive.live.com##.od-PremiumUpsellBanner
+onedrive.live.com##button[data-automation-type="RibbonButton"][aria-label="Share"]
 open.spotify.com##.main-view-container ~ div:not([class], [id], [style])
 open.spotify.com##.NavBar__download-item:upward(1)
 open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
@@ -1501,45 +1484,24 @@ open.spotify.com##.tracklist-row-unplayable:upward(1)
 open.spotify.com##button[aria-label="Upgrade ke Premium"]
 open.spotify.com##button[title="Upgrade ke Premium"]
 open.spotify.com##section[data-testid="cookie-notice"]
+outlook.live.com##a[href$="/ad-free-outlook"]:upward(4)
+outlook.live.com##button:has-text(/mutakhirkan ke/i):upward(1)
+partner.microsoft.com##.is-open .onedash-nav-noun .onedash-navigation-category
+partner.microsoft.com##.is-open .onedash-navigation-menu-title .onedash-navigation-category
+partner.microsoft.com##.is-open #onedash-nav-home .onedash-navigation-category
+partner.microsoft.com##.is-open #onedash-nav-support .onedash-navigation-category
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > a .onedash-navigation-category
+partner.microsoft.com##.onedash-side-navigation.is-open .onedash-navigation-menu > li > button .onedash-navigation-category
+play.google.com##.full-price
+review.bukalapak.com##div[class*="ads-wrapper"]
+review.bukalapak.com##div[id*="adsense-in-article"]
+shop.butterflyonline.com##.facets-item-cell-grid-rating
+shop.butterflyonline.com##.product-details-full-social-sharing
 store.steampowered.com##.discount_block .bundle_base_discount
 store.steampowered.com##.discount_block .discount_original_price
 store.steampowered.com##.discount_block .discount_pct
-code.visualstudio.com###mscc-cookie-container
-
-!! ========================================================================== !!
-!! ELEMEN-D @@
-!! ========================================================================== !!
-
-alternativeto.net,reddit.net,stackoverflow.com,superuser.com,teddit.net,trakt.tv#@#.comments
-discussion.enpass.io,fountainpennetwork.com,ketarin.org,nsaneforums.com,trakt.tv,youtube.com#@##comments
-nitter.net,play.google.com#@#a[title="Instagram"]
-permanent.org,vault.bitwarden.com#@#.fa-share-alt
-
-bitly.com#@#.twitter
-code.visualstudio.com#@#.tweets
-egyptianstreets.com#@#.social-bottom
-epicgames.com#@#.social-container
-idflix.net#@#.fake_player
-nokia.com#@#.privacy-container
-nokia.com#@#.privacy-container:not(html, body, .content-container)
-play.google.com#@#a[title="YouTube"]
-reddit.com#@#.commentarea
-soundcloud.com#@#.sc-button-share
-soundcloud.com#@#.shareButton
-soundcloud.com#@#.shareContent
-soundcloud.com#@#.shareLink
-soundcloud.com#@#button[title="Share"]
-stanza.co#@#.subscribe-container
-trakt.tv#@#.btn-tumblr
-trakt.tv#@#.sharing
-trakt.tv#@#.twitter-wrapper
-transifex.com#@#.facebook.icon
-transifex.com#@#.twitter.icon
-transifex.com#@##icon-facebook
-transifex.com#@##icon-twitter
-tweetdeck.twitter.com#@#.icon-twitter-bird
-tweetdeck.twitter.com#@#.js-tweet-button
-twitter.com#@#.facebook-banner
-vault.bitwarden.com#@#.fa-share
-vault.bitwarden.com#@#.fa-share-square-o
-youtube.com#@##comment
+support.microsoft.com###notification-banner
+techcommunity.microsoft.com##.custom-share-component
+youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
+youtubedownload.minitool.com##.article-share-wrap
+youtubedownload.minitool.com###usercomment-280

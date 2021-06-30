@@ -68,6 +68,7 @@ mcloud.to#$#html, body { background: transparent !important; }
 partner.microsoft.com#$#.onedash-side-navigation.is-open { width: 48px !important; }
 partner.microsoft.com#$#.onedash-side-navigation.is-open .onedash-navigation-list { overflow-y: hidden !important; }
 partner.microsoft.com#$#body.dashboard.is-open { padding-left: 48px !important; }
+partner.microsoft.com#$##onedash-focusnav.is-open { left: 48px !important; }
 
 motonews.club#$#.jw-preview { background-image: none !important; }
 

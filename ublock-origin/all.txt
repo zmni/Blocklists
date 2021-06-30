@@ -5,9 +5,11 @@
 !#include aset-1.txt
 !#include aset-3.txt
 !#include aset-d.txt
+!#include aset-x.txt
 
 !#include elemen-0.txt
 !#include elemen-d.txt
+!#include elemen-x.txt
 
 !#include injeksi-css.txt
 !#include injeksi-js.txt
