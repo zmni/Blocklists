@@ -1444,6 +1444,7 @@ yoursoccerdose.com##.td-banner-wrap-full
 youtube.com##.ytp-ce-element.ytp-ce-video
 youtube.com###alert-banner
 youtube.com###voice-search-button
+youtube.com##ytd-compact-radio-renderer.ytd-watch-next-secondary-results-renderer
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer:has(:scope .ytd-video-meta-block:has-text(/re(c|k)omm?end(ed|asi)/i))
 youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
 yugenani.me##.support-us

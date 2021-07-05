@@ -18,6 +18,7 @@
 ||imgur.com^$image,domain=streamvi.com
 ||newrevive.detik.com^$domain=detik.com|cnnindonesia.com
 ||ogs.google.*/widget/callout?$frame,domain=google.*
+||player.ivideosmart.com^$domain=kompas.com
 ||rnkr-static.com^*/dist/ads-$script,domain=ranker.com
 ||rnkr-static.com^*/dist/setReferrer-$script,domain=ranker.com
 ||rutrk.org/240x800/$domain=rutracker.org

@@ -82,6 +82,7 @@ docs.beakerbrowser.com##+js(attr, html, data-theme, dark)
 
 centralsport.club##+js(aopr, zfgloadedpopup)
 cnnindonesia.com##+js(acis, shareBox.run)
+chronicle.com##+js(aeld, scroll)
 crowdin.com##+js(ra, target, #notification-panel a)
 
 devdocs.io##+js(setc, analyticsConsent=0)
