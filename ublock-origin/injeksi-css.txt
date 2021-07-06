@@ -81,7 +81,8 @@ motonews.club#$#.jw-preview { background-image: none !important; }
 nontonmax.tv#$##header { position: static !important; }
 nontonmax.tv#$#.module .content .items .item .poster img { position: relative !important; }
 
-revspin.net#$##bodyContent, table { width: 100% !important; max-width: none !important; }
+revspin.net#$##bodyContent, table { width: 100% !important; }
+revspin.net#$#table.specscompare { margin: 0 !important; max-width: none !important; }
 revspin.net#$#div.dbcat  { max-width: none !important; }
 ruparupa.com#$#.scroll-bar-algolia { height: auto !important; }
 
