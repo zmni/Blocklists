@@ -1004,7 +1004,6 @@ revspin.net###cookie-msg
 revspin.net###product_detail_desc > .desc_expand_link_container
 revspin.net###product_detail_desc > .whiteout
 revspin.net###reviews_container ~ *
-revspin.net##table.popularProductsListing > tbody > tr:has(> .cell_name > a:has-text(Butterfly))
 revspin.net###rightPane
 riie.net##.sencs:has(> .textwidget > .fb-page)
 riie.net###header
