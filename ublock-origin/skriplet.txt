@@ -1,9 +1,9 @@
 ac.js application/javascript
 (() => {
     const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") { return };
+    if (selector === "" || selector === "{{1}}") { return; }
     const classname = "{{2}}";
-    if (classname === "" || classname === "{{2}}") { return };
+    if (classname === "" || classname === "{{2}}") { return; }
     const classnames = classname.split(/\s*\|\s*/);
     const addclass = () => {
         try {
@@ -23,10 +23,10 @@ ac.js application/javascript
 attr.js application/javascript
 (() => {
     const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") { return };
+    if (selector === "" || selector === "{{1}}") { return; }
     const selectors = selector.replace(/\|/g, ",");
     const name = "{{2}}";
-    if (name === "" || name === "{{2}}") { return };
+    if (name === "" || name === "{{2}}") { return; }
     let value = "{{3}}";
     if (value === "{{3}}") value = "";
     let behavior = "{{4}}";
@@ -36,13 +36,13 @@ attr.js application/javascript
         try {
             const nodes = document.querySelectorAll(selectors);
             for (const node of nodes) {
-                if (name === "target" && value === "_blank" && node.href.indexOf(location.hostname) !== -1) continue;
+                if (name === "target" && value === "_blank" && node.href.indexOf(location.hostname) !== -1) { continue; }
                 node.setAttribute(name, value);
             }
         } catch (ex) {}
     };
     const mutationHandler = mutations => {
-        if (timer !== undefined) { return };
+        if (timer !== undefined) { return; }
         let skip = true;
         for (let i = 0; i < mutations.length && skip; i++) {
             const { type, addedNodes, removedNodes } = mutations[i];
@@ -54,12 +54,12 @@ attr.js application/javascript
                 if (removedNodes[j].nodeType === 1) { skip = false; break; }
             }
         }
-        if (skip) { return };
+        if (skip) { return; }
         timer = self.requestIdleCallback(setattr, { timeout: 67 });
     };
     const start = () => {
         setattr();
-        if (/\bstay\b/.test(behavior) === false) { return };
+        if (/\bstay\b/.test(behavior) === false) { return; }
         const observer = new MutationObserver(mutationHandler);
         observer.observe(document.documentElement, {
             childList: true,
@@ -78,7 +78,7 @@ attr.js application/javascript
 ceol.js application/javascript
 (() => {
     const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") { return };
+    if (selector === "" || selector === "{{1}}") { return; }
     let path = "{{2}}";
     if (path === "" || path === "{{2}}") {
         path = ".?";
@@ -88,7 +88,7 @@ ceol.js application/javascript
         path = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }
     const repath = new RegExp(path);
-    if (repath.test(location.pathname) === false) { return };
+    if (repath.test(location.pathname) === false) { return; }
     const clicked = () => {
         document.querySelector(selector).click();
     };
@@ -102,10 +102,10 @@ ceol.js application/javascript
 css.js application/javascript
 (() => {
     const selector = "{{1}}";
-    if (selector === "" || selector === "{{1}}") { return };
+    if (selector === "" || selector === "{{1}}") { return; }
     const selectors = selector.replace(/\|/g, ",");
     const style = "{{2}}";
-    if (style === "" || style === "{{2}}") { return };
+    if (style === "" || style === "{{2}}") { return; }
     let path = "{{3}}";
     if (path === "" || path === "{{3}}") {
         path = ".?";
@@ -115,7 +115,7 @@ css.js application/javascript
         path = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }
     const repath = new RegExp(path);
-    if (repath.test(location.pathname) === false) { return };
+    if (repath.test(location.pathname) === false) { return; }
     const addstyle = () => {
         try {
             const nodes = document.querySelectorAll(selectors);
@@ -134,10 +134,8 @@ css.js application/javascript
 setc.js application/javascript
 (() => {
     let data = "{{1}}";
-    if (data.indexOf("=") === -1) { return };
-    if (data.indexOf("|") !== -1) {
-        data = data.replace(/\|/g, ",");
-    }
+    if (data.indexOf("=") === -1) { return; }
+    if (data.indexOf("|") !== -1) { data = data.replace(/\|/g, ","); }
     document.cookie = data;
 })();
 
@@ -148,33 +146,24 @@ setce.js application/javascript
     const domain = "{{3}}";
     const secure = "{{4}}";
     const del = "{{5}}";
-    if (data.indexOf("=") === -1) { return };
-    if (path !== "" && path !== "{{2}}") {
-        data += ";path=" + path;
-    }
-    if (domain !== "" && domain !== "{{3}}") {
-        data += ";domain=" + domain;
-    }
-    if (secure === "true") {
-        data += ";secure";
-    }
-    if (del === "true") {
-        data += ";max-age=-100";
-    } else {
-        data += ";max-age=2592000";
-    }
+    if (data.indexOf("=") === -1) { return; }
+    if (path !== "" && path !== "{{2}}") { data += ";path=" + path; }
+    if (domain !== "" && domain !== "{{3}}") { data += ";domain=" + domain; }
+    if (secure === "true") { data += ";secure"; }
+    if (del === "true") { data += ";max-age=-100"; }
+    else { data += ";max-age=2592000"; }
     document.cookie = data;
 })();
 
 wscroll.js application/javascript
 (() => {
     let path = "{{1}}";
-    if (path === "" || path === "{{1}}") { return };
+    if (path === "" || path === "{{1}}") { return; }
     path = /^\/.+\/$/.test(path) ? path.slice(1, -1) : path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const repath = new RegExp(path);
-    if (repath.test(location.pathname) === false) { return };
+    if (repath.test(location.pathname) === false) { return; }
     const ytop = "{{2}}";
-    if (ytop === "" || ytop === "{{2}}") { return };
+    if (ytop === "" || ytop === "{{2}}") { return; }
     const scrolled = () => {
         window.scroll({
             left: 0,
@@ -198,7 +187,7 @@ hn.toggle-parent-comments.js application/javascript
         return element;
     };
     const colexpButtonEl = () => {
-        if ("/item" !== location.pathname) { return };
+        if ("/item" !== location.pathname) { return; }
         const colexpButton = document.createElement("input");
         colexpButton.setAttribute("type", "button");
         colexpButton.value = "exp/col parent";
