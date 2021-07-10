@@ -108,7 +108,8 @@ buzzfeednews.com##.comments-chumbox-wrap
 
 cermati.com##.ads-container, .sticky-banner, cermati[data-banner]
 channelnewsasia.com##.c-sharing--default
-cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement"), .keywords, #btmx, #ptbanner
+cheatsheet.com##.keywords, #btmx, #ptbanner
+cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement")
 cloudvideo.tv##.slim-header
 cmovieshd.net##.bg-home, .block-comment, .mv-rating, .social-home, [class*="content-kus"], [id^="AD_"], #mv-keywords
 cnnindonesia.com##.banner, .banner_reg, .banner_reg2, .detail_tag, .komentar_box, .share, #skinad
@@ -339,7 +340,8 @@ myspace.com##.adsitewidepixel, .article-footer-ad
 myspace.com##.label:has-text(Advertisement)
 
 n21.tv,nontonserial.tv###fatas, #fbawah, [id^="previewBox"]
-nanime.*,nanimex.*##.advanced_floating_content, .banner, .box-body:not(:has(> *)), .iklan-header-item, img[alt="BandarQ"], img[title="EnjoyQQ"]
+nanime.*,nanimex.*##.advanced_floating_content, .banner, .iklan-header-item, img[alt="BandarQ"], img[title="EnjoyQQ"]
+nanime.*,nanimex.*##.box-body:not(:has(> *))
 nanime.*,nanimex.*##.box-body:has(> .iklan)
 nasdaq.com##.ads__inline, .ads__midpage-fullwidth, .ads__native, .ads__right-rail-ad, .ads__right-rail-ad--2-up, .article-header__railAd, .btf-midpagefullwidth, .share
 neonime.*##.box_item_berlangganan, .comentarios, .cover, .fb-page, .link-download, .link-download ~ *, .navplayer2 > span.tiplayer, .navtv.idTabs, .pasang-langganan-body, .skl, .small-menu-bantuan, .tampilan_tambahan, .tool-container, .tvsocial, [class^="donate-"], #backdrops, #button-neonime-bot, #streaming > h2, body > .tool-container
@@ -493,7 +495,8 @@ tabletennis-reference.com##.adsbygoogle:upward(1)
 tabletennis-reference.com##.colR > .thumbnails:has(> li > .thumbnail > .media-heading > a:has-text(Get the Amazon gift card at a Review!))
 tabletennis-reference.com###register
 tabletennis11.com##.col-main > .std, #other-prices
-tabletennisdaily.com##.postadifrstx, #adsw, #bop5msotng, #header, #header > div:not(:has(:scope img.ttx)), #notices, #stsw, img[src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+tabletennisdaily.com##.postadifrstx, #adsw, #bop5msotng, #header, #notices, #stsw, img[src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+tabletennisdaily.com###header > div:not(:has(:scope img.ttx))
 tabletennisnerd.com###swipebox-overlay
 tagpacker.com##.consent, consent
 techcrunch.com##.article__related-links, .article-footer
