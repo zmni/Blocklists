@@ -67,6 +67,7 @@ idflix.net#@#.fake_player
 nokia.com#@#.privacy-container, .privacy-container:not(html, body, .content-container)
 play.google.com#@#a[title="YouTube"]
 reddit.com#@#.commentarea
+sanweisport.com#@#.social-networks
 soundcloud.com#@#.sc-button-share, .shareButton, .shareContent, .shareLink, button[title="Share"]
 stanza.co#@#.subscribe-container
 trakt.tv#@#.btn-tumblr, .sharing, .twitter-wrapper

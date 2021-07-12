@@ -383,6 +383,9 @@ phonearena.com##div:has(> .spot_disclaimer:only-child)
 phoronix.com###main > div[style]:not([class], [id])
 photopea.com##.photopea > div[style]
 phys.org##.article-banner
+phys.org##.article-interaction
+phys.org##.article-interaction__social
+phys.org##.soc
 pingpongindonesia.com##.products > .card:has(> .sold-out-tag)
 pinterest.com##div[data-test-id="giftWrap"]
 pinterest.com##div[data-test-id="UnauthPinLandingCloseup"] > div[data-test-id="pin"] > div[style*="bottom:"]
@@ -528,6 +531,7 @@ timeout.com##.xs-col-12:has(> span:has-text(/advertising/i))
 tixati.com##div[style*="min-height: 110px"]
 tokopedia.com##.rel-category-share, .rvm-shares-product, .share_social_toggle_container, .share-general, .shop-official__share, .socialholder-container, .socialholder-label, #shopseo, #trending-popular-keywords, [class$="-unf-share"]
 tokopedia.com##button[aria-label="Share"][data-testid="pdpShareButton"]
+tokopedia.com##div[data-ssr^="bannerCategory"]
 tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:first-child
 tokopedia.com##div[data-testid="divDiscoShare"]
 tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"] > span[data-testid="divSRPTopadsIcon"]:has-text(Ad)):upward(2)
@@ -599,6 +603,7 @@ wolframalpha.com##main > a[href="https://www.wolframalpha.com/pro/pricing/studen
 wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
 wolt.com##div[class*="ConsentsBanner"]:upward(4)
 wordpress.org##.locale-banner
+wordpress.com###marketingbar
 wplift.com##.cp-info-bar, .ctaheaderbutton
 
 xda-developers.com##.below-nav-ad, .tagbar

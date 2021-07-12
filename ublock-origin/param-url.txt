@@ -60,6 +60,7 @@ spm$doc,xhr,removeparam=spm,domain=aliexpress.com|lazada.*|tmall.com
 ||tokopedia.com^*navsource$doc,xhr,removeparam=navsource
 ||tokopedia.com^*nref$doc,xhr,removeparam=nref
 ||tokopedia.com^*nuq$doc,xhr,removeparam=nuq
+||tokopedia.com^*source$doc,xhr,removeparam=source
 ||tokopedia.com^*trkid$doc,xhr,removeparam=trkid
 ||tokopedia.com^*whid$doc,xhr,removeparam=whid
 
