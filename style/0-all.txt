@@ -1,0 +1,178 @@
+! all-style
+
+123chill.to#$#.tab-content > .tab-pane:not(.active) { display: none !important; }
+123chill.to#$#.movies-list { display: flex !important; flex-wrap: wrap !important; }
+123chill.to#$#.movies-list > .ml-item { --thw: calc(100% / 7 - 1.2%); --thh: calc(var(--thw) * 4 / 3); flex-basis: var(--thw) !important; width: var(--thw) !important; padding-bottom: var(--thh) !important; }
+
+aliexpress.com#$#.search--header--fixed + #root { padding-top: 96px !important; }
+alternativeto.net#$#[data-theme="dark"] body { background-color: var(--mainBg) !important; }
+alternativeto.net#$#[data-theme="dark"] [class*="Breadcrumbs_wrapper__"] { border-right: 0 !important; border-left: 0 !important; }
+anichart.net#$#.chart-view { margin: 0 5vw !important; }
+anime-planet.com#$#.pagination li { padding: 0 !important; }
+anime-planet.com#$#.pagination :is(a, li.selected) { padding: .5rem .75rem !important; }
+anime-planet.com#$#.pagination a { display: block !important; }
+aniwatch.to#$##header { position: static !important; }
+aniwatch.to#$##wrapper { padding-top: unset !important; }
+aniwatch.to#$#.film_list .film_list-wrap .flw-item { width: calc(20% - 1rem) !important; }
+anix.to#$#.poster { max-width: none !important; }
+anix.to#$##ani-servers .ani-server-inner .ani-server-wrapper .ani-server-type:only-child .name { text-align: center !important; }
+anix.to#$##ani-servers .ani-server-inner .ani-server-wrapper .ani-server-type:only-child .ani-server-type-pad { display: flex !important; justify-content: center !important; }
+anix.to#$##ani-servers .ani-server-inner .ani-server-notice { justify-content: center !important; }
+anix.to#$##ani-detail-info .ani-data .metadata .limiter { max-height: none !important; }
+
+beautifier.io#$#.CodeMirror { height: auto !important; }
+bing.com#$##mm_vdmc_bar { height: calc(100vh - 63px) !important; }
+bing.com#$#.mmvc_emb_scaler { width: auto !important; }
+bing.com#$#.mmvc_emb_aspect { top: 50% !important; transform: translateY(-50%) !important; }
+bing.com#$#:matches-path(/^/$/) .bottom_row .scroll_cont { width: auto !important; }
+browserleaks.com#$#nav { float: left !important; width: 236px !important; }
+browserleaks.com#$##nav { position: relative !important; top: auto !important; }
+browserleaks.com#$##nav-menu { margin-top: 0 !important; }
+browserleaks.com#$#body:not(.wide) #nav-menu, #nav-hover > #nav-menu { width: 200px !important; }
+browserleaks.com#$##content { margin-left: 248px !important; }
+
+chronicle.com#$#.ArticlePage, .Page-body { overflow: auto !important; }
+translate.codeberg.org#$#.zen-horizontal .translator { width: 50% !important; }
+
+dnscrypt.info#$#.v-dialog:not(.v-dialog--fullscreen) { width: 100% !important; }
+
+epicstream.com#$#.main-sidebar:not(.open) { width: 95px !important; }
+
+flixtorz.to#$#main > .container > .text-center.text-muted { font-size: 1px !important; visibility: hidden !important; }
+flixwave.to#$#main.set-page { padding-top: 8rem !important; }
+flixwave.to#$#main > .text-center.text-muted { font-size: 1px !important; visibility: hidden !important; }
+fmovies.*,fmoviesz.*#$#header.abs-head { position: static !important; }
+fmovies.*,fmoviesz.*#$#main .aside-wrapper { margin-top: 2rem !important; }
+fmovies.*,fmoviesz.*#$#main .aside-wrapper.home-page, main .aside-wrapper.home-page .main section.mt-5 { margin-top: unset !important; }
+fmovies.*,fmoviesz.*#$#.filters { display: flex !important; }
+fmovies.*,fmoviesz.*#$#.filters > div:first-child { flex-grow: 1 !important; }
+fmovies.*,fmoviesz.*#$#.filters > div .btn { width: 100% !important; }
+fmovies.*,fmoviesz.*#$##player-wrapper .player-bg { background-color: #000 !important; background-image: none !important; opacity: 1 !important; }
+fortune.com#$#.paywall-selector { position: static !important; top: auto !important; z-index: auto !important; }
+fortune.com#$#.paywallActive { filter: none !important; user-select: auto !important; pointer-events: auto !important; z-index: auto !important; }
+
+gdrive.cam#$##btnServer#btnServer { background-color: transparent !important; }
+gdrive.cam#$##btnServer { border: 0 !important; box-shadow: none !important; opacity: 0.5 !important; transition: opacity 300ms !important; }
+gdrive.cam#$##btnServer:hover { opacity: 1 !important; }
+greasyfork.org#$#.code-container { max-height: none !important; }
+gsmarena.com#$#.module.price .pricing-scroll-container, .module-phones > div[style*="max-height:"] { max-height: none !important; }
+
+haho.moe#$#.playlist-episodes > li > a .eps_cvr { display: block !important; }
+hanime.tv#$#.search.page .search-result__item:matches-media((min-width: 1100px)) { padding: 0 !important; margin: 16px !important; width: calc(20% - 32px) !important; }
+hentai-moon.com#$#.headline.view_video, .block-video { margin-right: auto !important; margin-left: auto !important; max-width: 1170px !important; }
+hentai-moon.com#$#.player-related-videos { display: none !important; padding: 0 !important; }
+hentai-moon.com#$#.player-related-videos-container { display: flex !important; flex-grow: 1 !important; flex-wrap: wrap !important; padding: 5px !important; }
+hentai-moon.com#$#.player-related-videos-item { box-sizing: border-box !important; flex: 1 1 calc(100% / 4) !important; max-width: calc(100% / 4) !important; padding: 5px !important; }
+hentai-moon.com#$#.player-related-videos-item .thumb { background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; width: 100% !important; height: 100% !important; aspect-ratio: 16/9 !important; }
+hentai-moon.com#$#.tabs-menu ul { justify-content: center !important; }
+
+isitup.org#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+isitup.org#$##container #input { color: #c3c3c3 !important; background-color: #1e1e1e !important; border-color: #000 !important; }
+
+jsbeautify.org#$#.CodeMirror { height: auto !important; }
+
+kitsu.io#$#.media-browse .media-grid { max-width: none !important; }
+
+marin.moe#$#:is(.container, .sm\:container, .md\:container):matches-media((min-width: 1280px)) { max-width: 1180px !important; }
+mcloud.to#$#html, body { background: transparent !important; }
+melodiamusik.com#$#body > header { position: relative !important; }
+melodiamusik.com#$#.hdrtop { display: block !important; }
+melodiamusik.com#$#.page-root { margin-top: unset !important; }
+metacritic.com#$#.gallery2 .content_under_header { padding-top: 80px !important; }
+mixdrop.co#$#.container > .header, section.alt, footer { background-color: #1e1e1e !important; }
+mixdrop.co#$#[canvas="container"] { background-color: #0f0f0f !important; }
+motonews.*#$#.jw-preview { background-image: none !important; }
+movie-web.app#$#.border-errors-border + .whitespace-pre { white-space: pre-wrap !important; }
+movie-web.app#$#.is-video-player > div > div > p[style*="color:"] { color: yellow !important; }
+movie-web.app#$#.is-video-player > div > div > p[style*="font-size:"] { font-size: 24px !important; font-weight: 700 !important; }
+movie-web.app#$#.is-video-player > div > div > p[style*="background-color:"] { background-color: transparent !important;; }
+movie-web.app#$#.is-video-player > div > div > p { text-shadow: #222 1px 1px, #222 2px 2px, #222 3px 3px !important;; }
+mp4upload.com#$#body { margin: 0 !important; }
+mydramalist.com#$#.app-header { position: static !important; }
+mydramalist.com#$##content { padding-top: 24px !important; }
+mydramalist.com#$##mdl-trailer-modal .el-dialog.el-dialog { margin-top: 20px !important; margin-bottom: 0 !important; }
+partner.microsoft.com#$#.onedash-side-navigation.is-open { width: 48px !important; }
+partner.microsoft.com#$#.onedash-side-navigation.is-open .onedash-navigation-list { overflow-y: hidden !important; }
+partner.microsoft.com#$#body.dashboard.is-open { padding-left: 48px !important; }
+partner.microsoft.com#$##onedash-focusnav.is-open { left: 48px !important; }
+forum.mxlinux.org#$#.codebox code { max-height: none !important; }
+
+nyaa.*#$#.dark a:is(:focus, :hover), .dark td > a[href^="/view/"]:hover { color: #f0f0f0 !important; }
+nyaa.*#$#.dark td > a[href^="/view/"] { color: #c3c3c3 !important; }
+nyaa.*#$#.dark .btn-primary { border-color: #111 !important; }
+nyaa.*#$#th.hdr-comments { border-left: 0 !important; visibility: hidden !important; }
+nyaa.*#$#th.hdr-name { border-right: 0 !important; }
+
+odysee.com#$#:root { --inline-player-max-height: calc(100vh - var(--header-height)) !important; }
+
+pdfcpu.io#$#header { position: static !important; }
+photographyconcentrate.com#$#html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay { overflow: visible !important; }
+posindonesia.co.id#$##app > main { padding: 0 15px !important; }
+everest.picturedent.org#$#body, .imgblock { margin: 0 !important; padding: 0 !important; }
+everest.picturedent.org#$##full_image { display: block !important; position: static !important; top: auto !important; left: auto !important; transform: none !important; }
+everest.picturedent.org#$##full_img { max-width: 100% !important; }
+everest.picturedent.org#$#.imgblock { background-color: transparent !important; }
+
+revspin.net#$##bodyContent, table { width: 100% !important; }
+revspin.net#$#.animated { animation: none !important; }
+revspin.net#$#div.dbcat, table.specscompare { max-width: none !important; }
+revspin.net#$#table.specscompare { margin: 0 !important; }
+revspin.net#$##product_detail_desc { max-height: none !important; padding: unset !important; padding-bottom: unset !important; }
+ruparupa.com#$#.scroll-bar-algolia { height: auto !important; }
+
+shopee.co.id#$#.recommendation-by-carousel .image-carousel__item { width: 200px !important; }
+shopee.co.id#$#.select-with-status__dropdown { top: 100% !important; }
+serverfault.com,stackoverflow.com,stackexchange.com,superuser.com#$#pre { max-height: none !important; }
+snopyta.org#$#:matches-path(/^/$/) body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+snopyta.org#$#:matches-path(/^/$/) h2.text-secondary { color: #787878 !important; }
+snopyta.org#$#:matches-path(/^/$/) .nav-link.text-dark { color: #c3c3c3 !important; }
+snopyta.org#$#:matches-path(/^/$/) .nav-link.text-dark:hover { color: #f0f0f0 !important; }
+snopyta.org#$#:matches-path(/^/$/) .card { background-color: #1e1e1e !important; }
+streamable.com#$#html, body { background-color: #0f0f0f !important; }
+streamable.com#$##player.container .content { display: block !important; margin: auto !important; max-width: calc(100vh * 16 / 9) !important; }
+streamable.com#$##player.container .media-container, #player.container #filler { max-width: none !important; }
+streamwo.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+streamwo.com#$#.page-main > .my-12.my-md-12 { padding-top: 0 !important; padding-bottom: 0 !important; }
+streamye.com#$#body { background-color: #0f0f0f !important; }
+streamye.com#$#.videoplay { width: 1160px !important; }
+
+tabletennisdaily.com#$#.message-body span[style="font-family: 'Calibri'"] { font-family: inherit !important; }
+tabletennisdaily.com#$#.message-body span[style="font-size: 10px"] { font-size: 1.4rem !important; }
+tabletennisdaily.com#$#.message-body span[style="color: #a9a9a9"] { color: #000 !important; }
+tempo.co#$#.header.whead-banner { top: 0 !important; }
+tempo.co#$#.cd-main-content.whead-banner { padding-top: 150px !important; }
+
+uniquestream.net#$#.dooplay_player .play .pframe { height: calc(100vh - 70px) !important; padding-bottom: 0 !important; }
+
+vectr.com#$#app[filetype=Design] { width: 100% !important; }
+vice.com#$#.main-content > div[style="height: 250px;"] { height: 115px !important; }
+vimeo.com#$#:root { --player-h: calc(100vh - 64px); --player-w: calc(var(--player-h) * 16 / 9); }
+vimeo.com#$#.js-player_area-wrapper, .player_area:not(.is_mini) { height: var(--player-h) !important; max-height: var(--player-h) !important; }
+vimeo.com#$#.player_area:not(.is_mini) .player_container { height: var(--player-h) !important; width: var(--player-w) !important; }
+
+watchhentai.net#$#header.main .hbox, #contenedor, footer.main .fbox { max-width: none !important; }
+watchhentai.net#$#.dtsingle .sidebar { overflow-y: hidden !important; }
+webtor.io#$#.navbar.navbar { --pl: 1.2rem; width: calc(100vw - var(--pl)) !important; padding-right: var(--pl) !important; padding-left: var(--pl) !important; }
+worldofsolitaire.com#$##playspace { width: 100% !important; }
+hosted.weblate.org#$#.table-listing > tbody > tr > td.number { text-align: center !important; }
+hosted.weblate.org#$#.translatetext { width: 49% !important; }
+
+yts.mx#$#.nav-bar { position: static !important; }
+yts.mx#$#.modal-container { background-color: #1d1d1d !important; }
+yts.mx#$#.modal-content .quality-size { color: #919191 !important; }
+yts.mx#$##movie-tech-specs .tech-quality { width: auto !important; }
+
+! all-style-desktop
+
+!#if !env_mobile
+search.f-droid.org#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+search.f-droid.org#$#a { color: #c3c3c3 !important; }
+search.f-droid.org#$#a:is(:active, :focus, :hover) { color: #fff !important; opacity: 1 !important; }
+search.f-droid.org#$#.site-header, .main-content { background-color: #1e1e1e !important; }
+search.f-droid.org#$#.site-title { justify-content: center !important; }
+search.f-droid.org#$#form { display: flex !important; justify-content: space-between !important; }
+search.f-droid.org#$#.search-input { border-color: #3c3c3c !important; color: #c3c3c3 !important; width: calc(100% - 99px) !important; }
+
+wikipedia.org#$#html, html img, html video, html ogvjs, html svg, html iframe, html .mw-no-invert, html td .diffchange, html .mwe-math-element, html .wvui-typeahead-suggestion__thumbnail, html .skin-minerva .mw-notification-visible .mw-notification-content, html .cdx-menu-item__thumbnail, html .cx-slitem__image, html .mw-mmv-overlay, html .mw-mmv-pre-image, html .media-viewer .image img, html .media-viewer .mw-file-description img, html .mw-kartographer-map, html .mw-kartographer-mapDialog-map, html .oo-ui-searchWidget-results .oo-ui-iconElement-icon, html .list-thumb, html .ext-related-articles-card-list .ext-related-articles-card-thumb { filter: invert(1) contrast(0.9) hue-rotate(180deg) !important; }
+wikipedia.org#$#.vector-feature-zebra-design-disabled #vector-main-menu-pinned-container .vector-main-menu { background-color: transparent !important; }
+!#endif

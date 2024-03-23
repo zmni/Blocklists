@@ -1,0 +1,102 @@
+! trakt-style-bg
+
+.user-avatar img, .posters .rank-wrapper .rank, .fanarts .rank-wrapper .rank, #cover-wrapper #avatar-wrapper .avatar, #results-top-wrapper.user-wrapper .user-avatar img, .personal-list .list-info .info .overview blockquote { background-color: #000 !important; }
+body, body:is(.apps, .main.home, .main.index, .branding, .welcome) .hero-wrapper.light, section, .form-control, .input-group-addon, .frame-wrapper .frame, .subnav-wrapper.list-title-wrapper, #schedule-wrapper, :is(#auth-form-wrapper, .checkin-modal) .auth-services-wrapper, #auth-form-wrapper .inset-wrapper, .checkin-modal .inset-wrapper, #auth-form-wrapper #error-explanation, .checkin-modal #error-explanation, #auth-form-wrapper .has-error .form-control, .comment-wrapper .comment blockquote { background-color: #0f0f0f !important; }
+code, .frame-wrapper, .summary-activity .tabs .tab:only-child, .summary-activity .tabs .tab.selected, .users-wrapper, #recommendations-wrapper, body.calendars .date-separator, .comment-wrapper.featured, .pagination > li > a, .pagination > li > span, .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus, h3.instructions, header#top-nav #header-search #header-search-query, #main-search input.footer-search, body.settings .notifications-table .table tbody > tr:hover, body.authorized_applications .notifications-table .table tbody > tr:hover, body.applications .notifications-table .table tbody > tr:hover, body.widgets .notifications-table .table tbody > tr:hover, .subnav-text .text blockquote, .custom-list .list-info .info .overview blockquote, #seasons-episodes-sortable .episode-stats, #auth-form-wrapper, .checkin-modal, #auth-form-wrapper .bottom-wrapper, .checkin-modal .bottom-wrapper, #auth-form-wrapper .auth-services-wrapper .auth-or, .checkin-modal .auth-services-wrapper .auth-or, #faq-wrapper .faq-item, #team-wrapper .faq-item, .actor-tooltip .tooltip-inner, .mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { background-color: #1e1e1e !important; }
+.btn-default, .btn-list, .btn-watch, .btn-comment, .btn-recommendations, .btn-favorites, .dropdown-menu, .quick-icons, .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus, ul.pagination a:hover, #seasons-episodes-sortable .under-info .titles, .comment-wrapper.featured .above-comment, #info-wrapper .affiliate-links .section a, #info-wrapper .sidebar .external li a, .frame-wrapper .advanced-filters, .form-signin .btn-group .btn, #auth-form-wrapper .logo-wrapper .user-avatar img, .checkin-modal .logo-wrapper .user-avatar img, body.settings .panel-body .alert-cookie-disabled, body.authorized_applications .panel-body .alert-cookie-disabled, body.applications .panel-body .alert-cookie-disabled, body.widgets .panel-body .alert-cookie-disabled, body.movies.releases .panel-body .alert-cookie-disabled, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar { background-color: #2d2d2d !important; }
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle, .btn-list:hover, .btn-list:focus, .btn-list:active, .btn-list.active, .open > .btn-list.dropdown-toggle, .btn-watch:hover, .btn-watch:focus, .btn-watch:active, .btn-watch.active, .open > .btn-watch.dropdown-toggle, .dropdown-menu .divider, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .form-signin .btn-group .btn:focus, .form-signin .btn-group .btn:hover, .form-signin .btn-group .btn.active, .popover, .popover .data-wrapper, .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline { background-color: #3c3c3c !important; }
+.frame-wrapper .sidenav-text-field { background-color: #3c3c3c !important; }
+.popover-title, .summary-activity .plus-more { background-color: #4b4b4b !important; }
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control, .panel, .panel-default > .panel-heading, .alert-no-data, #ondeck-wrapper, #team-wrapper, #progress-wrapper .row .main-info .seasons, .comment-wrapper, .comment-wrapper .above-comment, body.discover #recent-comments-wrapper #recent-comments .comment-outer-wrapper .above-comment { background-color: rgb(255 255 255 / 0.05) !important; }
+body.discover #recent-comments-wrapper #recent-comments { background-color: rgb(0 0 0 / 0.55) !important; }
+.alert-danger { background-color: #a94442 !important; }
+.comment-wrapper.subnav, .subnav-wrapper, .subnav-text { background-color: transparent !important; }
+body.branding #logo-downloads-wrapper, body.branding #api-wrapper { background: -webkit-radial-gradient(center, circle cover, #1e1e1e 0%, #000 100%) !important; }
+#info-wrapper .info #overview[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, transparent, #0f0f0f) !important; background-image: linear-gradient(to bottom, transparent, #0f0f0f) !important; }
+#standard-features, body.branding #logo-downloads-wrapper { background: -webkit-radial-gradient(center, circle cover, #1e1e1e 0%, #0f0f0f 100%) !important; background: -moz-radial-gradient(center, circle cover, #1e1e1e 0%, #0f0f0f 100%) !important; }
+.subnav-text .text[data-readmore][aria-expanded="false"] .shade, .custom-list .list-info .info .overview[data-readmore][aria-expanded="false"] .shade, #seasons-episodes-sortable .under-info .overview[data-readmore][aria-expanded="false"] .shade, .personal-list .list-info .info .overview[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, transparent, #0f0f0f) !important; background-image: -o-linear-gradient(top, transparent, #0f0f0f) !important; background-image: linear-gradient(to bottom, transparent, #0f0f0f) !important; }
+.comment-wrapper.featured .comment-text[data-readmore][aria-expanded="false"] .shade, .comment-wrapper .comment-text[data-readmore][aria-expanded="false"] .shade { background-image: linear-gradient(to bottom, transparent, #1e1e1e) !important; }
+
+! trakt-style-text
+
+body, .btn-default, .btn-list, .btn-watch, .btn-list-edit-items, #btn-list-edit-lists, .input-group-addon, .dropdown-menu > li > a, .form-control, .alert-danger, .popover.remove, .quick-icons .actions .popover, .filter-dropdown .icon, .popover.with-list h3, .panel-default > .panel-heading, #watching-wrapper, .watching-wrapper, .hero-wrapper, body.branding #api-wrapper.light, #ondeck-wrapper .posters .titles-link, .frame-wrapper .sidenav-text-field, .summary-activity .tabs .tab, #info-wrapper .affiliate-links .section a, #info-wrapper .sidebar .external li a, .subnav-wrapper .right .fa, .subnav-wrapper .right [class*="fa-"], .subnav-wrapper .right [class^="fa-"], .subnav-wrapper .right [class*="trakt-icon-"], .subnav-wrapper .right [class^="trakt-icon-"], .subnav-wrapper .btn-list-clone, .subnav-wrapper .btn-list-subscribe, .subnav-wrapper .left h2 .right a, ul.pagination a, .filter-dropdown .icon.trakt-icon-divider, header#top-nav #header-search #header-search-type a, #info-wrapper .info .actors-wrapper .posters ul li .name, .quick-icons .metadata .popover, #main-search input.footer-search, #ondeck-shows .titles-link, #progress-grid-wrapper .titles-link, body.settings .panel-body .alert-cookie-disabled, body.authorized_applications .panel-body .alert-cookie-disabled, body.applications .panel-body .alert-cookie-disabled, body.widgets .panel-body .alert-cookie-disabled, body.movies.releases .panel-body .alert-cookie-disabled { color: #c3c3c3 !important; }
+ul.lists li, .popover.remove .popover-title { color: #c3c3c3 !important; }
+#seasons-episodes-sortable .under-info h3 a, .posters .rank-wrapper .rank, .fanarts .rank-wrapper .rank, #actors .tab-links h3:hover, .actor-tooltip .tooltip-inner, #info-wrapper .info .actors-wrapper .posters ul:hover li .titles .name { color: #f0f0f0 !important; }
+#info-wrapper .season-links { color: #b4b4b4 !important; }
+.popover .cancel, .dropdown-menu em, .dropdown-toggle em, #info-wrapper .sidebar .sections li a, #info-wrapper .season-links .links ul li a, #info-wrapper .info .actors-wrapper .posters ul li .character, .comment-wrapper .above-comment .date, .comment-wrapper.list .above-comment .user-name h4 a.username, ul.pagination .gap a, .form-signin .btn-group .btn, h3.help-text, #auth-form-wrapper .auth-services-wrapper .auth-or, .checkin-modal .auth-services-wrapper .auth-or, #ondeck-shows .ignore, #ondeck-shows .reset, #progress-grid-wrapper .ignore, #progress-grid-wrapper .reset { color: #969696 !important; }
+footer .copyright { color: #787878 !important; }
+.alert-no-data, .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus, .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, ul.pagination .disabled a, #info-wrapper ul.additional-stats li label, .actor-tooltip .tooltip-inner .alt2, #info-wrapper .info .actors-wrapper .posters ul li .count, .frame-wrapper .sidenav h4, .frame-wrapper .advanced-filters h4 { color: #696969 !important; }
+.frame-wrapper #date-nav .no-link { color: #4b4b4b !important; }
+body.apps .hero-wrapper.light, body.main.home .hero-wrapper.light, body.main.index .hero-wrapper.light, body.branding .hero-wrapper.light, body.welcome .hero-wrapper.light { color: #3c3c3c !important; }
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle, .btn-list:hover, .btn-list:focus, .btn-list:active, .btn-list.active, .open > .btn-list.dropdown-toggle, .btn-watch:hover, .btn-watch:focus, .btn-watch:active, .btn-watch.active, .open > .btn-watch.dropdown-toggle, .dropdown-header, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, ul.pagination a:hover, .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus, #info-wrapper .sidebar .sections li a:hover, #info-wrapper .sidebar .sections li a:focus, #info-wrapper .sidebar .sections li a.see-more-link:hover, #info-wrapper .sidebar .sections li a.see-more-link:focus, #info-wrapper .season-links .links ul li a.selected, body.discover #recent-comments-wrapper #recent-comments-title h4, body.discover #recent-comments-wrapper #recent-comments-title h5, header#top-nav #header-search #header-search-type a:hover, header#top-nav #header-search #header-search-type a:focus, .form-signin .btn-group .btn:focus, .form-signin .btn-group .btn:hover, #comments .tab-links h3:hover, #replies .tab-links h3:hover, #ondeck-shows .ignore:hover, #ondeck-shows .reset:hover, #progress-grid-wrapper .ignore:hover, #progress-grid-wrapper .reset:hover { color: #fff !important; }
+#ondeck-shows .ignore:hover, #progress-grid-wrapper .ignore:hover { color: #ed1c24 !important; }
+
+! trakt-style-border
+
+.alert-danger, .form-control, .input-group-addon, .panel-default, .panel-default > .panel-heading, .posters .poster, .posters > div .quick-icons, .posters .rank-wrapper .rank, .fanarts .rank-wrapper .rank, #cover-wrapper #avatar-wrapper .avatar, #results-top-wrapper.user-wrapper .user-avatar img, .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus, #auth-form-wrapper .auth-services-wrapper .auth-or, .checkin-modal .auth-services-wrapper .auth-or { border-color: #000 !important; }
+code, .summary-activity .tabs .tab, .users-wrapper, .pagination > li > a, .pagination > li > span, .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus, #auth-form-wrapper .logo-wrapper .user-avatar img, .checkin-modal .logo-wrapper .user-avatar img { border-color: #2d2d2d !important; }
+.btn-default, .btn-list, .btn-watch, .btn-comment, .btn-recommendations, .dropdown-menu, .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus, #info-wrapper .affiliate-links .section a, #info-wrapper .sidebar .external li a { border-color: #3c3c3c !important; }
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle, .user-avatar img { border-color: #4b4b4b !important; }
+:is(#actors, #credits, #crew) .tab-links h3:hover .count, :is(#actors, #credits, #crew) .active h3:hover .count { border-color: #fff !important; }
+
+!trakt-style-border-top
+body.main.home #api-wrapper, body.main.index #api-wrapper, body.apps #api-wrapper, body.welcome #api-wrapper, body.branding #api-wrapper, .table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td, h3.instructions.middle, body.settings .notifications-table .table tbody > tr > td, body.authorized_applications .notifications-table .table tbody > tr > td, body.applications .notifications-table .table tbody > tr > td, body.widgets .notifications-table .table tbody > tr > td, #auth-form-wrapper .auth-services-wrapper, .checkin-modal .auth-services-wrapper, #auth-form-wrapper .bottom-wrapper, .checkin-modal .bottom-wrapper, #auth-form-wrapper .inset-wrapper, .checkin-modal .inset-wrapper { border-top-color: #000 !important; }
+hr, body.settings section#main-settings #info-wrapper .sidebar .sections li:first-child, body.authorized_applications section#main-settings #info-wrapper .sidebar .sections li:first-child, body.applications section#main-settings #info-wrapper .sidebar .sections li:first-child, body.widgets section#main-settings #info-wrapper .sidebar .sections li:first-child, #authorized-applications .row:not(:first-child):not(.no-border), #schedule-wrapper .schedule-episode:not(:first-of-type), body.discover #recent-comments-wrapper #recent-comments-links .schedule-episode:not(:first-of-type) { border-top-color: #2d2d2d !important; }
+
+!trakt-style-border-right
+.frame-wrapper .frame .fanarts > div, .frame-wrapper .frame .fanarts > div:not(.personal-list) { border-right-color: #000 !important; }
+
+!trakt-style-border-bottom
+h3.instructions, .frame-wrapper .frame .fanarts > div, .frame-wrapper .frame .fanarts > div:not(.personal-list), body.calendars .calendar-grid .posters .grid-item, body.calendars .calendar-grid.flex-container, #auth-form-wrapper .inset-wrapper, .checkin-modal .inset-wrapper, .comment-wrapper.with-replies .replies-wrapper .above-comment { border-bottom-color: #000 !important; }
+body.calendars .calendar-grid .posters > div .quick-icons { border-bottom-color: #000 !important !important; }
+.frame-wrapper .sidenav h3 { border-bottom-color: #0f0f0f !important; }
+.summary-activity .tabs .tab:only-child, .summary-activity .tabs .tab.selected { border-bottom-color: #1e1e1e !important; }
+h2.with-line, .popover-title, #info-wrapper .sidebar .sections li, body.settings .subnav-wrapper, body.authorized_applications .subnav-wrapper, body.applications .subnav-wrapper, body.widgets .subnav-wrapper { border-bottom-color: #2d2d2d !important; }
+.popover.bottom > .arrow::after { border-bottom-color: #4b4b4b !important; }
+
+!trakt-style-border-left
+.frame-wrapper .frame, body.calendars .calendar-grid.flex-container > .flex-item, .form-signin .btn-group .btn { border-left-color: #000 !important; }
+.custom-list .list-info .info .overview blockquote { border-left-color: #3c3c3c !important; }
+.subnav-text .text blockquote { border-left-color: #4b4b4b !important; }
+
+! trakt-style-msc
+
+h3.instructions { font-style: italic !important; }
+.alert-info { background-color: rgba(0, 0, 0, 0.75) !important; border-color: rgba(0, 0, 0, 0.75) !important; }
+#info-wrapper .sidebar .poster { border: 1px solid #000 !important; -webkit-box-shadow: 0 0 3px 0 #0f0f0f !important; box-shadow: 0 0 3px 0 #0f0f0f !important; }
+.custom-list .list-info .posters .poster-items-wrapper .poster-items .poster-item { -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.95) !important; box-shadow: 0 0 15px rgba(0, 0, 0, 0.95) !important; }
+#auth-form-wrapper, .checkin-modal { border: 1px solid #000 !important; box-shadow: none !important; }
+#auth-form-wrapper .logo-wrapper .user-avatar img, .checkin-modal .logo-wrapper .user-avatar img { box-shadow: 0 0 10px #0f0f0f !important; }
+.frame-wrapper .sidenav-text-field::-webkit-search-cancel-button { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+.comment-wrapper.with-replies { outline: solid 1px #000 !important; box-shadow: 0 0 8px rgba(0, 0, 0, .6) !important; }
+
+! trakt-style-uix
+
+label { font-weight: 400 !important; }
+.alert-no-data { margin-bottom: 20px !important; }
+.btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group { margin-left: 0 !important; }
+.dropdown-menu { left: 50% !important; transform: translateX(-50%) !important; max-height: 290px !important; overflow-y: auto !important; }
+.dropdown-header { font-weight: bold !important; letter-spacing: 1px !important; }
+ul.lists { overflow-y: auto !important; }
+.form-signin .btn-group .btn:first-of-type { border-left: none !important; }
+.frame-wrapper .sidenav .sidenav-inner, .frame-wrapper .sidenav .sidenav-inner:is(.affix, .affix-top, .affix-bottom), #info-wrapper .sidebar.affixable:is(.affix, .affix-top, .affix-bottom) { position: relative !important; top: auto !important; }
+#results-top-wrapper.user-wrapper .stats-wrapper .row { display: flex !important; }
+#results-top-wrapper.user-wrapper .stats-wrapper .col-sm-4 { flex-grow: 1 !important; width: auto !important; }
+#summary-wrapper, .summary-wrapper { height: 237px !important; }
+#summary-wrapper .full-screenshot, .summary-wrapper .full-screenshot { background-position: 50% 20% !important; }
+#summary-ratings-wrapper { background-color: rgb(0 0 0 / 0.85) !important; }
+#summary-ratings-wrapper ul li .icon { text-shadow: none !important; }
+#summary-ratings-wrapper .trakt-rating { margin-right: 0 !important; }
+.summary-activity .tabs .tab * { opacity: 1 !important; }
+body.calendars .calendar-grid.flex-container, body.calendars .calendar-grid.flex-container > .flex-item { min-height: calc(100vh - 90px) !important; }
+body.calendars .flex-item:hover .date-separator, body.calendars .date-separator.today, body.calendars .flex-item:hover .date-separator.today { color: #fff !important; }
+body.calendars .flex-item:hover .date-separator { background-color: #8e44ad !important; }
+body.calendars .date-separator.today, body.calendars .flex-item:hover .date-separator.today { background-color: #ed1c24 !important; }
+#seasons-episodes-sortable.season-posters { height: auto !important; }
+#seasons-episodes-sortable.season-posters .grid-item { position: static !important; }
+#progress-wrapper .row .main-info h3.show-title { display: flex !important; align-items: center !important; justify-content: flex-end !important; }
+#progress-wrapper .row .main-info h3.show-title a:first-child { margin-right: auto !important; }
+#progress-grid-wrapper .ignore i { margin-bottom: 1px !important; }
+#seasons .dropdown-toggle.less-top, #seasons .sort-wrapper { margin-top: unset !important; }
+#cover-wrapper { margin-bottom: 0 !important; }
+h2#seasons::after { clear: both !important; content: "" !important; display: table !important; }

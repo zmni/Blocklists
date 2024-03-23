@@ -1,0 +1,34 @@
+! dramaid-hide
+
+dramaid.*##.bixbox:has(> .releases > h3:has-text(Komentar))
+dramaid.*##.infx
+dramaid.*##.kln
+dramaid.*##.mctn
+dramaid.*##.meta
+dramaid.*##.mvelement > br
+dramaid.*##.single-info.bixbox .infox .desc.mindes > .colap
+dramaid.*##.socialts
+dramaid.*##.tags
+dramaid.*##.ts-breadcrumb
+dramaid.*##.video-nav .iconx
+dramaid.*###sidebar > .section:has(> .textwidget > div[data-clickadilla-banner])
+dramaid.*###thememode
+dramaid.*##div[data-clickadilla-banner]
+
+! dramaid-style
+
+dramaid.*#$#:matches-path(-episode-) body { background-color: #000 !important; }
+
+dramaid.*#$##main-menu { margin-bottom: 4px !important; }
+dramaid.*#$#.bxcl ul { max-height: none !important; }
+dramaid.*#$#.single-info.bixbox .infox .desc.mindes { height: auto !important; }
+dramaid.*#$#.epcheck .ephead .eph-num, .bxcl ul li .epl-num { flex-basis: 50px !important; max-width: 50px !important; }
+dramaid.*#$#.epcheck .ephead .eph-date, .bxcl ul li .epl-date { flex-basis: 150px !important; max-width: 150px !important; text-align: right !important; }
+dramaid.*#$#.pd-expand:not(.sxp) { display: block !important; aspect-ratio: 16/9 !important; margin-bottom: 1rem !important; }
+dramaid.*#$#.mvelement { display: flex !important; flex-wrap: wrap !important; }
+dramaid.*#$#.video-content { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; }
+dramaid.*#$#.video-nav { background-color: transparent !important; margin-right: 7px !important; margin-bottom: 13px !important; padding: 0 !important; }
+dramaid.*#$#select.mirror { background-color: #222 !important; float: none !important; border-color: #222 !important; border-radius: 3px !important; padding: 11px !important; }
+dramaid.*#$#.naveps.bignav { flex: 1 !important; padding: 0 !important; }
+dramaid.*#$#.naveps.bignav .nvs.nvsc a { background: #222 !important; }
+dramaid.*#$#.naveps.bignav .nvs.nvsc a:hover { background: #0c70de !important; }

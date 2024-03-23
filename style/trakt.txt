@@ -1,0 +1,441 @@
+! trakt-hide
+
+trakt.tv##.btn-checkin
+trakt.tv##.btn-collect
+trakt.tv##.btn-comment
+trakt.tv##.btn-favorites
+trakt.tv##.btn-list-clone
+trakt.tv##.btn-list-progress
+trakt.tv##.btn-list-subscribe
+trakt.tv##.btn-recommendations
+trakt.tv##.btn-watch-now
+
+trakt.tv##a.feed-icon
+trakt.tv##.feed-icons
+trakt.tv##.feeds
+trakt.tv##.toggle-feeds-wrapper
+
+trakt.tv##.auth-services-wrapper
+trakt.tv##.trakt-icon-search
+trakt.tv##.vip-sidebar-links
+
+trakt.tv###filter-terms-launcher
+trakt.tv###filter-watchnow-launcher
+
+trakt.tv##.quick-icons .actions > a:is(.collect, .favorite, .ignore, .recommend, .watch-now)
+trakt.tv##:is(#ondeck-shows, #ondeck-wrapper, #progress-grid-wrapper) :is(.ignore, .reset)
+
+trakt.tv##.comment-count
+trakt.tv##.fanarts > div:has(> a[href="/vip"])
+trakt.tv##a:is([href$="comments"], [href^="/apps"], [href^="/pro"], [href^="/vip"])
+trakt.tv##li:has(> a:is([href$="comments"], [href^="/apps"], [href^="/pro"], [href^="/vip"]))
+
+trakt.tv##.custom-list .list-info .user-actions
+trakt.tv###info-wrapper .affiliate-links .section.private-notes
+trakt.tv###info-wrapper .sidebar .streaming-links
+trakt.tv###results-top-wrapper.user-wrapper .buttons a.yir-loader
+trakt.tv###results-top-wrapper.user-wrapper .stats-wrapper .col-sm-4:nth-child(3)
+trakt.tv###summary-ratings-wrapper .summary-user-rating
+trakt.tv###user-menu ul li.dark-knight
+trakt.tv##body:is(.movies, .shows) .filter-dropdown li.hider
+
+trakt.tv##.fade-search-watched-on
+trakt.tv##.col-md-4:is(.fade-movies-watched-on, .fade-shows-watched-on)
+
+trakt.tv##footer .copyright .apps
+
+trakt.tv##.posters.banner
+trakt.tv###android-beta-wrapper
+trakt.tv###android-official-wrapper
+trakt.tv###ios-beta-wrapper
+trakt.tv###ios-official-wrapper
+trakt.tv###social-connections
+
+trakt.tv##.snigel
+trakt.tv##[class*="af1a979-"]
+trakt.tv##[class*="c7f7a-"]
+trakt.tv##[class*="e1a979-"]
+trakt.tv##[class*="e20df-"]
+trakt.tv##[class*="hu-ck"]
+trakt.tv##[class*="huck"]
+trakt.tv##[id*="adngin-"]
+trakt.tv##[id*="af1a979-"]
+trakt.tv##[id*="c7f7a-"]
+trakt.tv##[id*="e1a979-"]
+trakt.tv##[id*="e20df-"]
+trakt.tv##[id*="f1a979-"]
+
+! trakt-style
+
+trakt.tv#$#body:not(.dark-knight) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #user-menu ul li:not(.dark-knight) a { color: #009edf !important; }
+trakt.tv#$#body:not(.dark-knight) #user-menu ul li:not(.dark-knight) a .icon { opacity: 1 !important; }
+trakt.tv#$#body:not(.dark-knight) h3.help-text { color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) section { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) section > .container > .posters > .grid-item .quick-icons { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) hr { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .alert-no-data { background-color: #333 !important; color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) .posters .poster, body:not(.dark-knight) .posters > div .quick-icons { border-color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.posters, .fanarts) .added-by .user-avatar img, body:not(.dark-knight) :is(.posters, .fanarts) .added-by.plus-more { border-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.posters, .fanarts) :is(.rewatching-badge, .notable-badge) { border-color: #1d1d1d !important; background: #333 !important; color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) .modal-backdrop.blur.fade.in { opacity: 0.8 !important; }
+trakt.tv#$#body:not(.dark-knight) .modal-content { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) .modal-content button.close { color: #fff !important; opacity: 0.5 !important; }
+trakt.tv#$#body:not(.dark-knight) .modal-content .modal-header { border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .screenshot .fanart { border-top-color: #444 !important; border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .accept-terms { color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .accept-terms a:not(:hover) { color: inherit !important; border-color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .accept-terms .term .explainer { background-color: #333 !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .bottom-wrapper { background-color: #1d1d1d !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .bottom-wrapper.clean { background-color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .auth-services-wrapper { background-color: #161616 !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .auth-services-wrapper .auth-or { background-color: #1d1d1d !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .inset-wrapper { background-color: #333 !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#auth-form-wrapper, .checkin-modal) .inset-wrapper .avatar { border-color: #000 !important; background-color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #auth-form-wrapper .has-error .form-control { background-color: #3e2f2f !important; }
+trakt.tv#$#body:not(.dark-knight) #auth-form-wrapper .activation-code input { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .streaming-links .title { color: #fff !important; border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .actor-tooltip .tooltip-inner { background-color: #1d1d1d !important; color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) .label-vip.light-bg .years :is(.fa, [class^="fa-"], [class*=" fa-"]) { color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) .label-vip.light-bg .years .years-text { color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) ul.lists li .info .privacy { background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .comment-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .comment-wrapper.list .above-comment { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .left h2 .right a { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .left h2 .pill { background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .right :is([class^="trakt-icon-"], [class*=" trakt-icon-"], .fa, [class^="fa-"], [class*=" fa-"]) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .right .feed-icon .icon { color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper.list-title-wrapper { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .container .right :is(.toggle-subnav-wrapper, .toggle-feeds-wrapper) { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-wrapper .container .left.with-title h2 { border-bottom: none !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-text { background-color: #252525 !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-text .text[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, rgba(37, 37, 37, 0) 0%, #252525 100%) !important; background-image: -o-linear-gradient(top, rgba(37, 37, 37, 0) 0%, #252525 100%) !important; background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0) 0%, #252525 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00252525',endColorstr='#FF252525',GradientType=0) !important; }
+trakt.tv#$#body:not(.dark-knight) .subnav-text .text blockquote { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) h2 .sort-wrapper .icon { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) h2.with-line { border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.af1a979-kdc189c-info, .af1a979-kdc189c-label) { background-color: #1d1d1d !important; color: #999 !important; border-color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) .grid-item .titles-link { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .grid-item .titles-link h4 { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-1:checked ~ label { color: #616161 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-2:checked ~ label { color: #675b5b !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-3:checked ~ label { color: #705252 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-4:checked ~ label { color: #7a4747 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-5:checked ~ label { color: #863c3c !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-6:checked ~ label { color: #922f30 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-7:checked ~ label { color: #9e2424 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-8:checked ~ label { color: #a81918 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-9:checked ~ label { color: #b11010 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts > input.rating-10:checked ~ label { color: #b70a0a !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-1:is(:hover, :hover ~ label) { color: #616161 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-2:is(:hover, :hover ~ label) { color: #675b5b !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-3:is(:hover, :hover ~ label) { color: #705252 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-4:is(:hover, :hover ~ label) { color: #7a4747 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-5:is(:hover, :hover ~ label) { color: #863c3c !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-6:is(:hover, :hover ~ label) { color: #922f30 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-7:is(:hover, :hover ~ label) { color: #9e2424 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-8:is(:hover, :hover ~ label) { color: #a81918 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-9:is(:hover, :hover ~ label) { color: #b11010 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label.rating-10:is(:hover, :hover ~ label) { color: #b70a0a !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:not(:checked) > label { color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .rating-hearts:hover > label { color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .pagination-quick-jump { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) #main-search { background-color: #000 !important; background-image: -webkit-linear-gradient(top, black 0%, rgba(100, 100, 100, 0.2) 100%) !important; background-image: -o-linear-gradient(top, black 0%, rgba(100, 100, 100, 0.2) 100%) !important; background-image: linear-gradient(to bottom, black 0%, rgba(100, 100, 100, 0.2) 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000',endColorstr='#33646464',GradientType=0) !important; }
+!trakt.tv#$#body:not(.dark-knight) #main-search .inner { background-image: url(/assets/base/footer-search-logo-white-4cfd7e2cc4b1717323a6152327d0abc614831c45cc4148b51a0cb3f02cde5125.png) !important; }
+trakt.tv#$#body:not(.dark-knight) #footer-search-query { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) header#top-nav #header-search #header-search-query { background-color: #333 !important; color: #ccc !important; border-top: solid 1px #666 !important; border-bottom: solid 1px #666 !important; padding-top: 6px !important; padding-bottom: 6px !important; }
+trakt.tv#$#body:not(.dark-knight) header#top-nav #header-search #header-search-type .dropdown-toggle { border-width: 1px !important; border-style: solid !important; border-color: #666 !important; padding-top: 6px !important; padding-bottom: 6px !important; }
+trakt.tv#$#body:not(.dark-knight) header#top-nav #header-search #header-search-type a { color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) header#top-nav #header-search #header-search-query:matches-media((max-width: 767px)) { padding-top: 11px !important; padding-bottom: 11px !important; }
+trakt.tv#$#body:not(.dark-knight) header#top-nav #header-search #header-search-type .dropdown-toggle:matches-media((max-width: 767px)) { padding-top: 11px !important; padding-bottom: 11px !important; }
+trakt.tv#$#body:not(.dark-knight) .form-control { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .btn-group .btn { background-color: #333 !important; border-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .btn-group .btn.active { background-color: #777 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container :is(.chosen-choices, .chosen-single) { background: #333 !important; color: #eee !important; border-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container :is(.chosen-choices, .chosen-single) li.search-choice { background: #222 !important; color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container :is(.chosen-choices, .chosen-single) li.search-field input[type="text"] { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-search-input { background: #222 !important; color: #eee !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-drop { background: #333 !important; border-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-drop .result-selected { color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-results { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-results li.highlighted { background: #444 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-results li.highlighted .right-tag { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-results li.group-result { color: #999 !important; border-bottom-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-results li.group-result .select-all { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .form-signin .chosen-container .chosen-results li .right-tag { background-color: #444 !important; color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown .dropdown-toggle, body:not(.dark-knight) .dropdown.open:not(.filter-dropdown) > .dropdown-toggle { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown .dropdown-menu { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown .dropdown-menu > li > a:not(.selected) { color: inherit !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown .dropdown-menu > li > a:hover { background-color: #222 !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown .dropdown-menu .divider { background-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.dropdown-menu, .dropdown-toggle) em { color: #888 !important; }
+trakt.tv#$#body:not(.dark-knight) .filter-dropdown .dropdown-toggle { background-color: transparent !important; }
+trakt.tv#$#body:not(.dark-knight) .filter-dropdown .icon.icon-dividers, body:not(.dark-knight) .filter-dropdown .metadata :is(.icon, .caret) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) ul.pagination li a { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) ul.pagination li a:hover { color: #ed1c24 !important; }
+trakt.tv#$#body:not(.dark-knight) ul.pagination li:not(.active) a { background-color: inherit !important; }
+trakt.tv#$#body:not(.dark-knight) ul.pagination li .disabled a { color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) ul.pagination li .gap a { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .arrow::after { border-top-color: #333 !important; border-bottom-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .metadata-wrapper { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .metadata-wrapper .form-control { background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .metadata-wrapper h4 { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) .popover.remove .popover-title { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover i:is(.add-metadata, .add-play) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .date-range-wrapper .date-range-title { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) .popover.with-date-range-picker > .arrow::after { border-bottom-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline { border-top-color: #444 !important; background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline :is(td, th) { background-color: #333 !important; border-color: #444 !important; color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline :is(td, th).xdsoft_current { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline th { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline .xdsoft_timepicker .xdsoft_time_box { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline .xdsoft_timepicker .xdsoft_time_box > div > div { background-color: #333 !important; border-color: #444 !important; color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline :is(.xdsoft_month, .xdsoft_year) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline .xdsoft_label > .xdsoft_select { background-color: #333 !important; border-color: #444 !important; color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .data-wrapper .xdsoft_datetimepicker.xdsoft_inline .xdsoft_label > .xdsoft_select .xdsoft_current { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover.copy-list li:is(:nth-child(2), :nth-child(3), :nth-child(4)) { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .popover .popover-search-wrapper { background-color: #222 !important; }
+!trakt.tv#$#body:not(.dark-knight) .xdsoft_datetimepicker :is(.xdsoft_label i, .xdsoft_prev, .xdsoft_next, .xdsoft_today_button) { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAeCAYAAADaW7vzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUExQUUzOTA0M0UyMTFFNDlBM0FFQTJENTExRDVBODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUExQUUzOTE0M0UyMTFFNDlBM0FFQTJENTExRDVBODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTFBRTM4RTQzRTIxMUU0OUEzQUVBMkQ1MTFENUE4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTFBRTM4RjQzRTIxMUU0OUEzQUVBMkQ1MTFENUE4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pp0VxGEAAAIASURBVHja7JrNSgMxEMebtgh+3MSLr1T1Xn2CHoSKB08+QmR8Bx9A8e7RixdB9CKCoNdexIugxFlJa7rNZneTbLIpM/CnNLsdMvNjM8l0mRCiQ9Ye61IKCAgZAUnH+mU3MMZaHYChBnJUDzWOFZdVfc5+ZFLbrWDeXPwbxIqrLLfaeS0hEBVGIRQCEiZoHQwtlGSByCCdYBl8g8egTTAWoKQMRBRBcZxYlhzhKegqMOageErsCHVkk3hXIFooDgHB1KkHIHVgzKB4ADJQ/A1jAFmAYhkQqA5TOBtocrKrgXwQA8gcFIuAIO8sQSA7hidvPwaQGZSaAYHOUWJABhWWw2EMIH9QagQERU4SArJXo0ZZL18uvaxejXt/Em8xjVBXmvFr1KVm/AJ10tRe2XnraNqaJvKE3KHuUbfK1E+VHB0q40/y3sdQSxY4FHWeKJCunP8UyDdqJZenT3ntVV5jIYCAh20vT7ioP8tpf6E2lfEMwERe+whV1MHjwZB7PBiCxcGQWwKZKD62lfGNnP/1poFAA60T7rF1UgcKd2id3KDeUS+oLWV8DfWAepOfq00CgQabi9zjcgJVYVD7PVzQUAUGAQkbNJTBICDhgwYTjDYD6XeW08ZKh+A4pYkzenOxXUbvZcWz7E8ykRMnIHGX1XPl+1m2vPYpL+2qdb8CDAARlKFEz/ZVkAAAAABJRU5ErkJggg==) !important; }
+trakt.tv#$#body:not(.dark-knight) .popover-title, body:not(.dark-knight) .frame-wrapper .sidenav .feeds .popover .popover-title { background-color: #292929 !important; border-color: #444 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .popover-content { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .quick-icons .metadata .popover .popover-title { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .quick-icons .actions .popover { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #inbox-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .page-navigator { border: solid 1px #333 !important; background-color: #111 !important; }
+trakt.tv#$#body:not(.dark-knight) .page-navigator > div:hover { color: #ed1c24 !important; opacity: 1 !important; }
+trakt.tv#$#body:not(.dark-knight) #ondeck-wrapper { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) #ondeck-wrapper .posters :is(.rewatching-badge, .notable-badge) { border-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#ondeck-shows, #progress-grid-wrapper) :is(.ignore, .reset):hover { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#ondeck-shows, #progress-grid-wrapper) .titles-link { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#ondeck-shows, #progress-grid-wrapper) .poster { border: none !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#ondeck-shows, #progress-grid-wrapper) .grid-item .quick-icons { border: none !important; background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #schedule-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #schedule-wrapper .schedule-episode:not(:first-of-type) { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #schedule-wrapper h3 { border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper .posters .poster-under { background-color: #222 !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper .posters .activity-date { background-color: #333 !important; color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper .posters .action { border-color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper .posters .user-avatar img { border-color: #000 !important; background-color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper a:not(.username) { color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) #network-wrapper #network-activities .network-item:nth-child(even) .poster-under { border-left-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #recently-watched-wrapper .quick-icons { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #recommendations-wrapper .quick-icons { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .btn-summary:not(.selected):not(:hover):not(.btn-checkin) { background-color: #222 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .sections li { border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .sections li a:hover { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar :is(.vip-actions, .mod-actions) { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .external li a { background-color: #333 !important; border-color: #333 !important; color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .external li a:hover { color: #fff !important; background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .poster { -webkit-box-shadow: 0 0 20px #000 !important; box-shadow: 0 0 20px #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .btn-watch-now { -webkit-box-shadow: 0 5px 20px #000 !important; box-shadow: 0 5px 20px #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .btn-ticketing { -webkit-box-shadow: 0 5px 20px #000 !important; box-shadow: 0 5px 20px #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .sidebar .streaming-links { -webkit-box-shadow: 0 0 20px 0 #000 !important; box-shadow: 0 0 20px 0 #000 !important; background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .poster { border-color: #000 !important; -webkit-box-shadow: 0 0 20px #333 !important; box-shadow: 0 0 20px #333 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .action-buttons > .btn:not(.selected):not(:hover) .side-btn { background-color: #111 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters { scrollbar-color: rgba(255, 255, 255, 0.1) rgba(100, 100, 100, 0.3) !important; scrollbar-width: thin !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters::-webkit-scrollbar { width: 6px !important; height: 6px !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters::-webkit-scrollbar-track { background: rgba(100, 100, 100, 0.3) !important; border-radius: 3px !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15) !important; transition: all 0.5s !important; border-radius: 3px !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.4) !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters ul:hover li .titles :is(.name, .character, .count) { color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters ul li .name { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info .actors-wrapper .posters ul li .character { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .info #overview[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: -o-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001D1D1D',endColorstr='#FF1D1D1D',GradientType=0) !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .notable-summary .notes { background-color: #333 !important; border-color: #333 !important; color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .affiliate-links .section a { background-color: #333 !important; border-color: #333 !important; color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .affiliate-links .section a:hover { color: #fff !important; background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .season-links .links ul li a.selected { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #info-wrapper .quick-icons { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .summary-activity .tabs .tab { color: #fff !important; border-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .summary-activity .tabs .tab.selected { background-color: #333 !important; border-bottom-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .users-wrapper { background-color: #333 !important; border-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) #seasons-episodes-sortable .under-info h3 a { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #seasons-episodes-sortable .under-info .titles { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) #seasons-episodes-sortable .under-info .episode-stats { background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight) #seasons-episodes-sortable .under-info .overview[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: -o-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001D1D1D',endColorstr='#FF1D1D1D',GradientType=0) !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper { background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment-text[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, rgba(41, 41, 41, 0) 0%, #292929 100%) !important; background-image: -o-linear-gradient(top, rgba(41, 41, 41, 0) 0%, #292929 100%) !important; background-image: linear-gradient(to bottom, rgba(41, 41, 41, 0) 0%, #292929 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00292929',endColorstr='#FF292929',GradientType=0) !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .above-comment { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .above-comment .date { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill { background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.collaborators { background-color: #e85d04 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.share-link { background-color: #009edf !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.op { background-color: #009edf !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.history { background-color: #8e44ad !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.collection { background-color: #16a085 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.rating { background-color: #b70a0a !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .pill.media-item { background-color: #2b678f !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper.list:not(.subnav) { background-color: #333 !important; padding-bottom: 0 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper.list.subnav { border: none !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper.list .above-comment { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper.list .above-comment .user-name h4 a.username { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment blockquote { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment blockquote.parent-inline { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment blockquote.parent-inline .comment-wrapper .above-comment { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment blockquote.parent-inline .comment-wrapper blockquote { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment pre { background-color: #1d1d1d !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper .comment mark { background-color: #e2e2af !important; color: #333 !important; border-radius: 3px !important; padding: 2px 4px !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper.with-replies { outline: solid 1px #444 !important; -webkit-box-shadow: 0 0 8px rgba(128, 128, 128, 0.6) !important; box-shadow: 0 0 8px rgba(128, 128, 128, 0.6) !important; }
+trakt.tv#$#body:not(.dark-knight) .comment-wrapper.with-replies .replies-wrapper .above-comment { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .emojionearea .emojionearea-editor { color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .new-comment-wrapper textarea, body:not(.dark-knight) .new-comment-wrapper .emojionearea .emojionearea-editor { background-color: #292929 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .new-comment-wrapper .formatting-help { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .new-comment-wrapper .under-help .checkboxes .btn-group .btn { background-color: #333 !important; border-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .new-comment-wrapper .under-help .checkboxes .btn-group .btn:hover { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .new-comment-wrapper .under-help .checkboxes .btn-group .btn.active { background-color: #777 !important; border-color: #777 !important; }
+trakt.tv#$#body:not(.dark-knight) .new-reply-wrapper .reply-field textarea, body:not(.dark-knight) .new-reply-wrapper .reply-field .emojionearea .emojionearea-editor { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.comments, .comments_liked, .comments_season, .comments_episode, .list_comments) #info-wrapper .above-comment-bg { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.comments, .comments_liked, .comments_season, .comments_episode, .list_comments) #info-wrapper .info #read .comment-wrapper .comment-text[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: -o-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001D1D1D',endColorstr='#FF1D1D1D',GradientType=0) !important; }
+trakt.tv#$#body:not(.dark-knight):is(.comments, .comments_liked, .comments_season, .comments_episode, .list_comments) #info-wrapper .info #read .comment-wrapper .comment blockquote { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.comments, .comments_liked, .comments_season, .comments_episode, .list_comments) #info-wrapper .info #read .comment-wrapper .comment pre { background-color: #333 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .tab-links a:not(.active) > h3 { color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) .tab-links a:not(.active) > h3:hover .count { border-color: #fff !important; background-color: transparent !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .tab-links a > h3:hover { color: #fff !important; border-bottom-color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .tab-links a > h3:hover .count { border-color: #fff !important; background-color: #fff !important; color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) .tab-links a > h3:hover:hover .count { border-color: #000 !important; background-color: #000 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .pill-tab-links .tab-links > a > h3 { background-color: rgba(255, 255, 255, 0.15) !important; }
+trakt.tv#$#body:not(.dark-knight) .pill-tab-links .tab-links > a > h3:hover { background-color: rgba(255, 255, 255, 0.35) !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#user-comments, .user-comments) .inline-title { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) .personal-list .list-info .posters .poster-items-wrapper .poster-items .poster-item { -webkit-box-shadow: 0 0 15px #333 !important; box-shadow: 0 0 15px #333 !important; }
+trakt.tv#$#body:not(.dark-knight) .personal-list .list-info .user-actions .icon.btn-list-subscribe, body:not(.dark-knight) .personal-list .list-info .icon.btn-list-progress { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .personal-list .info .overview[data-readmore][aria-expanded="false"] .shade { background-image: -webkit-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: -o-linear-gradient(top, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0) 0%, #1d1d1d 100%) !important; background-repeat: repeat-x !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001D1D1D',endColorstr='#FF1D1D1D',GradientType=0) !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.btn-list-edit-items, #btn-list-edit-lists) { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) ul.lists li:not(.selected) { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) .personal-list .list-info .info .overview blockquote { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight).lists #info-wrapper .comment-wrapper:matches-media((max-width: 767px)) { border-top: none !important; }
+trakt.tv#$#body:not(.dark-knight) #sortable-watchnow-applied-filters { background-color: #222 !important; }
+trakt.tv#$#body:not(.dark-knight) .copied-from { color: #777 !important; }
+trakt.tv#$#body:not(.dark-knight) .copied-from .trakt-icon-copy { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) #progress-wrapper .row .main-info .seasons { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) #progress-wrapper .row .main-info .seasons > div .season-toggle .season { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) #progress-wrapper .row .main-info .seasons > div .season-toggle :is(.fa, [class^="fa-"], [class*=" fa-"]), body:not(.dark-knight) #progress-wrapper .row .main-info .seasons .link, body:not(.dark-knight) #progress-wrapper .row .main-info .seasons .link :is(.fa, [class^="fa-"], [class*=" fa-"]) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) #boxes-wrapper .row .genres-stat-box, body:not(.dark-knight) #bottom-stats-wrapper .col-stat.alt, body:not(.dark-knight) #favorites-wrapper, body:not(.dark-knight).users #charts-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight).discover #recent-comments-wrapper #recent-comments-title h4 { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight).discover #recent-comments-wrapper #recent-comments-title h5 { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight).discover #recent-comments-wrapper #recent-comments { background-color: rgba(0, 0, 0, 0.6) !important; }
+trakt.tv#$#body:not(.dark-knight).discover #recent-comments-wrapper #recent-comments .comment-outer-wrapper .above-comment { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight).discover #recent-comments-wrapper .subnav-wrapper .btn { background-color: transparent !important; border-color: transparent !important; }
+trakt.tv#$#body:not(.dark-knight).apps #apps-icon-wrapper { background: -moz-radial-gradient(center, circle cover, #161616 0%, #1d1d1d 100%) !important; background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #161616), color-stop(100%, #1d1d1d)) !important; background: -webkit-radial-gradient(center, circle cover, #161616 0%, #1d1d1d 100%) !important; background: -o-radial-gradient(center, circle cover, #161616 0%, #1d1d1d 100%) !important; background: -ms-radial-gradient(center, circle cover, #161616 0%, #1d1d1d 100%) !important; background: radial-gradient(center, circle cover, #161616 0%, #1d1d1d 100%) !important; }
+trakt.tv#$#body:not(.dark-knight).apps #apps-icon-wrapper .apps-icons .app .icon { -webkit-box-shadow: 0 0 10px #000 !important; box-shadow: 0 0 10px #000 !important; }
+trakt.tv#$#body:not(.dark-knight).apps #apps-icon-wrapper .btn-group.in-wrapper .btn:hover:not(.btn-primary) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.main.home, .main.index, .apps, .welcome, .branding) .hero-wrapper.light { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight):is(.main.home, .main.index, .apps, .welcome, .branding) :is(#watchnow-wrapper, #api-wrapper, #apps-wrapper) .shade { background: -moz-radial-gradient(center, circle cover, #333 0%, rgba(0, 0, 0, 0.5) 100%) !important; background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #333), color-stop(100%, rgba(0, 0, 0, 0.5))) !important; background: -webkit-radial-gradient(center, circle cover, #333 0%, rgba(0, 0, 0, 0.5) 100%) !important; background: -o-radial-gradient(center, circle cover, #333 0%, rgba(0, 0, 0, 0.5) 100%) !important; background: -ms-radial-gradient(center, circle cover, #333 0%, rgba(0, 0, 0, 0.5) 100%) !important; background: radial-gradient(center, circle cover, #333 0%, rgba(0, 0, 0, 0.5) 100%) !important; }
+trakt.tv#$#body:not(.dark-knight):is(.main.home, .main.index, .apps, .welcome, .branding) #api-wrapper { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #scrobblers-wrapper { color: #000 !important; }
+trakt.tv#$#body:not(.dark-knight) #team-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #team-wrapper .team-pics img { border: none !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#faq-wrapper, #team-wrapper) .faq-item { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#faq-wrapper, #team-wrapper) .faq-item h3 { color: #eee !important; }
+trakt.tv#$#body:not(.dark-knight) #standard-features { background: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #standard-features h2 { border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight).branding #logo-downloads-wrapper { background: -moz-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #333), color-stop(100%, #161616)) !important; background: -webkit-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: -o-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: -ms-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; }
+trakt.tv#$#body:not(.dark-knight).branding #api-wrapper { background: -moz-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #333), color-stop(100%, #161616)) !important; background: -webkit-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: -o-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: -ms-radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; background: radial-gradient(center, circle cover, #333 0%, #161616 100%) !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .notifications-table .table.with-header th { border-color: #444 !important; background-color: #333 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .notifications-table .table tbody > tr { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .notifications-table .table tbody > tr > td { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .notifications-table .table tbody > tr:hover { background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .panel { border-color: #444 !important; background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .panel .panel-heading { border-color: #444 !important; background-color: #333 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets, .movies.releases) .panel .panel-body .alert-cookie-disabled { background-color: #333 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) section:is(#main-settings, #hidden-items) #info-wrapper .sidebar .sections li:first-child { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) .disable-account-wrapper a { color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) h3.instructions { background-color: #000 !important; border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) h3.instructions.middle { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) h3.help-text { color: #999 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) #social-connections { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) .subnav-wrapper { background-color: #161616 !important; border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) #widgets-wrapper .widget-row.alt { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) #widgets-wrapper .widget-row .code-wrapper { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) #widgets-wrapper .widget-row .code-wrapper code { background-color: #333 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.settings, .authorized_applications, .applications, .widgets) code { background-color: #3c1111 !important; color: #fff !important; border: none !important; }
+trakt.tv#$#body:not(.dark-knight) #authorized-applications .row:not(:first-child):not(.no-border) { border-top-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .api-auth-choices { background-color: #161616 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .api-auth-choices.alt { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.api-terms, .legal-speak.summary) { background-color: #333 !important; border-color: #444 !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) :is(.api-terms, .legal-speak.summary) .title { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight) .legal-speak table.cookies :is(th, td) { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) .legal-speak table.cookies th { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .subnav-wrapper { background-color: #161616 !important; border: none !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .category h2 { border: none !important; background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .category h2 a { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .forum-table { background-color: #292929 !important; border: none !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .forum-table tr.locked { background-color: #393939 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .forum-table td { border-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .forum-table .title:not(.new) { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .forum-table .description { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .forum-table td.last-post .title { color: #ed1c24 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper { background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .user-wrapper { background-color: #333 !important; border-right-color: #333 !important; border-bottom-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-top { border-bottom-color: #333 !important; background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-top .date a { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-content .in-reply-to { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-content blockquote { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-content pre { background-color: #1d1d1d !important; color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-content mark { background-color: #e2e2af !important; color: #333 !important; border-radius: 3px !important; padding: 2px 4px !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .post-wrapper .post-content :is(h1, h2, h3, h4, h5, h6) { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .form-horizontal .topic_subject .emojionearea { background-color: #333 !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .form-horizontal .topic_subject .emojionearea .emojionearea-editor { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .form-horizontal .topic_subject .emojionearea.focused { -webkit-box-shadow: 0 0 20px #777 !important; box-shadow: 0 0 20px #777 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .form-horizontal :is(.topic_posts_text, .post_text) .emojionearea { background-color: #333 !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .form-horizontal :is(.topic_posts_text, .post_text) .emojionearea .emojionearea-editor { color: #fff !important; }
+trakt.tv#$#body:not(.dark-knight):is(.forums, .categories, .topics, .posts) .form-horizontal :is(.topic_posts_text, .post_text) .emojionearea.focused { -webkit-box-shadow: 0 0 20px #777 !important; box-shadow: 0 0 20px #777 !important; }
+trakt.tv#$#body:not(.dark-knight).trakt_stats #vip-stats-legend { background-color: #161616 !important; border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight).trakt_stats #vip-stats .wrapper .count-table :is(th, td) { border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight).trakt_stats #vip-stats .wrapper .count-table th { color: #fff !important; background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight).trakt_stats #vip-stats .wrapper .count-table tr:hover td { background-color: #292929 !important; }
+trakt.tv#$#body:not(.dark-knight) .mCSB_scrollTools:is(.mCS-rounded-dark, .mCS-rounded-dots-dark) .mCSB_dragger .mCSB_dragger_bar { background-color: #555 !important; }
+trakt.tv#$#body:not(.dark-knight) .mCSB_scrollTools.mCS-rounded-dark .mCSB_draggerRail { background-color: #333 !important; }
+trakt.tv#$#body:not(.dark-knight).watchnow .streaming-links-wrapper { background-color: #1d1d1d !important; }
+trakt.tv#$#body:not(.dark-knight).watchnow .streaming-links-wrapper .streaming-links { background: -moz-radial-gradient(center, circle cover, #000 0%, rgba(0, 0, 0, 0.2) 100%) !important; background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #000), color-stop(100%, rgba(0, 0, 0, 0.2))) !important; background: -webkit-radial-gradient(center, circle cover, #000 0%, rgba(0, 0, 0, 0.2) 100%) !important; background: -o-radial-gradient(center, circle cover, #000 0%, rgba(0, 0, 0, 0.2) 100%) !important; background: -ms-radial-gradient(center, circle cover, #000 0%, rgba(0, 0, 0, 0.2) 100%) !important; background: radial-gradient(center, circle cover, #000 0%, rgba(0, 0, 0, 0.2) 100%) !important; }
+trakt.tv#$#body:not(.dark-knight) .on-off-wrapper.toggle-dark-knight-mode .on { background-color: #eee !important; color: #999 !important; font-weight: 400 !important; }
+trakt.tv#$#body:not(.dark-knight) .on-off-wrapper.toggle-dark-knight-mode .off { background-color: #ed1c24 !important; color: #fff !important; font-weight: 700 !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown-menu.textcomplete-dropdown[data-strategy="emojionearea"] { background-color: #333 !important; color: #ccc !important; border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown-menu.textcomplete-dropdown[data-strategy="emojionearea"] li.textcomplete-item a { color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown-menu.textcomplete-dropdown[data-strategy="emojionearea"] li.textcomplete-item:is(:hover, .active) { background-color: #222 !important; }
+trakt.tv#$#body:not(.dark-knight) .dropdown-menu.textcomplete-dropdown[data-strategy="emojionearea"] li.textcomplete-item:is(:hover, .active) a { color: #ccc !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#moderate-modal, #metadata-merge-modal, #metadata-move-modal, #metadata-split-modal) .streaming-links.split-bg { background-image: linear-gradient(to right, transparent, transparent 48%, #111 48%, #1d1d1d) !important; border-bottom: solid 1px #444 !important; }
+trakt.tv#$#body:not(.dark-knight).welcome .form-inputs .form-control { background-color: transparent !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-dates .btn-date { background-color: #333 !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-dates .btn-date .day { background-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-dates .btn-date .month { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-dates .btn-date:hover { border-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-dates .btn-date:hover .day { background-color: #666 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-dates .btn-date.enabled { background-color: #111 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-cinemas.loading { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-cinemas .cinema-wrapper { border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-cinemas .cinema-wrapper .cinema-favorite { color: #aaa !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-cinemas .showtimes-wrapper .showtime .time { background-color: #444 !important; border-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) #ticketing-modal #ticketing-cinemas .showtimes-wrapper .showtime:is(.has-3d, .has-imax) .time::after { color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#report-comment-modal, #report-item-modal) .titles-wrapper { background-color: #161616 !important; border-bottom-color: #444 !important; }
+trakt.tv#$#body:not(.dark-knight) :is(#report-comment-modal, #report-item-modal) .titles-wrapper h4 { color: #999 !important; }
+
+trakt.tv#$#body:not(.dark-knight) #results-top-wrapper.user-wrapper .user-avatar img { border-color: #464646 !important; }
+trakt.tv#$#body:not(.dark-knight) #recommendations-wrapper { background-color: #161616 !important; }
+trakt.tv#$#body:not(.dark-knight) #results-top-wrapper { background-color: transparent !important; }
+
+! trakt-style-ui
+
+trakt.tv#$#body.dashboard .stats-wrapper > .container > .row { display: flex !important; }
+trakt.tv#$#body.dashboard .stats-wrapper > .container > .row > [class*="col-"] { flex-grow: 1 !important; }
+
+trakt.tv#$#body.calendars .flex-item:hover .date-separator { background-color: #8e44ad !important; }
+trakt.tv#$#body.calendars .date-separator.today { background-color: #ed1c24 !important; color: #fff !important; }
+trakt.tv#$#body.calendars .calendar-grid.flex-container, body.calendars .calendar-grid.flex-container > .flex-item { min-height: calc(100vh - 90px) !important; }
+
+trakt.tv#$#.frame-wrapper .sidenav .sidenav-inner.affix { position: relative !important; }
+trakt.tv#$#.frame-wrapper .sidenav .sidenav-inner.affix-bottom { top: 0 !important; }
+
+trakt.tv#$##info-wrapper .sidebar.posters.sticky { position: static !important; margin-top: -130px !important; }
+trakt.tv#$##info-wrapper .sidebar.affixable.affix.affix { position: relative !important; top: auto !important; }
+trakt.tv#$##summary-wrapper, .summary-wrapper { height: 300px !important; }
+trakt.tv#$##summary-wrapper, .summary-wrapper, :is(#summary-wrapper, .summary-wrapper, #watching-wrapper, .hero-wrapper, #statics-top-wrapper) .full-screenshot { background-position: 50% 20% !important; }
+
+trakt.tv#$##summary-ratings-wrapper ul.stats { margin-left: 0 !important; }
+
+trakt.tv#$#.sticky:matches-media((min-width: 756px)) { z-index: 30 !important; }
+trakt.tv#$##toast-container { z-index: 30 !important; }

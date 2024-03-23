@@ -1,0 +1,37 @@
+! goku-hide
+
+goku.*##.ft-connect
+goku.*##.is-control > #go-discussion
+goku.*##.rating-wrap
+goku.*##.section-comment
+goku.*##.section-crumb
+goku.*##.section-pick
+goku.*##.section-watch .section-area > div.movie-detail
+goku.*##.x-c-share
+goku.*###server-notice
+goku.*###server-play .icon-fast
+goku.*###watch-block + .page-detail
+goku.*##div[id$="__main"] > .section-space:first-child
+
+! goku-style
+
+goku.*#$#[id$="__root"] { --hh: 40px; --lm: 10px; padding-top: 0 !important; }
+
+goku.*#$#[id$="__header"] { position: static !important; }
+goku.*#$#[id$="__header"], [id$="__header"] .header-components, [id$="__logo"] { height: var(--hh) !important; }
+
+goku.*#$#[id$="__logo"] { padding: calc(var(--lm) / 2) 60px !important; }
+goku.*#$#[id$="__logo"] img { height: calc(var(--hh) - var(--lm)) !important; }
+
+goku.*#$##top-menu .top-menu-nav > li > a { line-height: var(--hh) !important; }
+goku.*#$##top-menu .submenu { top: 40px !important; z-index: 10 !important; }
+
+goku.*#$#.section-watch .section-area > div.movie-content { background-color: #000 !important; }
+goku.*#$#.section-watch .is-frame { height: calc(100vh - var(--hh)) !important; padding-bottom: unset !important; }
+
+goku.*#$#.dropdown-primary, .dropdown-primary .dropdown-item { background-color: #1f232c !important; }
+goku.*#$#.dropdown-primary .dropdown-item { color: #fff !important; }
+goku.*#$#.dropdown-primary .dropdown-item:hover { background-color: rgb(255 255 255 / 0.15) !important; }
+
+goku.*#$#.filter-dual { width: 400px !important; }
+goku.*#$#.filter-dual > .dropdown-item { width: calc(100% / 3) !important; }

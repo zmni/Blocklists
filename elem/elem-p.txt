@@ -1,0 +1,37 @@
+!! ELEMEN-P : PSEUDO
+
+729sports.com,aliexpress.com,alternativeto.net,animension.to,apkpure.com,bukalapak.com,bicycling.com,bilibili.tv,crowdin.com,dhs-sports.com,eraspace.com,geekompc.com,infinixmobility.com,jd.id,mi.com,mooeraudio.com,moskyaudio.com,nuxefx.com,pingsunday.com,revspin.net,ruparupa.com,soccerstreams.football,store.steampowered.com,streamgoals.com,trakt.tv,marketplace.visualstudio.com,wetv.vip##a[target="_blank"]:remove-attr(target)
+
+aliexpress.com##form[target="_blank"]:remove-attr(target)
+aliexpress.com##[data-spm-anchor-id]:remove-attr(data-spm-anchor-id)
+
+blacktiesports.net##body[onclick]:remove-attr(onclick)
+bola.net##a:is([data-te-category], [data-te-label], [data-te-tracked]):remove-attr(/data-te-(category|label|tracked)/)
+
+fosshub.com##[data-analytics-region]:remove-attr(data-analytics-region)
+
+github.io##body[onload]:remove-attr(onload)
+gog.com##[gog-track-event]:remove-attr(gog-track-event)
+useful-forks.github.io##[onclick]:remove-attr(onclick)
+play.google.com##button[jslog]:remove-attr(jslog)
+
+heidisql.com##:is([data-gevent], [data-gaction], [data-glabel]):remove-attr(/data-g(event|action|label)/)
+howtogeek.com##.social-media-buttons:remove()
+howtogeek.com##div[id^="purch"]:remove()
+
+mi.com##a[onclick]:remove-attr(onclick)
+myanimelist.net##:is(.ga-click, .ga-impression):remove-class(/ga-(click|impression)/)
+myanimelist.net##:is([data-ad-target], [data-ad-id], [data-ad-pid], [data-ad-sid]):remove-attr(/data-ad-(target|id|pid|sid)/)
+myanimelist.net##:is([data-ga-click-type], [data-ga-click-param], [data-ga-impression-type], [data-ga-impression-param]):remove-attr(/data-ga-(click|impression)-(type|param)/)
+
+stream.nontongo.win##body[oncontextmenu]:remove-attr(oncontextmenu)
+
+polygon.com##:is([data-analytics-link], [data-chorus-optimize-field]):remove-attr(/data-(analytics-link|chorus-optimize-field)/)
+
+realme.com##.gtag:is([data-gtag], [target]):remove-attr(/data-gtag|target/)
+reddit.com##.promoted:remove()
+
+tempo.co##meta[http-equiv="refresh"]:remove()
+tempo.co##html[style]:remove-attr(style)
+
+wetv.vip##.search-box__form[target]:remove-attr(target)

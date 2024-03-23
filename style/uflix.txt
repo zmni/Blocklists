@@ -1,0 +1,24 @@
+! uflix-hide
+
+uflix.cc##.breadcrumb
+
+! uflix-style
+
+uflix.cc#$#a.navbar-brand { transition: none !important; }
+
+uflix.cc#$#.form-search { width: 100% !important; }
+
+uflix.cc#$#.layout-header .form-search { border-radius: .375rem !important; }
+uflix.cc#$#.layout-header .form-search:focus-within { background-color: var(--bs-gray-400) !important; }
+uflix.cc#$#.layout-header .form-search:focus-within .form-control { color: var(--bs-body-color) !important; }
+
+uflix.cc#$#.navbar { text-align: right !important; }
+uflix.cc#$#.navbar-brand { margin-right: 0 !important; }
+uflix.cc#$#.navbar-vertical .navbar-nav .nav-link { display: inline-flex !important; justify-content: flex-end !important; padding-right: 30px !important; position: relative !important; }
+uflix.cc#$#.navbar-vertical .navbar-nav .nav-link i, .navbar-vertical .navbar-nav .nav-link svg { margin-right: 0 !important; position: absolute !important; right: 0 !important; }
+
+uflix.cc#$#.layout-heading, .layout-filter { justify-content: center !important; }
+
+uflix.cc#$#.layout-app > .row > .col-lg-auto { order: 1 !important; }
+uflix.cc#$#.layout-app > .row > .col-md { order: 0 !important; }
+uflix.cc#$#.layout-app > .row > .py-3 { order: 2 !important; }

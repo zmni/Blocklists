@@ -1,0 +1,53 @@
+! aniwave-hide
+
+9animetv.to,aniwave.to##.adx
+9animetv.to,aniwave.to##.alert
+9animetv.to,aniwave.to##.ani.items > .item:has(.release-status)
+9animetv.to,aniwave.to##.brating
+9animetv.to,aniwave.to##.bsharing
+9animetv.to,aniwave.to##.hotest
+9animetv.to,aniwave.to##.main > div:has(> a[target="_blank"])
+9animetv.to,aniwave.to##.shorting .toggle
+9animetv.to,aniwave.to##.side.items .item .meta .dot:nth-child(2)::before
+9animetv.to,aniwave.to##.side.items .item .meta .score
+9animetv.to,aniwave.to##.socials
+9animetv.to,aniwave.to##.user-actions > a[href="donate"]
+9animetv.to,aniwave.to###comments
+9animetv.to,aniwave.to###continue-watching
+9animetv.to,aniwave.to###donate
+9animetv.to,aniwave.to###hotest
+9animetv.to,aniwave.to###slider
+9animetv.to,aniwave.to###w-player #controls .w2g
+9animetv.to,aniwave.to###watch-main aside.sidebar
+9animetv.to,aniwave.to###watch2gether
+9animetv.to,aniwave.to##aside.main > div:has(> a[rel="nofollow"])
+9animetv.to,aniwave.to##body.home aside.main > div:not([class], [id])
+9animetv.to,aniwave.to##img[src*="/banners/"]
+9animetv.to,aniwave.to##section#schedule .body .more
+
+! aniwave-style
+
+9animetv.to,aniwave.to#$#:matches-path(/watch) body { background-color: #000 !important; }
+
+9animetv.to,aniwave.to#$#header, header.fixed { position: static !important; }
+9animetv.to,aniwave.to#$#header { margin-bottom: 0 !important; }
+
+9animetv.to,aniwave.to#$##wrapper #body, body.home #wrapper #body { padding-top: 10px !important; }
+9animetv.to,aniwave.to#$#body.header-nofixed #wrapper #body { padding-top: 0 !important; }
+9animetv.to,aniwave.to#$##wrapper #body { margin-top: 0 !important; }
+9animetv.to,aniwave.to#$##body > .container > .aside-wrapper { margin-top: 0 !important; }
+
+9animetv.to,aniwave.to#$#.scaff.items .item .info .name { -webkit-line-clamp: 1 !important; }
+
+9animetv.to,aniwave.to#$#.watch-container { max-width: 1090px !important; }
+
+9animetv.to,aniwave.to#$##watch-main .aside-wrapper { flex-direction: column !important; }
+9animetv.to,aniwave.to#$##watch-main aside.main { width: 100% !important; }
+9animetv.to,aniwave.to#$##w-media #w-player #player-wrapper { aspect-ratio: 16/9 !important; padding-bottom: calc(100% * 9 / 16) !important; }
+9animetv.to,aniwave.to#$##w-media #w-episodes { background-color: #0f0f0f !important; }
+9animetv.to,aniwave.to#$##w-media #w-episodes .body .episodes { max-height: none !important; }
+
+9animetv.to,aniwave.to#$##watch-second .aside-wrapper { display: block !important; }
+9animetv.to,aniwave.to#$##watch-second aside.sidebar { width: auto !important; }
+9animetv.to,aniwave.to#$##watch-second aside.sidebar .body .side.items { display: flex !important; flex-wrap: wrap !important; margin-right: -5px !important; margin-left: -5px !important; }
+9animetv.to,aniwave.to#$##watch-second aside.sidebar .body .side.items .item { --w: calc(100% / 3 - 10px); flex-grow: 1 !important; flex-basis: var(--w) !important; max-width: var(--w) !important; margin-right: 5px !important; margin-left: 5px !important; }

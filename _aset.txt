@@ -1,0 +1,8 @@
+! Title: x Aset x
+! Expires: 2 days
+
+!#include aset/aset-0.txt
+!#include aset/aset-1.txt
+!#include aset/aset-3.txt
+!#include aset/aset-d.txt
+!#include aset/aset-x.txt

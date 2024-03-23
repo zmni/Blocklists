@@ -1,0 +1,56 @@
+!! ELEMEN-0
+
+##.area-comment
+##.comment
+##.comment-area
+##.comment-respond
+##.commentarea
+##.commento-root
+##.comments
+##.comments-area
+##.comments-block
+##.comments-box
+##.comments-wrap
+##.dsq-brlink
+##.dt-comment
+##.fb-comments
+##.gh-comments
+##.jw-icon-rewind
+##.jw-icon[aria-label="Download this video"]
+##.jw-icon[aria-label="Download Video"]
+##.jw-icon[button="download"]
+##.jw-logo
+##.ktz-socializer
+##.plyr__controls__item[data-plyr="download"]
+##.plyr__controls__item[data-plyr="fast-forward"]
+##.plyr__controls__item[data-plyr="rewind"]
+##.post-comments
+##.show-comments
+##.utterances
+##.vjs-download-control
+##.vjs-forward-control
+##.vjs-info-button
+##.vjs-logobrand-image
+##.vjs-logobrand-image-destination
+##.vjs-rewind-control
+##.vjs-watermark
+##.xenforo-comment-widget
+##.xenforo-comments-see-all
+###comment
+###comment-block
+###comment-disqus
+###commentfb
+###commentform
+###commento
+###comments
+###content-comments
+###disqus
+###disqus_thread
+###dlIcon.jw-icon-inline
+###komentar
+##a[href^="https://twitter.com/intent/tweet?url="]
+##a[title="Share on Twitter"]
+##amp-analytics
+##amp-auto-ads
+##amp-facebook-comments
+##share-widget

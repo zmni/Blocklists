@@ -1,0 +1,78 @@
+!! ELEMEN-X-0
+
+#@#.dashicons-rss
+#@#.fa-rss
+#@#.fa-rss-square
+#@#.feed-icon
+#@#.feed-links
+#@#.feedlink
+#@#.follow-rss
+#@#.footer-rss
+#@#.grecaptcha-badge
+#@#.icon-feed
+#@#.icon-github
+#@#.icon-rss
+#@#.icon.RSS
+#@#.rss
+#@#.rss-feed
+#@#.rss-icon
+#@#.rss-link
+#@#.rss.icon
+#@#.rssicon
+#@#.uk-icon-rss
+#@#[aria-controls="rssModal"]
+#@#[data-open="rssModal"]
+#@#[title="Subscribe to our RSS feed"]
+#@#[title="Subscribe to RSS Feed"]
+#@#[title="SUBSCRIBE TO RSS FEEDS"]
+#@##social-rss
+#@#a[aria-label="RSS"]
+#@#a[title="Feed RSS"]
+#@#a[title="Follow us by RSS"]
+#@#a[title="Get Feed RSS"]
+#@#a[title="RSS"]
+#@#a[title="Subscribe by RSS"]
+#@#a[title="Subscribe to our RSS Feed"]
+#@#a[title="Subscribe with RSS"]
+#@#img[alt="Feed RSS"]
+#@#img[alt="Grab our RSS feed"]
+#@#img[alt="Icono RSS"]
+#@#img[alt="RSS 2.0"]
+#@#img[alt="RSS Feed Readers"]
+#@#img[alt="RSS Feeds"]
+#@#img[alt="Rss logo"]
+#@#img[alt="Site Feed"]
+#@#img[alt="Subscribe to our RSS Feeds"]
+#@#img[alt="Subscribe to RSS Feed"]
+#@#img[alt="Subscribe via RSS Feed"]
+#@#img[alt="Subscribe via RSS!"]
+#@#img[alt="Subscribe via RSS"]
+
+!! ELEMEN-X-D
+
+epicgames.com#@#.social-container
+getgrav.org#@#.social-wrapper
+play.google.com#@#a[title="YouTube"]
+plex.tv#@#.remodal
+reddit.com#@#.commentarea
+sanweisport.com#@#.social-networks
+soundcloud.com#@#.sc-button-share
+soundcloud.com#@#.shareButton
+soundcloud.com#@#.shareContent
+soundcloud.com#@#.shareLink
+stanza.co#@#.subscribe-container
+trakt.tv#@#.btn-tumblr
+trakt.tv#@#.twitter-wrapper
+trakt.tv#@##progress-wrapper > div.container > div[class][id]:not([data-url])
+transifex.com#@#.icon.facebook
+transifex.com#@#.icon.twitter
+transifex.com#@##icon-facebook
+transifex.com#@##icon-twitter
+
+hostinger.*,niagahoster.co.id#@#.intercom-launcher
+hostinger.*,niagahoster.co.id#@#.intercom-lightweight-app
+
+sourceforge.net#@##comment
+alternativeto.net,discussion.enpass.io,fountainpennetwork.com,harmonycentral.com,kbin.social,forum.kerbalspaceprogram.com,ketarin.org,lemm.ee,lemmy.*,line6.com,nsaneforums.com,ultimate-guitar.com,wincert.net#@##comments
+askubuntu.com,lemm.ee,lemmy.*,reddit.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com,news.ycombinator.com#@#.comment
+1337x.*,x1337x.*,accuweather.com,alternativeto.net,anilist.co,animenewsnetwork.com,askubuntu.com,kbin.social,lemm.ee,lemmy.*,pixelfed.*,reddit.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com,teddit.net,themoviedb.org#@#.comments

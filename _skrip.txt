@@ -1,0 +1,6 @@
+! Title: x Skrip x
+! Expires: 2 days
+
+gdrive.*##+js(nowoif)
+marieclaire.com##+js(href-sanitizer, a[href^="https://www.anrdoezrs.net/links/"][data-url], [data-url])
+news.ycombinator.com##+js(tsa, target, _blank, '.titleline > a, a[rel="nofollow"]')

@@ -1,0 +1,56 @@
+! myanimelist-hide
+
+myanimelist.net##:is(.featured-pickup-unit, .news-unit):has(.tag-color-feature-advertorial)
+myanimelist.net##.ad-sas
+myanimelist.net##.ad-skin-side-bg
+myanimelist.net##.ad-skin-side-outer
+myanimelist.net##.banner-footer-anime-streaming
+myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.border_bottom:has(> div > div[style][data-height])
+myanimelist.net##.btn-affiliate
+myanimelist.net##.news-unit:has(> .mal-ad-unit:only-child)
+myanimelist.net##.news-unit:not(:is(.rect, .clearfix))
+myanimelist.net##.seasonal-anime-list > .js-middle_ad
+myanimelist.net##div[style]:not([class], [id]):has(> .ad-tag)
+myanimelist.net##div[style]:not([class], [id]):has(> div[style]:not([class], [id]) > .mal-ad-unit)
+
+myanimelist.net##.gift
+myanimelist.net##.social-login-block
+myanimelist.net##.icon-watch
+myanimelist.net##.icon-watch2
+myanimelist.net##.icon-watch-pv
+myanimelist.net##.icon-watch-pv2
+myanimelist.net##.top-ranking-table .icon-score-star
+myanimelist.net##.prodsrc > .video
+myanimelist.net##.index-watch-description
+myanimelist.net##.anime-detail-header-stats .notice_open_public
+myanimelist.net##.episode_list .episode-video
+myanimelist.net##.header-menu-login > .btn-mal-service
+myanimelist.net##.js-statistics-info[itemprop="aggregateRating"]
+myanimelist.net##.manga_store-pop-up.popup-background
+myanimelist.net##.navi-seasonal.fixed::after
+myanimelist.net##.news-list > *:not(.news):not(.news-unit)
+myanimelist.net##.page-common #menu.valentine #menu_left #nav li.valentine
+myanimelist.net##.seasonal-anime-list > article
+myanimelist.net##.seasonal-anime-list .seasonal-anime .information.completed .information-item.buttons .bubble
+myanimelist.net##.top-ranking-table :is(.table-header, .ranking-list) td.your-score
+myanimelist.net##.js-scrollfix-bottom-rel div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"]
+myanimelist.net##.broadcast
+myanimelist.net##.left-info-block-broadcast-button
+myanimelist.net###broadcast-block
+
+myanimelist.net##td > h2:has-text(Reviews)
+myanimelist.net##.anime-info-review__header
+myanimelist.net##.review-element
+myanimelist.net##.review-element + br
+myanimelist.net###horiznav_nav > ul > li:has(> a[href$="/reviews"])
+
+! myanimelist-style
+
+myanimelist.net#$#:is(body:not(.ownlist), .dark-mode body:not(.ownlist)):matches-media((prefers-color-scheme: dark)) { background-color: #121212 !important; }
+myanimelist.net#$#.page-common #menu, .page-common #menu #menu_left { background-image: none !important; }
+myanimelist.net#$#.dark-mode .page-common #horiznav_nav { border-color: #414141 !important; }
+myanimelist.net#$#.page-common .h1 .title-english { font-weight: normal !important; font-style: italic !important; }
+myanimelist.net#$#.seasonal-anime-list .seasonal-anime .prodsrc .info { margin: auto !important; }
+myanimelist.net#$#.dark-mode .episode_list .icon-episode-type-bg { background-color: #f0f0f0 !important; color: #121212 !important; }
+myanimelist.net#$#.page-common a.button_edit.button_edit { background-color: #4065ba !important; color: #fff !important; }

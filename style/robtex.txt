@@ -1,0 +1,29 @@
+! robtex-hide
+
+robtex.com##.soctop
+robtex.com###statusgif
+robtex.com###supercontainer > a
+robtex.com###supercontainer > br
+robtex.com###supercrumb > br
+robtex.com###superdebug
+robtex.com###superrand
+robtex.com###zsocial
+robtex.com###zzztopad
+
+! robtex-style
+
+robtex.com#$#table.table2col { margin: 0 !important; width: auto !important; }
+robtex.com#$#.table2col caption { text-align: left !important; }
+robtex.com#$#.rtfragc, #rtfragc_ograph, .thmitable td { overflow: auto !important; }
+robtex.com#$#.rtfragc { padding: 10px !important; }
+robtex.com#$#.rtfragui { min-height: 0 !important; }
+robtex.com#$##rtfragc_dnst, #rtfragc_ohistory, #rtfragc_owhois, #rtfragc_visgraph, #rtfragc_dnsbl { height: auto !important; }
+robtex.com#$##rtfrage_ograph img { height: auto !important; max-width: 100% !important; }
+robtex.com#$#.infobox > div { border-radius: 0 !important; box-shadow: none !important; margin: 0 !important; }
+robtex.com#$#div.dnsbl i { clear: none !important; float: none !important; }
+robtex.com#$#div.dnsbl tt { margin-left: 5px !important; padding: 0 5px !important; }
+robtex.com#$#.infobox > div + div { margin-left: 10px !important; }
+robtex.com#$#.infobox h3 { padding-left: 10px !important; }
+robtex.com#$#.scrollist { border-top: none !important; max-height: none !important; padding: 5px 0 !important; }
+robtex.com#$#.scrollist > li { max-width: none !important; padding: 0 10px !important; }
+robtex.com#$#.infobox > .brx > div:last-child { padding: 0 10px !important; }

@@ -1,0 +1,33 @@
+!! ASET-D
+
+||/ads/$domain=doodcdn.com|gdrive.*|lookmovie2.to|torrindex.net|/[a-z]+\.monster/
+||/heyboy/$domain=fmovies.*|fmoviesz.*
+||/log/$domain=dailymotion.com|dropbox.com|indeed.com|reddit.com|ruparupa.com|vidstream.pro|vimeo.com
+||/test.js$script,domain=yugen.to|yugenani.me|yugenanime.tv
+||/Iklan/$domain=nekokun.*|nekonime.*
+||/popup.js$domain=nekokun.*|nekonime.*
+
+||newrevive.detik.com^$domain=detik.com|cnnindonesia.com
+
+!! ASET-D : 3
+
+||alicdn.com^$image,domain=rutracker.org
+||idfl.info^$frame,domain=idfl-forum.com
+||imgur.com^$image,domain=streamvi.com
+||rnkr-static.com^*/dist/ads-$script,domain=ranker.com
+||rnkr-static.com^*/dist/setReferrer-$script,domain=ranker.com
+||rutrk.org/240x800/$domain=rutracker.org
+||rutrk.org/logo/$domain=rutracker.org
+||rutrk.org^$frame,domain=rutracker.org
+||viva.id^*/share.js$script,domain=viva.co.id
+||viva.id^*/viva_analytics.js$script,domain=viva.co.id
+
+||st.3.cn/ept/1.0.0/ui/css/i/blank.gif$domain=jd.id
+||akm-static.ccmbg.com^$domain=ccm.net
+||player.ivideosmart.com^$domain=kompas.com
+||speed.nocookie.net^$domain=fandom.com
+||wikia.nocookie.net/*/wikia.php?controller=AdEngine$script,domain=fandom.com
+||wikia.nocookie.net/fandom-ae-assets/prebid.js/$important,script,from=fandom.com
+||wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/$important,script,from=fandom.com
+||youtube.com/iframe_api$domain=animeflix.live
+||youtube-nocookie.com/embed/$domain=animeflix.live

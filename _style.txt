@@ -1,0 +1,29 @@
+! Title: x Style x
+! Expires: 2 days
+
+!#include style/0-all.txt
+!#include style/1337x.txt
+!#include style/aniwave.txt
+!#include style/dramaid.txt
+!#include style/fandom.txt
+!#include style/gogoanime.txt
+!#include style/goku.txt
+!#include style/myanimelist.txt
+!#include style/robtex.txt
+!#include style/subscene.txt
+!#include style/thepiratebay.txt
+!#include style/trakt.txt
+!#include style/uflix.txt
+!#include style/videosub.txt
+!#include style/vscode.txt
+!#include style/woolyss.txt
+!#include style/youtube.txt
+!#include style/yugen.txt
+
+!#if !env_mobile
+!#include style/animepahe.txt
+!#include style/apkmirror.txt
+!#include style/hackernews.txt
+!#include style/kbbi.txt
+!#include style/nextdns.txt
+!#endif

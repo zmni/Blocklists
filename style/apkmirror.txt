@@ -1,0 +1,17 @@
+! apkmirror-style
+
+apkmirror.com#$#:root { --body-bg: #0f0f0f !important; --text-color: #c3c3c3 !important; --secondary-bg: #1e1e1e !important; --secondary-box-shadow: #000000 !important; --secondary-text-color: #e1e1e1 !important; --tertiary-bg: #2d2d2d !important; --tertiary-text-color: #969696 !important; --backdrop-color: red !important; --link-color: var(--text-color) !important; --link-hover-color: #fff !important; --fontBlack: var(--text-color) !important; --colorLightBlack: var(--secondary-text-color) !important; --fontWhite: #fff !important; --footer-bg: var(--secondary-bg) !important; --footer-shadow: var(--secondary-box-shadow) !important; --footer-color: var(--secondary-text-color) !important; --btn-color: var(--text-color) !important; --btn-hover-box-shadow: var(--secondary-box-shadow) !important; --radio-color: var(--text-color) !important; --radio-checked-color: var(--text-color) !important; --warning-panel-bg: #0f0f0f !important; --warning-panel-color: #8a6d3b !important; --warning-panel-border: #000 !important; --tooltip-bg: #000 !important; --tooltip-color: #fff !important; }
+apkmirror.com#$#.notes a, .notes a:is(:link, :visited, :hover, :active), .entry-content a:not(.btn), .entry-content a:not(.btn):is(:link, :visited, :hover, :active), .accent_color, .accent_color:is(:visited, :hover, :active, :focus) { color: var(--link-color) !important; }
+apkmirror.com#$#.nav-tabs > li.active > a, .nav-tabs > li.active > a:is(:focus, :hover) { border-bottom-color: var(--text-color) !important; }
+apkmirror.com#$#.apkm-checkbox-checkmark { color: var(--text-color) !important; }
+apkmirror.com#$#.appRow.promotedAppListing { background-color: #1e1e1e !important; }
+apkmirror.com#$#.site-header-bar, .site-header-contents { background-color: #1e1e1e !important; }
+apkmirror.com#$#.vsb-menu .multi li { background-color: transparent !important; }
+apkmirror.com#$#.table { margin: 20px 0 !important; }
+apkmirror.com#$#.header-nav-menu { flex-grow: 0 !important; }
+apkmirror.com#$#.search-bar { flex-grow: 1 !important; }
+apkmirror.com#$#.searchbox-parent { width: 100% !important; }
+apkmirror.com#$#.searchbox-parent.accent_bg { background-color: #1e1e1e !important; }
+apkmirror.com#$#.searchbox { background-color: #2d2d2d !important; }
+apkmirror.com#$##primary:is(.col-md-8, .f-md-66), #content:is(.col-md-8, .f-md-66) { width: 100% !important; }
+apkmirror.com#$#.appspec-row { border-bottom-color: #3c3c3c !important; }

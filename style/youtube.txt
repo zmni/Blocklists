@@ -1,0 +1,45 @@
+! youtube-hide
+
+youtube.com##.ytp-ce-element
+youtube.com###alert-banner
+youtube.com###voice-search-button
+youtube.com##ytd-comments
+youtube.com##ytd-compact-radio-renderer.ytd-item-section-renderer
+youtube.com##ytd-compact-radio-renderer.ytd-watch-next-secondary-results-renderer
+youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.use-ellipsis
+youtube.com##ytd-feed-nudge-renderer
+youtube.com##ytd-movie-renderer
+youtube.com##ytd-promoted-sparkles-web-renderer.ytd-watch-next-secondary-results-renderer
+youtube.com##ytd-reel-shelf-renderer
+
+youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
+youtube.com##ytd-rich-section-renderer:has(.ytd-rich-section-renderer[is-shorts])
+youtube.com##ytd-guide-entry-renderer:has(> #endpoint.ytd-guide-entry-renderer[title="Shorts"])
+youtube.com##:is(ytd-compact-video-renderer, ytd-video-renderer):has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"])
+youtube.com##:is(ytd-compact-video-renderer, ytd-video-renderer):has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+
+youtube.com##:is(ytd-compact-video-renderer, ytd-playlist-renderer, ytd-rich-item-renderer, ytd-video-renderer):has(#video-title:has-text(/gameplay|worship/i))
+youtube.com##:is(ytd-compact-video-renderer, ytd-playlist-renderer, ytd-rich-item-renderer, ytd-video-renderer):has(ytd-channel-name:has-text(/coach lin|emratthich|pingsunday|pongfinity|ti long club|worship/i))
+
+youtube.com##.ytp-videowall-still:has(.ytp-videowall-still-info-author:has-text(/coach lin|emratthich|pingsunday|pongfinity|ti long club|worship/i))
+youtube.com##.ytp-videowall-still:has(.ytp-videowall-still-info-author:not(:has-text(x ditonton)))
+
+youtube.com##ytd-compact-movie-renderer:has(.badge:has-text(/beli|sewa/i))
+youtube.com##ytd-shelf-renderer:has(#title:has-text(Film Terkait))
+
+!#if !env_mobile
+
+! youtube-style-watch
+
+youtube.com#$#:matches-path(/watch) ytd-watch-flexy[theater] #player-wide-container.ytd-watch-flexy { max-height: calc(100vh - var(--ytd-masthead-height, 56px)) !important;}
+youtube.com#$#:matches-path(/watch) ytd-watch-flexy[full-bleed-player] #player-full-bleed-container.ytd-watch-flexy { --h: calc(100vh - var(--ytd-masthead-height, 56px)); height: var(--h) !important; max-height: var(--h) !important; }
+youtube.com#$#:matches-path(/watch) ytd-watch-flexy[full-bleed-player] #full-bleed-container.ytd-watch-flexy { --h: calc(100vh - var(--ytd-masthead-height, 56px)); height: var(--h) !important; max-height: var(--h) !important; }
+youtube.com#$#:matches-path(/watch) ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy { max-width: none !important; }
+youtube.com#$#:matches-path(/watch) .ytp-autonav-toggle-button { margin: auto !important; }
+youtube.com#$#:matches-path(/watch) #author-text.yt-simple-endpoint.ytd-comment-renderer { word-break: break-word !important; }
+
+! youtube-style-sponsorblock
+
+youtube.com,youtube-nocookie.com#$#.playerButtonImage { height: 45% !important; }
+
+!#endif

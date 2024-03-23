@@ -1,0 +1,66 @@
+! subscene-net
+
+*$3p,frame,from=subscene.com
+
+! subscene-hide
+
+subscene.com##.subtitle .download + div[style]:not([class])
+subscene.com##.subtitles table tr:has(> td:has-text(/cam|hdts|trailer/i))
+
+! subscene-style
+
+subscene.com#$#body { background-image: none !important; background-color: #111 !important; border-bottom: 130px solid #111 !important; color: #c3c3c3 !important; }
+subscene.com#$#a, a:link { color: #c3c3c3 !important; text-decoration: none !important; cursor: pointer !important; }
+subscene.com#$#a:visited { color: #b4b4b4 !important; }
+subscene.com#$#a:hover { color: #f0f0f0 !important; }
+subscene.com#$##search .text { background-color: #000 !important; border-color: #222628 #333 #222628 #333 !important; color: #eee !important; }
+subscene.com#$##user-navigation, #forum-navigation, #admin-navigation { background: #000 !important; }
+subscene.com#$#hr { border-top: 1px solid #444 !important; }
+subscene.com#$#.poster { background: #000 !important; border: 1px solid #222 !important; min-width: 106px !important; min-height: 132px !important; }
+subscene.com#$#.content { border-top: 0 !important; }
+subscene.com#$#.subtitles table { background-color: #000 !important; width: 100% !important; }
+subscene.com#$#.subtitles thead { background: #000 !important; color: #eee !important; }
+subscene.com#$#.subtitles td.a1 a:visited, .subtitles td.a1 .visited { background-color: #181818 !important; color: #999 !important; }
+subscene.com#$#.subtitles td.a1 a:link { display: block !important; background-color: #000 !important; color: #999 !important; }
+subscene.com#$#.subtitles td.a1 a:hover { background-color: #333 !important; cursor: pointer !important; }
+subscene.com#$#.byFilm .rating-guide span.visited { background: #333 !important; border: 2px solid #000 !important; }
+subscene.com#$#.byFilm .sort-by { background-color: #333 !important; border: 1px solid #000 !important; color: #999 !important; }
+subscene.com#$#.subtitle .comment { -webkit-box-shadow: inset 1px 2px 5px #333 !important; -moz-box-shadow: inset -1px -2px 5px #333 !important; box-shadow: inset -1px -2px 5px #333 !important; background: #000 !important; color: #ccc !important; }
+subscene.com#$#.subtitle .comment::before { background: none !important; }
+subscene.com#$#.subtitles td a { color: #c3c3c3 !important; }
+subscene.com#$#.subtitles td a:hover { color: #f0f0f0 !important; }
+subscene.com#$#.window { background: #062433 !important; border-top: 1px solid #333 !important; }
+subscene.com#$#.bread a, .bread a:visited { color: #c3c3c3 !important; }
+subscene.com#$#.pagination > li > :is(a, span) { background-color: #000 !important; border: 1px solid #444 !important; }
+subscene.com#$#.pagination > li > :is(a, span):is(:focus, :hover) { background-color: #444 !important; }
+subscene.com#$#.pagination > .active > :is(a, span), .pagination > .active > :is(a, span):is(:focus, :hover) { background-color: #000 !important; color: #dedede !important; }
+subscene.com#$#.pagination > .disabled > :is(a, span), .pagination > .disabled > :is(a, span):is(:focus, :hover) { background-color: #000 !important; border-color: #444 !important; color: #777 !important; }
+subscene.com#$#.btn-default { background-color: #aaa !important; border-color: #555 !important; color: #333 !important; }
+subscene.com#$#.btn-default:hover { background-color: #e6e6e6 !important; border-color: #000 !important; }
+subscene.com#$#.dropdown-menu { background-color: #aaa !important; border: 1px solid rgba(0, 0, 0, 0.15) !important; }
+subscene.com#$#.nav > li > a:is(:focus, :hover) { background-color: #333 !important; }
+subscene.com#$#.panel-default { border-color: #ddd !important; }
+subscene.com#$#.panel { background-color: #000 !important; border: 1px solid #333 !important; -webkit-box-shadow: none !important; box-shadow: none !important; }
+subscene.com#$#.form-control { background-color: #000 !important; border: 1px solid #444 !important; color: #dedede !important; }
+subscene.com#$#.sand-box { background-color: #000 !important; }
+subscene.com#$#.sand-box > ul > li, .sand-box .area { background-color: #222 !important; border-bottom: 1px solid #000 !important; }
+subscene.com#$##messageCount.badge { background-color: #000 !important; }
+subscene.com#$#.my-recent-messages { background-color: #000 !important; }
+subscene.com#$#.message-view { background-color: #000 !important; }
+subscene.com#$#.message-view .list-group-item-sender { background-color: #222 !important; }
+subscene.com#$#.list-group-item { background-color: #000 !important; border: 1px solid #444 !important; }
+subscene.com#$#.ratings ul { background-color: #000 !important; }
+subscene.com#$#.ratings ul > li { background-color: #222 !important; border-bottom: 1px solid #000 !important; }
+subscene.com#$#.user-home .subtitles .list { background-color: #000 !important; }
+subscene.com#$#.user-home .subtitles ul > li, .user-home .footer { background-color: #222 !important; border-bottom: 1px solid #000 !important; }
+subscene.com#$#.posts .post { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; background: #000 !important; border: 1px solid #333 !important; box-shadow: none !important; color: #dedede !important; }
+subscene.com#$#.posts .post::before { background: none !important; }
+subscene.com#$#footer { background: #000 !important; }
+subscene.com#$#.sustain { border-bottom: solid 1px #444 !important; }
+
+subscene.com#$##content, header, footer { width: calc(100% - 30px) !important; }
+subscene.com#$#.subtitles td.a6 div { padding-right: 10px !important; white-space: normal !important; width: auto !important; }
+subscene.com#$#.subtitles td.a1 span.l { padding-left: 28px !important; }
+subscene.com#$#.subtitles .r { background-position: 10px 8px !important; }
+subscene.com#$#.byTitle .search-result { background-color: #1e1e1e !important; }
+subscene.com#$#.subtitles td.a1 .visited.visited { background-color: #1e1e1e !important; }

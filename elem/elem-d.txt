@@ -1,0 +1,1292 @@
+!! ELEMEN-D
+
+123chill.to##.ann-home
+123chill.to##.movies-list > .ml-item:has(.mli-quality:has-text(CAM))
+123chill.to###bread
+123chill.to###mv-keywords
+4sysops.com##.article-content > [id^="div-test-"]
+4sysops.com##.FixedWidget__fixed_widget
+729sports.com##.webBannerTable
+9to5answer.com##div[class*="ads-"]
+9to5google.com##.post-social-mobile
+boards.4chan.org##.middlead
+
+acast.com###app-root > div[class^="Wrapper-sc-"]
+acm.org##.fav_bar
+adguard-dns.io##.jsauth-social
+agame.com##.advert
+agame.com##.grid-row:has(> .advert)
+aki-h.com##.anis-cover-wrap
+aki-h.com##.anis-watch-detail
+aki-h.com##.block_area-comment
+aki-h.com##.deslide-wrap
+aki-h.com##.ls___-animeinfo
+aki-h.com##.ls__-share
+aki-h.com##.player-controls
+aki-h.com##.prebreadcrumb
+aki-h.com##.share-buttons
+aliexpress.com##a[href*="/item/"]:has(> div > span:has-text(AD))
+allaboutxiaomi.com##.an-sponsored
+allanime.co##.socialization-btn-group
+allmovie.com##.allmovie-share
+alltimelines.com##.callout-white:has(> h4:has-text(Support For All Timelines:))
+alternativeto.net##.alert:has(> .ga_outgoing:only-of-type)
+alternativeto.net##.app-list > .sponsored
+alternativeto.net##.app-list > li:has(.note:has-text(Discontinued))
+alternativeto.net##.app-list > li:has(> .share-buttons)
+alternativeto.net##.app-list > li:has(> noscript:only-child)
+alternativeto.net##.app-list-item:has(> .app-info > .app-header > .sponsored)
+alternativeto.net##.banner
+alternativeto.net##.put-food-on-the-table
+alternativeto.net##.put-food-on-the-table + hr.subtle
+alternativeto.net##[class*="AppListItem_appListItem__"] + li.in-list
+alternativeto.net##div[class*="AdsenseAd_putFood__"]
+alternativeto.net##div[class*="ShareButtons_"]
+alternativeto.net##div[id*="adngin-in-content"]
+alternativeto.net##li[class*="AppListItem_appListItem__"]:has(span[data-testid="app-notice-discontinued"])
+androidauthority.com##.aa-bottom-header-section
+androidauthority.com##.aa-infinite-load-more
+androidauthority.com##.aa-lazy-comments-section
+androidauthority.com##.load-infinite
+androidauthority.com##[id^="native-ad-a"]
+androidauthority.com##[id^="opinionstage_widget"]
+androidauthority.com##[id^="tpd-contextual-ad"]
+androidauthority.com###aa-m-load-more-container
+androidpit.com##.article-engagement
+androidpit.com##.articlePartBanner
+androidpolice.com##.affiliate-sponsored
+androidpolice.com##.article-tags
+androidpolice.com##.sharing
+anidb.net##.i_crunchyroll
+anidb.net##.i_resource_amazon_video
+anidb.net##.i_resource_crunchyroll
+anime-planet.com##.ad
+anime-planet.com##.halo
+anime-planet.com##.gah
+anime-planet.com##.skyscraper
+anime-planet.com##.statusArea
+anime-planet.com##h1[itemprop="name"] + div[itemprop="description"]
+anime-planet.com##h1[itemprop="name"] + div[itemprop="description"] + p
+anime-planet.com##p[itemprop="description"]
+animepahe.*##.alert
+animepahe.*##.cover-helper
+animefillerlist.com##[id*="-adsense-"]
+animeflix.live##[id^="kofi-widget-overlay-"]
+animension.to##.slider-outer
+animetake.tv##.col-md-12:has(> h3:has-text(Discussion))
+animetake.tv##.footer-info
+aniwatch.to##.block_area_sidebar:has(h2.cat-heading:has-text(Trending Posts))
+aniwatch.to##.deslide-wrap
+aniwatch.to##.pc-live
+aniwatch.to##.share-buttons
+aniwatch.to###anime-trending
+aniwatch.to###discussion
+aniwatch.to###totop
+aniwatch.to###watch-list-content
+anix.to##.alert
+anix.to##.ani-server-notice
+anix.to##.content > .text-muted
+anix.to##.piece:has(> .inner > .status:has-text(/Preview|Raw/))
+anix.to##.watch-wrap > .main-inner:nth-child(2)
+anix.to###ani-detail-info .ani-data .metadata .limiter::after
+anix.to###ani-detail-info .rating-section
+anix.to###ani-player-controls .favourite
+anix.to###ani-slider
+apkmirror.com##.promotedAppListing
+apkmirror.com###sidebar
+apkpure.com##.aegon-link
+apkpure.com##.details-rating
+apkpure.com###iframe_download + #slide-wrap
+aptoide.com##.bundle__container > .bundle-item:not([onclick])
+archive.org##.social_button
+arstechnica.com##.comment-count
+arstechnica.com###social-footer
+atlasobscura.com##.ad-wrapper
+atlasobscura.com##.siderail-ad
+atlasobscura.com##.siderail-bottom-affix-placeholder
+atlasobscura.com##a[href="/membership"].membership-creative
+audioz.download##.AdSense_Footer
+audioz.download##.AdSense_Sidebar
+audioz.download##.AdSense_V
+audioz.download##.DL_Blocks.ref1
+audioz.download##.DL_Blocks.ref2
+audioz.download##.share
+audioz.download##.usn300
+audioz.download##.usnWide
+audioz.download###leaderboard
+audioz.download###TopLink
+audioz.download##table#src_ref
+augustman.com##.btt_social-icon-share
+augustman.com##.my-affiliate
+augustman.com##.post-before-content_share
+augustman.com##.post-share-next-wrapper
+augustman.com##.share
+augustman.com##.subscription
+avaloniaui.net##.cookie-consent
+avclub.com##.instream-native-video
+avclub.com##.sidebar
+azm.to,azmovie.to##.icon-bar
+cacm.acm.org##.gdpr-banner
+
+bakabuzz.com##.adace-slideup-slot-wrap
+bakabuzz.com##.adace-slot-wrapper
+bestsimilar.com##.ssk-sticky
+bestsimilar.com###privacy-fixed-bottom
+bflix.sx,cataz.to##.flw-item:has(.film-poster-quality:has-text(CAM))
+bflix.sx##.alert
+bflix.sx##.block-rating
+bflix.sx##.detail-tags
+bflix.sx##.prebreadcrumb
+bflix.sx##.text-home
+bflix.sx###film_comments
+bhinneka.com##.banner
+bhinneka.com##.banner-rounded
+bhinneka.com##.banner-small
+bhinneka.com##.bt-bestoffer__wrapper
+bhinneka.com##.bt-home__bestoffer
+bhinneka.com##.bt-product-catalog-item__price-sale
+bhinneka.com##.bt-s-product__price-sale
+bhinneka.com###bestOffers
+bhinneka.com###bestOffersWrapper
+bisnis.com##.banner
+bisnis.com##.share
+bisnis.com##.sticky-wrapper:has(> .share)
+bitly.com##.banner-spacer
+bleepingcomputer.com##.cz-post-comment-wrapp
+blibli.com##.old-price
+blibli.com##.product__body__price__discount
+blibli.com##.product__detail-info-section--offers
+blibli.com##.product__price-discount
+blibli.com##.product__view-price--discount
+blibli.com##.product__view-price--strikethrough
+blibli.com##.product-preview .discount
+blibli.com##.social
+blog.google##.article-share__wrapper
+blog.google##.uni-article-progress-bar__social
+bloomberg.com##.leaderboard-ad-mock
+bloomberg.com##.leaderboard-container
+bloomberg.com##.share-article-button
+bloomberg.com###fortress-preblocked-container-root
+bola.com##.channel-ad
+bola.com##.lazyload_ad
+bola.com###billboard-ad
+bola.com###initads
+bola.net##.bola-skor-slide
+bola.net##.bola-topmenu
+bola.net##.bola-trending-tag
+bola.net##.box-tag
+bola.net##.detail-jsview
+bola.net###bola_content_tracker
+bola.net###iframe_video_partner
+bola.net###news_comment
+bola.net###newspaging_content ~ .slot-youtubev2
+bola.net###read_next
+bola.net###top_leaderboard
+bola.net###topbackground
+bola.net###topbackground2
+bola.net###topbackground3
+bolasport.com###div-Left-WideSkyscraper
+browserleaks.com###nav-pin
+bukalapak.com##.bl-product-card:has(img[alt="ico-promoted"][title="Barang iklan"]):upward(1)
+bukalapak.com##.c-btn:has-text(Bagikan):upward(2)
+bukalapak.com##.c-icon--facebook
+bukalapak.com##.c-icon--line-full
+bukalapak.com##.c-icon--pinterest
+bukalapak.com##.c-icon--twitter
+bukalapak.com##.container-dora-seo:upward(2)
+bukalapak.com##.endorsed-products
+bukalapak.com##.related-keywords
+bukalapak.com##.sidebar-scroll-area .ps__rail-x
+bukalapak.com##.sidebar-scroll-area .ps__rail-y
+businessinsider.com##.dianomi_context
+businessinsider.com##.share-post-button
+businessinsider.com##span[id^="cposition_"]
+businessinsider.com##span[id^="fecnt_"]
+butterflyindonesia.com##.rte
+buzzfeednews.com##.comments-chumbox-wrap
+safesearch.brave.com###usage-metrics-notice
+search.brave.com###cta
+search.brave.com###search-elsewhere
+search.brave.com###results > .snippet:has(> a[href^="https://www.pinterest.com/pin/"])
+review.bukalapak.com##div[class*="ads-wrapper"]
+review.bukalapak.com##div[id*="adsense-in-article"]
+shop.butterflyonline.com##.facets-item-cell-grid-rating
+shop.butterflyonline.com##.product-details-full-social-sharing
+
+cbc.ca##.engagement-widgets
+cbr.com##.w-newsletter-in_article
+cermati.com##.ads-container
+cermati.com##.sticky-banner
+cermati.com##cermati[data-banner]
+channelnewsasia.com##.c-sharing--default
+cheatsheet.com##.has-ad:matches-css-before(content: "Advertisement")
+cheatsheet.com##.keywords
+cheatsheet.com###btmx
+cheatsheet.com###ptbanner
+cloudvideo.tv##.slim-header
+cnnindonesia.com##.banner
+cnnindonesia.com##.banner_reg
+cnnindonesia.com##.banner_reg2
+cnnindonesia.com##.detail_tag
+cnnindonesia.com##.komentar_box
+cnnindonesia.com##.share
+cnnindonesia.com###skinad
+complex.com##.article-tags
+complex.com##.suitcase-ad
+consumerreports.org##.cda-common__social-share
+coolors.co###header_c_ad
+coolors.co###header-cad
+coolors.co###sticky-cad
+crackwatch.com##.crossed-price
+crackwatch.com##.gamerow-platform-icon
+creativebloq.com###sidebar > div[style]
+crystalmark.info##.ct-shares
+cssreference.io###huggingFace
+curated.design##.grid-article:has(> .grid-article-title-wrapper > .article-title > a:has-text(Ad))
+cyberciti.biz##.entry-content > :is(center, div):has(> :is(center, div) > small:has-text(Advert))
+cyberciti.biz##.sidebar > .widget:has(> .widget-title:has-text(/Advert|Sponsored/))
+cyberciti.biz##.tags-links
+cyberciti.biz###content-bottom-widgets:has(.support)
+cycleexif.com##.topban
+
+dailymail.co.uk##.article-reader-comments
+dailymail.co.uk###reader-comments
+dailymotion.com##div[class^="AdColumn__adColumn___"]
+dailymotion.com##div[class^="NewWatchingDiscovery__adSection___"]
+darkreader.org##darkreader-backers-header
+darkreader.org##darkreader-backers-side
+decider.com##.recirc
+delicious-audio.com##.adsbygoogle
+delicious-audio.com##.comments
+delicious-audio.com##.SidebarAdWrapper
+delicious-audio.com##.subscribe-sidebar
+delicious-audio.com###comments
+delicious-audio.com##table:has(> tbody > tr > td.custom-video-height)
+denofgeek.com##.social-links
+designshack.net##.in-post-bsa
+detectiveconanworld.com[id*="cad_"]
+detik.com##.banner_reg
+detik.com##.bn_skin
+detik.com##.btn_like
+detik.com##.cb-mobile-grab-pbb
+detik.com##.komentar_box
+detik.com##.share_detail
+detik.com##.share_float
+detik.com##.share-top-new
+detik.com##.skybanner
+detik.com##.skybanner_container
+detik.com##.smartbanner_new
+detik.com###banner_top_detail
+detik.com###thecomment
+detik.com###themood
+dev.to###article-reaction-actions
+deviantart.com##.gruze-sidebar:has(> .match-body-height > .tower_right_wrapper > :is(.ad-wrapper, .sleekadfooter))
+dhs-sports.com##.column_banner
+dhs-sports.com##.products_list > a
+distrowatch.com##table.Info:has(> tbody > tr > th:has-text(/advertisement|iklan/i))
+dodi-repacks.download##body.home article:not(.sticky) > .entry-content
+dramacool.*##.btn-comment
+dramaid.*##.cmt
+dramaid.*##.commentx
+dramaid.*##.bixbox:has(> .releases > h3:has-text(Comment))
+dronedj.com##.post-social-mobile
+dropbox.com###consent-iframe
+duckduckgo.com##.feedback-btn
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.react-results--main > li:has(> article a[href^="https://pingsunday.com"])
+duckduckgo.com##.react-results--main > li:has(> article a[href^="https://www.amazon.com/"])
+duckduckgo.com##.react-results--main > li:has(> article a[href^="https://www.tokopedia.com/find/"])
+duckduckgo.com##.react-results--main > li:has(> article a[href^="https://www.w3schools.com"])
+duckduckgo.com##.react-results--main > li[data-layout="videos"]
+duckduckgo.com##.related-searches
+duckduckgo.com##.showcase
+duckduckgo.com##.social
+duckduckgo.com##img[src^="/t/sl_"]
+duckduckgo.com##p[class*="tagline_tagline__"]
+
+earther.com##.instream-native-video
+earther.com##.sidebar
+eclipse.org##.ad-strategic
+eclipse.org##.ad-strategic-default
+eclipse.org##.eclipsefnd-ad
+effectsdatabase.com###mc_embed_signup
+epicgames.com##.social-sharing-wrapper
+epicgames.com##.SocialBar
+epicgames.com##[class^="PurchaseTag-tag_"]
+epicgames.com##s[class^="Price-discount_"]
+epicgames.com##s[class$="-Price__discount"]
+epicgames.com##span[data-component="DiscountAmount"]
+eraspace.com##.breadcrumbs
+eraspace.com##.newsletter
+epicstream.com##.comment__button
+ettv.tv##.vp_a
+eyeonanime.tv###sct_head
+certbot.eff.org##.social
+anybt.eth.link##.search-result-item:has(> .ads-description)
+
+fieggen.com###sponsors
+filehippo.com##.program-actions-header__promo
+filmomaniac.com##.code-block:has(> .code-block-label:has-text(Advertisements))
+flixtorz.to##.movie-tags
+flixtorz.to##.movies > .part:has(.inner .quality:has-text(/CAM|TS/))
+flixtorz.to##.swiper-slide:has(.info .metadata .quality:has-text(/CAM|TS/))
+flixwave.to##.movie-item:has(.quality:has-text(/CAM|TS/))
+flixwave.to##.swiper
+flixwave.to###home-slider
+flsaudio.com##.homeadv
+fmovies.*,fmoviesz.*##.bsharing
+fmovies.*,fmoviesz.*##.movies.items > .item:has(.quality:has-text(/CAM|TS/))
+fmovies.*,fmoviesz.*##.sidebar > div:has(div[id^="bg_"])
+fmovies.*,fmoviesz.*##.tags
+fmovies.*,fmoviesz.*##.watch-page .aside-wrapper:not(.info-ep)
+fmovies.*,fmoviesz.*###controls .item.sharing
+fmovies.*,fmoviesz.*###featured
+fmovies.*,fmoviesz.*###player-wrapper .player-bg::before
+fmovies.*,fmoviesz.*###servers > .sv-desc
+fmovies.*,fmoviesz.*###trending
+fmovies.*,fmoviesz.*##aside.main > .mt-4:has(> div > a[rel="nofollow"])
+fontawesome.com##.wrap-ad
+fontawesome.com##.wrap-carbon-ad
+forbes.com##.ad-rail-container
+forbes.com##.fbs-ad-rail
+forbes.com##.left-rail
+forbes.com##.newsletter-inline-flex
+forbes.com##.right-rail
+fortune.com###social-links-content
+fossdroid.com##.fd-news-widget
+fosshub.com##.ad
+fosshub.com###donateAdsForm
+fosshub.com###fh-sd
+freac.org##.bannergroup
+freac.org##.banneritem
+freac.org###banner
+freac.org###rightcol-broad .module:has(h3:has-text(Share))
+freecoursesite.com##.listing-item-ad
+
+gamerankings.com###side_col_wrap:has(> #side_col:only-child > .ad)
+gamerant.com##.article-tags
+gamerant.com##.w-article-author-bio-expand
+gamespot.com##.share
+gamespot.com##.video-pod:has(> .video-pod__title:has-text(Share this Video))
+gamesradar.com##.dfp-leaderboard-container
+gamesradar.com##.hawk-placeholder
+gamesradar.com##.slot-leaderboard
+gamesradar.com##[class^="slot-"]:has(> div:has-text(Advertisement))
+gamesradar.com###skyContainer
+gdrive.*###directAds
+gearnews.com##.widget_adtag_rectangle
+gearnews.com##.wp-affiliate-wrapper
+geek.com##.gif-share
+geek.com##[id^="AP_G4GR_"]
+geek.com###gksticky
+giphy.com##.ss-send
+git-tower.com###sharing-sidebar
+github.blog##.post__social > ul
+gizmodo.com##.instream-native-video
+gizmodo.com##.share-toolbar
+gizmodo.com##.share-toolbar__container
+gizmodo.com##.sidebar
+gizmodo.com##h4:has-text(Share This Story):upward(2)
+gns3.com##.gns3-community-ad-container
+goal.com##.container-share
+goal.com##.social-container
+goal.com##.widget-ad-masthead
+goal.com##.widget-taboola
+goal.com##[data-role="ad"]
+goal.com##[data-role="flip-button"]
+goal.com##aside:has(> .commercial:only-child)
+gog.com##[ng-bind*="tile.data.price.discountPercentage"]
+gog.com##[ng-bind="tile.data.price.baseAmount"]
+gog.com##[ng-if="tile.data.price.discountPercentage"]
+goggames.goodolddownloads.com##.game-blocks > .block:has(span.indev)
+goku.sx###share-toggle
+gomovies.sx##.alert
+gomovies.sx##.block-rating
+gomovies.sx##.detail-tags
+gomovies.sx##.prebreadcrumb
+gomovies.sx##.server-notice
+gomovies.sx###film_comments
+gomovies.sx###hgiks-middle
+greasyfork.org##.post-install
+gsmarena.com##.adv
+gsmarena.com##.banner-mpu
+gsmarena.com##.sidebar > .module:has(> h4:has-text(offers))
+gsmarena.com###subHeader:has(> #topAdv:only-child)
+buananetpbun.github.io##.modal
+play.google.com##.full-price
+
+hagerty.com##.placements
+haho.moe###entry-comments
+hanime.tv##.user_comments
+hdo.to##.block-share
+hdo.to##.breadcrumb
+hdo.to##.detail-film > .goblock-bottom
+hdo.to##.gc-comments
+hdo.to##.gc-share
+hdo.to##.goblock-bottom:has(> strong:has-text(Keywords:))
+hdo.to##iframe[src*="bit.ly"]
+hentai-moon.com##.info-buttons > :not(.tabs-menu)
+honeysanime.com##body > .flexbox > div:not(.wpi-box)
+hostinger.com##.social-container
+howtogeek.com##.adslot
+howtogeek.com##.affiliate-disclosure
+howtogeek.com##.affiliate-sponsored
+howtogeek.com##.header-commission-statement
+howtogeek.com##.w-article-limit
+howtogeek.com###div-thetop1
+howtogeek.com###out-of-page
+howtogeek.com###v2campaignpopup
+howtogeek.com###v2campaignpopup:upward(1)
+howtogeek.com##div[id="1x1"]
+humblebundle.com##.discount-gem-container
+hxload.io###fixedban
+blog.helixsleep.com##.share-box-2
+blog.helixsleep.com##.social-share-label-wrap
+
+ibb.co###image > *:not(#top-bar, #image-viewer)
+idflix.net##.alert
+idflix.net##.content-kuss
+idflix.net##.mvic-btn
+idflix.net###bread
+idflix.net###switch-mode
+idntimes.com##.block--sponsor
+idntimes.com###article-page > .icon-bar
+ign.com##.ad-rail-wrapper
+ign.com##.special:has(> .ad-wrapper:only-child)
+ilovefreesoftware.com##.ABD_display_adblock
+imdb.com##.ipl-rating-interactive
+imdb.com##.promoted-watch-ad
+imdb.com##.tracked-offsite-link
+imdb.com###social-share-widget
+imgpile.com##.nt
+imgtc.com##.banner_adslot
+imgtc.com##.EmeraldBanner
+imgtc.com##.EmeraldButton
+imgtc.com##.GalleryVote-accoladesButton
+imgtc.com##.GiveEmeraldButton
+imgtc.com##.mobile_adslot
+imgtc.com##a[href="/emerald?source=fpBanner"]
+inc.com##.adhesivead
+inc.com##.interstitial_2x2
+inc.com##.interstitial_oop
+inc.com##.leaderboard_abovenav
+inc.com##.leaderboard-container
+inc.com##.leaderboard-container-placeholder
+inc.com##.leaderboardwrapper
+inc.com###adhesiveadcontainer
+inc.com###newsletter-flyin
+inc.com###smallbanner-340
+inc.com##div:has(> .interstitial_2x2)
+instructables.com##.adBlockWrapper
+instructables.com##.aspace-wrap
+instructables.com##.counts
+intowindows.com##.entry-content > div[style]:has(> div > span:has-text(/recommended/i))
+investor.id##.sticky
+iogames.space##.banner-ad-contain
+iogames.space##.v2-adwrap-leaderboard
+iogames.space###HomeRectAdMod
+iogames.space###v2-impTopBanner
+iptvcat.com##.footer_content_aa
+iptvcat.com##.header_aa
+isitup.org###share
+issuu.com##.fullscreen-ad-placement
+issuu.com##button[aria-label="Share the publication"]
+itch.io##.game_comments_widget
+itch.io##div[id^="game_comments_"]
+itemfix.com##.advertise-pic
+blog.ibwave.com##.tt-share
+blog.ibwave.com##.sidebar-item.widget_text:has-text(Subscribe to)
+blog.ibwave.com###content-wrapper > .tt-shortcode-1:has-text(Related Stories)
+spectrum.ieee.org##.article__comments
+spectrum.ieee.org##.article-content__comments-wrapper
+spectrum.ieee.org###comments-widget
+android.izzysoft.de###amazon
+android.izzysoft.de###support_us
+
+jakartanotebook.com##.product-list:has(> .product-list__content > .stock--sold-out)
+jd.id##a.sku-info:has(.p-stock-status.out-stock)
+jsfiddle.net##.twitterCont
+youtrack.jetbrains.com##[data-test="user-agreement-dialog-container"]
+
+kerrang.com##.MasterBillboard:has(> .AdUnit)
+kimovil.com##.short-url
+kitsu.io##.kitsu-ad
+kitsu.io##.library-ad
+kompas.com##.bapps.-android
+kompas.com##.col-bs10-3:has(> .social__block)
+kompas.com##.col-bs9-2:has(> .kcm:only-child)
+kompas.com##.gate-kgplus
+kompas.com##.reaction
+kompas.com##.read__tagging
+kompas.com##.social
+kompas.com###reaction-bottom
+kompas.tv##.ads-foot
+kompas.tv##.padding30ads
+kotaku.com##.instream-native-video
+kotaku.com##.sidebar
+kotaku.com##[class^="js_ad-"]
+krebsonsecurity.com##div[class^="themonic-ad"]
+krjogja.com##.banner-box
+kwix.cx##.ads
+kwix.cx##.adSense:has(> .ads)
+kwix.cx##.message
+kwix.cx##.plyr__controls__item[data-plyr="download"]
+kwix.cx##header.main-header::before
+
+laracasts.com##.ad
+laracasts.com##.series-share
+lbry.tv##.ads__claim-item:upward(li:not([class], [role]))
+letterboxd.com##.-leaderboard
+letterboxd.com##.banner
+letterboxd.com##.panel-share
+letterboxd.com##.upgrade-kicker
+libhunt.com##.sprd
+lifehacker.com##.instream-native-video
+lifehacker.com##.js_comments-iframe
+lifehacker.com##.js_movable_ad_slot
+lifehacker.com##.js_share-tools
+lifehacker.com##.share-toolbar__container
+lifehacker.com##.sidebar
+lineageoslog.com##.rek-elastic:has-text(/advertisement/i)
+linuxblog.io##.hayden-inpost_bottom
+linuxblog.io##.hayden-inpost_end
+linuxblog.io##.hayden-inpost_top
+linuxfoundation.org##.blog-single__share
+listennotes.com##.ln-ads-attribution
+listennotes.com##.ln-ads-card
+listennotes.com##.ln-gpt-container
+listennotes.com##.ln-home-ad
+listennotes.com###page-share-button
+listverse.com##.ga.rect
+livescience.com##.trending-wrapper
+livescience.com###affiliateDisclaimer
+livescience.com###article-body > .product
+livescience.com###ultimedia_wrapper
+livescience.com##body > div[style]:not([class], [id])
+livescore.com##:is(.big-add, .top-add):has(> [data-href^="http://ads."])
+livescore.com##.ad
+livescore.com##.infobar:has(> [data-portrait-href^="http://ads."])
+lookmovie2.to##.owl-carousel
+lookmovie2.to##.page-single__buttons
+lookmovie2.to##.sliderPresentation
+lookmovie2.to##.telegram-link
+onedrive.live.com##.od-PremiumUpsellBanner
+onedrive.live.com##.od-QuotaBannerWrapper
+onedrive.live.com##.od-QuotaBar-bottom
+onedrive.live.com###button[data-automation-type="RibbonButton"][aria-label="Share"]
+outlook.live.com##div[data-app-section="NavigationPane"] div:has(> button > div > span:has-text(Outlook premium))
+
+mailnesia.com###fm-top
+maketecheasier.com##.newsub-box
+makeuseof.com##.ad-zone-container
+makeuseof.com##.article-footer-newsletter
+makeuseof.com##.article-tags
+makeuseof.com##.heading_sharing
+makeuseof.com##.ml-form-embedContainer
+makeuseof.com##.ml-subscribe-form
+makeuseof.com##.sharing
+makeuseof.com##.single-post-sidebar-advertisement
+mancity.com##.article--ad-container--responsive
+mancity.com##.article--author-share
+mancity.com##.article--inline-component:has(> .article--ad-container--responsive:only-child)
+mancity.com##.article--preview-share
+mancity.com##.city-feed
+mancity.com##.city-tv--my-queue-btn
+mancity.com##.nav--sponsor
+mancity.com##.premium-ad
+mancity.com##.premium-ad-splash-btn
+mancity.com##.share
+mancity.com##.share--minimized
+mancity.com##.sponsor-promos
+marieclaire.com##.affiliate-disclaimer-bar-slice
+marieclaire.com##.affiliateDisclaimerBar
+marieclaire.com##.slice-container-affiliateDisclaimer
+marieclaire.com##.sticky-nav
+marieclaire.com###slice-container-affiliateDisclaimerBar
+mashable.com##.article-shares-stub
+mashable.com##.article-topics
+mashable.com##.bluekai-test-img
+mashable.com##.microcontent-wrapper:matches-css-before(font-family: 'Mashicons')
+mashable.com##.zerg-widgets
+mashable.com##.zergnet-container
+mashable.com###pathing-banner
+mashable.com###srvSlot
+mashable.com##div[class$="-boost-slot"]
+mashable.com##footer:has(> .article-shares-links)
+maslosoft.com##.awe-share
+maslosoft.com##.social-sharing-share-block
+megaspin.net##.product-card:has(> .outofstock-lighten)
+megaspin.net##.product-price > s
+metacritic.com##.c-socialShareButton_container
+metacritic.com##.dw_tracking
+metacritic.com##.sharing
+metacritic.com###nav_ad_wrapper
+mi.co.id##.mi-product__item-wrapper:has(> .mi-product__item > .item__action > button.mi-btn.mi-btn--disabled)
+min.io##.footer__banner
+mixdrop.co##.download-embed
+mixdrop.co##.player-bottom
+mkvtoolnix.download###donate_buttons
+mmorpg.com##div[style]:not([class], [id]):has(> iframe[src^="//server.cpmstar.com"]:only-of-type)
+monoprice.com##.side-adsense
+motorauthority.com##.adv-spacer
+motorauthority.com##.adv-spacer-top-wraper
+moviestowatch.tv##.detail-tools
+mozilla.org###announce-geoip-suggestion
+mp4upload.com###overlay
+msguides.com##.ad-inserter
+msguides.com##.adsense
+msguides.com##.chitika-ad
+msguides.com##.csbwfs-delaydiv
+msguides.com##.csbwfs-pin
+msguides.com##.csbwfs-re
+msguides.com##.csbwfs-sbutton
+msguides.com##.csbwfs-social-inner
+msguides.com##.csbwfs-social-widget
+msguides.com##.csbwfs-tw
+msguides.com##.csbwfsbtns
+msguides.com##.SponsorAds
+msn.com##.irisbanner
+msn.com##.stb-flexvertical[data-m*="sharingtoolbar"]
+msn.com###irisbanner
+msn.com###irisbannerph
+msn.com##cs-native-ad-card
+mybrowseraddon.com##div:has(> ins.adsbygoogle:only-of-type)
+mybrowseraddon.com##div:not([class], [id]):has-text(Advertisement)
+mydramalist.com##.ad-removal
+mydramalist.com##.ad-removal-info
+mydramalist.com##.btn-amazon
+mydramalist.com##.btn-watch-online
+mydramalist.com##.mdl-support-goal:upward(1)
+mydramalist.com##.share-container
+mydramalist.com##.sticky:has(> div[class*="_right_"])
+mydramalist.com##div:has(> .is-desktop-ads:only-child)
+mydramalist.com##div[class*="_right_"]
+mydramalist.com##div[class*="spnsr_"]
+myspace.com##.adsitewidepixel
+myspace.com##.article-footer-ad
+us.i.mi.com##.policy-1TstZ
+docs.microsoft.com###disclaimer-holder
+dotnet.microsoft.com##.social-thumbnails
+support.microsoft.com###notification-banner
+techcommunity.microsoft.com##.custom-share-component
+forum.mikrotik.com##.main-header
+channel9.msdn.com##.livePlayerHolder:has(> .bannerHolder:only-child)
+addons.mozilla.org##.item.incompatible
+forums.mvgroup.org##img[src="/donations/btn_donate_LG.gif"]:upward(4)
+
+nasdaq.com##.ads__inline
+nasdaq.com##.ads__midpage-fullwidth
+nasdaq.com##.ads__native
+nasdaq.com##.ads__right-rail-ad
+nasdaq.com##.ads__right-rail-ad--2-up
+nasdaq.com##.article-header__railAd
+nasdaq.com##.btf-midpagefullwidth
+nasdaq.com##.share
+nautil.us###main-post-comments-toggle-wrap
+nekonime.*,nekokun.*##.announ
+nekonime.*,nekokun.*##.bixbox:has(> .releases > h3:has-text(/Download|Comment/))
+nekonime.*,nekokun.*##.infx
+nekonime.*,nekokun.*##.kln
+nekonime.*,nekokun.*##.socialts
+nekonime.*,nekokun.*##.sosmed
+nekonime.*,nekokun.*##.ts-breadcrumb
+nekonime.*,nekokun.*##.video-content > #overplay
+nekonime.*,nekokun.*##.warning
+nekonime.*,nekokun.*###sidebar > .section:has(> .releases > h3:has-text(/Donasi|Iklan/))
+nekonime.*,nekokun.*###teaser3
+nekonime.*,nekokun.*##body > #floatcenter
+neowin.net##.article-header > span
+netflixlife.com##.header-billboard
+netflixlife.com###top-stories > li:has(> .fs_ad_widget-ad:only-child)
+netflixlife.com###tps-ad-slot
+nextofwindows.com##.code-block:has(> :is(.ABD_display_wrapper, adsbygoogle))
+nextofwindows.com##.td-footer-ad
+nextofwindows.com##.widget.Hot_random_image
+nextofwindows.com###abd-ad-div
+nextofwindows.com###abd-ad-iframe-wrapper
+nextofwindows.com##img.hot-random-image
+nites.is##.breadcrumb
+nme.com##.ipc-advert
+nme.com##.ipc-advert-class
+nme.com##.post-promo
+nme.com##.ticket-buy-button
+nokia.com###sliding-popup:has(> .eu-cookie-compliance-banner)
+notebookcheck.net##.forum_comment_button
+notebookcheck.net###nbc_forum_comments
+noxx.*##.icon-bar
+
+olx.co.id##ul[data-aut-id="itemsList"] > li:has(label > span:has-text(Highlight))
+olx.co.id##ul[data-aut-id="itemsList"] > li:not([data-aut-id="itemBox"], :last-child)
+onmsft.com##.dcl-latest-comments-class
+ooakforum.com##p[align=center]:has(> a[onclick*="countAdClick"])
+ooakforum.com##table:has(> tbody > tr > td > p > a[onclick*="countAdClick"])
+opencritic.com##:is(.my-2, .text-center):has(> app-advertisement)
+opencritic.com##.oc-game-info__experiment-actions
+opencritic.com##app-advertisement
+openculture.com##.advertisement_notice
+openculture.com##.entry > .oc-center
+openculture.com##.entry > .oc-center-da
+openculture.com##.framearound_ad_in_post
+openculture.com##.mashsb-container
+openculture.com###big-bottom-ad-single-posts
+openculture.com###cliSettingsPopup
+openculture.com###commentblock
+openculture.com###execphp-431254507 > .execphpwidget > .new_subscription_block
+openculture.com###influads_block
+openculture.com###SponsoredLinks
+opensubtitles.com###ext-infos
+opensubtitles.com###share-section
+opfanpage.com##aside.widget_custom_html:has(> header span:has-text(/sponsor/i))
+ourmatch.*##.ig-embed
+ourmatch.*##.leaderboard_ad
+ourmatch.*##.leaderboard_mid
+ourmatch.*##.right_ad
+ourmatch.*##div[class^="adv"]
+
+pasienbpjs.com##.itemad
+pasienbpjs.com##div[id^="kode-iklan"]
+pastefy.app##.info-banner
+pcgamer.com##.sponsored-post
+peertube.*,media.zat.im,libre.video,open.tube,tilvids.*##div[role="button"]:has(> my-global-icon[iconname="share"])
+petri.com##.bww-advertising-ad-container
+petri.com###petri-advertising-sponsor-shoutout
+petri.com###petri-header-callout-primary
+petri.com##div[id*="petri-advertising-sponsor"]
+phonearena.com##div:has(> .spot_disclaimer:only-child)
+phoronix.com###main > div[style]:not([class], [id])
+photopea.com##.photopea > div[style]
+phys.org##.article-banner
+phys.org##.article-interaction
+phys.org##.article-interaction__social
+phys.org##.soc
+pingpongindonesia.com##.products > .card:has(> .sold-out-tag)
+pinterest.com##div[data-test-id="giftWrap"]
+pinterest.com##div[data-test-id="UnauthPinLandingCloseup"] > div[data-test-id="pin"] > div[style*="bottom:"]
+pinterest.com##div[data-test-id="UnauthVaseFullBleedModalContainer"]
+pocketnow.com##.btn-comments
+pocketnow.com##.disqus-load-btn
+pocketnow.com##.sharing
+pocketnow.com##.sharing-btn
+pocketnow.com##.w-btn-comments
+podnapisi.net##.ad
+poki.com##div[class*="advertisement-"]
+polygon.com##.c-ad-whitelist
+polygon.com##.chorus-ad-placement__hub-zone
+polygon.com##.l-hub-wrapper:not(:has(> *))
+polygon.com##[id^="amzn-assoc-ad-"]
+popularmechanics.com##.leaderboard-ad
+popularmechanics.com##.slideshow-leaderboard
+popularmechanics.com##.social-share-button
+popularmechanics.com##[data-share-location]
+popularmechanics.com##[title="Share on Pinterest"]
+popularmechanics.com##a[href^="//pinterest.com/pin/create/button/?"]
+postadio.com##.comms_div
+postadio.com##.share_butt
+postadio.com##.sitead
+postadio.com##div[data-p^="adv"]
+priceprice.com##.adBlock01
+priceprice.com##.adBlock02
+priceprice.com##.adBlock03
+primewire.*##.breadcrumb
+producthunt.com##[class*="facebookShare_"]
+producthunt.com##[class*="twitterShare_"]
+producthunt.com##[class^="postsList_"] > li:has(a[class^="promotedBadgeLink_"])
+producthunt.com##[class^="postsList_"] > li:has(a[href^="/promoted-products"])
+producthunt.com##[class^="share_"]
+producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[class*="_content_"] > div > h3 > a[href^="/advertising"])
+producthunt.com##ul[class*="_postsList_"] > li:has(> div[class*="_item_"] > div[class*="_link_"] > div > div[class*="_actions_"] > a[href="/promoted-products"])
+proton.me##.button-promotion
+protonmail.com##.csbtns
+pscp.tv##.ShareBroadcast
+everest.picturedent.org###fullsize, :is(body, #full_image) > center, font[color="gold"]
+app.plex.tv##button[data-uid="id-14"]:has-text(Go Premium)
+mail.protonmail.com##.navigation-upgrade-item
+
+qt.io##.b-article__share-footer
+
+radiooooo.app##.rgpd
+ranker.com##.ad
+ranker.com##span[class^="title_shareContainer"]
+ranker.com##ul[class^="gridView_main"] > li:not([class], [role="link"])
+rawmusictv.com##.affiliate-footer-ad-w
+rawmusictv.com##ins:upward(1)
+reddit.com##.ad-container
+reddit.com##.ad-container:upward(.spacer)
+reddit.com##.awardings-bar
+reddit.com##.entry .buttons > .share
+reddit.com##.give-gold-button
+reddit.com##.goldvertisement:upward(.spacer)
+reddit.com##.HomeAds.SidebarAd:upward(div[data-redditstyle="true"])
+reddit.com##.listingsignupbar
+reddit.com##.onboardingbar
+reddit.com##.premium-banner
+reddit.com##.premium-banner-outer
+reddit.com##.premium-banner-outer:upward(.spacer)
+reddit.com##.scrollerItem:has(a[href^="/rpan/"]):upward(2)
+reddit.com##[data-click-id="share"]
+reddit.com##[id$="-share-menu"]
+reddit.com##[role="menuitem"]:is(#focus-Coins, #focus-DailyCharts, #focus-Premium, #focus-PublicAccessNetwork)
+reddit.com###COIN_PURCHASE_DROPDOWN_ID
+reddit.com###COIN_PURCHASE_DROPDOWN_ID:upward(1)
+reddit.com###ecb
+reddit.com###MULTIREDDIT_TOP_BAR_SHARE
+reddit.com###uapp-banner:upward(1)
+reddit.com##a.redesign-beta-optin
+reddit.com##button:has(> span:has-text(Give Award))
+reddit.com##div[data-testid="frontpage-sidebar"] > div:first-child:has(.icon.icon-premium_fill + div > div:has-text(Reddit Premium))
+reddit.com##span:has(> a[href*="ads.reddit.com"][aria-label="Advertise"][target="_blank"])
+reddit.com##span:has(> button:has-text(Shop Avatars))
+reelgood.com###app_mountpoint > button:has-text(Feedback)
+reelgood.com##div:has(> div[id^="rg_promoted_carousel:"])
+reuters.com##div[class*="article-header__share__"]
+reuters.com##div[class*="ArticleHeader__share___"]
+reuters.com##div[class*="ShareButtons__"]
+reuters.com##div[class*="SocialTools__"]
+reverb.com##.email-signup
+reviewgeek.com##div[id^="future_"]
+revspin.net##.blink_container_side
+revspin.net##.category-page-buttons
+revspin.net##.product-page-buttons-left
+revspin.net###product_detail_desc > .desc_expand_link_container
+revspin.net###product_detail_desc > .whiteout
+revspin.net###reviews_container ~ *
+revspin.net###rightPane
+rizonesoft.com##.adsense-header-responsive
+rizonesoft.com##.rizon-before-content:has(> .adsbygoogle)
+rollingstone.com##.c-list__share
+rottentomatoes.com##.header_and_leaderboard_scroll
+rottentomatoes.com##.sleaderboard_wrapper
+rottentomatoes.com###quotesList .media > [style].pull-right.hidden-xs
+rottentomatoes.com###rating_widget_desktop
+rottentomatoes.com###showtimes
+rottentomatoes.com###skin_ad
+rottentomatoes.com###social-tools-widget
+rottentomatoes.com###watch-it-now
+rutracker.org##.bn-idx
+rutracker.org##.ext-link
+rutracker.org##.ext-links
+rutracker.org###bn-mg-bottom
+rutracker.org###logo
+rutracker.org###page_footer > div[style]:first-child:has(#bn-mg-bottom)
+rutracker.org##a[href$="/?from=rutracker"]
+app.raindrop.io##.svSidebar > a[class^="upgrade-"]
+
+salon.com##.outer-ad-unit-wrapper
+samsung.com##.product-card-v2__rating
+sanweisport.com##.breadcrumb-wrapper
+sanweisport.com##.site-content > .page-header
+sanweisport.com##li.product.outofstock
+science.org##.alert-donation
+science.org##.news-article__share
+sciencenorway.no##.adn-message
+screenrant.com,therichest.com##.ad-even
+screenrant.com,therichest.com##.ad-odd
+screenrant.com,therichest.com##.adzone-above-latest
+screenrant.com,therichest.com##.art-body-content > p:empty
+screenrant.com,therichest.com##.art-body-sharing
+screenrant.com,therichest.com##.article-tags
+screenrant.com,therichest.com##.premium-promo
+screenrant.com,therichest.com##.sharing-bottom
+screenrant.com,therichest.com##.w-fb-like
+screenrant.com,therichest.com##.w-sharing
+sflix.is##.detail-tools
+sflix.is##.row-tags
+sflix.to##.ts-social
+shop-ping.be###fblike-box
+shopee.co.id##.curated-collections
+shopee.co.id##.flash-sale-item-card__original-price
+shopee.co.id##.flash-sale-item-card--sold-out
+shopee.co.id##.header-with-search__search-section > .shopee-searchbar + div
+shopee.co.id##.item-card-special__discount-label
+shopee.co.id##.item-card-special__original-price
+shopee.co.id##.recommendation-by-carousel .image-carousel__item:has([data-sqe="ad"]:has-text(Iklan))
+shopee.co.id##.shop-page__products-info > .shop-decoration
+shopee.co.id##.shop-sold-out-items-view
+shopee.co.id##.shopee-recommend-search
+shopee.co.id##.shopee-search-item-result__item:has-text(/iklan/i)
+shopee.co.id##.shopee-search-item-result__item:has(:is(.shopee-badge--soldout, [data-sqe="ad"]))
+shopee.co.id##.shopee-search-item-result__item:has(.shopee-item-card__ad:has-text(Iklan))
+shopee.co.id##.sprite-product-sharing
+shopee.co.id##.sprite-product-sharing:upward(1)
+shopee.co.id##a[data-sqe="link"]:has(div[data-sqe="ad"]):upward(1)
+shopee.co.id##div:has(> .shopee-badge--promotion)
+shopee.co.id##footer[role="contentinfo"] > div:not(:last-child)
+simkl.com##.addthis_button_expanded_simkl
+simkl.com##.blockplace:has(> .blockplacecenter > .blockplacecenterlink > .blockplacecentertext:has-text(Advertisement))
+simkl.com##.footerAdsCenter
+simkl.com##.SimklTVAboutBlockStream
+simkl.com##.simkltvbottomfixeddiscord
+simkl.com##.SimklTVBtnShare
+simkl.com##.SimklTVBtnShareBl
+simkl.com##.simkltvfooterinfo:has(.simkltvfooterinfotitle:has-text(Get VIP))
+simkl.com##.simkltvfooterinfoiframes
+simkl.com##.SimklTVFooterShare
+simkl.com##.simkltvfootersharecontainer
+simkl.com##.simkltvfootershareitem
+simkl.com##.SimklTVFooterShareText
+simkl.com##.SimklTVFooterSharing
+simkl.com##.SimklTVPosterRate
+simkl.com##.SimklTVRightBlockFriendsRatings
+simkl.com##.SimklTVRightBlockTopBanner
+soccerstreams.info##[id^="container-"]
+soccerstreams.info##center:not(:has(> #player))
+soundcloud.com##.userInfoBar__buttons .sc-button-share
+sourceforge.net##.projects > li.standard
+sourceforge.net##.sterling
+sourceforge.net###nels
+sourceforge.net###project-nel:has(> .nel > a[href*="/www/delivery/"])
+sourceforge.net###share-project-button
+sourceforge.net##a[data-open="psp-newsletter-modal"]
+spc-indonesia.com##.head-img
+speedguide.net##div[style]:has(> div[id^="div-gpt-ad"])
+spin.com##.ad-container
+spin.com##.footer-ad-holder
+spin.com##.social-holder
+sportlivetv.net##a[href*="bit.ly"]
+sportlivetv.net##a[rel="nofollow"]
+sportlivetv.net##li[class*=cool-stuff]
+standardmedia.co.ke###slideup_overlay:has(> [id^="div-gpt-ad-"])
+startpage.com##.privacy-please-menu-home
+startpage.com###feedback-button-container
+stream-together.org###instructions
+streamable.com##.bottombanner
+streamable.com##.leftbanner
+streamable.com##.rightbanner
+streamable.com##.rightbanner-container
+streamable.com##.stickyfooter
+streamable.com##.stickypush
+streamable.com##.top-ad-banner
+streamable.com##.topbanner
+streamable.com###everything-but-video
+streamable.com##div[id^="cdm-zone-"]
+streamable.com##div[style="height:15px;"]
+streameast.*##.alert
+streameast.*##.app-slider
+streameast.*##.col:has(> .list-item .list-year:has-text(CAM))
+streameast.*###SagMenuDiscordDuzen
+streamgoals.com##.free
+streamgoals.com##.spins
+streamgoals.com##.stsbet
+streamgoals.com##.vjs-overlay
+streamgoals.com###controls .casino
+streamgoals.com##a[href^="https://streamgoals.com/bukmacher/r/"]
+streamgoals.com##div[class*=cool-stuff]
+streamtape.com##.creatorlogo
+streamvi.com##.d-none.d-lg-block
+streamvi.com##.footer
+streamvi.com##center > a[target="_blank"]
+streamvi.com##style + .bs-linebreak
+streamwo.com##.ad-id
+streamwo.com##.footer
+streamwo.com###videoRow > .col > .card:not(:first-child)
+streamye.com##.ad1
+streamye.com##.ad2
+streamye.com##.second + div
+substack.com##.comments-section
+substack.com##.post .post-footer
+suse.com##.share-icons
+swatchseries.to###top-band
+swisscows.com##.advt-link
+swisscows.com##.banners-wrap
+synctogether.org##.brand-logo
+synctogether.org##.brand-logo ~ .mt-8.mb-0.text-center
+synctogether.org##.top-banner
+synctogether.org###download
+synctogether.org###instructions
+isc.sans.edu###sidebar:has(> a[href^="https://www.sans.org/ondemand/specials"]:only-of-type)
+open.spotify.com##.main-view-container ~ div:not([class], [id], [style])
+open.spotify.com##.NavBar__download-item:upward(1)
+open.spotify.com##.Root__nav-bar > div[class$="-scss"] > div:not([class], [id], [role], [data-testid]):last-child
+open.spotify.com##.Root__main-view > div[class]:has(> div > div[data-testid="test-ref-div"])
+open.spotify.com##.tracklist-row-unplayable:upward(1)
+open.spotify.com##button[aria-label="Upgrade ke Premium"]
+open.spotify.com##button[title="Upgrade ke Premium"]
+store.steampowered.com##.discount_block .bundle_base_discount
+store.steampowered.com##.discount_block .discount_original_price
+store.steampowered.com##.discount_block .discount_pct
+on.substack.com##.comments-page
+
+tabletennis-reference.com##.adsbygoogle:upward(1)
+tabletennis-reference.com##.colR > .thumbnails:has(> li > .thumbnail > .media-heading > a:has-text(Get the Amazon gift card at a Review!))
+tabletennis-reference.com###register
+tabletennis11.com##.col-main > .std
+tabletennis11.com###other-prices
+tabletennisdaily.com##.footer-ad
+tabletennisdaily.com##.postadifrstx
+tabletennisdaily.com###adsw
+tabletennisdaily.com###bop5msotng
+tabletennisdaily.com###notices
+tabletennisdaily.com###stsw
+tabletennisnerd.com###swipebox-overlay
+techcrunch.com##.article__related-links
+techcrunch.com##.article-footer
+techspot.com##.comment-count-block
+telegraph.co.uk##.martech-general-sticky-footer__wrapper
+telunjuk.com##.discount
+telunjuk.com##.price-section div[style="height: 15px;"] > div
+tempo.co##.ads
+tempo.co##.artikel-rekomendasi
+tempo.co##.banner970x250
+tempo.co##.bottom-banner
+tempo.co##.head-banner
+tempo.co##.popup-ads
+tempo.co##.remp-banner
+tempo.co##.smartbanner
+tempo.co##.sub-head + .sub-head
+tempo.co##.tags
+tempo.co##.top-banner
+tempo.co##[id^="dablewidget_"]
+tempo.co###adnetwork_overlay_1x1
+tempo.co###adsfooter
+tempo.co###dailymotion-pip-large-viewport
+tempo.co###hanging_bottom
+tempo.co###ivsplayer01-container
+tempo.co###nr-container
+tempo.co###overlay_1x1
+tempo.co###skin-left
+tempo.co###skin-right
+tempo.co###teco_detail_article_top_leaderboard
+tempo.co##a[href="https://langganan.tempo.co/dukungkami"]
+tempo.co##article > p:empty
+tempo.co##b:has(> .ads)
+tempo.co##body > .fix-bottom:has(> #div-gpt-ad-sticky)
+tetris.com##.horizontalAxContainer
+tetris.com##.verticalAxContainer-L
+tetris.com##.verticalAxContainer-R
+thecinemaholic.com###taboola-alternating-right-rail-thumbnails:upward(.gridlovec-sticky-sidebar)
+thecut.com##.ad
+theflixer.tv##.detail-tools
+theflixer.tv##.flw-item:has(.film-detail .fdi-item:has-text(CAM))
+theflixer.tv##.row-tags
+theflixer.tv##.ts-social
+theflixer.tv###hgiks-top
+thegearpage.net##.samCodeUnit
+theguardian.com##div[id^="sp_message_container_"]
+thehackernews.com##.home-feed-ga
+theindex.moe##[class*="DiscordBanner_banner__"]
+theindex.moe##span[class*="OnlineStatus_status__"]
+theitbros.com##.themezee-social-sharing
+theitbros.com##.vi-sticky-ad
+themoviedb.org##.ott_offer
+themoviedb.org##ul#new_shortcut_bar.k-menu.k-menu-horizontal:not(.k-context-menu) > .k-item:has(> .k-link:has-text(Bagikan))
+thenextweb.com##.c-post-engage-shares
+thenextweb.com##.c-post-split-sticky:has(> .c-post-engage:only-child .c-post-engage-shares)
+thenextweb.com##.post-actions-share
+thenextweb.com##.post-actions-shares
+thenextweb.com##.post-share
+thenextweb.com##.tnw-ad-loaded
+thenextweb.com##li:has(> .post-actions-share)
+thesirenssound.com##.wc_ss_btns
+thetvdb.com##.sponsor-area-top
+theverge.com##.dfp_ad--held-area
+theverge.com##.duet--article--share-buttons
+theverge.com##.m-ad
+theverge.com##[data-concert-ads-name]
+thewindowsclub.com##.entry-affiliate
+thewindowsclub.com##.ss-hidden-pin-image
+thewindowsclub.com##.ss-total-shares
+thewindowsclub.com##.widget_bibblio_recent_posts
+thewindowsclub.com###ss-floating-bar
+thewindowsclub.com##div[class][data-index][style]:has(a[onclick^="javascript:"])
+thewrap.com##.entry-content > .wp-block-the-wrap-read-more
+threatfeeds.io##.sponsored
+thurrott.com##.ad
+thurrott.com##.the_champ_login_container
+thurrott.com##.widget_thurrott_premium_upsell
+thurrott.com###breadcrumb
+thurrott.com##a.button-theme-switcher-upsell
+thurrott.com##a[data-thurrott-section="community-guidelines"]
+thurrott.com##article > footer
+thurrott.com##div[data-thurrott-section-article-section="share"]
+thurrott.com##div[data-thurrott-section="inline-form"]
+thurrott.com##img[width="1"][height="1"]
+thurrott.com##li[data-thurrott-navigation-content-user-area-section="premium-cta"]
+time.com##.ad
+time.com##.ad-container
+time.com##.ad-wrapper
+time.com##.desktop-ad
+time.com##.karma-ad
+time.com##.tablet-ad
+time.com##div[data-provider="dianomi"]
+time.com##img[src="/kismet/spacer.png"]
+timeout.com##.ad
+timeout.com##.xs-col-12:has(> span:has-text(/advertising/i))
+tixati.com##div[style*="min-height: 110px"]
+tokopedia.com##.rel-category-share
+tokopedia.com##.rvm-shares-product
+tokopedia.com##.share_social_toggle_container
+tokopedia.com##.share-general
+tokopedia.com##.shop-official__share
+tokopedia.com##.socialholder-container
+tokopedia.com##.socialholder-label
+tokopedia.com##[class$="-unf-share"]
+tokopedia.com###pdp_comp-tdn_topads
+tokopedia.com###pdp_comp-variant_options > div > div > div[data-ep="banner"]
+tokopedia.com###shopseo
+tokopedia.com###trending-popular-keywords
+tokopedia.com##button[aria-label="Share"][data-testid="pdpShareButton"]
+tokopedia.com##div[data-ssr^="bannerCategory"]
+tokopedia.com##div[data-ssr^="productsCategory"] > div:has(> a[href^="https://ta.tokopedia.com/promo/"])
+tokopedia.com##div[data-testid="catBreadCrumbWrapper"] > div[class^="css-"]:first-child
+tokopedia.com##div[data-testid="divDiscoShare"]
+tokopedia.com##div[data-testid="divProductWrapper"]:has(> div[data-testid="master-product-card"] > .prd_container-card > div > div > a > div[aria-label="status label"]:has-text(/PreOrder|Stok Habis/)):upward(2)
+tokopedia.com##div[data-testid="divSearchFilter"] + div:has(a[href^="https://ta.tokopedia.com/promo/"])
+tokopedia.com##div[data-testid="divSRPContentProducts"] > div > div:has(> div > div > div > div > div > div > a > div > span[data-testid="divSRPTopadsIcon"])
+tokopedia.com##img[alt="Waiting for facebook"]
+tomsguide.com###sidebar > div:has(> *:has-text(/advertisement/i))
+toptal.com##.internal-linking
+torrentfreak.com###tf-comments
+transifex.com##.js-social-share
+trello.com###banners
+tvseries.video##.mads
+twist.moe##.donations
+twist.moe##.promote
+twitch.tv##.side-info-container:has(button:has-text(Sign up))
+twitch.tv##[data-target="directory-container"]:not([data-test-selector]) > .tw-tower--300 > div[data-target][style^="order:"]:not(:has(a[href^="/directory/game/"]))
+twitter.com##[data-testid="primaryColumn"] [data-testid="trend"][role="link"]:has(svg + span:has-text(Dipromosikan)):upward(2)
+twitter.com##[data-testid="primaryColumn"] [role="article"]:has(svg + div:has-text(Dipromosikan):upward(4))
+twitter.com##[data-testid="sidebarColumn"] [data-testid="trend"][role="link"]:has-text(Dipromosikan oleh):upward(1)
+twitter.com##[data-testid="sidebarColumn"] aside[aria-label="Untuk diikuti"]:upward(1)
+twitter.com##article[data-testid="tweet"] div[class][id][role="group"] > div:has(> a[href*="/analytics"])
+
+uproxx.com##.showed-enough.minimized.uproxx-featured-video-wrap
+uproxx.com###woven-leaderboard-wrapper
+usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
+usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
+utorrent.com##.ga-et
+
+vagrantup.com##div[class^="banner_root__"]
+vectr.com##.ads
+vice.com##.article-heading-v2__social-link
+vice.com##.docked-slot-renderer
+videohelp.com###mobilebanner
+vidio.com##.b-livestreaming-detail__engagements--share
+vidplay.*###player-wrapper + div:has(> .sgbl)
+vidplay.*###player-wrapper > div:not(#player, .servers)
+vidplay.*##body > div:not(#player-wrapper)
+viva.co.id##.article-share-socmed
+viva.co.id##.article-share-v2
+viva.co.id##.iklan-18
+viva.co.id##.iklan-leaderboard
+viva.co.id##.lihat-skyscraper
+viva.co.id##.muat-lainnya
+viva.co.id##.paralax_banner
+viva.co.id##.paralax_banner-detail
+viva.co.id##.skyscraper160
+viva.co.id##.skyscraper160-detail
+viva.co.id##[class^="iklan-"]
+viva.co.id###leaderboard
+viva.co.id##li:has(> div[id^="div-gpt-ad"])
+vocagame.com###fixed-social
+
+washingtonpost.com###gift-share-end
+washingtonpost.com###gift-share-inline
+washingtonpost.com###gift-share-popover-control-end
+washingtonpost.com##body > div:not([class], [id], [style])
+washingtonpost.com##body > div[id^="regwall-"]
+washingtonpost.com##body > div[id^="softwall-"]
+web.dev##.w-actions__fab--share
+webmd.com##.ad
+westerndigital.com###plpProductDiv > div:has(> .productListItem a[href^="/campaign/promotions/"])
+wetv.vip##.share-tips
+wetv.vip##.sidebar
+wetv.vip##.txp_mod_barrage
+whatoplay.com##.game-ad
+whatoplay.com##.game-share
+whats-on-netflix.com##.ow-comments
+wikihow.com###contribute_footer
+winaero.com##.drevnsd
+winaero.com##.entry-content > p:has-text(/^tip:/i)
+winaero.com##.entry-header > div:has-text(/recommended/i)
+winaero.com##.ez-video-wrap
+winaero.com##.gad-gads
+winaero.com##.recommended-inline
+winaero.com##.share
+winaero.com##.supportus
+winaero.com##.widget:has(> .widget-title:has-text(/advertisement|subscribe/i))
+winaero.com##[data-ezadblocked]
+winaero.com##[id*="-pub-ad-"]
+winaero.com###page > div:has(> .adsbygoogle)
+winaero.com###winaero-tweaker
+windowscentral.com##.article-body__section > p:has(> a[href*="evyy.net/c/"][target="_blank"])
+winscp.net##.promo-block
+winscp.net##.promo-block-content
+wired.com##.ad-stickyhero
+wired.com##.social-icons--share
+wired.com##div[class*="PersistentBottomWrapper-"]:has(div[class*="PaywallBarWrapper-"])
+wolframalpha.com###menuOpener:has(> span > span:has-text(UPGRADE TO PRO))
+wolframalpha.com##a[href*="?adref="]
+wolframalpha.com##a[href="https://www.wolframalpha.com/pro/pricing/students"]
+wolframalpha.com##a[href="https://www.wolframalpha.com/tour/"][rel="noopener"]
+wolframalpha.com##div:has(> a[href*="?adref="]:only-child)
+wolframalpha.com##div:has(> a[href^="/feedback"]):has(> a[href^="/pro-premium-expert-support"])
+wolframalpha.com##section:has(> button:only-of-type:has-text(Accept))
+wordpress.com###marketingbar
+wordpress.org##.locale-banner
+worldofsolitaire.com###rahlc
+wplift.com##.cp-info-bar
+wplift.com##.ctaheaderbutton
+
+xda-developers.com##.affiliate-sponsored
+xda-developers.com##.below-nav-ad
+xda-developers.com##.btn-comments
+xda-developers.com##.disqus-load-btn
+xda-developers.com##.sharing
+xda-developers.com##.sharing-btn
+xda-developers.com##.tagbar
+xda-developers.com##.w-btn-comments
+xda-developers.com##.w-sharing-copy
+xhamster8.com##.wil-sponsor-banner
+xhamster8.com##.wil-spot-container
+xhofficial5.com##.wio-vspot-container
+xl.co.id##.sc-concent
+xvideos.com##.premium-results-line
+xvideos.com##.search-page > [class*="foot"]
+xvideos.com##.thumb-block:has-text(/\.(\d{2,3}|c(c|lub|om)|g[dl]|io|link|ly|me|net|press|us|win|xyz)\/?/)
+
+yasaka.se##.wt-cli-cookie-bar-container
+yesmovies.ag##.mv-rating
+yesmovies.ag##.mvic-stats
+yesmovies.ag##.pop-rating
+yesmovies.ag##.pw-comment
+yesmovies.ag##[class*="content-kus"]
+yesmovies.ag###like-home
+yesmovies.ag###mv-keywords
+yesmovies.ag###toggle-xsidebar
+yoursoccerdose.com##.td-banner-wrap-full
+yts.mx##.rating-row
+yts.mx###koaquu.row
+yts.mx###movie-bottom
+yts.mx###movie-info .bottom-info > p:not([class])
+yts.mx##a[href^="/go-"]
+news.ycombinator.com##form[action="comment"]
+
+zdnet.com###postComments
+zdnet.com##article > .related-topics
+zhentube.com###tracking-url
+
+!! ELEMEN-D : MULTIDOMAIN
+
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.affiliateDisclaimerBar
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.breadcrumb
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.buttons-social
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.hawk-nest
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.leaderboardAdPresent
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.nav-subscribe
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.slot-leaderboard
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.socialite-widget
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.socialite-widget-item
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.trendingbar
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##[class^="slot-attemp-slot-"]
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
+androidcentral.com,digitalcameraworld.com,gamesradar.com,guitarplayer.com,guitarworld.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###slice-container-how-we-test-review
+
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com##.everyonelovesstackoverflow
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com##.js-dismissable-hero
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com##.js-post-comments-component
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com##.js-product-notice
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com###answers > .bottom-notice
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com###answers > .s-notice
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com###answers > #post-form
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com###answers > a[name="new-answer"]
+askubuntu.com,serverfault.com,stackoverflow.com,stackexchange.com,superuser.com###post-form

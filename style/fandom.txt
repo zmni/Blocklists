@@ -1,0 +1,55 @@
+! fandom-hide
+
+www.fandom.com##.article-share
+
+fandom.com##:matches-path(/wiki) .article-comments-app
+fandom.com##:matches-path(/wiki) .fandom-sticky-header
+fandom.com##:matches-path(/wiki) .global-navigation
+fandom.com##:matches-path(/wiki) .global-registration-buttons
+fandom.com##:matches-path(/wiki) .nkch-rdp
+fandom.com##:matches-path(/wiki) .notifications-placeholder
+fandom.com##:matches-path(/wiki) .page-footer .license-description
+fandom.com##:matches-path(/wiki) .page-footer__categories
+fandom.com##:matches-path(/wiki) .page-footer__languages
+fandom.com##:matches-path(/wiki) .page-header__actions
+fandom.com##:matches-path(/wiki) .page-side-tools__wrapper
+fandom.com##:matches-path(/wiki) .page.has-right-rail .page__right-rail
+fandom.com##:matches-path(/wiki) .share-button
+fandom.com##:matches-path(/wiki) #articleComments
+fandom.com##:matches-path(/wiki) #content p:has(> br:only-child)
+fandom.com##:matches-path(/wiki) #mixed-content-footer
+fandom.com##:matches-path(/wiki) #mw-data-after-content
+fandom.com##:matches-path(/wiki) #WikiaBar
+fandom.com##:matches-path(/wiki) h2 .mw-editsection
+
+! fandom-style-color
+
+fandom.com#$#:matches-path(/wiki) font[color="black"], :is(td, th)[style*="background:"], table.navbox th { color: var(--theme-body-text-color) !important; }
+fandom.com#$#:matches-path(/wiki) table.navbox, body:is(.page-dark, .theme-fandomdesktop-dark) .smwfact { background-color: var(--theme-page-background-color) !important; }
+fandom.com#$#:matches-path(/wiki) :is(td, th)[style*="background:"], table.navbox th { background-color: var(--theme-page-background-color--secondary) !important; }
+fandom.com#$#:matches-path(/wiki) :is(div, table):is([style*="border:"], [style*="border-color:"]), body:is(.page-dark, .theme-fandomdesktop-dark) .smwfact { border-color: var(--theme-border-color) !important; }
+
+fandom.com#$#:matches-path(/wiki) body:is(.page-dark, .theme-fandomdesktop-dark) cite[style*="color: #333;"] { color: #969696 !important; }
+fandom.com#$#:matches-path(/wiki) body:is(.page-dark, .theme-fandomdesktop-dark) div[style*="background:#DDDDDD;"] { background-color: var(--theme-page-background-color--secondary) !important; }
+
+! fandom-style-layout
+
+fandom.com#$#:matches-path(/wiki) .main-container { margin-left: 0 !important; width: 100% !important; }
+fandom.com#$#:matches-path(/wiki) .community-header-wrapper { height: 90px !important; }
+
+fandom.com#$#:matches-path(/wiki) #content div[style*="height:"] { height: auto !important; }
+fandom.com#$#:matches-path(/wiki) .mw-parser-output > center { text-align: left !important; }
+fandom.com#$#:matches-path(/wiki) .mw-parser-output > div[style*="margin:"] { margin: 0 !important; }
+fandom.com#$#:matches-path(/wiki) .mw-parser-output > table[style*="width:"] { width: 100% !important; }
+
+fandom.com#$#:matches-path(/wiki) .popular-pages__item > a { display: inline-grid !important; }
+fandom.com#$#:matches-path(/wiki) .gallerylink { border-radius: 0 !important; width: auto !important; }
+
+fandom.com#$#:matches-path(/wiki) .lightboxContainer .modalContentAndPlacementDivider { justify-content: center !important; }
+fandom.com#$#:matches-path(/wiki) .LightboxModal[style*="height:"] { height: 90% !important; }
+fandom.com#$#:matches-path(/wiki) .LightboxModal .media[style*="max-height:"] { max-height: none !important; }
+fandom.com#$#:matches-path(/wiki) .LightboxModal .media img { height: 100% !important; }
+fandom.com#$#:matches-path(/wiki) .skin-fandomdesktop .LightboxModal { margin-left: 0 !important; width: 90% !important; }
+
+fandom.com#$#:matches-path(/wiki) #BackToTopBtn { position: fixed !important; right: 10px !important; bottom: 10px !important; }
+fandom.com#$#:matches-path(/wiki) #BackToTopBtn div { position: static !important; }

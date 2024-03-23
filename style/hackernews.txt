@@ -1,0 +1,27 @@
+! hackernews-style
+
+news.ycombinator.com#$#body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+news.ycombinator.com#$#a:link, .c00, .c00 a:link, .pagetop a:visited { color: #c3c3c3 !important; }
+news.ycombinator.com#$#a:focus, a:hover, .c00 a:hover { color: #f0f0f0 !important; }
+news.ycombinator.com#$##hnmain[bgcolor="#f6f6ef"] { background-color: transparent !important; }
+news.ycombinator.com#$##pagespace, tr[class="spacer"][style*="height:"] { height: 1rem !important; }
+news.ycombinator.com#$#td:is([bgcolor="#ff6600"], [bgcolor="#cc1010"]) { background-color: #1e1e1e !important; }
+news.ycombinator.com#$#.comhead a:link, .subtext a:visited, .subtext, .subtext a:link, .subtext a:visited { color: #878787 !important; }
+news.ycombinator.com#$#.title { font-size: 1rem !important; }
+news.ycombinator.com#$#.votearrow { opacity: .25 !important; }
+
+! hackernews-style-search
+
+hn.algolia.com#$#body, html { background: #0f0f0f !important; color: #c3c3c3 !important; }
+hn.algolia.com#$#.SearchFilters { background-color: #1e1e1e !important; color: #c3c3c3 !important; border-bottom: 1px solid #3c3c3c !important; }
+hn.algolia.com#$#.Dropdown_label { border-color: #3c3c3c !important; color: #c3c3c3 !important; }
+hn.algolia.com#$#.Dropdown_list { background-color: #2d2d2d !important; border-color: #3c3c3c !important; color: #c3c3c3 !important; }
+hn.algolia.com#$#.Dropdown_list li:not(:last-child) { border-color: #3c3c3c !important; }
+hn.algolia.com#$#.Dropdown_list li button { background-color: #2d2d2d !important; color: #c3c3c3 !important; }
+hn.algolia.com#$#.SearchResults { background: #1e1e1e !important; }
+hn.algolia.com#$#.Story { padding: 4px 16px !important; }
+hn.algolia.com#$#.Story:first-child { padding-top: 8px !important; }
+hn.algolia.com#$#.Story:last-child { padding-bottom: 8px !important; }
+hn.algolia.com#$#.Story_title a { color: #c3c3c3 !important; }
+hn.algolia.com#$#.Story_title a:not(.Story_link):hover { color: #fff !important; }
+hn.algolia.com#$#.Story_title .Story_link, .Story_meta, .Story_meta a, .Story_comment { color: #878787 !important; }

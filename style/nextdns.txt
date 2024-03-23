@@ -1,0 +1,41 @@
+! nextdns-style-bg
+
+my.nextdns.io#$#body, .nav-tabs .nav-link:is(:focus, :hover, .active), .nav-tabs .nav-item.show .nav-link, .btn-light:is(.disabled, :disabled), .list-group-item [style*="background:"], .list-group-item [style*="background:"] > code, span[style*="background: rgb(241, 241, 241)"].d-inline-block { background-color: #0f0f0f !important; }
+my.nextdns.io#$#.card, .card-body, .recharts-responsive-container, .list-group-item, .modal-content, form[action="#submit"] > .form-control, .card-header .form-control, .card-header .form-control:focus, .Header, .AccountHeader, .form-control:is(:disabled, [readonly]), .popover > div[style*="background: rgb(250, 250, 250)"], .list-group-item[style*="background:"] { background-color: #1e1e1e !important; }
+my.nextdns.io#$#.btn-light, .dropdown, .dropdown-menu, .custom-select, .form-control, .card-header, .modal-header, html:not(.tw) .modal-header, .popover, .popover-inner > .p-3:nth-child(2), .list-group-item[style*="background: rgb(252, 252, 252)"] { background-color: #2d2d2d !important; }
+my.nextdns.io#$#.btn-light:is(:hover, :focus, .focus), .btn-light:not(:disabled):not(.disabled):is(:active, .active), .show > .btn-light.dropdown-toggle, .dropdown-item:is(:focus, :hover), .form-control:focus, .custom-control-label::before { background-color: #3c3c3c !important; }
+my.nextdns.io#$#.dropdown-item.active, .dropdown-item.active:is(:focus, :hover), .custom-control-input:checked ~ .custom-control-label::before { background-color: #007bff !important; }
+my.nextdns.io#$#.nav-tabs, .btn-group-sm.dropdown, .list-group-item > .dropdown { background-color: transparent !important; }
+my.nextdns.io#$#.list-group-item[style*="border-left: 4px solid rgb(255, 65, 54)"] { background-color: rgba(255, 0, 0, .25) !important; }
+my.nextdns.io#$#.list-group-item[style*="border-left: 4px solid rgb(46, 204, 64)"] { background-color: rgba(0, 153, 255, .25) !important; }
+
+! nextdns-style-text
+
+my.nextdns.io#$#body, .btn-light, .close, .dropdown-menu, .dropdown-item, .custom-select, .form-control, .form-control:focus, .nav-tabs .nav-link:is(:focus, :hover), .table, div[style*="color: rgb(34, 34, 34)"] { color: #c3c3c3 !important; }
+my.nextdns.io#$#.btn[style*="color: rgb(34, 34, 34)"] { color: #f0f0f0 !important; }
+my.nextdns.io#$#.btn-light:is(.disabled, :disabled), .btn-outline-secondary, .form-control::placeholder, .form-control::-ms-input-placeholder, .text-muted, [style*="color: rgb(51, 51, 51)"] { color: #878787 !important; }
+my.nextdns.io#$#.form-control:is(:disabled, [readonly]) { color: #4b4b4b !important; }
+my.nextdns.io#$#.btn-light:is(:hover, .focus, :focus, :hover), .btn-light:not(:disabled):not(.disabled):is(.active, :active), .show > .btn-light.dropdown-toggle, .dropdown-item:is(:focus, :hover), .close:is(:hover, :focus), .nav-tabs .nav-link:is(:focus, :hover, .active), .nav-tabs .nav-item.show .nav-link, a.dropdown-item.text-primary:is(:focus, :hover), a[href="#clear"][style*="color: black"] { color: #f0f0f0 !important; }
+my.nextdns.io#$#div[role="status"].spinner-border.text-dark, .nav-pills .nav-link.active, .nav-pills .show > .nav-link { color: #fff !important; }
+my.nextdns.io#$#a, .btn-link, .btn-outline-primary { color: #007bff !important; }
+my.nextdns.io#$#.fa-lock { color: #f00 !important; }
+
+! nextdns-style-border
+
+my.nextdns.io#$#.btn-light, .btn-light:is(:hover, .focus, :focus, :hover), .btn-light:not(:disabled):not(.disabled):is(.active, :active), .btn-light:is(.disabled, :disabled), .show>.btn-light.dropdown-toggle, .btn-outline-secondary, .dropdown-menu, .custom-select, .form-control, .form-control:focus, .card, .list-group-item, div[style*="border: 1px solid rgb(204, 204, 204)"] { border-color: #000 !important; }
+my.nextdns.io#$#.custom-control-label::before { border-color: #3c3c3c !important; }
+my.nextdns.io#$#.custom-control-input:checked~.custom-control-label::before { border-color: #007bff !important; }
+my.nextdns.io#$#.nav-tabs .nav-link:is(:focus, :hover, .active), .nav-tabs .nav-item.show .nav-link { border-color: #1e1e1e #1e1e1e #0f0f0f !important; }
+my.nextdns.io#$#.btn-outline-primary { border-color: #08f !important; }
+my.nextdns.io#$#.table :is(th, td), .modal-footer { border-top-color: #000 !important; }
+my.nextdns.io#$#.dropdown-divider { border-top-color: #3c3c3c !important; }
+my.nextdns.io#$#.card-header, .modal-header, .Header, .AccountHeader, .nav-tabs, :is(.popover, .popover-inner) > div[style*="border-bottom:"] { border-bottom-color: #000 !important; }
+my.nextdns.io#$#:is(.bs-popover-auto[x-placement^="bottom"], .bs-popover-bottom) > .arrow::after { border-bottom-color: #2d2d2d !important; }
+my.nextdns.io#$#.list-group-item[style*="border-left:"] { border-left: 0 !important; }
+
+! nextdns-style-other
+
+my.nextdns.io#$#.fa-lock { opacity: .3 !important; }
+my.nextdns.io#$#img:is([src^="data:image/png;base64"], [src^="/static/media/handshake-logo."], [src^="/static/media/logo-"]), :is(.settings-button, .stream-button) svg { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }
+my.nextdns.io#$#.custom-select { background-blend-mode: screen !important; }
+my.nextdns.io#$#.dropdown, .card > .card-body:only-child { border-radius: .25rem !important; }

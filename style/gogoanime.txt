@@ -1,0 +1,52 @@
+! gogoanime-hide
+
+anitaku.to##.ads_watch_top
+anitaku.to##.anime_info_episodes
+anitaku.to##.anime_muti_link ul li a span
+anitaku.to##.anime_video_body > .clr + div[style]
+anitaku.to##.anime_video_body_comment_name
+anitaku.to##.anime_video_note_watch
+anitaku.to##.anime_video.anime_name > .link_face
+anitaku.to##.anime-info ~ div
+anitaku.to##.bookmark
+anitaku.to##.download-anime
+anitaku.to##.favorites_book
+anitaku.to##.list_dowload
+anitaku.to##.menu_top_link
+anitaku.to##div[class*="notice-"]
+anitaku.to##section.content > section.content_right
+anitaku.to##:matches-path(/filter.html) ul.items li:has(> .name > a[title*="(Dub)"])
+
+! gogoanime-style
+
+anitaku.to#$##wrapper { background-color: transparent !important; }
+anitaku.to#$#section.headnav { padding: 10px 0 !important; }
+anitaku.to#$#section.content section.content_left { width: 100% !important; }
+anitaku.to#$#.main_body { border: 0 !important; }
+anitaku.to#$#.anime_video_body, .last_episodes { padding: 0 !important; }
+anitaku.to#$#.anime_info_body { margin: 0 !important; }
+anitaku.to#$#ul.items { display: flex !important; flex-wrap: wrap !important; margin: 0 -8px !important; padding: 8px 0 !important; }
+anitaku.to#$#ul.items > li { flex-basis: calc(100% / 5 - 16px) !important; margin: 8px !important; }
+anitaku.to#$#ul.items li .img::before { padding-top: calc(100% * 4 / 3) !important; }
+anitaku.to#$#ul.items li .img a::after { height: 100% !important; opacity: 0 !important; }
+anitaku.to#$#ul.items li .img a:hover::after { background-position: center !important; background-size: 34px !important; opacity: 1 !important; }
+anitaku.to#$#ul.items li .img img { height: 100% !important; }
+anitaku.to#$#.anime_video_body > h1 { margin-top: 16px !important; }
+anitaku.to#$#.anime_video_body_watch, .anime_video_body_watch_items { margin-top: 0 !important; }
+anitaku.to#$#.anime_muti_link ul { display: flex; }
+anitaku.to#$#.anime_muti_link ul li { background-color: #131313; flex-grow: 1; }
+anitaku.to#$#.anime_muti_link ul li a { line-height: 20px; text-align: center; }
+anitaku.to#$#.anime_muti_link ul li a:hover, .anime_muti_link ul li a.active { background-color: #ffc119; color: #000; }
+anitaku.to#$#.anime_muti_link ul li a i { display: block !important; margin: 0 auto !important; }
+anitaku.to#$##episode_page { display: flex !important; flex-wrap: wrap !important; justify-content: center !important; margin-top: 16px !important; width: 100% !important; }
+anitaku.to#$#.filters { float: none !important; }
+anitaku.to#$#.list_search ul { display: flex !important; justify-content: center !important; text-align: center !important; }
+anitaku.to#$#.croll > .big { text-align: right !important; }
+anitaku.to#$#.icongec-backtop { background-position: -526px 4px !important; }
+anitaku.to#$#ul#episode_related li a { background-color: #2d2d2d !important; }
+anitaku.to#$#ul#episode_related li a:not(.active):visited { background-color: #0f0f0f !important; color: #696969 !important; }
+anitaku.to#$#ul#episode_related li a:is(:hover, :visited:hover, .active) { background-color: #ffc119 !important; color: #000 !important; }
+
+!#if env_mobile
+anitaku.to#$#.anime_info_body_bg, .anime_info_episodes, .anime_video_body { padding: 0 1rem !important; }
+!#endif
