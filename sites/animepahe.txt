@@ -1,0 +1,40 @@
+! Title: (css) AnimePahe
+
+animepahe.org,animepahe.ru,animepahe.si#$#body { --theatre-width: 1070px; }
+
+animepahe.org,animepahe.ru,animepahe.si#$#.navbar-brand { line-height: 1 !important; }
+
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header { border-top: 0 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header.scrolled { box-shadow: none !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header nav { max-width: var(--theatre-width) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header nav .main-nav li.nav-item > a, header.main-header nav .nav-search .input-search { padding-bottom: 4px !important; padding-top: 4px !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header nav .main-nav li.nav-item > a { background-color: transparent !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header nav .main-nav li.nav-item > a:hover { background-color: #bc0150 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header nav .nav-search::before { padding-bottom: 4px !important; padding-top: 4px !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#header.main-header nav .nav-search .input-search { height: 30px !important; }
+
+animepahe.org,animepahe.ru,animepahe.si#$#.episode-wrap.col-sm-4 { flex-basis: 25% !important; max-width: 25% !important; }
+
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper { padding-bottom: 0 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .page-detail, section.main .page-detail .content-wrapper { margin-top: 0 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper :is(.page-index h1, .latest-release h2) { text-align: center !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .index-wrapper .index ul { justify-content: center !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main header.anime-header, section.main header.anime-header .poster-wrapper, section.main header.anime-header .poster-wrapper .anime-poster { position: static !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#.anime-cover { height: 20px !important; opacity: 0 !important; visibility: hidden !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main header.anime-header .poster-wrapper { float: left !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .anime-content { margin-bottom: 0 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .episode-list-wrapper .episode-list .episode-wrap .episode-label-wrap { background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .episode-list-wrapper .episode-list .episode-wrap .episode-label .episode-title-wrap { white-space: normal !important; }
+
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre { --prequel-sequel: calc(-1 * (100vw - var(--theatre-width)) / 2); --prequel-sequel-hover: 55px; margin-top: 0 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre :is(.player, .theatre-info, .theatre-settings) { max-width: var(--theatre-width) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player .click-to-load .reload { height: 100px !important; width: 100px !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player :is(.prequel, .sequel) { background-color: transparent !important; height: 100px !important; width: 50% !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player .prequel { left: var(--prequel-sequel) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player .sequel { right: var(--prequel-sequel) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player .prequel:hover i.fa { left: var(--prequel-sequel-hover) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player .sequel:hover i.fa { right: var(--prequel-sequel-hover) !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .theatre .player :is(.prequel, .sequel) img { visibility: hidden !important; }
+
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .index-wrapper .index .tab-content .tab-pane { display: block !important; opacity: 1 !important; }
+animepahe.org,animepahe.ru,animepahe.si#$#section.main .content-wrapper .index-wrapper .index .tab-content .tab-pane + .tab-pane { border-top: 1px solid #d5015b !important; margin-top: 2rem !important; padding-top: 2rem !important; }
