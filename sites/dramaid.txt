@@ -1,0 +1,27 @@
+! Title: (css) DramaId
+
+dramaid.icu,dramaid.nl#$#body:matches-path(-episode-) { background-color: #000 !important; }
+
+dramaid.icu,dramaid.nl#$#.th { height: auto; }
+dramaid.icu,dramaid.nl#$#.centernav::after { clear: both; content: ""; display: table; }
+dramaid.icu,dramaid.nl#$#:is(.th, #main-menu) .centernav, #content { max-width: 1170px !important; }
+dramaid.icu,dramaid.nl#$#.mainheader { margin-top: 10px; margin-bottom: 10px; }
+dramaid.icu,dramaid.nl#$#.logos { line-height: 1 !important; }
+dramaid.icu,dramaid.nl#$#.logos > a { display: block; }
+dramaid.icu,dramaid.nl#$##main-menu { margin-bottom: 4px !important; }
+dramaid.icu,dramaid.nl#$#.bxcl ul { max-height: none !important; }
+dramaid.icu,dramaid.nl#$#.single-info.bixbox .infox .desc.mindes { height: auto !important; }
+dramaid.icu,dramaid.nl#$#.epcheck .ephead .eph-num, .bxcl ul li .epl-num { flex-basis: 50px !important; max-width: 50px !important; }
+dramaid.icu,dramaid.nl#$#.epcheck .ephead .eph-date, .bxcl ul li .epl-date { flex-basis: 150px !important; max-width: 150px !important; text-align: right !important; }
+dramaid.icu,dramaid.nl#$#.pd-expand:not(.sxp) { display: block !important; aspect-ratio: 16/9 !important; margin-bottom: 1rem !important; }
+dramaid.icu,dramaid.nl#$#.mvelement { display: flex !important; flex-wrap: wrap !important; }
+dramaid.icu,dramaid.nl#$#.video-content { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; }
+dramaid.icu,dramaid.nl#$#.video-nav { background-color: transparent !important; margin-right: 7px !important; margin-bottom: 13px !important; padding: 0 !important; }
+dramaid.icu,dramaid.nl#$#select.mirror { background-color: #222 !important; float: none !important; border-color: #222 !important; border-radius: 3px !important; padding: 8px !important; }
+dramaid.icu,dramaid.nl#$#.naveps.bignav { flex: 1 !important; padding: 0 !important; }
+dramaid.icu,dramaid.nl#$#.naveps.bignav .nvs.nvsc a { background: #222 !important; }
+dramaid.icu,dramaid.nl#$#.naveps.bignav .nvs.nvsc a:hover { background: #0c70de !important; }
+
+gdrive.cam#$#.lds-ellipsis div, #btnServer, #servers li a:is(:hover, :focus, .active) { background-color: transparent !important; border: 0 !important; }
+gdrive.cam#$##servers { background-color: transparent; text-align: right !important; right: -10px !important; top: 45px !important; width: 160px !important; }
+gdrive.cam#$##servers li a { color: #c3c3c3 !important; }

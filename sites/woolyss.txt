@@ -1,0 +1,26 @@
+! Title: (css) Woolyss
+
+chromium.woolyss.com#$#:root { --blue: #0486bc; --green: #03a226; --yellow: #a98d06; --bg-canary: #00043f; --bg-dev: #302114; --bg-official: #002640; --bg-stable: #350035; }
+chromium.woolyss.com#$#html, body { background-color: #0f0f0f !important; color: #c3c3c3 !important; }
+chromium.woolyss.com#$##tabs li, .info, ul.item li, .news { background-color: #1e1e1e !important; }
+chromium.woolyss.com#$#a:link, a:visited, a:active { color: #08c !important; }
+chromium.woolyss.com#$#.nav li a, .nav li a:link, .nav li a:visited, .nav li a:active { color: #fff !important; }
+chromium.woolyss.com#$#a.title, h2 a:link, h2 a:visited, h2 a:active, h3 a:link, h3 a:visited, h3 a:active { color: #e1e1e1 !important; }
+chromium.woolyss.com#$##tabs li a:link, #tabs li a:visited, #tabs li a:active, aside h2 a:link, small, .small, del { color: #969696 !important; }
+chromium.woolyss.com#$##top { background-image: linear-gradient(#2d2d2d, #1e1e1e) !important; border-top-color: #1e1e1e !important; }
+chromium.woolyss.com#$#h2, h3, #linux h4, #bsd h4 { border-bottom-color: #3c3c3c !important; }
+chromium.woolyss.com#$#.chromium { box-shadow: none !important; }
+chromium.woolyss.com#$#.stable { background-color: var(--bg-stable) !important; }
+chromium.woolyss.com#$#.dev { background-color: var(--bg-dev) !important; }
+chromium.woolyss.com#$#.official { background-color: var(--bg-official) !important; }
+chromium.woolyss.com#$#.canary { background-color: var(--bg-canary) !important; }
+chromium.woolyss.com#$#.st { color: #d2d2d2 !important; letter-spacing: .25px !important; }
+chromium.woolyss.com#$#summary::before { opacity: .8 !important; }
+chromium.woolyss.com#$#code { background-color: var(--yellow) !important; border-color: #000 !important; color: #f0f0f0 !important; opacity: 1 !important; }
+chromium.woolyss.com#$##google-api-keys code { margin: .5rem 0 1rem !important; }
+chromium.woolyss.com#$##your-chromium-info .info { background-color: var(--blue) !important; color: #f0f0f0 !important; }
+chromium.woolyss.com#$##comments .each { background-color: #1e1e1e !important; }
+chromium.woolyss.com#$##comments .each:target { background-color: #3c3c3c !important; }
+chromium.woolyss.com#$##comments #comment-1 { background-color: #2d2d2d !important; }
+chromium.woolyss.com#$##comments .content { color: #c3c3c3 !important; }
+chromium.woolyss.com#$#.f, .f:hover, .f:focus { background-color: #3c3c3c !important; border-color: #000 !important; color: inherit !important; }
