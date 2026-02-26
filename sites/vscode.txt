@@ -1,0 +1,61 @@
+! Title: (css) VSCode Marketplace
+! Expires: 7 days
+
+marketplace.visualstudio.com##body, button:style( color: #c3c3c3 !important; )
+marketplace.visualstudio.com##body.platform.gallery, body.platform.gallery .content-section-market, .gallery-home-page-view, .gallery-home-page, .main-content.category-main-content:style( background-color: #0f0f0f !important; )
+
+marketplace.visualstudio.com##.dropdown-menu:style( background-color: #2d2d2d !important; border-color: #3c3c3c !important; box-shadow: 3px 3px 3px #000 !important; )
+marketplace.visualstudio.com##.trending-dropdown-menu-item.focus:style( background-color: #3c3c3c !important; border-color: #4b4b4b !important; )
+
+marketplace.visualstudio.com##.tab, .ux-section-details-tabs .ms-Pivot:style( border-bottom-color: #3c3c3c !important; )
+marketplace.visualstudio.com##.markdown h1, .markdown h2:style( border-bottom-color: #1e1e1e !important; )
+
+marketplace.visualstudio.com##.gallery-home-page-view .tab-collection-container, .category-container > .filters-container:style( background-color: #1e1e1e !important; border-bottom-color: #3c3c3c !important; )
+marketplace.visualstudio.com##.tab-collection .tab:style( border-right-color: #3c3c3c !important; color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.tab-collection .tab:nth-child(1):style( border-left-color: #3c3c3c !important; )
+marketplace.visualstudio.com##.tab-collection .tab:hover:style( background-color: #e2165e !important; color: #fff !important; )
+marketplace.visualstudio.com##.tab-collection .tab:visited:style( color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.tab-collection .tab.tabactive, .tab-collection .tab.tabactive:is(:visited, :hover:visited):style( color: #fff !important; )
+
+marketplace.visualstudio.com##.menu:style( border-color: #4b4b4b !important; box-shadow: 3px 3px 3px rgba(60, 60, 60, .5) !important; )
+marketplace.visualstudio.com##.menu-popup .menu:style( background-color: #3c3c3c !important; )
+marketplace.visualstudio.com##.menu.sub-menu > :is(.menu-item.hover, .menu-item-container > .menu-item.hover):style( background-color: #4b4b4b !important; )
+marketplace.visualstudio.com##.menu.sub-menu > :is(.menu-item.hover, .menu-item-container > .menu-item.hover), .vss-focus-visible .menu.sub-menu > :is(.menu-item.focus, .menu-item-container > .menu-item.focus):style( border-color: #5a5a5a !important; )
+marketplace.visualstudio.com##.searchbar, .searchbar .search-input, .homepage-searchbox-wrapper .homepage-searchbox-container, .homepage-searchbox-container .search-input:style( background-color: #000 !important; )
+marketplace.visualstudio.com##.searchbar, .homepage-searchbox-wrapper .homepage-searchbox-container:style( border-color: #1e1e1e !important; )
+marketplace.visualstudio.com##.homepage-searchbox-container .search-input:style( width: calc(100% - 70px) !important; )
+marketplace.visualstudio.com##.homepage-searchbox-container .searchbutton:style( border: 1px solid #1e1e1e !important; )
+
+marketplace.visualstudio.com##.gallery-item-cluster .header-container .section-header:style( color: #e1e1e1 !important; )
+marketplace.visualstudio.com##.gallery-item-cardHomePage, .gallery-item-card:style( background-color: #1e1e1e !important; border-color: #3c3c3c !important; )
+marketplace.visualstudio.com##.gallery-item-cardHomePage .text-fadeout, .gallery-item-card .text-fadeout:style( background: linear-gradient(to right, transparent, #1e1e1e) !important; )
+
+marketplace.visualstudio.com##.carousel-nav a:hover:style( background-color: #2d2d2d !important; color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.carousel-nav a.disabled:style( color: #2d2d2d !important; cursor: default !important; )
+marketplace.visualstudio.com##.carousel-nav a.disabled:hover:style( background-color: transparent !important; )
+
+marketplace.visualstudio.com##.category-entry:style( background-color: #2d2d2d !important; )
+marketplace.visualstudio.com##.category-entry a:style( color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.category-entry .main-cell:style( border-color: #3c3c3c !important; )
+
+marketplace.visualstudio.com##.markdown pre:style( background-color: #1e1e1e !important; )
+marketplace.visualstudio.com##.markdown table tr:style( background-color: #0f0f0f !important; )
+marketplace.visualstudio.com##.markdown table :is(tr, th, td):style( border-color: #2d2d2d !important; )
+marketplace.visualstudio.com##.itemDetails .markdown blockquote:style( color: #969696 !important; )
+marketplace.visualstudio.com##.item-details-main-content:style( background-color: #0f0f0f !important; )
+marketplace.visualstudio.com##.item-details-control-root .ux-section-banner:style( background-color: #000 !important; )
+marketplace.visualstudio.com##.item-details-control-root .ux-item-publisher-link, .item-details-control-root .item-header .light:style( color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.item-details-control-root .markdown:style( color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.item-details-control-root #section-banner.static + .gallery-centered-content > .ux-section-details .ux-section-details-tabs .ms-Pivot:style( background-color: #0f0f0f !important; )
+
+marketplace.visualstudio.com##.meta-data-list-container .ux-section-header, .ux-section-capabilities .ux-section-header, .item-details-control-root .ux-section-details .itemdetails-section-header, .item-details-control-root .ux-table-metadata, .ux-section-capabilities .capabilities-list-item, .vsix-id-text, .item-details-control-root .ux-section-project-details ul li .api-github-response.bowtie-icon.bowtie-brand-github, .item-details-control-root .ux-section-project-details ul li .api-github-response.bowtie-icon:style( color: #c3c3c3 !important; )
+marketplace.visualstudio.com##.meta-data-list-container .ux-section-meta-data-list a:style( color: #c3c3c3 !important; border-color: #1e1e1e !important; )
+marketplace.visualstudio.com##.meta-data-list-container a.meta-data-list-link:hover, .meta-data-list-container a.meta-data-list-link:focus:style( color: #fff !important; )
+
+marketplace.visualstudio.com##.ms-Callout.root-80:style( border-color: #3c3c3c !important; )
+marketplace.visualstudio.com##.ms-Callout-main.calloutMain-83:style( background-color: #2d2d2d !important; )
+marketplace.visualstudio.com##.ms-ContextualMenu.root-59:style( background-color: #2d2d2d !important; )
+marketplace.visualstudio.com##.ms-ContextualMenu-link.root-65:hover:style( background-color: #3c3c3c !important; )
+
+marketplace.visualstudio.com###ux-footer .linkListTitle:style( color: #e1e1e1 !important; )
+marketplace.visualstudio.com###ux-footer a:style( color: #c3c3c3 !important; )
