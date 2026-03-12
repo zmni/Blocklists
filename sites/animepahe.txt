@@ -1,0 +1,41 @@
+! Title: (css) AnimePahe
+! Expires: 7 days
+
+animepahe.org,animepahe.ru,animepahe.si##body:style( --player-width: 1080px; )
+
+animepahe.org,animepahe.ru,animepahe.si##.navbar-brand:style( line-height: 1 !important; )
+
+animepahe.org,animepahe.ru,animepahe.si##header.main-header:style( border-top: 0 !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header.scrolled:style( box-shadow: none !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header nav:style( max-width: var(--player-width) !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header nav .main-nav li.nav-item > a, header.main-header nav .nav-search .input-search:style( padding-bottom: 4px !important; padding-top: 4px !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header nav .main-nav li.nav-item > a:style( background-color: transparent !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header nav .main-nav li.nav-item > a:hover:style( background-color: #bc0150 !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header nav .nav-search::before:style( padding-bottom: 4px !important; padding-top: 4px !important; )
+animepahe.org,animepahe.ru,animepahe.si##header.main-header nav .nav-search .input-search:style( height: 30px !important; )
+
+animepahe.org,animepahe.ru,animepahe.si##.episode-wrap.col-sm-4:style( flex-basis: 25% !important; max-width: 25% !important; )
+
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper:style( padding-bottom: 0 !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .page-detail, section.main .page-detail .content-wrapper:style( margin-top: 0 !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper :is(.page-index h1, .latest-release h2):style( text-align: center !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .index-wrapper .index ul:style( justify-content: center !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main header.anime-header, section.main header.anime-header .poster-wrapper, section.main header.anime-header .poster-wrapper .anime-poster:style( position: static !important; )
+animepahe.org,animepahe.ru,animepahe.si##.anime-cover:style( height: 20px !important; opacity: 0 !important; visibility: hidden !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main header.anime-header .poster-wrapper:style( float: left !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .anime-content:style( margin-bottom: 0 !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .episode-list-wrapper .episode-list .episode-wrap .episode-label-wrap:style( background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent) !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .episode-list-wrapper .episode-list .episode-wrap .episode-label .episode-title-wrap:style( white-space: normal !important; )
+
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre:style( --prequel-sequel: calc(-1 * (100vw - var(--player-width)) / 2); --prequel-sequel-hover: 55px; margin-top: 0 !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre :is(.player, .theatre-info, .theatre-settings):style( max-width: var(--player-width) !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player .click-to-load .reload:style( height: 100px !important; width: 100px !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player :is(.prequel, .sequel):style( background-color: transparent !important; height: 100px !important; width: 50% !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player .prequel:style( left: var(--prequel-sequel) !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player .sequel:style( right: var(--prequel-sequel) !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player .prequel:hover i.fa:style( left: var(--prequel-sequel-hover) !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player .sequel:hover i.fa:style( right: var(--prequel-sequel-hover) !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .theatre .player :is(.prequel, .sequel) img:style( visibility: hidden !important; )
+
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .index-wrapper .index .tab-content .tab-pane:style( display: block !important; opacity: 1 !important; )
+animepahe.org,animepahe.ru,animepahe.si##section.main .content-wrapper .index-wrapper .index .tab-content .tab-pane + .tab-pane:style( border-top: 1px solid #d5015b !important; margin-top: 2rem !important; padding-top: 2rem !important; )
