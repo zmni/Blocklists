@@ -1,0 +1,11 @@
+! Title: x Skrip x
+! Expires: 3 days
+
+2embed.cc##+js(trusted-click-element, .playbtnx, , 500)
+animepahe.org,animepahe.ru,animepahe.si##+js(trusted-click-element, .click-to-load, , 500)
+fmhy.net##+js(trusted-set-attr, .vp-doc a, target, _blank)
+gdrive.*##+js(nowoif)
+marieclaire.com##+js(href-sanitizer, a[href^="https://www.anrdoezrs.net/links/"][data-url], [data-url])
+tempo.co##+js(prevent-refresh)
+uflix.cc##+js(trusted-click-element, .play-btn, , 500)
+news.ycombinator.com##+js(trusted-set-attr, '.titleline > a, a[rel="nofollow"]', target, _blank)
