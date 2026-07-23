@@ -1,0 +1,10 @@
+! Title: x Skrip x
+! Expires: 3 days
+
+2embed.cc##+js(trusted-click-element.js, .playbtnx, , 500)
+animepahe.org,animepahe.ru,animepahe.si##+js(trusted-click-element.js, .click-to-load, , 500)
+fmhy.net##+js(trusted-set-attr.js, .vp-doc a, target, _blank)
+gdrive.*##+js(nowoif.js)
+tempo.co##+js(prevent-refresh.js)
+uflix.cc##+js(trusted-click-element.js, .play-btn, , 500)
+news.ycombinator.com##+js(trusted-set-attr.js, '.titleline > a, a[rel="nofollow"]', target, _blank)
