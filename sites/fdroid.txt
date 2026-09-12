@@ -1,0 +1,35 @@
+! Title: (css) F-droid
+! Expires: 7 days
+
+f-droid.org##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
+
+f-droid.org##h1, h2, h3, h4:style( color: #e1e1e1 !important; )
+f-droid.org##a:style( color: #c3c3c3 !important; )
+f-droid.org##a:is(:active, :focus, :hover):style( color: #fff !important; opacity: 1 !important; )
+f-droid.org##.material-button:style( border-radius: 4px !important; )
+
+f-droid.org##.site-header, .main-content:style( background-color: #1e1e1e !important; )
+f-droid.org##.site-title:style( justify-content: center !important; )
+
+f-droid.org##.post-meta img:style( width: 1rem !important; )
+f-droid.org##.gallery img:style( box-shadow: 3px 3px 6px #000 !important; )
+
+f-droid.org##.package-header, .package-header:visited, .package .package-version-permissions-list .permission .permission-description, .package .package-version-anti-features-list .anti-feature-link .anti-feature-text:style( color: #969696 !important; )
+f-droid.org##.package .package-whats-new:style( background-color: #2d2d2d !important; )
+f-droid.org##.package .package-links:style( border-top-color: #696969 !important; border-bottom-color: #696969 !important; )
+f-droid.org##.package .package-links a:style( color: #1976d2 !important; )
+f-droid.org##.package .package-links a:is(:active, :focus, :hover):style( color: #fff !important; )
+f-droid.org##.package .package-nativecode:style( color: #a5a5a5 !important; )
+f-droid.org##.package .package-version:style( background-color: #3c3c3c !important; )
+f-droid.org##.package .package-version-permissions-list .permission::before:style( background-color: #c3c3c3 !important; )
+f-droid.org##.package .package-version-anti-features-list .anti-feature-link .anti-feature-icon:style( filter: invert(90%) hue-rotate(180deg) contrast(90%) !important; )
+
+f-droid.org##.sidebar-widget:not(:last-of-type):style( border-bottom-color: #696969 !important; )
+f-droid.org##.search-input:style( background-image: none !important; border-color: #696969 !important; color: #c3c3c3 !important; )
+
+f-droid.org###language-chooser-select:style( appearance: none !important; background-color: #3c3c3c !important; border: 1px solid #5a5a5a !important; color: #c3c3c3 !important; padding: .25rem .5rem !important; width: 100% !important; )
+
+f-droid.org##.site-description:style( text-align: center !important; )
+
+search.f-droid.org##form:style( display: flex !important; justify-content: space-between !important; )
+search.f-droid.org##.search-input:style( width: calc(100% - 99px) !important; )
