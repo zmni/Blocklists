@@ -1,0 +1,188 @@
+! Title: x Style x
+! Expires: 3 days
+
+!!==> STYLE-ALL
+
+www.binance.com##,app.hyperliquid.xyz,app.lighter.xyz,lighter.exchange##*, *::before, *::after:style( border-radius: 0 !important; )
+
+anikototv.bz,anikototv.se,anikoto.me,anikoto.net##.container:style( max-width: none !important; )
+anikototv.bz,anikototv.se,anikoto.me,anikoto.net###w-info, #ani-seasons:style( margin-left: 300px !important; )
+anikototv.bz,anikototv.se,anikoto.me,anikoto.net###w-media #w-player #player-aspect:style( aspect-ratio: 16/9 !important; padding-bottom: 0 !important; )
+archive.org##body.navia #theatre-ia:style( padding-block: 0 !important; )
+archive.org##.jwplayer:style( height: calc(100vh - 84px) !important; width: calc((100vh - 84px) * 16 / 9) !important; )
+
+beautifier.io##.CodeMirror:style( height: auto !important; )
+
+comick.io##.blur:style( filter: none !important; )
+cryptobubbles.net##table:style( width: 100% !important; )
+cryptobubbles.net##.scroll-container table td:first-child:style( text-align: center !important; )
+cryptobubbles.net##.scroll-container table th:nth-child(n+4):nth-child(-n+5) > div:style( justify-content: flex-end !important; )
+cryptopanic.com##.left-nav > a[href="/?filter=rising"]:style( display: flex !important; )
+cryptopanic.com##.news-detail.ps:style( overflow: auto !important; )
+cryptopanic.com##.blurred:style( filter: none !important; pointer-events: auto !important; )
+cryptopanic.com##.blur-overlay:style( z-index: -999 !important; visibility: hidden !important; )
+
+dnscrypt.info##.v-dialog:not(.v-dialog--fullscreen):style( width: 100% !important; )
+!#if !env_mobile
+html.duckduckgo.com##body, input, select, textarea:style( color: #c3c3c3 !important; )
+html.duckduckgo.com##body, .body--home:style( background: #0f0f0f !important; )
+html.duckduckgo.com##.body--html .logo_homepage:style( filter: invert(1) hue-rotate(180deg) contrast(0.9) !important; )
+html.duckduckgo.com##.search, .search--adv:style( background-color: #1e1e1e !important; border-color: #000 !important; )
+html.duckduckgo.com##.search:hover .search__button, .search__input:focus ~ .search__button, .search--header.has-text.search--hover .search__button, .search--header.has-text.search--focus .search__button, .search--home.has-text .search__button:style( border: 1px solid #000 !important; )
+html.duckduckgo.com##.header__form, .serp__results:style( padding-left: calc((100vw - 691px) / 2) !important; )
+html.duckduckgo.com##.header.header--html:style( border-bottom-color: #1e1e1e !important; )
+html.duckduckgo.com##.frm__select:style( color: #c3c3c3 !important; )
+html.duckduckgo.com##.frm__select:hover:style( background-color: #2d2d2d !important; )
+html.duckduckgo.com##.frm__select::after:style( filter: invert(1) hue-rotate(180deg) contrast(0.9) !important; )
+html.duckduckgo.com##.result:hover:style( background-color: transparent !important; )
+html.duckduckgo.com##.result__a:style( color: #c3c3c3 !important; )
+html.duckduckgo.com##.result__a:hover:style( color: #f0f0f0 !important; )
+html.duckduckgo.com##.result__a:is(:visited, :visited:hover):style( color: #696969 !important; )
+html.duckduckgo.com##.result__snippet:style( color: #696969 !important; display: -webkit-box !important; -webkit-box-orient: vertical !important; -webkit-line-clamp: 2 !important; overflow: hidden !important; )
+!#endif
+
+ee3.me,rips.cc##.vds-captions:style( --media-user-font-size: 0.75; --media-user-text-bg: transparent; --media-user-text-color: #ff0; --media-user-text-shadow: #222 1px 1px, #222 2px 2px, #222 3px 3px; )
+ee3.me,rips.cc##.vds-captions [data-part="cue"]:style( font-weight: 700 !important; )
+
+fandom.com##body.mediawiki:style( --theme-body-background-image: none !important; --left-panel-spacing: 0 !important; )
+fotmob.com##[class$="-NewsListCSS"]:style( flex-direction: row !important; flex-wrap: wrap !important; )
+fotmob.com##[class$="-NewsListCardRowLink-newsListCardRowCSS"]:style( width: calc(50% - 12px) !important; )
+
+greasyfork.org##.code-container:style( max-height: none !important; )
+
+jsbeautify.org##.CodeMirror:style( height: auto !important; )
+
+kbbi.kemdikbud.go.id##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
+kbbi.kemdikbud.go.id##.jumbotron:style( background-color: #1e1e1e !important; )
+kbbi.kemdikbud.go.id##.form-control:style( background-color: #2d2d2d !important; color: #c3c3c3 !important; )
+kbbi.kemdikbud.go.id##hr:style( border-top-color: #3c3c3c !important; )
+kbbi.kemdikbud.go.id##.form-control, .glyphicon-search:style( border-color: #5a5a5a !important; )
+kbbi.kemdikbud.go.id##.glyphicon-search:style( transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important; )
+kbbi.kemdikbud.go.id##.form-control:focus + .input-group-btn > .glyphicon-search:style( border-color: #66afe9 !important; outline: 0 !important; box-shadow: inset 0 1px 1px rgb(0 0 0 / 0.075), 0 0 8px rgb(102 175 233 / 0.6) !important; )
+kbbi.kemdikbud.go.id##.navbar:style( border-color: #2d2d2d !important; )
+kbbi.kemdikbud.go.id##.entrisButton:style( display: inline-flex !important; align-items: center !important; opacity: 1 !important; )
+kbbi.kemdikbud.go.id##.entrisButton:hover:style( color: #efefef !important; )
+kbbi.kemdikbud.go.id##.entrisButton > a:style( font-size: 0.875em !important; margin-left: 5px !important; )
+kbbi.kemdikbud.go.id##footer a[rel="noopener"] > img:style( filter: invert(1) hue-rotate(180deg) contrast(0.8) !important; )
+kotoplay.to##.at-panel-tools:style( flex-wrap: nowrap !important; )
+kotoplay.to##.at-panel-tools .at-input:style( flex-basis: auto !important; min-width: 0 !important; )
+kotoplay.to##.at-panel-tools .at-segment.sm:style( flex: 1 0 auto !important; )
+kotoplay.to##body[data-page="watch"].at-theater .at-player-wrap:style( --h: calc(100vh - var(--at-masthead-h)); height: var(--h) !important; max-height: var(--h) !important; )
+kotoplay.to##body[data-page="watch"].at-theater #at-pl:style( height: calc(100vh - var(--at-masthead-h)) !important; )
+kotoplay.to##.at-desc:style( cursor: auto !important; )
+kotoplay.to##.at-desc:hover:style( background-color: var(--at-chip) !important; )
+kotoplay.to##.at-desc:not(.open) .d-body:style( -webkit-box-orient: initial !important; -webkit-line-clamp: none !important; overflow: auto !important; )
+kotoplay.to##.at-desc:not(.open) :is(.d-body, .d-expanded):style( display: block !important; )
+
+lookmovie2.to##.search-controls:style( margin-top: 1rem !important; )
+lookmovie2.to##.topbar-filter:style( margin-top: 23px !important; )
+lookmovie2.to##.movie-single-ct:style( margin-top: 26px !important; )
+lookmovie2.to##.movie-item-style-2:matches-media((min-width: 992px)):style( margin-top: 1rem !important; margin-bottom: 1rem !important; )
+lookmovie2.to##.movie-item-style-2 .year:style( font-family: Dosis, sans-serif !important; font-size: 17px !important; font-weight: 600 !important; border-radius: 0 !important; bottom: 0 !important; left: 0 !important; )
+lookmovie2.to###episodes-switcher:style( text-align: center !important; margin-top: -26px !important; )
+lookmovie2.to##.episodes-controls-wrapper:style( margin-bottom: 0 !important; )
+lookmovie2.to##.episodes-switcher, .seasons-switcher, ul:is(.episodes, .seasons):style( border-radius: 0 !important; padding: 0 !important; )
+lookmovie2.to##:is(.episodes-switcher, .seasons-switcher) :is(a, span):style( font-size: 14px !important; )
+lookmovie2.to##.movie-single-ct:style( margin-top: 26px !important; )
+lookmovie2.to##.pagination li > :is(a, span):style( margin: 0 !important; padding: 0 1em !important; width: auto !important; )
+lookmovie2.to##.pagination li + li:style( margin-left: 5px !important; )
+lookmovie2.to##.pagination li.disabled:style( opacity: 0.5 !important; )
+lookmovie2.to##footer:style( background: none !important; )
+
+member.mahirdigital.id##.truncate:style( white-space: normal !important; )
+
+islam.nu.or.id###detail-content .arabic span:style( font-size: 30px !important; )
+
+onepace.co,onepace.me,onepace.net##.hd:style( border-bottom: 0 !important; padding: 0 !important; position: relative !important; )
+onepace.co,onepace.me,onepace.net##.hd.a.b:style( top: 0 !important; )
+onepace.co,onepace.me,onepace.net##.bd.cont:style( padding-top: 0 !important; )
+onepace.co,onepace.me,onepace.net##.custom-logo:style( height: auto !important; width: 200px !important; )
+onepace.co,onepace.me,onepace.net##.seasons-tt:style( display: flex !important; align-items: center !important; )
+onepace.co,onepace.me,onepace.net##.seasons-tt figure:style( flex-basis: auto !important; margin-right: 0 !important; )
+onepace.co,onepace.me,onepace.net##.seasons-tt figure + div:style( margin: 0 auto !important; )
+onepace.co,onepace.me,onepace.net##.seasons-tt figure img:style( width: 100px !important; margin-bottom: 0 !important; )
+onepace.co,onepace.me,onepace.net##.seasons-tt.on + .seasons-lst:style( display: flex !important; flex-wrap: wrap !important; )
+onepace.co,onepace.me,onepace.net##.seasons-lst li:style( flex: 1 1 50% !important; )
+onepace.co,onepace.me,onepace.net##.seasons-lst li:nth-child(2n):style( padding-left: 1px !important; )
+onepace.co,onepace.me,onepace.net##.seasons-lst li > div > div:style( text-align: center !important; )
+onepace.co,onepace.me,onepace.net##.player:style( flex-direction: column !important; )
+onepace.co,onepace.me,onepace.net##.player :is(.options, .video-options):style( flex: 1 1 auto !important; width: 100% !important; )
+onepace.co,onepace.me,onepace.net##.player .options:style( background-color: transparent !important; max-width: none !important; order: 1 !important; )
+onepace.co,onepace.me,onepace.net##.player .video-options:style( order: 0 !important; )
+onepace.co,onepace.me,onepace.net##.player .options ul:style( background-color: var(--light-2) !important; display: flex !important; border-bottom: 0 !important; height: auto !important; margin-bottom: 0 !important; padding-bottom: 0 !important; )
+onepace.co,onepace.me,onepace.net##.player .options li:style( flex-grow: 1 !important; text-align: center !important; )
+onepace.co,onepace.me,onepace.net##.player .options a:style( display: flex !important; align-items: center !important; justify-content: center !important; )
+onepace.co,onepace.me,onepace.net##.player .options a:hover:style( background-color: var(--light-1) !important; )
+onepace.co,onepace.me,onepace.net##.player .options span:style( margin: 0 !important; padding: 0.25rem 0.5rem !important; )
+onepace.co,onepace.me,onepace.net##.btnarc .btn:style( display: inline-flex !important; justify-content: center !important; align-items: center !important; padding: 0.5rem !important; line-height: 1 !important; text-transform: uppercase !important; min-width: 0 !important; width: min-content !important; )
+onepace.co,onepace.me,onepace.net##.cont.cont:style( max-width: 80rem !important; )
+onepace.co,onepace.me,onepace.net##.custom-logo.custom-logo:style( height: auto !important; width: 200px !important; padding: 0.5rem 0 !important; )
+onepace.co,onepace.me,onepace.net##.player .video:style( min-height: 0 !important; )
+onepace.co,onepace.me,onepace.net##.video:style( aspect-ratio: 16/9 !important; max-height: none !important; )
+onepace.co,onepace.me,onepace.net##img[data-parallax="active"]:style( height: auto !important; transform: none !important; )
+onepace.co,onepace.me,onepace.net,gdmirrorbot.nl,ssn.techinmind.space###videoPlayer:style( border: 0 !important; )
+
+ruparupa.com##.scroll-bar-algolia:style( height: auto !important; )
+
+sanweisport.com##.ast-builder-grid-row:style( max-height: none !important; )
+subdl.com##body:style( pointer-events: auto !important; )
+subdl.com##footer.fixed:style( position: static !important; )
+subdl.com##footer.fixed > nav:style( padding: 0 35px !important; margin-top: 0 !important; )
+
+tokocrypto.com##.assets-pair:style( white-space: nowrap; !important; )
+tokocrypto.com##.tips:style( background-color: #000 !important; background-image: none !important; )
+tokocrypto.com###headerId header:style( top: 0 !important; )
+
+vimeo.com##:root:style( --player-h: calc(100vh - 64px); --player-w: calc(var(--player-h) * 16 / 9); )
+vimeo.com##.js-player_area-wrapper, .player_area:not(.is_mini):style( height: var(--player-h) !important; max-height: var(--player-h) !important; )
+vimeo.com##.player_area:not(.is_mini) .player_container:style( height: var(--player-h) !important; width: var(--player-w) !important; )
+
+hosted.weblate.org##.table-listing > tbody > tr > td.number:style( text-align: center !important; )
+hosted.weblate.org##.sticky-bottom:style( background-color: transparent !important; position: static !important; )
+hosted.weblate.org##.translatetext:style( width: 49% !important; )
+
+!#if !env_mobile
+news.ycombinator.com##body:style( background-color: #0f0f0f !important; color: #c3c3c3 !important; )
+news.ycombinator.com##a:link, .c00, .c00 a:link, .pagetop a:visited:style( color: #c3c3c3 !important; )
+news.ycombinator.com##a:focus, a:hover, .c00 a:hover:style( color: #f0f0f0 !important; )
+news.ycombinator.com###hnmain[bgcolor="#f6f6ef"]:style( background-color: transparent !important; )
+news.ycombinator.com##table[bgcolor="#f6f6ef"]:style( background-color: #1e1e1e !important; )
+news.ycombinator.com##td:is([bgcolor="#ff6600"], [bgcolor="#cc1010"]):style( background-color: #1e1e1e !important; )
+news.ycombinator.com##.comhead a:link, .subtext a:visited, .subtext, .subtext a:link, .subtext a:visited:style( color: #878787 !important; )
+news.ycombinator.com##.votelinks:style( visibility: hidden !important; )
+news.ycombinator.com##.votearrow:style( opacity: 0.25 !important; )
+news.ycombinator.com##tr.spacer:style( height: 1rem !important; )
+hn.algolia.com##body, html:style( background: #0f0f0f !important; color: #c3c3c3 !important; )
+hn.algolia.com##.SearchFilters:style( background-color: #1e1e1e !important; color: #c3c3c3 !important; border-bottom: 1px solid #3c3c3c !important; )
+hn.algolia.com##.Dropdown_label:style( border-color: #3c3c3c !important; color: #c3c3c3 !important; )
+hn.algolia.com##.Dropdown_list:style( background-color: #2d2d2d !important; border-color: #3c3c3c !important; color: #c3c3c3 !important; )
+hn.algolia.com##.Dropdown_list li:not(:last-child):style( border-color: #3c3c3c !important; )
+hn.algolia.com##.Dropdown_list li button:style( background-color: #2d2d2d !important; color: #c3c3c3 !important; )
+hn.algolia.com##.SearchResults:style( background: #1e1e1e !important; )
+hn.algolia.com##.Story:style( padding: 4px 16px !important; )
+hn.algolia.com##.Story:first-child:style( padding-top: 8px !important; )
+hn.algolia.com##.Story:last-child:style( padding-bottom: 8px !important; )
+hn.algolia.com##.Story_title a:style( color: #c3c3c3 !important; )
+hn.algolia.com##.Story_title a:not(.Story_link):hover:style( color: #fff !important; )
+hn.algolia.com##.Story_title .Story_link, .Story_meta, .Story_meta a, .Story_comment:style( color: #878787 !important; )
+!#endif
+
+youtube.com##ytd-watch-flexy[theater] #player-full-bleed-container.ytd-watch-flexy, ytd-watch-grid[theater] #player-full-bleed-container.ytd-watch-grid:style( height: calc(100vh - var(--ytd-toolbar-height)) !important; max-height: none !important; )
+youtube.com##ytd-watch-flexy[fullscreen] #player-full-bleed-container.ytd-watch-flexy, ytd-watch-grid[fullscreen] #player-full-bleed-container.ytd-watch-grid:style( min-height: 100vh !important; max-height: 100vh !important; )
+youtube.com##ytd-watch-flexy[full-bleed-player] #full-bleed-container.ytd-watch-flexy, ytd-watch-grid[full-bleed-player] #full-bleed-container.ytd-watch-grid:style( block-size: fit-content !important; max-height: fit-content !important; )
+!youtube-sponsorblock
+youtube.com,youtube-nocookie.com##.playerButtonImage:style( height: 45% !important; )
+youtube.com,youtube-nocookie.com###sbSkipIconControlBarImage:style( height: 50% !important; )
+
+!#if !env_mobile
+!!==> STYLE-SUBTITEL
+megaplay.buzz,nhplayer.com,vidtube.site,vidwish.live##.jwplayer:style( --fc: #ff0; --fs: 28px; --fw: bold; --lh: 1.15; --ts: #222 1px 1px, #222 2px 2px, #222 3px 3px; )
+megaplay.buzz,nhplayer.com,vidtube.site,vidwish.live##.jw-captions:style( font-size: inherit !important; )
+megaplay.buzz,nhplayer.com,vidtube.site,vidwish.live##.jw-text-track-cue:style( background-color: transparent !important; color: var(--fc) !important; font-weight: var(--fw) !important; font-size: var(--fs) !important; line-height: var(--lh) !important; text-shadow: var(--ts) !important; )
+
+!!==> SITES-INCLUDE
+!#include sites/animepahe.txt
+!#include sites/fdroid.txt
+!#include sites/hydrahd.txt
+!#include sites/thepiratebay.txt
+!#endif

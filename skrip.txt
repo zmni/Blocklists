@@ -1,0 +1,6 @@
+! Title: x Skrip x
+! Expires: 3 days
+
+animepahe.org,animepahe.ru,animepahe.si##+js(trusted-click-element.js, .click-to-load, , 500)
+fmhy.net##+js(trusted-set-attr.js, .vp-doc a, target, _blank)
+news.ycombinator.com##+js(trusted-set-attr.js, '.titleline > a, a[rel="nofollow"]', target, _blank)

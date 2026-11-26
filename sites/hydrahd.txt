@@ -1,0 +1,32 @@
+hydrahd.com,hydrahd.gd,hydrahd.ws##.browse.container:style( padding: 0 10px !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.site-title:hover:style( letter-spacing: unset !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.title:style( margin: 10px 0 20px !important; )
+
+hydrahd.com,hydrahd.gd,hydrahd.ws##.figured:style( padding: 0 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.figured > div[style*="margin-top:"]:style( margin-top: 0 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.figured a:style( aspect-ratio: 2/3 !important; height: auto !important; padding-top: 0 !important; )
+
+hydrahd.com,hydrahd.gd,hydrahd.ws##.swiper-wrapper-featured:style( display: flex !important; flex-wrap: wrap !important; margin: 0 -5px !important; max-height: none !important; transform: none !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.swiper-slide-featured:style( flex: 1 1 calc(100% / 6 - 10px) !important; max-width: calc(100% / 6 - 10px) !important; width: auto !important; margin: 0 5px !important; )
+
+hydrahd.com,hydrahd.gd,hydrahd.ws##:is(.figured, .swiper-slide-featured):hover .detz:style( background: none !important; color: #f1f1f1 !important; font-weight: bold !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movie, .videomp4:style( margin-top: 0 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movie > div:style( float: none !important; width: auto !important; )
+
+hydrahd.com,hydrahd.gd,hydrahd.ws###iframePlayer:matches-media((min-width: 1171px) and (max-width: 1500px)):style( height: 90vh !important; )
+
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movie-details-featured:style( margin: 0 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movies.smim:style( display: flex !important; flex-wrap: wrap !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movies.smim .movie:style( --w: calc(20% - 18px); flex-basis: var(--w) !important; max-width: var(--w) !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movies.smim :is(.movie, .movie .poster, .movie .poster img):style( height: auto !important; width: auto !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movies.smim .movie .poster img:style( max-width: 100% !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.movies.smim .movie .title:style( margin-bottom: 0 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.videomp4 .img-responsive:style( height: calc(100vh - 60px) !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws###iframePlayer:style( height: calc(100vh - 60px) !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.iframe-button:style( background-color: transparent !important; padding: 5px 8px !important; left: auto !important; right: 0 !important; transform: none !important; opacity: 0.25 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.iframe-button:hover:style( background-color: rgba(255 255 255 / 0.1) !important; opacity: 1 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.art-video-player .art-subtitle:style( color: #ff0 !important; font-size: 1.1rem !important; font-weight: 600 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.undervidbtns:style( text-align: center !important; )
+
+hydrahd.com,hydrahd.gd,hydrahd.ws##.browse:style( margin-top: 0 !important; )
+hydrahd.com,hydrahd.gd,hydrahd.ws##.browse-grid:style( grid-gap: 30px !important; margin-right: 0 !important; margin-left: 0 !important; )
